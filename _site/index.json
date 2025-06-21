@@ -872,7 +872,7 @@
   "docs/neo-bpsys-wpf使用文档/3._高级选项/3.2_修改前台画面.html": {
     "href": "docs/neo-bpsys-wpf使用文档/3._高级选项/3.2_修改前台画面.html",
     "title": "| neo-bpsys Docs",
-    "summary": "‍"
+    "summary": "点击【设计者模式】即可开始拖动编辑页面上的控件位置，然后再次点击【设计者模式】按钮保存，下次启动时会沿用上次的控件位置设置 在对应的窗口编辑区点击【重置】字样的按钮可以重置对应的画布的窗口布局 高手可以从设置前往前台配置文件目录编辑配置文件"
   },
   "docs/neo-bpsys-wpf使用文档/3._高级选项/3.3_从Json导入队伍信息.html": {
     "href": "docs/neo-bpsys-wpf使用文档/3._高级选项/3.3_从Json导入队伍信息.html",
@@ -882,7 +882,7 @@
   "docs/neo-bpsys-wpf使用文档/前言.html": {
     "href": "docs/neo-bpsys-wpf使用文档/前言.html",
     "title": "| neo-bpsys Docs",
-    "summary": "本软件基于GPL-3.0协议开源，完全免费。 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ ‍ 官网地址 (基于Cloudflare部署)：https://bpsys.plfjy.top/ 备用地址 (基于Github Pages部署): https://plfjy.github.io/neo-bpsys-website/ 项目地址：https://github.com/PLFJY/neo-bpsys-wpf/ 作者QQ：3424127335 QQ交流群号：175741665 ‍ 温馨提醒，在GitHub上提交issue或在群内反馈问题前请一定认真检查一下是软件的问题还是眼神或脑子的问题，否则我们的断档S1记录员将记录下您的黑历史并使其成为我们未来几个月甚至几年的笑料 。 ↓以下是一个唐诗issue的示例↓ 以下是合作开发者列表： Zack (本文档撰写者)"
+    "summary": "本软件基于GPL-3.0协议开源，完全免费。 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ ‍ 如果遇到前台控件错误或者消失请前往前台管理页面重置配置，这可能是由于上一个版本留下的默认配置导致的Bug 官网地址 (基于Cloudflare Pages部署)：https://bpsys.plfjy.top/ 备用地址 (基于Github Pages部署): https://plfjy.github.io/neo-bpsys-website/ 项目地址：https://github.com/PLFJY/neo-bpsys-wpf/ 作者QQ：3424127335 QQ交流群号：175741665 ‍ 温馨提醒，在GitHub上提交issue或在群内反馈问题前请一定认真检查一下是软件的问题还是眼神或脑子的问题，否则我们的断档S1记录员将记录下您的黑历史并使其成为我们未来几个月甚至几年的笑料 。 ↓以下是一个唐诗issue的示例↓ 以下是合作开发者列表： Zack (本文档撰写者)"
   },
   "docs/neo-bpsys-wpf使用文档/更新日志.html": {
     "href": "docs/neo-bpsys-wpf使用文档/更新日志.html",

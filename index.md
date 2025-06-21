@@ -31,7 +31,7 @@ dotnet publish ".\neo-bpsys-wpf\neo-bpsys-wpf.csproj" -c Release -o ".\build\neo
 
 同时，也可以使用脚本自动构建
 
-```cmd
+```powershell
 .\build.bat
 ```
 

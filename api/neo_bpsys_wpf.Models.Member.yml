@@ -178,7 +178,7 @@ items:
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 60
+    startLine: 58
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -207,7 +207,7 @@ items:
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsOnField
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 63
+    startLine: 61
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -236,7 +236,7 @@ items:
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 78
+    startLine: 76
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -268,7 +268,7 @@ items:
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsImageValid
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 83
+    startLine: 81
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
