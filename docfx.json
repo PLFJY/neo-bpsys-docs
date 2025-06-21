@@ -20,7 +20,7 @@
           "**/*.{md,yml}"
         ],
         "exclude": [
-          "site/**"
+          "dist/**"
         ]
       }
     ],
@@ -31,7 +31,7 @@
         ]
       }
     ],
-    "output": "site",
+    "output": "dist",
     "template": [
       "default",
       "modern"
