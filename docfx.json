@@ -40,9 +40,9 @@
       "_appName": "neo-bpsys-wpf",
       "_appTitle": "neo-bpsys Docs",
       "_appFaviconPath": "images/favicon.ico",
-      "_appLogoPath": "images/icon.png",
+      "_appLogoPath": "images/favicon.ico",
       "_enableSearch": true,
-      "pdf": true
+      "pdf": false
     }
   }
 }

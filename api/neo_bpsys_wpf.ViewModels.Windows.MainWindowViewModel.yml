@@ -669,33 +669,87 @@ items:
       type: System.Collections.Generic.List{Wpf.Ui.Controls.NavigationViewItem}
     content.vb: Public ReadOnly Property FooterMenuItems As List(Of NavigationViewItem)
   overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.FooterMenuItems*
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
-  id: ThemeSwitchCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
+  id: SaveGameInfoCommand
   parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
   langs:
   - csharp
   - vb
-  name: ThemeSwitchCommand
-  nameWithType: MainWindowViewModel.ThemeSwitchCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
+  name: SaveGameInfoCommand
+  nameWithType: MainWindowViewModel.SaveGameInfoCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
   type: Property
   source:
-    id: ThemeSwitchCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync.g.cs
+    id: SaveGameInfoCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync.g.cs
     startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IAsyncRelayCommand ThemeSwitchCommand { get; }
+    content: public IAsyncRelayCommand SaveGameInfoCommand { get; }
     parameters: []
     return:
       type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
-    content.vb: Public ReadOnly Property ThemeSwitchCommand As IAsyncRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand*
+    content.vb: Public ReadOnly Property SaveGameInfoCommand As IAsyncRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand*
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
+  id: TimerStartCommand
+  parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: TimerStartCommand
+  nameWithType: MainWindowViewModel.TimerStartCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
+  type: Property
+  source:
+    id: TimerStartCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand TimerStartCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property TimerStartCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand*
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
+  id: SwapCommand
+  parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: SwapCommand
+  nameWithType: MainWindowViewModel.SwapCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
+  type: Property
+  source:
+    id: SwapCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand SwapCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property SwapCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand*
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NewGameCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NewGameCommand
   id: NewGameCommand
@@ -750,6 +804,33 @@ items:
       type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
     content.vb: Public ReadOnly Property NavigateToNextStepCommand As IAsyncRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToNextStepCommand*
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
+  id: NavigateToPreviousStepCommand
+  parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: NavigateToPreviousStepCommand
+  nameWithType: MainWindowViewModel.NavigateToPreviousStepCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
+  type: Property
+  source:
+    id: NavigateToPreviousStepCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IAsyncRelayCommand NavigateToPreviousStepCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
+    content.vb: Public ReadOnly Property NavigateToPreviousStepCommand As IAsyncRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand*
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationCommand
   id: StartNavigationCommand
@@ -777,114 +858,6 @@ items:
       type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
     content.vb: Public ReadOnly Property StartNavigationCommand As IAsyncRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationCommand*
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
-  id: TimerStopCommand
-  parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
-  langs:
-  - csharp
-  - vb
-  name: TimerStopCommand
-  nameWithType: MainWindowViewModel.TimerStopCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
-  type: Property
-  source:
-    id: TimerStopCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand TimerStopCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property TimerStopCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand*
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
-  id: SaveGameInfoCommand
-  parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
-  langs:
-  - csharp
-  - vb
-  name: SaveGameInfoCommand
-  nameWithType: MainWindowViewModel.SaveGameInfoCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
-  type: Property
-  source:
-    id: SaveGameInfoCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IAsyncRelayCommand SaveGameInfoCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
-    content.vb: Public ReadOnly Property SaveGameInfoCommand As IAsyncRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand*
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
-  id: SwapCommand
-  parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
-  langs:
-  - csharp
-  - vb
-  name: SwapCommand
-  nameWithType: MainWindowViewModel.SwapCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
-  type: Property
-  source:
-    id: SwapCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand SwapCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property SwapCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand*
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
-  id: TimerStartCommand
-  parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
-  langs:
-  - csharp
-  - vb
-  name: TimerStartCommand
-  nameWithType: MainWindowViewModel.TimerStartCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
-  type: Property
-  source:
-    id: TimerStartCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand TimerStartCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property TimerStartCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand*
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ApplicationTheme
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ApplicationTheme
   id: ApplicationTheme
@@ -1015,33 +988,60 @@ items:
       type: System.Collections.Generic.Dictionary{neo_bpsys_wpf.Enums.GameProgress,System.String}
     content.vb: Public Property GameList As Dictionary(Of GameProgress, String)
   overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.GameList*
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
-  id: NavigateToPreviousStepCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
+  id: TimerStopCommand
   parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
   langs:
   - csharp
   - vb
-  name: NavigateToPreviousStepCommand
-  nameWithType: MainWindowViewModel.NavigateToPreviousStepCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
+  name: TimerStopCommand
+  nameWithType: MainWindowViewModel.TimerStopCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
   type: Property
   source:
-    id: NavigateToPreviousStepCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync.g.cs
+    id: TimerStopCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop.g.cs
     startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IAsyncRelayCommand NavigateToPreviousStepCommand { get; }
+    content: public IRelayCommand TimerStopCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property TimerStopCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand*
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
+  id: ThemeSwitchCommand
+  parent: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: ThemeSwitchCommand
+  nameWithType: MainWindowViewModel.ThemeSwitchCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
+  type: Property
+  source:
+    id: ThemeSwitchCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IAsyncRelayCommand ThemeSwitchCommand { get; }
     parameters: []
     return:
       type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
-    content.vb: Public ReadOnly Property NavigateToPreviousStepCommand As IAsyncRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand*
+    content.vb: Public ReadOnly Property ThemeSwitchCommand As IAsyncRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand*
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StopNavigationCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StopNavigationCommand
   id: StopNavigationCommand
@@ -5433,27 +5433,27 @@ references:
   name: IAsyncRelayCommand
   nameWithType: IAsyncRelayCommand
   fullName: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync
-  name: ThemeSwitchAsync()
-  nameWithType: MainWindowViewModel.ThemeSwitchAsync()
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync()
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync
+  name: SaveGameInfoAsync()
+  nameWithType: MainWindowViewModel.SaveGameInfoAsync()
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync()
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync
-    name: ThemeSwitchAsync
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync
+    name: SaveGameInfoAsync
   - name: (
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync
-    name: ThemeSwitchAsync
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync
+    name: SaveGameInfoAsync
   - name: (
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_ThemeSwitchCommand
-  name: ThemeSwitchCommand
-  nameWithType: MainWindowViewModel.ThemeSwitchCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SaveGameInfoCommand
+  name: SaveGameInfoCommand
+  nameWithType: MainWindowViewModel.SaveGameInfoCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
 - uid: CommunityToolkit.Mvvm.Input
   commentId: N:CommunityToolkit.Mvvm.Input
   isExternal: true
@@ -5491,6 +5491,56 @@ references:
     name: Input
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
+  parent: CommunityToolkit.Mvvm.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand
+  name: IRelayCommand
+  nameWithType: IRelayCommand
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart
+  name: TimerStart()
+  nameWithType: MainWindowViewModel.TimerStart()
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart
+    name: TimerStart
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart
+    name: TimerStart
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_TimerStartCommand
+  name: TimerStartCommand
+  nameWithType: MainWindowViewModel.TimerStartCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap
+  name: Swap()
+  nameWithType: MainWindowViewModel.Swap()
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap
+    name: Swap
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap
+    name: Swap
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SwapCommand
+  name: SwapCommand
+  nameWithType: MainWindowViewModel.SwapCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NewGameAsync
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NewGameAsync
   name: NewGameAsync()
@@ -5533,6 +5583,27 @@ references:
   name: NavigateToNextStepCommand
   nameWithType: MainWindowViewModel.NavigateToNextStepCommand
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToNextStepCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync
+  name: NavigateToPreviousStepAsync()
+  nameWithType: MainWindowViewModel.NavigateToPreviousStepAsync()
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync
+    name: NavigateToPreviousStepAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync
+    name: NavigateToPreviousStepAsync
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_NavigateToPreviousStepCommand
+  name: NavigateToPreviousStepCommand
+  nameWithType: MainWindowViewModel.NavigateToPreviousStepCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationAsync
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationAsync
   name: StartNavigationAsync()
@@ -5554,98 +5625,6 @@ references:
   name: StartNavigationCommand
   nameWithType: MainWindowViewModel.StartNavigationCommand
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationCommand
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
-  parent: CommunityToolkit.Mvvm.Input
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand
-  name: IRelayCommand
-  nameWithType: IRelayCommand
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop
-  name: TimerStop()
-  nameWithType: MainWindowViewModel.TimerStop()
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop
-    name: TimerStop
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop
-    name: TimerStop
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_TimerStopCommand
-  name: TimerStopCommand
-  nameWithType: MainWindowViewModel.TimerStopCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync
-  name: SaveGameInfoAsync()
-  nameWithType: MainWindowViewModel.SaveGameInfoAsync()
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync
-    name: SaveGameInfoAsync
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync
-    name: SaveGameInfoAsync
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SaveGameInfoCommand
-  name: SaveGameInfoCommand
-  nameWithType: MainWindowViewModel.SaveGameInfoCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap
-  name: Swap()
-  nameWithType: MainWindowViewModel.Swap()
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap
-    name: Swap
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap
-    name: Swap
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SwapCommand
-  name: SwapCommand
-  nameWithType: MainWindowViewModel.SwapCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart
-  name: TimerStart()
-  nameWithType: MainWindowViewModel.TimerStart()
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart
-    name: TimerStart
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart
-    name: TimerStart
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_TimerStartCommand
-  name: TimerStartCommand
-  nameWithType: MainWindowViewModel.TimerStartCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStartCommand
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ApplicationTheme*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ApplicationTheme
   href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_ApplicationTheme
@@ -5793,27 +5772,48 @@ references:
   - name: " "
   - name: TValue
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync
-  name: NavigateToPreviousStepAsync()
-  nameWithType: MainWindowViewModel.NavigateToPreviousStepAsync()
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync()
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop
+  name: TimerStop()
+  nameWithType: MainWindowViewModel.TimerStop()
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop()
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync
-    name: NavigateToPreviousStepAsync
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop
+    name: TimerStop
   - name: (
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync
-    name: NavigateToPreviousStepAsync
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop
+    name: TimerStop
   - name: (
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_NavigateToPreviousStepCommand
-  name: NavigateToPreviousStepCommand
-  nameWithType: MainWindowViewModel.NavigateToPreviousStepCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_TimerStopCommand
+  name: TimerStopCommand
+  nameWithType: MainWindowViewModel.TimerStopCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStopCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync
+  name: ThemeSwitchAsync()
+  nameWithType: MainWindowViewModel.ThemeSwitchAsync()
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync
+    name: ThemeSwitchAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync
+    name: ThemeSwitchAsync
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_ThemeSwitchCommand
+  name: ThemeSwitchCommand
+  nameWithType: MainWindowViewModel.ThemeSwitchCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchCommand
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StopNavigation
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StopNavigation
   name: StopNavigation()
