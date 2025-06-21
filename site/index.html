@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>neo-bpsys-wpf | neo-bpsys Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="neo-bpsys-wpf | neo-bpsys Docs ">
+      
+      
+      <link rel="icon" href="images/favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-docs/blob/master/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/icon.png" alt="neo-bpsys-wpf">
+            neo-bpsys-wpf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="neo-bpsys-wpf">neo-bpsys-wpf</h1>
+
+<p>powered by <img src="images/logo_net.jpg" width="30px" height="25px"> 9.0.4 &amp; <img src="images/wpfui.png" width="30px" height="25px"> 4.0.3</p>
+<p><a href="https://bpsys.plfjy.top/">项目官网</a> | <a href="https://plfjy.github.io/neo-bpsys-website/">备用官网</a> | <a href="https://github.com/PLFJY/neo-bpsys-wpf">项目仓库</a> | <a href="https://docs.bpsys.plfjy.top">开发文档</a> | <a href="https://qm.qq.com/q/uqoK5tMtJQ">QQ交流群</a></p>
+<h2 id="软件简介">软件简介</h2>
+<p>neo-bpsys-wpf是一个基于.NET WPF开发的第五人格直播BP软件，其前身为<a href="https://github.com/PLFJY/bp-sys-wpf">bp-sys-wpf</a>与<a href="https://github.com/PLFJY/idv-bp-asg-e">idv-bp-asg-e</a>(均已不再维护）。它由<a href="https://plfjy.top/">零风PLFJY</a>制作并于2025年6月14日发布v1.0.0.0正式版。其包含地图BP、角色BP与赛后数据显示等在第五人格赛事中能用到的功能。</p>
+<p>本项目的前身 <a href="https://github.com/plfjy/bp-sys-wpf">bp-sys-wpf</a> 曾帮助了40余个民间赛事，希望它能够在未来帮助到你。</p>
+<h2 id="构建">构建</h2>
+<p>Release有提前编译好的安装包可以直接下载并安装</p>
+<p>手动构建前需要安装好<a href="https://dotnet.microsoft.com/zh-cn/download/dotnet/9.0">.NET 9 SDK</a>。</p>
+<pre><code class="lang-cmd">git clone https://github.com/PLFJY/neo-bpsys-wpf.git
+cd neo-bpsys-wpf
+mkdir build
+dotnet publish &quot;.\neo-bpsys-wpf\neo-bpsys-wpf.csproj&quot; -c Release -o &quot;.\build\neo-bpsys-wpf&quot;
+:: Pack installer
+&quot;.\InstallerGenerate\Inno Setup 6\ISCC.exe&quot; &quot;.\InstallerGenerate\build_Installer.iss&quot;
+</code></pre>
+<p>备注：此处的Inno Setup是从inno官网下载的官方版本并在文件内附加了中文语言包，后续可能被会分离到另一个仓库内</p>
+<p>同时，也可以使用脚本自动构建</p>
+<pre><code class="lang-powershell">.\build.bat
+</code></pre>
+<h2 id="使用教程">使用教程</h2>
+<p>请前往 <a href="https://www.yuque.com/renjinotbot/dywp9i">使用文档</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/PLFJY/neo-bpsys-docs/blob/master/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

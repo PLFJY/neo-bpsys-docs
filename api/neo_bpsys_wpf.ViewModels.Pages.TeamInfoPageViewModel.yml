@@ -20,7 +20,7 @@ items:
   type: Class
   source:
     id: TeamInfoPageViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.ConfirmTeamName.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
