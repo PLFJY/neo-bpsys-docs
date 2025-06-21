@@ -30,7 +30,7 @@ items:
   type: Class
   source:
     id: SettingPageViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -299,33 +299,6 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property HopToConfigDirCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-  id: CancelDownloadCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: CancelDownloadCommand
-  nameWithType: SettingPageViewModel.CancelDownloadCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-  type: Property
-  source:
-    id: CancelDownloadCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand CancelDownloadCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property CancelDownloadCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
   id: UpdateCheckCommand
@@ -509,6 +482,33 @@ items:
       type: System.String
     content.vb: Public Property MbPerSecondSpeed As String
   overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed*
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
+  id: CancelDownloadCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: CancelDownloadCommand
+  nameWithType: SettingPageViewModel.CancelDownloadCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
+  type: Property
+  source:
+    id: CancelDownloadCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand CancelDownloadCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property CancelDownloadCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*
 references:
 - uid: neo_bpsys_wpf.ViewModels.Pages
   commentId: N:neo_bpsys_wpf.ViewModels.Pages
@@ -2822,27 +2822,6 @@ references:
   name: HopToConfigDirCommand
   nameWithType: SettingPageViewModel.HopToConfigDirCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
-  name: CancelDownload()
-  nameWithType: SettingPageViewModel.CancelDownload()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
-    name: CancelDownload
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
-    name: CancelDownload
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CancelDownloadCommand
-  name: CancelDownloadCommand
-  nameWithType: SettingPageViewModel.CancelDownloadCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
 - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
   commentId: T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
   parent: CommunityToolkit.Mvvm.Input
@@ -2930,3 +2909,24 @@ references:
   name: MbPerSecondSpeed
   nameWithType: SettingPageViewModel.MbPerSecondSpeed
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
+  name: CancelDownload()
+  nameWithType: SettingPageViewModel.CancelDownload()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
+    name: CancelDownload
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
+    name: CancelDownload
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CancelDownloadCommand
+  name: CancelDownloadCommand
+  nameWithType: SettingPageViewModel.CancelDownloadCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand

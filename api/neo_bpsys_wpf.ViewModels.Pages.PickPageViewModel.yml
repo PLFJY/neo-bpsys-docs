@@ -26,7 +26,7 @@ items:
   type: Class
   source:
     id: PickPageViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel+SurPickViewModel.SwapCharacterInPlayers.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
