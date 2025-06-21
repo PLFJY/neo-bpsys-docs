@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Abstractions.Services.IFilePickerService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IFilePickerService
+  id: IFilePickerService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  children:
+  - neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickImage
+  - neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickJsonFile
+  langs:
+  - csharp
+  - vb
+  name: IFilePickerService
+  nameWithType: IFilePickerService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFilePickerService
+  type: Interface
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFilePickerService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IFilePickerService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFilePickerService.cs
+    startLine: 5
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 文件选择服务接口
+  example: []
+  syntax:
+    content: public interface IFilePickerService
+    content.vb: Public Interface IFilePickerService
+- uid: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickImage
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickImage
+  id: PickImage
+  parent: neo_bpsys_wpf.Abstractions.Services.IFilePickerService
+  langs:
+  - csharp
+  - vb
+  name: PickImage()
+  nameWithType: IFilePickerService.PickImage()
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickImage()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFilePickerService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickImage
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFilePickerService.cs
+    startLine: 11
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 选择图片
+  example: []
+  syntax:
+    content: string? PickImage()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function PickImage() As String
+  overload: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickImage*
+- uid: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickJsonFile
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickJsonFile
+  id: PickJsonFile
+  parent: neo_bpsys_wpf.Abstractions.Services.IFilePickerService
+  langs:
+  - csharp
+  - vb
+  name: PickJsonFile()
+  nameWithType: IFilePickerService.PickJsonFile()
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickJsonFile()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFilePickerService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickJsonFile
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFilePickerService.cs
+    startLine: 16
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 选择Json文件
+  example: []
+  syntax:
+    content: string? PickJsonFile()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function PickJsonFile() As String
+  overload: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickJsonFile*
+references:
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickImage*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickImage
+  href: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.html#neo_bpsys_wpf_Abstractions_Services_IFilePickerService_PickImage
+  name: PickImage
+  nameWithType: IFilePickerService.PickImage
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickImage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickJsonFile*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickJsonFile
+  href: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.html#neo_bpsys_wpf_Abstractions_Services_IFilePickerService_PickJsonFile
+  name: PickJsonFile
+  nameWithType: IFilePickerService.PickJsonFile
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFilePickerService.PickJsonFile

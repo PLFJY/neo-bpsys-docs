@@ -1,0 +1,920 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Services.MessageBoxService
+  commentId: T:neo_bpsys_wpf.Services.MessageBoxService
+  id: MessageBoxService
+  parent: neo_bpsys_wpf.Services
+  children:
+  - neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync(System.String,System.String,System.String,System.String)
+  - neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+  - neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync(System.String,System.String,System.String)
+  - neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync(System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: MessageBoxService
+  nameWithType: MessageBoxService
+  fullName: neo_bpsys_wpf.Services.MessageBoxService
+  type: Class
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/MessageBoxService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: MessageBoxService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
+    startLine: 8
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 信息框服务, 实现了 <xref href="neo_bpsys_wpf.Abstractions.Services.IMessageBoxService" data-throw-if-not-resolved="false"></xref> 接口，负责展示信息框
+  example: []
+  syntax:
+    content: 'public class MessageBoxService : IMessageBoxService'
+    content.vb: Public Class MessageBoxService Implements IMessageBoxService
+  inheritance:
+  - System.Object
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+  commentId: M:neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+  id: ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+  parent: neo_bpsys_wpf.Services.MessageBoxService
+  langs:
+  - csharp
+  - vb
+  name: ShowDeleteConfirmAsync(string, string, string, string)
+  nameWithType: MessageBoxService.ShowDeleteConfirmAsync(string, string, string, string)
+  fullName: neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync(string, string, string, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/MessageBoxService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowDeleteConfirmAsync
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
+    startLine: 18
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 显示删除确认对话框
+  example: []
+  syntax:
+    content: public Task<bool> ShowDeleteConfirmAsync(string title, string message, string primaryButtonText = "确认", string secondaryButtonText = "取消")
+    parameters:
+    - id: title
+      type: System.String
+      description: ''
+    - id: message
+      type: System.String
+      description: ''
+    - id: primaryButtonText
+      type: System.String
+      description: ''
+    - id: secondaryButtonText
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Function ShowDeleteConfirmAsync(title As String, message As String, primaryButtonText As String = "确认", secondaryButtonText As String = "取消") As Task(Of Boolean)
+  overload: neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+  nameWithType.vb: MessageBoxService.ShowDeleteConfirmAsync(String, String, String, String)
+  fullName.vb: neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync(String, String, String, String)
+  name.vb: ShowDeleteConfirmAsync(String, String, String, String)
+- uid: neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync(System.String,System.String,System.String)
+  commentId: M:neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync(System.String,System.String,System.String)
+  id: ShowInfoAsync(System.String,System.String,System.String)
+  parent: neo_bpsys_wpf.Services.MessageBoxService
+  langs:
+  - csharp
+  - vb
+  name: ShowInfoAsync(string, string, string)
+  nameWithType: MessageBoxService.ShowInfoAsync(string, string, string)
+  fullName: neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync(string, string, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/MessageBoxService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowInfoAsync
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
+    startLine: 41
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 显示信息对话框
+  example: []
+  syntax:
+    content: public Task ShowInfoAsync(string message, string title = "提示", string closeButtonText = "关闭")
+    parameters:
+    - id: message
+      type: System.String
+      description: ''
+    - id: title
+      type: System.String
+      description: ''
+    - id: closeButtonText
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function ShowInfoAsync(message As String, title As String = "提示", closeButtonText As String = "关闭") As Task
+  overload: neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowInfoAsync(System.String,System.String,System.String)
+  nameWithType.vb: MessageBoxService.ShowInfoAsync(String, String, String)
+  fullName.vb: neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync(String, String, String)
+  name.vb: ShowInfoAsync(String, String, String)
+- uid: neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync(System.String,System.String,System.String)
+  commentId: M:neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync(System.String,System.String,System.String)
+  id: ShowErrorAsync(System.String,System.String,System.String)
+  parent: neo_bpsys_wpf.Services.MessageBoxService
+  langs:
+  - csharp
+  - vb
+  name: ShowErrorAsync(string, string, string)
+  nameWithType: MessageBoxService.ShowErrorAsync(string, string, string)
+  fullName: neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync(string, string, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/MessageBoxService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowErrorAsync
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
+    startLine: 61
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 显示错误对话框
+  example: []
+  syntax:
+    content: public Task ShowErrorAsync(string message, string title = "错误", string closeButtonText = "关闭")
+    parameters:
+    - id: message
+      type: System.String
+      description: ''
+    - id: title
+      type: System.String
+      description: ''
+    - id: closeButtonText
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function ShowErrorAsync(message As String, title As String = "错误", closeButtonText As String = "关闭") As Task
+  overload: neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowErrorAsync(System.String,System.String,System.String)
+  nameWithType.vb: MessageBoxService.ShowErrorAsync(String, String, String)
+  fullName.vb: neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync(String, String, String)
+  name.vb: ShowErrorAsync(String, String, String)
+- uid: neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync(System.String,System.String,System.String,System.String)
+  commentId: M:neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync(System.String,System.String,System.String,System.String)
+  id: ShowConfirmAsync(System.String,System.String,System.String,System.String)
+  parent: neo_bpsys_wpf.Services.MessageBoxService
+  langs:
+  - csharp
+  - vb
+  name: ShowConfirmAsync(string, string, string, string)
+  nameWithType: MessageBoxService.ShowConfirmAsync(string, string, string, string)
+  fullName: neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync(string, string, string, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/MessageBoxService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowConfirmAsync
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
+    startLine: 82
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 显示确认对话框
+  example: []
+  syntax:
+    content: public Task<bool> ShowConfirmAsync(string title, string message, string primaryButtonText = "确认", string secondaryButtonText = "取消")
+    parameters:
+    - id: title
+      type: System.String
+      description: ''
+    - id: message
+      type: System.String
+      description: ''
+    - id: primaryButtonText
+      type: System.String
+      description: ''
+    - id: secondaryButtonText
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Public Function ShowConfirmAsync(title As String, message As String, primaryButtonText As String = "确认", secondaryButtonText As String = "取消") As Task(Of Boolean)
+  overload: neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowConfirmAsync(System.String,System.String,System.String,System.String)
+  nameWithType.vb: MessageBoxService.ShowConfirmAsync(String, String, String, String)
+  fullName.vb: neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync(String, String, String, String)
+  name.vb: ShowConfirmAsync(String, String, String, String)
+references:
+- uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html
+  name: IMessageBoxService
+  nameWithType: IMessageBoxService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+- uid: neo_bpsys_wpf.Services
+  commentId: N:neo_bpsys_wpf.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Services
+  nameWithType: neo_bpsys_wpf.Services
+  fullName: neo_bpsys_wpf.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services
+    name: Services
+    href: neo_bpsys_wpf.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services
+    name: Services
+    href: neo_bpsys_wpf.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync*
+  commentId: Overload:neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync
+  href: neo_bpsys_wpf.Services.MessageBoxService.html#neo_bpsys_wpf_Services_MessageBoxService_ShowDeleteConfirmAsync_System_String_System_String_System_String_System_String_
+  name: ShowDeleteConfirmAsync
+  nameWithType: MessageBoxService.ShowDeleteConfirmAsync
+  fullName: neo_bpsys_wpf.Services.MessageBoxService.ShowDeleteConfirmAsync
+- uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowDeleteConfirmAsync_System_String_System_String_System_String_System_String_
+  name: ShowDeleteConfirmAsync(string, string, string, string)
+  nameWithType: IMessageBoxService.ShowDeleteConfirmAsync(string, string, string, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowDeleteConfirmAsync(string, string, string, string)
+  nameWithType.vb: IMessageBoxService.ShowDeleteConfirmAsync(String, String, String, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowDeleteConfirmAsync(String, String, String, String)
+  name.vb: ShowDeleteConfirmAsync(String, String, String, String)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+    name: ShowDeleteConfirmAsync
+    href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowDeleteConfirmAsync_System_String_System_String_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowDeleteConfirmAsync(System.String,System.String,System.String,System.String)
+    name: ShowDeleteConfirmAsync
+    href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowDeleteConfirmAsync_System_String_System_String_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync*
+  commentId: Overload:neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync
+  href: neo_bpsys_wpf.Services.MessageBoxService.html#neo_bpsys_wpf_Services_MessageBoxService_ShowInfoAsync_System_String_System_String_System_String_
+  name: ShowInfoAsync
+  nameWithType: MessageBoxService.ShowInfoAsync
+  fullName: neo_bpsys_wpf.Services.MessageBoxService.ShowInfoAsync
+- uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowInfoAsync(System.String,System.String,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowInfoAsync(System.String,System.String,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowInfoAsync_System_String_System_String_System_String_
+  name: ShowInfoAsync(string, string, string)
+  nameWithType: IMessageBoxService.ShowInfoAsync(string, string, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowInfoAsync(string, string, string)
+  nameWithType.vb: IMessageBoxService.ShowInfoAsync(String, String, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowInfoAsync(String, String, String)
+  name.vb: ShowInfoAsync(String, String, String)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowInfoAsync(System.String,System.String,System.String)
+    name: ShowInfoAsync
+    href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowInfoAsync_System_String_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowInfoAsync(System.String,System.String,System.String)
+    name: ShowInfoAsync
+    href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowInfoAsync_System_String_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync*
+  commentId: Overload:neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync
+  href: neo_bpsys_wpf.Services.MessageBoxService.html#neo_bpsys_wpf_Services_MessageBoxService_ShowErrorAsync_System_String_System_String_System_String_
+  name: ShowErrorAsync
+  nameWithType: MessageBoxService.ShowErrorAsync
+  fullName: neo_bpsys_wpf.Services.MessageBoxService.ShowErrorAsync
+- uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowErrorAsync(System.String,System.String,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowErrorAsync(System.String,System.String,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowErrorAsync_System_String_System_String_System_String_
+  name: ShowErrorAsync(string, string, string)
+  nameWithType: IMessageBoxService.ShowErrorAsync(string, string, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowErrorAsync(string, string, string)
+  nameWithType.vb: IMessageBoxService.ShowErrorAsync(String, String, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowErrorAsync(String, String, String)
+  name.vb: ShowErrorAsync(String, String, String)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowErrorAsync(System.String,System.String,System.String)
+    name: ShowErrorAsync
+    href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowErrorAsync_System_String_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowErrorAsync(System.String,System.String,System.String)
+    name: ShowErrorAsync
+    href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowErrorAsync_System_String_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync*
+  commentId: Overload:neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync
+  href: neo_bpsys_wpf.Services.MessageBoxService.html#neo_bpsys_wpf_Services_MessageBoxService_ShowConfirmAsync_System_String_System_String_System_String_System_String_
+  name: ShowConfirmAsync
+  nameWithType: MessageBoxService.ShowConfirmAsync
+  fullName: neo_bpsys_wpf.Services.MessageBoxService.ShowConfirmAsync
+- uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowConfirmAsync(System.String,System.String,System.String,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowConfirmAsync(System.String,System.String,System.String,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowConfirmAsync_System_String_System_String_System_String_System_String_
+  name: ShowConfirmAsync(string, string, string, string)
+  nameWithType: IMessageBoxService.ShowConfirmAsync(string, string, string, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowConfirmAsync(string, string, string, string)
+  nameWithType.vb: IMessageBoxService.ShowConfirmAsync(String, String, String, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowConfirmAsync(String, String, String, String)
+  name.vb: ShowConfirmAsync(String, String, String, String)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowConfirmAsync(System.String,System.String,System.String,System.String)
+    name: ShowConfirmAsync
+    href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowConfirmAsync_System_String_System_String_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.ShowConfirmAsync(System.String,System.String,System.String,System.String)
+    name: ShowConfirmAsync
+    href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html#neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_ShowConfirmAsync_System_String_System_String_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

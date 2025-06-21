@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Messages
+  commentId: N:neo_bpsys_wpf.Messages
+  id: neo_bpsys_wpf.Messages
+  children:
+  - neo_bpsys_wpf.Messages.BanCountChangedMessage
+  - neo_bpsys_wpf.Messages.CharacterSwappedMessage
+  - neo_bpsys_wpf.Messages.DesignModeChangedMessage
+  - neo_bpsys_wpf.Messages.HighlightMessage
+  - neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  - neo_bpsys_wpf.Messages.NewGameMessage
+  - neo_bpsys_wpf.Messages.PlayerSwappedMessage
+  - neo_bpsys_wpf.Messages.SwapMessage
+  langs:
+  - csharp
+  - vb
+  name: neo_bpsys_wpf.Messages
+  nameWithType: neo_bpsys_wpf.Messages
+  fullName: neo_bpsys_wpf.Messages
+  type: Namespace
+  assemblies:
+  - neo-bpsys-wpf
+references:
+- uid: neo_bpsys_wpf.Messages.BanCountChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.BanCountChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.BanCountChangedMessage.html
+  name: BanCountChangedMessage
+  nameWithType: BanCountChangedMessage
+  fullName: neo_bpsys_wpf.Messages.BanCountChangedMessage
+- uid: neo_bpsys_wpf.Messages.CharacterSwappedMessage
+  commentId: T:neo_bpsys_wpf.Messages.CharacterSwappedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.CharacterSwappedMessage.html
+  name: CharacterSwappedMessage
+  nameWithType: CharacterSwappedMessage
+  fullName: neo_bpsys_wpf.Messages.CharacterSwappedMessage
+- uid: neo_bpsys_wpf.Messages.DesignModeChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.DesignModeChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.DesignModeChangedMessage.html
+  name: DesignModeChangedMessage
+  nameWithType: DesignModeChangedMessage
+  fullName: neo_bpsys_wpf.Messages.DesignModeChangedMessage
+- uid: neo_bpsys_wpf.Messages.HighlightMessage
+  commentId: T:neo_bpsys_wpf.Messages.HighlightMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.HighlightMessage.html
+  name: HighlightMessage
+  nameWithType: HighlightMessage
+  fullName: neo_bpsys_wpf.Messages.HighlightMessage
+- uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.MemberStateChangedMessage.html
+  name: MemberStateChangedMessage
+  nameWithType: MemberStateChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+- uid: neo_bpsys_wpf.Messages.NewGameMessage
+  commentId: T:neo_bpsys_wpf.Messages.NewGameMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.NewGameMessage.html
+  name: NewGameMessage
+  nameWithType: NewGameMessage
+  fullName: neo_bpsys_wpf.Messages.NewGameMessage
+- uid: neo_bpsys_wpf.Messages.PlayerSwappedMessage
+  commentId: T:neo_bpsys_wpf.Messages.PlayerSwappedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.PlayerSwappedMessage.html
+  name: PlayerSwappedMessage
+  nameWithType: PlayerSwappedMessage
+  fullName: neo_bpsys_wpf.Messages.PlayerSwappedMessage
+- uid: neo_bpsys_wpf.Messages.SwapMessage
+  commentId: T:neo_bpsys_wpf.Messages.SwapMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.SwapMessage.html
+  name: SwapMessage
+  nameWithType: SwapMessage
+  fullName: neo_bpsys_wpf.Messages.SwapMessage
+- uid: neo_bpsys_wpf.Messages
+  commentId: N:neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Messages
+  nameWithType: neo_bpsys_wpf.Messages
+  fullName: neo_bpsys_wpf.Messages
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Messages
+    name: Messages
+    href: neo_bpsys_wpf.Messages.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Messages
+    name: Messages
+    href: neo_bpsys_wpf.Messages.html

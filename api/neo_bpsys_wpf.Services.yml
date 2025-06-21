@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Services
+  commentId: N:neo_bpsys_wpf.Services
+  id: neo_bpsys_wpf.Services
+  children:
+  - neo_bpsys_wpf.Services.ApplicationHostService
+  - neo_bpsys_wpf.Services.FilePickerService
+  - neo_bpsys_wpf.Services.FrontService
+  - neo_bpsys_wpf.Services.GameGuidanceService
+  - neo_bpsys_wpf.Services.GameGuidanceService.GameProperty
+  - neo_bpsys_wpf.Services.GameGuidanceService.Step
+  - neo_bpsys_wpf.Services.InfoBarService
+  - neo_bpsys_wpf.Services.MessageBoxService
+  - neo_bpsys_wpf.Services.SettingsHostService
+  - neo_bpsys_wpf.Services.SharedDataService
+  - neo_bpsys_wpf.Services.UpdaterService
+  - neo_bpsys_wpf.Services.UpdaterService.AssetsInfo
+  - neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+  langs:
+  - csharp
+  - vb
+  name: neo_bpsys_wpf.Services
+  nameWithType: neo_bpsys_wpf.Services
+  fullName: neo_bpsys_wpf.Services
+  type: Namespace
+  assemblies:
+  - neo-bpsys-wpf
+references:
+- uid: neo_bpsys_wpf.Services.ApplicationHostService
+  commentId: T:neo_bpsys_wpf.Services.ApplicationHostService
+  href: neo_bpsys_wpf.Services.ApplicationHostService.html
+  name: ApplicationHostService
+  nameWithType: ApplicationHostService
+  fullName: neo_bpsys_wpf.Services.ApplicationHostService
+- uid: neo_bpsys_wpf.Services.FilePickerService
+  commentId: T:neo_bpsys_wpf.Services.FilePickerService
+  href: neo_bpsys_wpf.Services.FilePickerService.html
+  name: FilePickerService
+  nameWithType: FilePickerService
+  fullName: neo_bpsys_wpf.Services.FilePickerService
+- uid: neo_bpsys_wpf.Services.FrontService
+  commentId: T:neo_bpsys_wpf.Services.FrontService
+  href: neo_bpsys_wpf.Services.FrontService.html
+  name: FrontService
+  nameWithType: FrontService
+  fullName: neo_bpsys_wpf.Services.FrontService
+- uid: neo_bpsys_wpf.Services.GameGuidanceService
+  commentId: T:neo_bpsys_wpf.Services.GameGuidanceService
+  href: neo_bpsys_wpf.Services.GameGuidanceService.html
+  name: GameGuidanceService
+  nameWithType: GameGuidanceService
+  fullName: neo_bpsys_wpf.Services.GameGuidanceService
+- uid: neo_bpsys_wpf.Services.GameGuidanceService.GameProperty
+  commentId: T:neo_bpsys_wpf.Services.GameGuidanceService.GameProperty
+  href: neo_bpsys_wpf.Services.GameGuidanceService.html
+  name: GameGuidanceService.GameProperty
+  nameWithType: GameGuidanceService.GameProperty
+  fullName: neo_bpsys_wpf.Services.GameGuidanceService.GameProperty
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService
+    name: GameGuidanceService
+    href: neo_bpsys_wpf.Services.GameGuidanceService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService.GameProperty
+    name: GameProperty
+    href: neo_bpsys_wpf.Services.GameGuidanceService.GameProperty.html
+  spec.vb:
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService
+    name: GameGuidanceService
+    href: neo_bpsys_wpf.Services.GameGuidanceService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService.GameProperty
+    name: GameProperty
+    href: neo_bpsys_wpf.Services.GameGuidanceService.GameProperty.html
+- uid: neo_bpsys_wpf.Services.GameGuidanceService.Step
+  commentId: T:neo_bpsys_wpf.Services.GameGuidanceService.Step
+  href: neo_bpsys_wpf.Services.GameGuidanceService.html
+  name: GameGuidanceService.Step
+  nameWithType: GameGuidanceService.Step
+  fullName: neo_bpsys_wpf.Services.GameGuidanceService.Step
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService
+    name: GameGuidanceService
+    href: neo_bpsys_wpf.Services.GameGuidanceService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService.Step
+    name: Step
+    href: neo_bpsys_wpf.Services.GameGuidanceService.Step.html
+  spec.vb:
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService
+    name: GameGuidanceService
+    href: neo_bpsys_wpf.Services.GameGuidanceService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService.Step
+    name: Step
+    href: neo_bpsys_wpf.Services.GameGuidanceService.Step.html
+- uid: neo_bpsys_wpf.Services.InfoBarService
+  commentId: T:neo_bpsys_wpf.Services.InfoBarService
+  href: neo_bpsys_wpf.Services.InfoBarService.html
+  name: InfoBarService
+  nameWithType: InfoBarService
+  fullName: neo_bpsys_wpf.Services.InfoBarService
+- uid: neo_bpsys_wpf.Services.MessageBoxService
+  commentId: T:neo_bpsys_wpf.Services.MessageBoxService
+  href: neo_bpsys_wpf.Services.MessageBoxService.html
+  name: MessageBoxService
+  nameWithType: MessageBoxService
+  fullName: neo_bpsys_wpf.Services.MessageBoxService
+- uid: neo_bpsys_wpf.Services.SettingsHostService
+  commentId: T:neo_bpsys_wpf.Services.SettingsHostService
+  href: neo_bpsys_wpf.Services.SettingsHostService.html
+  name: SettingsHostService
+  nameWithType: SettingsHostService
+  fullName: neo_bpsys_wpf.Services.SettingsHostService
+- uid: neo_bpsys_wpf.Services.SharedDataService
+  commentId: T:neo_bpsys_wpf.Services.SharedDataService
+  href: neo_bpsys_wpf.Services.SharedDataService.html
+  name: SharedDataService
+  nameWithType: SharedDataService
+  fullName: neo_bpsys_wpf.Services.SharedDataService
+- uid: neo_bpsys_wpf.Services.UpdaterService
+  commentId: T:neo_bpsys_wpf.Services.UpdaterService
+  href: neo_bpsys_wpf.Services.UpdaterService.html
+  name: UpdaterService
+  nameWithType: UpdaterService
+  fullName: neo_bpsys_wpf.Services.UpdaterService
+- uid: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+  commentId: T:neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+  parent: neo_bpsys_wpf.Services
+  href: neo_bpsys_wpf.Services.UpdaterService.html
+  name: UpdaterService.ReleaseInfo
+  nameWithType: UpdaterService.ReleaseInfo
+  fullName: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Services.UpdaterService
+    name: UpdaterService
+    href: neo_bpsys_wpf.Services.UpdaterService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+    name: ReleaseInfo
+    href: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo.html
+  spec.vb:
+  - uid: neo_bpsys_wpf.Services.UpdaterService
+    name: UpdaterService
+    href: neo_bpsys_wpf.Services.UpdaterService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+    name: ReleaseInfo
+    href: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo.html
+- uid: neo_bpsys_wpf.Services.UpdaterService.AssetsInfo
+  commentId: T:neo_bpsys_wpf.Services.UpdaterService.AssetsInfo
+  href: neo_bpsys_wpf.Services.UpdaterService.html
+  name: UpdaterService.AssetsInfo
+  nameWithType: UpdaterService.AssetsInfo
+  fullName: neo_bpsys_wpf.Services.UpdaterService.AssetsInfo
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Services.UpdaterService
+    name: UpdaterService
+    href: neo_bpsys_wpf.Services.UpdaterService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.UpdaterService.AssetsInfo
+    name: AssetsInfo
+    href: neo_bpsys_wpf.Services.UpdaterService.AssetsInfo.html
+  spec.vb:
+  - uid: neo_bpsys_wpf.Services.UpdaterService
+    name: UpdaterService
+    href: neo_bpsys_wpf.Services.UpdaterService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.UpdaterService.AssetsInfo
+    name: AssetsInfo
+    href: neo_bpsys_wpf.Services.UpdaterService.AssetsInfo.html
+- uid: neo_bpsys_wpf.Services
+  commentId: N:neo_bpsys_wpf.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Services
+  nameWithType: neo_bpsys_wpf.Services
+  fullName: neo_bpsys_wpf.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services
+    name: Services
+    href: neo_bpsys_wpf.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services
+    name: Services
+    href: neo_bpsys_wpf.Services.html

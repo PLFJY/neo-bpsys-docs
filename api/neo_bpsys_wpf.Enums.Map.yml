@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Enums.Map
+  commentId: T:neo_bpsys_wpf.Enums.Map
+  id: Map
+  parent: neo_bpsys_wpf.Enums
+  children:
+  - neo_bpsys_wpf.Enums.Map.不归林
+  - neo_bpsys_wpf.Enums.Map.军工厂
+  - neo_bpsys_wpf.Enums.Map.唐人街
+  - neo_bpsys_wpf.Enums.Map.圣心医院
+  - neo_bpsys_wpf.Enums.Map.无禁用
+  - neo_bpsys_wpf.Enums.Map.月亮河公园
+  - neo_bpsys_wpf.Enums.Map.永眠镇
+  - neo_bpsys_wpf.Enums.Map.湖景村
+  - neo_bpsys_wpf.Enums.Map.红教堂
+  - neo_bpsys_wpf.Enums.Map.里奥的回忆
+  langs:
+  - csharp
+  - vb
+  name: Map
+  nameWithType: Map
+  fullName: neo_bpsys_wpf.Enums.Map
+  type: Enum
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Map
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: >-
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum Map
+    content.vb: >-
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum Map
+  attributes:
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: neo_bpsys_wpf.Enums.Map.军工厂
+  commentId: F:neo_bpsys_wpf.Enums.Map.军工厂
+  id: 军工厂
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 军工厂
+  nameWithType: Map.军工厂
+  fullName: neo_bpsys_wpf.Enums.Map.军工厂
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 军工厂
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 7
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 军工厂 = 0
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.红教堂
+  commentId: F:neo_bpsys_wpf.Enums.Map.红教堂
+  id: 红教堂
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 红教堂
+  nameWithType: Map.红教堂
+  fullName: neo_bpsys_wpf.Enums.Map.红教堂
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 红教堂
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 8
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 红教堂 = 1
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.圣心医院
+  commentId: F:neo_bpsys_wpf.Enums.Map.圣心医院
+  id: 圣心医院
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 圣心医院
+  nameWithType: Map.圣心医院
+  fullName: neo_bpsys_wpf.Enums.Map.圣心医院
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 圣心医院
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 圣心医院 = 2
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.湖景村
+  commentId: F:neo_bpsys_wpf.Enums.Map.湖景村
+  id: 湖景村
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 湖景村
+  nameWithType: Map.湖景村
+  fullName: neo_bpsys_wpf.Enums.Map.湖景村
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 湖景村
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 10
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 湖景村 = 3
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.月亮河公园
+  commentId: F:neo_bpsys_wpf.Enums.Map.月亮河公园
+  id: 月亮河公园
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 月亮河公园
+  nameWithType: Map.月亮河公园
+  fullName: neo_bpsys_wpf.Enums.Map.月亮河公园
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 月亮河公园
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 11
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 月亮河公园 = 4
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.里奥的回忆
+  commentId: F:neo_bpsys_wpf.Enums.Map.里奥的回忆
+  id: 里奥的回忆
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 里奥的回忆
+  nameWithType: Map.里奥的回忆
+  fullName: neo_bpsys_wpf.Enums.Map.里奥的回忆
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 里奥的回忆
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 里奥的回忆 = 5
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.唐人街
+  commentId: F:neo_bpsys_wpf.Enums.Map.唐人街
+  id: 唐人街
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 唐人街
+  nameWithType: Map.唐人街
+  fullName: neo_bpsys_wpf.Enums.Map.唐人街
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 唐人街
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 13
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 唐人街 = 6
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.永眠镇
+  commentId: F:neo_bpsys_wpf.Enums.Map.永眠镇
+  id: 永眠镇
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 永眠镇
+  nameWithType: Map.永眠镇
+  fullName: neo_bpsys_wpf.Enums.Map.永眠镇
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 永眠镇
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 14
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 永眠镇 = 7
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.不归林
+  commentId: F:neo_bpsys_wpf.Enums.Map.不归林
+  id: 不归林
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 不归林
+  nameWithType: Map.不归林
+  fullName: neo_bpsys_wpf.Enums.Map.不归林
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 不归林
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 不归林 = 8
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.Map.无禁用
+  commentId: F:neo_bpsys_wpf.Enums.Map.无禁用
+  id: 无禁用
+  parent: neo_bpsys_wpf.Enums.Map
+  langs:
+  - csharp
+  - vb
+  name: 无禁用
+  nameWithType: Map.无禁用
+  fullName: neo_bpsys_wpf.Enums.Map.无禁用
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Map.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: 无禁用
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
+    startLine: 16
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: 无禁用 = 9
+    return:
+      type: neo_bpsys_wpf.Enums.Map
+references:
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Enums.Map
+  commentId: T:neo_bpsys_wpf.Enums.Map
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.Map.html
+  name: Map
+  nameWithType: Map
+  fullName: neo_bpsys_wpf.Enums.Map

@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  id: ISettingsHostService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  children:
+  - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig
+  - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
+  - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig
+  - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings
+  langs:
+  - csharp
+  - vb
+  name: ISettingsHostService
+  nameWithType: ISettingsHostService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  type: Interface
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ISettingsHostService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 应用设置服务接口
+  example: []
+  syntax:
+    content: public interface ISettingsHostService
+    content.vb: Public Interface ISettingsHostService
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings
+  id: Settings
+  parent: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: ISettingsHostService.Settings
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Settings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+    startLine: 14
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: Settings Settings { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.Settings
+    content.vb: Property Settings As Settings
+  overload: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig
+  id: SaveConfig
+  parent: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  langs:
+  - csharp
+  - vb
+  name: SaveConfig()
+  nameWithType: ISettingsHostService.SaveConfig()
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SaveConfig
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+    startLine: 18
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 保存配置
+  example: []
+  syntax:
+    content: void SaveConfig()
+    content.vb: Sub SaveConfig()
+  overload: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig
+  id: LoadConfig
+  parent: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  langs:
+  - csharp
+  - vb
+  name: LoadConfig()
+  nameWithType: ISettingsHostService.LoadConfig()
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: LoadConfig
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+    startLine: 22
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 读取配置
+  example: []
+  syntax:
+    content: void LoadConfig()
+    content.vb: Sub LoadConfig()
+  overload: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
+  id: ResetConfig
+  parent: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  langs:
+  - csharp
+  - vb
+  name: ResetConfig()
+  nameWithType: ISettingsHostService.ResetConfig()
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ResetConfig
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+    startLine: 26
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 重置配置
+  example: []
+  syntax:
+    content: void ResetConfig()
+    content.vb: Sub ResetConfig()
+  overload: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig*
+references:
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings
+  href: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_Settings
+  name: Settings
+  nameWithType: ISettingsHostService.Settings
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings
+- uid: neo_bpsys_wpf.Models.Settings
+  commentId: T:neo_bpsys_wpf.Models.Settings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Settings.html
+  name: Settings
+  nameWithType: Settings
+  fullName: neo_bpsys_wpf.Models.Settings
+- uid: neo_bpsys_wpf.Models
+  commentId: N:neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Models
+  nameWithType: neo_bpsys_wpf.Models
+  fullName: neo_bpsys_wpf.Models
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig
+  href: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_SaveConfig
+  name: SaveConfig
+  nameWithType: ISettingsHostService.SaveConfig
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig
+  href: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_LoadConfig
+  name: LoadConfig
+  nameWithType: ISettingsHostService.LoadConfig
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
+  href: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_ResetConfig
+  name: ResetConfig
+  nameWithType: ISettingsHostService.ResetConfig
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig

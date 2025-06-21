@@ -1,0 +1,467 @@
+### YamlMime:TableOfContent
+items:
+- uid: neo_bpsys_wpf
+  name: neo_bpsys_wpf
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.App
+    name: App
+    type: Class
+- uid: neo_bpsys_wpf.Abstractions.Services
+  name: neo_bpsys_wpf.Abstractions.Services
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IFilePickerService
+    name: IFilePickerService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService
+    name: IFrontService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService
+    name: IGameGuidanceService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+    name: IInfoBarService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+    name: IMessageBoxService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+    name: ISettingsHostService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+    name: ISharedDataService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+    name: IUpdaterService
+    type: Interface
+- uid: neo_bpsys_wpf.Abstractions.ViewModels
+  name: neo_bpsys_wpf.Abstractions.ViewModels
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
+    name: CharaSelectViewModelBase
+    type: Class
+- uid: neo_bpsys_wpf.AttachedBehaviors
+  name: neo_bpsys_wpf.AttachedBehaviors
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.AttachedBehaviors.DesignBehavior
+    name: DesignBehavior
+    type: Class
+  - uid: neo_bpsys_wpf.AttachedBehaviors.ToggleButtonAttach
+    name: ToggleButtonAttach
+    type: Class
+- uid: neo_bpsys_wpf.Controls
+  name: neo_bpsys_wpf.Controls
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Controls.CharacterChanger
+    name: CharacterChanger
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.CharacterChangerCommandParameter
+    name: CharacterChangerCommandParameter
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.CharacterSelector
+    name: CharacterSelector
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.CustomTitleBar
+    name: CustomTitleBar
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.DeferredContentHost
+    name: DeferredContentHost
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.GameDataEditor
+    name: GameDataEditor
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.GlobalScorePresenter
+    name: GlobalScorePresenter
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.TalentPicker
+    name: TalentPicker
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton
+    name: ToggleStyledRadioButton
+    type: Class
+- uid: neo_bpsys_wpf.Converters
+  name: neo_bpsys_wpf.Converters
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Converters.ApplicationThemeToBooleanConverter
+    name: ApplicationThemeToBooleanConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.BooleanMultiConverter
+    name: BooleanMultiConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.BooleanToEnumConverter
+    name: BooleanToEnumConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter
+    name: BooleanToReverseVisibilityConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.CampToStringConverter
+    name: CampToStringConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.CharacterChangerCommandParameterConverter
+    name: CharacterChangerCommandParameterConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.DoubleToThicknessConverter
+    name: DoubleToThicknessConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.GameProgressToStringConverter
+    name: GameProgressToStringConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.IndexToButtonContentConverter
+    name: IndexToButtonContentConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.IntPlusOneConverter
+    name: IntPlusOneConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.InverseBooleanConverter
+    name: InverseBooleanConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.ObjectToBooleanConverter
+    name: ObjectToBooleanConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.StringToDoubleConverter
+    name: StringToDoubleConverter
+    type: Class
+- uid: neo_bpsys_wpf.Enums
+  name: neo_bpsys_wpf.Enums
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Enums.BanListName
+    name: BanListName
+    type: Enum
+  - uid: neo_bpsys_wpf.Enums.Camp
+    name: Camp
+    type: Enum
+  - uid: neo_bpsys_wpf.Enums.GameAction
+    name: GameAction
+    type: Enum
+  - uid: neo_bpsys_wpf.Enums.GameProgress
+    name: GameProgress
+    type: Enum
+  - uid: neo_bpsys_wpf.Enums.GameResult
+    name: GameResult
+    type: Enum
+  - uid: neo_bpsys_wpf.Enums.ImageSourceKey
+    name: ImageSourceKey
+    type: Enum
+  - uid: neo_bpsys_wpf.Enums.Map
+    name: Map
+    type: Enum
+  - uid: neo_bpsys_wpf.Enums.Trait
+    name: Trait
+    type: Enum
+- uid: neo_bpsys_wpf.Exceptions
+  name: neo_bpsys_wpf.Exceptions
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Exceptions.GuidanceNotSupportedException
+    name: GuidanceNotSupportedException
+    type: Class
+- uid: neo_bpsys_wpf.Helpers
+  name: neo_bpsys_wpf.Helpers
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Helpers.ImageHelper
+    name: ImageHelper
+    type: Class
+- uid: neo_bpsys_wpf.Messages
+  name: neo_bpsys_wpf.Messages
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Messages.BanCountChangedMessage
+    name: BanCountChangedMessage
+    type: Class
+  - uid: neo_bpsys_wpf.Messages.CharacterSwappedMessage
+    name: CharacterSwappedMessage
+    type: Class
+  - uid: neo_bpsys_wpf.Messages.DesignModeChangedMessage
+    name: DesignModeChangedMessage
+    type: Class
+  - uid: neo_bpsys_wpf.Messages.HighlightMessage
+    name: HighlightMessage
+    type: Class
+  - uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+    name: MemberStateChangedMessage
+    type: Class
+  - uid: neo_bpsys_wpf.Messages.NewGameMessage
+    name: NewGameMessage
+    type: Class
+  - uid: neo_bpsys_wpf.Messages.PlayerSwappedMessage
+    name: PlayerSwappedMessage
+    type: Class
+  - uid: neo_bpsys_wpf.Messages.SwapMessage
+    name: SwapMessage
+    type: Class
+- uid: neo_bpsys_wpf.Models
+  name: neo_bpsys_wpf.Models
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Models.Character
+    name: Character
+    type: Class
+  - uid: neo_bpsys_wpf.Models.FrontResolution
+    name: FrontResolution
+    type: Class
+  - uid: neo_bpsys_wpf.Models.Game
+    name: Game
+    type: Class
+  - uid: neo_bpsys_wpf.Models.Member
+    name: Member
+    type: Class
+  - uid: neo_bpsys_wpf.Models.Player
+    name: Player
+    type: Class
+  - uid: neo_bpsys_wpf.Models.PlayerData
+    name: PlayerData
+    type: Class
+  - uid: neo_bpsys_wpf.Models.Score
+    name: Score
+    type: Class
+  - uid: neo_bpsys_wpf.Models.Settings
+    name: Settings
+    type: Class
+  - uid: neo_bpsys_wpf.Models.Talent
+    name: Talent
+    type: Class
+  - uid: neo_bpsys_wpf.Models.Team
+    name: Team
+    type: Class
+  - uid: neo_bpsys_wpf.Models.Trait
+    name: Trait
+    type: Class
+  - uid: neo_bpsys_wpf.Models.WindowResolution
+    name: WindowResolution
+    type: Class
+- uid: neo_bpsys_wpf.Services
+  name: neo_bpsys_wpf.Services
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Services.ApplicationHostService
+    name: ApplicationHostService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.FilePickerService
+    name: FilePickerService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.FrontService
+    name: FrontService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService
+    name: GameGuidanceService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService.GameProperty
+    name: GameGuidanceService.GameProperty
+    type: Class
+  - uid: neo_bpsys_wpf.Services.GameGuidanceService.Step
+    name: GameGuidanceService.Step
+    type: Class
+  - uid: neo_bpsys_wpf.Services.InfoBarService
+    name: InfoBarService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.MessageBoxService
+    name: MessageBoxService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.SettingsHostService
+    name: SettingsHostService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.SharedDataService
+    name: SharedDataService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.UpdaterService
+    name: UpdaterService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.UpdaterService.AssetsInfo
+    name: UpdaterService.AssetsInfo
+    type: Class
+  - uid: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+    name: UpdaterService.ReleaseInfo
+    type: Class
+- uid: neo_bpsys_wpf.Themes
+  name: neo_bpsys_wpf.Themes
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Themes.IconThemesDictionary
+    name: IconThemesDictionary
+    type: Class
+- uid: neo_bpsys_wpf.ViewModels.Pages
+  name: neo_bpsys_wpf.ViewModels.Pages
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel
+    name: BanHunPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel
+    name: BanHunPageViewModel.BanHunCurrentViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel
+    name: BanHunPageViewModel.BanHunGlobalViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel
+    name: BanSurPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel
+    name: BanSurPageViewModel.BanSurCurrentViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel
+    name: BanSurPageViewModel.BanSurGlobalViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel
+    name: ExtensionPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+    name: FrontManagePageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel
+    name: GameDataPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel
+    name: MapBpPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection
+    name: MapBpPageViewModel.MapSelection
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel
+    name: PickPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel
+    name: PickPageViewModel.AwayHunGlobalBanRecordViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel
+    name: PickPageViewModel.AwaySurGlobalBanRecordViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel
+    name: PickPageViewModel.HunPickViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel
+    name: PickPageViewModel.MainHunGlobalBanRecordViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel
+    name: PickPageViewModel.MainSurGlobalBanRecordViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel
+    name: PickPageViewModel.SurPickViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
+    name: ScorePageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo
+    name: ScorePageViewModel.GameGlobalInfo
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+    name: SettingPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel
+    name: TalentPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel
+    name: TeamInfoPageViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel
+    name: TeamInfoPageViewModel.OnFieldHunPlayerViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel
+    name: TeamInfoPageViewModel.OnFieldSurPlayerViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
+    name: TeamInfoPageViewModel.TeamInfoViewModel
+    type: Class
+- uid: neo_bpsys_wpf.ViewModels.Windows
+  name: neo_bpsys_wpf.ViewModels.Windows
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel
+    name: BpWindowViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
+    name: GameDataWindowViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel
+    name: InterludeWindowViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
+    name: MainWindowViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel
+    name: MapBpWindowViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
+    name: ScoreManualWindowViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
+    name: ScoreWindowViewModel
+    type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel
+    name: WidgetsWindowViewModel
+    type: Class
+- uid: neo_bpsys_wpf.Views.Pages
+  name: neo_bpsys_wpf.Views.Pages
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Views.Pages.BanHunPage
+    name: BanHunPage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.BanSurPage
+    name: BanSurPage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.ExtensionPage
+    name: ExtensionPage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.FrontManagePage
+    name: FrontManagePage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.GameDataPage
+    name: GameDataPage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.HomePage
+    name: HomePage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.MapBpPage
+    name: MapBpPage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.PickPage
+    name: PickPage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.ScorePage
+    name: ScorePage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.SettingPage
+    name: SettingPage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.TalentPage
+    name: TalentPage
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Pages.TeamInfoPage
+    name: TeamInfoPage
+    type: Class
+- uid: neo_bpsys_wpf.Views.Windows
+  name: neo_bpsys_wpf.Views.Windows
+  type: Namespace
+  items:
+  - uid: neo_bpsys_wpf.Views.Windows.BpWindow
+    name: BpWindow
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.GameDataWindow
+    name: GameDataWindow
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.InterludeWindow
+    name: InterludeWindow
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.MainWindow
+    name: MainWindow
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.MapBpWindow
+    name: MapBpWindow
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
+    name: ScoreManualWindow
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.ScoreWindow
+    name: ScoreWindow
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.WidgetsWindow
+    name: WidgetsWindow
+    type: Class
+memberLayout: SamePage

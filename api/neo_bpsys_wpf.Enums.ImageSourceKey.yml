@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey
+  commentId: T:neo_bpsys_wpf.Enums.ImageSourceKey
+  id: ImageSourceKey
+  parent: neo_bpsys_wpf.Enums
+  children:
+  - neo_bpsys_wpf.Enums.ImageSourceKey.bpui
+  - neo_bpsys_wpf.Enums.ImageSourceKey.hunBig
+  - neo_bpsys_wpf.Enums.ImageSourceKey.hunHalf
+  - neo_bpsys_wpf.Enums.ImageSourceKey.hunHeader
+  - neo_bpsys_wpf.Enums.ImageSourceKey.hunHeader_singleColor
+  - neo_bpsys_wpf.Enums.ImageSourceKey.map
+  - neo_bpsys_wpf.Enums.ImageSourceKey.map_singleColor
+  - neo_bpsys_wpf.Enums.ImageSourceKey.surBig
+  - neo_bpsys_wpf.Enums.ImageSourceKey.surHalf
+  - neo_bpsys_wpf.Enums.ImageSourceKey.surHeader
+  - neo_bpsys_wpf.Enums.ImageSourceKey.surHeader_singleColor
+  - neo_bpsys_wpf.Enums.ImageSourceKey.talent
+  - neo_bpsys_wpf.Enums.ImageSourceKey.trait
+  langs:
+  - csharp
+  - vb
+  name: ImageSourceKey
+  nameWithType: ImageSourceKey
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey
+  type: Enum
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ImageSourceKey
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 2
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: public enum ImageSourceKey
+    content.vb: Public Enum ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.bpui
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.bpui
+  id: bpui
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: bpui
+  nameWithType: ImageSourceKey.bpui
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.bpui
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: bpui
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: bpui = 0
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.hunBig
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.hunBig
+  id: hunBig
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: hunBig
+  nameWithType: ImageSourceKey.hunBig
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.hunBig
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: hunBig
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 5
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: hunBig = 1
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.hunHalf
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.hunHalf
+  id: hunHalf
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: hunHalf
+  nameWithType: ImageSourceKey.hunHalf
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.hunHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: hunHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 6
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: hunHalf = 2
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.hunHeader
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.hunHeader
+  id: hunHeader
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: hunHeader
+  nameWithType: ImageSourceKey.hunHeader
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.hunHeader
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: hunHeader
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 7
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: hunHeader = 3
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.hunHeader_singleColor
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.hunHeader_singleColor
+  id: hunHeader_singleColor
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: hunHeader_singleColor
+  nameWithType: ImageSourceKey.hunHeader_singleColor
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.hunHeader_singleColor
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: hunHeader_singleColor
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 8
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: hunHeader_singleColor = 4
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.map
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.map
+  id: map
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: map
+  nameWithType: ImageSourceKey.map
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.map
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: map
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: map = 5
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.map_singleColor
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.map_singleColor
+  id: map_singleColor
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: map_singleColor
+  nameWithType: ImageSourceKey.map_singleColor
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.map_singleColor
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: map_singleColor
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 10
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: map_singleColor = 6
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.surBig
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.surBig
+  id: surBig
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: surBig
+  nameWithType: ImageSourceKey.surBig
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.surBig
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: surBig
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 11
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: surBig = 7
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.surHalf
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.surHalf
+  id: surHalf
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: surHalf
+  nameWithType: ImageSourceKey.surHalf
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.surHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: surHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: surHalf = 8
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.surHeader
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.surHeader
+  id: surHeader
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: surHeader
+  nameWithType: ImageSourceKey.surHeader
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.surHeader
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: surHeader
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 13
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: surHeader = 9
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.surHeader_singleColor
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.surHeader_singleColor
+  id: surHeader_singleColor
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: surHeader_singleColor
+  nameWithType: ImageSourceKey.surHeader_singleColor
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.surHeader_singleColor
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: surHeader_singleColor
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 14
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: surHeader_singleColor = 10
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.talent
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.talent
+  id: talent
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: talent
+  nameWithType: ImageSourceKey.talent
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.talent
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: talent
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: talent = 11
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey.trait
+  commentId: F:neo_bpsys_wpf.Enums.ImageSourceKey.trait
+  id: trait
+  parent: neo_bpsys_wpf.Enums.ImageSourceKey
+  langs:
+  - csharp
+  - vb
+  name: trait
+  nameWithType: ImageSourceKey.trait
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey.trait
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: trait
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
+    startLine: 16
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: trait = 12
+    return:
+      type: neo_bpsys_wpf.Enums.ImageSourceKey
+references:
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Enums.ImageSourceKey
+  commentId: T:neo_bpsys_wpf.Enums.ImageSourceKey
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.ImageSourceKey.html
+  name: ImageSourceKey
+  nameWithType: ImageSourceKey
+  fullName: neo_bpsys_wpf.Enums.ImageSourceKey

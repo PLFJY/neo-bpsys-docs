@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Enums.GameProgress
+  commentId: T:neo_bpsys_wpf.Enums.GameProgress
+  id: GameProgress
+  parent: neo_bpsys_wpf.Enums
+  children:
+  - neo_bpsys_wpf.Enums.GameProgress.Free
+  - neo_bpsys_wpf.Enums.GameProgress.Game1FirstHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game1SecondHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game2FirstHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game2SecondHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game3ExtraFirstHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game3ExtraSecondHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game3FirstHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game3SecondHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game4FirstHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game4SecondHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game5ExtraFirstHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game5ExtraSecondHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game5FirstHalf
+  - neo_bpsys_wpf.Enums.GameProgress.Game5SecondHalf
+  langs:
+  - csharp
+  - vb
+  name: GameProgress
+  nameWithType: GameProgress
+  fullName: neo_bpsys_wpf.Enums.GameProgress
+  type: Enum
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GameProgress
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: >-
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum GameProgress
+    content.vb: >-
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum GameProgress
+  attributes:
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: neo_bpsys_wpf.Enums.GameProgress.Free
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Free
+  id: Free
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Free
+  nameWithType: GameProgress.Free
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Free
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Free
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Free = -1
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game1FirstHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game1FirstHalf
+  id: Game1FirstHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game1FirstHalf
+  nameWithType: GameProgress.Game1FirstHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game1FirstHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game1FirstHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 10
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game1FirstHalf = 0
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game1SecondHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game1SecondHalf
+  id: Game1SecondHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game1SecondHalf
+  nameWithType: GameProgress.Game1SecondHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game1SecondHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game1SecondHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 11
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game1SecondHalf = 1
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game2FirstHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game2FirstHalf
+  id: Game2FirstHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game2FirstHalf
+  nameWithType: GameProgress.Game2FirstHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game2FirstHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game2FirstHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game2FirstHalf = 2
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game2SecondHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game2SecondHalf
+  id: Game2SecondHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game2SecondHalf
+  nameWithType: GameProgress.Game2SecondHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game2SecondHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game2SecondHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 13
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game2SecondHalf = 3
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game3FirstHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game3FirstHalf
+  id: Game3FirstHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game3FirstHalf
+  nameWithType: GameProgress.Game3FirstHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game3FirstHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game3FirstHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 14
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game3FirstHalf = 4
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game3SecondHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game3SecondHalf
+  id: Game3SecondHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game3SecondHalf
+  nameWithType: GameProgress.Game3SecondHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game3SecondHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game3SecondHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game3SecondHalf = 5
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game4FirstHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game4FirstHalf
+  id: Game4FirstHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game4FirstHalf
+  nameWithType: GameProgress.Game4FirstHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game4FirstHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game4FirstHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 16
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game4FirstHalf = 6
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game4SecondHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game4SecondHalf
+  id: Game4SecondHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game4SecondHalf
+  nameWithType: GameProgress.Game4SecondHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game4SecondHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game4SecondHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 17
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game4SecondHalf = 7
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game3ExtraFirstHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game3ExtraFirstHalf
+  id: Game3ExtraFirstHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game3ExtraFirstHalf
+  nameWithType: GameProgress.Game3ExtraFirstHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game3ExtraFirstHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game3ExtraFirstHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 18
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game3ExtraFirstHalf = 6
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game3ExtraSecondHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game3ExtraSecondHalf
+  id: Game3ExtraSecondHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game3ExtraSecondHalf
+  nameWithType: GameProgress.Game3ExtraSecondHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game3ExtraSecondHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game3ExtraSecondHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 19
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game3ExtraSecondHalf = 7
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game5FirstHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game5FirstHalf
+  id: Game5FirstHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game5FirstHalf
+  nameWithType: GameProgress.Game5FirstHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game5FirstHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game5FirstHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 20
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game5FirstHalf = 8
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game5SecondHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game5SecondHalf
+  id: Game5SecondHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game5SecondHalf
+  nameWithType: GameProgress.Game5SecondHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game5SecondHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game5SecondHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 21
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game5SecondHalf = 9
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game5ExtraFirstHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game5ExtraFirstHalf
+  id: Game5ExtraFirstHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game5ExtraFirstHalf
+  nameWithType: GameProgress.Game5ExtraFirstHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game5ExtraFirstHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game5ExtraFirstHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 22
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game5ExtraFirstHalf = 10
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+- uid: neo_bpsys_wpf.Enums.GameProgress.Game5ExtraSecondHalf
+  commentId: F:neo_bpsys_wpf.Enums.GameProgress.Game5ExtraSecondHalf
+  id: Game5ExtraSecondHalf
+  parent: neo_bpsys_wpf.Enums.GameProgress
+  langs:
+  - csharp
+  - vb
+  name: Game5ExtraSecondHalf
+  nameWithType: GameProgress.Game5ExtraSecondHalf
+  fullName: neo_bpsys_wpf.Enums.GameProgress.Game5ExtraSecondHalf
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameProgress.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Game5ExtraSecondHalf
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameProgress.cs
+    startLine: 23
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Game5ExtraSecondHalf = 11
+    return:
+      type: neo_bpsys_wpf.Enums.GameProgress
+references:
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Enums.GameProgress
+  commentId: T:neo_bpsys_wpf.Enums.GameProgress
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.GameProgress.html
+  name: GameProgress
+  nameWithType: GameProgress
+  fullName: neo_bpsys_wpf.Enums.GameProgress

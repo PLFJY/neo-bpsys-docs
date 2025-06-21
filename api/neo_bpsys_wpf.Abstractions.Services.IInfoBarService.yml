@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  id: IInfoBarService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  children:
+  - neo_bpsys_wpf.Abstractions.Services.IInfoBarService.CloseInfoBar
+  - neo_bpsys_wpf.Abstractions.Services.IInfoBarService.SetInfoBarControl(Wpf.Ui.Controls.InfoBar)
+  - neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar(System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar(System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar(System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IInfoBarService
+  nameWithType: IInfoBarService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  type: Interface
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IInfoBarService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+    startLine: 7
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 信息框服务接口
+  example: []
+  syntax:
+    content: public interface IInfoBarService
+    content.vb: Public Interface IInfoBarService
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.CloseInfoBar
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.CloseInfoBar
+  id: CloseInfoBar
+  parent: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  langs:
+  - csharp
+  - vb
+  name: CloseInfoBar()
+  nameWithType: IInfoBarService.CloseInfoBar()
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.CloseInfoBar()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CloseInfoBar
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 关闭 InfoBar
+  example: []
+  syntax:
+    content: void CloseInfoBar()
+    content.vb: Sub CloseInfoBar()
+  overload: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.CloseInfoBar*
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.SetInfoBarControl(Wpf.Ui.Controls.InfoBar)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.SetInfoBarControl(Wpf.Ui.Controls.InfoBar)
+  id: SetInfoBarControl(Wpf.Ui.Controls.InfoBar)
+  parent: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  langs:
+  - csharp
+  - vb
+  name: SetInfoBarControl(InfoBar)
+  nameWithType: IInfoBarService.SetInfoBarControl(InfoBar)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.SetInfoBarControl(Wpf.Ui.Controls.InfoBar)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SetInfoBarControl
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+    startLine: 17
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 设置 InfoBar 控件
+  example: []
+  syntax:
+    content: void SetInfoBarControl(InfoBar infoBar)
+    parameters:
+    - id: infoBar
+      type: Wpf.Ui.Controls.InfoBar
+      description: ''
+    content.vb: Sub SetInfoBarControl(infoBar As InfoBar)
+  overload: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.SetInfoBarControl*
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar(System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar(System.String)
+  id: ShowErrorInfoBar(System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  langs:
+  - csharp
+  - vb
+  name: ShowErrorInfoBar(string)
+  nameWithType: IInfoBarService.ShowErrorInfoBar(string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar(string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowErrorInfoBar
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+    startLine: 22
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 显示错误信息
+  example: []
+  syntax:
+    content: void ShowErrorInfoBar(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: ''
+    content.vb: Sub ShowErrorInfoBar(message As String)
+  overload: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar*
+  nameWithType.vb: IInfoBarService.ShowErrorInfoBar(String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar(String)
+  name.vb: ShowErrorInfoBar(String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar(System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar(System.String)
+  id: ShowInformationalInfoBar(System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  langs:
+  - csharp
+  - vb
+  name: ShowInformationalInfoBar(string)
+  nameWithType: IInfoBarService.ShowInformationalInfoBar(string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar(string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowInformationalInfoBar
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+    startLine: 27
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 显示提示信息
+  example: []
+  syntax:
+    content: void ShowInformationalInfoBar(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: ''
+    content.vb: Sub ShowInformationalInfoBar(message As String)
+  overload: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar*
+  nameWithType.vb: IInfoBarService.ShowInformationalInfoBar(String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar(String)
+  name.vb: ShowInformationalInfoBar(String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar(System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar(System.String)
+  id: ShowSuccessInfoBar(System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  langs:
+  - csharp
+  - vb
+  name: ShowSuccessInfoBar(string)
+  nameWithType: IInfoBarService.ShowSuccessInfoBar(string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar(string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowSuccessInfoBar
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+    startLine: 32
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 显示成功信息
+  example: []
+  syntax:
+    content: void ShowSuccessInfoBar(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: ''
+    content.vb: Sub ShowSuccessInfoBar(message As String)
+  overload: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar*
+  nameWithType.vb: IInfoBarService.ShowSuccessInfoBar(String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar(String)
+  name.vb: ShowSuccessInfoBar(String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar(System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar(System.String)
+  id: ShowWarningInfoBar(System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  langs:
+  - csharp
+  - vb
+  name: ShowWarningInfoBar(string)
+  nameWithType: IInfoBarService.ShowWarningInfoBar(string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar(string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowWarningInfoBar
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IInfoBarService.cs
+    startLine: 37
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 显示警告信息
+  example: []
+  syntax:
+    content: void ShowWarningInfoBar(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: ''
+    content.vb: Sub ShowWarningInfoBar(message As String)
+  overload: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar*
+  nameWithType.vb: IInfoBarService.ShowWarningInfoBar(String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar(String)
+  name.vb: ShowWarningInfoBar(String)
+references:
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.CloseInfoBar*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.CloseInfoBar
+  href: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html#neo_bpsys_wpf_Abstractions_Services_IInfoBarService_CloseInfoBar
+  name: CloseInfoBar
+  nameWithType: IInfoBarService.CloseInfoBar
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.CloseInfoBar
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.SetInfoBarControl*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.SetInfoBarControl
+  href: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html#neo_bpsys_wpf_Abstractions_Services_IInfoBarService_SetInfoBarControl_Wpf_Ui_Controls_InfoBar_
+  name: SetInfoBarControl
+  nameWithType: IInfoBarService.SetInfoBarControl
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.SetInfoBarControl
+- uid: Wpf.Ui.Controls.InfoBar
+  commentId: T:Wpf.Ui.Controls.InfoBar
+  parent: Wpf.Ui.Controls
+  isExternal: true
+  href: https://github.com/lepoco/wpfui/blob/7535b9135b24acae83b7097023928a8efbd153aa/src/Wpf.Ui/Controls/InfoBar/InfoBar.cs
+  name: InfoBar
+  nameWithType: InfoBar
+  fullName: Wpf.Ui.Controls.InfoBar
+- uid: Wpf.Ui.Controls
+  commentId: N:Wpf.Ui.Controls
+  isExternal: true
+  name: Wpf.Ui.Controls
+  nameWithType: Wpf.Ui.Controls
+  fullName: Wpf.Ui.Controls
+  spec.csharp:
+  - uid: Wpf
+    name: Wpf
+    isExternal: true
+  - name: .
+  - uid: Wpf.Ui
+    name: Ui
+    isExternal: true
+  - name: .
+  - uid: Wpf.Ui.Controls
+    name: Controls
+    isExternal: true
+  spec.vb:
+  - uid: Wpf
+    name: Wpf
+    isExternal: true
+  - name: .
+  - uid: Wpf.Ui
+    name: Ui
+    isExternal: true
+  - name: .
+  - uid: Wpf.Ui.Controls
+    name: Controls
+    isExternal: true
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar
+  href: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html#neo_bpsys_wpf_Abstractions_Services_IInfoBarService_ShowErrorInfoBar_System_String_
+  name: ShowErrorInfoBar
+  nameWithType: IInfoBarService.ShowErrorInfoBar
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowErrorInfoBar
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar
+  href: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html#neo_bpsys_wpf_Abstractions_Services_IInfoBarService_ShowInformationalInfoBar_System_String_
+  name: ShowInformationalInfoBar
+  nameWithType: IInfoBarService.ShowInformationalInfoBar
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowInformationalInfoBar
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar
+  href: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html#neo_bpsys_wpf_Abstractions_Services_IInfoBarService_ShowSuccessInfoBar_System_String_
+  name: ShowSuccessInfoBar
+  nameWithType: IInfoBarService.ShowSuccessInfoBar
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowSuccessInfoBar
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar
+  href: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html#neo_bpsys_wpf_Abstractions_Services_IInfoBarService_ShowWarningInfoBar_System_String_
+  name: ShowWarningInfoBar
+  nameWithType: IInfoBarService.ShowWarningInfoBar
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.ShowWarningInfoBar

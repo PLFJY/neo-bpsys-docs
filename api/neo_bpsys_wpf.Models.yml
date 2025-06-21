@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Models
+  commentId: N:neo_bpsys_wpf.Models
+  id: neo_bpsys_wpf.Models
+  children:
+  - neo_bpsys_wpf.Models.Character
+  - neo_bpsys_wpf.Models.FrontResolution
+  - neo_bpsys_wpf.Models.Game
+  - neo_bpsys_wpf.Models.Member
+  - neo_bpsys_wpf.Models.Player
+  - neo_bpsys_wpf.Models.PlayerData
+  - neo_bpsys_wpf.Models.Score
+  - neo_bpsys_wpf.Models.Settings
+  - neo_bpsys_wpf.Models.Talent
+  - neo_bpsys_wpf.Models.Team
+  - neo_bpsys_wpf.Models.Trait
+  - neo_bpsys_wpf.Models.WindowResolution
+  langs:
+  - csharp
+  - vb
+  name: neo_bpsys_wpf.Models
+  nameWithType: neo_bpsys_wpf.Models
+  fullName: neo_bpsys_wpf.Models
+  type: Namespace
+  assemblies:
+  - neo-bpsys-wpf
+references:
+- uid: neo_bpsys_wpf.Models.Character
+  commentId: T:neo_bpsys_wpf.Models.Character
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Character.html
+  name: Character
+  nameWithType: Character
+  fullName: neo_bpsys_wpf.Models.Character
+- uid: neo_bpsys_wpf.Models.Game
+  commentId: T:neo_bpsys_wpf.Models.Game
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Game.html
+  name: Game
+  nameWithType: Game
+  fullName: neo_bpsys_wpf.Models.Game
+- uid: neo_bpsys_wpf.Models.Member
+  commentId: T:neo_bpsys_wpf.Models.Member
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Member.html
+  name: Member
+  nameWithType: Member
+  fullName: neo_bpsys_wpf.Models.Member
+- uid: neo_bpsys_wpf.Models.Player
+  commentId: T:neo_bpsys_wpf.Models.Player
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Player.html
+  name: Player
+  nameWithType: Player
+  fullName: neo_bpsys_wpf.Models.Player
+- uid: neo_bpsys_wpf.Models.PlayerData
+  commentId: T:neo_bpsys_wpf.Models.PlayerData
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.PlayerData.html
+  name: PlayerData
+  nameWithType: PlayerData
+  fullName: neo_bpsys_wpf.Models.PlayerData
+- uid: neo_bpsys_wpf.Models.Score
+  commentId: T:neo_bpsys_wpf.Models.Score
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Score.html
+  name: Score
+  nameWithType: Score
+  fullName: neo_bpsys_wpf.Models.Score
+- uid: neo_bpsys_wpf.Models.Settings
+  commentId: T:neo_bpsys_wpf.Models.Settings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Settings.html
+  name: Settings
+  nameWithType: Settings
+  fullName: neo_bpsys_wpf.Models.Settings
+- uid: neo_bpsys_wpf.Models.FrontResolution
+  commentId: T:neo_bpsys_wpf.Models.FrontResolution
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.FrontResolution.html
+  name: FrontResolution
+  nameWithType: FrontResolution
+  fullName: neo_bpsys_wpf.Models.FrontResolution
+- uid: neo_bpsys_wpf.Models.Talent
+  commentId: T:neo_bpsys_wpf.Models.Talent
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Talent.html
+  name: Talent
+  nameWithType: Talent
+  fullName: neo_bpsys_wpf.Models.Talent
+- uid: neo_bpsys_wpf.Models.Team
+  commentId: T:neo_bpsys_wpf.Models.Team
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Team.html
+  name: Team
+  nameWithType: Team
+  fullName: neo_bpsys_wpf.Models.Team
+- uid: neo_bpsys_wpf.Models.Trait
+  commentId: T:neo_bpsys_wpf.Models.Trait
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Trait.html
+  name: Trait
+  nameWithType: Trait
+  fullName: neo_bpsys_wpf.Models.Trait
+- uid: neo_bpsys_wpf.Models.WindowResolution
+  commentId: T:neo_bpsys_wpf.Models.WindowResolution
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.WindowResolution.html
+  name: WindowResolution
+  nameWithType: WindowResolution
+  fullName: neo_bpsys_wpf.Models.WindowResolution
+- uid: neo_bpsys_wpf.Models
+  commentId: N:neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Models
+  nameWithType: neo_bpsys_wpf.Models
+  fullName: neo_bpsys_wpf.Models
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html

@@ -1,0 +1,974 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Services.UpdaterService
+  commentId: T:neo_bpsys_wpf.Services.UpdaterService
+  id: UpdaterService
+  parent: neo_bpsys_wpf.Services
+  children:
+  - neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
+  - neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate(System.String)
+  - neo_bpsys_wpf.Services.UpdaterService.Downloader
+  - neo_bpsys_wpf.Services.UpdaterService.InstallUpdate
+  - neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease
+  - neo_bpsys_wpf.Services.UpdaterService.NewVersion
+  - neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo
+  - neo_bpsys_wpf.Services.UpdaterService.UpdateCheck(System.Boolean,System.String)
+  langs:
+  - csharp
+  - vb
+  name: UpdaterService
+  nameWithType: UpdaterService
+  fullName: neo_bpsys_wpf.Services.UpdaterService
+  type: Class
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: UpdaterService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 17
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 更新服务
+  example: []
+  syntax:
+    content: 'public class UpdaterService : IUpdaterService'
+    content.vb: Public Class UpdaterService Implements IUpdaterService
+  inheritance:
+  - System.Object
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: neo_bpsys_wpf.Services.UpdaterService.NewVersion
+  commentId: P:neo_bpsys_wpf.Services.UpdaterService.NewVersion
+  id: NewVersion
+  parent: neo_bpsys_wpf.Services.UpdaterService
+  langs:
+  - csharp
+  - vb
+  name: NewVersion
+  nameWithType: UpdaterService.NewVersion
+  fullName: neo_bpsys_wpf.Services.UpdaterService.NewVersion
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: NewVersion
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 19
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 最新版本号
+  example: []
+  syntax:
+    content: public string NewVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NewVersion As String
+  overload: neo_bpsys_wpf.Services.UpdaterService.NewVersion*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IUpdaterService.NewVersion
+- uid: neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo
+  commentId: P:neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo
+  id: NewVersionInfo
+  parent: neo_bpsys_wpf.Services.UpdaterService
+  langs:
+  - csharp
+  - vb
+  name: NewVersionInfo
+  nameWithType: UpdaterService.NewVersionInfo
+  fullName: neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: NewVersionInfo
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 20
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 最新版本信息
+  example: []
+  syntax:
+    content: public UpdaterService.ReleaseInfo NewVersionInfo { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+    content.vb: Public Property NewVersionInfo As UpdaterService.ReleaseInfo
+  overload: neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IUpdaterService.NewVersionInfo
+- uid: neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease
+  commentId: P:neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease
+  id: IsFindPreRelease
+  parent: neo_bpsys_wpf.Services.UpdaterService
+  langs:
+  - csharp
+  - vb
+  name: IsFindPreRelease
+  nameWithType: UpdaterService.IsFindPreRelease
+  fullName: neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IsFindPreRelease
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 21
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 是否寻找预览版
+  example: []
+  syntax:
+    content: public bool IsFindPreRelease { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFindPreRelease As Boolean
+  overload: neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IUpdaterService.IsFindPreRelease
+- uid: neo_bpsys_wpf.Services.UpdaterService.Downloader
+  commentId: P:neo_bpsys_wpf.Services.UpdaterService.Downloader
+  id: Downloader
+  parent: neo_bpsys_wpf.Services.UpdaterService
+  langs:
+  - csharp
+  - vb
+  name: Downloader
+  nameWithType: UpdaterService.Downloader
+  fullName: neo_bpsys_wpf.Services.UpdaterService.Downloader
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Downloader
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 22
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 下载器
+  example: []
+  syntax:
+    content: public DownloadService Downloader { get; }
+    parameters: []
+    return:
+      type: Downloader.DownloadService
+    content.vb: Public ReadOnly Property Downloader As DownloadService
+  overload: neo_bpsys_wpf.Services.UpdaterService.Downloader*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IUpdaterService.Downloader
+- uid: neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
+  commentId: M:neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
+  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)'
+  parent: neo_bpsys_wpf.Services.UpdaterService
+  langs:
+  - csharp
+  - vb
+  name: UpdaterService(IMessageBoxService, IInfoBarService)
+  nameWithType: UpdaterService.UpdaterService(IMessageBoxService, IInfoBarService)
+  fullName: neo_bpsys_wpf.Services.UpdaterService.UpdaterService(neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
+  type: Constructor
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: .ctor
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 32
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  syntax:
+    content: public UpdaterService(IMessageBoxService messageBoxService, IInfoBarService infoBarService)
+    parameters:
+    - id: messageBoxService
+      type: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+    - id: infoBarService
+      type: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+    content.vb: Public Sub New(messageBoxService As IMessageBoxService, infoBarService As IInfoBarService)
+  overload: neo_bpsys_wpf.Services.UpdaterService.#ctor*
+  nameWithType.vb: UpdaterService.New(IMessageBoxService, IInfoBarService)
+  fullName.vb: neo_bpsys_wpf.Services.UpdaterService.New(neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
+  name.vb: New(IMessageBoxService, IInfoBarService)
+- uid: neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate(System.String)
+  commentId: M:neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate(System.String)
+  id: DownloadUpdate(System.String)
+  parent: neo_bpsys_wpf.Services.UpdaterService
+  langs:
+  - csharp
+  - vb
+  name: DownloadUpdate(string)
+  nameWithType: UpdaterService.DownloadUpdate(string)
+  fullName: neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate(string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: DownloadUpdate
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 68
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 下载更新
+  example: []
+  syntax:
+    content: public Task DownloadUpdate(string mirror = "")
+    parameters:
+    - id: mirror
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DownloadUpdate(mirror As String = "") As Task
+  overload: neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IUpdaterService.DownloadUpdate(System.String)
+  nameWithType.vb: UpdaterService.DownloadUpdate(String)
+  fullName.vb: neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate(String)
+  name.vb: DownloadUpdate(String)
+- uid: neo_bpsys_wpf.Services.UpdaterService.UpdateCheck(System.Boolean,System.String)
+  commentId: M:neo_bpsys_wpf.Services.UpdaterService.UpdateCheck(System.Boolean,System.String)
+  id: UpdateCheck(System.Boolean,System.String)
+  parent: neo_bpsys_wpf.Services.UpdaterService
+  langs:
+  - csharp
+  - vb
+  name: UpdateCheck(bool, string)
+  nameWithType: UpdaterService.UpdateCheck(bool, string)
+  fullName: neo_bpsys_wpf.Services.UpdaterService.UpdateCheck(bool, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: UpdateCheck
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 106
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 检查更新
+  example: []
+  syntax:
+    content: public Task<bool> UpdateCheck(bool isInitial = false, string mirror = "")
+    parameters:
+    - id: isInitial
+      type: System.Boolean
+    - id: mirror
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: 如果有新版本则返回true，反之为false
+    content.vb: Public Function UpdateCheck(isInitial As Boolean = False, mirror As String = "") As Task(Of Boolean)
+  overload: neo_bpsys_wpf.Services.UpdaterService.UpdateCheck*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IUpdaterService.UpdateCheck(System.Boolean,System.String)
+  nameWithType.vb: UpdaterService.UpdateCheck(Boolean, String)
+  fullName.vb: neo_bpsys_wpf.Services.UpdaterService.UpdateCheck(Boolean, String)
+  name.vb: UpdateCheck(Boolean, String)
+- uid: neo_bpsys_wpf.Services.UpdaterService.InstallUpdate
+  commentId: M:neo_bpsys_wpf.Services.UpdaterService.InstallUpdate
+  id: InstallUpdate
+  parent: neo_bpsys_wpf.Services.UpdaterService
+  langs:
+  - csharp
+  - vb
+  name: InstallUpdate()
+  nameWithType: UpdaterService.InstallUpdate()
+  fullName: neo_bpsys_wpf.Services.UpdaterService.InstallUpdate()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/UpdaterService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: InstallUpdate
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
+    startLine: 185
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  summary: 安装更新
+  example: []
+  syntax:
+    content: public void InstallUpdate()
+    content.vb: Public Sub InstallUpdate()
+  overload: neo_bpsys_wpf.Services.UpdaterService.InstallUpdate*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.IUpdaterService.InstallUpdate
+references:
+- uid: neo_bpsys_wpf.Services
+  commentId: N:neo_bpsys_wpf.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Services
+  nameWithType: neo_bpsys_wpf.Services
+  fullName: neo_bpsys_wpf.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services
+    name: Services
+    href: neo_bpsys_wpf.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services
+    name: Services
+    href: neo_bpsys_wpf.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html
+  name: IUpdaterService
+  nameWithType: IUpdaterService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: neo_bpsys_wpf.Services.UpdaterService.NewVersion*
+  commentId: Overload:neo_bpsys_wpf.Services.UpdaterService.NewVersion
+  href: neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_NewVersion
+  name: NewVersion
+  nameWithType: UpdaterService.NewVersion
+  fullName: neo_bpsys_wpf.Services.UpdaterService.NewVersion
+- uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.NewVersion
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.IUpdaterService.NewVersion
+  parent: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_NewVersion
+  name: NewVersion
+  nameWithType: IUpdaterService.NewVersion
+  fullName: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.NewVersion
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo*
+  commentId: Overload:neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo
+  href: neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_NewVersionInfo
+  name: NewVersionInfo
+  nameWithType: UpdaterService.NewVersionInfo
+  fullName: neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo
+- uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.NewVersionInfo
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.IUpdaterService.NewVersionInfo
+  parent: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_NewVersionInfo
+  name: NewVersionInfo
+  nameWithType: IUpdaterService.NewVersionInfo
+  fullName: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.NewVersionInfo
+- uid: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+  commentId: T:neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+  parent: neo_bpsys_wpf.Services
+  href: neo_bpsys_wpf.Services.UpdaterService.html
+  name: UpdaterService.ReleaseInfo
+  nameWithType: UpdaterService.ReleaseInfo
+  fullName: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Services.UpdaterService
+    name: UpdaterService
+    href: neo_bpsys_wpf.Services.UpdaterService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+    name: ReleaseInfo
+    href: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo.html
+  spec.vb:
+  - uid: neo_bpsys_wpf.Services.UpdaterService
+    name: UpdaterService
+    href: neo_bpsys_wpf.Services.UpdaterService.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo
+    name: ReleaseInfo
+    href: neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo.html
+- uid: neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease*
+  commentId: Overload:neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease
+  href: neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_IsFindPreRelease
+  name: IsFindPreRelease
+  nameWithType: UpdaterService.IsFindPreRelease
+  fullName: neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease
+- uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.IsFindPreRelease
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.IUpdaterService.IsFindPreRelease
+  parent: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_IsFindPreRelease
+  name: IsFindPreRelease
+  nameWithType: IUpdaterService.IsFindPreRelease
+  fullName: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.IsFindPreRelease
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: neo_bpsys_wpf.Services.UpdaterService.Downloader*
+  commentId: Overload:neo_bpsys_wpf.Services.UpdaterService.Downloader
+  href: neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_Downloader
+  name: Downloader
+  nameWithType: UpdaterService.Downloader
+  fullName: neo_bpsys_wpf.Services.UpdaterService.Downloader
+- uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.Downloader
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.IUpdaterService.Downloader
+  parent: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_Downloader
+  name: Downloader
+  nameWithType: IUpdaterService.Downloader
+  fullName: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.Downloader
+- uid: Downloader.DownloadService
+  commentId: T:Downloader.DownloadService
+  parent: Downloader
+  isExternal: true
+  name: DownloadService
+  nameWithType: DownloadService
+  fullName: Downloader.DownloadService
+- uid: Downloader
+  commentId: N:Downloader
+  isExternal: true
+  name: Downloader
+  nameWithType: Downloader
+  fullName: Downloader
+- uid: neo_bpsys_wpf.Services.UpdaterService.#ctor*
+  commentId: Overload:neo_bpsys_wpf.Services.UpdaterService.#ctor
+  href: neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService__ctor_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_
+  name: UpdaterService
+  nameWithType: UpdaterService.UpdaterService
+  fullName: neo_bpsys_wpf.Services.UpdaterService.UpdaterService
+  nameWithType.vb: UpdaterService.New
+  fullName.vb: neo_bpsys_wpf.Services.UpdaterService.New
+  name.vb: New
+- uid: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html
+  name: IMessageBoxService
+  nameWithType: IMessageBoxService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
+- uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html
+  name: IInfoBarService
+  nameWithType: IInfoBarService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+- uid: neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate*
+  commentId: Overload:neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate
+  href: neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_DownloadUpdate_System_String_
+  name: DownloadUpdate
+  nameWithType: UpdaterService.DownloadUpdate
+  fullName: neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate
+- uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.DownloadUpdate(System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IUpdaterService.DownloadUpdate(System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_DownloadUpdate_System_String_
+  name: DownloadUpdate(string)
+  nameWithType: IUpdaterService.DownloadUpdate(string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.DownloadUpdate(string)
+  nameWithType.vb: IUpdaterService.DownloadUpdate(String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.DownloadUpdate(String)
+  name.vb: DownloadUpdate(String)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.DownloadUpdate(System.String)
+    name: DownloadUpdate
+    href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_DownloadUpdate_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.DownloadUpdate(System.String)
+    name: DownloadUpdate
+    href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_DownloadUpdate_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: neo_bpsys_wpf.Services.UpdaterService.UpdateCheck*
+  commentId: Overload:neo_bpsys_wpf.Services.UpdaterService.UpdateCheck
+  href: neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_UpdateCheck_System_Boolean_System_String_
+  name: UpdateCheck
+  nameWithType: UpdaterService.UpdateCheck
+  fullName: neo_bpsys_wpf.Services.UpdaterService.UpdateCheck
+- uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.UpdateCheck(System.Boolean,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IUpdaterService.UpdateCheck(System.Boolean,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_UpdateCheck_System_Boolean_System_String_
+  name: UpdateCheck(bool, string)
+  nameWithType: IUpdaterService.UpdateCheck(bool, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.UpdateCheck(bool, string)
+  nameWithType.vb: IUpdaterService.UpdateCheck(Boolean, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.UpdateCheck(Boolean, String)
+  name.vb: UpdateCheck(Boolean, String)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.UpdateCheck(System.Boolean,System.String)
+    name: UpdateCheck
+    href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_UpdateCheck_System_Boolean_System_String_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.UpdateCheck(System.Boolean,System.String)
+    name: UpdateCheck
+    href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_UpdateCheck_System_Boolean_System_String_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: neo_bpsys_wpf.Services.UpdaterService.InstallUpdate*
+  commentId: Overload:neo_bpsys_wpf.Services.UpdaterService.InstallUpdate
+  href: neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_InstallUpdate
+  name: InstallUpdate
+  nameWithType: UpdaterService.InstallUpdate
+  fullName: neo_bpsys_wpf.Services.UpdaterService.InstallUpdate
+- uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.InstallUpdate
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IUpdaterService.InstallUpdate
+  parent: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
+  href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_InstallUpdate
+  name: InstallUpdate()
+  nameWithType: IUpdaterService.InstallUpdate()
+  fullName: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.InstallUpdate()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.InstallUpdate
+    name: InstallUpdate
+    href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_InstallUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.InstallUpdate
+    name: InstallUpdate
+    href: neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Abstractions_Services_IUpdaterService_InstallUpdate
+  - name: (
+  - name: )

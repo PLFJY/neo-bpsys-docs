@@ -1,0 +1,1098 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  id: ISharedDataService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  children:
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.AwayTeam
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentHunBanned
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentSurBanned
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalHunBanned
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalSurBanned
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CharacterList
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CurrentGame
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.GlobalScoreTotalMargin
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.HunCharaList
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsBo3Mode
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsTraitVisible
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.MainTeam
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.RemainingSeconds
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount(neo_bpsys_wpf.Enums.BanListName,System.Int32)
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SurCharaList
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart(System.Nullable{System.Int32})
+  - neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStop
+  langs:
+  - csharp
+  - vb
+  name: ISharedDataService
+  nameWithType: ISharedDataService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  type: Interface
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ISharedDataService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 共享数据服务接口
+  example: []
+  syntax:
+    content: public interface ISharedDataService
+    content.vb: Public Interface ISharedDataService
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.MainTeam
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.MainTeam
+  id: MainTeam
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: MainTeam
+  nameWithType: ISharedDataService.MainTeam
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.MainTeam
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: MainTeam
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 14
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 主队
+  example: []
+  syntax:
+    content: Team MainTeam { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.Team
+    content.vb: Property MainTeam As Team
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.MainTeam*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.AwayTeam
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.AwayTeam
+  id: AwayTeam
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: AwayTeam
+  nameWithType: ISharedDataService.AwayTeam
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.AwayTeam
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: AwayTeam
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 18
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 客队
+  example: []
+  syntax:
+    content: Team AwayTeam { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.Team
+    content.vb: Property AwayTeam As Team
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.AwayTeam*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CurrentGame
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CurrentGame
+  id: CurrentGame
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: CurrentGame
+  nameWithType: ISharedDataService.CurrentGame
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CurrentGame
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CurrentGame
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 22
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 当前对局
+  example: []
+  syntax:
+    content: Game CurrentGame { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.Game
+    content.vb: Property CurrentGame As Game
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CurrentGame*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CharacterList
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CharacterList
+  id: CharacterList
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: CharacterList
+  nameWithType: ISharedDataService.CharacterList
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CharacterList
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CharacterList
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 26
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 角色列表总表
+  example: []
+  syntax:
+    content: Dictionary<string, Character> CharacterList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.Character}
+    content.vb: Property CharacterList As Dictionary(Of String, Character)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CharacterList*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SurCharaList
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SurCharaList
+  id: SurCharaList
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: SurCharaList
+  nameWithType: ISharedDataService.SurCharaList
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SurCharaList
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SurCharaList
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 30
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 求生者列表
+  example: []
+  syntax:
+    content: Dictionary<string, Character> SurCharaList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.Character}
+    content.vb: Property SurCharaList As Dictionary(Of String, Character)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SurCharaList*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.HunCharaList
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.HunCharaList
+  id: HunCharaList
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: HunCharaList
+  nameWithType: ISharedDataService.HunCharaList
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.HunCharaList
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: HunCharaList
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 34
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 监管者列表
+  example: []
+  syntax:
+    content: Dictionary<string, Character> HunCharaList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.Character}
+    content.vb: Property HunCharaList As Dictionary(Of String, Character)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.HunCharaList*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentSurBanned
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentSurBanned
+  id: CanCurrentSurBanned
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: CanCurrentSurBanned
+  nameWithType: ISharedDataService.CanCurrentSurBanned
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentSurBanned
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CanCurrentSurBanned
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 38
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 求生者 (当局禁用) 是否可禁用
+  example: []
+  syntax:
+    content: ObservableCollection<bool> CanCurrentSurBanned { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.Boolean}
+    content.vb: Property CanCurrentSurBanned As ObservableCollection(Of Boolean)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentSurBanned*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentHunBanned
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentHunBanned
+  id: CanCurrentHunBanned
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: CanCurrentHunBanned
+  nameWithType: ISharedDataService.CanCurrentHunBanned
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentHunBanned
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CanCurrentHunBanned
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 42
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 监管者 (当局禁用) 是否可禁用
+  example: []
+  syntax:
+    content: ObservableCollection<bool> CanCurrentHunBanned { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.Boolean}
+    content.vb: Property CanCurrentHunBanned As ObservableCollection(Of Boolean)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentHunBanned*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalSurBanned
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalSurBanned
+  id: CanGlobalSurBanned
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: CanGlobalSurBanned
+  nameWithType: ISharedDataService.CanGlobalSurBanned
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalSurBanned
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CanGlobalSurBanned
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 46
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 求生者 (全局禁用) 是否可禁用
+  example: []
+  syntax:
+    content: ObservableCollection<bool> CanGlobalSurBanned { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.Boolean}
+    content.vb: Property CanGlobalSurBanned As ObservableCollection(Of Boolean)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalSurBanned*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalHunBanned
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalHunBanned
+  id: CanGlobalHunBanned
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: CanGlobalHunBanned
+  nameWithType: ISharedDataService.CanGlobalHunBanned
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalHunBanned
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CanGlobalHunBanned
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 50
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 监管者 (全局禁用) 是否可禁用
+  example: []
+  syntax:
+    content: ObservableCollection<bool> CanGlobalHunBanned { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.Boolean}
+    content.vb: Property CanGlobalHunBanned As ObservableCollection(Of Boolean)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalHunBanned*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsTraitVisible
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsTraitVisible
+  id: IsTraitVisible
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: IsTraitVisible
+  nameWithType: ISharedDataService.IsTraitVisible
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsTraitVisible
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IsTraitVisible
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 54
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 辅助特质是否可见
+  example: []
+  syntax:
+    content: bool IsTraitVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsTraitVisible As Boolean
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsTraitVisible*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.RemainingSeconds
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.RemainingSeconds
+  id: RemainingSeconds
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: RemainingSeconds
+  nameWithType: ISharedDataService.RemainingSeconds
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.RemainingSeconds
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: RemainingSeconds
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 58
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 倒计时剩余秒数
+  example: []
+  syntax:
+    content: string RemainingSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property RemainingSeconds As String
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.RemainingSeconds*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsBo3Mode
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsBo3Mode
+  id: IsBo3Mode
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: IsBo3Mode
+  nameWithType: ISharedDataService.IsBo3Mode
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsBo3Mode
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IsBo3Mode
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 62
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 是否是Bo3模式
+  example: []
+  syntax:
+    content: bool IsBo3Mode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsBo3Mode As Boolean
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsBo3Mode*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.GlobalScoreTotalMargin
+  commentId: P:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.GlobalScoreTotalMargin
+  id: GlobalScoreTotalMargin
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: GlobalScoreTotalMargin
+  nameWithType: ISharedDataService.GlobalScoreTotalMargin
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.GlobalScoreTotalMargin
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GlobalScoreTotalMargin
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 66
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 分数统计界面 BO3 和 BO5之间"Total"相差的距离
+  example: []
+  syntax:
+    content: double GlobalScoreTotalMargin { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property GlobalScoreTotalMargin As Double
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.GlobalScoreTotalMargin*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount(neo_bpsys_wpf.Enums.BanListName,System.Int32)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount(neo_bpsys_wpf.Enums.BanListName,System.Int32)
+  id: SetBanCount(neo_bpsys_wpf.Enums.BanListName,System.Int32)
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: SetBanCount(BanListName, int)
+  nameWithType: ISharedDataService.SetBanCount(BanListName, int)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount(neo_bpsys_wpf.Enums.BanListName, int)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SetBanCount
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 72
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 设置Ban位数量
+  example: []
+  syntax:
+    content: void SetBanCount(BanListName listName, int count)
+    parameters:
+    - id: listName
+      type: neo_bpsys_wpf.Enums.BanListName
+      description: Ban位列表名称
+    - id: count
+      type: System.Int32
+      description: Ban位数量
+    content.vb: Sub SetBanCount(listName As BanListName, count As Integer)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount*
+  nameWithType.vb: ISharedDataService.SetBanCount(BanListName, Integer)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount(neo_bpsys_wpf.Enums.BanListName, Integer)
+  name.vb: SetBanCount(BanListName, Integer)
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart(System.Nullable{System.Int32})
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart(System.Nullable{System.Int32})
+  id: TimerStart(System.Nullable{System.Int32})
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: TimerStart(int?)
+  nameWithType: ISharedDataService.TimerStart(int?)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart(int?)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: TimerStart
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 77
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 开始倒计时
+  example: []
+  syntax:
+    content: void TimerStart(int? seconds)
+    parameters:
+    - id: seconds
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.vb: Sub TimerStart(seconds As Integer?)
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart*
+  nameWithType.vb: ISharedDataService.TimerStart(Integer?)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart(Integer?)
+  name.vb: TimerStart(Integer?)
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStop
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStop
+  id: TimerStop
+  parent: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  langs:
+  - csharp
+  - vb
+  name: TimerStop()
+  nameWithType: ISharedDataService.TimerStop()
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStop()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: TimerStop
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISharedDataService.cs
+    startLine: 81
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 停止倒计时
+  example: []
+  syntax:
+    content: void TimerStop()
+    content.vb: Sub TimerStop()
+  overload: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStop*
+references:
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.MainTeam*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.MainTeam
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_MainTeam
+  name: MainTeam
+  nameWithType: ISharedDataService.MainTeam
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.MainTeam
+- uid: neo_bpsys_wpf.Models.Team
+  commentId: T:neo_bpsys_wpf.Models.Team
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Team.html
+  name: Team
+  nameWithType: Team
+  fullName: neo_bpsys_wpf.Models.Team
+- uid: neo_bpsys_wpf.Models
+  commentId: N:neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Models
+  nameWithType: neo_bpsys_wpf.Models
+  fullName: neo_bpsys_wpf.Models
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.AwayTeam*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.AwayTeam
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_AwayTeam
+  name: AwayTeam
+  nameWithType: ISharedDataService.AwayTeam
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.AwayTeam
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CurrentGame*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CurrentGame
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_CurrentGame
+  name: CurrentGame
+  nameWithType: ISharedDataService.CurrentGame
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CurrentGame
+- uid: neo_bpsys_wpf.Models.Game
+  commentId: T:neo_bpsys_wpf.Models.Game
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.Game.html
+  name: Game
+  nameWithType: Game
+  fullName: neo_bpsys_wpf.Models.Game
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CharacterList*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CharacterList
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_CharacterList
+  name: CharacterList
+  nameWithType: ISharedDataService.CharacterList
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CharacterList
+- uid: System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.Character}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.Character}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Character>
+  nameWithType: Dictionary<string, Character>
+  fullName: System.Collections.Generic.Dictionary<string, neo_bpsys_wpf.Models.Character>
+  nameWithType.vb: Dictionary(Of String, Character)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, neo_bpsys_wpf.Models.Character)
+  name.vb: Dictionary(Of String, Character)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: neo_bpsys_wpf.Models.Character
+    name: Character
+    href: neo_bpsys_wpf.Models.Character.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: neo_bpsys_wpf.Models.Character
+    name: Character
+    href: neo_bpsys_wpf.Models.Character.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SurCharaList*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SurCharaList
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_SurCharaList
+  name: SurCharaList
+  nameWithType: ISharedDataService.SurCharaList
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SurCharaList
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.HunCharaList*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.HunCharaList
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_HunCharaList
+  name: HunCharaList
+  nameWithType: ISharedDataService.HunCharaList
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.HunCharaList
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentSurBanned*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentSurBanned
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_CanCurrentSurBanned
+  name: CanCurrentSurBanned
+  nameWithType: ISharedDataService.CanCurrentSurBanned
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentSurBanned
+- uid: System.Collections.ObjectModel.ObservableCollection{System.Boolean}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{System.Boolean}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<bool>
+  nameWithType: ObservableCollection<bool>
+  fullName: System.Collections.ObjectModel.ObservableCollection<bool>
+  nameWithType.vb: ObservableCollection(Of Boolean)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of Boolean)
+  name.vb: ObservableCollection(Of Boolean)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentHunBanned*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentHunBanned
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_CanCurrentHunBanned
+  name: CanCurrentHunBanned
+  nameWithType: ISharedDataService.CanCurrentHunBanned
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanCurrentHunBanned
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalSurBanned*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalSurBanned
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_CanGlobalSurBanned
+  name: CanGlobalSurBanned
+  nameWithType: ISharedDataService.CanGlobalSurBanned
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalSurBanned
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalHunBanned*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalHunBanned
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_CanGlobalHunBanned
+  name: CanGlobalHunBanned
+  nameWithType: ISharedDataService.CanGlobalHunBanned
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.CanGlobalHunBanned
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsTraitVisible*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsTraitVisible
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_IsTraitVisible
+  name: IsTraitVisible
+  nameWithType: ISharedDataService.IsTraitVisible
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsTraitVisible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.RemainingSeconds*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.RemainingSeconds
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_RemainingSeconds
+  name: RemainingSeconds
+  nameWithType: ISharedDataService.RemainingSeconds
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.RemainingSeconds
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsBo3Mode*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsBo3Mode
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_IsBo3Mode
+  name: IsBo3Mode
+  nameWithType: ISharedDataService.IsBo3Mode
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.IsBo3Mode
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.GlobalScoreTotalMargin*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.GlobalScoreTotalMargin
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_GlobalScoreTotalMargin
+  name: GlobalScoreTotalMargin
+  nameWithType: ISharedDataService.GlobalScoreTotalMargin
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.GlobalScoreTotalMargin
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_SetBanCount_neo_bpsys_wpf_Enums_BanListName_System_Int32_
+  name: SetBanCount
+  nameWithType: ISharedDataService.SetBanCount
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.SetBanCount
+- uid: neo_bpsys_wpf.Enums.BanListName
+  commentId: T:neo_bpsys_wpf.Enums.BanListName
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.BanListName.html
+  name: BanListName
+  nameWithType: BanListName
+  fullName: neo_bpsys_wpf.Enums.BanListName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_TimerStart_System_Nullable_System_Int32__
+  name: TimerStart
+  nameWithType: ISharedDataService.TimerStart
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStart
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStop*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStop
+  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Abstractions_Services_ISharedDataService_TimerStop
+  name: TimerStop
+  nameWithType: ISharedDataService.TimerStop
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.TimerStop

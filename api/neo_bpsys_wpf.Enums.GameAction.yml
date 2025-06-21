@@ -1,0 +1,394 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Enums.GameAction
+  commentId: T:neo_bpsys_wpf.Enums.GameAction
+  id: GameAction
+  parent: neo_bpsys_wpf.Enums
+  children:
+  - neo_bpsys_wpf.Enums.GameAction.BanHun
+  - neo_bpsys_wpf.Enums.GameAction.BanMap
+  - neo_bpsys_wpf.Enums.GameAction.BanSur
+  - neo_bpsys_wpf.Enums.GameAction.DistributeChara
+  - neo_bpsys_wpf.Enums.GameAction.EndGuidance
+  - neo_bpsys_wpf.Enums.GameAction.None
+  - neo_bpsys_wpf.Enums.GameAction.PickCamp
+  - neo_bpsys_wpf.Enums.GameAction.PickHun
+  - neo_bpsys_wpf.Enums.GameAction.PickHunTalent
+  - neo_bpsys_wpf.Enums.GameAction.PickMap
+  - neo_bpsys_wpf.Enums.GameAction.PickSur
+  - neo_bpsys_wpf.Enums.GameAction.PickSurTalent
+  langs:
+  - csharp
+  - vb
+  name: GameAction
+  nameWithType: GameAction
+  fullName: neo_bpsys_wpf.Enums.GameAction
+  type: Enum
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GameAction
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: >-
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum GameAction
+    content.vb: >-
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum GameAction
+  attributes:
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: neo_bpsys_wpf.Enums.GameAction.None
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.None
+  id: None
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: GameAction.None
+  fullName: neo_bpsys_wpf.Enums.GameAction.None
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: None
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 8
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: None = 0
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.BanMap
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.BanMap
+  id: BanMap
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: BanMap
+  nameWithType: GameAction.BanMap
+  fullName: neo_bpsys_wpf.Enums.GameAction.BanMap
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BanMap
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: BanMap = 1
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.PickMap
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.PickMap
+  id: PickMap
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: PickMap
+  nameWithType: GameAction.PickMap
+  fullName: neo_bpsys_wpf.Enums.GameAction.PickMap
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickMap
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 10
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: PickMap = 2
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.PickCamp
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.PickCamp
+  id: PickCamp
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: PickCamp
+  nameWithType: GameAction.PickCamp
+  fullName: neo_bpsys_wpf.Enums.GameAction.PickCamp
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickCamp
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 11
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: PickCamp = 3
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.BanSur
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.BanSur
+  id: BanSur
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: BanSur
+  nameWithType: GameAction.BanSur
+  fullName: neo_bpsys_wpf.Enums.GameAction.BanSur
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BanSur
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: BanSur = 4
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.BanHun
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.BanHun
+  id: BanHun
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: BanHun
+  nameWithType: GameAction.BanHun
+  fullName: neo_bpsys_wpf.Enums.GameAction.BanHun
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BanHun
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 13
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: BanHun = 5
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.PickSur
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.PickSur
+  id: PickSur
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: PickSur
+  nameWithType: GameAction.PickSur
+  fullName: neo_bpsys_wpf.Enums.GameAction.PickSur
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickSur
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 14
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: PickSur = 6
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.PickHun
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.PickHun
+  id: PickHun
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: PickHun
+  nameWithType: GameAction.PickHun
+  fullName: neo_bpsys_wpf.Enums.GameAction.PickHun
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickHun
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: PickHun = 7
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.PickSurTalent
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.PickSurTalent
+  id: PickSurTalent
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: PickSurTalent
+  nameWithType: GameAction.PickSurTalent
+  fullName: neo_bpsys_wpf.Enums.GameAction.PickSurTalent
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickSurTalent
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 16
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: PickSurTalent = 8
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.PickHunTalent
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.PickHunTalent
+  id: PickHunTalent
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: PickHunTalent
+  nameWithType: GameAction.PickHunTalent
+  fullName: neo_bpsys_wpf.Enums.GameAction.PickHunTalent
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickHunTalent
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 17
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: PickHunTalent = 9
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.DistributeChara
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.DistributeChara
+  id: DistributeChara
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: DistributeChara
+  nameWithType: GameAction.DistributeChara
+  fullName: neo_bpsys_wpf.Enums.GameAction.DistributeChara
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: DistributeChara
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 18
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: DistributeChara = 10
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+- uid: neo_bpsys_wpf.Enums.GameAction.EndGuidance
+  commentId: F:neo_bpsys_wpf.Enums.GameAction.EndGuidance
+  id: EndGuidance
+  parent: neo_bpsys_wpf.Enums.GameAction
+  langs:
+  - csharp
+  - vb
+  name: EndGuidance
+  nameWithType: GameAction.EndGuidance
+  fullName: neo_bpsys_wpf.Enums.GameAction.EndGuidance
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/GameAction.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: EndGuidance
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
+    startLine: 19
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: EndGuidance = 11
+    return:
+      type: neo_bpsys_wpf.Enums.GameAction
+references:
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Enums.GameAction
+  commentId: T:neo_bpsys_wpf.Enums.GameAction
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.GameAction.html
+  name: GameAction
+  nameWithType: GameAction
+  fullName: neo_bpsys_wpf.Enums.GameAction

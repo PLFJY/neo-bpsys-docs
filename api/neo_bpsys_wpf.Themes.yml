@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Themes
+  commentId: N:neo_bpsys_wpf.Themes
+  id: neo_bpsys_wpf.Themes
+  children:
+  - neo_bpsys_wpf.Themes.IconThemesDictionary
+  langs:
+  - csharp
+  - vb
+  name: neo_bpsys_wpf.Themes
+  nameWithType: neo_bpsys_wpf.Themes
+  fullName: neo_bpsys_wpf.Themes
+  type: Namespace
+  assemblies:
+  - neo-bpsys-wpf
+references:
+- uid: neo_bpsys_wpf.Themes.IconThemesDictionary
+  commentId: T:neo_bpsys_wpf.Themes.IconThemesDictionary
+  href: neo_bpsys_wpf.Themes.IconThemesDictionary.html
+  name: IconThemesDictionary
+  nameWithType: IconThemesDictionary
+  fullName: neo_bpsys_wpf.Themes.IconThemesDictionary

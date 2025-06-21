@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Views.Windows
+  commentId: N:neo_bpsys_wpf.Views.Windows
+  id: neo_bpsys_wpf.Views.Windows
+  children:
+  - neo_bpsys_wpf.Views.Windows.BpWindow
+  - neo_bpsys_wpf.Views.Windows.GameDataWindow
+  - neo_bpsys_wpf.Views.Windows.InterludeWindow
+  - neo_bpsys_wpf.Views.Windows.MainWindow
+  - neo_bpsys_wpf.Views.Windows.MapBpWindow
+  - neo_bpsys_wpf.Views.Windows.ScoreManualWindow
+  - neo_bpsys_wpf.Views.Windows.ScoreWindow
+  - neo_bpsys_wpf.Views.Windows.WidgetsWindow
+  langs:
+  - csharp
+  - vb
+  name: neo_bpsys_wpf.Views.Windows
+  nameWithType: neo_bpsys_wpf.Views.Windows
+  fullName: neo_bpsys_wpf.Views.Windows
+  type: Namespace
+  assemblies:
+  - neo-bpsys-wpf
+references:
+- uid: neo_bpsys_wpf.Views.Windows.BpWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.BpWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.BpWindow.html
+  name: BpWindow
+  nameWithType: BpWindow
+  fullName: neo_bpsys_wpf.Views.Windows.BpWindow
+- uid: neo_bpsys_wpf.Views.Windows.GameDataWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.GameDataWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.GameDataWindow.html
+  name: GameDataWindow
+  nameWithType: GameDataWindow
+  fullName: neo_bpsys_wpf.Views.Windows.GameDataWindow
+- uid: neo_bpsys_wpf.Views.Windows.InterludeWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.InterludeWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.InterludeWindow.html
+  name: InterludeWindow
+  nameWithType: InterludeWindow
+  fullName: neo_bpsys_wpf.Views.Windows.InterludeWindow
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.MainWindow
+  href: neo_bpsys_wpf.Views.Windows.MainWindow.html
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow
+- uid: neo_bpsys_wpf.Views.Windows.MapBpWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.MapBpWindow
+  href: neo_bpsys_wpf.Views.Windows.MapBpWindow.html
+  name: MapBpWindow
+  nameWithType: MapBpWindow
+  fullName: neo_bpsys_wpf.Views.Windows.MapBpWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreManualWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html
+  name: ScoreManualWindow
+  nameWithType: ScoreManualWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.ScoreWindow.html
+  name: ScoreWindow
+  nameWithType: ScoreWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreWindow
+- uid: neo_bpsys_wpf.Views.Windows.WidgetsWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.WidgetsWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.WidgetsWindow.html
+  name: WidgetsWindow
+  nameWithType: WidgetsWindow
+  fullName: neo_bpsys_wpf.Views.Windows.WidgetsWindow
+- uid: neo_bpsys_wpf.Views.Windows
+  commentId: N:neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Views.Windows
+  nameWithType: neo_bpsys_wpf.Views.Windows
+  fullName: neo_bpsys_wpf.Views.Windows
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Views
+    name: Views
+    href: neo_bpsys_wpf.Views.html
+  - name: .
+  - uid: neo_bpsys_wpf.Views.Windows
+    name: Windows
+    href: neo_bpsys_wpf.Views.Windows.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Views
+    name: Views
+    href: neo_bpsys_wpf.Views.html
+  - name: .
+  - uid: neo_bpsys_wpf.Views.Windows
+    name: Windows
+    href: neo_bpsys_wpf.Views.Windows.html

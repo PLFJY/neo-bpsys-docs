@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Enums.Camp
+  commentId: T:neo_bpsys_wpf.Enums.Camp
+  id: Camp
+  parent: neo_bpsys_wpf.Enums
+  children:
+  - neo_bpsys_wpf.Enums.Camp.Hun
+  - neo_bpsys_wpf.Enums.Camp.Sur
+  langs:
+  - csharp
+  - vb
+  name: Camp
+  nameWithType: Camp
+  fullName: neo_bpsys_wpf.Enums.Camp
+  type: Enum
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Camp.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Camp
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Camp.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: >-
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum Camp
+    content.vb: >-
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum Camp
+  attributes:
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: neo_bpsys_wpf.Enums.Camp.Sur
+  commentId: F:neo_bpsys_wpf.Enums.Camp.Sur
+  id: Sur
+  parent: neo_bpsys_wpf.Enums.Camp
+  langs:
+  - csharp
+  - vb
+  name: Sur
+  nameWithType: Camp.Sur
+  fullName: neo_bpsys_wpf.Enums.Camp.Sur
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Camp.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Sur
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Camp.cs
+    startLine: 7
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Sur = 0
+    return:
+      type: neo_bpsys_wpf.Enums.Camp
+- uid: neo_bpsys_wpf.Enums.Camp.Hun
+  commentId: F:neo_bpsys_wpf.Enums.Camp.Hun
+  id: Hun
+  parent: neo_bpsys_wpf.Enums.Camp
+  langs:
+  - csharp
+  - vb
+  name: Hun
+  nameWithType: Camp.Hun
+  fullName: neo_bpsys_wpf.Enums.Camp.Hun
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/Camp.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Hun
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Camp.cs
+    startLine: 8
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: Hun = 1
+    return:
+      type: neo_bpsys_wpf.Enums.Camp
+references:
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Enums.Camp
+  commentId: T:neo_bpsys_wpf.Enums.Camp
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.Camp.html
+  name: Camp
+  nameWithType: Camp
+  fullName: neo_bpsys_wpf.Enums.Camp
