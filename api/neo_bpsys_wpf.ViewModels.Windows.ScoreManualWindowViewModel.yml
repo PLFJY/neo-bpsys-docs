@@ -23,7 +23,7 @@ items:
   type: Class
   source:
     id: ScoreManualWindowViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainWin.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -124,6 +124,87 @@ items:
   nameWithType.vb: ScoreManualWindowViewModel.New(ISharedDataService)
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
   name.vb: New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
+  id: EditAwayWinCommand
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: EditAwayWinCommand
+  nameWithType: ScoreManualWindowViewModel.EditAwayWinCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
+  type: Property
+  source:
+    id: EditAwayWinCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand<int> EditAwayWinCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
+    content.vb: Public ReadOnly Property EditAwayWinCommand As IRelayCommand(Of Integer)
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
+  id: EditMainTieCommand
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: EditMainTieCommand
+  nameWithType: ScoreManualWindowViewModel.EditMainTieCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
+  type: Property
+  source:
+    id: EditMainTieCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand<int> EditMainTieCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
+    content.vb: Public ReadOnly Property EditMainTieCommand As IRelayCommand(Of Integer)
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
+  id: EditAwayTieCommand
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: EditAwayTieCommand
+  nameWithType: ScoreManualWindowViewModel.EditAwayTieCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
+  type: Property
+  source:
+    id: EditAwayTieCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand<int> EditAwayTieCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
+    content.vb: Public ReadOnly Property EditAwayTieCommand As IRelayCommand(Of Integer)
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand*
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPointsCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPointsCommand
   id: EditAwayMinorPointsCommand
@@ -232,87 +313,6 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
     content.vb: Public ReadOnly Property EditMainWinCommand As IRelayCommand(Of Integer)
   overload: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainWinCommand*
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
-  id: EditAwayWinCommand
-  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
-  langs:
-  - csharp
-  - vb
-  name: EditAwayWinCommand
-  nameWithType: ScoreManualWindowViewModel.EditAwayWinCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
-  type: Property
-  source:
-    id: EditAwayWinCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand<int> EditAwayWinCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
-    content.vb: Public ReadOnly Property EditAwayWinCommand As IRelayCommand(Of Integer)
-  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand*
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
-  id: EditAwayTieCommand
-  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
-  langs:
-  - csharp
-  - vb
-  name: EditAwayTieCommand
-  nameWithType: ScoreManualWindowViewModel.EditAwayTieCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
-  type: Property
-  source:
-    id: EditAwayTieCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand<int> EditAwayTieCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
-    content.vb: Public ReadOnly Property EditAwayTieCommand As IRelayCommand(Of Integer)
-  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand*
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
-  id: EditMainTieCommand
-  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
-  langs:
-  - csharp
-  - vb
-  name: EditMainTieCommand
-  nameWithType: ScoreManualWindowViewModel.EditMainTieCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
-  type: Property
-  source:
-    id: EditMainTieCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand<int> EditMainTieCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
-    content.vb: Public ReadOnly Property EditMainTieCommand As IRelayCommand(Of Integer)
-  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand*
 references:
 - uid: neo_bpsys_wpf.ViewModels.Windows
   commentId: N:neo_bpsys_wpf.ViewModels.Windows
@@ -2417,19 +2417,19 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(System.Int32)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(System.Int32)
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: EditAwayMinorPoints(int)
-  nameWithType: ScoreManualWindowViewModel.EditAwayMinorPoints(int)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(int)
-  nameWithType.vb: ScoreManualWindowViewModel.EditAwayMinorPoints(Integer)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(Integer)
-  name.vb: EditAwayMinorPoints(Integer)
+  name: EditAwayWin(int)
+  nameWithType: ScoreManualWindowViewModel.EditAwayWin(int)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(int)
+  nameWithType.vb: ScoreManualWindowViewModel.EditAwayWin(Integer)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(Integer)
+  name.vb: EditAwayWin(Integer)
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(System.Int32)
-    name: EditAwayMinorPoints
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)
+    name: EditAwayWin
   - name: (
   - uid: System.Int32
     name: int
@@ -2437,20 +2437,20 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(System.Int32)
-    name: EditAwayMinorPoints
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)
+    name: EditAwayWin
   - name: (
   - uid: System.Int32
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPointsCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPointsCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel_EditAwayMinorPointsCommand
-  name: EditAwayMinorPointsCommand
-  nameWithType: ScoreManualWindowViewModel.EditAwayMinorPointsCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPointsCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel_EditAwayWinCommand
+  name: EditAwayWinCommand
+  nameWithType: ScoreManualWindowViewModel.EditAwayWinCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
 - uid: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
   commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand{System.Int32}
   parent: CommunityToolkit.Mvvm.Input
@@ -2523,6 +2523,108 @@ references:
     name: Input
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: EditMainTie(int)
+  nameWithType: ScoreManualWindowViewModel.EditMainTie(int)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(int)
+  nameWithType.vb: ScoreManualWindowViewModel.EditMainTie(Integer)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(Integer)
+  name.vb: EditMainTie(Integer)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)
+    name: EditMainTie
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)
+    name: EditMainTie
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel_EditMainTieCommand
+  name: EditMainTieCommand
+  nameWithType: ScoreManualWindowViewModel.EditMainTieCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: EditAwayTie(int)
+  nameWithType: ScoreManualWindowViewModel.EditAwayTie(int)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(int)
+  nameWithType.vb: ScoreManualWindowViewModel.EditAwayTie(Integer)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(Integer)
+  name.vb: EditAwayTie(Integer)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)
+    name: EditAwayTie
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)
+    name: EditAwayTie
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel_EditAwayTieCommand
+  name: EditAwayTieCommand
+  nameWithType: ScoreManualWindowViewModel.EditAwayTieCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(System.Int32)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: EditAwayMinorPoints(int)
+  nameWithType: ScoreManualWindowViewModel.EditAwayMinorPoints(int)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(int)
+  nameWithType.vb: ScoreManualWindowViewModel.EditAwayMinorPoints(Integer)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(Integer)
+  name.vb: EditAwayMinorPoints(Integer)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(System.Int32)
+    name: EditAwayMinorPoints
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPoints(System.Int32)
+    name: EditAwayMinorPoints
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPointsCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPointsCommand
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel_EditAwayMinorPointsCommand
+  name: EditAwayMinorPointsCommand
+  nameWithType: ScoreManualWindowViewModel.EditAwayMinorPointsCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayMinorPointsCommand
 - uid: CommunityToolkit.Mvvm.Input.IRelayCommand
   commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
   parent: CommunityToolkit.Mvvm.Input
@@ -2620,105 +2722,3 @@ references:
   name: EditMainWinCommand
   nameWithType: ScoreManualWindowViewModel.EditMainWinCommand
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainWinCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: EditAwayWin(int)
-  nameWithType: ScoreManualWindowViewModel.EditAwayWin(int)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(int)
-  nameWithType.vb: ScoreManualWindowViewModel.EditAwayWin(Integer)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(Integer)
-  name.vb: EditAwayWin(Integer)
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)
-    name: EditAwayWin
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWin(System.Int32)
-    name: EditAwayWin
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel_EditAwayWinCommand
-  name: EditAwayWinCommand
-  nameWithType: ScoreManualWindowViewModel.EditAwayWinCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayWinCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: EditAwayTie(int)
-  nameWithType: ScoreManualWindowViewModel.EditAwayTie(int)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(int)
-  nameWithType.vb: ScoreManualWindowViewModel.EditAwayTie(Integer)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(Integer)
-  name.vb: EditAwayTie(Integer)
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)
-    name: EditAwayTie
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTie(System.Int32)
-    name: EditAwayTie
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel_EditAwayTieCommand
-  name: EditAwayTieCommand
-  nameWithType: ScoreManualWindowViewModel.EditAwayTieCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditAwayTieCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: EditMainTie(int)
-  nameWithType: ScoreManualWindowViewModel.EditMainTie(int)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(int)
-  nameWithType.vb: ScoreManualWindowViewModel.EditMainTie(Integer)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(Integer)
-  name.vb: EditMainTie(Integer)
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)
-    name: EditMainTie
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTie(System.Int32)
-    name: EditMainTie
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
-  href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel_EditMainTieCommand
-  name: EditMainTieCommand
-  nameWithType: ScoreManualWindowViewModel.EditMainTieCommand
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.EditMainTieCommand
