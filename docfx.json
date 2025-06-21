@@ -21,8 +21,7 @@
         ],
         "exclude": [
           "_site/**"
-        ],
-        "src": "docs"
+        ]
       }
     ],
     "resource": [
