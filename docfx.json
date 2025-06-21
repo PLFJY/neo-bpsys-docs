@@ -20,7 +20,7 @@
           "**/*.{md,yml}"
         ],
         "exclude": [
-          "_site/**"
+          "site/**"
         ]
       }
     ],
@@ -31,7 +31,7 @@
         ]
       }
     ],
-    "output": "_site",
+    "output": "site",
     "template": [
       "default",
       "modern"
@@ -39,6 +39,8 @@
     "globalMetadata": {
       "_appName": "neo-bpsys-wpf",
       "_appTitle": "neo-bpsys Docs",
+      "_appFaviconPath": "images/favicon.ico",
+      "_appLogoPath": "images/icon.png",
       "_enableSearch": true,
       "pdf": true
     }
