@@ -30,7 +30,7 @@ items:
   type: Class
   source:
     id: CharaSelectViewModelBase
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -438,6 +438,33 @@ items:
   overload: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive*
   implements:
   - CommunityToolkit.Mvvm.Messaging.IRecipient{neo_bpsys_wpf.Messages.HighlightMessage}.Receive(neo_bpsys_wpf.Messages.HighlightMessage)
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+  commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+  id: ConfirmCommand
+  parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
+  langs:
+  - csharp
+  - vb
+  name: ConfirmCommand
+  nameWithType: CharaSelectViewModelBase.ConfirmCommand
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+  type: Property
+  source:
+    id: ConfirmCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.ViewModels
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand ConfirmCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property ConfirmCommand As IRelayCommand
+  overload: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand*
 - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   id: SelectedChara
@@ -542,33 +569,6 @@ items:
       type: System.Boolean
     content.vb: Public Property IsCharaChangerHighlighted As Boolean
   overload: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsCharaChangerHighlighted*
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-  commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-  id: ConfirmCommand
-  parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
-  langs:
-  - csharp
-  - vb
-  name: ConfirmCommand
-  nameWithType: CharaSelectViewModelBase.ConfirmCommand
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-  type: Property
-  source:
-    id: ConfirmCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.ViewModels
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ConfirmCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ConfirmCommand As IRelayCommand
-  overload: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand*
 references:
 - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList
   commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList
@@ -4547,6 +4547,72 @@ references:
     name: HighlightMessage
     href: neo_bpsys_wpf.Messages.HighlightMessage.html
   - name: )
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
+  parent: CommunityToolkit.Mvvm.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand
+  name: IRelayCommand
+  nameWithType: IRelayCommand
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm
+  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm
+  name: Confirm()
+  nameWithType: CharaSelectViewModelBase.Confirm()
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm
+    name: Confirm
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm
+    name: Confirm
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+  href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand
+  name: ConfirmCommand
+  nameWithType: CharaSelectViewModelBase.ConfirmCommand
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+- uid: CommunityToolkit.Mvvm.Input
+  commentId: N:CommunityToolkit.Mvvm.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  name: CommunityToolkit.Mvvm.Input
+  nameWithType: CommunityToolkit.Mvvm.Input
+  fullName: CommunityToolkit.Mvvm.Input
+  spec.csharp:
+  - uid: CommunityToolkit
+    name: CommunityToolkit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  - name: .
+  - uid: CommunityToolkit.Mvvm
+    name: Mvvm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
+  - name: .
+  - uid: CommunityToolkit.Mvvm.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
+  spec.vb:
+  - uid: CommunityToolkit
+    name: CommunityToolkit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  - name: .
+  - uid: CommunityToolkit.Mvvm
+    name: Mvvm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
+  - name: .
+  - uid: CommunityToolkit.Mvvm.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
 - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara*
   commentId: Overload:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_SelectedChara
@@ -4645,69 +4711,3 @@ references:
   name: IsCharaChangerHighlighted
   nameWithType: CharaSelectViewModelBase.IsCharaChangerHighlighted
   fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsCharaChangerHighlighted
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
-  parent: CommunityToolkit.Mvvm.Input
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand
-  name: IRelayCommand
-  nameWithType: IRelayCommand
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm
-  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm
-  name: Confirm()
-  nameWithType: CharaSelectViewModelBase.Confirm()
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm
-    name: Confirm
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Confirm
-    name: Confirm
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-  href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand
-  name: ConfirmCommand
-  nameWithType: CharaSelectViewModelBase.ConfirmCommand
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-- uid: CommunityToolkit.Mvvm.Input
-  commentId: N:CommunityToolkit.Mvvm.Input
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit
-  name: CommunityToolkit.Mvvm.Input
-  nameWithType: CommunityToolkit.Mvvm.Input
-  fullName: CommunityToolkit.Mvvm.Input
-  spec.csharp:
-  - uid: CommunityToolkit
-    name: CommunityToolkit
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
-  - name: .
-  - uid: CommunityToolkit.Mvvm
-    name: Mvvm
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
-  - name: .
-  - uid: CommunityToolkit.Mvvm.Input
-    name: Input
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
-  spec.vb:
-  - uid: CommunityToolkit
-    name: CommunityToolkit
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
-  - name: .
-  - uid: CommunityToolkit.Mvvm
-    name: Mvvm
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
-  - name: .
-  - uid: CommunityToolkit.Mvvm.Input
-    name: Input
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input

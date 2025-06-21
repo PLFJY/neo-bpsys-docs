@@ -37,4 +37,4 @@ dotnet publish ".\neo-bpsys-wpf\neo-bpsys-wpf.csproj" -c Release -o ".\build\neo
 
 ## 使用教程
 
-请前往 [使用文档](https://www.yuque.com/renjinotbot/dywp9i)
+请前往 [使用文档](https://docs.bpsys.plfjy.top/)
