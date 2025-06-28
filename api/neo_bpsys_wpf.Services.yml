@@ -10,6 +10,7 @@ items:
   - neo_bpsys_wpf.Services.GameGuidanceService
   - neo_bpsys_wpf.Services.GameGuidanceService.GameProperty
   - neo_bpsys_wpf.Services.GameGuidanceService.Step
+  - neo_bpsys_wpf.Services.IgnoreFocusLossService
   - neo_bpsys_wpf.Services.InfoBarService
   - neo_bpsys_wpf.Services.MessageBoxService
   - neo_bpsys_wpf.Services.SettingsHostService
@@ -95,6 +96,12 @@ references:
   - uid: neo_bpsys_wpf.Services.GameGuidanceService.Step
     name: Step
     href: neo_bpsys_wpf.Services.GameGuidanceService.Step.html
+- uid: neo_bpsys_wpf.Services.IgnoreFocusLossService
+  commentId: T:neo_bpsys_wpf.Services.IgnoreFocusLossService
+  href: neo_bpsys_wpf.Services.IgnoreFocusLossService.html
+  name: IgnoreFocusLossService
+  nameWithType: IgnoreFocusLossService
+  fullName: neo_bpsys_wpf.Services.IgnoreFocusLossService
 - uid: neo_bpsys_wpf.Services.InfoBarService
   commentId: T:neo_bpsys_wpf.Services.InfoBarService
   href: neo_bpsys_wpf.Services.InfoBarService.html

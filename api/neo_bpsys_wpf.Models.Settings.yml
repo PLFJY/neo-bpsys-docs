@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsAdminOnStartup
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -81,7 +81,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FrontResolution
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs

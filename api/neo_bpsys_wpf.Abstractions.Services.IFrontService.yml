@@ -30,7 +30,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IFrontService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FrontWindowStates
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: LoadWindowElementsPositionOnStartupAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowHide
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -154,7 +154,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowShow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -180,7 +180,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HideWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -242,7 +242,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RestoreInitialPositions
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -282,7 +282,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveWindowElementsPosition
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -320,7 +320,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetGlobalScore
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -363,7 +363,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetGlobalScoreToBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -400,7 +400,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetGlobalScore
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -428,7 +428,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FadeInAnimation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -466,7 +466,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FadeOutAnimation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -504,7 +504,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BreathingStart
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -544,7 +544,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BreathingStop
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs

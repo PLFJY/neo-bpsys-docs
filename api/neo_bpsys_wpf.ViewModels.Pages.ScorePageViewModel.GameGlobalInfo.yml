@@ -19,11 +19,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameGlobalInfo
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 403
+    startLine: 433
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -54,11 +54,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 403
+    startLine: 433
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -83,11 +83,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsGameFinished
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 405
+    startLine: 435
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -112,11 +112,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeamCamp
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 406
+    startLine: 436
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -141,11 +141,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameResult
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 407
+    startLine: 437
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages

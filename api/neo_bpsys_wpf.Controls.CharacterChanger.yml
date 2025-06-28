@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharacterChanger
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs
@@ -667,7 +667,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IndexProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs
@@ -694,7 +694,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Index
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs
@@ -723,7 +723,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CommandProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs
@@ -750,7 +750,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Command
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs
@@ -779,7 +779,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SpacingProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs
@@ -806,7 +806,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Spacing
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs
@@ -835,7 +835,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHighlighted
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs
@@ -864,7 +864,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChanger.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHighlightedProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChanger.cs

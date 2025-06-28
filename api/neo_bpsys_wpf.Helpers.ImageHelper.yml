@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageHelper
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetUiImageBrush
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetUiImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetImageSourceFromFileName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
@@ -172,7 +172,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetImageSourceFromName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetTalentImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs

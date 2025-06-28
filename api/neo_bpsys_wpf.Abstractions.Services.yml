@@ -7,6 +7,7 @@ items:
   - neo_bpsys_wpf.Abstractions.Services.IFilePickerService
   - neo_bpsys_wpf.Abstractions.Services.IFrontService
   - neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService
+  - neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
   - neo_bpsys_wpf.Abstractions.Services.IInfoBarService
   - neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
@@ -43,6 +44,13 @@ references:
   name: IGameGuidanceService
   nameWithType: IGameGuidanceService
   fullName: neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html
+  name: IIgnoreFocusLossService
+  nameWithType: IIgnoreFocusLossService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
 - uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
   commentId: T:neo_bpsys_wpf.Abstractions.Services.IInfoBarService
   parent: neo_bpsys_wpf.Abstractions.Services

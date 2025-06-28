@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/WindowResolution.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WindowResolution
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/WindowResolution.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/WindowResolution.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Width
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/WindowResolution.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/WindowResolution.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Height
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/WindowResolution.cs

@@ -350,6 +350,54 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService.StopGuidance
   nameWithType: IGameGuidanceService.StopGuidance
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  name: IIgnoreFocusLossService
+  href: api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  nameWithType: IIgnoreFocusLossService
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(System.String)
+  name: Add(string)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Add_System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(System.String)
+  name.vb: Add(String)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(string)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(String)
+  nameWithType: IIgnoreFocusLossService.Add(string)
+  nameWithType.vb: IIgnoreFocusLossService.Add(String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add*
+  name: Add
+  href: api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Add_
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add
+  nameWithType: IIgnoreFocusLossService.Add
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+  name: Start()
+  href: api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Start
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start()
+  nameWithType: IIgnoreFocusLossService.Start()
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start*
+  name: Start
+  href: api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Start_
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+  nameWithType: IIgnoreFocusLossService.Start
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop
+  name: Stop()
+  href: api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Stop
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop()
+  nameWithType: IIgnoreFocusLossService.Stop()
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop*
+  name: Stop
+  href: api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Stop_
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop
+  nameWithType: IIgnoreFocusLossService.Stop
 - uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
   name: IInfoBarService
   href: api/neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html
@@ -2211,6 +2259,25 @@ references:
   commentId: F:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.ImageWidthProperty
   fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.ImageWidthProperty
   nameWithType: ToggleStyledRadioButton.ImageWidthProperty
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  name: IsImageVisible
+  href: api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_IsImageVisible
+  commentId: P:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  nameWithType: ToggleStyledRadioButton.IsImageVisible
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible*
+  name: IsImageVisible
+  href: api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_IsImageVisible_
+  commentId: Overload:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  nameWithType: ToggleStyledRadioButton.IsImageVisible
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisibleProperty
+  name: IsImageVisibleProperty
+  href: api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_IsImageVisibleProperty
+  commentId: F:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisibleProperty
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisibleProperty
+  nameWithType: ToggleStyledRadioButton.IsImageVisibleProperty
 - uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagName
   name: TagName
   href: api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_TagName
@@ -2224,6 +2291,25 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagName
   nameWithType: ToggleStyledRadioButton.TagName
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  name: TagNameFontSize
+  href: api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_TagNameFontSize
+  commentId: P:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  nameWithType: ToggleStyledRadioButton.TagNameFontSize
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize*
+  name: TagNameFontSize
+  href: api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_TagNameFontSize_
+  commentId: Overload:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  nameWithType: ToggleStyledRadioButton.TagNameFontSize
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSizeProperty
+  name: TagNameFontSizeProperty
+  href: api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_TagNameFontSizeProperty
+  commentId: F:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSizeProperty
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSizeProperty
+  nameWithType: ToggleStyledRadioButton.TagNameFontSizeProperty
 - uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameProperty
   name: TagNameProperty
   href: api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_TagNameProperty
@@ -3229,6 +3315,57 @@ references:
   commentId: N:neo_bpsys_wpf.Helpers
   fullName: neo_bpsys_wpf.Helpers
   nameWithType: neo_bpsys_wpf.Helpers
+- uid: neo_bpsys_wpf.Helpers.AdminHelper
+  name: AdminHelper
+  href: api/neo_bpsys_wpf.Helpers.AdminHelper.html
+  commentId: T:neo_bpsys_wpf.Helpers.AdminHelper
+  fullName: neo_bpsys_wpf.Helpers.AdminHelper
+  nameWithType: AdminHelper
+- uid: neo_bpsys_wpf.Helpers.AdminHelper.IsAdministrator
+  name: IsAdministrator()
+  href: api/neo_bpsys_wpf.Helpers.AdminHelper.html#neo_bpsys_wpf_Helpers_AdminHelper_IsAdministrator
+  commentId: M:neo_bpsys_wpf.Helpers.AdminHelper.IsAdministrator
+  fullName: neo_bpsys_wpf.Helpers.AdminHelper.IsAdministrator()
+  nameWithType: AdminHelper.IsAdministrator()
+- uid: neo_bpsys_wpf.Helpers.AdminHelper.IsAdministrator*
+  name: IsAdministrator
+  href: api/neo_bpsys_wpf.Helpers.AdminHelper.html#neo_bpsys_wpf_Helpers_AdminHelper_IsAdministrator_
+  commentId: Overload:neo_bpsys_wpf.Helpers.AdminHelper.IsAdministrator
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Helpers.AdminHelper.IsAdministrator
+  nameWithType: AdminHelper.IsAdministrator
+- uid: neo_bpsys_wpf.Helpers.AdminHelper.Restart(System.String)
+  name: Restart(string?)
+  href: api/neo_bpsys_wpf.Helpers.AdminHelper.html#neo_bpsys_wpf_Helpers_AdminHelper_Restart_System_String_
+  commentId: M:neo_bpsys_wpf.Helpers.AdminHelper.Restart(System.String)
+  name.vb: Restart(String)
+  fullName: neo_bpsys_wpf.Helpers.AdminHelper.Restart(string?)
+  fullName.vb: neo_bpsys_wpf.Helpers.AdminHelper.Restart(String)
+  nameWithType: AdminHelper.Restart(string?)
+  nameWithType.vb: AdminHelper.Restart(String)
+- uid: neo_bpsys_wpf.Helpers.AdminHelper.Restart*
+  name: Restart
+  href: api/neo_bpsys_wpf.Helpers.AdminHelper.html#neo_bpsys_wpf_Helpers_AdminHelper_Restart_
+  commentId: Overload:neo_bpsys_wpf.Helpers.AdminHelper.Restart
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Helpers.AdminHelper.Restart
+  nameWithType: AdminHelper.Restart
+- uid: neo_bpsys_wpf.Helpers.AdminHelper.RestartAsAdmin(System.String)
+  name: RestartAsAdmin(string?)
+  href: api/neo_bpsys_wpf.Helpers.AdminHelper.html#neo_bpsys_wpf_Helpers_AdminHelper_RestartAsAdmin_System_String_
+  commentId: M:neo_bpsys_wpf.Helpers.AdminHelper.RestartAsAdmin(System.String)
+  name.vb: RestartAsAdmin(String)
+  fullName: neo_bpsys_wpf.Helpers.AdminHelper.RestartAsAdmin(string?)
+  fullName.vb: neo_bpsys_wpf.Helpers.AdminHelper.RestartAsAdmin(String)
+  nameWithType: AdminHelper.RestartAsAdmin(string?)
+  nameWithType.vb: AdminHelper.RestartAsAdmin(String)
+- uid: neo_bpsys_wpf.Helpers.AdminHelper.RestartAsAdmin*
+  name: RestartAsAdmin
+  href: api/neo_bpsys_wpf.Helpers.AdminHelper.html#neo_bpsys_wpf_Helpers_AdminHelper_RestartAsAdmin_
+  commentId: Overload:neo_bpsys_wpf.Helpers.AdminHelper.RestartAsAdmin
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Helpers.AdminHelper.RestartAsAdmin
+  nameWithType: AdminHelper.RestartAsAdmin
 - uid: neo_bpsys_wpf.Helpers.ImageHelper
   name: ImageHelper
   href: api/neo_bpsys_wpf.Helpers.ImageHelper.html
@@ -5036,6 +5173,117 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.WindowResolution.Width
   nameWithType: WindowResolution.Width
+- uid: neo_bpsys_wpf.NativeMethods
+  name: NativeMethods
+  href: api/neo_bpsys_wpf.NativeMethods.html
+  commentId: T:neo_bpsys_wpf.NativeMethods
+  fullName: neo_bpsys_wpf.NativeMethods
+  nameWithType: NativeMethods
+- uid: neo_bpsys_wpf.NativeMethods.GetActiveWindow
+  name: GetActiveWindow()
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_GetActiveWindow
+  commentId: M:neo_bpsys_wpf.NativeMethods.GetActiveWindow
+  fullName: neo_bpsys_wpf.NativeMethods.GetActiveWindow()
+  nameWithType: NativeMethods.GetActiveWindow()
+- uid: neo_bpsys_wpf.NativeMethods.GetActiveWindow*
+  name: GetActiveWindow
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_GetActiveWindow_
+  commentId: Overload:neo_bpsys_wpf.NativeMethods.GetActiveWindow
+  fullName: neo_bpsys_wpf.NativeMethods.GetActiveWindow
+  nameWithType: NativeMethods.GetActiveWindow
+- uid: neo_bpsys_wpf.NativeMethods.GetFocus
+  name: GetFocus()
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_GetFocus
+  commentId: M:neo_bpsys_wpf.NativeMethods.GetFocus
+  fullName: neo_bpsys_wpf.NativeMethods.GetFocus()
+  nameWithType: NativeMethods.GetFocus()
+- uid: neo_bpsys_wpf.NativeMethods.GetFocus*
+  name: GetFocus
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_GetFocus_
+  commentId: Overload:neo_bpsys_wpf.NativeMethods.GetFocus
+  fullName: neo_bpsys_wpf.NativeMethods.GetFocus
+  nameWithType: NativeMethods.GetFocus
+- uid: neo_bpsys_wpf.NativeMethods.GetForegroundWindow
+  name: GetForegroundWindow()
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_GetForegroundWindow
+  commentId: M:neo_bpsys_wpf.NativeMethods.GetForegroundWindow
+  fullName: neo_bpsys_wpf.NativeMethods.GetForegroundWindow()
+  nameWithType: NativeMethods.GetForegroundWindow()
+- uid: neo_bpsys_wpf.NativeMethods.GetForegroundWindow*
+  name: GetForegroundWindow
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_GetForegroundWindow_
+  commentId: Overload:neo_bpsys_wpf.NativeMethods.GetForegroundWindow
+  fullName: neo_bpsys_wpf.NativeMethods.GetForegroundWindow
+  nameWithType: NativeMethods.GetForegroundWindow
+- uid: neo_bpsys_wpf.NativeMethods.GetWindowThreadProcessId(System.IntPtr,System.UInt32@)
+  name: GetWindowThreadProcessId(nint, out uint)
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_GetWindowThreadProcessId_System_IntPtr_System_UInt32__
+  commentId: M:neo_bpsys_wpf.NativeMethods.GetWindowThreadProcessId(System.IntPtr,System.UInt32@)
+  name.vb: GetWindowThreadProcessId(IntPtr, UInteger)
+  fullName: neo_bpsys_wpf.NativeMethods.GetWindowThreadProcessId(nint, out uint)
+  fullName.vb: neo_bpsys_wpf.NativeMethods.GetWindowThreadProcessId(System.IntPtr, UInteger)
+  nameWithType: NativeMethods.GetWindowThreadProcessId(nint, out uint)
+  nameWithType.vb: NativeMethods.GetWindowThreadProcessId(IntPtr, UInteger)
+- uid: neo_bpsys_wpf.NativeMethods.GetWindowThreadProcessId*
+  name: GetWindowThreadProcessId
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_GetWindowThreadProcessId_
+  commentId: Overload:neo_bpsys_wpf.NativeMethods.GetWindowThreadProcessId
+  fullName: neo_bpsys_wpf.NativeMethods.GetWindowThreadProcessId
+  nameWithType: NativeMethods.GetWindowThreadProcessId
+- uid: neo_bpsys_wpf.NativeMethods.HWND_NOTOPMOST
+  name: HWND_NOTOPMOST
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_HWND_NOTOPMOST
+  commentId: F:neo_bpsys_wpf.NativeMethods.HWND_NOTOPMOST
+  fullName: neo_bpsys_wpf.NativeMethods.HWND_NOTOPMOST
+  nameWithType: NativeMethods.HWND_NOTOPMOST
+- uid: neo_bpsys_wpf.NativeMethods.HWND_TOPMOST
+  name: HWND_TOPMOST
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_HWND_TOPMOST
+  commentId: F:neo_bpsys_wpf.NativeMethods.HWND_TOPMOST
+  fullName: neo_bpsys_wpf.NativeMethods.HWND_TOPMOST
+  nameWithType: NativeMethods.HWND_TOPMOST
+- uid: neo_bpsys_wpf.NativeMethods.IsWindowEnabled(System.IntPtr)
+  name: IsWindowEnabled(nint)
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_IsWindowEnabled_System_IntPtr_
+  commentId: M:neo_bpsys_wpf.NativeMethods.IsWindowEnabled(System.IntPtr)
+  name.vb: IsWindowEnabled(IntPtr)
+  fullName: neo_bpsys_wpf.NativeMethods.IsWindowEnabled(nint)
+  fullName.vb: neo_bpsys_wpf.NativeMethods.IsWindowEnabled(System.IntPtr)
+  nameWithType: NativeMethods.IsWindowEnabled(nint)
+  nameWithType.vb: NativeMethods.IsWindowEnabled(IntPtr)
+- uid: neo_bpsys_wpf.NativeMethods.IsWindowEnabled*
+  name: IsWindowEnabled
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_IsWindowEnabled_
+  commentId: Overload:neo_bpsys_wpf.NativeMethods.IsWindowEnabled
+  fullName: neo_bpsys_wpf.NativeMethods.IsWindowEnabled
+  nameWithType: NativeMethods.IsWindowEnabled
+- uid: neo_bpsys_wpf.NativeMethods.SWP_NOMOVE
+  name: SWP_NOMOVE
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_SWP_NOMOVE
+  commentId: F:neo_bpsys_wpf.NativeMethods.SWP_NOMOVE
+  fullName: neo_bpsys_wpf.NativeMethods.SWP_NOMOVE
+  nameWithType: NativeMethods.SWP_NOMOVE
+- uid: neo_bpsys_wpf.NativeMethods.SWP_NOSIZE
+  name: SWP_NOSIZE
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_SWP_NOSIZE
+  commentId: F:neo_bpsys_wpf.NativeMethods.SWP_NOSIZE
+  fullName: neo_bpsys_wpf.NativeMethods.SWP_NOSIZE
+  nameWithType: NativeMethods.SWP_NOSIZE
+- uid: neo_bpsys_wpf.NativeMethods.SetWindowPos(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.UInt32)
+  name: SetWindowPos(nint, nint, int, int, int, int, uint)
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_SetWindowPos_System_IntPtr_System_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32_System_UInt32_
+  commentId: M:neo_bpsys_wpf.NativeMethods.SetWindowPos(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.UInt32)
+  name.vb: SetWindowPos(IntPtr, IntPtr, Integer, Integer, Integer, Integer, UInteger)
+  fullName: neo_bpsys_wpf.NativeMethods.SetWindowPos(nint, nint, int, int, int, int, uint)
+  fullName.vb: neo_bpsys_wpf.NativeMethods.SetWindowPos(System.IntPtr, System.IntPtr, Integer, Integer, Integer, Integer, UInteger)
+  nameWithType: NativeMethods.SetWindowPos(nint, nint, int, int, int, int, uint)
+  nameWithType.vb: NativeMethods.SetWindowPos(IntPtr, IntPtr, Integer, Integer, Integer, Integer, UInteger)
+- uid: neo_bpsys_wpf.NativeMethods.SetWindowPos*
+  name: SetWindowPos
+  href: api/neo_bpsys_wpf.NativeMethods.html#neo_bpsys_wpf_NativeMethods_SetWindowPos_
+  commentId: Overload:neo_bpsys_wpf.NativeMethods.SetWindowPos
+  fullName: neo_bpsys_wpf.NativeMethods.SetWindowPos
+  nameWithType: NativeMethods.SetWindowPos
 - uid: neo_bpsys_wpf.Services
   name: neo_bpsys_wpf.Services
   href: api/neo_bpsys_wpf.Services.html
@@ -5584,6 +5832,54 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.GameGuidanceService.StopGuidance
   nameWithType: GameGuidanceService.StopGuidance
+- uid: neo_bpsys_wpf.Services.IgnoreFocusLossService
+  name: IgnoreFocusLossService
+  href: api/neo_bpsys_wpf.Services.IgnoreFocusLossService.html
+  commentId: T:neo_bpsys_wpf.Services.IgnoreFocusLossService
+  fullName: neo_bpsys_wpf.Services.IgnoreFocusLossService
+  nameWithType: IgnoreFocusLossService
+- uid: neo_bpsys_wpf.Services.IgnoreFocusLossService.Add(System.String)
+  name: Add(string)
+  href: api/neo_bpsys_wpf.Services.IgnoreFocusLossService.html#neo_bpsys_wpf_Services_IgnoreFocusLossService_Add_System_String_
+  commentId: M:neo_bpsys_wpf.Services.IgnoreFocusLossService.Add(System.String)
+  name.vb: Add(String)
+  fullName: neo_bpsys_wpf.Services.IgnoreFocusLossService.Add(string)
+  fullName.vb: neo_bpsys_wpf.Services.IgnoreFocusLossService.Add(String)
+  nameWithType: IgnoreFocusLossService.Add(string)
+  nameWithType.vb: IgnoreFocusLossService.Add(String)
+- uid: neo_bpsys_wpf.Services.IgnoreFocusLossService.Add*
+  name: Add
+  href: api/neo_bpsys_wpf.Services.IgnoreFocusLossService.html#neo_bpsys_wpf_Services_IgnoreFocusLossService_Add_
+  commentId: Overload:neo_bpsys_wpf.Services.IgnoreFocusLossService.Add
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.IgnoreFocusLossService.Add
+  nameWithType: IgnoreFocusLossService.Add
+- uid: neo_bpsys_wpf.Services.IgnoreFocusLossService.Start
+  name: Start()
+  href: api/neo_bpsys_wpf.Services.IgnoreFocusLossService.html#neo_bpsys_wpf_Services_IgnoreFocusLossService_Start
+  commentId: M:neo_bpsys_wpf.Services.IgnoreFocusLossService.Start
+  fullName: neo_bpsys_wpf.Services.IgnoreFocusLossService.Start()
+  nameWithType: IgnoreFocusLossService.Start()
+- uid: neo_bpsys_wpf.Services.IgnoreFocusLossService.Start*
+  name: Start
+  href: api/neo_bpsys_wpf.Services.IgnoreFocusLossService.html#neo_bpsys_wpf_Services_IgnoreFocusLossService_Start_
+  commentId: Overload:neo_bpsys_wpf.Services.IgnoreFocusLossService.Start
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.IgnoreFocusLossService.Start
+  nameWithType: IgnoreFocusLossService.Start
+- uid: neo_bpsys_wpf.Services.IgnoreFocusLossService.Stop
+  name: Stop()
+  href: api/neo_bpsys_wpf.Services.IgnoreFocusLossService.html#neo_bpsys_wpf_Services_IgnoreFocusLossService_Stop
+  commentId: M:neo_bpsys_wpf.Services.IgnoreFocusLossService.Stop
+  fullName: neo_bpsys_wpf.Services.IgnoreFocusLossService.Stop()
+  nameWithType: IgnoreFocusLossService.Stop()
+- uid: neo_bpsys_wpf.Services.IgnoreFocusLossService.Stop*
+  name: Stop
+  href: api/neo_bpsys_wpf.Services.IgnoreFocusLossService.html#neo_bpsys_wpf_Services_IgnoreFocusLossService_Stop_
+  commentId: Overload:neo_bpsys_wpf.Services.IgnoreFocusLossService.Stop
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.IgnoreFocusLossService.Stop
+  nameWithType: IgnoreFocusLossService.Stop
 - uid: neo_bpsys_wpf.Services.InfoBarService
   name: InfoBarService
   href: api/neo_bpsys_wpf.Services.InfoBarService.html
@@ -6814,6 +7110,73 @@ references:
   commentId: T:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel
   fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel
   nameWithType: ExtensionPageViewModel
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.#ctor
+  name: ExtensionPageViewModel()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel__ctor
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.ExtensionPageViewModel()
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.New()
+  nameWithType: ExtensionPageViewModel.ExtensionPageViewModel()
+  nameWithType.vb: ExtensionPageViewModel.New()
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService)
+  name: ExtensionPageViewModel(IIgnoreFocusLossService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService)
+  name.vb: New(IIgnoreFocusLossService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.ExtensionPageViewModel(neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.New(neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService)
+  nameWithType: ExtensionPageViewModel.ExtensionPageViewModel(IIgnoreFocusLossService)
+  nameWithType.vb: ExtensionPageViewModel.New(IIgnoreFocusLossService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.#ctor*
+  name: ExtensionPageViewModel
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel__ctor_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.ExtensionPageViewModel
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.New
+  nameWithType: ExtensionPageViewModel.ExtensionPageViewModel
+  nameWithType.vb: ExtensionPageViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentState
+  name: CurrentState
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel_CurrentState
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentState
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentState
+  nameWithType: ExtensionPageViewModel.CurrentState
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentState*
+  name: CurrentState
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel_CurrentState_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentState
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentState
+  nameWithType: ExtensionPageViewModel.CurrentState
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentStateText
+  name: CurrentStateText
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel_CurrentStateText
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentStateText
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentStateText
+  nameWithType: ExtensionPageViewModel.CurrentStateText
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentStateText*
+  name: CurrentStateText
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel_CurrentStateText_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentStateText
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.CurrentStateText
+  nameWithType: ExtensionPageViewModel.CurrentStateText
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.IsIgnoreFocusLossServiceRunning
+  name: IsIgnoreFocusLossServiceRunning
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel_IsIgnoreFocusLossServiceRunning
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.IsIgnoreFocusLossServiceRunning
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.IsIgnoreFocusLossServiceRunning
+  nameWithType: ExtensionPageViewModel.IsIgnoreFocusLossServiceRunning
+- uid: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.IsIgnoreFocusLossServiceRunning*
+  name: IsIgnoreFocusLossServiceRunning
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ExtensionPageViewModel_IsIgnoreFocusLossServiceRunning_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.IsIgnoreFocusLossServiceRunning
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.IsIgnoreFocusLossServiceRunning
+  nameWithType: ExtensionPageViewModel.IsIgnoreFocusLossServiceRunning
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
   name: FrontManagePageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html
@@ -8048,19 +8411,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.AwayTeam
   nameWithType: ScorePageViewModel.AwayTeam
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
-  name: CaculateMajorPointCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_CaculateMajorPointCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
-  nameWithType: ScorePageViewModel.CaculateMajorPointCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand*
-  name: CaculateMajorPointCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_CaculateMajorPointCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
+  name: CalculateMajorPointCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_CalculateMajorPointCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
+  nameWithType: ScorePageViewModel.CalculateMajorPointCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand*
+  name: CalculateMajorPointCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_CalculateMajorPointCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
-  nameWithType: ScorePageViewModel.CaculateMajorPointCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
+  nameWithType: ScorePageViewModel.CalculateMajorPointCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
   name: Escape3Command
   href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_Escape3Command
@@ -8177,32 +8540,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3
   nameWithType: ScorePageViewModel.GameListBo3
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  name: GameListBo5
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameListBo5
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  nameWithType: ScorePageViewModel.GameListBo5
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5*
-  name: GameListBo5
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameListBo5_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  nameWithType: ScorePageViewModel.GameListBo5
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  name: IsBo3Mode
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_IsBo3Mode
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  nameWithType: ScorePageViewModel.IsBo3Mode
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode*
-  name: IsBo3Mode
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_IsBo3Mode_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  nameWithType: ScorePageViewModel.IsBo3Mode
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsGameFinished
   name: IsGameFinished
   href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_IsGameFinished
@@ -8388,18 +8725,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.TieCommand
   nameWithType: ScorePageViewModel.TieCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._selectedGameResult
-  name: _selectedGameResult
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel__selectedGameResult
-  commentId: F:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._selectedGameResult
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._selectedGameResult
-  nameWithType: ScorePageViewModel._selectedGameResult
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._sharedDataService
-  name: _sharedDataService
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel__sharedDataService
-  commentId: F:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._sharedDataService
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._sharedDataService
-  nameWithType: ScorePageViewModel._sharedDataService
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
   name: SettingPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html
@@ -8415,15 +8740,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.New()
   nameWithType: SettingPageViewModel.SettingPageViewModel()
   nameWithType.vb: SettingPageViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService)
-  name: SettingPageViewModel(IUpdaterService)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IUpdaterService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService)
-  name.vb: New(IUpdaterService)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SettingPageViewModel(neo_bpsys_wpf.Abstractions.Services.IUpdaterService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.New(neo_bpsys_wpf.Abstractions.Services.IUpdaterService)
-  nameWithType: SettingPageViewModel.SettingPageViewModel(IUpdaterService)
-  nameWithType.vb: SettingPageViewModel.New(IUpdaterService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name: SettingPageViewModel(IUpdaterService, ISettingsHostService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IUpdaterService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(IUpdaterService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SettingPageViewModel(neo_bpsys_wpf.Abstractions.Services.IUpdaterService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.New(neo_bpsys_wpf.Abstractions.Services.IUpdaterService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  nameWithType: SettingPageViewModel.SettingPageViewModel(IUpdaterService, ISettingsHostService)
+  nameWithType.vb: SettingPageViewModel.New(IUpdaterService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor*
   name: SettingPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_
@@ -8590,6 +8915,45 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MirrorList
   nameWithType: SettingPageViewModel.MirrorList
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForeverCommand
+  name: NotRestartAsAdminForeverCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_NotRestartAsAdminForeverCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForeverCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForeverCommand
+  nameWithType: SettingPageViewModel.NotRestartAsAdminForeverCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForeverCommand*
+  name: NotRestartAsAdminForeverCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_NotRestartAsAdminForeverCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForeverCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForeverCommand
+  nameWithType: SettingPageViewModel.NotRestartAsAdminForeverCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnceCommand
+  name: RestartAsAdminForOnceCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RestartAsAdminForOnceCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnceCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnceCommand
+  nameWithType: SettingPageViewModel.RestartAsAdminForOnceCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnceCommand*
+  name: RestartAsAdminForOnceCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RestartAsAdminForOnceCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnceCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnceCommand
+  nameWithType: SettingPageViewModel.RestartAsAdminForOnceCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForeverCommand
+  name: RestartAsAdminForeverCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RestartAsAdminForeverCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForeverCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForeverCommand
+  nameWithType: SettingPageViewModel.RestartAsAdminForeverCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForeverCommand*
+  name: RestartAsAdminForeverCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RestartAsAdminForeverCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForeverCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForeverCommand
+  nameWithType: SettingPageViewModel.RestartAsAdminForeverCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
   name: UpdateCheckCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_UpdateCheckCommand

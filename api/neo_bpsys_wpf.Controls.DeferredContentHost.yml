@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: DeferredContentHost
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -626,7 +626,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -655,7 +655,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetVisualChild
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -694,7 +694,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MeasureOverride
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -730,7 +730,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ArrangeOverride
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -766,7 +766,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: VisualChildrenCount
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -799,7 +799,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsInDesignMode
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -828,7 +828,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Content
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -857,7 +857,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ContentProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -884,7 +884,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Skeleton
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs
@@ -913,7 +913,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/DeferredContentHost.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SkeletonProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/DeferredContentHost.cs

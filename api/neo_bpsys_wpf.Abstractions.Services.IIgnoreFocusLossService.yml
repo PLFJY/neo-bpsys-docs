@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  id: IIgnoreFocusLossService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  children:
+  - neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+  - neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop
+  langs:
+  - csharp
+  - vb
+  name: IIgnoreFocusLossService
+  nameWithType: IIgnoreFocusLossService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  type: Interface
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IIgnoreFocusLossService.cs
+      branch: dev-feat/ignoreFocusLoss
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IIgnoreFocusLossService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IIgnoreFocusLossService.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: public interface IIgnoreFocusLossService
+    content.vb: Public Interface IIgnoreFocusLossService
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(System.String)
+  id: Add(System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  langs:
+  - csharp
+  - vb
+  name: Add(string)
+  nameWithType: IIgnoreFocusLossService.Add(string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IIgnoreFocusLossService.cs
+      branch: dev-feat/ignoreFocusLoss
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Add
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IIgnoreFocusLossService.cs
+    startLine: 6
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: void Add(string processName)
+    parameters:
+    - id: processName
+      type: System.String
+    content.vb: Sub Add(processName As String)
+  overload: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add*
+  nameWithType.vb: IIgnoreFocusLossService.Add(String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add(String)
+  name.vb: Add(String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+  id: Start
+  parent: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: IIgnoreFocusLossService.Start()
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IIgnoreFocusLossService.cs
+      branch: dev-feat/ignoreFocusLoss
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Start
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IIgnoreFocusLossService.cs
+    startLine: 7
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: void Start()
+    content.vb: Sub Start()
+  overload: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start*
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop
+  id: Stop
+  parent: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: IIgnoreFocusLossService.Stop()
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IIgnoreFocusLossService.cs
+      branch: dev-feat/ignoreFocusLoss
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Stop
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IIgnoreFocusLossService.cs
+    startLine: 8
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: void Stop()
+    content.vb: Sub [Stop]()
+  overload: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop*
+references:
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add
+  href: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Add_System_String_
+  name: Add
+  nameWithType: IIgnoreFocusLossService.Add
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Add
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+  href: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Start
+  name: Start
+  nameWithType: IIgnoreFocusLossService.Start
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Start
+- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop
+  href: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html#neo_bpsys_wpf_Abstractions_Services_IIgnoreFocusLossService_Stop
+  name: Stop
+  nameWithType: IIgnoreFocusLossService.Stop
+  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.Stop

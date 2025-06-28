@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Step
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Action
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -82,7 +82,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Index
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Time
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs

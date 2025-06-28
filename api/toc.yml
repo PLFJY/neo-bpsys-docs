@@ -7,6 +7,9 @@ items:
   - uid: neo_bpsys_wpf.App
     name: App
     type: Class
+  - uid: neo_bpsys_wpf.NativeMethods
+    name: NativeMethods
+    type: Class
 - uid: neo_bpsys_wpf.Abstractions.Services
   name: neo_bpsys_wpf.Abstractions.Services
   type: Namespace
@@ -19,6 +22,9 @@ items:
     type: Interface
   - uid: neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService
     name: IGameGuidanceService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
+    name: IIgnoreFocusLossService
     type: Interface
   - uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
     name: IInfoBarService
@@ -165,6 +171,9 @@ items:
   name: neo_bpsys_wpf.Helpers
   type: Namespace
   items:
+  - uid: neo_bpsys_wpf.Helpers.AdminHelper
+    name: AdminHelper
+    type: Class
   - uid: neo_bpsys_wpf.Helpers.ImageHelper
     name: ImageHelper
     type: Class
@@ -257,6 +266,9 @@ items:
     type: Class
   - uid: neo_bpsys_wpf.Services.GameGuidanceService.Step
     name: GameGuidanceService.Step
+    type: Class
+  - uid: neo_bpsys_wpf.Services.IgnoreFocusLossService
+    name: IgnoreFocusLossService
     type: Class
   - uid: neo_bpsys_wpf.Services.InfoBarService
     name: InfoBarService

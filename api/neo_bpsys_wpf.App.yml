@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: App
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
@@ -107,11 +107,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/App.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Services
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/App.xaml.cs
-    startLine: 181
+    startLine: 183
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf
@@ -138,11 +138,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/App.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnStartup
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/App.xaml.cs
-    startLine: 183
+    startLine: 185
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf
@@ -171,11 +171,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/App.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnExit
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/App.xaml.cs
-    startLine: 204
+    startLine: 210
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf
@@ -204,7 +204,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
@@ -232,7 +232,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Main
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs

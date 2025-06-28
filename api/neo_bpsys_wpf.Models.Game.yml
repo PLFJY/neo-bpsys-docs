@@ -83,7 +83,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Guid
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StartTime
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickedMap
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BannedMap
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -199,7 +199,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -235,7 +235,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RefreshCurrentPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs

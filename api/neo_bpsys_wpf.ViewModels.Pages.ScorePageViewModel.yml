@@ -8,13 +8,11 @@ items:
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Views.Windows.ScoreManualWindow)
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.AwayTeam
-  - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
+  - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameList
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3
-  - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsGameFinished
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeam
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp
@@ -29,8 +27,6 @@ items:
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedIndex
   - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.TieCommand
-  - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._selectedGameResult
-  - neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._sharedDataService
   langs:
   - csharp
   - vb
@@ -110,11 +106,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 17
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -125,33 +121,6 @@ items:
   nameWithType.vb: ScorePageViewModel.New()
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.New()
   name.vb: New()
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._sharedDataService
-  commentId: F:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._sharedDataService
-  id: _sharedDataService
-  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: _sharedDataService
-  nameWithType: ScorePageViewModel._sharedDataService
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._sharedDataService
-  type: Field
-  source:
-    remote:
-      path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: _sharedDataService
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 23
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  syntax:
-    content: public readonly ISharedDataService _sharedDataService
-    return:
-      type: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
-    content.vb: Public ReadOnly _sharedDataService As ISharedDataService
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Views.Windows.ScoreManualWindow)
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Views.Windows.ScoreManualWindow)
   id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Views.Windows.ScoreManualWindow)'
@@ -166,11 +135,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 27
+    startLine: 26
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -202,7 +171,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
@@ -231,7 +200,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
@@ -246,35 +215,6 @@ items:
       type: neo_bpsys_wpf.Models.Team
     content.vb: Public ReadOnly Property AwayTeam As Team
   overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.AwayTeam*
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  id: IsBo3Mode
-  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: IsBo3Mode
-  nameWithType: ScorePageViewModel.IsBo3Mode
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  type: Property
-  source:
-    remote:
-      path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: IsBo3Mode
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 122
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  syntax:
-    content: public bool IsBo3Mode { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property IsBo3Mode As Boolean
-  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode*
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameProgress
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameProgress
   id: SelectedGameProgress
@@ -289,11 +229,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SelectedGameProgress
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 142
+    startLine: 144
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -318,11 +258,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsGameFinished
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 158
+    startLine: 165
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -347,11 +287,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeamCamp
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 177
+    startLine: 185
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -362,33 +302,6 @@ items:
       type: System.Nullable{neo_bpsys_wpf.Enums.Camp}
     content.vb: Public Property MainTeamCamp As Camp?
   overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp*
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._selectedGameResult
-  commentId: F:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._selectedGameResult
-  id: _selectedGameResult
-  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: _selectedGameResult
-  nameWithType: ScorePageViewModel._selectedGameResult
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel._selectedGameResult
-  type: Field
-  source:
-    remote:
-      path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: _selectedGameResult
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 190
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  syntax:
-    content: public GameResult? _selectedGameResult
-    return:
-      type: System.Nullable{neo_bpsys_wpf.Enums.GameResult}
-    content.vb: Public _selectedGameResult As GameResult?
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult
   id: SelectedGameResult
@@ -403,11 +316,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SelectedGameResult
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 192
+    startLine: 200
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -432,11 +345,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 271
+    startLine: 289
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -455,35 +368,6 @@ items:
   nameWithType.vb: ScorePageViewModel.Receive(PropertyChangedMessage(Of Boolean))
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage(Of Boolean))
   name.vb: Receive(PropertyChangedMessage(Of Boolean))
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  id: GameListBo5
-  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: GameListBo5
-  nameWithType: ScorePageViewModel.GameListBo5
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  type: Property
-  source:
-    remote:
-      path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: GameListBo5
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 375
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  syntax:
-    content: public static Dictionary<GameProgress, string> GameListBo5 { get; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.Dictionary{neo_bpsys_wpf.Enums.GameProgress,System.String}
-    content.vb: Public Shared ReadOnly Property GameListBo5 As Dictionary(Of GameProgress, String)
-  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5*
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3
   id: GameListBo3
@@ -498,11 +382,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameListBo3
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ScorePageViewModel.cs
-    startLine: 391
+    startLine: 421
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -513,60 +397,60 @@ items:
       type: System.Collections.Generic.Dictionary{neo_bpsys_wpf.Enums.GameProgress,System.String}
     content.vb: Public Shared ReadOnly Property GameListBo3 As Dictionary(Of GameProgress, String)
   overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3*
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
-  id: CaculateMajorPointCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
+  id: Escape3Command
   parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
   langs:
   - csharp
   - vb
-  name: CaculateMajorPointCommand
-  nameWithType: ScorePageViewModel.CaculateMajorPointCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
+  name: Escape3Command
+  nameWithType: ScorePageViewModel.Escape3Command
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
   type: Property
   source:
-    id: CaculateMajorPointCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPoint.g.cs
+    id: Escape3Command
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3.g.cs
     startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPoint" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IRelayCommand CaculateMajorPointCommand { get; }
+    content: public IRelayCommand Escape3Command { get; }
     parameters: []
     return:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property CaculateMajorPointCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
-  id: Escape4Command
+    content.vb: Public ReadOnly Property Escape3Command As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command*
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
+  id: ResetCommand
   parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
   langs:
   - csharp
   - vb
-  name: Escape4Command
-  nameWithType: ScorePageViewModel.Escape4Command
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
+  name: ResetCommand
+  nameWithType: ScorePageViewModel.ResetCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
   type: Property
   source:
-    id: Escape4Command
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4.g.cs
+    id: ResetCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset.g.cs
     startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IRelayCommand Escape4Command { get; }
+    content: public IRelayCommand ResetCommand { get; }
     parameters: []
     return:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property Escape4Command As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command*
+    content.vb: Public ReadOnly Property ResetCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out3Command
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out3Command
   id: Out3Command
@@ -621,60 +505,6 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property ResetMinorPointCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetMinorPointCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
-  id: ResetCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ResetCommand
-  nameWithType: ScorePageViewModel.ResetCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
-  type: Property
-  source:
-    id: ResetCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ResetCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ResetCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
-  id: Escape3Command
-  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: Escape3Command
-  nameWithType: ScorePageViewModel.Escape3Command
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
-  type: Property
-  source:
-    id: Escape3Command
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand Escape3Command { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property Escape3Command As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command*
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand
   id: NextGameCommand
@@ -702,33 +532,6 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property NextGameCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
-  id: Out4Command
-  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: Out4Command
-  nameWithType: ScorePageViewModel.Out4Command
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
-  type: Property
-  source:
-    id: Out4Command
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand Out4Command { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property Out4Command As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command*
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ManualControlCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ManualControlCommand
   id: ManualControlCommand
@@ -756,6 +559,33 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property ManualControlCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ManualControlCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
+  id: Out4Command
+  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: Out4Command
+  nameWithType: ScorePageViewModel.Out4Command
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
+  type: Property
+  source:
+    id: Out4Command
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand Out4Command { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property Out4Command As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command*
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.TieCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.TieCommand
   id: TieCommand
@@ -783,6 +613,60 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property TieCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.TieCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
+  id: Escape4Command
+  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: Escape4Command
+  nameWithType: ScorePageViewModel.Escape4Command
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
+  type: Property
+  source:
+    id: Escape4Command
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand Escape4Command { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property Escape4Command As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command*
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
+  id: CalculateMajorPointCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: CalculateMajorPointCommand
+  nameWithType: ScorePageViewModel.CalculateMajorPointCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
+  type: Property
+  source:
+    id: CalculateMajorPointCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPoint.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPoint" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand CalculateMajorPointCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property CalculateMajorPointCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedIndex
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedIndex
   id: SelectedIndex
@@ -4309,6 +4193,20 @@ references:
   name: ISharedDataService
   nameWithType: ISharedDataService
   fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.IFrontService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html
+  name: IFrontService
+  nameWithType: IFrontService
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService
+- uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreManualWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html
+  name: ScoreManualWindow
+  nameWithType: ScoreManualWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
 - uid: neo_bpsys_wpf.Abstractions.Services
   commentId: N:neo_bpsys_wpf.Abstractions.Services
   href: neo_bpsys_wpf.html
@@ -4339,20 +4237,6 @@ references:
   - uid: neo_bpsys_wpf.Abstractions.Services
     name: Services
     href: neo_bpsys_wpf.Abstractions.Services.html
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  commentId: T:neo_bpsys_wpf.Abstractions.Services.IFrontService
-  parent: neo_bpsys_wpf.Abstractions.Services
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html
-  name: IFrontService
-  nameWithType: IFrontService
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService
-- uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
-  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreManualWindow
-  parent: neo_bpsys_wpf.Views.Windows
-  href: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html
-  name: ScoreManualWindow
-  nameWithType: ScoreManualWindow
-  fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
 - uid: neo_bpsys_wpf.Views.Windows
   commentId: N:neo_bpsys_wpf.Views.Windows
   href: neo_bpsys_wpf.html
@@ -4424,23 +4308,6 @@ references:
   name: AwayTeam
   nameWithType: ScorePageViewModel.AwayTeam
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.AwayTeam
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_IsBo3Mode
-  name: IsBo3Mode
-  nameWithType: ScorePageViewModel.IsBo3Mode
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsBo3Mode
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameProgress*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameProgress
   href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_SelectedGameProgress
@@ -4482,6 +4349,17 @@ references:
   name: IsGameFinished
   nameWithType: ScorePageViewModel.IsGameFinished
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsGameFinished
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp
   href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_MainTeamCamp
@@ -4534,6 +4412,12 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult
+  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_SelectedGameResult
+  name: SelectedGameResult
+  nameWithType: ScorePageViewModel.SelectedGameResult
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult
 - uid: System.Nullable{neo_bpsys_wpf.Enums.GameResult}
   commentId: T:System.Nullable{neo_bpsys_wpf.Enums.GameResult}
   parent: System
@@ -4552,12 +4436,6 @@ references:
     name: GameResult
     href: neo_bpsys_wpf.Enums.GameResult.html
   - name: '?'
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_SelectedGameResult
-  name: SelectedGameResult
-  nameWithType: ScorePageViewModel.SelectedGameResult
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedGameResult
 - uid: CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean}
   commentId: T:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean}
   parent: CommunityToolkit.Mvvm.Messaging.Messages
@@ -4746,12 +4624,12 @@ references:
   - name: (
   - name: TMessage
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameListBo5
-  name: GameListBo5
-  nameWithType: ScorePageViewModel.GameListBo5
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo5
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3
+  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameListBo3
+  name: GameListBo3
+  nameWithType: ScorePageViewModel.GameListBo3
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3
 - uid: System.Collections.Generic.Dictionary{neo_bpsys_wpf.Enums.GameProgress,System.String}
   commentId: T:System.Collections.Generic.Dictionary{neo_bpsys_wpf.Enums.GameProgress,System.String}
   parent: System.Collections.Generic
@@ -4868,12 +4746,6 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameListBo3
-  name: GameListBo3
-  nameWithType: ScorePageViewModel.GameListBo3
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameListBo3
 - uid: CommunityToolkit.Mvvm.Input.IRelayCommand
   commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
   parent: CommunityToolkit.Mvvm.Input
@@ -4882,27 +4754,27 @@ references:
   name: IRelayCommand
   nameWithType: IRelayCommand
   fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPoint
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPoint
-  name: CaculateMajorPoint()
-  nameWithType: ScorePageViewModel.CaculateMajorPoint()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPoint()
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3
+  name: Escape3()
+  nameWithType: ScorePageViewModel.Escape3()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3()
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPoint
-    name: CaculateMajorPoint
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3
+    name: Escape3
   - name: (
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPoint
-    name: CaculateMajorPoint
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3
+    name: Escape3
   - name: (
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_CaculateMajorPointCommand
-  name: CaculateMajorPointCommand
-  nameWithType: ScorePageViewModel.CaculateMajorPointCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CaculateMajorPointCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
+  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_Escape3Command
+  name: Escape3Command
+  nameWithType: ScorePageViewModel.Escape3Command
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
 - uid: CommunityToolkit.Mvvm.Input
   commentId: N:CommunityToolkit.Mvvm.Input
   isExternal: true
@@ -4940,27 +4812,27 @@ references:
     name: Input
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4
-  name: Escape4()
-  nameWithType: ScorePageViewModel.Escape4()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4()
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset
+  name: Reset()
+  nameWithType: ScorePageViewModel.Reset()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset()
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4
-    name: Escape4
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset
+    name: Reset
   - name: (
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4
-    name: Escape4
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset
+    name: Reset
   - name: (
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_Escape4Command
-  name: Escape4Command
-  nameWithType: ScorePageViewModel.Escape4Command
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_ResetCommand
+  name: ResetCommand
+  nameWithType: ScorePageViewModel.ResetCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out3
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out3
   name: Out3()
@@ -5003,48 +4875,6 @@ references:
   name: ResetMinorPointCommand
   nameWithType: ScorePageViewModel.ResetMinorPointCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetMinorPointCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset
-  name: Reset()
-  nameWithType: ScorePageViewModel.Reset()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset
-    name: Reset
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Reset
-    name: Reset
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_ResetCommand
-  name: ResetCommand
-  nameWithType: ScorePageViewModel.ResetCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ResetCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3
-  name: Escape3()
-  nameWithType: ScorePageViewModel.Escape3()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3
-    name: Escape3
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3
-    name: Escape3
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_Escape3Command
-  name: Escape3Command
-  nameWithType: ScorePageViewModel.Escape3Command
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape3Command
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGame
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGame
   name: NextGame()
@@ -5066,27 +4896,6 @@ references:
   name: NextGameCommand
   nameWithType: ScorePageViewModel.NextGameCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4
-  name: Out4()
-  nameWithType: ScorePageViewModel.Out4()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4
-    name: Out4
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4
-    name: Out4
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
-  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_Out4Command
-  name: Out4Command
-  nameWithType: ScorePageViewModel.Out4Command
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ManualControl
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ManualControl
   name: ManualControl()
@@ -5108,6 +4917,27 @@ references:
   name: ManualControlCommand
   nameWithType: ScorePageViewModel.ManualControlCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ManualControlCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4
+  name: Out4()
+  nameWithType: ScorePageViewModel.Out4()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4
+    name: Out4
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4
+    name: Out4
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
+  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_Out4Command
+  name: Out4Command
+  nameWithType: ScorePageViewModel.Out4Command
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out4Command
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Tie
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Tie
   name: Tie()
@@ -5129,6 +4959,48 @@ references:
   name: TieCommand
   nameWithType: ScorePageViewModel.TieCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.TieCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4
+  name: Escape4()
+  nameWithType: ScorePageViewModel.Escape4()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4
+    name: Escape4
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4
+    name: Escape4
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
+  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_Escape4Command
+  name: Escape4Command
+  nameWithType: ScorePageViewModel.Escape4Command
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Escape4Command
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPoint
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPoint
+  name: CalculateMajorPoint()
+  nameWithType: ScorePageViewModel.CalculateMajorPoint()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPoint()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPoint
+    name: CalculateMajorPoint
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPoint
+    name: CalculateMajorPoint
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_CalculateMajorPointCommand
+  name: CalculateMajorPointCommand
+  nameWithType: ScorePageViewModel.CalculateMajorPointCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.CalculateMajorPointCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedIndex*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.SelectedIndex
   href: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_SelectedIndex

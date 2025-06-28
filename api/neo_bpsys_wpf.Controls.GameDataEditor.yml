@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GameDataEditor.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataEditor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GameDataEditor.cs
@@ -663,7 +663,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GameDataEditor.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PlayerData
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GameDataEditor.cs
@@ -692,7 +692,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GameDataEditor.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PlayerDataProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GameDataEditor.cs
@@ -719,7 +719,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GameDataEditor.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHunMode
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GameDataEditor.cs
@@ -748,7 +748,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GameDataEditor.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHunModeProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GameDataEditor.cs

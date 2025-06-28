@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
@@ -158,7 +158,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
@@ -192,7 +192,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
@@ -226,7 +226,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
@@ -263,7 +263,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
@@ -292,7 +292,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
@@ -321,7 +321,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs

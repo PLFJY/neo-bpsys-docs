@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameGuidanceService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsGuidanceStarted
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StartGuidance
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StopGuidance
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -200,7 +200,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: NextStepAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -233,7 +233,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PrevStepAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs

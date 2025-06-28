@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/MemberStateChangedMessage.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MemberStateChangedMessage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/MemberStateChangedMessage.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/MemberStateChangedMessage.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/MemberStateChangedMessage.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/MemberStateChangedMessage.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Sender
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/MemberStateChangedMessage.cs

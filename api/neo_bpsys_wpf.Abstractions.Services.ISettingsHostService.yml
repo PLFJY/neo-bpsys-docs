@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ISettingsHostService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
@@ -46,7 +46,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
@@ -75,7 +75,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
@@ -103,7 +103,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: LoadConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs

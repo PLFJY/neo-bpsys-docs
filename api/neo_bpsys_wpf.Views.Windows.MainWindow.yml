@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs
@@ -760,11 +760,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 18
+    startLine: 19
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -796,11 +796,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetNavigation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 96
+    startLine: 97
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -824,11 +824,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CloseWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 98
+    startLine: 99
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -854,11 +854,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 100
+    startLine: 101
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -884,11 +884,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Navigate
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 102
+    startLine: 103
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -921,11 +921,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetPageService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 104
+    startLine: 105
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -955,11 +955,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetServiceProvider
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 112
+    startLine: 113
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -989,7 +989,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs

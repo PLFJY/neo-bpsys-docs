@@ -11,7 +11,11 @@ items:
   - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.ImageSourceProperty
   - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.ImageWidth
   - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.ImageWidthProperty
+  - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisibleProperty
   - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagName
+  - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSizeProperty
   - neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameProperty
   langs:
   - csharp
@@ -23,7 +27,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ToggleStyledRadioButton
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -719,7 +723,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -748,7 +752,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageSourceProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -775,7 +779,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TagName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -804,7 +808,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TagNameProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -831,7 +835,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageHeight
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -860,7 +864,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageHeightProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -887,7 +891,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageWidth
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -916,7 +920,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev
+      branch: dev-feat/ignoreFocusLoss
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageWidthProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -929,6 +933,118 @@ items:
     return:
       type: System.Windows.DependencyProperty
     content.vb: Public Shared ReadOnly ImageWidthProperty As DependencyProperty
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  commentId: P:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  id: TagNameFontSize
+  parent: neo_bpsys_wpf.Controls.ToggleStyledRadioButton
+  langs:
+  - csharp
+  - vb
+  name: TagNameFontSize
+  nameWithType: ToggleStyledRadioButton.TagNameFontSize
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
+      branch: dev-feat/ignoreFocusLoss
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: TagNameFontSize
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
+    startLine: 64
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  syntax:
+    content: public double TagNameFontSize { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TagNameFontSize As Double
+  overload: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize*
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSizeProperty
+  commentId: F:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSizeProperty
+  id: TagNameFontSizeProperty
+  parent: neo_bpsys_wpf.Controls.ToggleStyledRadioButton
+  langs:
+  - csharp
+  - vb
+  name: TagNameFontSizeProperty
+  nameWithType: ToggleStyledRadioButton.TagNameFontSizeProperty
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSizeProperty
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
+      branch: dev-feat/ignoreFocusLoss
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: TagNameFontSizeProperty
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
+    startLine: 71
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  syntax:
+    content: public static readonly DependencyProperty TagNameFontSizeProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly TagNameFontSizeProperty As DependencyProperty
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  commentId: P:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  id: IsImageVisible
+  parent: neo_bpsys_wpf.Controls.ToggleStyledRadioButton
+  langs:
+  - csharp
+  - vb
+  name: IsImageVisible
+  nameWithType: ToggleStyledRadioButton.IsImageVisible
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
+      branch: dev-feat/ignoreFocusLoss
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IsImageVisible
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
+    startLine: 74
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  syntax:
+    content: public bool IsImageVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsImageVisible As Boolean
+  overload: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible*
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisibleProperty
+  commentId: F:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisibleProperty
+  id: IsImageVisibleProperty
+  parent: neo_bpsys_wpf.Controls.ToggleStyledRadioButton
+  langs:
+  - csharp
+  - vb
+  name: IsImageVisibleProperty
+  nameWithType: ToggleStyledRadioButton.IsImageVisibleProperty
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisibleProperty
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
+      branch: dev-feat/ignoreFocusLoss
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IsImageVisibleProperty
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
+    startLine: 81
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  syntax:
+    content: public static readonly DependencyProperty IsImageVisibleProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly IsImageVisibleProperty As DependencyProperty
 references:
 - uid: neo_bpsys_wpf.Controls
   commentId: N:neo_bpsys_wpf.Controls
@@ -11634,3 +11750,26 @@ references:
   name: ImageWidth
   nameWithType: ToggleStyledRadioButton.ImageWidth
   fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.ImageWidth
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize*
+  commentId: Overload:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+  href: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_TagNameFontSize
+  name: TagNameFontSize
+  nameWithType: ToggleStyledRadioButton.TagNameFontSize
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.TagNameFontSize
+- uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible*
+  commentId: Overload:neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+  href: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html#neo_bpsys_wpf_Controls_ToggleStyledRadioButton_IsImageVisible
+  name: IsImageVisible
+  nameWithType: ToggleStyledRadioButton.IsImageVisible
+  fullName: neo_bpsys_wpf.Controls.ToggleStyledRadioButton.IsImageVisible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
