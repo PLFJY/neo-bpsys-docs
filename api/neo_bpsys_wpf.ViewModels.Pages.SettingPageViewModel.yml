@@ -44,7 +44,7 @@ items:
   type: Class
   source:
     id: SettingPageViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDir.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -532,6 +532,87 @@ items:
       type: System.Collections.ObjectModel.ObservableCollection{System.String}
     content.vb: Public ReadOnly Property MirrorList As ObservableCollection(Of String)
   overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MirrorList*
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
+  id: CancelDownloadCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: CancelDownloadCommand
+  nameWithType: SettingPageViewModel.CancelDownloadCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
+  type: Property
+  source:
+    id: CancelDownloadCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand CancelDownloadCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property CancelDownloadCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
+  id: ResetCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: ResetCommand
+  nameWithType: SettingPageViewModel.ResetCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
+  type: Property
+  source:
+    id: ResetCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAsync.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAsync(System.Type)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IAsyncRelayCommand<Type> ResetCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{System.Type}
+    content.vb: Public ReadOnly Property ResetCommand As IAsyncRelayCommand(Of Type)
+  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
+  id: UpdateCheckCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: UpdateCheckCommand
+  nameWithType: SettingPageViewModel.UpdateCheckCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
+  type: Property
+  source:
+    id: UpdateCheckCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheck.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheck" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IAsyncRelayCommand UpdateCheckCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
+    content.vb: Public ReadOnly Property UpdateCheckCommand As IAsyncRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand
   id: EditTextSettingsCommand
@@ -586,6 +667,114 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
     content.vb: Public ReadOnly Property EditBpWindowImagesCommand As IRelayCommand(Of String)
   overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
+  id: ManualGcCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: ManualGcCommand
+  nameWithType: SettingPageViewModel.ManualGcCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
+  type: Property
+  source:
+    id: ManualGcCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand ManualGcCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property ManualGcCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
+  id: HopToGameOutputDirCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HopToGameOutputDirCommand
+  nameWithType: SettingPageViewModel.HopToGameOutputDirCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
+  type: Property
+  source:
+    id: HopToGameOutputDirCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand HopToGameOutputDirCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property HopToGameOutputDirCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
+  id: HopToConfigDirCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HopToConfigDirCommand
+  nameWithType: SettingPageViewModel.HopToConfigDirCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
+  type: Property
+  source:
+    id: HopToConfigDirCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDir.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDir" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand HopToConfigDirCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property HopToConfigDirCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
+  id: InstallUpdateCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: InstallUpdateCommand
+  nameWithType: SettingPageViewModel.InstallUpdateCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
+  type: Property
+  source:
+    id: InstallUpdateCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand InstallUpdateCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property InstallUpdateCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion
   id: AppVersion
@@ -742,195 +931,6 @@ items:
       type: System.String
     content.vb: Public Property MbPerSecondSpeed As String
   overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed*
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
-  id: ManualGcCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ManualGcCommand
-  nameWithType: SettingPageViewModel.ManualGcCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
-  type: Property
-  source:
-    id: ManualGcCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ManualGcCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ManualGcCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
-  id: HopToGameOutputDirCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: HopToGameOutputDirCommand
-  nameWithType: SettingPageViewModel.HopToGameOutputDirCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
-  type: Property
-  source:
-    id: HopToGameOutputDirCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand HopToGameOutputDirCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property HopToGameOutputDirCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
-  id: ResetCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ResetCommand
-  nameWithType: SettingPageViewModel.ResetCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
-  type: Property
-  source:
-    id: ResetCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAsync.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAsync(System.Type)" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IAsyncRelayCommand<Type> ResetCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{System.Type}
-    content.vb: Public ReadOnly Property ResetCommand As IAsyncRelayCommand(Of Type)
-  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-  id: CancelDownloadCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: CancelDownloadCommand
-  nameWithType: SettingPageViewModel.CancelDownloadCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-  type: Property
-  source:
-    id: CancelDownloadCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand CancelDownloadCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property CancelDownloadCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
-  id: InstallUpdateCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: InstallUpdateCommand
-  nameWithType: SettingPageViewModel.InstallUpdateCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
-  type: Property
-  source:
-    id: InstallUpdateCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand InstallUpdateCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property InstallUpdateCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
-  id: UpdateCheckCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: UpdateCheckCommand
-  nameWithType: SettingPageViewModel.UpdateCheckCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
-  type: Property
-  source:
-    id: UpdateCheckCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheck.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheck" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IAsyncRelayCommand UpdateCheckCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
-    content.vb: Public ReadOnly Property UpdateCheckCommand As IAsyncRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
-  id: HopToConfigDirCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: HopToConfigDirCommand
-  nameWithType: SettingPageViewModel.HopToConfigDirCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
-  type: Property
-  source:
-    id: HopToConfigDirCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDir.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDir" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand HopToConfigDirCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property HopToConfigDirCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand*
 references:
 - uid: neo_bpsys_wpf.ViewModels.Pages
   commentId: N:neo_bpsys_wpf.ViewModels.Pages
@@ -3376,100 +3376,35 @@ references:
     name: ObjectModel
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  name: IRelayCommand<T>
-  nameWithType: IRelayCommand<T>
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<T>
-  nameWithType.vb: IRelayCommand(Of T)
-  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of T)
-  name.vb: IRelayCommand(Of T)
-  spec.csharp:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: EditTextSettings(Type)
-  nameWithType: SettingPageViewModel.EditTextSettings(Type)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
-    name: EditTextSettings
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
-    name: EditTextSettings
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditTextSettingsCommand
-  name: EditTextSettingsCommand
-  nameWithType: SettingPageViewModel.EditTextSettingsCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Type}
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand{System.Type}
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
   parent: CommunityToolkit.Mvvm.Input
-  definition: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  name: IRelayCommand<Type>
-  nameWithType: IRelayCommand<Type>
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<System.Type>
-  nameWithType.vb: IRelayCommand(Of Type)
-  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of System.Type)
-  name.vb: IRelayCommand(Of Type)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand
+  name: IRelayCommand
+  nameWithType: IRelayCommand
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
+  name: CancelDownload()
+  nameWithType: SettingPageViewModel.CancelDownload()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload()
   spec.csharp:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  - name: <
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: '>'
-  spec.vb:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
+    name: CancelDownload
   - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
   - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
+    name: CancelDownload
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CancelDownloadCommand
+  name: CancelDownloadCommand
+  nameWithType: SettingPageViewModel.CancelDownloadCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
 - uid: CommunityToolkit.Mvvm.Input
   commentId: N:CommunityToolkit.Mvvm.Input
   isExternal: true
@@ -3507,183 +3442,6 @@ references:
     name: Input
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(System.String)
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: EditBpWindowImages(string)
-  nameWithType: SettingPageViewModel.EditBpWindowImages(string)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(string)
-  nameWithType.vb: SettingPageViewModel.EditBpWindowImages(String)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(String)
-  name.vb: EditBpWindowImages(String)
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(System.String)
-    name: EditBpWindowImages
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(System.String)
-    name: EditBpWindowImages
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditBpWindowImagesCommand
-  name: EditBpWindowImagesCommand
-  nameWithType: SettingPageViewModel.EditBpWindowImagesCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
-  parent: CommunityToolkit.Mvvm.Input
-  definition: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  name: IRelayCommand<string>
-  nameWithType: IRelayCommand<string>
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<string>
-  nameWithType.vb: IRelayCommand(Of String)
-  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of String)
-  name.vb: IRelayCommand(Of String)
-  spec.csharp:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '>'
-  spec.vb:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AppVersion
-  name: AppVersion
-  nameWithType: SettingPageViewModel.AppVersion
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsDownloading
-  name: IsDownloading
-  nameWithType: SettingPageViewModel.IsDownloading
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloadFinished*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloadFinished
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsDownloadFinished
-  name: IsDownloadFinished
-  nameWithType: SettingPageViewModel.IsDownloadFinished
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloadFinished
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgressText*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgressText
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_DownloadProgressText
-  name: DownloadProgressText
-  nameWithType: SettingPageViewModel.DownloadProgressText
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgressText
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgress*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgress
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_DownloadProgress
-  name: DownloadProgress
-  nameWithType: SettingPageViewModel.DownloadProgress
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgress
-- uid: System.Double
-  commentId: T:System.Double
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MbPerSecondSpeed
-  name: MbPerSecondSpeed
-  nameWithType: SettingPageViewModel.MbPerSecondSpeed
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
-  parent: CommunityToolkit.Mvvm.Input
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand
-  name: IRelayCommand
-  nameWithType: IRelayCommand
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc
-  name: ManualGc()
-  nameWithType: SettingPageViewModel.ManualGc()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc
-    name: ManualGc
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc
-    name: ManualGc
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ManualGcCommand
-  name: ManualGcCommand
-  nameWithType: SettingPageViewModel.ManualGcCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir
-  name: HopToGameOutputDir()
-  nameWithType: SettingPageViewModel.HopToGameOutputDir()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir
-    name: HopToGameOutputDir
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir
-    name: HopToGameOutputDir
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToGameOutputDirCommand
-  name: HopToGameOutputDirCommand
-  nameWithType: SettingPageViewModel.HopToGameOutputDirCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
 - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
   commentId: T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
   isExternal: true
@@ -3778,48 +3536,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.type
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
-  name: CancelDownload()
-  nameWithType: SettingPageViewModel.CancelDownload()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
-    name: CancelDownload
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload
-    name: CancelDownload
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CancelDownloadCommand
-  name: CancelDownloadCommand
-  nameWithType: SettingPageViewModel.CancelDownloadCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate
-  name: InstallUpdate()
-  nameWithType: SettingPageViewModel.InstallUpdate()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate
-    name: InstallUpdate
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate
-    name: InstallUpdate
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_InstallUpdateCommand
-  name: InstallUpdateCommand
-  nameWithType: SettingPageViewModel.InstallUpdateCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
 - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
   commentId: T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand
   parent: CommunityToolkit.Mvvm.Input
@@ -3849,6 +3565,211 @@ references:
   name: UpdateCheckCommand
   nameWithType: SettingPageViewModel.UpdateCheckCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  name: IRelayCommand<T>
+  nameWithType: IRelayCommand<T>
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<T>
+  nameWithType.vb: IRelayCommand(Of T)
+  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of T)
+  name.vb: IRelayCommand(Of T)
+  spec.csharp:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: EditTextSettings(Type)
+  nameWithType: SettingPageViewModel.EditTextSettings(Type)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
+    name: EditTextSettings
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettings(System.Type)
+    name: EditTextSettings
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditTextSettingsCommand
+  name: EditTextSettingsCommand
+  nameWithType: SettingPageViewModel.EditTextSettingsCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand{System.Type}
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand{System.Type}
+  parent: CommunityToolkit.Mvvm.Input
+  definition: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  name: IRelayCommand<Type>
+  nameWithType: IRelayCommand<Type>
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<System.Type>
+  nameWithType.vb: IRelayCommand(Of Type)
+  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of System.Type)
+  name.vb: IRelayCommand(Of Type)
+  spec.csharp:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '>'
+  spec.vb:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(System.String)
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(System.String)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: EditBpWindowImages(string)
+  nameWithType: SettingPageViewModel.EditBpWindowImages(string)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(string)
+  nameWithType.vb: SettingPageViewModel.EditBpWindowImages(String)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(String)
+  name.vb: EditBpWindowImages(String)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(System.String)
+    name: EditBpWindowImages
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImages(System.String)
+    name: EditBpWindowImages
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditBpWindowImagesCommand
+  name: EditBpWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditBpWindowImagesCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
+  parent: CommunityToolkit.Mvvm.Input
+  definition: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  name: IRelayCommand<string>
+  nameWithType: IRelayCommand<string>
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<string>
+  nameWithType.vb: IRelayCommand(Of String)
+  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of String)
+  name.vb: IRelayCommand(Of String)
+  spec.csharp:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc
+  name: ManualGc()
+  nameWithType: SettingPageViewModel.ManualGc()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc
+    name: ManualGc
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc
+    name: ManualGc
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ManualGcCommand
+  name: ManualGcCommand
+  nameWithType: SettingPageViewModel.ManualGcCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir
+  name: HopToGameOutputDir()
+  nameWithType: SettingPageViewModel.HopToGameOutputDir()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir
+    name: HopToGameOutputDir
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir
+    name: HopToGameOutputDir
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToGameOutputDirCommand
+  name: HopToGameOutputDirCommand
+  nameWithType: SettingPageViewModel.HopToGameOutputDirCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDir
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDir
   name: HopToConfigDir()
@@ -3870,3 +3791,82 @@ references:
   name: HopToConfigDirCommand
   nameWithType: SettingPageViewModel.HopToConfigDirCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate
+  name: InstallUpdate()
+  nameWithType: SettingPageViewModel.InstallUpdate()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate
+    name: InstallUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate
+    name: InstallUpdate
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_InstallUpdateCommand
+  name: InstallUpdateCommand
+  nameWithType: SettingPageViewModel.InstallUpdateCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AppVersion
+  name: AppVersion
+  nameWithType: SettingPageViewModel.AppVersion
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsDownloading
+  name: IsDownloading
+  nameWithType: SettingPageViewModel.IsDownloading
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloadFinished*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloadFinished
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsDownloadFinished
+  name: IsDownloadFinished
+  nameWithType: SettingPageViewModel.IsDownloadFinished
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloadFinished
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgressText*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgressText
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_DownloadProgressText
+  name: DownloadProgressText
+  nameWithType: SettingPageViewModel.DownloadProgressText
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgressText
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgress*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgress
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_DownloadProgress
+  name: DownloadProgress
+  nameWithType: SettingPageViewModel.DownloadProgress
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgress
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed
+  href: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MbPerSecondSpeed
+  name: MbPerSecondSpeed
+  nameWithType: SettingPageViewModel.MbPerSecondSpeed
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed
