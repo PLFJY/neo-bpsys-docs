@@ -255,7 +255,6 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -272,7 +271,6 @@ references:
   commentId: T:System.Windows.Controls.Frame
   parent: System.Windows.Controls
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.frame
   name: Frame
   nameWithType: Frame
   fullName: System.Windows.Controls.Frame

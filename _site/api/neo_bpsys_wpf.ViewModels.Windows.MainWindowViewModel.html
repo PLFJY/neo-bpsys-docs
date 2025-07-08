@@ -98,12 +98,12 @@ Class MainWindowViewModel
   </div>
 
   <div class="markdown summary"><p>A base class for observable objects that also acts as recipients for messages. This class is an extension of
-<a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject">ObservableObject</a> which also provides built-in support to use the <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.imessenger">IMessenger</a> type.</p>
+<span class="xref">CommunityToolkit.Mvvm.ComponentModel.ObservableObject</span> which also provides built-in support to use the <span class="xref">CommunityToolkit.Mvvm.Messaging.IMessenger</span> type.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MainWindowViewModel : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging, IRecipient&lt;NewGameMessage&gt;, IRecipient&lt;SwapMessage&gt;, IRecipient&lt;ValueChangedMessage&lt;string&gt;&gt;, IRecipient&lt;PropertyChangedMessage&lt;bool&gt;&gt;, IRecipient&lt;HighlightMessage&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class MainWindowViewModel : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -112,9 +112,9 @@ Class MainWindowViewModel
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject">ObservableObject</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient">ObservableRecipient</a></div>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableRecipient</span></div>
       <div><span class="xref">MainWindowViewModel</span></div>
     </dd>
   </dl>
@@ -124,121 +124,10 @@ Class MainWindowViewModel
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.irecipient-1">IRecipient</a>&lt;<a class="xref" href="neo_bpsys_wpf.Messages.NewGameMessage.html">NewGameMessage</a>&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.irecipient-1">IRecipient</a>&lt;<a class="xref" href="neo_bpsys_wpf.Messages.SwapMessage.html">SwapMessage</a>&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.irecipient-1">IRecipient</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.messages.valuechangedmessage-1">ValueChangedMessage</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.irecipient-1">IRecipient</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.messages.propertychangedmessage-1">PropertyChangedMessage</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.irecipient-1">IRecipient</a>&lt;<a class="xref" href="neo_bpsys_wpf.Messages.HighlightMessage.html">HighlightMessage</a>&gt;</div>
     </dd>
   </dl>
 
 
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.onactivated">ObservableRecipient.OnActivated()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.ondeactivated">ObservableRecipient.OnDeactivated()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.broadcast">ObservableRecipient.Broadcast&lt;T&gt;(T, T, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.setproperty#communitytoolkit-mvvm-componentmodel-observablerecipient-setproperty-1(-0@-0-system-boolean-system-string)">ObservableRecipient.SetProperty&lt;T&gt;(ref T, T, bool, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.setproperty#communitytoolkit-mvvm-componentmodel-observablerecipient-setproperty-1(-0@-0-system-collections-generic-iequalitycomparer((-0))-system-boolean-system-string)">ObservableRecipient.SetProperty&lt;T&gt;(ref T, T, IEqualityComparer&lt;T&gt;, bool, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.setproperty#communitytoolkit-mvvm-componentmodel-observablerecipient-setproperty-1(-0-0-system-action((-0))-system-boolean-system-string)">ObservableRecipient.SetProperty&lt;T&gt;(T, T, Action&lt;T&gt;, bool, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.setproperty#communitytoolkit-mvvm-componentmodel-observablerecipient-setproperty-1(-0-0-system-collections-generic-iequalitycomparer((-0))-system-action((-0))-system-boolean-system-string)">ObservableRecipient.SetProperty&lt;T&gt;(T, T, IEqualityComparer&lt;T&gt;, Action&lt;T&gt;, bool, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.setproperty#communitytoolkit-mvvm-componentmodel-observablerecipient-setproperty-2(-1-1-0-system-action((-0-1))-system-boolean-system-string)">ObservableRecipient.SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, bool, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.setproperty#communitytoolkit-mvvm-componentmodel-observablerecipient-setproperty-2(-1-1-system-collections-generic-iequalitycomparer((-1))-0-system-action((-0-1))-system-boolean-system-string)">ObservableRecipient.SetProperty&lt;TModel, T&gt;(T, T, IEqualityComparer&lt;T&gt;, TModel, Action&lt;TModel, T&gt;, bool, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.messenger">ObservableRecipient.Messenger</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observablerecipient.isactive">ObservableRecipient.IsActive</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.onpropertychanged#communitytoolkit-mvvm-componentmodel-observableobject-onpropertychanged(system-componentmodel-propertychangedeventargs)">ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.onpropertychanging#communitytoolkit-mvvm-componentmodel-observableobject-onpropertychanging(system-componentmodel-propertychangingeventargs)">ObservableObject.OnPropertyChanging(PropertyChangingEventArgs)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.onpropertychanged#communitytoolkit-mvvm-componentmodel-observableobject-onpropertychanged(system-string)">ObservableObject.OnPropertyChanged(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.onpropertychanging#communitytoolkit-mvvm-componentmodel-observableobject-onpropertychanging(system-string)">ObservableObject.OnPropertyChanging(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setproperty#communitytoolkit-mvvm-componentmodel-observableobject-setproperty-1(-0@-0-system-string)">ObservableObject.SetProperty&lt;T&gt;(ref T, T, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setproperty#communitytoolkit-mvvm-componentmodel-observableobject-setproperty-1(-0@-0-system-collections-generic-iequalitycomparer((-0))-system-string)">ObservableObject.SetProperty&lt;T&gt;(ref T, T, IEqualityComparer&lt;T&gt;, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setproperty#communitytoolkit-mvvm-componentmodel-observableobject-setproperty-1(-0-0-system-action((-0))-system-string)">ObservableObject.SetProperty&lt;T&gt;(T, T, Action&lt;T&gt;, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setproperty#communitytoolkit-mvvm-componentmodel-observableobject-setproperty-1(-0-0-system-collections-generic-iequalitycomparer((-0))-system-action((-0))-system-string)">ObservableObject.SetProperty&lt;T&gt;(T, T, IEqualityComparer&lt;T&gt;, Action&lt;T&gt;, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setproperty#communitytoolkit-mvvm-componentmodel-observableobject-setproperty-2(-1-1-0-system-action((-0-1))-system-string)">ObservableObject.SetProperty&lt;TModel, T&gt;(T, T, TModel, Action&lt;TModel, T&gt;, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setproperty#communitytoolkit-mvvm-componentmodel-observableobject-setproperty-2(-1-1-system-collections-generic-iequalitycomparer((-1))-0-system-action((-0-1))-system-string)">ObservableObject.SetProperty&lt;TModel, T&gt;(T, T, IEqualityComparer&lt;T&gt;, TModel, Action&lt;TModel, T&gt;, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setpropertyandnotifyoncompletion#communitytoolkit-mvvm-componentmodel-observableobject-setpropertyandnotifyoncompletion(communitytoolkit-mvvm-componentmodel-observableobject-tasknotifier@-system-threading-tasks-task-system-string)">ObservableObject.SetPropertyAndNotifyOnCompletion(ref ObservableObject.TaskNotifier, Task, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setpropertyandnotifyoncompletion#communitytoolkit-mvvm-componentmodel-observableobject-setpropertyandnotifyoncompletion(communitytoolkit-mvvm-componentmodel-observableobject-tasknotifier@-system-threading-tasks-task-system-action((system-threading-tasks-task))-system-string)">ObservableObject.SetPropertyAndNotifyOnCompletion(ref ObservableObject.TaskNotifier, Task, Action&lt;Task&gt;, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setpropertyandnotifyoncompletion#communitytoolkit-mvvm-componentmodel-observableobject-setpropertyandnotifyoncompletion-1(communitytoolkit-mvvm-componentmodel-observableobject-tasknotifier((-0))@-system-threading-tasks-task((-0))-system-string)">ObservableObject.SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref ObservableObject.TaskNotifier&lt;T&gt;, Task&lt;T&gt;, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.setpropertyandnotifyoncompletion#communitytoolkit-mvvm-componentmodel-observableobject-setpropertyandnotifyoncompletion-1(communitytoolkit-mvvm-componentmodel-observableobject-tasknotifier((-0))@-system-threading-tasks-task((-0))-system-action((system-threading-tasks-task((-0))))-system-string)">ObservableObject.SetPropertyAndNotifyOnCompletion&lt;T&gt;(ref ObservableObject.TaskNotifier&lt;T&gt;, Task&lt;T&gt;, Action&lt;Task&lt;T&gt;&gt;, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.propertychanged">ObservableObject.PropertyChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel.observableobject.propertychanging">ObservableObject.PropertyChanging</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-  </dd></dl>
 
 
 
@@ -664,7 +553,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToNextStepAsync()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToNextStepAsync()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -678,7 +567,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a></dt>
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -696,7 +585,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NavigateToPreviousStepAsync()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -710,7 +599,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a></dt>
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -728,7 +617,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NewGameAsync()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NewGameAsync()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -742,7 +631,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a></dt>
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -822,7 +711,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -836,7 +725,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a></dt>
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -885,7 +774,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationAsync()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationAsync()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -899,7 +788,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a></dt>
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -917,7 +806,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StopNavigation()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StopNavigation()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -931,7 +820,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dt><span class="xref">IRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -980,7 +869,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Swap()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -994,7 +883,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dt><span class="xref">IRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -1012,7 +901,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ThemeSwitchAsync()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1026,7 +915,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand">IAsyncRelayCommand</a></dt>
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -1044,7 +933,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStart()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1058,7 +947,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dt><span class="xref">IRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -1076,7 +965,7 @@ Class MainWindowViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerStop()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1090,7 +979,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dt><span class="xref">IRelayCommand</span></dt>
     <dd></dd>
   </dl>
 
@@ -1143,7 +1032,7 @@ Class MainWindowViewModel
   <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L249"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.messages.propertychangedmessage-1">PropertyChangedMessage&lt;bool&gt;</a> message instance.</p>
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">PropertyChangedMessage&lt;bool&gt;</a> message instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1153,7 +1042,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.messages.propertychangedmessage-1">PropertyChangedMessage</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dt><code>message</code> <span class="xref">PropertyChangedMessage</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
     <dd><p>The message being received.</p>
 </dd>
   </dl>
@@ -1176,7 +1065,7 @@ Class MainWindowViewModel
   <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.messages.valuechangedmessage-1">ValueChangedMessage&lt;string&gt;</a> message instance.</p>
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ValueChangedMessage&lt;string&gt;</a> message instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1186,7 +1075,7 @@ Class MainWindowViewModel
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.messages.valuechangedmessage-1">ValueChangedMessage</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>message</code> <span class="xref">ValueChangedMessage</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
     <dd><p>The message being received.</p>
 </dd>
   </dl>
