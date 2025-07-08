@@ -8,6 +8,7 @@ items:
   - neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromFileName(neo_bpsys_wpf.Enums.ImageSourceKey,System.String)
   - neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromName(neo_bpsys_wpf.Enums.ImageSourceKey,System.String)
   - neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String)
+  - neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})
   - neo_bpsys_wpf.Helpers.ImageHelper.GetUiImageBrush(System.String)
   - neo_bpsys_wpf.Helpers.ImageHelper.GetUiImageSource(System.String)
   langs:
@@ -20,11 +21,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageHelper
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 7
+    startLine: 9
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
@@ -55,18 +56,18 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetUiImageBrush
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
   summary: Get Ui ImageBrush from Resources\bpui\
   example: []
   syntax:
-    content: public static ImageBrush? GetUiImageBrush(string key)
+    content: public static ImageBrush GetUiImageBrush(string key)
     parameters:
     - id: key
       type: System.String
@@ -93,18 +94,18 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetUiImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 30
+    startLine: 35
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
   summary: Get Ui ImageSource from Resources\bpui\
   example: []
   syntax:
-    content: public static ImageSource? GetUiImageSource(string key)
+    content: public static ImageSource GetUiImageSource(string key)
     parameters:
     - id: key
       type: System.String
@@ -131,11 +132,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetImageSourceFromFileName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 45
+    startLine: 52
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
@@ -172,11 +173,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetImageSourceFromName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 62
+    startLine: 67
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
@@ -190,7 +191,7 @@ items:
       description: ''
     - id: name
       type: System.String
-      description: resource name with out filename extension
+      description: resource name without filename extension
     return:
       type: System.Windows.Media.ImageSource
       description: ''
@@ -213,11 +214,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetTalentImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 80
+    startLine: 82
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
@@ -240,6 +241,37 @@ items:
   nameWithType.vb: ImageHelper.GetTalentImageSource(Camp, String)
   fullName.vb: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, String)
   name.vb: GetTalentImageSource(Camp, String)
+- uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})
+  commentId: M:neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})
+  id: GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})
+  parent: neo_bpsys_wpf.Helpers.ImageHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTraitImageSource(Trait?)
+  nameWithType: ImageHelper.GetTraitImageSource(Trait?)
+  fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource(neo_bpsys_wpf.Enums.Trait?)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Helpers/ImageHelper.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GetTraitImageSource
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
+    startLine: 104
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Helpers
+  syntax:
+    content: public static ImageSource? GetTraitImageSource(Trait? trait)
+    parameters:
+    - id: trait
+      type: System.Nullable{neo_bpsys_wpf.Enums.Trait}
+    return:
+      type: System.Windows.Media.ImageSource
+    content.vb: Public Shared Function GetTraitImageSource(trait As Trait?) As ImageSource
+  overload: neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource*
 references:
 - uid: neo_bpsys_wpf.Helpers
   commentId: N:neo_bpsys_wpf.Helpers
@@ -630,3 +662,55 @@ references:
   name: Camp
   nameWithType: Camp
   fullName: neo_bpsys_wpf.Enums.Camp
+- uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource*
+  commentId: Overload:neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource
+  href: neo_bpsys_wpf.Helpers.ImageHelper.html#neo_bpsys_wpf_Helpers_ImageHelper_GetTraitImageSource_System_Nullable_neo_bpsys_wpf_Enums_Trait__
+  name: GetTraitImageSource
+  nameWithType: ImageHelper.GetTraitImageSource
+  fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource
+- uid: System.Nullable{neo_bpsys_wpf.Enums.Trait}
+  commentId: T:System.Nullable{neo_bpsys_wpf.Enums.Trait}
+  parent: System
+  definition: System.Nullable`1
+  href: neo_bpsys_wpf.Enums.Trait.html
+  name: Trait?
+  nameWithType: Trait?
+  fullName: neo_bpsys_wpf.Enums.Trait?
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Enums.Trait
+    name: Trait
+    href: neo_bpsys_wpf.Enums.Trait.html
+  - name: '?'
+  spec.vb:
+  - uid: neo_bpsys_wpf.Enums.Trait
+    name: Trait
+    href: neo_bpsys_wpf.Enums.Trait.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

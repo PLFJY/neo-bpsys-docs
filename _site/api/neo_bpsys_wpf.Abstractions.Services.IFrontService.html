@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/plfjy/neo-bpsys-wpf/new/dev-feat/ignoreFocusLoss/apiSpec/new?filename=neo_bpsys_wpf_Abstractions_Services_IFrontService.md&amp;value=---%0Auid%3A%20neo_bpsys_wpf.Abstractions.Services.IFrontService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/plfjy/neo-bpsys-wpf/new/dev-feat/DeepCustom/apiSpec/new?filename=neo_bpsys_wpf_Abstractions_Services_IFrontService.md&amp;value=---%0Auid%3A%20neo_bpsys_wpf.Abstractions.Services.IFrontService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Abstractions_Services_IFrontService" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService" class="text-break">
-Interface IFrontService  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Interface IFrontService  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -125,7 +125,7 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_FrontWindowStates" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates">
   FrontWindowStates
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>前台窗口状态</p>
@@ -161,10 +161,11 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowHide" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide">
   AllWindowHide()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>隐藏所有窗口</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -187,10 +188,11 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowShow" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow">
   AllWindowShow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>显示所有窗口</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -209,14 +211,78 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings">
+  ApplyAllWindowsSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>应用所有窗口设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ApplyAllWindowsSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_System_Type_System_Boolean_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type,System.Boolean)">
+  ApplySettings(Type, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>应用设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ApplySettings(Type windowType, bool isInitial = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+    <dt><code>isInitial</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否是初始化模式</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*"></a>
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart__1_System_String_System_Int32_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart``1(System.String,System.Int32,System.String)">
   BreathingStart&lt;T&gt;(string, int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>呼吸动画</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -226,11 +292,14 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>controlNameHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>控件名称头</p>
+</dd>
     <dt><code>controlIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>控件索引</p>
+</dd>
     <dt><code>controlNameFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>控件名称尾</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -242,7 +311,8 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>窗口类型</p>
+</dd>
   </dl>
 
 
@@ -258,10 +328,11 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStop__1_System_String_System_Int32_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop``1(System.String,System.Int32,System.String)">
   BreathingStop&lt;T&gt;(string, int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>停止呼吸动画</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -271,11 +342,14 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>controlNameHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>控件名称头</p>
+</dd>
     <dt><code>controlIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>控件索引</p>
+</dd>
     <dt><code>controlNameFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>控件名称尾</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -287,7 +361,8 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>窗口类型</p>
+</dd>
   </dl>
 
 
@@ -303,10 +378,11 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeInAnimation__1_System_String_System_Int32_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation``1(System.String,System.Int32,System.String)">
   FadeInAnimation&lt;T&gt;(string, int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>渐入动画</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -316,18 +392,22 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>controlNameHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>控件名称头</p>
+</dd>
     <dt><code>controlIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>控件索引</p>
+</dd>
     <dt><code>controlNameFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>控件名称尾</p>
+</dd>
   </dl>
 
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>窗口类型</p>
+</dd>
   </dl>
 
 
@@ -343,10 +423,11 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeOutAnimation__1_System_String_System_Int32_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation``1(System.String,System.Int32,System.String)">
   FadeOutAnimation&lt;T&gt;(string, int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>渐出动画</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -356,18 +437,22 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>controlNameHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>控件名称头</p>
+</dd>
     <dt><code>controlIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>控件索引</p>
+</dd>
     <dt><code>controlNameFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>控件名称尾</p>
+</dd>
   </dl>
 
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>窗口类型</p>
+</dd>
   </dl>
 
 
@@ -383,10 +468,11 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_HideWindow__1" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow``1">
   HideWindow&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>隐藏窗口</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -398,7 +484,8 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>窗口类型</p>
+</dd>
   </dl>
 
 
@@ -414,7 +501,7 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_LoadWindowElementsPositionOnStartupAsync__1_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync``1(System.String)">
   LoadWindowElementsPositionOnStartupAsync&lt;T&gt;(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>从JSON中加载窗口中元素的位置信息</p>
@@ -458,7 +545,7 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ResetGlobalScore" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore">
   ResetGlobalScore()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>重置全局分数统计</p>
@@ -485,7 +572,7 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_RestoreInitialPositions__1_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions``1(System.String)">
   RestoreInitialPositions&lt;T&gt;(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>还原窗口中的元素到初始位置</p>
@@ -499,7 +586,8 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>canvasName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>画布名称</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -511,7 +599,8 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>窗口类型</p>
+</dd>
   </dl>
 
 
@@ -527,7 +616,7 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveWindowElementsPosition__1_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition``1(System.String)">
   SaveWindowElementsPosition&lt;T&gt;(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取窗口中元素的位置信息</p>
@@ -566,7 +655,7 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScore_System_String_neo_bpsys_wpf_Enums_GameProgress_neo_bpsys_wpf_Enums_Camp_System_Int32_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)">
   SetGlobalScore(string, GameProgress, Camp, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>设置分数统计</p>
@@ -580,13 +669,17 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>team</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>队伍，从<a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a>里拿nameof</p>
+</dd>
     <dt><code>gameProgress</code> <a class="xref" href="neo_bpsys_wpf.Enums.GameProgress.html">GameProgress</a></dt>
-    <dd></dd>
+    <dd><p>游戏进度</p>
+</dd>
     <dt><code>camp</code> <a class="xref" href="neo_bpsys_wpf.Enums.Camp.html">Camp</a></dt>
-    <dd></dd>
+    <dd><p>阵营</p>
+</dd>
     <dt><code>score</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>分数</p>
+</dd>
   </dl>
 
 
@@ -604,7 +697,7 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScoreToBar_System_String_neo_bpsys_wpf_Enums_GameProgress_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)">
   SetGlobalScoreToBar(string, GameProgress)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>重置分数统计为横杠</p>
@@ -618,9 +711,11 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>team</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>队伍，从<a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a>里拿nameof</p>
+</dd>
     <dt><code>gameProgress</code> <a class="xref" href="neo_bpsys_wpf.Enums.GameProgress.html">GameProgress</a></dt>
-    <dd></dd>
+    <dd><p>游戏进度</p>
+</dd>
   </dl>
 
 
@@ -638,10 +733,11 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ShowWindow__1" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow``1">
   ShowWindow&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>显示窗口</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -653,7 +749,8 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>窗口类型</p>
+</dd>
   </dl>
 
 
@@ -669,7 +766,7 @@ Interface IFrontService  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

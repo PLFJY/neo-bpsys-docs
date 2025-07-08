@@ -5,8 +5,8 @@ items:
   id: neo_bpsys_wpf.ViewModels.Windows
   children:
   - neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel
+  - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
-  - neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
@@ -28,18 +28,18 @@ references:
   name: BpWindowViewModel
   nameWithType: BpWindowViewModel
   fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
+  commentId: T:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
+  href: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html
+  name: CutSceneWindowViewModel
+  nameWithType: CutSceneWindowViewModel
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
   commentId: T:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
   href: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html
   name: GameDataWindowViewModel
   nameWithType: GameDataWindowViewModel
   fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
-- uid: neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel
-  commentId: T:neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel
-  href: neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel.html
-  name: InterludeWindowViewModel
-  nameWithType: InterludeWindowViewModel
-  fullName: neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
   commentId: T:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
   href: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html

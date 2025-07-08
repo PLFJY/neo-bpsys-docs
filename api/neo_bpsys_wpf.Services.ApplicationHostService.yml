@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/ApplicationHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ApplicationHostService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/ApplicationHostService.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -57,11 +57,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/ApplicationHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/ApplicationHostService.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -92,11 +92,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/ApplicationHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StartAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/ApplicationHostService.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -129,11 +129,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/ApplicationHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StopAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/ApplicationHostService.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services

@@ -4,7 +4,7 @@ items:
   commentId: N:neo_bpsys_wpf.Helpers
   id: neo_bpsys_wpf.Helpers
   children:
-  - neo_bpsys_wpf.Helpers.AdminHelper
+  - neo_bpsys_wpf.Helpers.ColorHelper
   - neo_bpsys_wpf.Helpers.ImageHelper
   langs:
   - csharp
@@ -16,12 +16,12 @@ items:
   assemblies:
   - neo-bpsys-wpf
 references:
-- uid: neo_bpsys_wpf.Helpers.AdminHelper
-  commentId: T:neo_bpsys_wpf.Helpers.AdminHelper
-  href: neo_bpsys_wpf.Helpers.AdminHelper.html
-  name: AdminHelper
-  nameWithType: AdminHelper
-  fullName: neo_bpsys_wpf.Helpers.AdminHelper
+- uid: neo_bpsys_wpf.Helpers.ColorHelper
+  commentId: T:neo_bpsys_wpf.Helpers.ColorHelper
+  href: neo_bpsys_wpf.Helpers.ColorHelper.html
+  name: ColorHelper
+  nameWithType: ColorHelper
+  fullName: neo_bpsys_wpf.Helpers.ColorHelper
 - uid: neo_bpsys_wpf.Helpers.ImageHelper
   commentId: T:neo_bpsys_wpf.Helpers.ImageHelper
   href: neo_bpsys_wpf.Helpers.ImageHelper.html

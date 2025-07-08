@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/CharacterSwappedMessage.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharacterSwappedMessage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/CharacterSwappedMessage.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/CharacterSwappedMessage.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/CharacterSwappedMessage.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/CharacterSwappedMessage.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Sender
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/CharacterSwappedMessage.cs

@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AssetsInfo
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
-    startLine: 208
+    startLine: 207
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -52,11 +52,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Name
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
-    startLine: 210
+    startLine: 209
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -93,11 +93,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BrowserDownloadUrl
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
-    startLine: 212
+    startLine: 211
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services

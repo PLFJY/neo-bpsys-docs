@@ -1,0 +1,779 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService
+  commentId: T:neo_bpsys_wpf.Services.TextSettingsNavigationService
+  id: TextSettingsNavigationService
+  parent: neo_bpsys_wpf.Services
+  children:
+  - neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(System.Type)
+  - neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type,System.Object)
+  - neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate``1(System.Object)
+  - neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  - neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  langs:
+  - csharp
+  - vb
+  name: TextSettingsNavigationService
+  nameWithType: TextSettingsNavigationService
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService
+  type: Class
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: TextSettingsNavigationService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+    startLine: 13
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  syntax:
+    content: 'public class TextSettingsNavigationService : ITextSettingsNavigationService'
+    content.vb: Public Class TextSettingsNavigationService Implements ITextSettingsNavigationService
+  inheritance:
+  - System.Object
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  id: SetFrameControl``1(System.Windows.Controls.Frame)
+  parent: neo_bpsys_wpf.Services.TextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: SetFrameControl<T>(Frame)
+  nameWithType: TextSettingsNavigationService.SetFrameControl<T>(Frame)
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl<T>(System.Windows.Controls.Frame)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SetFrameControl
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+    startLine: 17
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  example: []
+  syntax:
+    content: 'public void SetFrameControl<T>(Frame frame) where T : Window'
+    parameters:
+    - id: frame
+      type: System.Windows.Controls.Frame
+    typeParameters:
+    - id: T
+    content.vb: Public Sub SetFrameControl(Of T As Window)(frame As Frame)
+  overload: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  nameWithType.vb: TextSettingsNavigationService.SetFrameControl(Of T)(Frame)
+  fullName.vb: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(Of T)(System.Windows.Controls.Frame)
+  name.vb: SetFrameControl(Of T)(Frame)
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  id: SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  parent: neo_bpsys_wpf.Services.TextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: SetFrameControl(Type, Frame)
+  nameWithType: TextSettingsNavigationService.SetFrameControl(Type, Frame)
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(System.Type, System.Windows.Controls.Frame)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SetFrameControl
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+    startLine: 22
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  example: []
+  syntax:
+    content: public void SetFrameControl(Type type, Frame frame)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: frame
+      type: System.Windows.Controls.Frame
+    content.vb: Public Sub SetFrameControl(type As Type, frame As Frame)
+  overload: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate``1(System.Object)
+  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate``1(System.Object)
+  id: Navigate``1(System.Object)
+  parent: neo_bpsys_wpf.Services.TextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: Navigate<T>(object)
+  nameWithType: TextSettingsNavigationService.Navigate<T>(object)
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate<T>(object)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Navigate
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+    startLine: 27
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  example: []
+  syntax:
+    content: 'public void Navigate<T>(object page) where T : Window'
+    parameters:
+    - id: page
+      type: System.Object
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Navigate(Of T As Window)(page As Object)
+  overload: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
+  nameWithType.vb: TextSettingsNavigationService.Navigate(Of T)(Object)
+  fullName.vb: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(Of T)(Object)
+  name.vb: Navigate(Of T)(Object)
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type,System.Object)
+  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type,System.Object)
+  id: Navigate(System.Type,System.Object)
+  parent: neo_bpsys_wpf.Services.TextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: Navigate(Type, object)
+  nameWithType: TextSettingsNavigationService.Navigate(Type, object)
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type, object)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Navigate
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+    startLine: 35
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  example: []
+  syntax:
+    content: public void Navigate(Type type, object page)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: page
+      type: System.Object
+    content.vb: Public Sub Navigate(type As Type, page As Object)
+  overload: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
+  nameWithType.vb: TextSettingsNavigationService.Navigate(Type, Object)
+  fullName.vb: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type, Object)
+  name.vb: Navigate(Type, Object)
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(System.Type)
+  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(System.Type)
+  id: Close(System.Type)
+  parent: neo_bpsys_wpf.Services.TextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: Close(Type)
+  nameWithType: TextSettingsNavigationService.Close(Type)
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(System.Type)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Close
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/TextSettingsNavigationService.cs
+    startLine: 43
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Services
+  example: []
+  syntax:
+    content: public void Close(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    content.vb: Public Sub Close(type As Type)
+  overload: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close*
+  implements:
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+references:
+- uid: neo_bpsys_wpf.Services
+  commentId: N:neo_bpsys_wpf.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Services
+  nameWithType: neo_bpsys_wpf.Services
+  fullName: neo_bpsys_wpf.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services
+    name: Services
+    href: neo_bpsys_wpf.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Services
+    name: Services
+    href: neo_bpsys_wpf.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html
+  name: ITextSettingsNavigationService
+  nameWithType: ITextSettingsNavigationService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl*
+  commentId: Overload:neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl
+  href: neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_SetFrameControl__1_System_Windows_Controls_Frame_
+  name: SetFrameControl
+  nameWithType: TextSettingsNavigationService.SetFrameControl
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl__1_System_Windows_Controls_Frame_
+  name: SetFrameControl<T>(Frame)
+  nameWithType: ITextSettingsNavigationService.SetFrameControl<T>(Frame)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl<T>(System.Windows.Controls.Frame)
+  nameWithType.vb: ITextSettingsNavigationService.SetFrameControl(Of T)(Frame)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(Of T)(System.Windows.Controls.Frame)
+  name.vb: SetFrameControl(Of T)(Frame)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+    name: SetFrameControl
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl__1_System_Windows_Controls_Frame_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Windows.Controls.Frame
+    name: Frame
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.frame
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+    name: SetFrameControl
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl__1_System_Windows_Controls_Frame_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Windows.Controls.Frame
+    name: Frame
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.frame
+  - name: )
+- uid: System.Windows.Controls.Frame
+  commentId: T:System.Windows.Controls.Frame
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.frame
+  name: Frame
+  nameWithType: Frame
+  fullName: System.Windows.Controls.Frame
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl_System_Type_System_Windows_Controls_Frame_
+  name: SetFrameControl(Type, Frame)
+  nameWithType: ITextSettingsNavigationService.SetFrameControl(Type, Frame)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type, System.Windows.Controls.Frame)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+    name: SetFrameControl
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl_System_Type_System_Windows_Controls_Frame_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Frame
+    name: Frame
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.frame
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+    name: SetFrameControl
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl_System_Type_System_Windows_Controls_Frame_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Controls.Frame
+    name: Frame
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls.frame
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate*
+  commentId: Overload:neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate
+  href: neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Navigate__1_System_Object_
+  name: Navigate
+  nameWithType: TextSettingsNavigationService.Navigate
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate__1_System_Object_
+  name: Navigate<T>(object)
+  nameWithType: ITextSettingsNavigationService.Navigate<T>(object)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate<T>(object)
+  nameWithType.vb: ITextSettingsNavigationService.Navigate(Of T)(Object)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(Of T)(Object)
+  name.vb: Navigate(Of T)(Object)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
+    name: Navigate
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
+    name: Navigate
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate_System_Type_System_Object_
+  name: Navigate(Type, object)
+  nameWithType: ITextSettingsNavigationService.Navigate(Type, object)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type, object)
+  nameWithType.vb: ITextSettingsNavigationService.Navigate(Type, Object)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type, Object)
+  name.vb: Navigate(Type, Object)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
+    name: Navigate
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate_System_Type_System_Object_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
+    name: Navigate
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate_System_Type_System_Object_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close*
+  commentId: Overload:neo_bpsys_wpf.Services.TextSettingsNavigationService.Close
+  href: neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Close_System_Type_
+  name: Close
+  nameWithType: TextSettingsNavigationService.Close
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  isExternal: true
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Close_System_Type_
+  name: Close(Type)
+  nameWithType: ITextSettingsNavigationService.Close(Type)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+    name: Close
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Close_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+    name: Close
+    href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Close_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )

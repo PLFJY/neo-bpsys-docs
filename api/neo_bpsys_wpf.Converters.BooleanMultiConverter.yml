@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/BooleanMultiConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BooleanMultiConverter
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/BooleanMultiConverter.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/BooleanMultiConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Convert
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/BooleanMultiConverter.cs
@@ -110,7 +110,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/BooleanMultiConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ConvertBack
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/BooleanMultiConverter.cs

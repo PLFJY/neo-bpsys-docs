@@ -4,17 +4,27 @@ items:
   commentId: N:neo_bpsys_wpf.Models
   id: neo_bpsys_wpf.Models
   children:
+  - neo_bpsys_wpf.Models.BpWindowSettings
+  - neo_bpsys_wpf.Models.BpWindowTextSettings
   - neo_bpsys_wpf.Models.Character
-  - neo_bpsys_wpf.Models.FrontResolution
+  - neo_bpsys_wpf.Models.CutSceneWindowSettings
+  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings
   - neo_bpsys_wpf.Models.Game
+  - neo_bpsys_wpf.Models.GameDataWindowSettings
+  - neo_bpsys_wpf.Models.GameDataWindowTextSettings
   - neo_bpsys_wpf.Models.Member
   - neo_bpsys_wpf.Models.Player
   - neo_bpsys_wpf.Models.PlayerData
   - neo_bpsys_wpf.Models.Score
+  - neo_bpsys_wpf.Models.ScoreWindowSettings
+  - neo_bpsys_wpf.Models.ScoreWindowTextSettings
   - neo_bpsys_wpf.Models.Settings
   - neo_bpsys_wpf.Models.Talent
   - neo_bpsys_wpf.Models.Team
+  - neo_bpsys_wpf.Models.TextSettings
   - neo_bpsys_wpf.Models.Trait
+  - neo_bpsys_wpf.Models.WidgetsWindowSettings
+  - neo_bpsys_wpf.Models.WidgetsWindowTextSettings
   - neo_bpsys_wpf.Models.WindowResolution
   langs:
   - csharp
@@ -75,13 +85,83 @@ references:
   name: Settings
   nameWithType: Settings
   fullName: neo_bpsys_wpf.Models.Settings
-- uid: neo_bpsys_wpf.Models.FrontResolution
-  commentId: T:neo_bpsys_wpf.Models.FrontResolution
+- uid: neo_bpsys_wpf.Models.TextSettings
+  commentId: T:neo_bpsys_wpf.Models.TextSettings
   parent: neo_bpsys_wpf.Models
-  href: neo_bpsys_wpf.Models.FrontResolution.html
-  name: FrontResolution
-  nameWithType: FrontResolution
-  fullName: neo_bpsys_wpf.Models.FrontResolution
+  href: neo_bpsys_wpf.Models.TextSettings.html
+  name: TextSettings
+  nameWithType: TextSettings
+  fullName: neo_bpsys_wpf.Models.TextSettings
+- uid: neo_bpsys_wpf.Models.BpWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.BpWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.BpWindowSettings.html
+  name: BpWindowSettings
+  nameWithType: BpWindowSettings
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings
+- uid: neo_bpsys_wpf.Models.BpWindowTextSettings
+  commentId: T:neo_bpsys_wpf.Models.BpWindowTextSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.BpWindowTextSettings.html
+  name: BpWindowTextSettings
+  nameWithType: BpWindowTextSettings
+  fullName: neo_bpsys_wpf.Models.BpWindowTextSettings
+- uid: neo_bpsys_wpf.Models.CutSceneWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.CutSceneWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.CutSceneWindowSettings.html
+  name: CutSceneWindowSettings
+  nameWithType: CutSceneWindowSettings
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowSettings
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  commentId: T:neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html
+  name: CutSceneWindowTextSettings
+  nameWithType: CutSceneWindowTextSettings
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.ScoreWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.ScoreWindowSettings.html
+  name: ScoreWindowSettings
+  nameWithType: ScoreWindowSettings
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings
+- uid: neo_bpsys_wpf.Models.ScoreWindowTextSettings
+  commentId: T:neo_bpsys_wpf.Models.ScoreWindowTextSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.ScoreWindowTextSettings.html
+  name: ScoreWindowTextSettings
+  nameWithType: ScoreWindowTextSettings
+  fullName: neo_bpsys_wpf.Models.ScoreWindowTextSettings
+- uid: neo_bpsys_wpf.Models.GameDataWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.GameDataWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.GameDataWindowSettings.html
+  name: GameDataWindowSettings
+  nameWithType: GameDataWindowSettings
+  fullName: neo_bpsys_wpf.Models.GameDataWindowSettings
+- uid: neo_bpsys_wpf.Models.GameDataWindowTextSettings
+  commentId: T:neo_bpsys_wpf.Models.GameDataWindowTextSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.GameDataWindowTextSettings.html
+  name: GameDataWindowTextSettings
+  nameWithType: GameDataWindowTextSettings
+  fullName: neo_bpsys_wpf.Models.GameDataWindowTextSettings
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.WidgetsWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html
+  name: WidgetsWindowSettings
+  nameWithType: WidgetsWindowSettings
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings
+- uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings
+  commentId: T:neo_bpsys_wpf.Models.WidgetsWindowTextSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html
+  name: WidgetsWindowTextSettings
+  nameWithType: WidgetsWindowTextSettings
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowTextSettings
 - uid: neo_bpsys_wpf.Models.Talent
   commentId: T:neo_bpsys_wpf.Models.Talent
   parent: neo_bpsys_wpf.Models

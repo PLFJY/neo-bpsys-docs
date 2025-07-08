@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanCountChangedMessage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-    startLine: 9
+    startLine: 4
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Messages
@@ -52,11 +52,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-    startLine: 9
+    startLine: 4
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Messages
@@ -84,11 +84,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ChangedList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-    startLine: 11
+    startLine: 6
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Messages

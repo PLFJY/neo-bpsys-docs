@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanSurGlobalViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-    startLine: 79
+    startLine: 77
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -49,11 +49,11 @@ items:
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.HighlightMessage)
-  - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.PreviewImage
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsHighlighted
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsCharaChangerHighlighted
+  - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
   - CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.OnActivated
   - CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.OnDeactivated
   - CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.Broadcast``1({T},{T},System.String)
@@ -102,11 +102,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-    startLine: 81
+    startLine: 79
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -136,11 +136,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-    startLine: 87
+    startLine: 85
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -169,11 +169,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-    startLine: 95
+    startLine: 93
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -197,11 +197,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncIsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-    startLine: 101
+    startLine: 99
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -225,11 +225,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsActionNameCorrect
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs
-    startLine: 106
+    startLine: 104
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -502,13 +502,6 @@ references:
     name: HighlightMessage
     href: neo_bpsys_wpf.Messages.HighlightMessage.html
   - name: )
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-  commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-  parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
-  href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand
-  name: ConfirmCommand
-  nameWithType: CharaSelectViewModelBase.ConfirmCommand
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
 - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
@@ -537,6 +530,13 @@ references:
   name: IsCharaChangerHighlighted
   nameWithType: CharaSelectViewModelBase.IsCharaChangerHighlighted
   fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsCharaChangerHighlighted
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+  commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+  parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
+  href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand
+  name: ConfirmCommand
+  nameWithType: CharaSelectViewModelBase.ConfirmCommand
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
 - uid: CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.OnActivated
   commentId: M:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient.OnActivated
   parent: CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient

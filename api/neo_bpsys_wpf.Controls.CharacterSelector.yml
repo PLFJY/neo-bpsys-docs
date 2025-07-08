@@ -38,7 +38,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharacterSelector
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -681,7 +681,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsSimpleModeEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -710,7 +710,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsSimpleModeEnabledProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -737,7 +737,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Command
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -766,7 +766,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CommandProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -793,7 +793,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -822,7 +822,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageSourceProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -849,7 +849,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Text
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -878,7 +878,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TextProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -905,7 +905,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ItemsSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -934,7 +934,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ItemsSourceProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -961,7 +961,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsDropDownOpen
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -990,7 +990,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsDropDownOpenProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1017,7 +1017,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SelectedIndex
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1046,7 +1046,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SelectedIndexProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1073,7 +1073,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SelectedItem
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1102,7 +1102,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SelectedItemProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1129,7 +1129,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SelectedValue
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1158,7 +1158,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SelectedValueProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1185,7 +1185,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHighlighted
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1214,7 +1214,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHighlightedProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1241,7 +1241,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1270,7 +1270,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FindIndex
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs
@@ -1308,7 +1308,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterSelector.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnKeyDown
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterSelector.cs

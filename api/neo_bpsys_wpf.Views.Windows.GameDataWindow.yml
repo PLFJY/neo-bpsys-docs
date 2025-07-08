@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/GameDataWindow.g.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/GameDataWindow.g.cs
@@ -742,7 +742,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/GameDataWindow.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/GameDataWindow.xaml.cs
@@ -771,7 +771,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/GameDataWindow.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnClosing
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/GameDataWindow.xaml.cs
@@ -804,7 +804,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/GameDataWindow.g.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/GameDataWindow.g.cs

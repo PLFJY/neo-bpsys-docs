@@ -213,7 +213,7 @@ Class SettingPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor">
   SettingPageViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -237,16 +237,16 @@ Class SettingPageViewModel
 
   <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IUpdaterService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)">
-  SettingPageViewModel(IUpdaterService, ISettingsHostService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IUpdaterService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_neo_bpsys_wpf_Abstractions_Services_IFrontService_neo_bpsys_wpf_Abstractions_Services_IFilePickerService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService,neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Abstractions.Services.IFilePickerService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)">
+  SettingPageViewModel(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SettingPageViewModel(IUpdaterService updaterService, ISettingsHostService settingsHostService)</code></pre>
+    <pre><code class="lang-csharp hljs">public SettingPageViewModel(IUpdaterService updaterService, ISettingsHostService settingsHostService, ITextSettingsNavigationService textSettingsNavigationService, IFrontService frontService, IFilePickerService filePickerService, IMessageBoxService messageBoxService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -254,6 +254,14 @@ Class SettingPageViewModel
     <dt><code>updaterService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html">IUpdaterService</a></dt>
     <dd></dd>
     <dt><code>settingsHostService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html">ISettingsHostService</a></dt>
+    <dd></dd>
+    <dt><code>textSettingsNavigationService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html">ITextSettingsNavigationService</a></dt>
+    <dd></dd>
+    <dt><code>frontService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IFrontService.html">IFrontService</a></dt>
+    <dd></dd>
+    <dt><code>filePickerService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IFilePickerService.html">IFilePickerService</a></dt>
+    <dd></dd>
+    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
     <dd></dd>
   </dl>
 
@@ -303,6 +311,37 @@ Class SettingPageViewModel
 
 
 
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowTextSettings">
+  BpWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; BpWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CancelDownloadCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*"></a>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CancelDownloadCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand">
@@ -325,6 +364,37 @@ Class SettingPageViewModel
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CutSceneWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CutSceneWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CutSceneWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CutSceneWindowTextSettings">
+  CutSceneWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; CutSceneWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -387,6 +457,101 @@ Class SettingPageViewModel
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditBpWindowImagesCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditBpWindowImagesCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand">
+  EditBpWindowImagesCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1">IRelayCommand&lt;T&gt;</a> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">EditBpWindowImages(string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;string&gt; EditBpWindowImagesCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1">IRelayCommand</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditTextSettingsCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditTextSettingsCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand">
+  EditTextSettingsCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1">IRelayCommand&lt;T&gt;</a> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">EditTextSettings(Type)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;Type&gt; EditTextSettingsCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1">IRelayCommand</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GameDataWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GameDataWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GameDataWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GameDataWindowTextSettings">
+  GameDataWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; GameDataWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -555,6 +720,38 @@ Class SettingPageViewModel
 
 
 
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ManualGcCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ManualGcCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand">
+  ManualGcCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ManualGcCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MbPerSecondSpeed_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed*"></a>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MbPerSecondSpeed" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed">
@@ -590,7 +787,7 @@ Class SettingPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_Mirror" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.Mirror">
   Mirror
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -621,7 +818,7 @@ Class SettingPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MirrorList" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MirrorList">
   MirrorList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L277"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -648,19 +845,19 @@ Class SettingPageViewModel
 
 
 
-  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_NotRestartAsAdminForeverCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForeverCommand*"></a>
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_NotRestartAsAdminForeverCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForeverCommand">
-  NotRestartAsAdminForeverCommand
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand">
+  ResetCommand
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.NotRestartAsAdminForever()</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand-1">IAsyncRelayCommand&lt;T&gt;</a> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">ResetAsync(Type)</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRelayCommand NotRestartAsAdminForeverCommand { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IAsyncRelayCommand&lt;Type&gt; ResetCommand { get; }</code></pre>
   </div>
 
 
@@ -669,7 +866,7 @@ Class SettingPageViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand-1">IAsyncRelayCommand</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -680,19 +877,18 @@ Class SettingPageViewModel
 
 
 
-  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RestartAsAdminForOnceCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnceCommand*"></a>
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreWindowTextSettings*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RestartAsAdminForOnceCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnceCommand">
-  RestartAsAdminForOnceCommand
-  
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreWindowTextSettings">
+  ScoreWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L268"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForOnce()</span>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRelayCommand RestartAsAdminForOnceCommand { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; ScoreWindowTextSettings { get; }</code></pre>
   </div>
 
 
@@ -701,7 +897,7 @@ Class SettingPageViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -712,19 +908,18 @@ Class SettingPageViewModel
 
 
 
-  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RestartAsAdminForeverCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForeverCommand*"></a>
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedBpWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowTextSettings*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RestartAsAdminForeverCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForeverCommand">
-  RestartAsAdminForeverCommand
-  
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedBpWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowTextSettings">
+  SelectedBpWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L263"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RestartAsAdminForever()</span>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRelayCommand RestartAsAdminForeverCommand { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedBpWindowTextSettings { get; set; }</code></pre>
   </div>
 
 
@@ -733,7 +928,131 @@ Class SettingPageViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand">IRelayCommand</a></dt>
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedCutSceneWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedCutSceneWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowTextSettings">
+  SelectedCutSceneWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedCutSceneWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedGameDataWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedGameDataWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowTextSettings">
+  SelectedGameDataWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedGameDataWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedScoreWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedScoreWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedScoreWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedScoreWindowTextSettings">
+  SelectedScoreWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedScoreWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedWidgetsWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedWidgetsWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedWidgetsWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedWidgetsWindowTextSettings">
+  SelectedWidgetsWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedWidgetsWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
     <dd></dd>
   </dl>
 
@@ -780,7 +1099,7 @@ Class SettingPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_UpdaterService" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdaterService">
   UpdaterService
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/ignoreFocusLoss/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -797,6 +1116,37 @@ Class SettingPageViewModel
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html">IUpdaterService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowTextSettings">
+  WidgetsWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; WidgetsWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
     <dd></dd>
   </dl>
 

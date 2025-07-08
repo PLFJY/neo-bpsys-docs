@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Trait.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Trait
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Trait.cs
-    startLine: 11
+    startLine: 10
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -55,11 +55,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Trait.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TraitName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Trait.cs
-    startLine: 15
+    startLine: 14
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -84,11 +84,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Trait.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Image
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Trait.cs
-    startLine: 17
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -123,11 +123,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Trait.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Trait.cs
-    startLine: 27
+    startLine: 26
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models

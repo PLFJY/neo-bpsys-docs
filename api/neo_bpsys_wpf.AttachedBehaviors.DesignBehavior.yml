@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/AttachedBehaviors/DesignBehavior.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: DesignBehavior
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/AttachedBehaviors/DesignBehavior.cs
-    startLine: 7
+    startLine: 6
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.AttachedBehaviors
@@ -53,11 +53,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/AttachedBehaviors/DesignBehavior.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsDesignModeProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/AttachedBehaviors/DesignBehavior.cs
-    startLine: 9
+    startLine: 8
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.AttachedBehaviors
@@ -80,11 +80,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/AttachedBehaviors/DesignBehavior.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetIsDesignMode
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/AttachedBehaviors/DesignBehavior.cs
-    startLine: 13
+    startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.AttachedBehaviors
@@ -111,11 +111,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/AttachedBehaviors/DesignBehavior.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetIsDesignMode
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/AttachedBehaviors/DesignBehavior.cs
-    startLine: 18
+    startLine: 17
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.AttachedBehaviors

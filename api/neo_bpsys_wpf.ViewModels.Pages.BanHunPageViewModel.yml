@@ -21,11 +21,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanHunPageViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-    startLine: 10
+    startLine: 9
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -89,11 +89,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-    startLine: 13
+    startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -118,11 +118,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-    startLine: 21
+    startLine: 20
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -147,11 +147,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-    startLine: 23
+    startLine: 22
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -179,11 +179,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-    startLine: 31
+    startLine: 30
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -213,11 +213,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanHunCurrentViewModelList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-    startLine: 44
+    startLine: 43
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -242,11 +242,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanHunGlobalViewModelList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs
-    startLine: 45
+    startLine: 44
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages

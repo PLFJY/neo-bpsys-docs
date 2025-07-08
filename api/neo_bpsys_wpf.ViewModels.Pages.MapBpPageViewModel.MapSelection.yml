@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MapSelection
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs
-    startLine: 79
+    startLine: 78
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -53,11 +53,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs
-    startLine: 79
+    startLine: 78
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -87,11 +87,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Map
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs
-    startLine: 81
+    startLine: 80
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -116,11 +116,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs
-    startLine: 82
+    startLine: 81
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages

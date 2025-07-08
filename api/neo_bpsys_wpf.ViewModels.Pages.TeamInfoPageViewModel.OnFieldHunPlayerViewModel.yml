@@ -19,11 +19,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnFieldHunPlayerViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-    startLine: 89
+    startLine: 86
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -88,11 +88,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-    startLine: 94
+    startLine: 91
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -120,11 +120,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ThisPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-    startLine: 100
+    startLine: 97
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -149,11 +149,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-    startLine: 102
+    startLine: 99
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -183,11 +183,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-    startLine: 107
+    startLine: 104
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages

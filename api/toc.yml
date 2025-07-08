@@ -7,9 +7,6 @@ items:
   - uid: neo_bpsys_wpf.App
     name: App
     type: Class
-  - uid: neo_bpsys_wpf.NativeMethods
-    name: NativeMethods
-    type: Class
 - uid: neo_bpsys_wpf.Abstractions.Services
   name: neo_bpsys_wpf.Abstractions.Services
   type: Namespace
@@ -23,9 +20,6 @@ items:
   - uid: neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService
     name: IGameGuidanceService
     type: Interface
-  - uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
-    name: IIgnoreFocusLossService
-    type: Interface
   - uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
     name: IInfoBarService
     type: Interface
@@ -37,6 +31,9 @@ items:
     type: Interface
   - uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
     name: ISharedDataService
+    type: Interface
+  - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+    name: ITextSettingsNavigationService
     type: Interface
   - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
     name: IUpdaterService
@@ -62,6 +59,9 @@ items:
   name: neo_bpsys_wpf.Controls
   type: Namespace
   items:
+  - uid: neo_bpsys_wpf.Controls.CanvasAdorner
+    name: CanvasAdorner
+    type: Class
   - uid: neo_bpsys_wpf.Controls.CharacterChanger
     name: CharacterChanger
     type: Class
@@ -74,9 +74,6 @@ items:
   - uid: neo_bpsys_wpf.Controls.CustomTitleBar
     name: CustomTitleBar
     type: Class
-  - uid: neo_bpsys_wpf.Controls.DeferredContentHost
-    name: DeferredContentHost
-    type: Class
   - uid: neo_bpsys_wpf.Controls.GameDataEditor
     name: GameDataEditor
     type: Class
@@ -85,6 +82,15 @@ items:
     type: Class
   - uid: neo_bpsys_wpf.Controls.TalentPicker
     name: TalentPicker
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl
+    name: TextSettingsEditControl
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier
+    name: TextSettingsEditControl.TaskNotifier
+    type: Class
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier`1
+    name: TextSettingsEditControl.TaskNotifier<T>
     type: Class
   - uid: neo_bpsys_wpf.Controls.ToggleStyledRadioButton
     name: ToggleStyledRadioButton
@@ -171,8 +177,8 @@ items:
   name: neo_bpsys_wpf.Helpers
   type: Namespace
   items:
-  - uid: neo_bpsys_wpf.Helpers.AdminHelper
-    name: AdminHelper
+  - uid: neo_bpsys_wpf.Helpers.ColorHelper
+    name: ColorHelper
     type: Class
   - uid: neo_bpsys_wpf.Helpers.ImageHelper
     name: ImageHelper
@@ -209,14 +215,29 @@ items:
   name: neo_bpsys_wpf.Models
   type: Namespace
   items:
+  - uid: neo_bpsys_wpf.Models.BpWindowSettings
+    name: BpWindowSettings
+    type: Class
+  - uid: neo_bpsys_wpf.Models.BpWindowTextSettings
+    name: BpWindowTextSettings
+    type: Class
   - uid: neo_bpsys_wpf.Models.Character
     name: Character
     type: Class
-  - uid: neo_bpsys_wpf.Models.FrontResolution
-    name: FrontResolution
+  - uid: neo_bpsys_wpf.Models.CutSceneWindowSettings
+    name: CutSceneWindowSettings
+    type: Class
+  - uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+    name: CutSceneWindowTextSettings
     type: Class
   - uid: neo_bpsys_wpf.Models.Game
     name: Game
+    type: Class
+  - uid: neo_bpsys_wpf.Models.GameDataWindowSettings
+    name: GameDataWindowSettings
+    type: Class
+  - uid: neo_bpsys_wpf.Models.GameDataWindowTextSettings
+    name: GameDataWindowTextSettings
     type: Class
   - uid: neo_bpsys_wpf.Models.Member
     name: Member
@@ -230,6 +251,12 @@ items:
   - uid: neo_bpsys_wpf.Models.Score
     name: Score
     type: Class
+  - uid: neo_bpsys_wpf.Models.ScoreWindowSettings
+    name: ScoreWindowSettings
+    type: Class
+  - uid: neo_bpsys_wpf.Models.ScoreWindowTextSettings
+    name: ScoreWindowTextSettings
+    type: Class
   - uid: neo_bpsys_wpf.Models.Settings
     name: Settings
     type: Class
@@ -239,8 +266,17 @@ items:
   - uid: neo_bpsys_wpf.Models.Team
     name: Team
     type: Class
+  - uid: neo_bpsys_wpf.Models.TextSettings
+    name: TextSettings
+    type: Class
   - uid: neo_bpsys_wpf.Models.Trait
     name: Trait
+    type: Class
+  - uid: neo_bpsys_wpf.Models.WidgetsWindowSettings
+    name: WidgetsWindowSettings
+    type: Class
+  - uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings
+    name: WidgetsWindowTextSettings
     type: Class
   - uid: neo_bpsys_wpf.Models.WindowResolution
     name: WindowResolution
@@ -267,9 +303,6 @@ items:
   - uid: neo_bpsys_wpf.Services.GameGuidanceService.Step
     name: GameGuidanceService.Step
     type: Class
-  - uid: neo_bpsys_wpf.Services.IgnoreFocusLossService
-    name: IgnoreFocusLossService
-    type: Class
   - uid: neo_bpsys_wpf.Services.InfoBarService
     name: InfoBarService
     type: Class
@@ -281,6 +314,9 @@ items:
     type: Class
   - uid: neo_bpsys_wpf.Services.SharedDataService
     name: SharedDataService
+    type: Class
+  - uid: neo_bpsys_wpf.Services.TextSettingsNavigationService
+    name: TextSettingsNavigationService
     type: Class
   - uid: neo_bpsys_wpf.Services.UpdaterService
     name: UpdaterService
@@ -387,11 +423,11 @@ items:
   - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel
     name: BpWindowViewModel
     type: Class
+  - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
+    name: CutSceneWindowViewModel
+    type: Class
   - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
     name: GameDataWindowViewModel
-    type: Class
-  - uid: neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel
-    name: InterludeWindowViewModel
     type: Class
   - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
     name: MainWindowViewModel
@@ -455,11 +491,11 @@ items:
   - uid: neo_bpsys_wpf.Views.Windows.BpWindow
     name: BpWindow
     type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.CutSceneWindow
+    name: CutSceneWindow
+    type: Class
   - uid: neo_bpsys_wpf.Views.Windows.GameDataWindow
     name: GameDataWindow
-    type: Class
-  - uid: neo_bpsys_wpf.Views.Windows.InterludeWindow
-    name: InterludeWindow
     type: Class
   - uid: neo_bpsys_wpf.Views.Windows.MainWindow
     name: MainWindow

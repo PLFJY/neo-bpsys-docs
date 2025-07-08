@@ -87,11 +87,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 22
+    startLine: 20
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -116,11 +116,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Name
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 31
+    startLine: 29
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -145,11 +145,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 62
+    startLine: 60
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -174,11 +174,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBannedSurRecordArray
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 77
+    startLine: 75
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -203,11 +203,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBannedHunRecordArray
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 79
+    startLine: 77
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -232,11 +232,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 94
+    startLine: 92
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -264,11 +264,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImportTeamInfo
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 115
+    startLine: 113
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -296,11 +296,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanAddMemberInPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 146
+    startLine: 144
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -331,11 +331,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AddMemberInPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 161
+    startLine: 159
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -366,11 +366,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RemoveMemberInPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 190
+    startLine: 188
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models

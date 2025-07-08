@@ -13,9 +13,9 @@ items:
   - neo_bpsys_wpf.Controls.CustomTitleBar.IsMaximizeVisibleProperty
   - neo_bpsys_wpf.Controls.CustomTitleBar.IsMinimizeVisible
   - neo_bpsys_wpf.Controls.CustomTitleBar.IsMinimizeVisibleProperty
-  - neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeButtonCheckedProperty
   - neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeButtonVisibleProperty
   - neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeChecked
+  - neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeCheckedProperty
   - neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeVisible
   - neo_bpsys_wpf.Controls.CustomTitleBar.IsTopMostVisible
   - neo_bpsys_wpf.Controls.CustomTitleBar.IsTopMostVisibleProperty
@@ -31,7 +31,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/CustomTitleBar.g.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CustomTitleBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/CustomTitleBar.g.cs
@@ -697,7 +697,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -726,7 +726,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsThemeChangeChecked
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -741,33 +741,33 @@ items:
       type: System.Boolean
     content.vb: Public Property IsThemeChangeChecked As Boolean
   overload: neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeChecked*
-- uid: neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeButtonCheckedProperty
-  commentId: F:neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeButtonCheckedProperty
-  id: IsThemeChangeButtonCheckedProperty
+- uid: neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeCheckedProperty
+  commentId: F:neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeCheckedProperty
+  id: IsThemeChangeCheckedProperty
   parent: neo_bpsys_wpf.Controls.CustomTitleBar
   langs:
   - csharp
   - vb
-  name: IsThemeChangeButtonCheckedProperty
-  nameWithType: CustomTitleBar.IsThemeChangeButtonCheckedProperty
-  fullName: neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeButtonCheckedProperty
+  name: IsThemeChangeCheckedProperty
+  nameWithType: CustomTitleBar.IsThemeChangeCheckedProperty
+  fullName: neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeCheckedProperty
   type: Field
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: IsThemeChangeButtonCheckedProperty
+    id: IsThemeChangeCheckedProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
     startLine: 88
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Controls
   syntax:
-    content: public static readonly DependencyProperty IsThemeChangeButtonCheckedProperty
+    content: public static readonly DependencyProperty IsThemeChangeCheckedProperty
     return:
       type: System.Windows.DependencyProperty
-    content.vb: Public Shared ReadOnly IsThemeChangeButtonCheckedProperty As DependencyProperty
+    content.vb: Public Shared ReadOnly IsThemeChangeCheckedProperty As DependencyProperty
 - uid: neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeVisible
   commentId: P:neo_bpsys_wpf.Controls.CustomTitleBar.IsThemeChangeVisible
   id: IsThemeChangeVisible
@@ -782,7 +782,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsThemeChangeVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -811,7 +811,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsThemeChangeButtonVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -838,7 +838,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ThemeChangeCommand
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -867,7 +867,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ThemeChangeCommandProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -894,7 +894,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMaximizeVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -923,7 +923,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMaximizeVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -950,7 +950,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMinimizeVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -979,7 +979,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMinimizeVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -1006,7 +1006,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsTopMostVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -1035,7 +1035,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsTopMostVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -1062,7 +1062,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Icon
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -1091,7 +1091,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IconProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -1118,7 +1118,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/CustomTitleBar.g.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/CustomTitleBar.g.cs

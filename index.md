@@ -6,9 +6,7 @@ powered by <img src="images/logo_net.jpg" width="30px" height="25px"> 9.0.4 & <i
 
 ## 软件简介
 
-neo-bpsys-wpf是一个基于.NET WPF开发的第五人格直播BP软件，其前身为[bp-sys-wpf](https://github.com/PLFJY/bp-sys-wpf)与[idv-bp-asg-e](https://github.com/PLFJY/idv-bp-asg-e)(均已不再维护）。它由[零风PLFJY](https://plfjy.top/)制作并于2025年6月14日发布v1.0.0.0正式版。其包含地图BP、角色BP与赛后数据显示等在第五人格赛事中能用到的功能。
-
-
+neo-bpsys-wpf是一个基于.NET WPF开发的第五人格直播BP软件，其前身为[bp-sys-wpf](https://github.com/PLFJY/bp-sys-wpf)与[idv-bp-asg-e](https://github.com/PLFJY/idv-bp-asg-e)(均已分别因为屎山代码和技术栈老旧停止维护）。其包含地图BP、角色BP与赛后数据显示等在第五人格赛事中能用到的功能。
 
 本项目的前身 [bp-sys-wpf](https://github.com/plfjy/bp-sys-wpf) 曾帮助了40余个民间赛事，希望它能够在未来帮助到你。
 
@@ -31,6 +29,6 @@ dotnet publish ".\neo-bpsys-wpf\neo-bpsys-wpf.csproj" -c Release -o ".\build\neo
 
 同时，也可以使用脚本自动构建
 
-```powershell
+```cmd
 .\build.bat
 ```

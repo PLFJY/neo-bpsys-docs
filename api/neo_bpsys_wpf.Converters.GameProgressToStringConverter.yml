@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameProgressToStringConverter
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs
-    startLine: 11
+    startLine: 6
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Converters
@@ -54,11 +54,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Convert
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs
-    startLine: 13
+    startLine: 8
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Converters
@@ -110,11 +110,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ConvertBack
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs
-    startLine: 58
+    startLine: 53
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Converters

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/BanListName.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanListName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/BanListName.cs
@@ -44,7 +44,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/BanListName.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/BanListName.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/BanListName.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/BanListName.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/BanListName.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/BanListName.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/BanListName.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/BanListName.cs

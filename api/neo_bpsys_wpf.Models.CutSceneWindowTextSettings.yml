@@ -1,0 +1,487 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  commentId: T:neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  id: CutSceneWindowTextSettings
+  parent: neo_bpsys_wpf.Models
+  children:
+  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress
+  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
+  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
+  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName
+  langs:
+  - csharp
+  - vb
+  name: CutSceneWindowTextSettings
+  nameWithType: CutSceneWindowTextSettings
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  type: Class
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CutSceneWindowTextSettings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 114
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  summary: 过场窗口文本设置
+  example: []
+  syntax:
+    content: public class CutSceneWindowTextSettings
+    content.vb: Public Class CutSceneWindowTextSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName
+  id: TeamName
+  parent: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  langs:
+  - csharp
+  - vb
+  name: TeamName
+  nameWithType: CutSceneWindowTextSettings.TeamName
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: TeamName
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 116
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public TextSettings TeamName { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.TextSettings
+    content.vb: Public Property TeamName As TextSettings
+  overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName*
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
+  id: MajorPoints
+  parent: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  langs:
+  - csharp
+  - vb
+  name: MajorPoints
+  nameWithType: CutSceneWindowTextSettings.MajorPoints
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: MajorPoints
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 119
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public TextSettings MajorPoints { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.TextSettings
+    content.vb: Public Property MajorPoints As TextSettings
+  overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints*
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+  id: PlayerId
+  parent: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  langs:
+  - csharp
+  - vb
+  name: PlayerId
+  nameWithType: CutSceneWindowTextSettings.PlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PlayerId
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 121
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public TextSettings PlayerId { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.TextSettings
+    content.vb: Public Property PlayerId As TextSettings
+  overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId*
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
+  id: MapName
+  parent: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  langs:
+  - csharp
+  - vb
+  name: MapName
+  nameWithType: CutSceneWindowTextSettings.MapName
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: MapName
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 124
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public TextSettings MapName { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.TextSettings
+    content.vb: Public Property MapName As TextSettings
+  overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName*
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress
+  id: GameProgress
+  parent: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  langs:
+  - csharp
+  - vb
+  name: GameProgress
+  nameWithType: CutSceneWindowTextSettings.GameProgress
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GameProgress
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 127
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public TextSettings GameProgress { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.TextSettings
+    content.vb: Public Property GameProgress As TextSettings
+  overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress*
+references:
+- uid: neo_bpsys_wpf.Models
+  commentId: N:neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Models
+  nameWithType: neo_bpsys_wpf.Models
+  fullName: neo_bpsys_wpf.Models
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName*
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName
+  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_TeamName
+  name: TeamName
+  nameWithType: CutSceneWindowTextSettings.TeamName
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName
+- uid: neo_bpsys_wpf.Models.TextSettings
+  commentId: T:neo_bpsys_wpf.Models.TextSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.TextSettings.html
+  name: TextSettings
+  nameWithType: TextSettings
+  fullName: neo_bpsys_wpf.Models.TextSettings
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints*
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
+  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_MajorPoints
+  name: MajorPoints
+  nameWithType: CutSceneWindowTextSettings.MajorPoints
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId*
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_PlayerId
+  name: PlayerId
+  nameWithType: CutSceneWindowTextSettings.PlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName*
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
+  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_MapName
+  name: MapName
+  nameWithType: CutSceneWindowTextSettings.MapName
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress*
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress
+  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_GameProgress
+  name: GameProgress
+  nameWithType: CutSceneWindowTextSettings.GameProgress
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress

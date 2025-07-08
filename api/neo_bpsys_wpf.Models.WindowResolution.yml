@@ -5,6 +5,7 @@ items:
   id: WindowResolution
   parent: neo_bpsys_wpf.Models
   children:
+  - neo_bpsys_wpf.Models.WindowResolution.#ctor(System.Int32,System.Int32)
   - neo_bpsys_wpf.Models.WindowResolution.Height
   - neo_bpsys_wpf.Models.WindowResolution.Width
   langs:
@@ -17,7 +18,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/WindowResolution.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WindowResolution
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/WindowResolution.cs
@@ -38,6 +39,40 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
+- uid: neo_bpsys_wpf.Models.WindowResolution.#ctor(System.Int32,System.Int32)
+  commentId: M:neo_bpsys_wpf.Models.WindowResolution.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: neo_bpsys_wpf.Models.WindowResolution
+  langs:
+  - csharp
+  - vb
+  name: WindowResolution(int, int)
+  nameWithType: WindowResolution.WindowResolution(int, int)
+  fullName: neo_bpsys_wpf.Models.WindowResolution.WindowResolution(int, int)
+  type: Constructor
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/WindowResolution.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: .ctor
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/WindowResolution.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public WindowResolution(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    content.vb: Public Sub New(width As Integer, height As Integer)
+  overload: neo_bpsys_wpf.Models.WindowResolution.#ctor*
+  nameWithType.vb: WindowResolution.New(Integer, Integer)
+  fullName.vb: neo_bpsys_wpf.Models.WindowResolution.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
 - uid: neo_bpsys_wpf.Models.WindowResolution.Width
   commentId: P:neo_bpsys_wpf.Models.WindowResolution.Width
   id: Width
@@ -52,7 +87,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/WindowResolution.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Width
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/WindowResolution.cs
@@ -61,24 +96,12 @@ items:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   syntax:
-    content: >-
-      [JsonPropertyName("Width")]
-
-      public int Width { get; set; }
+    content: public int Width { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <JsonPropertyName("Width")>
-
-      Public Property Width As Integer
+    content.vb: Public Property Width As Integer
   overload: neo_bpsys_wpf.Models.WindowResolution.Width*
-  attributes:
-  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
-    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Width
 - uid: neo_bpsys_wpf.Models.WindowResolution.Height
   commentId: P:neo_bpsys_wpf.Models.WindowResolution.Height
   id: Height
@@ -93,33 +116,21 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/WindowResolution.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Height
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/WindowResolution.cs
-    startLine: 9
+    startLine: 8
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   syntax:
-    content: >-
-      [JsonPropertyName("Height")]
-
-      public int Height { get; set; }
+    content: public int Height { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <JsonPropertyName("Height")>
-
-      Public Property Height As Integer
+    content.vb: Public Property Height As Integer
   overload: neo_bpsys_wpf.Models.WindowResolution.Height*
-  attributes:
-  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
-    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Height
 references:
 - uid: neo_bpsys_wpf.Models
   commentId: N:neo_bpsys_wpf.Models
@@ -380,12 +391,15 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: neo_bpsys_wpf.Models.WindowResolution.Width*
-  commentId: Overload:neo_bpsys_wpf.Models.WindowResolution.Width
-  href: neo_bpsys_wpf.Models.WindowResolution.html#neo_bpsys_wpf_Models_WindowResolution_Width
-  name: Width
-  nameWithType: WindowResolution.Width
-  fullName: neo_bpsys_wpf.Models.WindowResolution.Width
+- uid: neo_bpsys_wpf.Models.WindowResolution.#ctor*
+  commentId: Overload:neo_bpsys_wpf.Models.WindowResolution.#ctor
+  href: neo_bpsys_wpf.Models.WindowResolution.html#neo_bpsys_wpf_Models_WindowResolution__ctor_System_Int32_System_Int32_
+  name: WindowResolution
+  nameWithType: WindowResolution.WindowResolution
+  fullName: neo_bpsys_wpf.Models.WindowResolution.WindowResolution
+  nameWithType.vb: WindowResolution.New
+  fullName.vb: neo_bpsys_wpf.Models.WindowResolution.New
+  name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -397,6 +411,12 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: neo_bpsys_wpf.Models.WindowResolution.Width*
+  commentId: Overload:neo_bpsys_wpf.Models.WindowResolution.Width
+  href: neo_bpsys_wpf.Models.WindowResolution.html#neo_bpsys_wpf_Models_WindowResolution_Width
+  name: Width
+  nameWithType: WindowResolution.Width
+  fullName: neo_bpsys_wpf.Models.WindowResolution.Width
 - uid: neo_bpsys_wpf.Models.WindowResolution.Height*
   commentId: Overload:neo_bpsys_wpf.Models.WindowResolution.Height
   href: neo_bpsys_wpf.Models.WindowResolution.html#neo_bpsys_wpf_Models_WindowResolution_Height

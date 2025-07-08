@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataPageViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-    startLine: 10
+    startLine: 9
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -88,11 +88,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-    startLine: 14
+    startLine: 13
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -117,11 +117,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-    startLine: 22
+    startLine: 21
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -149,11 +149,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurPlayerList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-    startLine: 28
+    startLine: 27
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -178,11 +178,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-    startLine: 30
+    startLine: 29
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -207,11 +207,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-    startLine: 32
+    startLine: 31
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages

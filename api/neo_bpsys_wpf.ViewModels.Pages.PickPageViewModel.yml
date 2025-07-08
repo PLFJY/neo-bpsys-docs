@@ -26,7 +26,7 @@ items:
   type: Class
   source:
     id: PickPageViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel+SurPickViewModel.SwapCharacterInPlayers.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -96,11 +96,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 19
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -125,11 +125,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 28
+    startLine: 25
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -159,11 +159,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 91
+    startLine: 94
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -193,11 +193,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurPickingBorderList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 125
+    startLine: 128
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -222,11 +222,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurPickViewModelList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 130
+    startLine: 133
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -251,11 +251,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunPickVm
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 131
+    startLine: 134
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -280,11 +280,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainSurGlobalBanRecordViewModelList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 132
+    startLine: 135
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -309,11 +309,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainHunGlobalBanRecordViewModelList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 133
+    startLine: 136
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -338,11 +338,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwaySurGlobalBanRecordViewModelList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 134
+    startLine: 137
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -367,11 +367,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayHunGlobalBanRecordViewModelList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 135
+    startLine: 138
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -421,19 +421,19 @@ items:
   type: Property
   source:
     id: PickingBorderSwitchCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync.g.cs
     startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch(System.String)" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync(System.String)" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IRelayCommand<string> PickingBorderSwitchCommand { get; }
+    content: public IAsyncRelayCommand<string> PickingBorderSwitchCommand { get; }
     parameters: []
     return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
-    content.vb: Public ReadOnly Property PickingBorderSwitchCommand As IRelayCommand(Of String)
+      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{System.String}
+    content.vb: Public ReadOnly Property PickingBorderSwitchCommand As IAsyncRelayCommand(Of String)
   overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchCommand*
 references:
 - uid: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
@@ -4407,47 +4407,47 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand`1
+- uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
+  commentId: T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  name: IRelayCommand<T>
-  nameWithType: IRelayCommand<T>
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<T>
-  nameWithType.vb: IRelayCommand(Of T)
-  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of T)
-  name.vb: IRelayCommand(Of T)
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand-1
+  name: IAsyncRelayCommand<T>
+  nameWithType: IAsyncRelayCommand<T>
+  fullName: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand<T>
+  nameWithType.vb: IAsyncRelayCommand(Of T)
+  fullName.vb: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand(Of T)
+  name.vb: IAsyncRelayCommand(Of T)
   spec.csharp:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
+  - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
+    name: IAsyncRelayCommand
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand-1
   - name: <
   - name: T
   - name: '>'
   spec.vb:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
+  - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
+    name: IAsyncRelayCommand
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand-1
   - name: (
   - name: Of
   - name: " "
   - name: T
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch(System.String)
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch(System.String)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync(System.String)
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync(System.String)
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.string
-  name: PickingBorderSwitch(string)
-  nameWithType: PickPageViewModel.PickingBorderSwitch(string)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch(string)
-  nameWithType.vb: PickPageViewModel.PickingBorderSwitch(String)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch(String)
-  name.vb: PickingBorderSwitch(String)
+  name: PickingBorderSwitchAsync(string)
+  nameWithType: PickPageViewModel.PickingBorderSwitchAsync(string)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync(string)
+  nameWithType.vb: PickPageViewModel.PickingBorderSwitchAsync(String)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync(String)
+  name.vb: PickingBorderSwitchAsync(String)
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch(System.String)
-    name: PickingBorderSwitch
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync(System.String)
+    name: PickingBorderSwitchAsync
   - name: (
   - uid: System.String
     name: string
@@ -4455,8 +4455,8 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitch(System.String)
-    name: PickingBorderSwitch
+  - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync(System.String)
+    name: PickingBorderSwitchAsync
   - name: (
   - uid: System.String
     name: String
@@ -4469,22 +4469,22 @@ references:
   name: PickingBorderSwitchCommand
   nameWithType: PickPageViewModel.PickingBorderSwitchCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchCommand
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
+- uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{System.String}
+  commentId: T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{System.String}
   parent: CommunityToolkit.Mvvm.Input
-  definition: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
-  name: IRelayCommand<string>
-  nameWithType: IRelayCommand<string>
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<string>
-  nameWithType.vb: IRelayCommand(Of String)
-  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of String)
-  name.vb: IRelayCommand(Of String)
+  definition: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand-1
+  name: IAsyncRelayCommand<string>
+  nameWithType: IAsyncRelayCommand<string>
+  fullName: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand<string>
+  nameWithType.vb: IAsyncRelayCommand(Of String)
+  fullName.vb: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand(Of String)
+  name.vb: IAsyncRelayCommand(Of String)
   spec.csharp:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
+  - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
+    name: IAsyncRelayCommand
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand-1
   - name: <
   - uid: System.String
     name: string
@@ -4492,10 +4492,10 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
   spec.vb:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
+  - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
+    name: IAsyncRelayCommand
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.irelaycommand-1
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input.iasyncrelaycommand-1
   - name: (
   - name: Of
   - name: " "

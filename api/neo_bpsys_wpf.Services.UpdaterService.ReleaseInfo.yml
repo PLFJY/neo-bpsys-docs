@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ReleaseInfo
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
-    startLine: 198
+    startLine: 197
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -53,11 +53,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TagName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
-    startLine: 200
+    startLine: 199
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -94,11 +94,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Body
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
-    startLine: 202
+    startLine: 201
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -135,11 +135,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Assets
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
-    startLine: 204
+    startLine: 203
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services

@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameResult.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameResult
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameResult.cs
-    startLine: 9
+    startLine: 4
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums
@@ -57,11 +57,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameResult.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Escape4
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameResult.cs
-    startLine: 12
+    startLine: 7
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums
@@ -83,11 +83,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameResult.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Escape3
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameResult.cs
-    startLine: 13
+    startLine: 8
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums
@@ -109,11 +109,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameResult.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Tie
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameResult.cs
-    startLine: 14
+    startLine: 9
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums
@@ -135,11 +135,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameResult.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Out3
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameResult.cs
-    startLine: 15
+    startLine: 10
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums
@@ -161,11 +161,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameResult.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Out4
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameResult.cs
-    startLine: 16
+    startLine: 11
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums

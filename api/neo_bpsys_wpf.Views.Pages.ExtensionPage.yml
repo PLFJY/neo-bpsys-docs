@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/ExtensionPage.g.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ExtensionPage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/ExtensionPage.g.cs
-    startLine: 46
+    startLine: 45
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Pages
@@ -649,7 +649,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Pages/ExtensionPage.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Pages/ExtensionPage.xaml.cs
@@ -678,11 +678,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/ExtensionPage.g.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/ExtensionPage.g.cs
-    startLine: 53
+    startLine: 52
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Pages

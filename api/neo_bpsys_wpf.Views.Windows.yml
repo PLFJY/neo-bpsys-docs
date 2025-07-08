@@ -5,8 +5,8 @@ items:
   id: neo_bpsys_wpf.Views.Windows
   children:
   - neo_bpsys_wpf.Views.Windows.BpWindow
+  - neo_bpsys_wpf.Views.Windows.CutSceneWindow
   - neo_bpsys_wpf.Views.Windows.GameDataWindow
-  - neo_bpsys_wpf.Views.Windows.InterludeWindow
   - neo_bpsys_wpf.Views.Windows.MainWindow
   - neo_bpsys_wpf.Views.Windows.MapBpWindow
   - neo_bpsys_wpf.Views.Windows.ScoreManualWindow
@@ -29,6 +29,13 @@ references:
   name: BpWindow
   nameWithType: BpWindow
   fullName: neo_bpsys_wpf.Views.Windows.BpWindow
+- uid: neo_bpsys_wpf.Views.Windows.CutSceneWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.CutSceneWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.CutSceneWindow.html
+  name: CutSceneWindow
+  nameWithType: CutSceneWindow
+  fullName: neo_bpsys_wpf.Views.Windows.CutSceneWindow
 - uid: neo_bpsys_wpf.Views.Windows.GameDataWindow
   commentId: T:neo_bpsys_wpf.Views.Windows.GameDataWindow
   parent: neo_bpsys_wpf.Views.Windows
@@ -36,13 +43,6 @@ references:
   name: GameDataWindow
   nameWithType: GameDataWindow
   fullName: neo_bpsys_wpf.Views.Windows.GameDataWindow
-- uid: neo_bpsys_wpf.Views.Windows.InterludeWindow
-  commentId: T:neo_bpsys_wpf.Views.Windows.InterludeWindow
-  parent: neo_bpsys_wpf.Views.Windows
-  href: neo_bpsys_wpf.Views.Windows.InterludeWindow.html
-  name: InterludeWindow
-  nameWithType: InterludeWindow
-  fullName: neo_bpsys_wpf.Views.Windows.InterludeWindow
 - uid: neo_bpsys_wpf.Views.Windows.MainWindow
   commentId: T:neo_bpsys_wpf.Views.Windows.MainWindow
   href: neo_bpsys_wpf.Views.Windows.MainWindow.html

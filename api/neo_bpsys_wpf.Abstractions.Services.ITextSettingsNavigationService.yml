@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  id: ITextSettingsNavigationService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  children:
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  langs:
+  - csharp
+  - vb
+  name: ITextSettingsNavigationService
+  nameWithType: ITextSettingsNavigationService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  type: Interface
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ITextSettingsNavigationService
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+    startLine: 10
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: public interface ITextSettingsNavigationService
+    content.vb: Public Interface ITextSettingsNavigationService
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+  id: Close(System.Type)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: Close(Type)
+  nameWithType: ITextSettingsNavigationService.Close(Type)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Close
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: void Close(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    content.vb: Sub Close(type As Type)
+  overload: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close*
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
+  id: Navigate``1(System.Object)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: Navigate<T>(object)
+  nameWithType: ITextSettingsNavigationService.Navigate<T>(object)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate<T>(object)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Navigate
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+    startLine: 13
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: 'void Navigate<T>(object page) where T : Window'
+    parameters:
+    - id: page
+      type: System.Object
+    typeParameters:
+    - id: T
+    content.vb: Sub Navigate(Of T As Window)(page As Object)
+  overload: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate*
+  nameWithType.vb: ITextSettingsNavigationService.Navigate(Of T)(Object)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(Of T)(Object)
+  name.vb: Navigate(Of T)(Object)
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
+  id: Navigate(System.Type,System.Object)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: Navigate(Type, object)
+  nameWithType: ITextSettingsNavigationService.Navigate(Type, object)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type, object)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Navigate
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+    startLine: 14
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: void Navigate(Type type, object page)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: page
+      type: System.Object
+    content.vb: Sub Navigate(type As Type, page As Object)
+  overload: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate*
+  nameWithType.vb: ITextSettingsNavigationService.Navigate(Type, Object)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type, Object)
+  name.vb: Navigate(Type, Object)
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
+  id: SetFrameControl``1(System.Windows.Controls.Frame)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: SetFrameControl<T>(Frame)
+  nameWithType: ITextSettingsNavigationService.SetFrameControl<T>(Frame)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl<T>(System.Windows.Controls.Frame)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SetFrameControl
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: 'void SetFrameControl<T>(Frame frame) where T : Window'
+    parameters:
+    - id: frame
+      type: System.Windows.Controls.Frame
+    typeParameters:
+    - id: T
+    content.vb: Sub SetFrameControl(Of T As Window)(frame As Frame)
+  overload: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl*
+  nameWithType.vb: ITextSettingsNavigationService.SetFrameControl(Of T)(Frame)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(Of T)(System.Windows.Controls.Frame)
+  name.vb: SetFrameControl(Of T)(Frame)
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  id: SetFrameControl(System.Type,System.Windows.Controls.Frame)
+  parent: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  langs:
+  - csharp
+  - vb
+  name: SetFrameControl(Type, Frame)
+  nameWithType: ITextSettingsNavigationService.SetFrameControl(Type, Frame)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type, System.Windows.Controls.Frame)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SetFrameControl
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
+    startLine: 16
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: void SetFrameControl(Type type, Frame frame)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: frame
+      type: System.Windows.Controls.Frame
+    content.vb: Sub SetFrameControl(type As Type, frame As Frame)
+  overload: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl*
+references:
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Close_System_Type_
+  name: Close
+  nameWithType: ITextSettingsNavigationService.Close
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate__1_System_Object_
+  name: Navigate
+  nameWithType: ITextSettingsNavigationService.Navigate
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl__1_System_Windows_Controls_Frame_
+  name: SetFrameControl
+  nameWithType: ITextSettingsNavigationService.SetFrameControl
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl
+- uid: System.Windows.Controls.Frame
+  commentId: T:System.Windows.Controls.Frame
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.frame
+  name: Frame
+  nameWithType: Frame
+  fullName: System.Windows.Controls.Frame
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls

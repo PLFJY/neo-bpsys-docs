@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 239
+    startLine: 238
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -55,11 +55,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurCurrentBan
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 241
+    startLine: 240
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -84,11 +84,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunCurrentBan
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 242
+    startLine: 241
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -113,11 +113,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurGlobalBan
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 243
+    startLine: 242
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -142,11 +142,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunGlobalBan
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 244
+    startLine: 243
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -171,11 +171,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WorkFlow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 245
+    startLine: 244
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services

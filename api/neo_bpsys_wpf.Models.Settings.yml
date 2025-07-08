@@ -5,8 +5,11 @@ items:
   id: Settings
   parent: neo_bpsys_wpf.Models
   children:
-  - neo_bpsys_wpf.Models.Settings.FrontResolution
-  - neo_bpsys_wpf.Models.Settings.IsAdminOnStartup
+  - neo_bpsys_wpf.Models.Settings.BpWindowSettings
+  - neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings
+  - neo_bpsys_wpf.Models.Settings.GameDataWindowSettings
+  - neo_bpsys_wpf.Models.Settings.ScoreWindowSettings
+  - neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings
   langs:
   - csharp
   - vb
@@ -17,11 +20,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -38,64 +41,151 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: neo_bpsys_wpf.Models.Settings.IsAdminOnStartup
-  commentId: P:neo_bpsys_wpf.Models.Settings.IsAdminOnStartup
-  id: IsAdminOnStartup
+- uid: neo_bpsys_wpf.Models.Settings.BpWindowSettings
+  commentId: P:neo_bpsys_wpf.Models.Settings.BpWindowSettings
+  id: BpWindowSettings
   parent: neo_bpsys_wpf.Models.Settings
   langs:
   - csharp
   - vb
-  name: IsAdminOnStartup
-  nameWithType: Settings.IsAdminOnStartup
-  fullName: neo_bpsys_wpf.Models.Settings.IsAdminOnStartup
+  name: BpWindowSettings
+  nameWithType: Settings.BpWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.BpWindowSettings
   type: Property
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: IsAdminOnStartup
+    id: BpWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   syntax:
-    content: public bool IsAdminOnStartup { get; set; }
+    content: public BpWindowSettings BpWindowSettings { get; set; }
     parameters: []
     return:
-      type: System.Boolean
-    content.vb: Public Property IsAdminOnStartup As Boolean
-  overload: neo_bpsys_wpf.Models.Settings.IsAdminOnStartup*
-- uid: neo_bpsys_wpf.Models.Settings.FrontResolution
-  commentId: P:neo_bpsys_wpf.Models.Settings.FrontResolution
-  id: FrontResolution
+      type: neo_bpsys_wpf.Models.BpWindowSettings
+    content.vb: Public Property BpWindowSettings As BpWindowSettings
+  overload: neo_bpsys_wpf.Models.Settings.BpWindowSettings*
+- uid: neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings
+  commentId: P:neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings
+  id: CutSceneWindowSettings
   parent: neo_bpsys_wpf.Models.Settings
   langs:
   - csharp
   - vb
-  name: FrontResolution
-  nameWithType: Settings.FrontResolution
-  fullName: neo_bpsys_wpf.Models.Settings.FrontResolution
+  name: CutSceneWindowSettings
+  nameWithType: Settings.CutSceneWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings
   type: Property
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: FrontResolution
+    id: CutSceneWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   syntax:
-    content: public FrontResolution FrontResolution { get; set; }
+    content: public CutSceneWindowSettings CutSceneWindowSettings { get; set; }
     parameters: []
     return:
-      type: neo_bpsys_wpf.Models.FrontResolution
-    content.vb: Public Property FrontResolution As FrontResolution
-  overload: neo_bpsys_wpf.Models.Settings.FrontResolution*
+      type: neo_bpsys_wpf.Models.CutSceneWindowSettings
+    content.vb: Public Property CutSceneWindowSettings As CutSceneWindowSettings
+  overload: neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings*
+- uid: neo_bpsys_wpf.Models.Settings.ScoreWindowSettings
+  commentId: P:neo_bpsys_wpf.Models.Settings.ScoreWindowSettings
+  id: ScoreWindowSettings
+  parent: neo_bpsys_wpf.Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: ScoreWindowSettings
+  nameWithType: Settings.ScoreWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.ScoreWindowSettings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ScoreWindowSettings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 11
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public ScoreWindowSettings ScoreWindowSettings { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.ScoreWindowSettings
+    content.vb: Public Property ScoreWindowSettings As ScoreWindowSettings
+  overload: neo_bpsys_wpf.Models.Settings.ScoreWindowSettings*
+- uid: neo_bpsys_wpf.Models.Settings.GameDataWindowSettings
+  commentId: P:neo_bpsys_wpf.Models.Settings.GameDataWindowSettings
+  id: GameDataWindowSettings
+  parent: neo_bpsys_wpf.Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: GameDataWindowSettings
+  nameWithType: Settings.GameDataWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.GameDataWindowSettings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GameDataWindowSettings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public GameDataWindowSettings GameDataWindowSettings { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.GameDataWindowSettings
+    content.vb: Public Property GameDataWindowSettings As GameDataWindowSettings
+  overload: neo_bpsys_wpf.Models.Settings.GameDataWindowSettings*
+- uid: neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings
+  commentId: P:neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings
+  id: WidgetsWindowSettings
+  parent: neo_bpsys_wpf.Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: WidgetsWindowSettings
+  nameWithType: Settings.WidgetsWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: WidgetsWindowSettings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 13
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public WidgetsWindowSettings WidgetsWindowSettings { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.WidgetsWindowSettings
+    content.vb: Public Property WidgetsWindowSettings As WidgetsWindowSettings
+  overload: neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings*
 references:
 - uid: neo_bpsys_wpf.Models
   commentId: N:neo_bpsys_wpf.Models
@@ -356,33 +446,68 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: neo_bpsys_wpf.Models.Settings.IsAdminOnStartup*
-  commentId: Overload:neo_bpsys_wpf.Models.Settings.IsAdminOnStartup
-  href: neo_bpsys_wpf.Models.Settings.html#neo_bpsys_wpf_Models_Settings_IsAdminOnStartup
-  name: IsAdminOnStartup
-  nameWithType: Settings.IsAdminOnStartup
-  fullName: neo_bpsys_wpf.Models.Settings.IsAdminOnStartup
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: neo_bpsys_wpf.Models.Settings.FrontResolution*
-  commentId: Overload:neo_bpsys_wpf.Models.Settings.FrontResolution
-  href: neo_bpsys_wpf.Models.Settings.html#neo_bpsys_wpf_Models_Settings_FrontResolution
-  name: FrontResolution
-  nameWithType: Settings.FrontResolution
-  fullName: neo_bpsys_wpf.Models.Settings.FrontResolution
-- uid: neo_bpsys_wpf.Models.FrontResolution
-  commentId: T:neo_bpsys_wpf.Models.FrontResolution
+- uid: neo_bpsys_wpf.Models.Settings.BpWindowSettings*
+  commentId: Overload:neo_bpsys_wpf.Models.Settings.BpWindowSettings
+  href: neo_bpsys_wpf.Models.Settings.html#neo_bpsys_wpf_Models_Settings_BpWindowSettings
+  name: BpWindowSettings
+  nameWithType: Settings.BpWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.BpWindowSettings
+- uid: neo_bpsys_wpf.Models.BpWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.BpWindowSettings
   parent: neo_bpsys_wpf.Models
-  href: neo_bpsys_wpf.Models.FrontResolution.html
-  name: FrontResolution
-  nameWithType: FrontResolution
-  fullName: neo_bpsys_wpf.Models.FrontResolution
+  href: neo_bpsys_wpf.Models.BpWindowSettings.html
+  name: BpWindowSettings
+  nameWithType: BpWindowSettings
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings
+- uid: neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings*
+  commentId: Overload:neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings
+  href: neo_bpsys_wpf.Models.Settings.html#neo_bpsys_wpf_Models_Settings_CutSceneWindowSettings
+  name: CutSceneWindowSettings
+  nameWithType: Settings.CutSceneWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings
+- uid: neo_bpsys_wpf.Models.CutSceneWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.CutSceneWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.CutSceneWindowSettings.html
+  name: CutSceneWindowSettings
+  nameWithType: CutSceneWindowSettings
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowSettings
+- uid: neo_bpsys_wpf.Models.Settings.ScoreWindowSettings*
+  commentId: Overload:neo_bpsys_wpf.Models.Settings.ScoreWindowSettings
+  href: neo_bpsys_wpf.Models.Settings.html#neo_bpsys_wpf_Models_Settings_ScoreWindowSettings
+  name: ScoreWindowSettings
+  nameWithType: Settings.ScoreWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.ScoreWindowSettings
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.ScoreWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.ScoreWindowSettings.html
+  name: ScoreWindowSettings
+  nameWithType: ScoreWindowSettings
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings
+- uid: neo_bpsys_wpf.Models.Settings.GameDataWindowSettings*
+  commentId: Overload:neo_bpsys_wpf.Models.Settings.GameDataWindowSettings
+  href: neo_bpsys_wpf.Models.Settings.html#neo_bpsys_wpf_Models_Settings_GameDataWindowSettings
+  name: GameDataWindowSettings
+  nameWithType: Settings.GameDataWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.GameDataWindowSettings
+- uid: neo_bpsys_wpf.Models.GameDataWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.GameDataWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.GameDataWindowSettings.html
+  name: GameDataWindowSettings
+  nameWithType: GameDataWindowSettings
+  fullName: neo_bpsys_wpf.Models.GameDataWindowSettings
+- uid: neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings*
+  commentId: Overload:neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings
+  href: neo_bpsys_wpf.Models.Settings.html#neo_bpsys_wpf_Models_Settings_WidgetsWindowSettings
+  name: WidgetsWindowSettings
+  nameWithType: Settings.WidgetsWindowSettings
+  fullName: neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.WidgetsWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html
+  name: WidgetsWindowSettings
+  nameWithType: WidgetsWindowSettings
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings

@@ -7,11 +7,11 @@ items:
   - neo_bpsys_wpf.Abstractions.Services.IFilePickerService
   - neo_bpsys_wpf.Abstractions.Services.IFrontService
   - neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService
-  - neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
   - neo_bpsys_wpf.Abstractions.Services.IInfoBarService
   - neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
   - neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+  - neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
   - neo_bpsys_wpf.Abstractions.Services.IUpdaterService
   langs:
   - csharp
@@ -44,13 +44,6 @@ references:
   name: IGameGuidanceService
   nameWithType: IGameGuidanceService
   fullName: neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService
-- uid: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
-  commentId: T:neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
-  parent: neo_bpsys_wpf.Abstractions.Services
-  href: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html
-  name: IIgnoreFocusLossService
-  nameWithType: IIgnoreFocusLossService
-  fullName: neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService
 - uid: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
   commentId: T:neo_bpsys_wpf.Abstractions.Services.IInfoBarService
   parent: neo_bpsys_wpf.Abstractions.Services
@@ -79,6 +72,13 @@ references:
   name: ISharedDataService
   nameWithType: ISharedDataService
   fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html
+  name: ITextSettingsNavigationService
+  nameWithType: ITextSettingsNavigationService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
 - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
   commentId: T:neo_bpsys_wpf.Abstractions.Services.IUpdaterService
   parent: neo_bpsys_wpf.Abstractions.Services

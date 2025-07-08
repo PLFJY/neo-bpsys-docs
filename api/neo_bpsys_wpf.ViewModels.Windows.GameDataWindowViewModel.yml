@@ -96,11 +96,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 19
+    startLine: 17
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -125,11 +125,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 30
+    startLine: 28
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -157,11 +157,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 37
+    startLine: 35
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -186,11 +186,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 39
+    startLine: 37
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -220,11 +220,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 44
+    startLine: 42
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -254,11 +254,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 52
+    startLine: 50
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -291,11 +291,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 60
+    startLine: 58
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows

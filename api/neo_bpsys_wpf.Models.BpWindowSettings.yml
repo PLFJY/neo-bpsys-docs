@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Models.BpWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.BpWindowSettings
+  id: BpWindowSettings
+  parent: neo_bpsys_wpf.Models
+  children:
+  - neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri
+  - neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri
+  - neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri
+  - neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri
+  - neo_bpsys_wpf.Models.BpWindowSettings.Resolution
+  - neo_bpsys_wpf.Models.BpWindowSettings.TextSettings
+  langs:
+  - csharp
+  - vb
+  name: BpWindowSettings
+  nameWithType: BpWindowSettings
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings
+  type: Class
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BpWindowSettings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 64
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  summary: BP窗口设置
+  example: []
+  syntax:
+    content: public class BpWindowSettings
+    content.vb: Public Class BpWindowSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.Resolution
+  commentId: P:neo_bpsys_wpf.Models.BpWindowSettings.Resolution
+  id: Resolution
+  parent: neo_bpsys_wpf.Models.BpWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: Resolution
+  nameWithType: BpWindowSettings.Resolution
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.Resolution
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Resolution
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 66
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public WindowResolution Resolution { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.WindowResolution
+    content.vb: Public Property Resolution As WindowResolution
+  overload: neo_bpsys_wpf.Models.BpWindowSettings.Resolution*
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri
+  commentId: P:neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri
+  id: BgImageUri
+  parent: neo_bpsys_wpf.Models.BpWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: BgImageUri
+  nameWithType: BpWindowSettings.BgImageUri
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BgImageUri
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 67
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public string? BgImageUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BgImageUri As String
+  overload: neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri*
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri
+  commentId: P:neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri
+  id: CurrentBanLockImageUri
+  parent: neo_bpsys_wpf.Models.BpWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: CurrentBanLockImageUri
+  nameWithType: BpWindowSettings.CurrentBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CurrentBanLockImageUri
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 68
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public string? CurrentBanLockImageUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentBanLockImageUri As String
+  overload: neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri*
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri
+  commentId: P:neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri
+  id: GlobalBanLockImageUri
+  parent: neo_bpsys_wpf.Models.BpWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: GlobalBanLockImageUri
+  nameWithType: BpWindowSettings.GlobalBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GlobalBanLockImageUri
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 69
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public string? GlobalBanLockImageUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GlobalBanLockImageUri As String
+  overload: neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri*
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri
+  commentId: P:neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri
+  id: PickingBorderImageUri
+  parent: neo_bpsys_wpf.Models.BpWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: PickingBorderImageUri
+  nameWithType: BpWindowSettings.PickingBorderImageUri
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: PickingBorderImageUri
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 70
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public string? PickingBorderImageUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PickingBorderImageUri As String
+  overload: neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri*
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.TextSettings
+  commentId: P:neo_bpsys_wpf.Models.BpWindowSettings.TextSettings
+  id: TextSettings
+  parent: neo_bpsys_wpf.Models.BpWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: TextSettings
+  nameWithType: BpWindowSettings.TextSettings
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.TextSettings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: TextSettings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 71
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public BpWindowTextSettings TextSettings { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.BpWindowTextSettings
+    content.vb: Public Property TextSettings As BpWindowTextSettings
+  overload: neo_bpsys_wpf.Models.BpWindowSettings.TextSettings*
+references:
+- uid: neo_bpsys_wpf.Models
+  commentId: N:neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Models
+  nameWithType: neo_bpsys_wpf.Models
+  fullName: neo_bpsys_wpf.Models
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Models
+    name: Models
+    href: neo_bpsys_wpf.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.Resolution*
+  commentId: Overload:neo_bpsys_wpf.Models.BpWindowSettings.Resolution
+  href: neo_bpsys_wpf.Models.BpWindowSettings.html#neo_bpsys_wpf_Models_BpWindowSettings_Resolution
+  name: Resolution
+  nameWithType: BpWindowSettings.Resolution
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.Resolution
+- uid: neo_bpsys_wpf.Models.WindowResolution
+  commentId: T:neo_bpsys_wpf.Models.WindowResolution
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.WindowResolution.html
+  name: WindowResolution
+  nameWithType: WindowResolution
+  fullName: neo_bpsys_wpf.Models.WindowResolution
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri*
+  commentId: Overload:neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri
+  href: neo_bpsys_wpf.Models.BpWindowSettings.html#neo_bpsys_wpf_Models_BpWindowSettings_BgImageUri
+  name: BgImageUri
+  nameWithType: BpWindowSettings.BgImageUri
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri*
+  commentId: Overload:neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri
+  href: neo_bpsys_wpf.Models.BpWindowSettings.html#neo_bpsys_wpf_Models_BpWindowSettings_CurrentBanLockImageUri
+  name: CurrentBanLockImageUri
+  nameWithType: BpWindowSettings.CurrentBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri*
+  commentId: Overload:neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri
+  href: neo_bpsys_wpf.Models.BpWindowSettings.html#neo_bpsys_wpf_Models_BpWindowSettings_GlobalBanLockImageUri
+  name: GlobalBanLockImageUri
+  nameWithType: BpWindowSettings.GlobalBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri*
+  commentId: Overload:neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri
+  href: neo_bpsys_wpf.Models.BpWindowSettings.html#neo_bpsys_wpf_Models_BpWindowSettings_PickingBorderImageUri
+  name: PickingBorderImageUri
+  nameWithType: BpWindowSettings.PickingBorderImageUri
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri
+- uid: neo_bpsys_wpf.Models.BpWindowSettings.TextSettings*
+  commentId: Overload:neo_bpsys_wpf.Models.BpWindowSettings.TextSettings
+  href: neo_bpsys_wpf.Models.BpWindowSettings.html#neo_bpsys_wpf_Models_BpWindowSettings_TextSettings
+  name: TextSettings
+  nameWithType: BpWindowSettings.TextSettings
+  fullName: neo_bpsys_wpf.Models.BpWindowSettings.TextSettings
+- uid: neo_bpsys_wpf.Models.BpWindowTextSettings
+  commentId: T:neo_bpsys_wpf.Models.BpWindowTextSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.BpWindowTextSettings.html
+  name: BpWindowTextSettings
+  nameWithType: BpWindowTextSettings
+  fullName: neo_bpsys_wpf.Models.BpWindowTextSettings

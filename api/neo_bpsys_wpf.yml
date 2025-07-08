@@ -5,7 +5,6 @@ items:
   id: neo_bpsys_wpf
   children:
   - neo_bpsys_wpf.App
-  - neo_bpsys_wpf.NativeMethods
   langs:
   - csharp
   - vb
@@ -22,9 +21,3 @@ references:
   name: App
   nameWithType: App
   fullName: neo_bpsys_wpf.App
-- uid: neo_bpsys_wpf.NativeMethods
-  commentId: T:neo_bpsys_wpf.NativeMethods
-  href: neo_bpsys_wpf.NativeMethods.html
-  name: NativeMethods
-  nameWithType: NativeMethods
-  fullName: neo_bpsys_wpf.NativeMethods

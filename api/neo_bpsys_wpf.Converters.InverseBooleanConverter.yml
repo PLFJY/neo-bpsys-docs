@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/InverseBooleanConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InverseBooleanConverter
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/InverseBooleanConverter.cs
-    startLine: 7
+    startLine: 5
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Converters
@@ -54,11 +54,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/InverseBooleanConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Convert
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/InverseBooleanConverter.cs
-    startLine: 9
+    startLine: 7
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Converters
@@ -103,11 +103,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/InverseBooleanConverter.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ConvertBack
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/InverseBooleanConverter.cs
-    startLine: 19
+    startLine: 17
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Converters

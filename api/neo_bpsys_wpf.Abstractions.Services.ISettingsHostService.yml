@@ -7,6 +7,7 @@ items:
   children:
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
+  - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings
   langs:
@@ -19,11 +20,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ISettingsHostService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 12
+    startLine: 7
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -46,14 +47,16 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 14
+    startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 设置项
+  example: []
   syntax:
     content: Settings Settings { get; set; }
     parameters: []
@@ -75,11 +78,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 18
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -103,11 +106,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: LoadConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 22
+    startLine: 20
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -131,11 +134,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 26
+    startLine: 24
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -144,6 +147,35 @@ items:
   syntax:
     content: void ResetConfig()
     content.vb: Sub ResetConfig()
+  overload: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig*
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
+  id: ResetConfig(System.Type)
+  parent: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  langs:
+  - csharp
+  - vb
+  name: ResetConfig(Type)
+  nameWithType: ISettingsHostService.ResetConfig(Type)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+      branch: dev-feat/DeepCustom
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ResetConfig
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
+    startLine: 25
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  syntax:
+    content: void ResetConfig(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    content.vb: Sub ResetConfig(type As Type)
   overload: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig*
 references:
 - uid: neo_bpsys_wpf.Abstractions.Services
@@ -229,3 +261,18 @@ references:
   name: ResetConfig
   nameWithType: ISettingsHostService.ResetConfig
   fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

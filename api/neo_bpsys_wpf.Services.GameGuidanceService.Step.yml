@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Step
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 248
+    startLine: 247
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -53,11 +53,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Action
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 250
+    startLine: 249
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -82,11 +82,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Index
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 251
+    startLine: 250
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -111,11 +111,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Time
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
-    startLine: 252
+    startLine: 251
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services

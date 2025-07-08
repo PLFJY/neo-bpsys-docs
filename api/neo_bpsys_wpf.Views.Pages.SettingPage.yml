@@ -5,7 +5,7 @@ items:
   id: SettingPage
   parent: neo_bpsys_wpf.Views.Pages
   children:
-  - neo_bpsys_wpf.Views.Pages.SettingPage.#ctor
+  - neo_bpsys_wpf.Views.Pages.SettingPage.#ctor(neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService)
   - neo_bpsys_wpf.Views.Pages.SettingPage.InitializeComponent
   langs:
   - csharp
@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/SettingPage.g.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SettingPage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/SettingPage.g.cs
-    startLine: 45
+    startLine: 46
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Pages
@@ -635,35 +635,38 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: neo_bpsys_wpf.Views.Pages.SettingPage.#ctor
-  commentId: M:neo_bpsys_wpf.Views.Pages.SettingPage.#ctor
-  id: '#ctor'
+- uid: neo_bpsys_wpf.Views.Pages.SettingPage.#ctor(neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService)
+  commentId: M:neo_bpsys_wpf.Views.Pages.SettingPage.#ctor(neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService)
+  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService)'
   parent: neo_bpsys_wpf.Views.Pages.SettingPage
   langs:
   - csharp
   - vb
-  name: SettingPage()
-  nameWithType: SettingPage.SettingPage()
-  fullName: neo_bpsys_wpf.Views.Pages.SettingPage.SettingPage()
+  name: SettingPage(ITextSettingsNavigationService)
+  nameWithType: SettingPage.SettingPage(ITextSettingsNavigationService)
+  fullName: neo_bpsys_wpf.Views.Pages.SettingPage.SettingPage(neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/Views/Pages/SettingPage.xaml.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Pages/SettingPage.xaml.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Pages
   syntax:
-    content: public SettingPage()
-    content.vb: Public Sub New()
+    content: public SettingPage(ITextSettingsNavigationService textSettingsNavigationService)
+    parameters:
+    - id: textSettingsNavigationService
+      type: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+    content.vb: Public Sub New(textSettingsNavigationService As ITextSettingsNavigationService)
   overload: neo_bpsys_wpf.Views.Pages.SettingPage.#ctor*
-  nameWithType.vb: SettingPage.New()
-  fullName.vb: neo_bpsys_wpf.Views.Pages.SettingPage.New()
-  name.vb: New()
+  nameWithType.vb: SettingPage.New(ITextSettingsNavigationService)
+  fullName.vb: neo_bpsys_wpf.Views.Pages.SettingPage.New(neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService)
+  name.vb: New(ITextSettingsNavigationService)
 - uid: neo_bpsys_wpf.Views.Pages.SettingPage.InitializeComponent
   commentId: M:neo_bpsys_wpf.Views.Pages.SettingPage.InitializeComponent
   id: InitializeComponent
@@ -678,11 +681,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/SettingPage.g.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/SettingPage.g.cs
-    startLine: 52
+    startLine: 93
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Pages
@@ -10385,13 +10388,50 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.windows.markup
 - uid: neo_bpsys_wpf.Views.Pages.SettingPage.#ctor*
   commentId: Overload:neo_bpsys_wpf.Views.Pages.SettingPage.#ctor
-  href: neo_bpsys_wpf.Views.Pages.SettingPage.html#neo_bpsys_wpf_Views_Pages_SettingPage__ctor
+  href: neo_bpsys_wpf.Views.Pages.SettingPage.html#neo_bpsys_wpf_Views_Pages_SettingPage__ctor_neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_
   name: SettingPage
   nameWithType: SettingPage.SettingPage
   fullName: neo_bpsys_wpf.Views.Pages.SettingPage.SettingPage
   nameWithType.vb: SettingPage.New
   fullName.vb: neo_bpsys_wpf.Views.Pages.SettingPage.New
   name.vb: New
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html
+  name: ITextSettingsNavigationService
+  nameWithType: ITextSettingsNavigationService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
+- uid: neo_bpsys_wpf.Abstractions.Services
+  commentId: N:neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Abstractions.Services
+  nameWithType: neo_bpsys_wpf.Abstractions.Services
+  fullName: neo_bpsys_wpf.Abstractions.Services
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions
+    name: Abstractions
+    href: neo_bpsys_wpf.Abstractions.html
+  - name: .
+  - uid: neo_bpsys_wpf.Abstractions.Services
+    name: Services
+    href: neo_bpsys_wpf.Abstractions.Services.html
 - uid: neo_bpsys_wpf.Views.Pages.SettingPage.InitializeComponent*
   commentId: Overload:neo_bpsys_wpf.Views.Pages.SettingPage.InitializeComponent
   href: neo_bpsys_wpf.Views.Pages.SettingPage.html#neo_bpsys_wpf_Views_Pages_SettingPage_InitializeComponent

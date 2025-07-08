@@ -100,11 +100,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 20
+    startLine: 19
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -129,11 +129,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 31
+    startLine: 30
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -161,11 +161,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 40
+    startLine: 39
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -195,11 +195,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 48
+    startLine: 47
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -229,11 +229,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 57
+    startLine: 56
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -266,11 +266,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentBanLockImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 65
+    startLine: 64
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -295,11 +295,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBanLockImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 66
+    startLine: 65
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -324,11 +324,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 68
+    startLine: 67
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -353,11 +353,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 70
+    startLine: 69
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -382,11 +382,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 71
+    startLine: 70
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -411,11 +411,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 72
+    startLine: 71
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -440,11 +440,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 73
+    startLine: 72
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows

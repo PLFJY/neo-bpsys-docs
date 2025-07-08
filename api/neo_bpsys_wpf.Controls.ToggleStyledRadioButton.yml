@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ToggleStyledRadioButton
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -723,7 +723,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -752,7 +752,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageSourceProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -779,7 +779,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TagName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -808,7 +808,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TagNameProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -835,7 +835,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageHeight
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -864,7 +864,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageHeightProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -891,7 +891,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageWidth
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -920,7 +920,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageWidthProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -947,7 +947,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TagNameFontSize
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -976,7 +976,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TagNameFontSizeProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -1003,7 +1003,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsImageVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
@@ -1032,7 +1032,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
-      branch: dev-feat/ignoreFocusLoss
+      branch: dev-feat/DeepCustom
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsImageVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/ToggleStyledRadioButton.cs
