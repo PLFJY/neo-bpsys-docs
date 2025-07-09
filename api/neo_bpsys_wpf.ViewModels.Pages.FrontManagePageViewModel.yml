@@ -34,7 +34,7 @@ items:
   type: Class
   source:
     id: FrontManagePageViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPosition.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -144,87 +144,6 @@ items:
       type: System.Boolean
     content.vb: Public Property IsDesignMode As Boolean
   overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.IsDesignMode*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
-  id: ShowAllWindowsCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ShowAllWindowsCommand
-  nameWithType: FrontManagePageViewModel.ShowAllWindowsCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
-  type: Property
-  source:
-    id: ShowAllWindowsCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ShowAllWindowsCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ShowAllWindowsCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-  id: ResetScoreWindowElementsPositionCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ResetScoreWindowElementsPositionCommand
-  nameWithType: FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-  type: Property
-  source:
-    id: ResetScoreWindowElementsPositionCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPosition.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPosition(System.String)" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand<string> ResetScoreWindowElementsPositionCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
-    content.vb: Public ReadOnly Property ResetScoreWindowElementsPositionCommand As IRelayCommand(Of String)
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  id: ShowScoreWindowCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ShowScoreWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowScoreWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  type: Property
-  source:
-    id: ShowScoreWindowCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ShowScoreWindowCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ShowScoreWindowCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand
   id: ResetCutSceneWindowElementsPositionCommand
@@ -252,87 +171,6 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property ResetCutSceneWindowElementsPositionCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
-  id: HideCutSceneWindowCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: HideCutSceneWindowCommand
-  nameWithType: FrontManagePageViewModel.HideCutSceneWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
-  type: Property
-  source:
-    id: HideCutSceneWindowCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindow.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindow" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand HideCutSceneWindowCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property HideCutSceneWindowCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
-  id: ResetWidgetsWindowElementsPositionCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ResetWidgetsWindowElementsPositionCommand
-  nameWithType: FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
-  type: Property
-  source:
-    id: ResetWidgetsWindowElementsPositionCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPosition.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPosition(System.String)" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand<string> ResetWidgetsWindowElementsPositionCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
-    content.vb: Public ReadOnly Property ResetWidgetsWindowElementsPositionCommand As IRelayCommand(Of String)
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  id: HideWidgetsWindowCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: HideWidgetsWindowCommand
-  nameWithType: FrontManagePageViewModel.HideWidgetsWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  type: Property
-  source:
-    id: HideWidgetsWindowCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand HideWidgetsWindowCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property HideWidgetsWindowCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
   id: ShowBpWindowCommand
@@ -360,87 +198,6 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property ShowBpWindowCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-  id: HideBpWindowCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: HideBpWindowCommand
-  nameWithType: FrontManagePageViewModel.HideBpWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-  type: Property
-  source:
-    id: HideBpWindowCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand HideBpWindowCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property HideBpWindowCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  id: ShowGameDataWindowCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ShowGameDataWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowGameDataWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  type: Property
-  source:
-    id: ShowGameDataWindowCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ShowGameDataWindowCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ShowGameDataWindowCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
-  id: ResetGameDataWindowElementsPositionCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
-  langs:
-  - csharp
-  - vb
-  name: ResetGameDataWindowElementsPositionCommand
-  nameWithType: FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
-  type: Property
-  source:
-    id: ResetGameDataWindowElementsPositionCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ResetGameDataWindowElementsPositionCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ResetGameDataWindowElementsPositionCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
   id: ShowCutSceneWindowCommand
@@ -468,60 +225,87 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property ShowCutSceneWindowCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
-  id: HideAllWindowsCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
+  id: ShowGameDataWindowCommand
   parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
   langs:
   - csharp
   - vb
-  name: HideAllWindowsCommand
-  nameWithType: FrontManagePageViewModel.HideAllWindowsCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
+  name: ShowGameDataWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowGameDataWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
   type: Property
   source:
-    id: HideAllWindowsCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows.g.cs
+    id: ShowGameDataWindowCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow.g.cs
     startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IRelayCommand HideAllWindowsCommand { get; }
+    content: public IRelayCommand ShowGameDataWindowCommand { get; }
     parameters: []
     return:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property HideAllWindowsCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-  id: HideScoreWindowCommand
+    content.vb: Public ReadOnly Property ShowGameDataWindowCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
+  id: ResetScoreWindowElementsPositionCommand
   parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
   langs:
   - csharp
   - vb
-  name: HideScoreWindowCommand
-  nameWithType: FrontManagePageViewModel.HideScoreWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
+  name: ResetScoreWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
   type: Property
   source:
-    id: HideScoreWindowCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow.g.cs
+    id: ResetScoreWindowElementsPositionCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPosition.g.cs
     startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPosition(System.String)" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IRelayCommand HideScoreWindowCommand { get; }
+    content: public IRelayCommand<string> ResetScoreWindowElementsPositionCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
+    content.vb: Public ReadOnly Property ResetScoreWindowElementsPositionCommand As IRelayCommand(Of String)
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
+  id: HideCutSceneWindowCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HideCutSceneWindowCommand
+  nameWithType: FrontManagePageViewModel.HideCutSceneWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
+  type: Property
+  source:
+    id: HideCutSceneWindowCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindow.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand HideCutSceneWindowCommand { get; }
     parameters: []
     return:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property HideScoreWindowCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand*
+    content.vb: Public ReadOnly Property HideCutSceneWindowCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
   id: ShowWidgetsWindowCommand
@@ -549,33 +333,141 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property ShowWidgetsWindowCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
-  id: HideGameDataWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
+  id: ResetGameDataWindowElementsPositionCommand
   parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
   langs:
   - csharp
   - vb
-  name: HideGameDataWindowCommand
-  nameWithType: FrontManagePageViewModel.HideGameDataWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
+  name: ResetGameDataWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
   type: Property
   source:
-    id: HideGameDataWindowCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow.g.cs
+    id: ResetGameDataWindowElementsPositionCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition.g.cs
     startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IRelayCommand HideGameDataWindowCommand { get; }
+    content: public IRelayCommand ResetGameDataWindowElementsPositionCommand { get; }
     parameters: []
     return:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property HideGameDataWindowCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand*
+    content.vb: Public ReadOnly Property ResetGameDataWindowElementsPositionCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
+  id: HideWidgetsWindowCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HideWidgetsWindowCommand
+  nameWithType: FrontManagePageViewModel.HideWidgetsWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
+  type: Property
+  source:
+    id: HideWidgetsWindowCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand HideWidgetsWindowCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property HideWidgetsWindowCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
+  id: ResetWidgetsWindowElementsPositionCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: ResetWidgetsWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
+  type: Property
+  source:
+    id: ResetWidgetsWindowElementsPositionCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPosition.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPosition(System.String)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand<string> ResetWidgetsWindowElementsPositionCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand{System.String}
+    content.vb: Public ReadOnly Property ResetWidgetsWindowElementsPositionCommand As IRelayCommand(Of String)
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
+  id: HideAllWindowsCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HideAllWindowsCommand
+  nameWithType: FrontManagePageViewModel.HideAllWindowsCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
+  type: Property
+  source:
+    id: HideAllWindowsCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand HideAllWindowsCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property HideAllWindowsCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
+  id: HideBpWindowCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HideBpWindowCommand
+  nameWithType: FrontManagePageViewModel.HideBpWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
+  type: Property
+  source:
+    id: HideBpWindowCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand HideBpWindowCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property HideBpWindowCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPositionCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPositionCommand
   id: ResetBpWindowElementsPositionCommand
@@ -603,6 +495,114 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property ResetBpWindowElementsPositionCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPositionCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
+  id: ShowAllWindowsCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: ShowAllWindowsCommand
+  nameWithType: FrontManagePageViewModel.ShowAllWindowsCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
+  type: Property
+  source:
+    id: ShowAllWindowsCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand ShowAllWindowsCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property ShowAllWindowsCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
+  id: HideGameDataWindowCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HideGameDataWindowCommand
+  nameWithType: FrontManagePageViewModel.HideGameDataWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
+  type: Property
+  source:
+    id: HideGameDataWindowCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand HideGameDataWindowCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property HideGameDataWindowCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
+  id: ShowScoreWindowCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: ShowScoreWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowScoreWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
+  type: Property
+  source:
+    id: ShowScoreWindowCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand ShowScoreWindowCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property ShowScoreWindowCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
+  id: HideScoreWindowCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HideScoreWindowCommand
+  nameWithType: FrontManagePageViewModel.HideScoreWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
+  type: Property
+  source:
+    id: HideScoreWindowCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand HideScoreWindowCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property HideScoreWindowCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand*
 references:
 - uid: neo_bpsys_wpf.ViewModels.Pages
   commentId: N:neo_bpsys_wpf.ViewModels.Pages
@@ -822,27 +822,27 @@ references:
   name: IRelayCommand
   nameWithType: IRelayCommand
   fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows
-  name: ShowAllWindows()
-  nameWithType: FrontManagePageViewModel.ShowAllWindows()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows()
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition
+  name: ResetCutSceneWindowElementsPosition()
+  nameWithType: FrontManagePageViewModel.ResetCutSceneWindowElementsPosition()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition()
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows
-    name: ShowAllWindows
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition
+    name: ResetCutSceneWindowElementsPosition
   - name: (
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows
-    name: ShowAllWindows
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition
+    name: ResetCutSceneWindowElementsPosition
   - name: (
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowAllWindowsCommand
-  name: ShowAllWindowsCommand
-  nameWithType: FrontManagePageViewModel.ShowAllWindowsCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetCutSceneWindowElementsPositionCommand
+  name: ResetCutSceneWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand
 - uid: CommunityToolkit.Mvvm.Input
   commentId: N:CommunityToolkit.Mvvm.Input
   isExternal: true
@@ -880,6 +880,69 @@ references:
     name: Input
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow
+  name: ShowBpWindow()
+  nameWithType: FrontManagePageViewModel.ShowBpWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow
+    name: ShowBpWindow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow
+    name: ShowBpWindow
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowBpWindowCommand
+  name: ShowBpWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowBpWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow
+  name: ShowCutSceneWindow()
+  nameWithType: FrontManagePageViewModel.ShowCutSceneWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow
+    name: ShowCutSceneWindow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow
+    name: ShowCutSceneWindow
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowCutSceneWindowCommand
+  name: ShowCutSceneWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowCutSceneWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow
+  name: ShowGameDataWindow()
+  nameWithType: FrontManagePageViewModel.ShowGameDataWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow
+    name: ShowGameDataWindow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow
+    name: ShowGameDataWindow
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowGameDataWindowCommand
+  name: ShowGameDataWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowGameDataWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
 - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
   commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand`1
   isExternal: true
@@ -972,48 +1035,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow
-  name: ShowScoreWindow()
-  nameWithType: FrontManagePageViewModel.ShowScoreWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow
-    name: ShowScoreWindow
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow
-    name: ShowScoreWindow
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowScoreWindowCommand
-  name: ShowScoreWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowScoreWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition
-  name: ResetCutSceneWindowElementsPosition()
-  nameWithType: FrontManagePageViewModel.ResetCutSceneWindowElementsPosition()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition
-    name: ResetCutSceneWindowElementsPosition
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition
-    name: ResetCutSceneWindowElementsPosition
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetCutSceneWindowElementsPositionCommand
-  name: ResetCutSceneWindowElementsPositionCommand
-  nameWithType: FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindow
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindow
   name: HideCutSceneWindow()
@@ -1035,6 +1056,69 @@ references:
   name: HideCutSceneWindowCommand
   nameWithType: FrontManagePageViewModel.HideCutSceneWindowCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow
+  name: ShowWidgetsWindow()
+  nameWithType: FrontManagePageViewModel.ShowWidgetsWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow
+    name: ShowWidgetsWindow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow
+    name: ShowWidgetsWindow
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWidgetsWindowCommand
+  name: ShowWidgetsWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowWidgetsWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition
+  name: ResetGameDataWindowElementsPosition()
+  nameWithType: FrontManagePageViewModel.ResetGameDataWindowElementsPosition()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition
+    name: ResetGameDataWindowElementsPosition
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition
+    name: ResetGameDataWindowElementsPosition
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetGameDataWindowElementsPositionCommand
+  name: ResetGameDataWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow
+  name: HideWidgetsWindow()
+  nameWithType: FrontManagePageViewModel.HideWidgetsWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow
+    name: HideWidgetsWindow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow
+    name: HideWidgetsWindow
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWidgetsWindowCommand
+  name: HideWidgetsWindowCommand
+  nameWithType: FrontManagePageViewModel.HideWidgetsWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPosition(System.String)
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPosition(System.String)
   isExternal: true
@@ -1069,132 +1153,6 @@ references:
   name: ResetWidgetsWindowElementsPositionCommand
   nameWithType: FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow
-  name: HideWidgetsWindow()
-  nameWithType: FrontManagePageViewModel.HideWidgetsWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow
-    name: HideWidgetsWindow
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow
-    name: HideWidgetsWindow
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWidgetsWindowCommand
-  name: HideWidgetsWindowCommand
-  nameWithType: FrontManagePageViewModel.HideWidgetsWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow
-  name: ShowBpWindow()
-  nameWithType: FrontManagePageViewModel.ShowBpWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow
-    name: ShowBpWindow
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow
-    name: ShowBpWindow
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowBpWindowCommand
-  name: ShowBpWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowBpWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow
-  name: HideBpWindow()
-  nameWithType: FrontManagePageViewModel.HideBpWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow
-    name: HideBpWindow
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow
-    name: HideBpWindow
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideBpWindowCommand
-  name: HideBpWindowCommand
-  nameWithType: FrontManagePageViewModel.HideBpWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow
-  name: ShowGameDataWindow()
-  nameWithType: FrontManagePageViewModel.ShowGameDataWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow
-    name: ShowGameDataWindow
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow
-    name: ShowGameDataWindow
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowGameDataWindowCommand
-  name: ShowGameDataWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowGameDataWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition
-  name: ResetGameDataWindowElementsPosition()
-  nameWithType: FrontManagePageViewModel.ResetGameDataWindowElementsPosition()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition
-    name: ResetGameDataWindowElementsPosition
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition
-    name: ResetGameDataWindowElementsPosition
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetGameDataWindowElementsPositionCommand
-  name: ResetGameDataWindowElementsPositionCommand
-  nameWithType: FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow
-  name: ShowCutSceneWindow()
-  nameWithType: FrontManagePageViewModel.ShowCutSceneWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow
-    name: ShowCutSceneWindow
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow
-    name: ShowCutSceneWindow
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowCutSceneWindowCommand
-  name: ShowCutSceneWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowCutSceneWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows
   name: HideAllWindows()
@@ -1216,69 +1174,27 @@ references:
   name: HideAllWindowsCommand
   nameWithType: FrontManagePageViewModel.HideAllWindowsCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow
-  name: HideScoreWindow()
-  nameWithType: FrontManagePageViewModel.HideScoreWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow()
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow
+  name: HideBpWindow()
+  nameWithType: FrontManagePageViewModel.HideBpWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow()
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow
-    name: HideScoreWindow
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow
+    name: HideBpWindow
   - name: (
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow
-    name: HideScoreWindow
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow
+    name: HideBpWindow
   - name: (
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideScoreWindowCommand
-  name: HideScoreWindowCommand
-  nameWithType: FrontManagePageViewModel.HideScoreWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow
-  name: ShowWidgetsWindow()
-  nameWithType: FrontManagePageViewModel.ShowWidgetsWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow
-    name: ShowWidgetsWindow
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow
-    name: ShowWidgetsWindow
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWidgetsWindowCommand
-  name: ShowWidgetsWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowWidgetsWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow
-  name: HideGameDataWindow()
-  nameWithType: FrontManagePageViewModel.HideGameDataWindow()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow
-    name: HideGameDataWindow
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow
-    name: HideGameDataWindow
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideGameDataWindowCommand
-  name: HideGameDataWindowCommand
-  nameWithType: FrontManagePageViewModel.HideGameDataWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideBpWindowCommand
+  name: HideBpWindowCommand
+  nameWithType: FrontManagePageViewModel.HideBpWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPosition
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPosition
   name: ResetBpWindowElementsPosition()
@@ -1300,3 +1216,87 @@ references:
   name: ResetBpWindowElementsPositionCommand
   nameWithType: FrontManagePageViewModel.ResetBpWindowElementsPositionCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPositionCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows
+  name: ShowAllWindows()
+  nameWithType: FrontManagePageViewModel.ShowAllWindows()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows
+    name: ShowAllWindows
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows
+    name: ShowAllWindows
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowAllWindowsCommand
+  name: ShowAllWindowsCommand
+  nameWithType: FrontManagePageViewModel.ShowAllWindowsCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow
+  name: HideGameDataWindow()
+  nameWithType: FrontManagePageViewModel.HideGameDataWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow
+    name: HideGameDataWindow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow
+    name: HideGameDataWindow
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideGameDataWindowCommand
+  name: HideGameDataWindowCommand
+  nameWithType: FrontManagePageViewModel.HideGameDataWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow
+  name: ShowScoreWindow()
+  nameWithType: FrontManagePageViewModel.ShowScoreWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow
+    name: ShowScoreWindow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow
+    name: ShowScoreWindow
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowScoreWindowCommand
+  name: ShowScoreWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowScoreWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow
+  name: HideScoreWindow()
+  nameWithType: FrontManagePageViewModel.HideScoreWindow()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow
+    name: HideScoreWindow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow
+    name: HideScoreWindow
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideScoreWindowCommand
+  name: HideScoreWindowCommand
+  nameWithType: FrontManagePageViewModel.HideScoreWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
