@@ -28,7 +28,7 @@ items:
   type: Class
   source:
     id: TeamInfoViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.SwitchMemberState.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.SetMemberImage.g.cs
     startLine: 9
   assemblies:
   - neo-bpsys-wpf
@@ -142,194 +142,6 @@ items:
   nameWithType.vb: TeamInfoPageViewModel.TeamInfoViewModel.New(Team, IFilePickerService, IMessageBoxService)
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.New(neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Abstractions.Services.IFilePickerService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
   name.vb: New(Team, IFilePickerService, IMessageBoxService)
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
-  id: SetMemberImageCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
-  langs:
-  - csharp
-  - vb
-  name: SetMemberImageCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
-  type: Property
-  source:
-    id: SetMemberImageCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.SetMemberImage.g.cs
-    startLine: 15
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand<Member> SetMemberImageCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
-    content.vb: Public ReadOnly Property SetMemberImageCommand As IRelayCommand(Of Member)
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
-  id: AddSurMemberCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
-  langs:
-  - csharp
-  - vb
-  name: AddSurMemberCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
-  type: Property
-  source:
-    id: AddSurMemberCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.AddSurMember.g.cs
-    startLine: 15
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand AddSurMemberCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property AddSurMemberCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
-  id: ConfirmTeamNameCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
-  langs:
-  - csharp
-  - vb
-  name: ConfirmTeamNameCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
-  type: Property
-  source:
-    id: ConfirmTeamNameCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.ConfirmTeamName.g.cs
-    startLine: 15
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamName" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ConfirmTeamNameCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ConfirmTeamNameCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
-  id: TeamName
-  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
-  langs:
-  - csharp
-  - vb
-  name: TeamName
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.TeamName
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
-  type: Property
-  source:
-    id: TeamName
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  example: []
-  syntax:
-    content: public string TeamName { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property TeamName As String
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand
-  id: RemoveSurMemberCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
-  langs:
-  - csharp
-  - vb
-  name: RemoveSurMemberCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand
-  type: Property
-  source:
-    id: RemoveSurMemberCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.RemoveSurMemberAsync.g.cs
-    startLine: 15
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberAsync(neo_bpsys_wpf.Models.Member)" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IAsyncRelayCommand<Member> RemoveSurMemberCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{neo_bpsys_wpf.Models.Member}
-    content.vb: Public ReadOnly Property RemoveSurMemberCommand As IAsyncRelayCommand(Of Member)
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
-  id: AddHunMemberCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
-  langs:
-  - csharp
-  - vb
-  name: AddHunMemberCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
-  type: Property
-  source:
-    id: AddHunMemberCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.AddHunMember.g.cs
-    startLine: 15
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand AddHunMemberCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property AddHunMemberCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
-  id: ImportInfoFromJsonCommand
-  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
-  langs:
-  - csharp
-  - vb
-  name: ImportInfoFromJsonCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
-  type: Property
-  source:
-    id: ImportInfoFromJsonCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.ImportInfoFromJson.g.cs
-    startLine: 15
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ImportInfoFromJsonCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ImportInfoFromJsonCommand As IRelayCommand
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand
   id: SetTeamLogoCommand
@@ -357,60 +169,113 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand
     content.vb: Public ReadOnly Property SetTeamLogoCommand As IRelayCommand
   overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
-  id: ClearMemberImageCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
+  id: TeamName
   parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
   langs:
   - csharp
   - vb
-  name: ClearMemberImageCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  name: TeamName
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.TeamName
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
   type: Property
   source:
-    id: ClearMemberImageCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.ClearMemberImage.g.cs
-    startLine: 15
+    id: TeamName
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.g.cs
+    startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImage(neo_bpsys_wpf.Models.Member)" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IRelayCommand<Member> ClearMemberImageCommand { get; }
+    content: public string TeamName { get; set; }
     parameters: []
     return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
-    content.vb: Public ReadOnly Property ClearMemberImageCommand As IRelayCommand(Of Member)
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
-  id: RemoveHunMemberCommand
+      type: System.String
+    content.vb: Public Property TeamName As String
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName*
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
+  id: ConfirmTeamNameCommand
   parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
   langs:
   - csharp
   - vb
-  name: RemoveHunMemberCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
+  name: ConfirmTeamNameCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
   type: Property
   source:
-    id: RemoveHunMemberCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.RemoveHunMemberAsync.g.cs
+    id: ConfirmTeamNameCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.ConfirmTeamName.g.cs
     startLine: 15
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberAsync(neo_bpsys_wpf.Models.Member)" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamName" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IAsyncRelayCommand<Member> RemoveHunMemberCommand { get; }
+    content: public IRelayCommand ConfirmTeamNameCommand { get; }
     parameters: []
     return:
-      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{neo_bpsys_wpf.Models.Member}
-    content.vb: Public ReadOnly Property RemoveHunMemberCommand As IAsyncRelayCommand(Of Member)
-  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand*
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property ConfirmTeamNameCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
+  id: AddSurMemberCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
+  langs:
+  - csharp
+  - vb
+  name: AddSurMemberCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
+  type: Property
+  source:
+    id: AddSurMemberCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.AddSurMember.g.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand AddSurMemberCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property AddSurMemberCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
+  id: ImportInfoFromJsonCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
+  langs:
+  - csharp
+  - vb
+  name: ImportInfoFromJsonCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
+  type: Property
+  source:
+    id: ImportInfoFromJsonCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.ImportInfoFromJson.g.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand ImportInfoFromJsonCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property ImportInfoFromJsonCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand*
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand
   id: SwitchMemberStateCommand
@@ -438,6 +303,141 @@ items:
       type: CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
     content.vb: Public ReadOnly Property SwitchMemberStateCommand As IRelayCommand(Of Member)
   overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand
+  id: RemoveSurMemberCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
+  langs:
+  - csharp
+  - vb
+  name: RemoveSurMemberCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand
+  type: Property
+  source:
+    id: RemoveSurMemberCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.RemoveSurMemberAsync.g.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberAsync(neo_bpsys_wpf.Models.Member)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IAsyncRelayCommand<Member> RemoveSurMemberCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{neo_bpsys_wpf.Models.Member}
+    content.vb: Public ReadOnly Property RemoveSurMemberCommand As IAsyncRelayCommand(Of Member)
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveSurMemberCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  id: ClearMemberImageCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
+  langs:
+  - csharp
+  - vb
+  name: ClearMemberImageCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  type: Property
+  source:
+    id: ClearMemberImageCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.ClearMemberImage.g.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImage(neo_bpsys_wpf.Models.Member)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand<Member> ClearMemberImageCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
+    content.vb: Public ReadOnly Property ClearMemberImageCommand As IRelayCommand(Of Member)
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
+  id: AddHunMemberCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
+  langs:
+  - csharp
+  - vb
+  name: AddHunMemberCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
+  type: Property
+  source:
+    id: AddHunMemberCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.AddHunMember.g.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand AddHunMemberCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property AddHunMemberCommand As IRelayCommand
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
+  id: RemoveHunMemberCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
+  langs:
+  - csharp
+  - vb
+  name: RemoveHunMemberCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
+  type: Property
+  source:
+    id: RemoveHunMemberCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.RemoveHunMemberAsync.g.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IAsyncRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberAsync(neo_bpsys_wpf.Models.Member)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IAsyncRelayCommand<Member> RemoveHunMemberCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{neo_bpsys_wpf.Models.Member}
+    content.vb: Public ReadOnly Property RemoveHunMemberCommand As IAsyncRelayCommand(Of Member)
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
+  id: SetMemberImageCommand
+  parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel
+  langs:
+  - csharp
+  - vb
+  name: SetMemberImageCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
+  type: Property
+  source:
+    id: SetMemberImageCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.SetMemberImage.g.cs
+    startLine: 15
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand%601" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand<Member> SetMemberImageCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
+    content.vb: Public ReadOnly Property SetMemberImageCommand As IRelayCommand(Of Member)
+  overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand*
 references:
 - uid: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
   commentId: T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject
@@ -674,90 +674,34 @@ references:
   - uid: neo_bpsys_wpf.Abstractions.Services
     name: Services
     href: neo_bpsys_wpf.Abstractions.Services.html
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  isExternal: true
-  name: IRelayCommand<T>
-  nameWithType: IRelayCommand<T>
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<T>
-  nameWithType.vb: IRelayCommand(Of T)
-  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of T)
-  name.vb: IRelayCommand(Of T)
-  spec.csharp:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
-  href: neo_bpsys_wpf.Models.Member.html
-  name: SetMemberImage(Member)
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(Member)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
-    name: SetMemberImage
-  - name: (
-  - uid: neo_bpsys_wpf.Models.Member
-    name: Member
-    href: neo_bpsys_wpf.Models.Member.html
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
-    name: SetMemberImage
-  - name: (
-  - uid: neo_bpsys_wpf.Models.Member
-    name: Member
-    href: neo_bpsys_wpf.Models.Member.html
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_SetMemberImageCommand
-  name: SetMemberImageCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
   parent: CommunityToolkit.Mvvm.Input
-  definition: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-  href: neo_bpsys_wpf.Models.Member.html
-  name: IRelayCommand<Member>
-  nameWithType: IRelayCommand<Member>
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<neo_bpsys_wpf.Models.Member>
-  nameWithType.vb: IRelayCommand(Of Member)
-  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of neo_bpsys_wpf.Models.Member)
-  name.vb: IRelayCommand(Of Member)
+  isExternal: true
+  name: IRelayCommand
+  nameWithType: IRelayCommand
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo
+  name: SetTeamLogo()
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo()
   spec.csharp:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
-  - name: <
-  - uid: neo_bpsys_wpf.Models.Member
-    name: Member
-    href: neo_bpsys_wpf.Models.Member.html
-  - name: '>'
-  spec.vb:
-  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
-    name: IRelayCommand
-    isExternal: true
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo
+    name: SetTeamLogo
   - name: (
-  - name: Of
-  - name: " "
-  - uid: neo_bpsys_wpf.Models.Member
-    name: Member
-    href: neo_bpsys_wpf.Models.Member.html
   - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo
+    name: SetTeamLogo
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_SetTeamLogoCommand
+  name: SetTeamLogoCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand
 - uid: CommunityToolkit.Mvvm.Input
   commentId: N:CommunityToolkit.Mvvm.Input
   isExternal: true
@@ -795,34 +739,23 @@ references:
     name: Input
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
-  parent: CommunityToolkit.Mvvm.Input
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
+  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_TeamName
+  name: TeamName
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.TeamName
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
-  name: IRelayCommand
-  nameWithType: IRelayCommand
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember
-  name: AddSurMember()
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember
-    name: AddSurMember
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember
-    name: AddSurMember
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_AddSurMemberCommand
-  name: AddSurMemberCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamName
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamName
   name: ConfirmTeamName()
@@ -844,23 +777,132 @@ references:
   name: ConfirmTeamNameCommand
   nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
-  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_TeamName
-  name: TeamName
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.TeamName
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.TeamName
-- uid: System.String
-  commentId: T:System.String
-  parent: System
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember
+  name: AddSurMember()
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember
+    name: AddSurMember
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMember
+    name: AddSurMember
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_AddSurMemberCommand
+  name: AddSurMemberCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson
+  name: ImportInfoFromJson()
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson
+    name: ImportInfoFromJson
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson
+    name: ImportInfoFromJson
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_ImportInfoFromJsonCommand
+  name: ImportInfoFromJsonCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: IRelayCommand<T>
+  nameWithType: IRelayCommand<T>
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<T>
+  nameWithType.vb: IRelayCommand(Of T)
+  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of T)
+  name.vb: IRelayCommand(Of T)
+  spec.csharp:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
+  href: neo_bpsys_wpf.Models.Member.html
+  name: SwitchMemberState(Member)
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(Member)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
+    name: SwitchMemberState
+  - name: (
+  - uid: neo_bpsys_wpf.Models.Member
+    name: Member
+    href: neo_bpsys_wpf.Models.Member.html
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
+    name: SwitchMemberState
+  - name: (
+  - uid: neo_bpsys_wpf.Models.Member
+    name: Member
+    href: neo_bpsys_wpf.Models.Member.html
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_SwitchMemberStateCommand
+  name: SwitchMemberStateCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand{neo_bpsys_wpf.Models.Member}
+  parent: CommunityToolkit.Mvvm.Input
+  definition: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+  href: neo_bpsys_wpf.Models.Member.html
+  name: IRelayCommand<Member>
+  nameWithType: IRelayCommand<Member>
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand<neo_bpsys_wpf.Models.Member>
+  nameWithType.vb: IRelayCommand(Of Member)
+  fullName.vb: CommunityToolkit.Mvvm.Input.IRelayCommand(Of neo_bpsys_wpf.Models.Member)
+  name.vb: IRelayCommand(Of Member)
+  spec.csharp:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+  - name: <
+  - uid: neo_bpsys_wpf.Models.Member
+    name: Member
+    href: neo_bpsys_wpf.Models.Member.html
+  - name: '>'
+  spec.vb:
+  - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
+    name: IRelayCommand
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: neo_bpsys_wpf.Models.Member
+    name: Member
+    href: neo_bpsys_wpf.Models.Member.html
+  - name: )
 - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
   commentId: T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
   isExternal: true
@@ -945,69 +987,6 @@ references:
     name: Member
     href: neo_bpsys_wpf.Models.Member.html
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember
-  name: AddHunMember()
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember
-    name: AddHunMember
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember
-    name: AddHunMember
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_AddHunMemberCommand
-  name: AddHunMemberCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson
-  name: ImportInfoFromJson()
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson
-    name: ImportInfoFromJson
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJson
-    name: ImportInfoFromJson
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_ImportInfoFromJsonCommand
-  name: ImportInfoFromJsonCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ImportInfoFromJsonCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo
-  name: SetTeamLogo()
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo()
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo
-    name: SetTeamLogo
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogo
-    name: SetTeamLogo
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_SetTeamLogoCommand
-  name: SetTeamLogoCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetTeamLogoCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImage(neo_bpsys_wpf.Models.Member)
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImage(neo_bpsys_wpf.Models.Member)
   href: neo_bpsys_wpf.Models.Member.html
@@ -1036,6 +1015,27 @@ references:
   name: ClearMemberImageCommand
   nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember
+  name: AddHunMember()
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember
+    name: AddHunMember
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMember
+    name: AddHunMember
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_AddHunMemberCommand
+  name: AddHunMemberCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddHunMemberCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberAsync(neo_bpsys_wpf.Models.Member)
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberAsync(neo_bpsys_wpf.Models.Member)
   href: neo_bpsys_wpf.Models.Member.html
@@ -1064,31 +1064,31 @@ references:
   name: RemoveHunMemberCommand
   nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
   fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.RemoveHunMemberCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
   href: neo_bpsys_wpf.Models.Member.html
-  name: SwitchMemberState(Member)
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(Member)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
+  name: SetMemberImage(Member)
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(Member)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
   spec.csharp:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
-    name: SwitchMemberState
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
+    name: SetMemberImage
   - name: (
   - uid: neo_bpsys_wpf.Models.Member
     name: Member
     href: neo_bpsys_wpf.Models.Member.html
   - name: )
   spec.vb:
-  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberState(neo_bpsys_wpf.Models.Member)
-    name: SwitchMemberState
+  - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImage(neo_bpsys_wpf.Models.Member)
+    name: SetMemberImage
   - name: (
   - uid: neo_bpsys_wpf.Models.Member
     name: Member
     href: neo_bpsys_wpf.Models.Member.html
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand
-  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_SwitchMemberStateCommand
-  name: SwitchMemberStateCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SwitchMemberStateCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
+  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_SetMemberImageCommand
+  name: SetMemberImageCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.SetMemberImageCommand
