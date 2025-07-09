@@ -5,14 +5,13 @@ items:
   id: Player
   parent: neo_bpsys_wpf.Models
   children:
-  - neo_bpsys_wpf.Models.Player.#ctor
-  - neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member)
+  - neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member,System.Boolean)
   - neo_bpsys_wpf.Models.Player.Character
   - neo_bpsys_wpf.Models.Player.Data
   - neo_bpsys_wpf.Models.Player.IsMemberValid
   - neo_bpsys_wpf.Models.Player.Member
   - neo_bpsys_wpf.Models.Player.PictureShown
-  - neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+  - neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   - neo_bpsys_wpf.Models.Player.Talent
   - neo_bpsys_wpf.Models.Player.Trait
   langs:
@@ -41,50 +40,21 @@ items:
   implements:
   - System.ComponentModel.INotifyPropertyChanged
   - System.ComponentModel.INotifyPropertyChanging
-- uid: neo_bpsys_wpf.Models.Player.#ctor
-  commentId: M:neo_bpsys_wpf.Models.Player.#ctor
-  id: '#ctor'
+- uid: neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member,System.Boolean)
+  commentId: M:neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member,System.Boolean)
+  id: '#ctor(neo_bpsys_wpf.Models.Member,System.Boolean)'
   parent: neo_bpsys_wpf.Models.Player
   langs:
   - csharp
   - vb
-  name: Player()
-  nameWithType: Player.Player()
-  fullName: neo_bpsys_wpf.Models.Player.Player()
+  name: Player(Member, bool)
+  nameWithType: Player.Player(Member, bool)
+  fullName: neo_bpsys_wpf.Models.Player.Player(neo_bpsys_wpf.Models.Member, bool)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/Models/Player.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: .ctor
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
-    startLine: 13
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Models
-  syntax:
-    content: public Player()
-    content.vb: Public Sub New()
-  overload: neo_bpsys_wpf.Models.Player.#ctor*
-  nameWithType.vb: Player.New()
-  fullName.vb: neo_bpsys_wpf.Models.Player.New()
-  name.vb: New()
-- uid: neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member)
-  commentId: M:neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member)
-  id: '#ctor(neo_bpsys_wpf.Models.Member)'
-  parent: neo_bpsys_wpf.Models.Player
-  langs:
-  - csharp
-  - vb
-  name: Player(Member)
-  nameWithType: Player.Player(Member)
-  fullName: neo_bpsys_wpf.Models.Player.Player(neo_bpsys_wpf.Models.Member)
-  type: Constructor
-  source:
-    remote:
-      path: neo-bpsys-wpf/Models/Player.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
@@ -93,15 +63,46 @@ items:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   syntax:
-    content: public Player(Member member)
+    content: public Player(Member member, bool isMemberValid)
     parameters:
     - id: member
       type: neo_bpsys_wpf.Models.Member
-    content.vb: Public Sub New(member As Member)
+    - id: isMemberValid
+      type: System.Boolean
+    content.vb: Public Sub New(member As Member, isMemberValid As Boolean)
   overload: neo_bpsys_wpf.Models.Player.#ctor*
-  nameWithType.vb: Player.New(Member)
-  fullName.vb: neo_bpsys_wpf.Models.Player.New(neo_bpsys_wpf.Models.Member)
-  name.vb: New(Member)
+  nameWithType.vb: Player.New(Member, Boolean)
+  fullName.vb: neo_bpsys_wpf.Models.Player.New(neo_bpsys_wpf.Models.Member, Boolean)
+  name.vb: New(Member, Boolean)
+- uid: neo_bpsys_wpf.Models.Player.IsMemberValid
+  commentId: P:neo_bpsys_wpf.Models.Player.IsMemberValid
+  id: IsMemberValid
+  parent: neo_bpsys_wpf.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: IsMemberValid
+  nameWithType: Player.IsMemberValid
+  fullName: neo_bpsys_wpf.Models.Player.IsMemberValid
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Player.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IsMemberValid
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
+    startLine: 27
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public bool IsMemberValid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMemberValid As Boolean
+  overload: neo_bpsys_wpf.Models.Player.IsMemberValid*
 - uid: neo_bpsys_wpf.Models.Player.PictureShown
   commentId: P:neo_bpsys_wpf.Models.Player.PictureShown
   id: PictureShown
@@ -116,11 +117,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Player.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PictureShown
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
-    startLine: 43
+    startLine: 38
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -141,37 +142,37 @@ items:
   - type: System.Text.Json.Serialization.JsonIgnoreAttribute
     ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
     arguments: []
-- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  id: Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   parent: neo_bpsys_wpf.Models.Player
   langs:
   - csharp
   - vb
-  name: Receive(MemberStateChangedMessage)
-  nameWithType: Player.Receive(MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  nameWithType: Player.Receive(MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/Models/Player.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
-    startLine: 46
+    startLine: 40
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
-  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberStateChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberPropertyChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
   example: []
   syntax:
-    content: public void Receive(MemberStateChangedMessage message)
+    content: public void Receive(MemberPropertyChangedMessage message)
     parameters:
     - id: message
-      type: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+      type: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
       description: The message being received.
-    content.vb: Public Sub Receive(message As MemberStateChangedMessage)
+    content.vb: Public Sub Receive(message As MemberPropertyChangedMessage)
   overload: neo_bpsys_wpf.Models.Player.Receive*
 - uid: neo_bpsys_wpf.Models.Player.Member
   commentId: P:neo_bpsys_wpf.Models.Player.Member
@@ -199,32 +200,6 @@ items:
       type: neo_bpsys_wpf.Models.Member
     content.vb: Public Property Member As Member
   overload: neo_bpsys_wpf.Models.Player.Member*
-- uid: neo_bpsys_wpf.Models.Player.IsMemberValid
-  commentId: P:neo_bpsys_wpf.Models.Player.IsMemberValid
-  id: IsMemberValid
-  parent: neo_bpsys_wpf.Models.Player
-  langs:
-  - csharp
-  - vb
-  name: IsMemberValid
-  nameWithType: Player.IsMemberValid
-  fullName: neo_bpsys_wpf.Models.Player.IsMemberValid
-  type: Property
-  source:
-    id: IsMemberValid
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Player.g.cs
-    startLine: 31
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Models
-  example: []
-  syntax:
-    content: public bool IsMemberValid { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property IsMemberValid As Boolean
-  overload: neo_bpsys_wpf.Models.Player.IsMemberValid*
 - uid: neo_bpsys_wpf.Models.Player.Character
   commentId: P:neo_bpsys_wpf.Models.Player.Character
   id: Character
@@ -239,7 +214,7 @@ items:
   source:
     id: Character
     path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Player.g.cs
-    startLine: 52
+    startLine: 31
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -265,7 +240,7 @@ items:
   source:
     id: Talent
     path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Player.g.cs
-    startLine: 75
+    startLine: 54
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -291,7 +266,7 @@ items:
   source:
     id: Trait
     path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Player.g.cs
-    startLine: 97
+    startLine: 76
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -317,7 +292,7 @@ items:
   source:
     id: Data
     path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Player.g.cs
-    startLine: 119
+    startLine: 98
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -485,13 +460,30 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.componentmodel
 - uid: neo_bpsys_wpf.Models.Player.#ctor*
   commentId: Overload:neo_bpsys_wpf.Models.Player.#ctor
-  href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player__ctor
+  href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player__ctor_neo_bpsys_wpf_Models_Member_System_Boolean_
   name: Player
   nameWithType: Player.Player
   fullName: neo_bpsys_wpf.Models.Player.Player
   nameWithType.vb: Player.New
   fullName.vb: neo_bpsys_wpf.Models.Player.New
   name.vb: New
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: neo_bpsys_wpf.Models.Player.IsMemberValid*
+  commentId: Overload:neo_bpsys_wpf.Models.Player.IsMemberValid
+  href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_IsMemberValid
+  name: IsMemberValid
+  nameWithType: Player.IsMemberValid
+  fullName: neo_bpsys_wpf.Models.Player.IsMemberValid
 - uid: neo_bpsys_wpf.Models.Player.PictureShown*
   commentId: Overload:neo_bpsys_wpf.Models.Player.PictureShown
   href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_PictureShown
@@ -542,16 +534,16 @@ references:
     name: Media
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.windows.media
-- uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
-  commentId: T:neo_bpsys_wpf.Messages.MemberStateChangedMessage
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
   parent: neo_bpsys_wpf.Messages
-  href: neo_bpsys_wpf.Messages.MemberStateChangedMessage.html
-  name: MemberStateChangedMessage
-  nameWithType: MemberStateChangedMessage
-  fullName: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  href: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html
+  name: MemberPropertyChangedMessage
+  nameWithType: MemberPropertyChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
 - uid: neo_bpsys_wpf.Models.Player.Receive*
   commentId: Overload:neo_bpsys_wpf.Models.Player.Receive
-  href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_MemberStateChangedMessage_
+  href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_
   name: Receive
   nameWithType: Player.Receive
   fullName: neo_bpsys_wpf.Models.Player.Receive
@@ -583,23 +575,6 @@ references:
   name: Member
   nameWithType: Player.Member
   fullName: neo_bpsys_wpf.Models.Player.Member
-- uid: neo_bpsys_wpf.Models.Player.IsMemberValid*
-  commentId: Overload:neo_bpsys_wpf.Models.Player.IsMemberValid
-  href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_IsMemberValid
-  name: IsMemberValid
-  nameWithType: Player.IsMemberValid
-  fullName: neo_bpsys_wpf.Models.Player.IsMemberValid
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: neo_bpsys_wpf.Models.Player.Character*
   commentId: Overload:neo_bpsys_wpf.Models.Player.Character
   href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Character

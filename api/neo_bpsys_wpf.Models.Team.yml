@@ -7,23 +7,23 @@ items:
   children:
   - neo_bpsys_wpf.Models.Team.#ctor
   - neo_bpsys_wpf.Models.Team.#ctor(neo_bpsys_wpf.Enums.Camp)
-  - neo_bpsys_wpf.Models.Team.AddMemberInPlayer(neo_bpsys_wpf.Models.Member)
   - neo_bpsys_wpf.Models.Team.Camp
-  - neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer(neo_bpsys_wpf.Enums.Camp)
+  - neo_bpsys_wpf.Models.Team.CanMemberOnField(neo_bpsys_wpf.Enums.Camp)
   - neo_bpsys_wpf.Models.Team.GlobalBannedHunList
   - neo_bpsys_wpf.Models.Team.GlobalBannedHunRecordArray
   - neo_bpsys_wpf.Models.Team.GlobalBannedSurList
   - neo_bpsys_wpf.Models.Team.GlobalBannedSurRecordArray
   - neo_bpsys_wpf.Models.Team.HunMemberList
-  - neo_bpsys_wpf.Models.Team.HunPlayerOnField
+  - neo_bpsys_wpf.Models.Team.HunMemberOnField
   - neo_bpsys_wpf.Models.Team.ImageUri
   - neo_bpsys_wpf.Models.Team.ImportTeamInfo(neo_bpsys_wpf.Models.Team)
   - neo_bpsys_wpf.Models.Team.Logo
+  - neo_bpsys_wpf.Models.Team.MemberOffField(neo_bpsys_wpf.Models.Member)
+  - neo_bpsys_wpf.Models.Team.MemberOnField(neo_bpsys_wpf.Models.Member)
   - neo_bpsys_wpf.Models.Team.Name
-  - neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer(neo_bpsys_wpf.Models.Member)
   - neo_bpsys_wpf.Models.Team.Score
   - neo_bpsys_wpf.Models.Team.SurMemberList
-  - neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
+  - neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
   langs:
   - csharp
   - vb
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -92,7 +92,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Name
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -121,7 +121,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBannedSurRecordArray
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -179,7 +179,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBannedHunRecordArray
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -240,7 +240,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImportTeamInfo
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -258,32 +258,32 @@ items:
       description: ''
     content.vb: Public Sub ImportTeamInfo(newTeam As Team)
   overload: neo_bpsys_wpf.Models.Team.ImportTeamInfo*
-- uid: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer(neo_bpsys_wpf.Enums.Camp)
-  commentId: M:neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer(neo_bpsys_wpf.Enums.Camp)
-  id: CanAddMemberInPlayer(neo_bpsys_wpf.Enums.Camp)
+- uid: neo_bpsys_wpf.Models.Team.CanMemberOnField(neo_bpsys_wpf.Enums.Camp)
+  commentId: M:neo_bpsys_wpf.Models.Team.CanMemberOnField(neo_bpsys_wpf.Enums.Camp)
+  id: CanMemberOnField(neo_bpsys_wpf.Enums.Camp)
   parent: neo_bpsys_wpf.Models.Team
   langs:
   - csharp
   - vb
-  name: CanAddMemberInPlayer(Camp)
-  nameWithType: Team.CanAddMemberInPlayer(Camp)
-  fullName: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer(neo_bpsys_wpf.Enums.Camp)
+  name: CanMemberOnField(Camp)
+  nameWithType: Team.CanMemberOnField(Camp)
+  fullName: neo_bpsys_wpf.Models.Team.CanMemberOnField(neo_bpsys_wpf.Enums.Camp)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: CanAddMemberInPlayer
+    id: CanMemberOnField
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 144
+    startLine: 147
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   summary: Check can let new member on field
   example: []
   syntax:
-    content: public bool CanAddMemberInPlayer(Camp camp)
+    content: public bool CanMemberOnField(Camp camp)
     parameters:
     - id: camp
       type: neo_bpsys_wpf.Enums.Camp
@@ -291,34 +291,34 @@ items:
     return:
       type: System.Boolean
       description: ''
-    content.vb: Public Function CanAddMemberInPlayer(camp As Camp) As Boolean
-  overload: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer*
-- uid: neo_bpsys_wpf.Models.Team.AddMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  commentId: M:neo_bpsys_wpf.Models.Team.AddMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  id: AddMemberInPlayer(neo_bpsys_wpf.Models.Member)
+    content.vb: Public Function CanMemberOnField(camp As Camp) As Boolean
+  overload: neo_bpsys_wpf.Models.Team.CanMemberOnField*
+- uid: neo_bpsys_wpf.Models.Team.MemberOnField(neo_bpsys_wpf.Models.Member)
+  commentId: M:neo_bpsys_wpf.Models.Team.MemberOnField(neo_bpsys_wpf.Models.Member)
+  id: MemberOnField(neo_bpsys_wpf.Models.Member)
   parent: neo_bpsys_wpf.Models.Team
   langs:
   - csharp
   - vb
-  name: AddMemberInPlayer(Member)
-  nameWithType: Team.AddMemberInPlayer(Member)
-  fullName: neo_bpsys_wpf.Models.Team.AddMemberInPlayer(neo_bpsys_wpf.Models.Member)
+  name: MemberOnField(Member)
+  nameWithType: Team.MemberOnField(Member)
+  fullName: neo_bpsys_wpf.Models.Team.MemberOnField(neo_bpsys_wpf.Models.Member)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: AddMemberInPlayer
+    id: MemberOnField
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 159
+    startLine: 162
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   summary: Add let a member on field
   example: []
   syntax:
-    content: public bool AddMemberInPlayer(Member member)
+    content: public bool MemberOnField(Member member)
     parameters:
     - id: member
       type: neo_bpsys_wpf.Models.Member
@@ -326,40 +326,40 @@ items:
     return:
       type: System.Boolean
       description: ''
-    content.vb: Public Function AddMemberInPlayer(member As Member) As Boolean
-  overload: neo_bpsys_wpf.Models.Team.AddMemberInPlayer*
-- uid: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  commentId: M:neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  id: RemoveMemberInPlayer(neo_bpsys_wpf.Models.Member)
+    content.vb: Public Function MemberOnField(member As Member) As Boolean
+  overload: neo_bpsys_wpf.Models.Team.MemberOnField*
+- uid: neo_bpsys_wpf.Models.Team.MemberOffField(neo_bpsys_wpf.Models.Member)
+  commentId: M:neo_bpsys_wpf.Models.Team.MemberOffField(neo_bpsys_wpf.Models.Member)
+  id: MemberOffField(neo_bpsys_wpf.Models.Member)
   parent: neo_bpsys_wpf.Models.Team
   langs:
   - csharp
   - vb
-  name: RemoveMemberInPlayer(Member)
-  nameWithType: Team.RemoveMemberInPlayer(Member)
-  fullName: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer(neo_bpsys_wpf.Models.Member)
+  name: MemberOffField(Member)
+  nameWithType: Team.MemberOffField(Member)
+  fullName: neo_bpsys_wpf.Models.Team.MemberOffField(neo_bpsys_wpf.Models.Member)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: RemoveMemberInPlayer
+    id: MemberOffField
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
-    startLine: 188
+    startLine: 190
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   summary: let a member off field
   example: []
   syntax:
-    content: public void RemoveMemberInPlayer(Member member)
+    content: public void MemberOffField(Member member)
     parameters:
     - id: member
       type: neo_bpsys_wpf.Models.Member
       description: ''
-    content.vb: Public Sub RemoveMemberInPlayer(member As Member)
-  overload: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer*
+    content.vb: Public Sub MemberOffField(member As Member)
+  overload: neo_bpsys_wpf.Models.Team.MemberOffField*
 - uid: neo_bpsys_wpf.Models.Team.Camp
   commentId: P:neo_bpsys_wpf.Models.Team.Camp
   id: Camp
@@ -526,19 +526,19 @@ items:
       type: System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Models.Character}
     content.vb: Public Property GlobalBannedHunList As ObservableCollection(Of Character)
   overload: neo_bpsys_wpf.Models.Team.GlobalBannedHunList*
-- uid: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
-  commentId: P:neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
-  id: SurPlayerOnFieldList
+- uid: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
+  commentId: P:neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
+  id: SurMemberOnFieldList
   parent: neo_bpsys_wpf.Models.Team
   langs:
   - csharp
   - vb
-  name: SurPlayerOnFieldList
-  nameWithType: Team.SurPlayerOnFieldList
-  fullName: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
+  name: SurMemberOnFieldList
+  nameWithType: Team.SurMemberOnFieldList
+  fullName: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
   type: Property
   source:
-    id: SurPlayerOnFieldList
+    id: SurMemberOnFieldList
     path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Team.g.cs
     startLine: 140
   assemblies:
@@ -549,32 +549,32 @@ items:
     content: >-
       [JsonIgnore]
 
-      public ObservableCollection<Player> SurPlayerOnFieldList { get; set; }
+      public ObservableCollection<Member?> SurMemberOnFieldList { get; set; }
     parameters: []
     return:
-      type: System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Models.Player}
+      type: System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Models.Member}
     content.vb: >-
       <JsonIgnore>
 
-      Public Property SurPlayerOnFieldList As ObservableCollection(Of Player)
-  overload: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList*
+      Public Property SurMemberOnFieldList As ObservableCollection(Of Member)
+  overload: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList*
   attributes:
   - type: System.Text.Json.Serialization.JsonIgnoreAttribute
     ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
     arguments: []
-- uid: neo_bpsys_wpf.Models.Team.HunPlayerOnField
-  commentId: P:neo_bpsys_wpf.Models.Team.HunPlayerOnField
-  id: HunPlayerOnField
+- uid: neo_bpsys_wpf.Models.Team.HunMemberOnField
+  commentId: P:neo_bpsys_wpf.Models.Team.HunMemberOnField
+  id: HunMemberOnField
   parent: neo_bpsys_wpf.Models.Team
   langs:
   - csharp
   - vb
-  name: HunPlayerOnField
-  nameWithType: Team.HunPlayerOnField
-  fullName: neo_bpsys_wpf.Models.Team.HunPlayerOnField
+  name: HunMemberOnField
+  nameWithType: Team.HunMemberOnField
+  fullName: neo_bpsys_wpf.Models.Team.HunMemberOnField
   type: Property
   source:
-    id: HunPlayerOnField
+    id: HunMemberOnField
     path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Team.g.cs
     startLine: 163
   assemblies:
@@ -585,15 +585,15 @@ items:
     content: >-
       [JsonIgnore]
 
-      public Player HunPlayerOnField { get; set; }
+      public Member? HunMemberOnField { get; set; }
     parameters: []
     return:
-      type: neo_bpsys_wpf.Models.Player
+      type: neo_bpsys_wpf.Models.Member
     content.vb: >-
       <JsonIgnore>
 
-      Public Property HunPlayerOnField As Player
-  overload: neo_bpsys_wpf.Models.Team.HunPlayerOnField*
+      Public Property HunMemberOnField As Member
+  overload: neo_bpsys_wpf.Models.Team.HunMemberOnField*
   attributes:
   - type: System.Text.Json.Serialization.JsonIgnoreAttribute
     ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
@@ -612,7 +612,7 @@ items:
   source:
     id: Score
     path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Team.g.cs
-    startLine: 186
+    startLine: 185
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -888,12 +888,12 @@ references:
   name: Team
   nameWithType: Team
   fullName: neo_bpsys_wpf.Models.Team
-- uid: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer*
-  commentId: Overload:neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer
-  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_CanAddMemberInPlayer_neo_bpsys_wpf_Enums_Camp_
-  name: CanAddMemberInPlayer
-  nameWithType: Team.CanAddMemberInPlayer
-  fullName: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer
+- uid: neo_bpsys_wpf.Models.Team.CanMemberOnField*
+  commentId: Overload:neo_bpsys_wpf.Models.Team.CanMemberOnField
+  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_CanMemberOnField_neo_bpsys_wpf_Enums_Camp_
+  name: CanMemberOnField
+  nameWithType: Team.CanMemberOnField
+  fullName: neo_bpsys_wpf.Models.Team.CanMemberOnField
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -905,12 +905,12 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: neo_bpsys_wpf.Models.Team.AddMemberInPlayer*
-  commentId: Overload:neo_bpsys_wpf.Models.Team.AddMemberInPlayer
-  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_AddMemberInPlayer_neo_bpsys_wpf_Models_Member_
-  name: AddMemberInPlayer
-  nameWithType: Team.AddMemberInPlayer
-  fullName: neo_bpsys_wpf.Models.Team.AddMemberInPlayer
+- uid: neo_bpsys_wpf.Models.Team.MemberOnField*
+  commentId: Overload:neo_bpsys_wpf.Models.Team.MemberOnField
+  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_MemberOnField_neo_bpsys_wpf_Models_Member_
+  name: MemberOnField
+  nameWithType: Team.MemberOnField
+  fullName: neo_bpsys_wpf.Models.Team.MemberOnField
 - uid: neo_bpsys_wpf.Models.Member
   commentId: T:neo_bpsys_wpf.Models.Member
   parent: neo_bpsys_wpf.Models
@@ -918,12 +918,12 @@ references:
   name: Member
   nameWithType: Member
   fullName: neo_bpsys_wpf.Models.Member
-- uid: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer*
-  commentId: Overload:neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer
-  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_RemoveMemberInPlayer_neo_bpsys_wpf_Models_Member_
-  name: RemoveMemberInPlayer
-  nameWithType: Team.RemoveMemberInPlayer
-  fullName: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer
+- uid: neo_bpsys_wpf.Models.Team.MemberOffField*
+  commentId: Overload:neo_bpsys_wpf.Models.Team.MemberOffField
+  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_MemberOffField_neo_bpsys_wpf_Models_Member_
+  name: MemberOffField
+  nameWithType: Team.MemberOffField
+  fullName: neo_bpsys_wpf.Models.Team.MemberOffField
 - uid: neo_bpsys_wpf.Models.Team.Camp*
   commentId: Overload:neo_bpsys_wpf.Models.Team.Camp
   href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_Camp
@@ -1135,58 +1135,18 @@ references:
   name: GlobalBannedHunList
   nameWithType: Team.GlobalBannedHunList
   fullName: neo_bpsys_wpf.Models.Team.GlobalBannedHunList
-- uid: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList*
-  commentId: Overload:neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
-  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_SurPlayerOnFieldList
-  name: SurPlayerOnFieldList
-  nameWithType: Team.SurPlayerOnFieldList
-  fullName: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
-- uid: System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Models.Player}
-  commentId: T:System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Models.Player}
-  parent: System.Collections.ObjectModel
-  definition: System.Collections.ObjectModel.ObservableCollection`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
-  name: ObservableCollection<Player>
-  nameWithType: ObservableCollection<Player>
-  fullName: System.Collections.ObjectModel.ObservableCollection<neo_bpsys_wpf.Models.Player>
-  nameWithType.vb: ObservableCollection(Of Player)
-  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of neo_bpsys_wpf.Models.Player)
-  name.vb: ObservableCollection(Of Player)
-  spec.csharp:
-  - uid: System.Collections.ObjectModel.ObservableCollection`1
-    name: ObservableCollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
-  - name: <
-  - uid: neo_bpsys_wpf.Models.Player
-    name: Player
-    href: neo_bpsys_wpf.Models.Player.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.ObjectModel.ObservableCollection`1
-    name: ObservableCollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: neo_bpsys_wpf.Models.Player
-    name: Player
-    href: neo_bpsys_wpf.Models.Player.html
-  - name: )
-- uid: neo_bpsys_wpf.Models.Team.HunPlayerOnField*
-  commentId: Overload:neo_bpsys_wpf.Models.Team.HunPlayerOnField
-  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_HunPlayerOnField
-  name: HunPlayerOnField
-  nameWithType: Team.HunPlayerOnField
-  fullName: neo_bpsys_wpf.Models.Team.HunPlayerOnField
-- uid: neo_bpsys_wpf.Models.Player
-  commentId: T:neo_bpsys_wpf.Models.Player
-  parent: neo_bpsys_wpf.Models
-  href: neo_bpsys_wpf.Models.Player.html
-  name: Player
-  nameWithType: Player
-  fullName: neo_bpsys_wpf.Models.Player
+- uid: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList*
+  commentId: Overload:neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
+  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_SurMemberOnFieldList
+  name: SurMemberOnFieldList
+  nameWithType: Team.SurMemberOnFieldList
+  fullName: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
+- uid: neo_bpsys_wpf.Models.Team.HunMemberOnField*
+  commentId: Overload:neo_bpsys_wpf.Models.Team.HunMemberOnField
+  href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_HunMemberOnField
+  name: HunMemberOnField
+  nameWithType: Team.HunMemberOnField
+  fullName: neo_bpsys_wpf.Models.Team.HunMemberOnField
 - uid: neo_bpsys_wpf.Models.Team.Score*
   commentId: Overload:neo_bpsys_wpf.Models.Team.Score
   href: neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_Score

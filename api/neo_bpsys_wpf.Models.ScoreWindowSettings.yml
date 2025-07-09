@@ -6,6 +6,7 @@ items:
   parent: neo_bpsys_wpf.Models
   children:
   - neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUri
+  - neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
   - neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   - neo_bpsys_wpf.Models.ScoreWindowSettings.HunScoreBgImageUri
   - neo_bpsys_wpf.Models.ScoreWindowSettings.Resolution
@@ -21,7 +22,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -50,7 +51,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Resolution
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -79,7 +80,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurScoreBgImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -108,7 +109,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunScoreBgImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -137,7 +138,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalScoreBgImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -152,6 +153,35 @@ items:
       type: System.String
     content.vb: Public Property GlobalScoreBgImageUri As String
   overload: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUri*
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  commentId: P:neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  id: GlobalScoreBgImageUriBo3
+  parent: neo_bpsys_wpf.Models.ScoreWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: GlobalScoreBgImageUriBo3
+  nameWithType: ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GlobalScoreBgImageUriBo3
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 140
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public string? GlobalScoreBgImageUriBo3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GlobalScoreBgImageUriBo3 As String
+  overload: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3*
 - uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   commentId: P:neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   id: GlobalScoreTotalMargin
@@ -166,11 +196,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalScoreTotalMargin
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 140
+    startLine: 141
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -195,11 +225,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TextSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 141
+    startLine: 142
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -292,6 +322,12 @@ references:
   name: GlobalScoreBgImageUri
   nameWithType: ScoreWindowSettings.GlobalScoreBgImageUri
   fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUri
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3*
+  commentId: Overload:neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  href: neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_GlobalScoreBgImageUriBo3
+  name: GlobalScoreBgImageUriBo3
+  nameWithType: ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
 - uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin*
   commentId: Overload:neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   href: neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_GlobalScoreTotalMargin

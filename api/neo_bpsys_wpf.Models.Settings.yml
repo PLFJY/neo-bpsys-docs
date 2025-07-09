@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -47,7 +47,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BpWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CutSceneWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -105,7 +105,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -163,7 +163,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WidgetsWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs

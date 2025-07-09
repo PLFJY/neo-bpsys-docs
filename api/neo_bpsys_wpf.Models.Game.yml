@@ -16,7 +16,8 @@ items:
   - neo_bpsys_wpf.Models.Game.HunTeam
   - neo_bpsys_wpf.Models.Game.PickedMap
   - neo_bpsys_wpf.Models.Game.PickedMapImage
-  - neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
+  - neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  - neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
   - neo_bpsys_wpf.Models.Game.StartTime
   - neo_bpsys_wpf.Models.Game.SurPlayerList
   - neo_bpsys_wpf.Models.Game.SurTeam
@@ -37,11 +38,12 @@ items:
   summary: 对局类, 创建需要导入 <xref href="neo_bpsys_wpf.Models.Game.SurTeam" data-throw-if-not-resolved="false"></xref> 和 <xref href="neo_bpsys_wpf.Models.Game.HunTeam" data-throw-if-not-resolved="false"></xref> 两支队伍以及对局进度
   example: []
   syntax:
-    content: 'public class Game : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging'
-    content.vb: Public Class Game Inherits ObservableObject Implements INotifyPropertyChanged, INotifyPropertyChanging
+    content: 'public class Game : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging'
+    content.vb: Public Class Game Inherits ObservableRecipient Implements INotifyPropertyChanged, INotifyPropertyChanging
   inheritance:
   - System.Object
   - CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  - CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
   implements:
   - System.ComponentModel.INotifyPropertyChanged
   - System.ComponentModel.INotifyPropertyChanging
@@ -59,11 +61,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Guid
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -88,11 +90,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StartTime
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 16
+    startLine: 18
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -117,11 +119,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickedMap
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 29
+    startLine: 28
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -146,11 +148,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BannedMap
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 43
+    startLine: 42
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -175,11 +177,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 74
+    startLine: 67
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -197,34 +199,70 @@ items:
   nameWithType.vb: Game.New(Team, Team, GameProgress)
   fullName.vb: neo_bpsys_wpf.Models.Game.New(neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Enums.GameProgress)
   name.vb: New(Team, Team, GameProgress)
-- uid: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
-  commentId: M:neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
-  id: RefreshCurrentPlayer
+- uid: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
   parent: neo_bpsys_wpf.Models.Game
   langs:
   - csharp
   - vb
-  name: RefreshCurrentPlayer()
-  nameWithType: Game.RefreshCurrentPlayer()
-  fullName: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer()
+  name: Receive(MemberOnFieldChangedMessage)
+  nameWithType: Game.Receive(MemberOnFieldChangedMessage)
+  fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: RefreshCurrentPlayer
+    id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 106
+    startLine: 102
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
-  summary: 刷新当前上场选手列表
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
   example: []
   syntax:
-    content: public void RefreshCurrentPlayer()
-    content.vb: Public Sub RefreshCurrentPlayer()
-  overload: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer*
+    content: public void Receive(MemberOnFieldChangedMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+      description: The message being received.
+    content.vb: Public Sub Receive(message As MemberOnFieldChangedMessage)
+  overload: neo_bpsys_wpf.Models.Game.Receive*
+- uid: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  id: Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  parent: neo_bpsys_wpf.Models.Game
+  langs:
+  - csharp
+  - vb
+  name: Receive(SwapMessage)
+  nameWithType: Game.Receive(SwapMessage)
+  fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Game.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
+    startLine: 104
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.SwapMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public void Receive(SwapMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.SwapMessage
+      description: The message being received.
+    content.vb: Public Sub Receive(message As SwapMessage)
+  overload: neo_bpsys_wpf.Models.Game.Receive*
 - uid: neo_bpsys_wpf.Models.Game.SurTeam
   commentId: P:neo_bpsys_wpf.Models.Game.SurTeam
   id: SurTeam
@@ -492,6 +530,19 @@ references:
   name: HunTeam
   nameWithType: Game.HunTeam
   fullName: neo_bpsys_wpf.Models.Game.HunTeam
+- uid: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  commentId: T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  parent: CommunityToolkit.Mvvm.ComponentModel
+  isExternal: true
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+- uid: CommunityToolkit.Mvvm.Messaging.IMessenger
+  commentId: T:CommunityToolkit.Mvvm.Messaging.IMessenger
+  isExternal: true
+  name: IMessenger
+  nameWithType: IMessenger
+  fullName: CommunityToolkit.Mvvm.Messaging.IMessenger
 - uid: neo_bpsys_wpf.Models
   commentId: N:neo_bpsys_wpf.Models
   href: neo_bpsys_wpf.html
@@ -524,13 +575,13 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
-  commentId: T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+- uid: CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
+  commentId: T:CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
   parent: CommunityToolkit.Mvvm.ComponentModel
   isExternal: true
-  name: ObservableObject
-  nameWithType: ObservableObject
-  fullName: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  name: ObservableRecipient
+  nameWithType: ObservableRecipient
+  fullName: CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
 - uid: System.ComponentModel.INotifyPropertyChanged
   commentId: T:System.ComponentModel.INotifyPropertyChanged
   parent: System.ComponentModel
@@ -547,13 +598,6 @@ references:
   name: INotifyPropertyChanging
   nameWithType: INotifyPropertyChanging
   fullName: System.ComponentModel.INotifyPropertyChanging
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: CommunityToolkit.Mvvm.ComponentModel
   commentId: N:CommunityToolkit.Mvvm.ComponentModel
   isExternal: true
@@ -591,6 +635,13 @@ references:
     name: ComponentModel
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.ComponentModel
   commentId: N:System.ComponentModel
   isExternal: true
@@ -752,12 +803,48 @@ references:
   - uid: neo_bpsys_wpf.Enums
     name: Enums
     href: neo_bpsys_wpf.Enums.html
-- uid: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer*
-  commentId: Overload:neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
-  href: neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_RefreshCurrentPlayer
-  name: RefreshCurrentPlayer
-  nameWithType: Game.RefreshCurrentPlayer
-  fullName: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
+- uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html
+  name: MemberOnFieldChangedMessage
+  nameWithType: MemberOnFieldChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+- uid: neo_bpsys_wpf.Models.Game.Receive*
+  commentId: Overload:neo_bpsys_wpf.Models.Game.Receive
+  href: neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_Receive_neo_bpsys_wpf_Messages_MemberOnFieldChangedMessage_
+  name: Receive
+  nameWithType: Game.Receive
+  fullName: neo_bpsys_wpf.Models.Game.Receive
+- uid: neo_bpsys_wpf.Messages
+  commentId: N:neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Messages
+  nameWithType: neo_bpsys_wpf.Messages
+  fullName: neo_bpsys_wpf.Messages
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Messages
+    name: Messages
+    href: neo_bpsys_wpf.Messages.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Messages
+    name: Messages
+    href: neo_bpsys_wpf.Messages.html
+- uid: neo_bpsys_wpf.Messages.SwapMessage
+  commentId: T:neo_bpsys_wpf.Messages.SwapMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.SwapMessage.html
+  name: SwapMessage
+  nameWithType: SwapMessage
+  fullName: neo_bpsys_wpf.Messages.SwapMessage
 - uid: neo_bpsys_wpf.Models.Game.SurTeam*
   commentId: Overload:neo_bpsys_wpf.Models.Game.SurTeam
   href: neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_SurTeam

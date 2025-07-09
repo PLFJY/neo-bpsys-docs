@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/MapBpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MapBpWindowViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/MapBpWindowViewModel.cs
@@ -49,7 +49,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/MapBpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/MapBpWindowViewModel.cs
@@ -78,7 +78,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/MapBpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/MapBpWindowViewModel.cs

@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Camp.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Camp
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Camp.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Camp.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Sur
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Camp.cs
@@ -80,7 +80,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Camp.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Hun
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Camp.cs

@@ -9,7 +9,7 @@ items:
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Enums.GameAction})
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.PlayerName
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.CharacterSwappedMessage)
-  - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SwapCharacterInPlayersCommand
@@ -78,11 +78,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PlayerName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 149
+    startLine: 151
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -107,11 +107,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 151
+    startLine: 153
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -143,11 +143,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 158
+    startLine: 160
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -171,11 +171,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 184
+    startLine: 186
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -203,11 +203,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncIsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 189
+    startLine: 191
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -231,11 +231,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsActionNameCorrect
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 194
+    startLine: 196
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -264,11 +264,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 196
+    startLine: 198
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -282,37 +282,37 @@ items:
       description: The message being received.
     content.vb: Public Sub Receive(message As PlayerSwappedMessage)
   overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive*
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  id: Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   parent: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel
   langs:
   - csharp
   - vb
-  name: Receive(MemberStateChangedMessage)
-  nameWithType: PickPageViewModel.SurPickViewModel.Receive(MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  nameWithType: PickPageViewModel.SurPickViewModel.Receive(MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 201
+    startLine: 203
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberStateChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberPropertyChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
   example: []
   syntax:
-    content: public void Receive(MemberStateChangedMessage message)
+    content: public void Receive(MemberPropertyChangedMessage message)
     parameters:
     - id: message
-      type: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+      type: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
       description: The message being received.
-    content.vb: Public Sub Receive(message As MemberStateChangedMessage)
+    content.vb: Public Sub Receive(message As MemberPropertyChangedMessage)
   overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive*
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
@@ -328,11 +328,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 206
+    startLine: 208
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -959,13 +959,13 @@ references:
   name: PlayerSwappedMessage
   nameWithType: PlayerSwappedMessage
   fullName: neo_bpsys_wpf.Messages.PlayerSwappedMessage
-- uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
-  commentId: T:neo_bpsys_wpf.Messages.MemberStateChangedMessage
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
   parent: neo_bpsys_wpf.Messages
-  href: neo_bpsys_wpf.Messages.MemberStateChangedMessage.html
-  name: MemberStateChangedMessage
-  nameWithType: MemberStateChangedMessage
-  fullName: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  href: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html
+  name: MemberPropertyChangedMessage
+  nameWithType: MemberPropertyChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
 - uid: neo_bpsys_wpf.Messages.SwapMessage
   commentId: T:neo_bpsys_wpf.Messages.SwapMessage
   parent: neo_bpsys_wpf.Messages

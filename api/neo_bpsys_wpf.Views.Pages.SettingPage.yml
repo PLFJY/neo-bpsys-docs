@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/SettingPage.g.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SettingPage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/SettingPage.g.cs
-    startLine: 46
+    startLine: 47
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Pages
@@ -54,11 +54,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Pages/SettingPage.xaml.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Pages/SettingPage.xaml.cs
-    startLine: 11
+    startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Pages
@@ -86,11 +86,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/SettingPage.g.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Pages/SettingPage.g.cs
-    startLine: 93
+    startLine: 94
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Pages

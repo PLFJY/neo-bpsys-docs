@@ -81,7 +81,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SharedDataService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Index
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharaList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -195,7 +195,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -221,7 +221,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncIsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -247,7 +247,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsActionNameCorrect
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -278,7 +278,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -312,7 +312,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -344,7 +344,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -376,7 +376,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs

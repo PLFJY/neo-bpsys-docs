@@ -148,6 +148,9 @@ items:
   - uid: neo_bpsys_wpf.Enums.Camp
     name: Camp
     type: Enum
+  - uid: neo_bpsys_wpf.Enums.FrontWindowType
+    name: FrontWindowType
+    type: Enum
   - uid: neo_bpsys_wpf.Enums.GameAction
     name: GameAction
     type: Enum
@@ -162,6 +165,9 @@ items:
     type: Enum
   - uid: neo_bpsys_wpf.Enums.Map
     name: Map
+    type: Enum
+  - uid: neo_bpsys_wpf.Enums.TeamType
+    name: TeamType
     type: Enum
   - uid: neo_bpsys_wpf.Enums.Trait
     name: Trait
@@ -199,8 +205,11 @@ items:
   - uid: neo_bpsys_wpf.Messages.HighlightMessage
     name: HighlightMessage
     type: Class
-  - uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
-    name: MemberStateChangedMessage
+  - uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+    name: MemberOnFieldChangedMessage
+    type: Class
+  - uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+    name: MemberPropertyChangedMessage
     type: Class
   - uid: neo_bpsys_wpf.Messages.NewGameMessage
     name: NewGameMessage

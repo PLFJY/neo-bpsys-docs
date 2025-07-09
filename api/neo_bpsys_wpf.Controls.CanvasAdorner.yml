@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CanvasAdorner.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanvasAdorner
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CanvasAdorner.cs
@@ -56,7 +56,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CanvasAdorner.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CanvasAdorner.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CanvasAdorner.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetVisualChild
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CanvasAdorner.cs
@@ -127,7 +127,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CanvasAdorner.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: VisualChildrenCount
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CanvasAdorner.cs
@@ -160,7 +160,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CanvasAdorner.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ArrangeOverride
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CanvasAdorner.cs

@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Enums.FrontWindowType
+  commentId: T:neo_bpsys_wpf.Enums.FrontWindowType
+  id: FrontWindowType
+  parent: neo_bpsys_wpf.Enums
+  children:
+  - neo_bpsys_wpf.Enums.FrontWindowType.BpWindow
+  - neo_bpsys_wpf.Enums.FrontWindowType.CutSceneWindow
+  - neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
+  - neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  - neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
+  langs:
+  - csharp
+  - vb
+  name: FrontWindowType
+  nameWithType: FrontWindowType
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType
+  type: Enum
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/WindowType.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: FrontWindowType
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
+    startLine: 5
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  summary: 前台窗口类型枚举
+  example: []
+  syntax:
+    content: public enum FrontWindowType
+    content.vb: Public Enum FrontWindowType
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.BpWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.BpWindow
+  id: BpWindow
+  parent: neo_bpsys_wpf.Enums.FrontWindowType
+  langs:
+  - csharp
+  - vb
+  name: BpWindow
+  nameWithType: FrontWindowType.BpWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.BpWindow
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/WindowType.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BpWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
+    startLine: 7
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: BpWindow = 0
+    return:
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.CutSceneWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.CutSceneWindow
+  id: CutSceneWindow
+  parent: neo_bpsys_wpf.Enums.FrontWindowType
+  langs:
+  - csharp
+  - vb
+  name: CutSceneWindow
+  nameWithType: FrontWindowType.CutSceneWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.CutSceneWindow
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/WindowType.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CutSceneWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
+    startLine: 8
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: CutSceneWindow = 1
+    return:
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  id: ScoreWindow
+  parent: neo_bpsys_wpf.Enums.FrontWindowType
+  langs:
+  - csharp
+  - vb
+  name: ScoreWindow
+  nameWithType: FrontWindowType.ScoreWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/WindowType.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ScoreWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: ScoreWindow = 2
+    return:
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
+  id: GameDataWindow
+  parent: neo_bpsys_wpf.Enums.FrontWindowType
+  langs:
+  - csharp
+  - vb
+  name: GameDataWindow
+  nameWithType: FrontWindowType.GameDataWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/WindowType.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GameDataWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
+    startLine: 10
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: GameDataWindow = 3
+    return:
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
+  id: WidgetsWindow
+  parent: neo_bpsys_wpf.Enums.FrontWindowType
+  langs:
+  - csharp
+  - vb
+  name: WidgetsWindow
+  nameWithType: FrontWindowType.WidgetsWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/WindowType.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: WidgetsWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
+    startLine: 11
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: WidgetsWindow = 4
+    return:
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+references:
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Enums.FrontWindowType
+  commentId: T:neo_bpsys_wpf.Enums.FrontWindowType
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.FrontWindowType.html
+  name: FrontWindowType
+  nameWithType: FrontWindowType
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType

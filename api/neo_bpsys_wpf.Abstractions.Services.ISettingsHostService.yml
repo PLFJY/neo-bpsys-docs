@@ -7,7 +7,7 @@ items:
   children:
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.LoadConfig
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
-  - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
+  - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.SaveConfig
   - neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.Settings
   langs:
@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ISettingsHostService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 7
+    startLine: 8
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -47,11 +47,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -78,11 +78,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 16
+    startLine: 17
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -106,11 +106,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: LoadConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 20
+    startLine: 21
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -134,11 +134,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 24
+    startLine: 25
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -148,34 +148,37 @@ items:
     content: void ResetConfig()
     content.vb: Sub ResetConfig()
   overload: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig*
-- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
-  id: ResetConfig(System.Type)
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
+  id: ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
   parent: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
   langs:
   - csharp
   - vb
-  name: ResetConfig(Type)
-  nameWithType: ISettingsHostService.ResetConfig(Type)
-  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
+  name: ResetConfig(FrontWindowType)
+  nameWithType: ISettingsHostService.ResetConfig(FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ISettingsHostService.cs
-    startLine: 25
+    startLine: 30
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 重置指定窗口的配置
+  example: []
   syntax:
-    content: void ResetConfig(Type type)
+    content: void ResetConfig(FrontWindowType windowType)
     parameters:
-    - id: type
-      type: System.Type
-    content.vb: Sub ResetConfig(type As Type)
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    content.vb: Sub ResetConfig(windowType As FrontWindowType)
   overload: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig*
 references:
 - uid: neo_bpsys_wpf.Abstractions.Services
@@ -261,18 +264,32 @@ references:
   name: ResetConfig
   nameWithType: ISettingsHostService.ResetConfig
   fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
-- uid: System.Type
-  commentId: T:System.Type
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
+- uid: neo_bpsys_wpf.Enums.FrontWindowType
+  commentId: T:neo_bpsys_wpf.Enums.FrontWindowType
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.FrontWindowType.html
+  name: FrontWindowType
+  nameWithType: FrontWindowType
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html

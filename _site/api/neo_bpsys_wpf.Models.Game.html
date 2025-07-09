@@ -102,7 +102,7 @@ Class Game
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Game : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public class Game : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -113,6 +113,7 @@ Class Game
     <dd>
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableRecipient</span></div>
       <div><span class="xref">Game</span></div>
     </dd>
   </dl>
@@ -140,7 +141,7 @@ Class Game
 
   <h3 id="neo_bpsys_wpf_Models_Game__ctor_neo_bpsys_wpf_Models_Team_neo_bpsys_wpf_Models_Team_neo_bpsys_wpf_Enums_GameProgress_" data-uid="neo_bpsys_wpf.Models.Game.#ctor(neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Enums.GameProgress)">
   Game(Team, Team, GameProgress)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Models/Game.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/Models/Game.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -179,7 +180,7 @@ Class Game
 
   <h3 id="neo_bpsys_wpf_Models_Game_BannedMap" data-uid="neo_bpsys_wpf.Models.Game.BannedMap">
   BannedMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Models/Game.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/Models/Game.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -335,7 +336,7 @@ public ImageSource? BannedMapImage { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Models_Game_Guid" data-uid="neo_bpsys_wpf.Models.Game.Guid">
   Guid
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Models/Game.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/Models/Game.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -428,7 +429,7 @@ public ImageSource? BannedMapImage { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Models_Game_PickedMap" data-uid="neo_bpsys_wpf.Models.Game.PickedMap">
   PickedMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Models/Game.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/Models/Game.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -491,7 +492,7 @@ public ImageSource? PickedMapImage { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Models_Game_StartTime" data-uid="neo_bpsys_wpf.Models.Game.StartTime">
   StartTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Models/Game.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/Models/Game.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -584,21 +585,60 @@ public ImageSource? PickedMapImage { get; set; }</code></pre>
 </h2>
 
 
-  <a id="neo_bpsys_wpf_Models_Game_RefreshCurrentPlayer_" data-uid="neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer*"></a>
+  <a id="neo_bpsys_wpf_Models_Game_Receive_" data-uid="neo_bpsys_wpf.Models.Game.Receive*"></a>
 
-  <h3 id="neo_bpsys_wpf_Models_Game_RefreshCurrentPlayer" data-uid="neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer">
-  RefreshCurrentPlayer()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/DeepCustom/neo-bpsys-wpf/Models/Game.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Models_Game_Receive_neo_bpsys_wpf_Messages_MemberOnFieldChangedMessage_" data-uid="neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)">
+  Receive(MemberOnFieldChangedMessage)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/Models/Game.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>刷新当前上场选手列表</p>
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html">MemberOnFieldChangedMessage</a> message instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RefreshCurrentPlayer()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Receive(MemberOnFieldChangedMessage message)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html">MemberOnFieldChangedMessage</a></dt>
+    <dd><p>The message being received.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Models_Game_Receive_" data-uid="neo_bpsys_wpf.Models.Game.Receive*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_Game_Receive_neo_bpsys_wpf_Messages_SwapMessage_" data-uid="neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)">
+  Receive(SwapMessage)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/Models/Game.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.SwapMessage.html">SwapMessage</a> message instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Receive(SwapMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Messages.SwapMessage.html">SwapMessage</a></dt>
+    <dd><p>The message being received.</p>
+</dd>
+  </dl>
 
 
 

@@ -90,15 +90,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
   nameWithType: IFrontService.ApplyAllWindowsSettings
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type,System.Boolean)
-  name: ApplySettings(Type, bool)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_System_Type_System_Boolean_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type,System.Boolean)
-  name.vb: ApplySettings(Type, Boolean)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type, bool)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type, Boolean)
-  nameWithType: IFrontService.ApplySettings(Type, bool)
-  nameWithType.vb: IFrontService.ApplySettings(Type, Boolean)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: ApplySettings(FrontWindowType)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: IFrontService.ApplySettings(FrontWindowType)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*
   name: ApplySettings
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_
@@ -106,6 +103,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
   nameWithType: IFrontService.ApplySettings
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name: BreathingStart(FrontWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name.vb: BreathingStart(FrontWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  nameWithType: IFrontService.BreathingStart(FrontWindowType, string, int, string)
+  nameWithType.vb: IFrontService.BreathingStart(FrontWindowType, String, Integer, String)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*
   name: BreathingStart
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_
@@ -113,15 +119,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
   nameWithType: IFrontService.BreathingStart
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart``1(System.String,System.Int32,System.String)
-  name: BreathingStart<T>(string, int, string)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart__1_System_String_System_Int32_System_String_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart``1(System.String,System.Int32,System.String)
-  name.vb: BreathingStart(Of T)(String, Integer, String)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart<T>(string, int, string)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(Of T)(String, Integer, String)
-  nameWithType: IFrontService.BreathingStart<T>(string, int, string)
-  nameWithType.vb: IFrontService.BreathingStart(Of T)(String, Integer, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name: BreathingStop(FrontWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStop_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name.vb: BreathingStop(FrontWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  nameWithType: IFrontService.BreathingStop(FrontWindowType, string, int, string)
+  nameWithType.vb: IFrontService.BreathingStop(FrontWindowType, String, Integer, String)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop*
   name: BreathingStop
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStop_
@@ -129,15 +135,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop
   nameWithType: IFrontService.BreathingStop
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop``1(System.String,System.Int32,System.String)
-  name: BreathingStop<T>(string, int, string)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStop__1_System_String_System_Int32_System_String_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop``1(System.String,System.Int32,System.String)
-  name.vb: BreathingStop(Of T)(String, Integer, String)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop<T>(string, int, string)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(Of T)(String, Integer, String)
-  nameWithType: IFrontService.BreathingStop<T>(string, int, string)
-  nameWithType.vb: IFrontService.BreathingStop(Of T)(String, Integer, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name: FadeInAnimation(FrontWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeInAnimation_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name.vb: FadeInAnimation(FrontWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  nameWithType: IFrontService.FadeInAnimation(FrontWindowType, string, int, string)
+  nameWithType.vb: IFrontService.FadeInAnimation(FrontWindowType, String, Integer, String)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation*
   name: FadeInAnimation
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeInAnimation_
@@ -145,15 +151,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation
   nameWithType: IFrontService.FadeInAnimation
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation``1(System.String,System.Int32,System.String)
-  name: FadeInAnimation<T>(string, int, string)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeInAnimation__1_System_String_System_Int32_System_String_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation``1(System.String,System.Int32,System.String)
-  name.vb: FadeInAnimation(Of T)(String, Integer, String)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation<T>(string, int, string)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(Of T)(String, Integer, String)
-  nameWithType: IFrontService.FadeInAnimation<T>(string, int, string)
-  nameWithType.vb: IFrontService.FadeInAnimation(Of T)(String, Integer, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name: FadeOutAnimation(FrontWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeOutAnimation_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name.vb: FadeOutAnimation(FrontWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  nameWithType: IFrontService.FadeOutAnimation(FrontWindowType, string, int, string)
+  nameWithType.vb: IFrontService.FadeOutAnimation(FrontWindowType, String, Integer, String)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation*
   name: FadeOutAnimation
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeOutAnimation_
@@ -161,28 +167,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation
   nameWithType: IFrontService.FadeOutAnimation
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation``1(System.String,System.Int32,System.String)
-  name: FadeOutAnimation<T>(string, int, string)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeOutAnimation__1_System_String_System_Int32_System_String_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation``1(System.String,System.Int32,System.String)
-  name.vb: FadeOutAnimation(Of T)(String, Integer, String)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation<T>(string, int, string)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(Of T)(String, Integer, String)
-  nameWithType: IFrontService.FadeOutAnimation<T>(string, int, string)
-  nameWithType.vb: IFrontService.FadeOutAnimation(Of T)(String, Integer, String)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  name: FrontWindowStates
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FrontWindowStates
-  commentId: P:neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  nameWithType: IFrontService.FrontWindowStates
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates*
-  name: FrontWindowStates
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FrontWindowStates_
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  nameWithType: IFrontService.FrontWindowStates
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: HideWindow(FrontWindowType)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_HideWindow_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: IFrontService.HideWindow(FrontWindowType)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow*
   name: HideWindow
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_HideWindow_
@@ -190,31 +180,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow
   nameWithType: IFrontService.HideWindow
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow``1
-  name: HideWindow<T>()
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_HideWindow__1
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow``1
-  name.vb: HideWindow(Of T)()
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow<T>()
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(Of T)()
-  nameWithType: IFrontService.HideWindow<T>()
-  nameWithType.vb: IFrontService.HideWindow(Of T)()
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync*
-  name: LoadWindowElementsPositionOnStartupAsync
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_LoadWindowElementsPositionOnStartupAsync_
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync
-  nameWithType: IFrontService.LoadWindowElementsPositionOnStartupAsync
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync``1(System.String)
-  name: LoadWindowElementsPositionOnStartupAsync<T>(string)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_LoadWindowElementsPositionOnStartupAsync__1_System_String_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync``1(System.String)
-  name.vb: LoadWindowElementsPositionOnStartupAsync(Of T)(String)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync<T>(string)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync(Of T)(String)
-  nameWithType: IFrontService.LoadWindowElementsPositionOnStartupAsync<T>(string)
-  nameWithType.vb: IFrontService.LoadWindowElementsPositionOnStartupAsync(Of T)(String)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
   name: ResetGlobalScore()
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ResetGlobalScore
@@ -228,6 +193,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
   nameWithType: IFrontService.ResetGlobalScore
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  name: RestoreInitialPositions(FrontWindowType, string)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_RestoreInitialPositions_neo_bpsys_wpf_Enums_FrontWindowType_System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  name.vb: RestoreInitialPositions(FrontWindowType, String)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType, string)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType, String)
+  nameWithType: IFrontService.RestoreInitialPositions(FrontWindowType, string)
+  nameWithType.vb: IFrontService.RestoreInitialPositions(FrontWindowType, String)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions*
   name: RestoreInitialPositions
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_RestoreInitialPositions_
@@ -235,15 +209,28 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions
   nameWithType: IFrontService.RestoreInitialPositions
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions``1(System.String)
-  name: RestoreInitialPositions<T>(string)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_RestoreInitialPositions__1_System_String_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions``1(System.String)
-  name.vb: RestoreInitialPositions(Of T)(String)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions<T>(string)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(Of T)(String)
-  nameWithType: IFrontService.RestoreInitialPositions<T>(string)
-  nameWithType.vb: IFrontService.RestoreInitialPositions(Of T)(String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
+  name: SaveAllWindowElementsPosition()
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveAllWindowElementsPosition
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition()
+  nameWithType: IFrontService.SaveAllWindowElementsPosition()
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition*
+  name: SaveAllWindowElementsPosition
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveAllWindowElementsPosition_
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
+  nameWithType: IFrontService.SaveAllWindowElementsPosition
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  name: SaveWindowElementsPosition(FrontWindowType, string)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveWindowElementsPosition_neo_bpsys_wpf_Enums_FrontWindowType_System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  name.vb: SaveWindowElementsPosition(FrontWindowType, String)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType, string)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType, String)
+  nameWithType: IFrontService.SaveWindowElementsPosition(FrontWindowType, string)
+  nameWithType.vb: IFrontService.SaveWindowElementsPosition(FrontWindowType, String)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition*
   name: SaveWindowElementsPosition
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveWindowElementsPosition_
@@ -251,24 +238,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition
   nameWithType: IFrontService.SaveWindowElementsPosition
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition``1(System.String)
-  name: SaveWindowElementsPosition<T>(string)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveWindowElementsPosition__1_System_String_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition``1(System.String)
-  name.vb: SaveWindowElementsPosition(Of T)(String)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition<T>(string)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(Of T)(String)
-  nameWithType: IFrontService.SaveWindowElementsPosition<T>(string)
-  nameWithType.vb: IFrontService.SaveWindowElementsPosition(Of T)(String)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
-  name: SetGlobalScore(string, GameProgress, Camp, int)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScore_System_String_neo_bpsys_wpf_Enums_GameProgress_neo_bpsys_wpf_Enums_Camp_System_Int32_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
-  name.vb: SetGlobalScore(String, GameProgress, Camp, Integer)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(string, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, int)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(String, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, Integer)
-  nameWithType: IFrontService.SetGlobalScore(string, GameProgress, Camp, int)
-  nameWithType.vb: IFrontService.SetGlobalScore(String, GameProgress, Camp, Integer)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
+  name: SetGlobalScore(TeamType, GameProgress, Camp, int)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScore_neo_bpsys_wpf_Enums_TeamType_neo_bpsys_wpf_Enums_GameProgress_neo_bpsys_wpf_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
+  name.vb: SetGlobalScore(TeamType, GameProgress, Camp, Integer)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, Integer)
+  nameWithType: IFrontService.SetGlobalScore(TeamType, GameProgress, Camp, int)
+  nameWithType.vb: IFrontService.SetGlobalScore(TeamType, GameProgress, Camp, Integer)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore*
   name: SetGlobalScore
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScore_
@@ -276,15 +254,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore
   nameWithType: IFrontService.SetGlobalScore
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)
-  name: SetGlobalScoreToBar(string, GameProgress)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScoreToBar_System_String_neo_bpsys_wpf_Enums_GameProgress_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)
-  name.vb: SetGlobalScoreToBar(String, GameProgress)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(string, neo_bpsys_wpf.Enums.GameProgress)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(String, neo_bpsys_wpf.Enums.GameProgress)
-  nameWithType: IFrontService.SetGlobalScoreToBar(string, GameProgress)
-  nameWithType.vb: IFrontService.SetGlobalScoreToBar(String, GameProgress)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)
+  name: SetGlobalScoreToBar(TeamType, GameProgress)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScoreToBar_neo_bpsys_wpf_Enums_TeamType_neo_bpsys_wpf_Enums_GameProgress_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress)
+  nameWithType: IFrontService.SetGlobalScoreToBar(TeamType, GameProgress)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar*
   name: SetGlobalScoreToBar
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScoreToBar_
@@ -292,6 +267,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar
   nameWithType: IFrontService.SetGlobalScoreToBar
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: ShowWindow(FrontWindowType)
+  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ShowWindow_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: IFrontService.ShowWindow(FrontWindowType)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow*
   name: ShowWindow
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ShowWindow_
@@ -299,15 +280,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow
   nameWithType: IFrontService.ShowWindow
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow``1
-  name: ShowWindow<T>()
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ShowWindow__1
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow``1
-  name.vb: ShowWindow(Of T)()
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow<T>()
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(Of T)()
-  nameWithType: IFrontService.ShowWindow<T>()
-  nameWithType.vb: IFrontService.ShowWindow(Of T)()
 - uid: neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService
   name: IGameGuidanceService
   href: api/neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService.html
@@ -618,12 +590,12 @@ references:
   commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig
   fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig()
   nameWithType: ISettingsHostService.ResetConfig()
-- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
-  name: ResetConfig(Type)
-  href: api/neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_ResetConfig_System_Type_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
-  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(System.Type)
-  nameWithType: ISettingsHostService.ResetConfig(Type)
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: ResetConfig(FrontWindowType)
+  href: api/neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_ResetConfig_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: ISettingsHostService.ResetConfig(FrontWindowType)
 - uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.ResetConfig*
   name: ResetConfig
   href: api/neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_ResetConfig_
@@ -896,12 +868,12 @@ references:
   commentId: T:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
   fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService
   nameWithType: ITextSettingsNavigationService
-- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
-  name: Close(Type)
-  href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Close_System_Type_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
-  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(System.Type)
-  nameWithType: ITextSettingsNavigationService.Close(Type)
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: Close(FrontWindowType)
+  href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Close_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: ITextSettingsNavigationService.Close(FrontWindowType)
 - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close*
   name: Close
   href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Close_
@@ -909,15 +881,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Close
   nameWithType: ITextSettingsNavigationService.Close
-- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
-  name: Navigate(Type, object)
-  href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate_System_Type_System_Object_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type,System.Object)
-  name.vb: Navigate(Type, Object)
-  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type, object)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(System.Type, Object)
-  nameWithType: ITextSettingsNavigationService.Navigate(Type, object)
-  nameWithType.vb: ITextSettingsNavigationService.Navigate(Type, Object)
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(neo_bpsys_wpf.Enums.FrontWindowType,System.Object)
+  name: Navigate(FrontWindowType, object)
+  href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate_neo_bpsys_wpf_Enums_FrontWindowType_System_Object_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(neo_bpsys_wpf.Enums.FrontWindowType,System.Object)
+  name.vb: Navigate(FrontWindowType, Object)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(neo_bpsys_wpf.Enums.FrontWindowType, object)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(neo_bpsys_wpf.Enums.FrontWindowType, Object)
+  nameWithType: ITextSettingsNavigationService.Navigate(FrontWindowType, object)
+  nameWithType.vb: ITextSettingsNavigationService.Navigate(FrontWindowType, Object)
 - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate*
   name: Navigate
   href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate_
@@ -925,21 +897,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate
   nameWithType: ITextSettingsNavigationService.Navigate
-- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
-  name: Navigate<T>(object)
-  href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_Navigate__1_System_Object_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate``1(System.Object)
-  name.vb: Navigate(Of T)(Object)
-  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate<T>(object)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.Navigate(Of T)(Object)
-  nameWithType: ITextSettingsNavigationService.Navigate<T>(object)
-  nameWithType.vb: ITextSettingsNavigationService.Navigate(Of T)(Object)
-- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
-  name: SetFrameControl(Type, Frame)
-  href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl_System_Type_System_Windows_Controls_Frame_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
-  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(System.Type, System.Windows.Controls.Frame)
-  nameWithType: ITextSettingsNavigationService.SetFrameControl(Type, Frame)
+- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(neo_bpsys_wpf.Enums.FrontWindowType,System.Windows.Controls.Frame)
+  name: SetFrameControl(FrontWindowType, Frame)
+  href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl_neo_bpsys_wpf_Enums_FrontWindowType_System_Windows_Controls_Frame_
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(neo_bpsys_wpf.Enums.FrontWindowType,System.Windows.Controls.Frame)
+  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(neo_bpsys_wpf.Enums.FrontWindowType, System.Windows.Controls.Frame)
+  nameWithType: ITextSettingsNavigationService.SetFrameControl(FrontWindowType, Frame)
 - uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl*
   name: SetFrameControl
   href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl_
@@ -947,15 +910,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl
   nameWithType: ITextSettingsNavigationService.SetFrameControl
-- uid: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
-  name: SetFrameControl<T>(Frame)
-  href: api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html#neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_SetFrameControl__1_System_Windows_Controls_Frame_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
-  name.vb: SetFrameControl(Of T)(Frame)
-  fullName: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl<T>(System.Windows.Controls.Frame)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.SetFrameControl(Of T)(System.Windows.Controls.Frame)
-  nameWithType: ITextSettingsNavigationService.SetFrameControl<T>(Frame)
-  nameWithType.vb: ITextSettingsNavigationService.SetFrameControl(Of T)(Frame)
 - uid: neo_bpsys_wpf.Abstractions.Services.IUpdaterService
   name: IUpdaterService
   href: api/neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html
@@ -3393,6 +3347,42 @@ references:
   commentId: F:neo_bpsys_wpf.Enums.Camp.Sur
   fullName: neo_bpsys_wpf.Enums.Camp.Sur
   nameWithType: Camp.Sur
+- uid: neo_bpsys_wpf.Enums.FrontWindowType
+  name: FrontWindowType
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html
+  commentId: T:neo_bpsys_wpf.Enums.FrontWindowType
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType
+  nameWithType: FrontWindowType
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.BpWindow
+  name: BpWindow
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_BpWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.BpWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.BpWindow
+  nameWithType: FrontWindowType.BpWindow
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.CutSceneWindow
+  name: CutSceneWindow
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_CutSceneWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.CutSceneWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.CutSceneWindow
+  nameWithType: FrontWindowType.CutSceneWindow
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
+  name: GameDataWindow
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_GameDataWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
+  nameWithType: FrontWindowType.GameDataWindow
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  name: ScoreWindow
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_ScoreWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  nameWithType: FrontWindowType.ScoreWindow
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
+  name: WidgetsWindow
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_WidgetsWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
+  nameWithType: FrontWindowType.WidgetsWindow
 - uid: neo_bpsys_wpf.Enums.GameAction
   name: GameAction
   href: api/neo_bpsys_wpf.Enums.GameAction.html
@@ -3753,6 +3743,24 @@ references:
   commentId: F:neo_bpsys_wpf.Enums.Map.里奥的回忆
   fullName: neo_bpsys_wpf.Enums.Map.里奥的回忆
   nameWithType: Map.里奥的回忆
+- uid: neo_bpsys_wpf.Enums.TeamType
+  name: TeamType
+  href: api/neo_bpsys_wpf.Enums.TeamType.html
+  commentId: T:neo_bpsys_wpf.Enums.TeamType
+  fullName: neo_bpsys_wpf.Enums.TeamType
+  nameWithType: TeamType
+- uid: neo_bpsys_wpf.Enums.TeamType.AwayTeam
+  name: AwayTeam
+  href: api/neo_bpsys_wpf.Enums.TeamType.html#neo_bpsys_wpf_Enums_TeamType_AwayTeam
+  commentId: F:neo_bpsys_wpf.Enums.TeamType.AwayTeam
+  fullName: neo_bpsys_wpf.Enums.TeamType.AwayTeam
+  nameWithType: TeamType.AwayTeam
+- uid: neo_bpsys_wpf.Enums.TeamType.MainTeam
+  name: MainTeam
+  href: api/neo_bpsys_wpf.Enums.TeamType.html#neo_bpsys_wpf_Enums_TeamType_MainTeam
+  commentId: F:neo_bpsys_wpf.Enums.TeamType.MainTeam
+  fullName: neo_bpsys_wpf.Enums.TeamType.MainTeam
+  nameWithType: TeamType.MainTeam
 - uid: neo_bpsys_wpf.Enums.Trait
   name: Trait
   href: api/neo_bpsys_wpf.Enums.Trait.html
@@ -4210,6 +4218,82 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Messages.HighlightMessage.Index
   nameWithType: HighlightMessage.Index
+- uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  name: MemberOnFieldChangedMessage
+  href: api/neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html
+  commentId: T:neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  nameWithType: MemberOnFieldChangedMessage
+- uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.#ctor(System.Object)
+  name: MemberOnFieldChangedMessage(object?)
+  href: api/neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html#neo_bpsys_wpf_Messages_MemberOnFieldChangedMessage__ctor_System_Object_
+  commentId: M:neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.#ctor(System.Object)
+  name.vb: New(Object)
+  fullName: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.MemberOnFieldChangedMessage(object?)
+  fullName.vb: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.New(Object)
+  nameWithType: MemberOnFieldChangedMessage.MemberOnFieldChangedMessage(object?)
+  nameWithType.vb: MemberOnFieldChangedMessage.New(Object)
+- uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.#ctor*
+  name: MemberOnFieldChangedMessage
+  href: api/neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html#neo_bpsys_wpf_Messages_MemberOnFieldChangedMessage__ctor_
+  commentId: Overload:neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.MemberOnFieldChangedMessage
+  fullName.vb: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.New
+  nameWithType: MemberOnFieldChangedMessage.MemberOnFieldChangedMessage
+  nameWithType.vb: MemberOnFieldChangedMessage.New
+- uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.Sender
+  name: Sender
+  href: api/neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html#neo_bpsys_wpf_Messages_MemberOnFieldChangedMessage_Sender
+  commentId: P:neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.Sender
+  fullName: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.Sender
+  nameWithType: MemberOnFieldChangedMessage.Sender
+- uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.Sender*
+  name: Sender
+  href: api/neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html#neo_bpsys_wpf_Messages_MemberOnFieldChangedMessage_Sender_
+  commentId: Overload:neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.Sender
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.Sender
+  nameWithType: MemberOnFieldChangedMessage.Sender
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  name: MemberPropertyChangedMessage
+  href: api/neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html
+  commentId: T:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  nameWithType: MemberPropertyChangedMessage
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.#ctor(System.Object)
+  name: MemberPropertyChangedMessage(object?)
+  href: api/neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html#neo_bpsys_wpf_Messages_MemberPropertyChangedMessage__ctor_System_Object_
+  commentId: M:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.#ctor(System.Object)
+  name.vb: New(Object)
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.MemberPropertyChangedMessage(object?)
+  fullName.vb: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.New(Object)
+  nameWithType: MemberPropertyChangedMessage.MemberPropertyChangedMessage(object?)
+  nameWithType.vb: MemberPropertyChangedMessage.New(Object)
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.#ctor*
+  name: MemberPropertyChangedMessage
+  href: api/neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html#neo_bpsys_wpf_Messages_MemberPropertyChangedMessage__ctor_
+  commentId: Overload:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.MemberPropertyChangedMessage
+  fullName.vb: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.New
+  nameWithType: MemberPropertyChangedMessage.MemberPropertyChangedMessage
+  nameWithType.vb: MemberPropertyChangedMessage.New
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.Sender
+  name: Sender
+  href: api/neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html#neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_Sender
+  commentId: P:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.Sender
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.Sender
+  nameWithType: MemberPropertyChangedMessage.Sender
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.Sender*
+  name: Sender
+  href: api/neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html#neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_Sender_
+  commentId: Overload:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.Sender
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.Sender
+  nameWithType: MemberPropertyChangedMessage.Sender
 - uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
   name: MemberStateChangedMessage
   href: api/neo_bpsys_wpf.Messages.MemberStateChangedMessage.html
@@ -5055,19 +5139,25 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Game.PickedMapImage
   nameWithType: Game.PickedMapImage
-- uid: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
-  name: RefreshCurrentPlayer()
-  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_RefreshCurrentPlayer
-  commentId: M:neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
-  fullName: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer()
-  nameWithType: Game.RefreshCurrentPlayer()
-- uid: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer*
-  name: RefreshCurrentPlayer
-  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_RefreshCurrentPlayer_
-  commentId: Overload:neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
+- uid: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  name: Receive(MemberOnFieldChangedMessage)
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_Receive_neo_bpsys_wpf_Messages_MemberOnFieldChangedMessage_
+  commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  nameWithType: Game.Receive(MemberOnFieldChangedMessage)
+- uid: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  name: Receive(SwapMessage)
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_Receive_neo_bpsys_wpf_Messages_SwapMessage_
+  commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  nameWithType: Game.Receive(SwapMessage)
+- uid: neo_bpsys_wpf.Models.Game.Receive*
+  name: Receive
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_Receive_
+  commentId: Overload:neo_bpsys_wpf.Models.Game.Receive
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Models.Game.RefreshCurrentPlayer
-  nameWithType: Game.RefreshCurrentPlayer
+  fullName: neo_bpsys_wpf.Models.Game.Receive
+  nameWithType: Game.Receive
 - uid: neo_bpsys_wpf.Models.Game.StartTime
   name: StartTime
   href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_StartTime
@@ -5268,15 +5358,6 @@ references:
   commentId: T:neo_bpsys_wpf.Models.Member
   fullName: neo_bpsys_wpf.Models.Member
   nameWithType: Member
-- uid: neo_bpsys_wpf.Models.Member.#ctor
-  name: Member()
-  href: api/neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member__ctor
-  commentId: M:neo_bpsys_wpf.Models.Member.#ctor
-  name.vb: New()
-  fullName: neo_bpsys_wpf.Models.Member.Member()
-  fullName.vb: neo_bpsys_wpf.Models.Member.New()
-  nameWithType: Member.Member()
-  nameWithType.vb: Member.New()
 - uid: neo_bpsys_wpf.Models.Member.#ctor(neo_bpsys_wpf.Enums.Camp)
   name: Member(Camp)
   href: api/neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member__ctor_neo_bpsys_wpf_Enums_Camp_
@@ -5348,6 +5429,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Member.ImageUri
   nameWithType: Member.ImageUri
+- uid: neo_bpsys_wpf.Models.Member.IsImageValid
+  name: IsImageValid
+  href: api/neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member_IsImageValid
+  commentId: P:neo_bpsys_wpf.Models.Member.IsImageValid
+  fullName: neo_bpsys_wpf.Models.Member.IsImageValid
+  nameWithType: Member.IsImageValid
+- uid: neo_bpsys_wpf.Models.Member.IsImageValid*
+  name: IsImageValid
+  href: api/neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member_IsImageValid_
+  commentId: Overload:neo_bpsys_wpf.Models.Member.IsImageValid
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.Member.IsImageValid
+  nameWithType: Member.IsImageValid
 - uid: neo_bpsys_wpf.Models.Member.IsOnField
   name: IsOnField
   href: api/neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member_IsOnField
@@ -5380,24 +5474,15 @@ references:
   commentId: T:neo_bpsys_wpf.Models.Player
   fullName: neo_bpsys_wpf.Models.Player
   nameWithType: Player
-- uid: neo_bpsys_wpf.Models.Player.#ctor
-  name: Player()
-  href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player__ctor
-  commentId: M:neo_bpsys_wpf.Models.Player.#ctor
-  name.vb: New()
-  fullName: neo_bpsys_wpf.Models.Player.Player()
-  fullName.vb: neo_bpsys_wpf.Models.Player.New()
-  nameWithType: Player.Player()
-  nameWithType.vb: Player.New()
-- uid: neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member)
-  name: Player(Member)
-  href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player__ctor_neo_bpsys_wpf_Models_Member_
-  commentId: M:neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member)
-  name.vb: New(Member)
-  fullName: neo_bpsys_wpf.Models.Player.Player(neo_bpsys_wpf.Models.Member)
-  fullName.vb: neo_bpsys_wpf.Models.Player.New(neo_bpsys_wpf.Models.Member)
-  nameWithType: Player.Player(Member)
-  nameWithType.vb: Player.New(Member)
+- uid: neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member,System.Boolean)
+  name: Player(Member, bool)
+  href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player__ctor_neo_bpsys_wpf_Models_Member_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Models.Player.#ctor(neo_bpsys_wpf.Models.Member,System.Boolean)
+  name.vb: New(Member, Boolean)
+  fullName: neo_bpsys_wpf.Models.Player.Player(neo_bpsys_wpf.Models.Member, bool)
+  fullName.vb: neo_bpsys_wpf.Models.Player.New(neo_bpsys_wpf.Models.Member, Boolean)
+  nameWithType: Player.Player(Member, bool)
+  nameWithType.vb: Player.New(Member, Boolean)
 - uid: neo_bpsys_wpf.Models.Player.#ctor*
   name: Player
   href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player__ctor_
@@ -5473,12 +5558,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Player.PictureShown
   nameWithType: Player.PictureShown
-- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  name: Receive(MemberStateChangedMessage)
-  href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_MemberStateChangedMessage_
-  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  nameWithType: Player.Receive(MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_
+  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  nameWithType: Player.Receive(MemberPropertyChangedMessage)
 - uid: neo_bpsys_wpf.Models.Player.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_
@@ -5738,6 +5823,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUri
   nameWithType: ScoreWindowSettings.GlobalScoreBgImageUri
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  name: GlobalScoreBgImageUriBo3
+  href: api/neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_GlobalScoreBgImageUriBo3
+  commentId: P:neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  nameWithType: ScoreWindowSettings.GlobalScoreBgImageUriBo3
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3*
+  name: GlobalScoreBgImageUriBo3
+  href: api/neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_GlobalScoreBgImageUriBo3_
+  commentId: Overload:neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+  nameWithType: ScoreWindowSettings.GlobalScoreBgImageUriBo3
 - uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   name: GlobalScoreTotalMargin
   href: api/neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_GlobalScoreTotalMargin
@@ -6102,19 +6200,6 @@ references:
   fullName.vb: neo_bpsys_wpf.Models.Team.New
   nameWithType: Team.Team
   nameWithType.vb: Team.New
-- uid: neo_bpsys_wpf.Models.Team.AddMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  name: AddMemberInPlayer(Member)
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_AddMemberInPlayer_neo_bpsys_wpf_Models_Member_
-  commentId: M:neo_bpsys_wpf.Models.Team.AddMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  fullName: neo_bpsys_wpf.Models.Team.AddMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  nameWithType: Team.AddMemberInPlayer(Member)
-- uid: neo_bpsys_wpf.Models.Team.AddMemberInPlayer*
-  name: AddMemberInPlayer
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_AddMemberInPlayer_
-  commentId: Overload:neo_bpsys_wpf.Models.Team.AddMemberInPlayer
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Models.Team.AddMemberInPlayer
-  nameWithType: Team.AddMemberInPlayer
 - uid: neo_bpsys_wpf.Models.Team.Camp
   name: Camp
   href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_Camp
@@ -6128,19 +6213,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Team.Camp
   nameWithType: Team.Camp
-- uid: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer(neo_bpsys_wpf.Enums.Camp)
-  name: CanAddMemberInPlayer(Camp)
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_CanAddMemberInPlayer_neo_bpsys_wpf_Enums_Camp_
-  commentId: M:neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer(neo_bpsys_wpf.Enums.Camp)
-  fullName: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer(neo_bpsys_wpf.Enums.Camp)
-  nameWithType: Team.CanAddMemberInPlayer(Camp)
-- uid: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer*
-  name: CanAddMemberInPlayer
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_CanAddMemberInPlayer_
-  commentId: Overload:neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer
+- uid: neo_bpsys_wpf.Models.Team.CanMemberOnField(neo_bpsys_wpf.Enums.Camp)
+  name: CanMemberOnField(Camp)
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_CanMemberOnField_neo_bpsys_wpf_Enums_Camp_
+  commentId: M:neo_bpsys_wpf.Models.Team.CanMemberOnField(neo_bpsys_wpf.Enums.Camp)
+  fullName: neo_bpsys_wpf.Models.Team.CanMemberOnField(neo_bpsys_wpf.Enums.Camp)
+  nameWithType: Team.CanMemberOnField(Camp)
+- uid: neo_bpsys_wpf.Models.Team.CanMemberOnField*
+  name: CanMemberOnField
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_CanMemberOnField_
+  commentId: Overload:neo_bpsys_wpf.Models.Team.CanMemberOnField
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Models.Team.CanAddMemberInPlayer
-  nameWithType: Team.CanAddMemberInPlayer
+  fullName: neo_bpsys_wpf.Models.Team.CanMemberOnField
+  nameWithType: Team.CanMemberOnField
 - uid: neo_bpsys_wpf.Models.Team.GlobalBannedHunList
   name: GlobalBannedHunList
   href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_GlobalBannedHunList
@@ -6206,19 +6291,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Team.HunMemberList
   nameWithType: Team.HunMemberList
-- uid: neo_bpsys_wpf.Models.Team.HunPlayerOnField
-  name: HunPlayerOnField
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_HunPlayerOnField
-  commentId: P:neo_bpsys_wpf.Models.Team.HunPlayerOnField
-  fullName: neo_bpsys_wpf.Models.Team.HunPlayerOnField
-  nameWithType: Team.HunPlayerOnField
-- uid: neo_bpsys_wpf.Models.Team.HunPlayerOnField*
-  name: HunPlayerOnField
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_HunPlayerOnField_
-  commentId: Overload:neo_bpsys_wpf.Models.Team.HunPlayerOnField
+- uid: neo_bpsys_wpf.Models.Team.HunMemberOnField
+  name: HunMemberOnField
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_HunMemberOnField
+  commentId: P:neo_bpsys_wpf.Models.Team.HunMemberOnField
+  fullName: neo_bpsys_wpf.Models.Team.HunMemberOnField
+  nameWithType: Team.HunMemberOnField
+- uid: neo_bpsys_wpf.Models.Team.HunMemberOnField*
+  name: HunMemberOnField
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_HunMemberOnField_
+  commentId: Overload:neo_bpsys_wpf.Models.Team.HunMemberOnField
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Models.Team.HunPlayerOnField
-  nameWithType: Team.HunPlayerOnField
+  fullName: neo_bpsys_wpf.Models.Team.HunMemberOnField
+  nameWithType: Team.HunMemberOnField
 - uid: neo_bpsys_wpf.Models.Team.ImageUri
   name: ImageUri
   href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_ImageUri
@@ -6258,6 +6343,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Team.Logo
   nameWithType: Team.Logo
+- uid: neo_bpsys_wpf.Models.Team.MemberOffField(neo_bpsys_wpf.Models.Member)
+  name: MemberOffField(Member)
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_MemberOffField_neo_bpsys_wpf_Models_Member_
+  commentId: M:neo_bpsys_wpf.Models.Team.MemberOffField(neo_bpsys_wpf.Models.Member)
+  fullName: neo_bpsys_wpf.Models.Team.MemberOffField(neo_bpsys_wpf.Models.Member)
+  nameWithType: Team.MemberOffField(Member)
+- uid: neo_bpsys_wpf.Models.Team.MemberOffField*
+  name: MemberOffField
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_MemberOffField_
+  commentId: Overload:neo_bpsys_wpf.Models.Team.MemberOffField
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.Team.MemberOffField
+  nameWithType: Team.MemberOffField
+- uid: neo_bpsys_wpf.Models.Team.MemberOnField(neo_bpsys_wpf.Models.Member)
+  name: MemberOnField(Member)
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_MemberOnField_neo_bpsys_wpf_Models_Member_
+  commentId: M:neo_bpsys_wpf.Models.Team.MemberOnField(neo_bpsys_wpf.Models.Member)
+  fullName: neo_bpsys_wpf.Models.Team.MemberOnField(neo_bpsys_wpf.Models.Member)
+  nameWithType: Team.MemberOnField(Member)
+- uid: neo_bpsys_wpf.Models.Team.MemberOnField*
+  name: MemberOnField
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_MemberOnField_
+  commentId: Overload:neo_bpsys_wpf.Models.Team.MemberOnField
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.Team.MemberOnField
+  nameWithType: Team.MemberOnField
 - uid: neo_bpsys_wpf.Models.Team.Name
   name: Name
   href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_Name
@@ -6271,19 +6382,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Team.Name
   nameWithType: Team.Name
-- uid: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  name: RemoveMemberInPlayer(Member)
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_RemoveMemberInPlayer_neo_bpsys_wpf_Models_Member_
-  commentId: M:neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  fullName: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer(neo_bpsys_wpf.Models.Member)
-  nameWithType: Team.RemoveMemberInPlayer(Member)
-- uid: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer*
-  name: RemoveMemberInPlayer
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_RemoveMemberInPlayer_
-  commentId: Overload:neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Models.Team.RemoveMemberInPlayer
-  nameWithType: Team.RemoveMemberInPlayer
 - uid: neo_bpsys_wpf.Models.Team.Score
   name: Score
   href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_Score
@@ -6310,19 +6408,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Team.SurMemberList
   nameWithType: Team.SurMemberList
-- uid: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
-  name: SurPlayerOnFieldList
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_SurPlayerOnFieldList
-  commentId: P:neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
-  fullName: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
-  nameWithType: Team.SurPlayerOnFieldList
-- uid: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList*
-  name: SurPlayerOnFieldList
-  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_SurPlayerOnFieldList_
-  commentId: Overload:neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
+- uid: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
+  name: SurMemberOnFieldList
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_SurMemberOnFieldList
+  commentId: P:neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
+  fullName: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
+  nameWithType: Team.SurMemberOnFieldList
+- uid: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList*
+  name: SurMemberOnFieldList
+  href: api/neo_bpsys_wpf.Models.Team.html#neo_bpsys_wpf_Models_Team_SurMemberOnFieldList_
+  commentId: Overload:neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Models.Team.SurPlayerOnFieldList
-  nameWithType: Team.SurPlayerOnFieldList
+  fullName: neo_bpsys_wpf.Models.Team.SurMemberOnFieldList
+  nameWithType: Team.SurMemberOnFieldList
 - uid: neo_bpsys_wpf.Models.TextSettings
   name: TextSettings
   href: api/neo_bpsys_wpf.Models.TextSettings.html
@@ -6921,15 +7019,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
   nameWithType: FrontService.ApplyAllWindowsSettings
-- uid: neo_bpsys_wpf.Services.FrontService.ApplySettings(System.Type,System.Boolean)
-  name: ApplySettings(Type, bool)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplySettings_System_Type_System_Boolean_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.ApplySettings(System.Type,System.Boolean)
-  name.vb: ApplySettings(Type, Boolean)
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplySettings(System.Type, bool)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.ApplySettings(System.Type, Boolean)
-  nameWithType: FrontService.ApplySettings(Type, bool)
-  nameWithType.vb: FrontService.ApplySettings(Type, Boolean)
+- uid: neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: ApplySettings(FrontWindowType)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: FrontService.ApplySettings(FrontWindowType)
 - uid: neo_bpsys_wpf.Services.FrontService.ApplySettings*
   name: ApplySettings
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplySettings_
@@ -6937,6 +7032,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.ApplySettings
   nameWithType: FrontService.ApplySettings
+- uid: neo_bpsys_wpf.Services.FrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name: BreathingStart(FrontWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_BreathingStart_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name.vb: BreathingStart(FrontWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.FrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  nameWithType: FrontService.BreathingStart(FrontWindowType, string, int, string)
+  nameWithType.vb: FrontService.BreathingStart(FrontWindowType, String, Integer, String)
 - uid: neo_bpsys_wpf.Services.FrontService.BreathingStart*
   name: BreathingStart
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_BreathingStart_
@@ -6944,15 +7048,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.BreathingStart
   nameWithType: FrontService.BreathingStart
-- uid: neo_bpsys_wpf.Services.FrontService.BreathingStart``1(System.String,System.Int32,System.String)
-  name: BreathingStart<T>(string, int, string)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_BreathingStart__1_System_String_System_Int32_System_String_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.BreathingStart``1(System.String,System.Int32,System.String)
-  name.vb: BreathingStart(Of T)(String, Integer, String)
-  fullName: neo_bpsys_wpf.Services.FrontService.BreathingStart<T>(string, int, string)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.BreathingStart(Of T)(String, Integer, String)
-  nameWithType: FrontService.BreathingStart<T>(string, int, string)
-  nameWithType.vb: FrontService.BreathingStart(Of T)(String, Integer, String)
+- uid: neo_bpsys_wpf.Services.FrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name: BreathingStop(FrontWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_BreathingStop_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name.vb: BreathingStop(FrontWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.FrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  nameWithType: FrontService.BreathingStop(FrontWindowType, string, int, string)
+  nameWithType.vb: FrontService.BreathingStop(FrontWindowType, String, Integer, String)
 - uid: neo_bpsys_wpf.Services.FrontService.BreathingStop*
   name: BreathingStop
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_BreathingStop_
@@ -6960,15 +7064,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.BreathingStop
   nameWithType: FrontService.BreathingStop
-- uid: neo_bpsys_wpf.Services.FrontService.BreathingStop``1(System.String,System.Int32,System.String)
-  name: BreathingStop<T>(string, int, string)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_BreathingStop__1_System_String_System_Int32_System_String_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.BreathingStop``1(System.String,System.Int32,System.String)
-  name.vb: BreathingStop(Of T)(String, Integer, String)
-  fullName: neo_bpsys_wpf.Services.FrontService.BreathingStop<T>(string, int, string)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.BreathingStop(Of T)(String, Integer, String)
-  nameWithType: FrontService.BreathingStop<T>(string, int, string)
-  nameWithType.vb: FrontService.BreathingStop(Of T)(String, Integer, String)
+- uid: neo_bpsys_wpf.Services.FrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name: FadeInAnimation(FrontWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_FadeInAnimation_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name.vb: FadeInAnimation(FrontWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.FrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  nameWithType: FrontService.FadeInAnimation(FrontWindowType, string, int, string)
+  nameWithType.vb: FrontService.FadeInAnimation(FrontWindowType, String, Integer, String)
 - uid: neo_bpsys_wpf.Services.FrontService.FadeInAnimation*
   name: FadeInAnimation
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_FadeInAnimation_
@@ -6976,15 +7080,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.FadeInAnimation
   nameWithType: FrontService.FadeInAnimation
-- uid: neo_bpsys_wpf.Services.FrontService.FadeInAnimation``1(System.String,System.Int32,System.String)
-  name: FadeInAnimation<T>(string, int, string)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_FadeInAnimation__1_System_String_System_Int32_System_String_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.FadeInAnimation``1(System.String,System.Int32,System.String)
-  name.vb: FadeInAnimation(Of T)(String, Integer, String)
-  fullName: neo_bpsys_wpf.Services.FrontService.FadeInAnimation<T>(string, int, string)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.FadeInAnimation(Of T)(String, Integer, String)
-  nameWithType: FrontService.FadeInAnimation<T>(string, int, string)
-  nameWithType.vb: FrontService.FadeInAnimation(Of T)(String, Integer, String)
+- uid: neo_bpsys_wpf.Services.FrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name: FadeOutAnimation(FrontWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_FadeOutAnimation_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  name.vb: FadeOutAnimation(FrontWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.FrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  nameWithType: FrontService.FadeOutAnimation(FrontWindowType, string, int, string)
+  nameWithType.vb: FrontService.FadeOutAnimation(FrontWindowType, String, Integer, String)
 - uid: neo_bpsys_wpf.Services.FrontService.FadeOutAnimation*
   name: FadeOutAnimation
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_FadeOutAnimation_
@@ -6992,28 +7096,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.FadeOutAnimation
   nameWithType: FrontService.FadeOutAnimation
-- uid: neo_bpsys_wpf.Services.FrontService.FadeOutAnimation``1(System.String,System.Int32,System.String)
-  name: FadeOutAnimation<T>(string, int, string)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_FadeOutAnimation__1_System_String_System_Int32_System_String_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.FadeOutAnimation``1(System.String,System.Int32,System.String)
-  name.vb: FadeOutAnimation(Of T)(String, Integer, String)
-  fullName: neo_bpsys_wpf.Services.FrontService.FadeOutAnimation<T>(string, int, string)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.FadeOutAnimation(Of T)(String, Integer, String)
-  nameWithType: FrontService.FadeOutAnimation<T>(string, int, string)
-  nameWithType.vb: FrontService.FadeOutAnimation(Of T)(String, Integer, String)
-- uid: neo_bpsys_wpf.Services.FrontService.FrontWindowStates
-  name: FrontWindowStates
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_FrontWindowStates
-  commentId: P:neo_bpsys_wpf.Services.FrontService.FrontWindowStates
-  fullName: neo_bpsys_wpf.Services.FrontService.FrontWindowStates
-  nameWithType: FrontService.FrontWindowStates
-- uid: neo_bpsys_wpf.Services.FrontService.FrontWindowStates*
-  name: FrontWindowStates
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_FrontWindowStates_
-  commentId: Overload:neo_bpsys_wpf.Services.FrontService.FrontWindowStates
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Services.FrontService.FrontWindowStates
-  nameWithType: FrontService.FrontWindowStates
+- uid: neo_bpsys_wpf.Services.FrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: HideWindow(FrontWindowType)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_HideWindow_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Services.FrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: FrontService.HideWindow(FrontWindowType)
 - uid: neo_bpsys_wpf.Services.FrontService.HideWindow*
   name: HideWindow
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_HideWindow_
@@ -7021,31 +7109,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.HideWindow
   nameWithType: FrontService.HideWindow
-- uid: neo_bpsys_wpf.Services.FrontService.HideWindow``1
-  name: HideWindow<T>()
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_HideWindow__1
-  commentId: M:neo_bpsys_wpf.Services.FrontService.HideWindow``1
-  name.vb: HideWindow(Of T)()
-  fullName: neo_bpsys_wpf.Services.FrontService.HideWindow<T>()
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.HideWindow(Of T)()
-  nameWithType: FrontService.HideWindow<T>()
-  nameWithType.vb: FrontService.HideWindow(Of T)()
-- uid: neo_bpsys_wpf.Services.FrontService.LoadWindowElementsPositionOnStartupAsync*
-  name: LoadWindowElementsPositionOnStartupAsync
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_LoadWindowElementsPositionOnStartupAsync_
-  commentId: Overload:neo_bpsys_wpf.Services.FrontService.LoadWindowElementsPositionOnStartupAsync
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Services.FrontService.LoadWindowElementsPositionOnStartupAsync
-  nameWithType: FrontService.LoadWindowElementsPositionOnStartupAsync
-- uid: neo_bpsys_wpf.Services.FrontService.LoadWindowElementsPositionOnStartupAsync``1(System.String)
-  name: LoadWindowElementsPositionOnStartupAsync<T>(string)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_LoadWindowElementsPositionOnStartupAsync__1_System_String_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.LoadWindowElementsPositionOnStartupAsync``1(System.String)
-  name.vb: LoadWindowElementsPositionOnStartupAsync(Of T)(String)
-  fullName: neo_bpsys_wpf.Services.FrontService.LoadWindowElementsPositionOnStartupAsync<T>(string)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.LoadWindowElementsPositionOnStartupAsync(Of T)(String)
-  nameWithType: FrontService.LoadWindowElementsPositionOnStartupAsync<T>(string)
-  nameWithType.vb: FrontService.LoadWindowElementsPositionOnStartupAsync(Of T)(String)
 - uid: neo_bpsys_wpf.Services.FrontService.ResetGlobalScore
   name: ResetGlobalScore()
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ResetGlobalScore
@@ -7059,6 +7122,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.ResetGlobalScore
   nameWithType: FrontService.ResetGlobalScore
+- uid: neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  name: RestoreInitialPositions(FrontWindowType, string)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_RestoreInitialPositions_neo_bpsys_wpf_Enums_FrontWindowType_System_String_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  name.vb: RestoreInitialPositions(FrontWindowType, String)
+  fullName: neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType, string)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType, String)
+  nameWithType: FrontService.RestoreInitialPositions(FrontWindowType, string)
+  nameWithType.vb: FrontService.RestoreInitialPositions(FrontWindowType, String)
 - uid: neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions*
   name: RestoreInitialPositions
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_RestoreInitialPositions_
@@ -7066,15 +7138,28 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions
   nameWithType: FrontService.RestoreInitialPositions
-- uid: neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions``1(System.String)
-  name: RestoreInitialPositions<T>(string)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_RestoreInitialPositions__1_System_String_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions``1(System.String)
-  name.vb: RestoreInitialPositions(Of T)(String)
-  fullName: neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions<T>(string)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.RestoreInitialPositions(Of T)(String)
-  nameWithType: FrontService.RestoreInitialPositions<T>(string)
-  nameWithType.vb: FrontService.RestoreInitialPositions(Of T)(String)
+- uid: neo_bpsys_wpf.Services.FrontService.SaveAllWindowElementsPosition
+  name: SaveAllWindowElementsPosition()
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SaveAllWindowElementsPosition
+  commentId: M:neo_bpsys_wpf.Services.FrontService.SaveAllWindowElementsPosition
+  fullName: neo_bpsys_wpf.Services.FrontService.SaveAllWindowElementsPosition()
+  nameWithType: FrontService.SaveAllWindowElementsPosition()
+- uid: neo_bpsys_wpf.Services.FrontService.SaveAllWindowElementsPosition*
+  name: SaveAllWindowElementsPosition
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SaveAllWindowElementsPosition_
+  commentId: Overload:neo_bpsys_wpf.Services.FrontService.SaveAllWindowElementsPosition
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.FrontService.SaveAllWindowElementsPosition
+  nameWithType: FrontService.SaveAllWindowElementsPosition
+- uid: neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  name: SaveWindowElementsPosition(FrontWindowType, string)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SaveWindowElementsPosition_neo_bpsys_wpf_Enums_FrontWindowType_System_String_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  name.vb: SaveWindowElementsPosition(FrontWindowType, String)
+  fullName: neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType, string)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType, String)
+  nameWithType: FrontService.SaveWindowElementsPosition(FrontWindowType, string)
+  nameWithType.vb: FrontService.SaveWindowElementsPosition(FrontWindowType, String)
 - uid: neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition*
   name: SaveWindowElementsPosition
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SaveWindowElementsPosition_
@@ -7082,24 +7167,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition
   nameWithType: FrontService.SaveWindowElementsPosition
-- uid: neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition``1(System.String)
-  name: SaveWindowElementsPosition<T>(string)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SaveWindowElementsPosition__1_System_String_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition``1(System.String)
-  name.vb: SaveWindowElementsPosition(Of T)(String)
-  fullName: neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition<T>(string)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.SaveWindowElementsPosition(Of T)(String)
-  nameWithType: FrontService.SaveWindowElementsPosition<T>(string)
-  nameWithType.vb: FrontService.SaveWindowElementsPosition(Of T)(String)
-- uid: neo_bpsys_wpf.Services.FrontService.SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
-  name: SetGlobalScore(string, GameProgress, Camp, int)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SetGlobalScore_System_String_neo_bpsys_wpf_Enums_GameProgress_neo_bpsys_wpf_Enums_Camp_System_Int32_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
-  name.vb: SetGlobalScore(String, GameProgress, Camp, Integer)
-  fullName: neo_bpsys_wpf.Services.FrontService.SetGlobalScore(string, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, int)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.SetGlobalScore(String, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, Integer)
-  nameWithType: FrontService.SetGlobalScore(string, GameProgress, Camp, int)
-  nameWithType.vb: FrontService.SetGlobalScore(String, GameProgress, Camp, Integer)
+- uid: neo_bpsys_wpf.Services.FrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
+  name: SetGlobalScore(TeamType, GameProgress, Camp, int)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SetGlobalScore_neo_bpsys_wpf_Enums_TeamType_neo_bpsys_wpf_Enums_GameProgress_neo_bpsys_wpf_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
+  name.vb: SetGlobalScore(TeamType, GameProgress, Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.FrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, Integer)
+  nameWithType: FrontService.SetGlobalScore(TeamType, GameProgress, Camp, int)
+  nameWithType.vb: FrontService.SetGlobalScore(TeamType, GameProgress, Camp, Integer)
 - uid: neo_bpsys_wpf.Services.FrontService.SetGlobalScore*
   name: SetGlobalScore
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SetGlobalScore_
@@ -7107,15 +7183,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.SetGlobalScore
   nameWithType: FrontService.SetGlobalScore
-- uid: neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)
-  name: SetGlobalScoreToBar(string, GameProgress)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SetGlobalScoreToBar_System_String_neo_bpsys_wpf_Enums_GameProgress_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)
-  name.vb: SetGlobalScoreToBar(String, GameProgress)
-  fullName: neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar(string, neo_bpsys_wpf.Enums.GameProgress)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar(String, neo_bpsys_wpf.Enums.GameProgress)
-  nameWithType: FrontService.SetGlobalScoreToBar(string, GameProgress)
-  nameWithType.vb: FrontService.SetGlobalScoreToBar(String, GameProgress)
+- uid: neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)
+  name: SetGlobalScoreToBar(TeamType, GameProgress)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SetGlobalScoreToBar_neo_bpsys_wpf_Enums_TeamType_neo_bpsys_wpf_Enums_GameProgress_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)
+  fullName: neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress)
+  nameWithType: FrontService.SetGlobalScoreToBar(TeamType, GameProgress)
 - uid: neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar*
   name: SetGlobalScoreToBar
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_SetGlobalScoreToBar_
@@ -7123,6 +7196,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.SetGlobalScoreToBar
   nameWithType: FrontService.SetGlobalScoreToBar
+- uid: neo_bpsys_wpf.Services.FrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: ShowWindow(FrontWindowType)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ShowWindow_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Services.FrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: FrontService.ShowWindow(FrontWindowType)
 - uid: neo_bpsys_wpf.Services.FrontService.ShowWindow*
   name: ShowWindow
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ShowWindow_
@@ -7130,15 +7209,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.ShowWindow
   nameWithType: FrontService.ShowWindow
-- uid: neo_bpsys_wpf.Services.FrontService.ShowWindow``1
-  name: ShowWindow<T>()
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ShowWindow__1
-  commentId: M:neo_bpsys_wpf.Services.FrontService.ShowWindow``1
-  name.vb: ShowWindow(Of T)()
-  fullName: neo_bpsys_wpf.Services.FrontService.ShowWindow<T>()
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.ShowWindow(Of T)()
-  nameWithType: FrontService.ShowWindow<T>()
-  nameWithType.vb: FrontService.ShowWindow(Of T)()
 - uid: neo_bpsys_wpf.Services.GameGuidanceService
   name: GameGuidanceService
   href: api/neo_bpsys_wpf.Services.GameGuidanceService.html
@@ -7603,12 +7673,12 @@ references:
   commentId: M:neo_bpsys_wpf.Services.SettingsHostService.ResetConfig
   fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig()
   nameWithType: SettingsHostService.ResetConfig()
-- uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(System.Type)
-  name: ResetConfig(Type)
-  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfig_System_Type_
-  commentId: M:neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(System.Type)
-  fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(System.Type)
-  nameWithType: SettingsHostService.ResetConfig(Type)
+- uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: ResetConfig(FrontWindowType)
+  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfig_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: SettingsHostService.ResetConfig(FrontWindowType)
 - uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig*
   name: ResetConfig
   href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfig_
@@ -7900,12 +7970,12 @@ references:
   commentId: T:neo_bpsys_wpf.Services.TextSettingsNavigationService
   fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService
   nameWithType: TextSettingsNavigationService
-- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(System.Type)
-  name: Close(Type)
-  href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Close_System_Type_
-  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(System.Type)
-  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(System.Type)
-  nameWithType: TextSettingsNavigationService.Close(Type)
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: Close(FrontWindowType)
+  href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Close_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: TextSettingsNavigationService.Close(FrontWindowType)
 - uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close*
   name: Close
   href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Close_
@@ -7913,15 +7983,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Close
   nameWithType: TextSettingsNavigationService.Close
-- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type,System.Object)
-  name: Navigate(Type, object)
-  href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Navigate_System_Type_System_Object_
-  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type,System.Object)
-  name.vb: Navigate(Type, Object)
-  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type, object)
-  fullName.vb: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(System.Type, Object)
-  nameWithType: TextSettingsNavigationService.Navigate(Type, object)
-  nameWithType.vb: TextSettingsNavigationService.Navigate(Type, Object)
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(neo_bpsys_wpf.Enums.FrontWindowType,System.Object)
+  name: Navigate(FrontWindowType, object)
+  href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Navigate_neo_bpsys_wpf_Enums_FrontWindowType_System_Object_
+  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(neo_bpsys_wpf.Enums.FrontWindowType,System.Object)
+  name.vb: Navigate(FrontWindowType, Object)
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(neo_bpsys_wpf.Enums.FrontWindowType, object)
+  fullName.vb: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(neo_bpsys_wpf.Enums.FrontWindowType, Object)
+  nameWithType: TextSettingsNavigationService.Navigate(FrontWindowType, object)
+  nameWithType.vb: TextSettingsNavigationService.Navigate(FrontWindowType, Object)
 - uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate*
   name: Navigate
   href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Navigate_
@@ -7929,21 +7999,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate
   nameWithType: TextSettingsNavigationService.Navigate
-- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate``1(System.Object)
-  name: Navigate<T>(object)
-  href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_Navigate__1_System_Object_
-  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate``1(System.Object)
-  name.vb: Navigate(Of T)(Object)
-  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate<T>(object)
-  fullName.vb: neo_bpsys_wpf.Services.TextSettingsNavigationService.Navigate(Of T)(Object)
-  nameWithType: TextSettingsNavigationService.Navigate<T>(object)
-  nameWithType.vb: TextSettingsNavigationService.Navigate(Of T)(Object)
-- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
-  name: SetFrameControl(Type, Frame)
-  href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_SetFrameControl_System_Type_System_Windows_Controls_Frame_
-  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(System.Type,System.Windows.Controls.Frame)
-  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(System.Type, System.Windows.Controls.Frame)
-  nameWithType: TextSettingsNavigationService.SetFrameControl(Type, Frame)
+- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(neo_bpsys_wpf.Enums.FrontWindowType,System.Windows.Controls.Frame)
+  name: SetFrameControl(FrontWindowType, Frame)
+  href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_SetFrameControl_neo_bpsys_wpf_Enums_FrontWindowType_System_Windows_Controls_Frame_
+  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(neo_bpsys_wpf.Enums.FrontWindowType,System.Windows.Controls.Frame)
+  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(neo_bpsys_wpf.Enums.FrontWindowType, System.Windows.Controls.Frame)
+  nameWithType: TextSettingsNavigationService.SetFrameControl(FrontWindowType, Frame)
 - uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl*
   name: SetFrameControl
   href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_SetFrameControl_
@@ -7951,15 +8012,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl
   nameWithType: TextSettingsNavigationService.SetFrameControl
-- uid: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
-  name: SetFrameControl<T>(Frame)
-  href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html#neo_bpsys_wpf_Services_TextSettingsNavigationService_SetFrameControl__1_System_Windows_Controls_Frame_
-  commentId: M:neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl``1(System.Windows.Controls.Frame)
-  name.vb: SetFrameControl(Of T)(Frame)
-  fullName: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl<T>(System.Windows.Controls.Frame)
-  fullName.vb: neo_bpsys_wpf.Services.TextSettingsNavigationService.SetFrameControl(Of T)(System.Windows.Controls.Frame)
-  nameWithType: TextSettingsNavigationService.SetFrameControl<T>(Frame)
-  nameWithType.vb: TextSettingsNavigationService.SetFrameControl(Of T)(Frame)
 - uid: neo_bpsys_wpf.Services.UpdaterService
   name: UpdaterService
   href: api/neo_bpsys_wpf.Services.UpdaterService.html
@@ -8729,19 +8781,6 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.New
   nameWithType: FrontManagePageViewModel.FrontManagePageViewModel
   nameWithType.vb: FrontManagePageViewModel.New
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.GlobalScoreTotalMargin
-  name: GlobalScoreTotalMargin
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_GlobalScoreTotalMargin
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.GlobalScoreTotalMargin
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.GlobalScoreTotalMargin
-  nameWithType: FrontManagePageViewModel.GlobalScoreTotalMargin
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.GlobalScoreTotalMargin*
-  name: GlobalScoreTotalMargin
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_GlobalScoreTotalMargin_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.GlobalScoreTotalMargin
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.GlobalScoreTotalMargin
-  nameWithType: FrontManagePageViewModel.GlobalScoreTotalMargin
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
   name: HideAllWindowsCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideAllWindowsCommand
@@ -9792,12 +9831,12 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.CharacterSwappedMessage)
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.CharacterSwappedMessage)
   nameWithType: PickPageViewModel.SurPickViewModel.Receive(CharacterSwappedMessage)
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  name: Receive(MemberStateChangedMessage)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_MemberStateChangedMessage_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  nameWithType: PickPageViewModel.SurPickViewModel.Receive(MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  nameWithType: PickPageViewModel.SurPickViewModel.Receive(MemberPropertyChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
   name: Receive(PlayerSwappedMessage)
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_PlayerSwappedMessage_
@@ -10258,15 +10297,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.New()
   nameWithType: SettingPageViewModel.SettingPageViewModel()
   nameWithType.vb: SettingPageViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService,neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Abstractions.Services.IFilePickerService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
-  name: SettingPageViewModel(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IUpdaterService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_neo_bpsys_wpf_Abstractions_Services_IFrontService_neo_bpsys_wpf_Abstractions_Services_IFilePickerService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService,neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Abstractions.Services.IFilePickerService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
-  name.vb: New(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SettingPageViewModel(neo_bpsys_wpf.Abstractions.Services.IUpdaterService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService, neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService, neo_bpsys_wpf.Abstractions.Services.IFrontService, neo_bpsys_wpf.Abstractions.Services.IFilePickerService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.New(neo_bpsys_wpf.Abstractions.Services.IUpdaterService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService, neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService, neo_bpsys_wpf.Abstractions.Services.IFrontService, neo_bpsys_wpf.Abstractions.Services.IFilePickerService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
-  nameWithType: SettingPageViewModel.SettingPageViewModel(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService)
-  nameWithType.vb: SettingPageViewModel.New(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService,neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Abstractions.Services.IFilePickerService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  name: SettingPageViewModel(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService, ISharedDataService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IUpdaterService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_neo_bpsys_wpf_Abstractions_Services_IFrontService_neo_bpsys_wpf_Abstractions_Services_IFilePickerService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService,neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Abstractions.Services.IFilePickerService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  name.vb: New(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService, ISharedDataService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SettingPageViewModel(neo_bpsys_wpf.Abstractions.Services.IUpdaterService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService, neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService, neo_bpsys_wpf.Abstractions.Services.IFrontService, neo_bpsys_wpf.Abstractions.Services.IFilePickerService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.New(neo_bpsys_wpf.Abstractions.Services.IUpdaterService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService, neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService, neo_bpsys_wpf.Abstractions.Services.IFrontService, neo_bpsys_wpf.Abstractions.Services.IFilePickerService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  nameWithType: SettingPageViewModel.SettingPageViewModel(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService, ISharedDataService)
+  nameWithType.vb: SettingPageViewModel.New(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService, ISharedDataService)
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor*
   name: SettingPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_
@@ -10368,6 +10407,45 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand
   nameWithType: SettingPageViewModel.EditBpWindowImagesCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImagesCommand
+  name: EditCutSceneWindowImagesCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditCutSceneWindowImagesCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImagesCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditCutSceneWindowImagesCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImagesCommand*
+  name: EditCutSceneWindowImagesCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditCutSceneWindowImagesCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImagesCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditCutSceneWindowImagesCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImagesCommand
+  name: EditGameDataWindowImagesCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditGameDataWindowImagesCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImagesCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditGameDataWindowImagesCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImagesCommand*
+  name: EditGameDataWindowImagesCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditGameDataWindowImagesCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImagesCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditGameDataWindowImagesCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditScoreWindowImagesCommand
+  name: EditScoreWindowImagesCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditScoreWindowImagesCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditScoreWindowImagesCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditScoreWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditScoreWindowImagesCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditScoreWindowImagesCommand*
+  name: EditScoreWindowImagesCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditScoreWindowImagesCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditScoreWindowImagesCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditScoreWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditScoreWindowImagesCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand
   name: EditTextSettingsCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditTextSettingsCommand
@@ -10381,6 +10459,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand
   nameWithType: SettingPageViewModel.EditTextSettingsCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditWidgetsWindowImagesCommand
+  name: EditWidgetsWindowImagesCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditWidgetsWindowImagesCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditWidgetsWindowImagesCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditWidgetsWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditWidgetsWindowImagesCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditWidgetsWindowImagesCommand*
+  name: EditWidgetsWindowImagesCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditWidgetsWindowImagesCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditWidgetsWindowImagesCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditWidgetsWindowImagesCommand
+  nameWithType: SettingPageViewModel.EditWidgetsWindowImagesCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GameDataWindowTextSettings
   name: GameDataWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GameDataWindowTextSettings
@@ -10394,6 +10485,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GameDataWindowTextSettings
   nameWithType: SettingPageViewModel.GameDataWindowTextSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GlobalScoreTotalMargin
+  name: GlobalScoreTotalMargin
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GlobalScoreTotalMargin
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GlobalScoreTotalMargin
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GlobalScoreTotalMargin
+  nameWithType: SettingPageViewModel.GlobalScoreTotalMargin
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GlobalScoreTotalMargin*
+  name: GlobalScoreTotalMargin
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GlobalScoreTotalMargin_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GlobalScoreTotalMargin
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GlobalScoreTotalMargin
+  nameWithType: SettingPageViewModel.GlobalScoreTotalMargin
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand
   name: HopToConfigDirCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToConfigDirCommand
@@ -10459,6 +10563,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading
   nameWithType: SettingPageViewModel.IsDownloading
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable
+  name: IsTalentAndTraitBlackVerEnable
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsTalentAndTraitBlackVerEnable
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable
+  nameWithType: SettingPageViewModel.IsTalentAndTraitBlackVerEnable
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable*
+  name: IsTalentAndTraitBlackVerEnable
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsTalentAndTraitBlackVerEnable_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable
+  nameWithType: SettingPageViewModel.IsTalentAndTraitBlackVerEnable
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand
   name: ManualGcCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ManualGcCommand
@@ -10511,6 +10628,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MirrorList
   nameWithType: SettingPageViewModel.MirrorList
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand
+  name: ResetAllCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetAllCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand
+  nameWithType: SettingPageViewModel.ResetAllCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand*
+  name: ResetAllCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetAllCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand
+  nameWithType: SettingPageViewModel.ResetAllCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
   name: ResetCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetCommand
@@ -10524,6 +10654,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
   nameWithType: SettingPageViewModel.ResetCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMarginCommand
+  name: SaveGlobalScoreTotalMarginCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveGlobalScoreTotalMarginCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMarginCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMarginCommand
+  nameWithType: SettingPageViewModel.SaveGlobalScoreTotalMarginCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMarginCommand*
+  name: SaveGlobalScoreTotalMarginCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveGlobalScoreTotalMarginCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMarginCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMarginCommand
+  nameWithType: SettingPageViewModel.SaveGlobalScoreTotalMarginCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreWindowTextSettings
   name: ScoreWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreWindowTextSettings
@@ -10844,12 +10987,12 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.New
   nameWithType: TeamInfoPageViewModel.OnFieldHunPlayerViewModel.OnFieldHunPlayerViewModel
   nameWithType.vb: TeamInfoPageViewModel.OnFieldHunPlayerViewModel.New
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  name: Receive(MemberStateChangedMessage)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldHunPlayerViewModel_Receive_neo_bpsys_wpf_Messages_MemberStateChangedMessage_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  nameWithType: TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldHunPlayerViewModel_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  nameWithType: TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(MemberPropertyChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
   name: Receive(SwapMessage)
   href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldHunPlayerViewModel_Receive_neo_bpsys_wpf_Messages_SwapMessage_
@@ -10927,12 +11070,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Index
   nameWithType: TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Index
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  name: Receive(MemberStateChangedMessage)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel_Receive_neo_bpsys_wpf_Messages_MemberStateChangedMessage_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  nameWithType: TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  nameWithType: TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(MemberPropertyChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
   name: Receive(PlayerSwappedMessage)
   href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel_Receive_neo_bpsys_wpf_Messages_PlayerSwappedMessage_
@@ -11051,19 +11194,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
   nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.AddSurMemberCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMamberImageCommand
-  name: ClearMamberImageCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_ClearMamberImageCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMamberImageCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMamberImageCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ClearMamberImageCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMamberImageCommand*
-  name: ClearMamberImageCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_ClearMamberImageCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMamberImageCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  name: ClearMemberImageCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_ClearMemberImageCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand*
+  name: ClearMemberImageCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_ClearMemberImageCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMamberImageCommand
-  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ClearMamberImageCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
+  nameWithType: TeamInfoPageViewModel.TeamInfoViewModel.ClearMemberImageCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.ConfirmTeamNameCommand
   name: ConfirmTeamNameCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_TeamInfoViewModel_ConfirmTeamNameCommand
@@ -11707,12 +11850,12 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)
   fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)
   nameWithType: GameDataWindowViewModel.Receive(DesignModeChangedMessage)
-- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  name: Receive(MemberStateChangedMessage)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_Receive_neo_bpsys_wpf_Messages_MemberStateChangedMessage_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  nameWithType: GameDataWindowViewModel.Receive(MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  nameWithType: GameDataWindowViewModel.Receive(MemberPropertyChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   name: Receive(NewGameMessage)
   href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_Receive_neo_bpsys_wpf_Messages_NewGameMessage_

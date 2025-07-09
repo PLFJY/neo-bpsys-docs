@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: App
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/App.xaml.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Services
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/App.xaml.cs
@@ -82,7 +82,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/App.xaml.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnStartup
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/App.xaml.cs
@@ -115,7 +115,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/App.xaml.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnExit
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/App.xaml.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Main
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs

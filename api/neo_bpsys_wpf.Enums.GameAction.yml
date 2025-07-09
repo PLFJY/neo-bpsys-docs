@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameAction
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: None
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanMap
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickMap
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickCamp
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanSur
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -194,7 +194,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanHun
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -220,7 +220,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickSur
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -246,7 +246,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickHun
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickSurTalent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -298,7 +298,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickHunTalent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -324,7 +324,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: DistributeChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs
@@ -350,7 +350,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/GameAction.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: EndGuidance
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/GameAction.cs

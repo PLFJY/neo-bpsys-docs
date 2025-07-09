@@ -6,11 +6,13 @@ items:
   children:
   - neo_bpsys_wpf.Enums.BanListName
   - neo_bpsys_wpf.Enums.Camp
+  - neo_bpsys_wpf.Enums.FrontWindowType
   - neo_bpsys_wpf.Enums.GameAction
   - neo_bpsys_wpf.Enums.GameProgress
   - neo_bpsys_wpf.Enums.GameResult
   - neo_bpsys_wpf.Enums.ImageSourceKey
   - neo_bpsys_wpf.Enums.Map
+  - neo_bpsys_wpf.Enums.TeamType
   - neo_bpsys_wpf.Enums.Trait
   langs:
   - csharp
@@ -71,6 +73,13 @@ references:
   name: Map
   nameWithType: Map
   fullName: neo_bpsys_wpf.Enums.Map
+- uid: neo_bpsys_wpf.Enums.TeamType
+  commentId: T:neo_bpsys_wpf.Enums.TeamType
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.TeamType.html
+  name: TeamType
+  nameWithType: TeamType
+  fullName: neo_bpsys_wpf.Enums.TeamType
 - uid: neo_bpsys_wpf.Enums.Trait
   commentId: T:neo_bpsys_wpf.Enums.Trait
   parent: neo_bpsys_wpf.Enums
@@ -78,6 +87,13 @@ references:
   name: Trait
   nameWithType: Trait
   fullName: neo_bpsys_wpf.Enums.Trait
+- uid: neo_bpsys_wpf.Enums.FrontWindowType
+  commentId: T:neo_bpsys_wpf.Enums.FrontWindowType
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.FrontWindowType.html
+  name: FrontWindowType
+  nameWithType: FrontWindowType
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType
 - uid: neo_bpsys_wpf.Enums
   commentId: N:neo_bpsys_wpf.Enums
   href: neo_bpsys_wpf.html

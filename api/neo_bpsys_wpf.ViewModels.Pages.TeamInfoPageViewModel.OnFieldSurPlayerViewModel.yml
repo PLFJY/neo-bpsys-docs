@@ -7,7 +7,7 @@ items:
   children:
   - neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,System.Int32)
   - neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Index
-  - neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   - neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
   - neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
   - neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.SwapMembersInPlayersCommand
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ThisPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Index
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -133,21 +133,21 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Index As Integer
   overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Index*
-- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  id: Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   parent: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel
   langs:
   - csharp
   - vb
-  name: Receive(MemberStateChangedMessage)
-  nameWithType: TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  nameWithType: TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -155,15 +155,15 @@ items:
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
-  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberStateChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberPropertyChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
   example: []
   syntax:
-    content: public void Receive(MemberStateChangedMessage message)
+    content: public void Receive(MemberPropertyChangedMessage message)
     parameters:
     - id: message
-      type: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+      type: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
       description: The message being received.
-    content.vb: Public Sub Receive(message As MemberStateChangedMessage)
+    content.vb: Public Sub Receive(message As MemberPropertyChangedMessage)
   overload: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive*
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
@@ -179,7 +179,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -502,16 +502,16 @@ references:
   name: Index
   nameWithType: TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Index
   fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Index
-- uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
-  commentId: T:neo_bpsys_wpf.Messages.MemberStateChangedMessage
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
   parent: neo_bpsys_wpf.Messages
-  href: neo_bpsys_wpf.Messages.MemberStateChangedMessage.html
-  name: MemberStateChangedMessage
-  nameWithType: MemberStateChangedMessage
-  fullName: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  href: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html
+  name: MemberPropertyChangedMessage
+  nameWithType: MemberPropertyChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
 - uid: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive
-  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel_Receive_neo_bpsys_wpf_Messages_MemberStateChangedMessage_
+  href: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.html#neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_
   name: Receive
   nameWithType: TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive
   fullName: neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Receive

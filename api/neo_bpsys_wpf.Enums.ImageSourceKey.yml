@@ -28,7 +28,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageSourceKey
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: bpui
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: hunBig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -105,7 +105,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: hunHalf
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: hunHeader
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -157,7 +157,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: hunHeader_singleColor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -183,7 +183,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: map
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -209,7 +209,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: map_singleColor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -235,7 +235,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: surBig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -261,7 +261,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: surHalf
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -287,7 +287,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: surHeader
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -313,7 +313,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: surHeader_singleColor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -339,7 +339,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: talent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs
@@ -365,7 +365,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/ImageSourceKey.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: trait
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/ImageSourceKey.cs

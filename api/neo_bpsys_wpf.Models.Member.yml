@@ -5,12 +5,12 @@ items:
   id: Member
   parent: neo_bpsys_wpf.Models
   children:
-  - neo_bpsys_wpf.Models.Member.#ctor
   - neo_bpsys_wpf.Models.Member.#ctor(neo_bpsys_wpf.Enums.Camp)
   - neo_bpsys_wpf.Models.Member.Camp
   - neo_bpsys_wpf.Models.Member.CanOnFieldChange
   - neo_bpsys_wpf.Models.Member.Image
   - neo_bpsys_wpf.Models.Member.ImageUri
+  - neo_bpsys_wpf.Models.Member.IsImageValid
   - neo_bpsys_wpf.Models.Member.IsOnField
   - neo_bpsys_wpf.Models.Member.Name
   langs:
@@ -38,35 +38,38 @@ items:
   implements:
   - System.ComponentModel.INotifyPropertyChanged
   - System.ComponentModel.INotifyPropertyChanging
-- uid: neo_bpsys_wpf.Models.Member.#ctor
-  commentId: M:neo_bpsys_wpf.Models.Member.#ctor
-  id: '#ctor'
+- uid: neo_bpsys_wpf.Models.Member.#ctor(neo_bpsys_wpf.Enums.Camp)
+  commentId: M:neo_bpsys_wpf.Models.Member.#ctor(neo_bpsys_wpf.Enums.Camp)
+  id: '#ctor(neo_bpsys_wpf.Enums.Camp)'
   parent: neo_bpsys_wpf.Models.Member
   langs:
   - csharp
   - vb
-  name: Member()
-  nameWithType: Member.Member()
-  fullName: neo_bpsys_wpf.Models.Member.Member()
+  name: Member(Camp)
+  nameWithType: Member.Member(Camp)
+  fullName: neo_bpsys_wpf.Models.Member.Member(neo_bpsys_wpf.Enums.Camp)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/Models/Member.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 15
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   syntax:
-    content: public Member()
-    content.vb: Public Sub New()
+    content: public Member(Camp camp)
+    parameters:
+    - id: camp
+      type: neo_bpsys_wpf.Enums.Camp
+    content.vb: Public Sub New(camp As Camp)
   overload: neo_bpsys_wpf.Models.Member.#ctor*
-  nameWithType.vb: Member.New()
-  fullName.vb: neo_bpsys_wpf.Models.Member.New()
-  name.vb: New()
+  nameWithType.vb: Member.New(Camp)
+  fullName.vb: neo_bpsys_wpf.Models.Member.New(neo_bpsys_wpf.Enums.Camp)
+  name.vb: New(Camp)
 - uid: neo_bpsys_wpf.Models.Member.Name
   commentId: P:neo_bpsys_wpf.Models.Member.Name
   id: Name
@@ -81,11 +84,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Member.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Name
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 21
+    startLine: 22
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -110,11 +113,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Member.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Image
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 37
+    startLine: 38
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -149,11 +152,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Member.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 54
+    startLine: 56
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -178,11 +181,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Member.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsOnField
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 57
+    startLine: 59
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -193,38 +196,35 @@ items:
       type: System.Boolean
     content.vb: Public Property IsOnField As Boolean
   overload: neo_bpsys_wpf.Models.Member.IsOnField*
-- uid: neo_bpsys_wpf.Models.Member.#ctor(neo_bpsys_wpf.Enums.Camp)
-  commentId: M:neo_bpsys_wpf.Models.Member.#ctor(neo_bpsys_wpf.Enums.Camp)
-  id: '#ctor(neo_bpsys_wpf.Enums.Camp)'
+- uid: neo_bpsys_wpf.Models.Member.IsImageValid
+  commentId: P:neo_bpsys_wpf.Models.Member.IsImageValid
+  id: IsImageValid
   parent: neo_bpsys_wpf.Models.Member
   langs:
   - csharp
   - vb
-  name: Member(Camp)
-  nameWithType: Member.Member(Camp)
-  fullName: neo_bpsys_wpf.Models.Member.Member(neo_bpsys_wpf.Enums.Camp)
-  type: Constructor
+  name: IsImageValid
+  nameWithType: Member.IsImageValid
+  fullName: neo_bpsys_wpf.Models.Member.IsImageValid
+  type: Property
   source:
     remote:
       path: neo-bpsys-wpf/Models/Member.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: .ctor
+    id: IsImageValid
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Member.cs
-    startLine: 72
+    startLine: 74
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   syntax:
-    content: public Member(Camp camp)
-    parameters:
-    - id: camp
-      type: neo_bpsys_wpf.Enums.Camp
-    content.vb: Public Sub New(camp As Camp)
-  overload: neo_bpsys_wpf.Models.Member.#ctor*
-  nameWithType.vb: Member.New(Camp)
-  fullName.vb: neo_bpsys_wpf.Models.Member.New(neo_bpsys_wpf.Enums.Camp)
-  name.vb: New(Camp)
+    content: public bool IsImageValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsImageValid As Boolean
+  overload: neo_bpsys_wpf.Models.Member.IsImageValid*
 - uid: neo_bpsys_wpf.Models.Member.Camp
   commentId: P:neo_bpsys_wpf.Models.Member.Camp
   id: Camp
@@ -430,13 +430,42 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.componentmodel
 - uid: neo_bpsys_wpf.Models.Member.#ctor*
   commentId: Overload:neo_bpsys_wpf.Models.Member.#ctor
-  href: neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member__ctor
+  href: neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member__ctor_neo_bpsys_wpf_Enums_Camp_
   name: Member
   nameWithType: Member.Member
   fullName: neo_bpsys_wpf.Models.Member.Member
   nameWithType.vb: Member.New
   fullName.vb: neo_bpsys_wpf.Models.Member.New
   name.vb: New
+- uid: neo_bpsys_wpf.Enums.Camp
+  commentId: T:neo_bpsys_wpf.Enums.Camp
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.Camp.html
+  name: Camp
+  nameWithType: Camp
+  fullName: neo_bpsys_wpf.Enums.Camp
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
 - uid: neo_bpsys_wpf.Models.Member.Name*
   commentId: Overload:neo_bpsys_wpf.Models.Member.Name
   href: neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member_Name
@@ -527,35 +556,12 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: neo_bpsys_wpf.Enums.Camp
-  commentId: T:neo_bpsys_wpf.Enums.Camp
-  parent: neo_bpsys_wpf.Enums
-  href: neo_bpsys_wpf.Enums.Camp.html
-  name: Camp
-  nameWithType: Camp
-  fullName: neo_bpsys_wpf.Enums.Camp
-- uid: neo_bpsys_wpf.Enums
-  commentId: N:neo_bpsys_wpf.Enums
-  href: neo_bpsys_wpf.html
-  name: neo_bpsys_wpf.Enums
-  nameWithType: neo_bpsys_wpf.Enums
-  fullName: neo_bpsys_wpf.Enums
-  spec.csharp:
-  - uid: neo_bpsys_wpf
-    name: neo_bpsys_wpf
-    href: neo_bpsys_wpf.html
-  - name: .
-  - uid: neo_bpsys_wpf.Enums
-    name: Enums
-    href: neo_bpsys_wpf.Enums.html
-  spec.vb:
-  - uid: neo_bpsys_wpf
-    name: neo_bpsys_wpf
-    href: neo_bpsys_wpf.html
-  - name: .
-  - uid: neo_bpsys_wpf.Enums
-    name: Enums
-    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Models.Member.IsImageValid*
+  commentId: Overload:neo_bpsys_wpf.Models.Member.IsImageValid
+  href: neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member_IsImageValid
+  name: IsImageValid
+  nameWithType: Member.IsImageValid
+  fullName: neo_bpsys_wpf.Models.Member.IsImageValid
 - uid: neo_bpsys_wpf.Models.Member.Camp*
   commentId: Overload:neo_bpsys_wpf.Models.Member.Camp
   href: neo_bpsys_wpf.Models.Member.html#neo_bpsys_wpf_Models_Member_Camp

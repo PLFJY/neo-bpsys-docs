@@ -12,7 +12,7 @@ items:
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)
-  - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   langs:
   - csharp
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
@@ -179,7 +179,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
@@ -232,21 +232,21 @@ items:
   nameWithType.vb: GameDataWindowViewModel.Receive(PropertyChangedMessage(Of Boolean))
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage(Of Boolean))
   name.vb: Receive(PropertyChangedMessage(Of Boolean))
-- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
-  id: Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   parent: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
   langs:
   - csharp
   - vb
-  name: Receive(MemberStateChangedMessage)
-  nameWithType: GameDataWindowViewModel.Receive(MemberStateChangedMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberStateChangedMessage)
+  name: Receive(MemberPropertyChangedMessage)
+  nameWithType: GameDataWindowViewModel.Receive(MemberPropertyChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
@@ -254,15 +254,15 @@ items:
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
-  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberStateChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberPropertyChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
   example: []
   syntax:
-    content: public void Receive(MemberStateChangedMessage message)
+    content: public void Receive(MemberPropertyChangedMessage message)
     parameters:
     - id: message
-      type: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+      type: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
       description: The message being received.
-    content.vb: Public Sub Receive(message As MemberStateChangedMessage)
+    content.vb: Public Sub Receive(message As MemberPropertyChangedMessage)
   overload: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive*
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode
@@ -692,13 +692,13 @@ references:
     name: Messages
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.messages
-- uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
-  commentId: T:neo_bpsys_wpf.Messages.MemberStateChangedMessage
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
   parent: neo_bpsys_wpf.Messages
-  href: neo_bpsys_wpf.Messages.MemberStateChangedMessage.html
-  name: MemberStateChangedMessage
-  nameWithType: MemberStateChangedMessage
-  fullName: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  href: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html
+  name: MemberPropertyChangedMessage
+  nameWithType: MemberPropertyChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode
   href: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_IsDesignMode

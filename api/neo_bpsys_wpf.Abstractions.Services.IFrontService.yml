@@ -8,20 +8,19 @@ items:
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type,System.Boolean)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart``1(System.String,System.Int32,System.String)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop``1(System.String,System.Int32,System.String)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation``1(System.String,System.Int32,System.String)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation``1(System.String,System.Int32,System.String)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow``1
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync``1(System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions``1(System.String)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition``1(System.String)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow``1
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)
+  - neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
   langs:
   - csharp
   - vb
@@ -32,11 +31,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IFrontService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 8
+    startLine: 7
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -45,77 +44,6 @@ items:
   syntax:
     content: public interface IFrontService
     content.vb: Public Interface IFrontService
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  commentId: P:neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  id: FrontWindowStates
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: FrontWindowStates
-  nameWithType: IFrontService.FrontWindowStates
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  type: Property
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: FrontWindowStates
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 13
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 前台窗口状态
-  example: []
-  syntax:
-    content: Dictionary<Type, bool> FrontWindowStates { get; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.Dictionary{System.Type,System.Boolean}
-    content.vb: ReadOnly Property FrontWindowStates As Dictionary(Of Type, Boolean)
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates*
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync``1(System.String)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync``1(System.String)
-  id: LoadWindowElementsPositionOnStartupAsync``1(System.String)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: LoadWindowElementsPositionOnStartupAsync<T>(string)
-  nameWithType: IFrontService.LoadWindowElementsPositionOnStartupAsync<T>(string)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync<T>(string)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: LoadWindowElementsPositionOnStartupAsync
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 20
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 从JSON中加载窗口中元素的位置信息
-  example: []
-  syntax:
-    content: 'Task LoadWindowElementsPositionOnStartupAsync<T>(string canvasName = "BaseCanvas") where T : Window'
-    parameters:
-    - id: canvasName
-      type: System.String
-      description: 画布名称
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function LoadWindowElementsPositionOnStartupAsync(Of T As Window)(canvasName As String = "BaseCanvas") As Task
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync*
-  nameWithType.vb: IFrontService.LoadWindowElementsPositionOnStartupAsync(Of T)(String)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync(Of T)(String)
-  name.vb: LoadWindowElementsPositionOnStartupAsync(Of T)(String)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide
   commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide
   id: AllWindowHide
@@ -130,15 +58,15 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowHide
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 24
+    startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 隐藏所有窗口
+  summary: 隐藏全部窗口
   example: []
   syntax:
     content: void AllWindowHide()
@@ -158,495 +86,20 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowShow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 28
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 显示所有窗口
+  summary: 显示全部窗口
   example: []
   syntax:
     content: void AllWindowShow()
     content.vb: Sub AllWindowShow()
   overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow*
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow``1
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow``1
-  id: ShowWindow``1
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: ShowWindow<T>()
-  nameWithType: IFrontService.ShowWindow<T>()
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow<T>()
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ShowWindow
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 33
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 显示窗口
-  example: []
-  syntax:
-    content: 'void ShowWindow<T>() where T : Window'
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    content.vb: Sub ShowWindow(Of T As Window)()
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow*
-  nameWithType.vb: IFrontService.ShowWindow(Of T)()
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(Of T)()
-  name.vb: ShowWindow(Of T)()
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow``1
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow``1
-  id: HideWindow``1
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: HideWindow<T>()
-  nameWithType: IFrontService.HideWindow<T>()
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow<T>()
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: HideWindow
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 38
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 隐藏窗口
-  example: []
-  syntax:
-    content: 'void HideWindow<T>() where T : Window'
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    content.vb: Sub HideWindow(Of T As Window)()
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow*
-  nameWithType.vb: IFrontService.HideWindow(Of T)()
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(Of T)()
-  name.vb: HideWindow(Of T)()
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions``1(System.String)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions``1(System.String)
-  id: RestoreInitialPositions``1(System.String)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: RestoreInitialPositions<T>(string)
-  nameWithType: IFrontService.RestoreInitialPositions<T>(string)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions<T>(string)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: RestoreInitialPositions
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 45
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 还原窗口中的元素到初始位置
-  example: []
-  syntax:
-    content: 'Task RestoreInitialPositions<T>(string canvasName = "BaseCanvas") where T : Window'
-    parameters:
-    - id: canvasName
-      type: System.String
-      description: 画布名称
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function RestoreInitialPositions(Of T As Window)(canvasName As String = "BaseCanvas") As Task
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions*
-  nameWithType.vb: IFrontService.RestoreInitialPositions(Of T)(String)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(Of T)(String)
-  name.vb: RestoreInitialPositions(Of T)(String)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition``1(System.String)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition``1(System.String)
-  id: SaveWindowElementsPosition``1(System.String)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: SaveWindowElementsPosition<T>(string)
-  nameWithType: IFrontService.SaveWindowElementsPosition<T>(string)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition<T>(string)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: SaveWindowElementsPosition
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 51
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 获取窗口中元素的位置信息
-  example: []
-  syntax:
-    content: 'void SaveWindowElementsPosition<T>(string canvasName = "BaseCanvas") where T : Window'
-    parameters:
-    - id: canvasName
-      type: System.String
-      description: 画布名称
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    content.vb: Sub SaveWindowElementsPosition(Of T As Window)(canvasName As String = "BaseCanvas")
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition*
-  nameWithType.vb: IFrontService.SaveWindowElementsPosition(Of T)(String)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(Of T)(String)
-  name.vb: SaveWindowElementsPosition(Of T)(String)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
-  id: SetGlobalScore(System.String,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: SetGlobalScore(string, GameProgress, Camp, int)
-  nameWithType: IFrontService.SetGlobalScore(string, GameProgress, Camp, int)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(string, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, int)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: SetGlobalScore
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 59
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 设置分数统计
-  example: []
-  syntax:
-    content: void SetGlobalScore(string team, GameProgress gameProgress, Camp camp, int score)
-    parameters:
-    - id: team
-      type: System.String
-      description: 队伍，从<xref href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService" data-throw-if-not-resolved="false"></xref>里拿nameof
-    - id: gameProgress
-      type: neo_bpsys_wpf.Enums.GameProgress
-      description: 游戏进度
-    - id: camp
-      type: neo_bpsys_wpf.Enums.Camp
-      description: 阵营
-    - id: score
-      type: System.Int32
-      description: 分数
-    content.vb: Sub SetGlobalScore(team As String, gameProgress As GameProgress, camp As Camp, score As Integer)
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore*
-  nameWithType.vb: IFrontService.SetGlobalScore(String, GameProgress, Camp, Integer)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(String, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, Integer)
-  name.vb: SetGlobalScore(String, GameProgress, Camp, Integer)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)
-  id: SetGlobalScoreToBar(System.String,neo_bpsys_wpf.Enums.GameProgress)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: SetGlobalScoreToBar(string, GameProgress)
-  nameWithType: IFrontService.SetGlobalScoreToBar(string, GameProgress)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(string, neo_bpsys_wpf.Enums.GameProgress)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: SetGlobalScoreToBar
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 65
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 重置分数统计为横杠
-  example: []
-  syntax:
-    content: void SetGlobalScoreToBar(string team, GameProgress gameProgress)
-    parameters:
-    - id: team
-      type: System.String
-      description: 队伍，从<xref href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService" data-throw-if-not-resolved="false"></xref>里拿nameof
-    - id: gameProgress
-      type: neo_bpsys_wpf.Enums.GameProgress
-      description: 游戏进度
-    content.vb: Sub SetGlobalScoreToBar(team As String, gameProgress As GameProgress)
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar*
-  nameWithType.vb: IFrontService.SetGlobalScoreToBar(String, GameProgress)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(String, neo_bpsys_wpf.Enums.GameProgress)
-  name.vb: SetGlobalScoreToBar(String, GameProgress)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
-  id: ResetGlobalScore
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: ResetGlobalScore()
-  nameWithType: IFrontService.ResetGlobalScore()
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore()
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ResetGlobalScore
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 69
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 重置全局分数统计
-  example: []
-  syntax:
-    content: void ResetGlobalScore()
-    content.vb: Sub ResetGlobalScore()
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore*
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation``1(System.String,System.Int32,System.String)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation``1(System.String,System.Int32,System.String)
-  id: FadeInAnimation``1(System.String,System.Int32,System.String)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: FadeInAnimation<T>(string, int, string)
-  nameWithType: IFrontService.FadeInAnimation<T>(string, int, string)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation<T>(string, int, string)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: FadeInAnimation
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 78
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 渐入动画
-  example: []
-  syntax:
-    content: 'void FadeInAnimation<T>(string controlNameHeader, int controlIndex, string controlNameFooter) where T : Window'
-    parameters:
-    - id: controlNameHeader
-      type: System.String
-      description: 控件名称头
-    - id: controlIndex
-      type: System.Int32
-      description: 控件索引
-    - id: controlNameFooter
-      type: System.String
-      description: 控件名称尾
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    content.vb: Sub FadeInAnimation(Of T As Window)(controlNameHeader As String, controlIndex As Integer, controlNameFooter As String)
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation*
-  nameWithType.vb: IFrontService.FadeInAnimation(Of T)(String, Integer, String)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(Of T)(String, Integer, String)
-  name.vb: FadeInAnimation(Of T)(String, Integer, String)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation``1(System.String,System.Int32,System.String)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation``1(System.String,System.Int32,System.String)
-  id: FadeOutAnimation``1(System.String,System.Int32,System.String)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: FadeOutAnimation<T>(string, int, string)
-  nameWithType: IFrontService.FadeOutAnimation<T>(string, int, string)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation<T>(string, int, string)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: FadeOutAnimation
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 86
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 渐出动画
-  example: []
-  syntax:
-    content: 'void FadeOutAnimation<T>(string controlNameHeader, int controlIndex, string controlNameFooter) where T : Window'
-    parameters:
-    - id: controlNameHeader
-      type: System.String
-      description: 控件名称头
-    - id: controlIndex
-      type: System.Int32
-      description: 控件索引
-    - id: controlNameFooter
-      type: System.String
-      description: 控件名称尾
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    content.vb: Sub FadeOutAnimation(Of T As Window)(controlNameHeader As String, controlIndex As Integer, controlNameFooter As String)
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation*
-  nameWithType.vb: IFrontService.FadeOutAnimation(Of T)(String, Integer, String)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(Of T)(String, Integer, String)
-  name.vb: FadeOutAnimation(Of T)(String, Integer, String)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart``1(System.String,System.Int32,System.String)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart``1(System.String,System.Int32,System.String)
-  id: BreathingStart``1(System.String,System.Int32,System.String)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: BreathingStart<T>(string, int, string)
-  nameWithType: IFrontService.BreathingStart<T>(string, int, string)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart<T>(string, int, string)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: BreathingStart
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 94
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 呼吸动画
-  example: []
-  syntax:
-    content: 'Task BreathingStart<T>(string controlNameHeader, int controlIndex, string controlNameFooter) where T : Window'
-    parameters:
-    - id: controlNameHeader
-      type: System.String
-      description: 控件名称头
-    - id: controlIndex
-      type: System.Int32
-      description: 控件索引
-    - id: controlNameFooter
-      type: System.String
-      description: 控件名称尾
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function BreathingStart(Of T As Window)(controlNameHeader As String, controlIndex As Integer, controlNameFooter As String) As Task
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*
-  nameWithType.vb: IFrontService.BreathingStart(Of T)(String, Integer, String)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(Of T)(String, Integer, String)
-  name.vb: BreathingStart(Of T)(String, Integer, String)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop``1(System.String,System.Int32,System.String)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop``1(System.String,System.Int32,System.String)
-  id: BreathingStop``1(System.String,System.Int32,System.String)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: BreathingStop<T>(string, int, string)
-  nameWithType: IFrontService.BreathingStop<T>(string, int, string)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop<T>(string, int, string)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: BreathingStop
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 103
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 停止呼吸动画
-  example: []
-  syntax:
-    content: 'Task BreathingStop<T>(string controlNameHeader, int controlIndex, string controlNameFooter) where T : Window'
-    parameters:
-    - id: controlNameHeader
-      type: System.String
-      description: 控件名称头
-    - id: controlIndex
-      type: System.Int32
-      description: 控件索引
-    - id: controlNameFooter
-      type: System.String
-      description: 控件名称尾
-    typeParameters:
-    - id: T
-      description: 窗口类型
-    return:
-      type: System.Threading.Tasks.Task
-      description: ''
-    content.vb: Function BreathingStop(Of T As Window)(controlNameHeader As String, controlIndex As Integer, controlNameFooter As String) As Task
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop*
-  nameWithType.vb: IFrontService.BreathingStop(Of T)(String, Integer, String)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(Of T)(String, Integer, String)
-  name.vb: BreathingStop(Of T)(String, Integer, String)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type,System.Boolean)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type,System.Boolean)
-  id: ApplySettings(System.Type,System.Boolean)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: ApplySettings(Type, bool)
-  nameWithType: IFrontService.ApplySettings(Type, bool)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type, bool)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ApplySettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 110
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 应用设置
-  example: []
-  syntax:
-    content: void ApplySettings(Type windowType, bool isInitial = false)
-    parameters:
-    - id: windowType
-      type: System.Type
-      description: 窗口类型
-    - id: isInitial
-      type: System.Boolean
-      description: 是否是初始化模式
-    content.vb: Sub ApplySettings(windowType As Type, isInitial As Boolean = False)
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*
-  nameWithType.vb: IFrontService.ApplySettings(Type, Boolean)
-  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(System.Type, Boolean)
-  name.vb: ApplySettings(Type, Boolean)
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
   commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
   id: ApplyAllWindowsSettings
@@ -661,20 +114,512 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ApplyAllWindowsSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 114
+    startLine: 20
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 应用所有窗口设置
+  summary: 应用全部窗口设置
   example: []
   syntax:
     content: void ApplyAllWindowsSettings()
     content.vb: Sub ApplyAllWindowsSettings()
   overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings*
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  id: ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: ApplySettings(FrontWindowType)
+  nameWithType: IFrontService.ApplySettings(FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ApplySettings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 25
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 应用窗口设置
+  example: []
+  syntax:
+    content: void ApplySettings(FrontWindowType windowType)
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    content.vb: Sub ApplySettings(windowType As FrontWindowType)
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  id: BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: BreathingStart(FrontWindowType, string, int, string)
+  nameWithType: IFrontService.BreathingStart(FrontWindowType, string, int, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BreathingStart
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 34
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 呼吸灯启动
+  example: []
+  syntax:
+    content: Task BreathingStart(FrontWindowType windowType, string controlNameHeader, int controlIndex, string controlNameFooter)
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    - id: controlNameHeader
+      type: System.String
+      description: 控件名称头
+    - id: controlIndex
+      type: System.Int32
+      description: 控件索引(-1表示没有)
+    - id: controlNameFooter
+      type: System.String
+      description: 控件名称尾
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function BreathingStart(windowType As FrontWindowType, controlNameHeader As String, controlIndex As Integer, controlNameFooter As String) As Task
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*
+  nameWithType.vb: IFrontService.BreathingStart(FrontWindowType, String, Integer, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  name.vb: BreathingStart(FrontWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  id: BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: BreathingStop(FrontWindowType, string, int, string)
+  nameWithType: IFrontService.BreathingStop(FrontWindowType, string, int, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BreathingStop
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 43
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 呼吸灯停止
+  example: []
+  syntax:
+    content: Task BreathingStop(FrontWindowType windowType, string controlNameHeader, int controlIndex, string controlNameFooter)
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    - id: controlNameHeader
+      type: System.String
+      description: 控件名称头
+    - id: controlIndex
+      type: System.Int32
+      description: 控件索引(-1表示没有)
+    - id: controlNameFooter
+      type: System.String
+      description: 控件名称尾
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function BreathingStop(windowType As FrontWindowType, controlNameHeader As String, controlIndex As Integer, controlNameFooter As String) As Task
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop*
+  nameWithType.vb: IFrontService.BreathingStop(FrontWindowType, String, Integer, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  name.vb: BreathingStop(FrontWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  id: FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: FadeInAnimation(FrontWindowType, string, int, string)
+  nameWithType: IFrontService.FadeInAnimation(FrontWindowType, string, int, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: FadeInAnimation
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 52
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 渐显动画
+  example: []
+  syntax:
+    content: void FadeInAnimation(FrontWindowType windowType, string controlNameHeader, int controlIndex, string controlNameFooter)
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    - id: controlNameHeader
+      type: System.String
+      description: 控件名称头
+    - id: controlIndex
+      type: System.Int32
+      description: 控件索引(-1表示没有)
+    - id: controlNameFooter
+      type: System.String
+      description: 控件名称尾
+    content.vb: Sub FadeInAnimation(windowType As FrontWindowType, controlNameHeader As String, controlIndex As Integer, controlNameFooter As String)
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation*
+  nameWithType.vb: IFrontService.FadeInAnimation(FrontWindowType, String, Integer, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  name.vb: FadeInAnimation(FrontWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  id: FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: FadeOutAnimation(FrontWindowType, string, int, string)
+  nameWithType: IFrontService.FadeOutAnimation(FrontWindowType, string, int, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType, string, int, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: FadeOutAnimation
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 61
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 渐隐动画
+  example: []
+  syntax:
+    content: void FadeOutAnimation(FrontWindowType windowType, string controlNameHeader, int controlIndex, string controlNameFooter)
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    - id: controlNameHeader
+      type: System.String
+      description: 控件名称头
+    - id: controlIndex
+      type: System.Int32
+      description: 控件索引(-1表示没有)
+    - id: controlNameFooter
+      type: System.String
+      description: 控件名称尾
+    content.vb: Sub FadeOutAnimation(windowType As FrontWindowType, controlNameHeader As String, controlIndex As Integer, controlNameFooter As String)
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation*
+  nameWithType.vb: IFrontService.FadeOutAnimation(FrontWindowType, String, Integer, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
+  name.vb: FadeOutAnimation(FrontWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  id: HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: HideWindow(FrontWindowType)
+  nameWithType: IFrontService.HideWindow(FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: HideWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 66
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 隐藏窗口
+  example: []
+  syntax:
+    content: void HideWindow(FrontWindowType windowType)
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    content.vb: Sub HideWindow(windowType As FrontWindowType)
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow*
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
+  id: ResetGlobalScore
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: ResetGlobalScore()
+  nameWithType: IFrontService.ResetGlobalScore()
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ResetGlobalScore
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 70
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 重置全局分数
+  example: []
+  syntax:
+    content: void ResetGlobalScore()
+    content.vb: Sub ResetGlobalScore()
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore*
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  id: RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: RestoreInitialPositions(FrontWindowType, string)
+  nameWithType: IFrontService.RestoreInitialPositions(FrontWindowType, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: RestoreInitialPositions
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 77
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 恢复初始位置
+  example: []
+  syntax:
+    content: Task RestoreInitialPositions(FrontWindowType windowType, string canvasName = "BaseCanvas")
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    - id: canvasName
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function RestoreInitialPositions(windowType As FrontWindowType, canvasName As String = "BaseCanvas") As Task
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions*
+  nameWithType.vb: IFrontService.RestoreInitialPositions(FrontWindowType, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType, String)
+  name.vb: RestoreInitialPositions(FrontWindowType, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
+  id: SaveAllWindowElementsPosition
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: SaveAllWindowElementsPosition()
+  nameWithType: IFrontService.SaveAllWindowElementsPosition()
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition()
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SaveAllWindowElementsPosition
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 81
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 保存所有窗口元素位置
+  example: []
+  syntax:
+    content: void SaveAllWindowElementsPosition()
+    content.vb: Sub SaveAllWindowElementsPosition()
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition*
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  id: SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: SaveWindowElementsPosition(FrontWindowType, string)
+  nameWithType: IFrontService.SaveWindowElementsPosition(FrontWindowType, string)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType, string)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SaveWindowElementsPosition
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 87
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 保存窗口元素位置
+  example: []
+  syntax:
+    content: void SaveWindowElementsPosition(FrontWindowType windowType, string canvasName = "BaseCanvas")
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    - id: canvasName
+      type: System.String
+      description: 画布名称
+    content.vb: Sub SaveWindowElementsPosition(windowType As FrontWindowType, canvasName As String = "BaseCanvas")
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition*
+  nameWithType.vb: IFrontService.SaveWindowElementsPosition(FrontWindowType, String)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType, String)
+  name.vb: SaveWindowElementsPosition(FrontWindowType, String)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
+  id: SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: SetGlobalScore(TeamType, GameProgress, Camp, int)
+  nameWithType: IFrontService.SetGlobalScore(TeamType, GameProgress, Camp, int)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, int)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SetGlobalScore
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 95
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 设置全局分数
+  example: []
+  syntax:
+    content: void SetGlobalScore(TeamType team, GameProgress gameProgress, Camp camp, int score)
+    parameters:
+    - id: team
+      type: neo_bpsys_wpf.Enums.TeamType
+      description: 队伍
+    - id: gameProgress
+      type: neo_bpsys_wpf.Enums.GameProgress
+      description: 游戏进度
+    - id: camp
+      type: neo_bpsys_wpf.Enums.Camp
+      description: 阵营
+    - id: score
+      type: System.Int32
+      description: 分数
+    content.vb: Sub SetGlobalScore(team As TeamType, gameProgress As GameProgress, camp As Camp, score As Integer)
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore*
+  nameWithType.vb: IFrontService.SetGlobalScore(TeamType, GameProgress, Camp, Integer)
+  fullName.vb: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Camp, Integer)
+  name.vb: SetGlobalScore(TeamType, GameProgress, Camp, Integer)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)
+  id: SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: SetGlobalScoreToBar(TeamType, GameProgress)
+  nameWithType: IFrontService.SetGlobalScoreToBar(TeamType, GameProgress)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType, neo_bpsys_wpf.Enums.GameProgress)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SetGlobalScoreToBar
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 101
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 设置全局分数
+  example: []
+  syntax:
+    content: void SetGlobalScoreToBar(TeamType team, GameProgress gameProgress)
+    parameters:
+    - id: team
+      type: neo_bpsys_wpf.Enums.TeamType
+      description: 队伍
+    - id: gameProgress
+      type: neo_bpsys_wpf.Enums.GameProgress
+      description: 对局进度
+    content.vb: Sub SetGlobalScoreToBar(team As TeamType, gameProgress As GameProgress)
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar*
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  id: ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow(FrontWindowType)
+  nameWithType: IFrontService.ShowWindow(FrontWindowType)
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+      branch: dev
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ShowWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
+    startLine: 106
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Abstractions.Services
+  summary: 显示窗口
+  example: []
+  syntax:
+    content: void ShowWindow(FrontWindowType windowType)
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+      description: 窗口类型
+    content.vb: Sub ShowWindow(windowType As FrontWindowType)
+  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow*
 references:
 - uid: neo_bpsys_wpf.Abstractions.Services
   commentId: N:neo_bpsys_wpf.Abstractions.Services
@@ -706,136 +651,65 @@ references:
   - uid: neo_bpsys_wpf.Abstractions.Services
     name: Services
     href: neo_bpsys_wpf.Abstractions.Services.html
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FrontWindowStates
-  name: FrontWindowStates
-  nameWithType: IFrontService.FrontWindowStates
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FrontWindowStates
-- uid: System.Collections.Generic.Dictionary{System.Type,System.Boolean}
-  commentId: T:System.Collections.Generic.Dictionary{System.Type,System.Boolean}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<Type, bool>
-  nameWithType: Dictionary<Type, bool>
-  fullName: System.Collections.Generic.Dictionary<System.Type, bool>
-  nameWithType.vb: Dictionary(Of Type, Boolean)
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.Type, Boolean)
-  name.vb: Dictionary(Of Type, Boolean)
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowHide
+  name: AllWindowHide
+  nameWithType: IFrontService.AllWindowHide
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowShow
+  name: AllWindowShow
+  nameWithType: IFrontService.AllWindowShow
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings
+  name: ApplyAllWindowsSettings
+  nameWithType: IFrontService.ApplyAllWindowsSettings
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
+  name: ApplySettings
+  nameWithType: IFrontService.ApplySettings
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
+- uid: neo_bpsys_wpf.Enums.FrontWindowType
+  commentId: T:neo_bpsys_wpf.Enums.FrontWindowType
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.FrontWindowType.html
+  name: FrontWindowType
+  nameWithType: FrontWindowType
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
   spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: <
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: '>'
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
   spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
   - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_LoadWindowElementsPositionOnStartupAsync__1_System_String_
-  name: LoadWindowElementsPositionOnStartupAsync
-  nameWithType: IFrontService.LoadWindowElementsPositionOnStartupAsync
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.LoadWindowElementsPositionOnStartupAsync
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  name: BreathingStart
+  nameWithType: IFrontService.BreathingStart
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -847,6 +721,17 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -899,55 +784,67 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowHide
-  name: AllWindowHide
-  nameWithType: IFrontService.AllWindowHide
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowShow
-  name: AllWindowShow
-  nameWithType: IFrontService.AllWindowShow
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ShowWindow__1
-  name: ShowWindow
-  nameWithType: IFrontService.ShowWindow
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStop_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  name: BreathingStop
+  nameWithType: IFrontService.BreathingStop
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeInAnimation_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  name: FadeInAnimation
+  nameWithType: IFrontService.FadeInAnimation
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeOutAnimation_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  name: FadeOutAnimation
+  nameWithType: IFrontService.FadeOutAnimation
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow*
   commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_HideWindow__1
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_HideWindow_neo_bpsys_wpf_Enums_FrontWindowType_
   name: HideWindow
   nameWithType: IFrontService.HideWindow
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ResetGlobalScore
+  name: ResetGlobalScore
+  nameWithType: IFrontService.ResetGlobalScore
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions*
   commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_RestoreInitialPositions__1_System_String_
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_RestoreInitialPositions_neo_bpsys_wpf_Enums_FrontWindowType_System_String_
   name: RestoreInitialPositions
   nameWithType: IFrontService.RestoreInitialPositions
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveAllWindowElementsPosition
+  name: SaveAllWindowElementsPosition
+  nameWithType: IFrontService.SaveAllWindowElementsPosition
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition*
   commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveWindowElementsPosition__1_System_String_
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveWindowElementsPosition_neo_bpsys_wpf_Enums_FrontWindowType_System_String_
   name: SaveWindowElementsPosition
   nameWithType: IFrontService.SaveWindowElementsPosition
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition
-- uid: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
-  commentId: T:neo_bpsys_wpf.Abstractions.Services.ISharedDataService
-  parent: neo_bpsys_wpf.Abstractions.Services
-  href: neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html
-  name: ISharedDataService
-  nameWithType: ISharedDataService
-  fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore*
   commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScore_System_String_neo_bpsys_wpf_Enums_GameProgress_neo_bpsys_wpf_Enums_Camp_System_Int32_
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScore_neo_bpsys_wpf_Enums_TeamType_neo_bpsys_wpf_Enums_GameProgress_neo_bpsys_wpf_Enums_Camp_System_Int32_
   name: SetGlobalScore
   nameWithType: IFrontService.SetGlobalScore
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore
+- uid: neo_bpsys_wpf.Enums.TeamType
+  commentId: T:neo_bpsys_wpf.Enums.TeamType
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.TeamType.html
+  name: TeamType
+  nameWithType: TeamType
+  fullName: neo_bpsys_wpf.Enums.TeamType
 - uid: neo_bpsys_wpf.Enums.GameProgress
   commentId: T:neo_bpsys_wpf.Enums.GameProgress
   parent: neo_bpsys_wpf.Enums
@@ -962,103 +859,15 @@ references:
   name: Camp
   nameWithType: Camp
   fullName: neo_bpsys_wpf.Enums.Camp
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: neo_bpsys_wpf.Enums
-  commentId: N:neo_bpsys_wpf.Enums
-  href: neo_bpsys_wpf.html
-  name: neo_bpsys_wpf.Enums
-  nameWithType: neo_bpsys_wpf.Enums
-  fullName: neo_bpsys_wpf.Enums
-  spec.csharp:
-  - uid: neo_bpsys_wpf
-    name: neo_bpsys_wpf
-    href: neo_bpsys_wpf.html
-  - name: .
-  - uid: neo_bpsys_wpf.Enums
-    name: Enums
-    href: neo_bpsys_wpf.Enums.html
-  spec.vb:
-  - uid: neo_bpsys_wpf
-    name: neo_bpsys_wpf
-    href: neo_bpsys_wpf.html
-  - name: .
-  - uid: neo_bpsys_wpf.Enums
-    name: Enums
-    href: neo_bpsys_wpf.Enums.html
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar*
   commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScoreToBar_System_String_neo_bpsys_wpf_Enums_GameProgress_
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScoreToBar_neo_bpsys_wpf_Enums_TeamType_neo_bpsys_wpf_Enums_GameProgress_
   name: SetGlobalScoreToBar
   nameWithType: IFrontService.SetGlobalScoreToBar
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ResetGlobalScore
-  name: ResetGlobalScore
-  nameWithType: IFrontService.ResetGlobalScore
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeInAnimation__1_System_String_System_Int32_System_String_
-  name: FadeInAnimation
-  nameWithType: IFrontService.FadeInAnimation
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeOutAnimation__1_System_String_System_Int32_System_String_
-  name: FadeOutAnimation
-  nameWithType: IFrontService.FadeOutAnimation
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart__1_System_String_System_Int32_System_String_
-  name: BreathingStart
-  nameWithType: IFrontService.BreathingStart
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStop__1_System_String_System_Int32_System_String_
-  name: BreathingStop
-  nameWithType: IFrontService.BreathingStop
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_System_Type_System_Boolean_
-  name: ApplySettings
-  nameWithType: IFrontService.ApplySettings
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
-- uid: System.Type
-  commentId: T:System.Type
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings
-  name: ApplyAllWindowsSettings
-  nameWithType: IFrontService.ApplyAllWindowsSettings
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ShowWindow_neo_bpsys_wpf_Enums_FrontWindowType_
+  name: ShowWindow
+  nameWithType: IFrontService.ShowWindow
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow

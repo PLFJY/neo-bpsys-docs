@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -94,7 +94,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -158,7 +158,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -193,7 +193,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -225,7 +225,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -260,7 +260,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentBanLockImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -289,7 +289,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBanLockImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -318,7 +318,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickingBorderSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -347,7 +347,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -376,7 +376,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RemainingSeconds
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -405,7 +405,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -434,7 +434,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -463,7 +463,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -492,7 +492,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs

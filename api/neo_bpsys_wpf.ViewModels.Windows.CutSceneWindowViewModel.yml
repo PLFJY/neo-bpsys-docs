@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -94,7 +94,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -158,7 +158,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -190,7 +190,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -225,7 +225,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BorrowedTimeImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -254,7 +254,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FlywheelEffectImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -283,7 +283,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: KneeJerkReflexImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -312,7 +312,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TideTurnerImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -341,7 +341,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ConfinedSpaceImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -370,7 +370,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: DetentionImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -399,7 +399,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InsolenceImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -428,7 +428,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TrumpCardImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -457,7 +457,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs

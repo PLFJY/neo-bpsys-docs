@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/PlayerSwappedMessage.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PlayerSwappedMessage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/PlayerSwappedMessage.cs
@@ -44,7 +44,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/PlayerSwappedMessage.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/PlayerSwappedMessage.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/PlayerSwappedMessage.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Sender
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/PlayerSwappedMessage.cs

@@ -8,7 +8,8 @@ items:
   - neo_bpsys_wpf.Messages.CharacterSwappedMessage
   - neo_bpsys_wpf.Messages.DesignModeChangedMessage
   - neo_bpsys_wpf.Messages.HighlightMessage
-  - neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  - neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  - neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
   - neo_bpsys_wpf.Messages.NewGameMessage
   - neo_bpsys_wpf.Messages.PlayerSwappedMessage
   - neo_bpsys_wpf.Messages.SwapMessage
@@ -50,13 +51,20 @@ references:
   name: HighlightMessage
   nameWithType: HighlightMessage
   fullName: neo_bpsys_wpf.Messages.HighlightMessage
-- uid: neo_bpsys_wpf.Messages.MemberStateChangedMessage
-  commentId: T:neo_bpsys_wpf.Messages.MemberStateChangedMessage
+- uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
   parent: neo_bpsys_wpf.Messages
-  href: neo_bpsys_wpf.Messages.MemberStateChangedMessage.html
-  name: MemberStateChangedMessage
-  nameWithType: MemberStateChangedMessage
-  fullName: neo_bpsys_wpf.Messages.MemberStateChangedMessage
+  href: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html
+  name: MemberOnFieldChangedMessage
+  nameWithType: MemberOnFieldChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+- uid: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html
+  name: MemberPropertyChangedMessage
+  nameWithType: MemberPropertyChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
 - uid: neo_bpsys_wpf.Messages.NewGameMessage
   commentId: T:neo_bpsys_wpf.Messages.NewGameMessage
   parent: neo_bpsys_wpf.Messages

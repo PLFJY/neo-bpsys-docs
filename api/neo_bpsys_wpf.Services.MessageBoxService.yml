@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/MessageBoxService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MessageBoxService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
@@ -50,7 +50,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/MessageBoxService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowDeleteConfirmAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/MessageBoxService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowInfoAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/MessageBoxService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowErrorAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs
@@ -191,7 +191,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/MessageBoxService.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowConfirmAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/MessageBoxService.cs

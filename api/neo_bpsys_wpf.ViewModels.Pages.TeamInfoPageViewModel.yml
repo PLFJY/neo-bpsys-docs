@@ -20,7 +20,7 @@ items:
   type: Class
   source:
     id: TeamInfoPageViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.ImportInfoFromJson.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.SwitchMemberState.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -83,7 +83,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -119,7 +119,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeamInfoViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayTeamInfoViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnFieldSurPlayerViewModels
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -206,7 +206,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev-feat/DeepCustom
+      branch: dev
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnFieldHunPlayerVm
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
