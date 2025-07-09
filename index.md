@@ -1,6 +1,6 @@
 # neo-bpsys-wpf
 
-powered by <img src="https://raw.githubusercontent.com/PLFJY/neo-bpsys-wpf/refs/heads/main/neo-bpsys-wpf/Assets/logo_net.jpg" width="30px" height="25px"> 9.0.4 & <img src="https://raw.githubusercontent.com/PLFJY/neo-bpsys-wpf/refs/heads/main/neo-bpsys-wpf/Assets/wpfui.png" width="30px" height="25px"> 4.0.3
+powered by <img src="./images/logo_net.jpg" width="30px" height="25px"> 9.0.4 & <img src="./images/wpfui.png" width="30px" height="25px"> 4.0.3
 
 [![](https://img.shields.io/github/issues/plfjy/neo-bpsys-wpf.svg)](https://github.com/plfjy/neo-bpsys-wpf/issues) [![](https://img.shields.io/github/forks/plfjy/neo-bpsys-wpf.svg)](https://github.com/plfjy/neo-bpsys-wpf/network) [![](https://img.shields.io/github/stars/plfjy/neo-bpsys-wpf.svg)](https://github.com/plfjy/neo-bpsys-wpf/stargazers) [![](https://img.shields.io/github/release/plfjy/neo-bpsys-wpf.svg)](https://github.com/caiyongji/emoji-list/releases)
 

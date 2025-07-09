@@ -26,7 +26,7 @@ items:
   type: Class
   source:
     id: PickPageViewModel
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchAsync.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel+SurPickViewModel.SwapCharacterInPlayers.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -344,32 +344,6 @@ items:
       type: System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel}
     content.vb: Public Property AwayHunGlobalBanRecordViewModelList As ObservableCollection(Of PickPageViewModel.AwayHunGlobalBanRecordViewModel)
   overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModelList*
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
-  id: HunPickingBorder
-  parent: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel
-  langs:
-  - csharp
-  - vb
-  name: HunPickingBorder
-  nameWithType: PickPageViewModel.HunPickingBorder
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
-  type: Property
-  source:
-    id: HunPickingBorder
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.g.cs
-    startLine: 9
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.ViewModels.Pages
-  example: []
-  syntax:
-    content: public bool HunPickingBorder { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property HunPickingBorder As Boolean
-  overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder*
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchCommand
   id: PickingBorderSwitchCommand
@@ -397,6 +371,32 @@ items:
       type: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand{System.String}
     content.vb: Public ReadOnly Property PickingBorderSwitchCommand As IAsyncRelayCommand(Of String)
   overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchCommand*
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
+  id: HunPickingBorder
+  parent: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel
+  langs:
+  - csharp
+  - vb
+  name: HunPickingBorder
+  nameWithType: PickPageViewModel.HunPickingBorder
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
+  type: Property
+  source:
+    id: HunPickingBorder
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.g.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  example: []
+  syntax:
+    content: public bool HunPickingBorder { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HunPickingBorder As Boolean
+  overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder*
 references:
 - uid: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
   commentId: T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject
@@ -1003,23 +1003,6 @@ references:
     name: AwayHunGlobalBanRecordViewModel
     href: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
-  href: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickingBorder
-  name: HunPickingBorder
-  nameWithType: PickPageViewModel.HunPickingBorder
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
   commentId: T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1
   isExternal: true
@@ -1149,3 +1132,20 @@ references:
     name: Input
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
+  href: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickingBorder
+  name: HunPickingBorder
+  nameWithType: PickPageViewModel.HunPickingBorder
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
