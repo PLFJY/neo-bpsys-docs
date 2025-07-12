@@ -49,7 +49,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Score.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MajorPointsOnFront
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Score.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Score.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScorePreviewOnBack
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Score.cs

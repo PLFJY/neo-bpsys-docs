@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 172
+    startLine: 195
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -47,11 +47,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Resolution
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 174
+    startLine: 197
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -76,11 +76,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BgImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 175
+    startLine: 198
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -105,11 +105,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TextSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 176
+    startLine: 199
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models

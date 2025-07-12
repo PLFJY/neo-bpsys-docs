@@ -11,7 +11,9 @@ items:
   - neo_bpsys_wpf.Models.Player.IsMemberValid
   - neo_bpsys_wpf.Models.Player.Member
   - neo_bpsys_wpf.Models.Player.PictureShown
+  - neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
   - neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  - neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.SwapMessage)
   - neo_bpsys_wpf.Models.Player.Talent
   - neo_bpsys_wpf.Models.Player.Trait
   langs:
@@ -54,11 +56,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Player.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
-    startLine: 18
+    startLine: 13
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -88,11 +90,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Player.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMemberValid
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
-    startLine: 27
+    startLine: 22
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -117,11 +119,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Player.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PictureShown
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
-    startLine: 38
+    startLine: 33
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -156,11 +158,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Player.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
-    startLine: 40
+    startLine: 35
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -173,6 +175,70 @@ items:
       type: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
       description: The message being received.
     content.vb: Public Sub Receive(message As MemberPropertyChangedMessage)
+  overload: neo_bpsys_wpf.Models.Player.Receive*
+- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  parent: neo_bpsys_wpf.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: Receive(MemberOnFieldChangedMessage)
+  nameWithType: Player.Receive(MemberOnFieldChangedMessage)
+  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Player.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
+    startLine: 36
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public void Receive(MemberOnFieldChangedMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+      description: The message being received.
+    content.vb: Public Sub Receive(message As MemberOnFieldChangedMessage)
+  overload: neo_bpsys_wpf.Models.Player.Receive*
+- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  id: Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  parent: neo_bpsys_wpf.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: Receive(SwapMessage)
+  nameWithType: Player.Receive(SwapMessage)
+  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Player.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Player.cs
+    startLine: 37
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.SwapMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public void Receive(SwapMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.SwapMessage
+      description: The message being received.
+    content.vb: Public Sub Receive(message As SwapMessage)
   overload: neo_bpsys_wpf.Models.Player.Receive*
 - uid: neo_bpsys_wpf.Models.Player.Member
   commentId: P:neo_bpsys_wpf.Models.Player.Member
@@ -569,6 +635,20 @@ references:
   - uid: neo_bpsys_wpf.Messages
     name: Messages
     href: neo_bpsys_wpf.Messages.html
+- uid: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html
+  name: MemberOnFieldChangedMessage
+  nameWithType: MemberOnFieldChangedMessage
+  fullName: neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage
+- uid: neo_bpsys_wpf.Messages.SwapMessage
+  commentId: T:neo_bpsys_wpf.Messages.SwapMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.SwapMessage.html
+  name: SwapMessage
+  nameWithType: SwapMessage
+  fullName: neo_bpsys_wpf.Messages.SwapMessage
 - uid: neo_bpsys_wpf.Models.Player.Member*
   commentId: Overload:neo_bpsys_wpf.Models.Player.Member
   href: neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Member

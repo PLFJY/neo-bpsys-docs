@@ -8,7 +8,6 @@ items:
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
-  - neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
   - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel
@@ -46,12 +45,6 @@ references:
   name: MainWindowViewModel
   nameWithType: MainWindowViewModel
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
-- uid: neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel
-  commentId: T:neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel
-  href: neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel.html
-  name: MapBpWindowViewModel
-  nameWithType: MapBpWindowViewModel
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
   commentId: T:neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
   href: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html

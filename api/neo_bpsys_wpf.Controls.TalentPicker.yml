@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TalentPicker
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsTypeHun
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsTypeHunProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharacterName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharacterNameProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs
@@ -172,7 +172,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Player
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs
@@ -201,7 +201,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PlayerProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs
@@ -228,7 +228,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHighlighted
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs
@@ -257,7 +257,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TalentPicker.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHighlightedProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TalentPicker.cs

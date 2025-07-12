@@ -59,11 +59,11 @@ items:
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.BanCountChangedMessage)
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.HighlightMessage)
+  - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.PreviewImage
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsHighlighted
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsCharaChangerHighlighted
-  - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.PlayerName
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.PlayerName
   id: PlayerName
@@ -78,7 +78,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PlayerName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -107,7 +107,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -143,7 +143,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -203,7 +203,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncIsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -231,7 +231,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsActionNameCorrect
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -264,7 +264,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -296,7 +296,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -328,7 +328,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -579,6 +579,13 @@ references:
     name: HighlightMessage
     href: neo_bpsys_wpf.Messages.HighlightMessage.html
   - name: )
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+  commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
+  parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
+  href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand
+  name: ConfirmCommand
+  nameWithType: CharaSelectViewModelBase.ConfirmCommand
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
 - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
   parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
@@ -607,13 +614,6 @@ references:
   name: IsCharaChangerHighlighted
   nameWithType: CharaSelectViewModelBase.IsCharaChangerHighlighted
   fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsCharaChangerHighlighted
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-  commentId: P:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
-  parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
-  href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand
-  name: ConfirmCommand
-  nameWithType: CharaSelectViewModelBase.ConfirmCommand
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand
 - uid: CommunityToolkit.Mvvm.ComponentModel
   commentId: N:CommunityToolkit.Mvvm.ComponentModel
   isExternal: true

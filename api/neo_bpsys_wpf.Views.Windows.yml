@@ -8,7 +8,6 @@ items:
   - neo_bpsys_wpf.Views.Windows.CutSceneWindow
   - neo_bpsys_wpf.Views.Windows.GameDataWindow
   - neo_bpsys_wpf.Views.Windows.MainWindow
-  - neo_bpsys_wpf.Views.Windows.MapBpWindow
   - neo_bpsys_wpf.Views.Windows.ScoreManualWindow
   - neo_bpsys_wpf.Views.Windows.ScoreWindow
   - neo_bpsys_wpf.Views.Windows.WidgetsWindow
@@ -49,15 +48,8 @@ references:
   name: MainWindow
   nameWithType: MainWindow
   fullName: neo_bpsys_wpf.Views.Windows.MainWindow
-- uid: neo_bpsys_wpf.Views.Windows.MapBpWindow
-  commentId: T:neo_bpsys_wpf.Views.Windows.MapBpWindow
-  href: neo_bpsys_wpf.Views.Windows.MapBpWindow.html
-  name: MapBpWindow
-  nameWithType: MapBpWindow
-  fullName: neo_bpsys_wpf.Views.Windows.MapBpWindow
 - uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
   commentId: T:neo_bpsys_wpf.Views.Windows.ScoreManualWindow
-  parent: neo_bpsys_wpf.Views.Windows
   href: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html
   name: ScoreManualWindow
   nameWithType: ScoreManualWindow

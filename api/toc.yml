@@ -120,6 +120,9 @@ items:
   - uid: neo_bpsys_wpf.Converters.DoubleToThicknessConverter
     name: DoubleToThicknessConverter
     type: Class
+  - uid: neo_bpsys_wpf.Converters.FontWeightJsonConverter
+    name: FontWeightJsonConverter
+    type: Class
   - uid: neo_bpsys_wpf.Converters.GameProgressToStringConverter
     name: GameProgressToStringConverter
     type: Class
@@ -217,6 +220,9 @@ items:
   - uid: neo_bpsys_wpf.Messages.PlayerSwappedMessage
     name: PlayerSwappedMessage
     type: Class
+  - uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
+    name: SettingsChangedMessage
+    type: Class
   - uid: neo_bpsys_wpf.Messages.SwapMessage
     name: SwapMessage
     type: Class
@@ -247,6 +253,9 @@ items:
     type: Class
   - uid: neo_bpsys_wpf.Models.GameDataWindowTextSettings
     name: GameDataWindowTextSettings
+    type: Class
+  - uid: neo_bpsys_wpf.Models.MapV2
+    name: MapV2
     type: Class
   - uid: neo_bpsys_wpf.Models.Member
     name: Member
@@ -441,9 +450,6 @@ items:
   - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel
     name: MainWindowViewModel
     type: Class
-  - uid: neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel
-    name: MapBpWindowViewModel
-    type: Class
   - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel
     name: ScoreManualWindowViewModel
     type: Class
@@ -508,9 +514,6 @@ items:
     type: Class
   - uid: neo_bpsys_wpf.Views.Windows.MainWindow
     name: MainWindow
-    type: Class
-  - uid: neo_bpsys_wpf.Views.Windows.MapBpWindow
-    name: MapBpWindow
     type: Class
   - uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
     name: ScoreManualWindow

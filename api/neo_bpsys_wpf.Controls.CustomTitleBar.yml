@@ -31,7 +31,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/CustomTitleBar.g.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CustomTitleBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/CustomTitleBar.g.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsThemeChangeChecked
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsThemeChangeCheckedProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -155,7 +155,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsThemeChangeVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -184,7 +184,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsThemeChangeButtonVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ThemeChangeCommand
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -240,7 +240,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ThemeChangeCommandProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -267,7 +267,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMaximizeVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -296,7 +296,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMaximizeVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -323,7 +323,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMinimizeVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -352,7 +352,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsMinimizeVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -379,7 +379,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsTopMostVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -408,7 +408,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsTopMostVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -435,7 +435,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Icon
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -464,7 +464,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IconProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CustomTitleBar.xaml.cs
@@ -491,7 +491,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/CustomTitleBar.g.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/CustomTitleBar.g.cs

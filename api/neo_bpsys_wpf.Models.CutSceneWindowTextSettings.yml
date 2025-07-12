@@ -6,9 +6,10 @@ items:
   parent: neo_bpsys_wpf.Models
   children:
   - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress
+  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
   - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
   - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
-  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+  - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
   - neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName
   langs:
   - csharp
@@ -20,11 +21,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CutSceneWindowTextSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 114
+    startLine: 134
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -49,11 +50,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TeamName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 116
+    startLine: 136
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -78,11 +79,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MajorPoints
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 119
+    startLine: 139
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -93,35 +94,64 @@ items:
       type: neo_bpsys_wpf.Models.TextSettings
     content.vb: Public Property MajorPoints As TextSettings
   overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints*
-- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
-  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
-  id: PlayerId
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
+  id: SurPlayerId
   parent: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
   langs:
   - csharp
   - vb
-  name: PlayerId
-  nameWithType: CutSceneWindowTextSettings.PlayerId
-  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+  name: SurPlayerId
+  nameWithType: CutSceneWindowTextSettings.SurPlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
   type: Property
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: PlayerId
+    id: SurPlayerId
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 121
+    startLine: 141
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   syntax:
-    content: public TextSettings PlayerId { get; set; }
+    content: public TextSettings SurPlayerId { get; set; }
     parameters: []
     return:
       type: neo_bpsys_wpf.Models.TextSettings
-    content.vb: Public Property PlayerId As TextSettings
-  overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId*
+    content.vb: Public Property SurPlayerId As TextSettings
+  overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId*
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  id: HunPlayerId
+  parent: neo_bpsys_wpf.Models.CutSceneWindowTextSettings
+  langs:
+  - csharp
+  - vb
+  name: HunPlayerId
+  nameWithType: CutSceneWindowTextSettings.HunPlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: HunPlayerId
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 144
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public TextSettings HunPlayerId { get; set; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.TextSettings
+    content.vb: Public Property HunPlayerId As TextSettings
+  overload: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId*
 - uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
   commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
   id: MapName
@@ -136,11 +166,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MapName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 124
+    startLine: 147
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -165,11 +195,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameProgress
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 127
+    startLine: 150
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -239,12 +269,18 @@ references:
   name: MajorPoints
   nameWithType: CutSceneWindowTextSettings.MajorPoints
   fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
-- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId*
-  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
-  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_PlayerId
-  name: PlayerId
-  nameWithType: CutSceneWindowTextSettings.PlayerId
-  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId*
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
+  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_SurPlayerId
+  name: SurPlayerId
+  nameWithType: CutSceneWindowTextSettings.SurPlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId*
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_HunPlayerId
+  name: HunPlayerId
+  nameWithType: CutSceneWindowTextSettings.HunPlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
 - uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName*
   commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
   href: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_MapName

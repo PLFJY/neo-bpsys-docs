@@ -6,7 +6,7 @@ items:
   parent: neo_bpsys_wpf.ViewModels.Windows
   children:
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor
-  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.AwayTeam
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.CurrentGame
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
@@ -14,6 +14,8 @@ items:
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Int32})
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.TotalAwayMinorPoint
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.TotalMainMinorPoint
   langs:
@@ -59,11 +61,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 16
+    startLine: 18
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -74,38 +76,40 @@ items:
   nameWithType.vb: ScoreWindowViewModel.New()
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.New()
   name.vb: New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)'
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)'
   parent: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
   langs:
   - csharp
   - vb
-  name: ScoreWindowViewModel(ISharedDataService)
-  nameWithType: ScoreWindowViewModel.ScoreWindowViewModel(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  name: ScoreWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType: ScoreWindowViewModel.ScoreWindowViewModel(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 24
+    startLine: 27
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
   syntax:
-    content: public ScoreWindowViewModel(ISharedDataService sharedDataService)
+    content: public ScoreWindowViewModel(ISharedDataService sharedDataService, ISettingsHostService settingsHostService)
     parameters:
     - id: sharedDataService
       type: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
-    content.vb: Public Sub New(sharedDataService As ISharedDataService)
+    - id: settingsHostService
+      type: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+    content.vb: Public Sub New(sharedDataService As ISharedDataService, settingsHostService As ISettingsHostService)
   overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor*
-  nameWithType.vb: ScoreWindowViewModel.New(ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
+  nameWithType.vb: ScoreWindowViewModel.New(ISharedDataService, ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   id: Receive(neo_bpsys_wpf.Messages.NewGameMessage)
@@ -120,11 +124,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 39
+    startLine: 43
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -152,11 +156,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 47
+    startLine: 51
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -184,11 +188,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 53
+    startLine: 57
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -219,11 +223,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 65
+    startLine: 69
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -248,11 +252,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 67
+    startLine: 71
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -277,11 +281,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 68
+    startLine: 72
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -292,6 +296,67 @@ items:
       type: neo_bpsys_wpf.Models.Team
     content.vb: Public ReadOnly Property AwayTeam As Team
   overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.AwayTeam*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  id: Settings
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: ScoreWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Settings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+    startLine: 74
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public ScoreWindowSettings Settings { get; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.ScoreWindowSettings
+    content.vb: Public ReadOnly Property Settings As ScoreWindowSettings
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Receive(SettingsChangedMessage)
+  nameWithType: ScoreWindowViewModel.Receive(SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+    startLine: 76
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.SettingsChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public void Receive(SettingsChangedMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.SettingsChangedMessage
+      description: The message being received.
+    content.vb: Public Sub Receive(message As SettingsChangedMessage)
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive*
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
   id: IsDesignMode
@@ -534,6 +599,13 @@ references:
   name: ISharedDataService
   nameWithType: ISharedDataService
   fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html
+  name: ISettingsHostService
+  nameWithType: ISettingsHostService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
 - uid: neo_bpsys_wpf.Abstractions.Services
   commentId: N:neo_bpsys_wpf.Abstractions.Services
   href: neo_bpsys_wpf.html
@@ -765,6 +837,26 @@ references:
   name: AwayTeam
   nameWithType: ScoreWindowViewModel.AwayTeam
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.AwayTeam
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Settings
+  name: Settings
+  nameWithType: ScoreWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.ScoreWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.ScoreWindowSettings.html
+  name: ScoreWindowSettings
+  nameWithType: ScoreWindowSettings
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.SettingsChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.SettingsChangedMessage.html
+  name: SettingsChangedMessage
+  nameWithType: SettingsChangedMessage
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
   href: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_IsDesignMode

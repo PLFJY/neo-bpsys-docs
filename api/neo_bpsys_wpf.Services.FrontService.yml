@@ -32,11 +32,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FrontService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 24
+    startLine: 25
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -63,11 +63,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 38
+    startLine: 39
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -109,11 +109,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowShow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 128
+    startLine: 129
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -139,11 +139,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowHide
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 140
+    startLine: 141
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -169,11 +169,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 149
+    startLine: 150
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -203,11 +203,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HideWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 171
+    startLine: 172
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -237,11 +237,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveWindowElementsPosition
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 303
+    startLine: 304
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -277,11 +277,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveAllWindowElementsPosition
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 332
+    startLine: 333
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -307,11 +307,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RestoreInitialPositions
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 403
+    startLine: 404
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -349,11 +349,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetGlobalScore
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 501
+    startLine: 521
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -395,11 +395,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetGlobalScoreToBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 521
+    startLine: 541
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -432,11 +432,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetGlobalScore
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 543
+    startLine: 563
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -462,11 +462,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FadeInAnimation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 635
+    startLine: 657
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -508,11 +508,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FadeOutAnimation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 654
+    startLine: 677
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -554,11 +554,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BreathingStart
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 672
+    startLine: 696
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -602,11 +602,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BreathingStop
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 712
+    startLine: 737
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -650,11 +650,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ApplySettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 737
+    startLine: 763
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -684,11 +684,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ApplyAllWindowsSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 1086
+    startLine: 894
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services

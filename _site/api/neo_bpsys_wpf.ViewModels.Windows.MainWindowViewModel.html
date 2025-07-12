@@ -142,7 +142,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor">
   MainWindowViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -166,16 +166,16 @@ Class MainWindowViewModel
 
   <a id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IGameGuidanceService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)">
-  MainWindowViewModel(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IGameGuidanceService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})">
+  MainWindowViewModel(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService, ILogger&lt;MainWindowViewModel&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MainWindowViewModel(ISharedDataService sharedDataService, IMessageBoxService messageBoxService, IGameGuidanceService gameGuidanceService, IInfoBarService infoBarService)</code></pre>
+    <pre><code class="lang-csharp hljs">public MainWindowViewModel(ISharedDataService sharedDataService, IMessageBoxService messageBoxService, IGameGuidanceService gameGuidanceService, IInfoBarService infoBarService, ILogger&lt;MainWindowViewModel&gt; logger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -187,6 +187,8 @@ Class MainWindowViewModel
     <dt><code>gameGuidanceService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService.html">IGameGuidanceService</a></dt>
     <dd></dd>
     <dt><code>infoBarService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html">IInfoBarService</a></dt>
+    <dd></dd>
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html">MainWindowViewModel</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -271,7 +273,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_CanGameProgressChange" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CanGameProgressChange">
   CanGameProgressChange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -298,11 +300,42 @@ Class MainWindowViewModel
 
 
 
+  <a id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_CurrentGame_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CurrentGame*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_CurrentGame" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CurrentGame">
+  CurrentGame
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Game CurrentGame { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_FooterMenuItems_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.FooterMenuItems*"></a>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_FooterMenuItems" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.FooterMenuItems">
   FooterMenuItems
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L342"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -360,42 +393,11 @@ Class MainWindowViewModel
 
 
 
-  <a id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_HunTeamName_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.HunTeamName*"></a>
-
-  <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_HunTeamName" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.HunTeamName">
-  HunTeamName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L64"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string HunTeamName { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_IsBo3Mode_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.IsBo3Mode*"></a>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_IsBo3Mode" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.IsBo3Mode">
   IsBo3Mode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L269"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -457,7 +459,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_IsGuidanceStarted" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.IsGuidanceStarted">
   IsGuidanceStarted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -519,7 +521,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_MenuItems" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.MenuItems">
   MenuItems
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L329"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -646,7 +648,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_RecommendTimerList" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.RecommendTimerList">
   RecommendTimerList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L295"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -677,7 +679,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_RemainingSeconds" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.RemainingSeconds">
   RemainingSeconds
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -740,7 +742,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SelectedGameProgress" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SelectedGameProgress">
   SelectedGameProgress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -821,37 +823,6 @@ Class MainWindowViewModel
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><span class="xref">IRelayCommand</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SurTeamName_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SurTeamName*"></a>
-
-  <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SurTeamName" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SurTeamName">
-  SurTeamName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L63"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SurTeamName { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -994,7 +965,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_TimerTime" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerTime">
   TimerTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L293"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1029,7 +1000,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_PropertyChangedMessage_System_Boolean__" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})">
   Receive(PropertyChangedMessage&lt;bool&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L255"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">PropertyChangedMessage&lt;bool&gt;</a> message instance.</p>
@@ -1062,7 +1033,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_ValueChangedMessage_System_String__" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage{System.String})">
   Receive(ValueChangedMessage&lt;string&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L245"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ValueChangedMessage&lt;string&gt;</a> message instance.</p>
@@ -1095,7 +1066,7 @@ Class MainWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_neo_bpsys_wpf_Messages_HighlightMessage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.HighlightMessage)">
   Receive(HighlightMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L286"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.HighlightMessage.html">HighlightMessage</a> message instance.</p>
@@ -1109,72 +1080,6 @@ Class MainWindowViewModel
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Messages.HighlightMessage.html">HighlightMessage</a></dt>
-    <dd><p>The message being received.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive*"></a>
-
-  <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_neo_bpsys_wpf_Messages_NewGameMessage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)">
-  Receive(NewGameMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L225"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.NewGameMessage.html">NewGameMessage</a> message instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Receive(NewGameMessage message)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Messages.NewGameMessage.html">NewGameMessage</a></dt>
-    <dd><p>The message being received.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive*"></a>
-
-  <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_neo_bpsys_wpf_Messages_SwapMessage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)">
-  Receive(SwapMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L234"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.SwapMessage.html">SwapMessage</a> message instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Receive(SwapMessage message)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Messages.SwapMessage.html">SwapMessage</a></dt>
     <dd><p>The message being received.</p>
 </dd>
   </dl>

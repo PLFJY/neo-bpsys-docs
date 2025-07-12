@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FrontWindowType
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
@@ -47,7 +47,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BpWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
@@ -73,7 +73,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CutSceneWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
@@ -125,7 +125,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
@@ -151,7 +151,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WidgetsWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs

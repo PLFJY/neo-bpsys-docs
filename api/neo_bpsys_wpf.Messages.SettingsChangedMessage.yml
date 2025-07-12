@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.SettingsChangedMessage
+  id: SettingsChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  children:
+  - neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor(neo_bpsys_wpf.Enums.FrontWindowType)
+  - neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  langs:
+  - csharp
+  - vb
+  name: SettingsChangedMessage
+  nameWithType: SettingsChangedMessage
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  type: Class
+  source:
+    remote:
+      path: neo-bpsys-wpf/Messages/SettingsChangedMessage.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: SettingsChangedMessage
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/SettingsChangedMessage.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Messages
+  syntax:
+    content: public class SettingsChangedMessage
+    content.vb: Public Class SettingsChangedMessage
+  inheritance:
+  - System.Object
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor(neo_bpsys_wpf.Enums.FrontWindowType)
+  commentId: M:neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor(neo_bpsys_wpf.Enums.FrontWindowType)
+  id: '#ctor(neo_bpsys_wpf.Enums.FrontWindowType)'
+  parent: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  langs:
+  - csharp
+  - vb
+  name: SettingsChangedMessage(FrontWindowType)
+  nameWithType: SettingsChangedMessage.SettingsChangedMessage(FrontWindowType)
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage.SettingsChangedMessage(neo_bpsys_wpf.Enums.FrontWindowType)
+  type: Constructor
+  source:
+    remote:
+      path: neo-bpsys-wpf/Messages/SettingsChangedMessage.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: .ctor
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/SettingsChangedMessage.cs
+    startLine: 4
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Messages
+  syntax:
+    content: public SettingsChangedMessage(FrontWindowType windowType)
+    parameters:
+    - id: windowType
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+    content.vb: Public Sub New(windowType As FrontWindowType)
+  overload: neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor*
+  nameWithType.vb: SettingsChangedMessage.New(FrontWindowType)
+  fullName.vb: neo_bpsys_wpf.Messages.SettingsChangedMessage.New(neo_bpsys_wpf.Enums.FrontWindowType)
+  name.vb: New(FrontWindowType)
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  commentId: P:neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  id: WindowType
+  parent: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  langs:
+  - csharp
+  - vb
+  name: WindowType
+  nameWithType: SettingsChangedMessage.WindowType
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Messages/SettingsChangedMessage.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: WindowType
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/SettingsChangedMessage.cs
+    startLine: 6
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Messages
+  syntax:
+    content: public FrontWindowType WindowType { get; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+    content.vb: Public ReadOnly Property WindowType As FrontWindowType
+  overload: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType*
+references:
+- uid: neo_bpsys_wpf.Messages
+  commentId: N:neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Messages
+  nameWithType: neo_bpsys_wpf.Messages
+  fullName: neo_bpsys_wpf.Messages
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Messages
+    name: Messages
+    href: neo_bpsys_wpf.Messages.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Messages
+    name: Messages
+    href: neo_bpsys_wpf.Messages.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor*
+  commentId: Overload:neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor
+  href: neo_bpsys_wpf.Messages.SettingsChangedMessage.html#neo_bpsys_wpf_Messages_SettingsChangedMessage__ctor_neo_bpsys_wpf_Enums_FrontWindowType_
+  name: SettingsChangedMessage
+  nameWithType: SettingsChangedMessage.SettingsChangedMessage
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage.SettingsChangedMessage
+  nameWithType.vb: SettingsChangedMessage.New
+  fullName.vb: neo_bpsys_wpf.Messages.SettingsChangedMessage.New
+  name.vb: New
+- uid: neo_bpsys_wpf.Enums.FrontWindowType
+  commentId: T:neo_bpsys_wpf.Enums.FrontWindowType
+  parent: neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.Enums.FrontWindowType.html
+  name: FrontWindowType
+  nameWithType: FrontWindowType
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType*
+  commentId: Overload:neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  href: neo_bpsys_wpf.Messages.SettingsChangedMessage.html#neo_bpsys_wpf_Messages_SettingsChangedMessage_WindowType
+  name: WindowType
+  nameWithType: SettingsChangedMessage.WindowType
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType

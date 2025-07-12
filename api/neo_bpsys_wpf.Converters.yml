@@ -11,6 +11,7 @@ items:
   - neo_bpsys_wpf.Converters.CampToStringConverter
   - neo_bpsys_wpf.Converters.CharacterChangerCommandParameterConverter
   - neo_bpsys_wpf.Converters.DoubleToThicknessConverter
+  - neo_bpsys_wpf.Converters.FontWeightJsonConverter
   - neo_bpsys_wpf.Converters.GameProgressToStringConverter
   - neo_bpsys_wpf.Converters.IndexToButtonContentConverter
   - neo_bpsys_wpf.Converters.IntPlusOneConverter
@@ -69,6 +70,12 @@ references:
   name: DoubleToThicknessConverter
   nameWithType: DoubleToThicknessConverter
   fullName: neo_bpsys_wpf.Converters.DoubleToThicknessConverter
+- uid: neo_bpsys_wpf.Converters.FontWeightJsonConverter
+  commentId: T:neo_bpsys_wpf.Converters.FontWeightJsonConverter
+  href: neo_bpsys_wpf.Converters.FontWeightJsonConverter.html
+  name: FontWeightJsonConverter
+  nameWithType: FontWeightJsonConverter
+  fullName: neo_bpsys_wpf.Converters.FontWeightJsonConverter
 - uid: neo_bpsys_wpf.Converters.GameProgressToStringConverter
   commentId: T:neo_bpsys_wpf.Converters.GameProgressToStringConverter
   href: neo_bpsys_wpf.Converters.GameProgressToStringConverter.html

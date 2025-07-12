@@ -5,12 +5,14 @@ items:
   id: TextSettings
   parent: neo_bpsys_wpf.Models
   children:
-  - neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double)
+  - neo_bpsys_wpf.Models.TextSettings.#ctor
+  - neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double,System.Nullable{System.Windows.FontWeight})
   - neo_bpsys_wpf.Models.TextSettings.Color
-  - neo_bpsys_wpf.Models.TextSettings.ColorBrush
   - neo_bpsys_wpf.Models.TextSettings.FontFamily
   - neo_bpsys_wpf.Models.TextSettings.FontFamilySite
   - neo_bpsys_wpf.Models.TextSettings.FontSize
+  - neo_bpsys_wpf.Models.TextSettings.FontWeight
+  - neo_bpsys_wpf.Models.TextSettings.Foreground
   langs:
   - csharp
   - vb
@@ -19,110 +21,40 @@ items:
   fullName: neo_bpsys_wpf.Models.TextSettings
   type: Class
   source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TextSettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 22
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.TextSettings.g.cs
+    startLine: 6
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
   summary: 文本设置
   example: []
   syntax:
-    content: public class TextSettings
-    content.vb: Public Class TextSettings
+    content: 'public class TextSettings : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging'
+    content.vb: Public Class TextSettings Inherits ObservableObject Implements INotifyPropertyChanged, INotifyPropertyChanging
   inheritance:
   - System.Object
-- uid: neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double)
-  commentId: M:neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double)
-  id: '#ctor(System.String,System.String,System.Double)'
+  - CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - System.ComponentModel.INotifyPropertyChanging
+- uid: neo_bpsys_wpf.Models.TextSettings.Foreground
+  commentId: P:neo_bpsys_wpf.Models.TextSettings.Foreground
+  id: Foreground
   parent: neo_bpsys_wpf.Models.TextSettings
   langs:
   - csharp
   - vb
-  name: TextSettings(string, string, double)
-  nameWithType: TextSettings.TextSettings(string, string, double)
-  fullName: neo_bpsys_wpf.Models.TextSettings.TextSettings(string, string, double)
-  type: Constructor
-  source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: .ctor
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 22
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Models
-  summary: 文本设置
-  example: []
-  syntax:
-    content: public TextSettings(string color, string fontFamilySite, double fontSize)
-    parameters:
-    - id: color
-      type: System.String
-      description: 文本颜色
-    - id: fontFamilySite
-      type: System.String
-      description: 字体地址
-    - id: fontSize
-      type: System.Double
-      description: 字体大小
-    content.vb: Public Sub New(color As String, fontFamilySite As String, fontSize As Double)
-  overload: neo_bpsys_wpf.Models.TextSettings.#ctor*
-  nameWithType.vb: TextSettings.New(String, String, Double)
-  fullName.vb: neo_bpsys_wpf.Models.TextSettings.New(String, String, Double)
-  name.vb: New(String, String, Double)
-- uid: neo_bpsys_wpf.Models.TextSettings.Color
-  commentId: P:neo_bpsys_wpf.Models.TextSettings.Color
-  id: Color
-  parent: neo_bpsys_wpf.Models.TextSettings
-  langs:
-  - csharp
-  - vb
-  name: Color
-  nameWithType: TextSettings.Color
-  fullName: neo_bpsys_wpf.Models.TextSettings.Color
+  name: Foreground
+  nameWithType: TextSettings.Foreground
+  fullName: neo_bpsys_wpf.Models.TextSettings.Foreground
   type: Property
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: Color
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 24
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Models
-  syntax:
-    content: public string? Color { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Color As String
-  overload: neo_bpsys_wpf.Models.TextSettings.Color*
-- uid: neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  commentId: P:neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  id: ColorBrush
-  parent: neo_bpsys_wpf.Models.TextSettings
-  langs:
-  - csharp
-  - vb
-  name: ColorBrush
-  nameWithType: TextSettings.ColorBrush
-  fullName: neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  type: Property
-  source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ColorBrush
+    id: Foreground
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
     startLine: 29
   assemblies:
@@ -134,15 +66,15 @@ items:
     content: >-
       [JsonIgnore]
 
-      public Brush ColorBrush { get; }
+      public Brush Foreground { get; }
     parameters: []
     return:
       type: System.Windows.Media.Brush
     content.vb: >-
       <JsonIgnore>
 
-      Public ReadOnly Property ColorBrush As Brush
-  overload: neo_bpsys_wpf.Models.TextSettings.ColorBrush*
+      Public ReadOnly Property Foreground As Brush
+  overload: neo_bpsys_wpf.Models.TextSettings.Foreground*
   attributes:
   - type: System.Text.Json.Serialization.JsonIgnoreAttribute
     ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
@@ -161,7 +93,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FontFamilySite
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -190,7 +122,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FontFamily
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -217,6 +149,141 @@ items:
   - type: System.Text.Json.Serialization.JsonIgnoreAttribute
     ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
     arguments: []
+- uid: neo_bpsys_wpf.Models.TextSettings.#ctor
+  commentId: M:neo_bpsys_wpf.Models.TextSettings.#ctor
+  id: '#ctor'
+  parent: neo_bpsys_wpf.Models.TextSettings
+  langs:
+  - csharp
+  - vb
+  name: TextSettings()
+  nameWithType: TextSettings.TextSettings()
+  fullName: neo_bpsys_wpf.Models.TextSettings.TextSettings()
+  type: Constructor
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: .ctor
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 62
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: >-
+      [JsonConstructor]
+
+      public TextSettings()
+    content.vb: >-
+      <JsonConstructor>
+
+      Public Sub New()
+  overload: neo_bpsys_wpf.Models.TextSettings.#ctor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonConstructorAttribute
+    ctor: System.Text.Json.Serialization.JsonConstructorAttribute.#ctor
+    arguments: []
+  nameWithType.vb: TextSettings.New()
+  fullName.vb: neo_bpsys_wpf.Models.TextSettings.New()
+  name.vb: New()
+- uid: neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double,System.Nullable{System.Windows.FontWeight})
+  commentId: M:neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double,System.Nullable{System.Windows.FontWeight})
+  id: '#ctor(System.String,System.String,System.Double,System.Nullable{System.Windows.FontWeight})'
+  parent: neo_bpsys_wpf.Models.TextSettings
+  langs:
+  - csharp
+  - vb
+  name: TextSettings(string, string?, double, FontWeight?)
+  nameWithType: TextSettings.TextSettings(string, string?, double, FontWeight?)
+  fullName: neo_bpsys_wpf.Models.TextSettings.TextSettings(string, string?, double, System.Windows.FontWeight?)
+  type: Constructor
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: .ctor
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 72
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  summary: 文本设置
+  example: []
+  syntax:
+    content: public TextSettings(string color, string? fontFamilySite, double fontSize, FontWeight? fontWeight = null)
+    parameters:
+    - id: color
+      type: System.String
+      description: 文本颜色
+    - id: fontFamilySite
+      type: System.String
+      description: 字体地址
+    - id: fontSize
+      type: System.Double
+      description: 字体大小
+    - id: fontWeight
+      type: System.Nullable{System.Windows.FontWeight}
+      description: 字体粗细
+    content.vb: Public Sub New(color As String, fontFamilySite As String, fontSize As Double, fontWeight As FontWeight? = Nothing)
+  overload: neo_bpsys_wpf.Models.TextSettings.#ctor*
+  nameWithType.vb: TextSettings.New(String, String, Double, FontWeight?)
+  fullName.vb: neo_bpsys_wpf.Models.TextSettings.New(String, String, Double, System.Windows.FontWeight?)
+  name.vb: New(String, String, Double, FontWeight?)
+- uid: neo_bpsys_wpf.Models.TextSettings.Color
+  commentId: P:neo_bpsys_wpf.Models.TextSettings.Color
+  id: Color
+  parent: neo_bpsys_wpf.Models.TextSettings
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: TextSettings.Color
+  fullName: neo_bpsys_wpf.Models.TextSettings.Color
+  type: Property
+  source:
+    id: Color
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.TextSettings.g.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  example: []
+  syntax:
+    content: public string? Color { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Color As String
+  overload: neo_bpsys_wpf.Models.TextSettings.Color*
+- uid: neo_bpsys_wpf.Models.TextSettings.FontWeight
+  commentId: P:neo_bpsys_wpf.Models.TextSettings.FontWeight
+  id: FontWeight
+  parent: neo_bpsys_wpf.Models.TextSettings
+  langs:
+  - csharp
+  - vb
+  name: FontWeight
+  nameWithType: TextSettings.FontWeight
+  fullName: neo_bpsys_wpf.Models.TextSettings.FontWeight
+  type: Property
+  source:
+    id: FontWeight
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.TextSettings.g.cs
+    startLine: 32
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  example: []
+  syntax:
+    content: public FontWeight FontWeight { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.FontWeight
+    content.vb: Public Property FontWeight As FontWeight
+  overload: neo_bpsys_wpf.Models.TextSettings.FontWeight*
 - uid: neo_bpsys_wpf.Models.TextSettings.FontSize
   commentId: P:neo_bpsys_wpf.Models.TextSettings.FontSize
   id: FontSize
@@ -229,16 +296,13 @@ items:
   fullName: neo_bpsys_wpf.Models.TextSettings.FontSize
   type: Property
   source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FontSize
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 58
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.TextSettings.g.cs
+    startLine: 53
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
+  example: []
   syntax:
     content: public double FontSize { get; set; }
     parameters: []
@@ -279,6 +343,29 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  commentId: T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  parent: CommunityToolkit.Mvvm.ComponentModel
+  isExternal: true
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.ComponentModel.INotifyPropertyChanging
+  commentId: T:System.ComponentModel.INotifyPropertyChanging
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging
+  name: INotifyPropertyChanging
+  nameWithType: INotifyPropertyChanging
+  fullName: System.ComponentModel.INotifyPropertyChanging
 - uid: System
   commentId: N:System
   isExternal: true
@@ -286,49 +373,76 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: neo_bpsys_wpf.Models.TextSettings.#ctor*
-  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.#ctor
-  href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings__ctor_System_String_System_String_System_Double_
-  name: TextSettings
-  nameWithType: TextSettings.TextSettings
-  fullName: neo_bpsys_wpf.Models.TextSettings.TextSettings
-  nameWithType.vb: TextSettings.New
-  fullName.vb: neo_bpsys_wpf.Models.TextSettings.New
-  name.vb: New
-- uid: System.String
-  commentId: T:System.String
-  parent: System
+- uid: CommunityToolkit.Mvvm.ComponentModel
+  commentId: N:CommunityToolkit.Mvvm.ComponentModel
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: System.Double
-  commentId: T:System.Double
-  parent: System
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  name: CommunityToolkit.Mvvm.ComponentModel
+  nameWithType: CommunityToolkit.Mvvm.ComponentModel
+  fullName: CommunityToolkit.Mvvm.ComponentModel
+  spec.csharp:
+  - uid: CommunityToolkit
+    name: CommunityToolkit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  - name: .
+  - uid: CommunityToolkit.Mvvm
+    name: Mvvm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
+  - name: .
+  - uid: CommunityToolkit.Mvvm.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel
+  spec.vb:
+  - uid: CommunityToolkit
+    name: CommunityToolkit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  - name: .
+  - uid: CommunityToolkit.Mvvm
+    name: Mvvm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
+  - name: .
+  - uid: CommunityToolkit.Mvvm.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
-- uid: neo_bpsys_wpf.Models.TextSettings.Color*
-  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.Color
-  href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_Color
-  name: Color
-  nameWithType: TextSettings.Color
-  fullName: neo_bpsys_wpf.Models.TextSettings.Color
-- uid: neo_bpsys_wpf.Models.TextSettings.ColorBrush*
-  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_ColorBrush
-  name: ColorBrush
-  nameWithType: TextSettings.ColorBrush
-  fullName: neo_bpsys_wpf.Models.TextSettings.ColorBrush
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: neo_bpsys_wpf.Models.TextSettings.Foreground*
+  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.Foreground
+  href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_Foreground
+  name: Foreground
+  nameWithType: TextSettings.Foreground
+  fullName: neo_bpsys_wpf.Models.TextSettings.Foreground
 - uid: System.Windows.Media.Brush
   commentId: T:System.Windows.Media.Brush
   parent: System.Windows.Media
@@ -379,6 +493,17 @@ references:
   name: FontFamilySite
   nameWithType: TextSettings.FontFamilySite
   fullName: neo_bpsys_wpf.Models.TextSettings.FontFamilySite
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: neo_bpsys_wpf.Models.TextSettings.FontFamily*
   commentId: Overload:neo_bpsys_wpf.Models.TextSettings.FontFamily
   href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_FontFamily
@@ -392,6 +517,117 @@ references:
   name: FontFamily
   nameWithType: FontFamily
   fullName: System.Windows.Media.FontFamily
+- uid: neo_bpsys_wpf.Models.TextSettings.#ctor*
+  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.#ctor
+  href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings__ctor
+  name: TextSettings
+  nameWithType: TextSettings.TextSettings
+  fullName: neo_bpsys_wpf.Models.TextSettings.TextSettings
+  nameWithType.vb: TextSettings.New
+  fullName.vb: neo_bpsys_wpf.Models.TextSettings.New
+  name.vb: New
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Nullable{System.Windows.FontWeight}
+  commentId: T:System.Nullable{System.Windows.FontWeight}
+  parent: System
+  definition: System.Nullable`1
+  name: FontWeight?
+  nameWithType: FontWeight?
+  fullName: System.Windows.FontWeight?
+  spec.csharp:
+  - uid: System.Windows.FontWeight
+    name: FontWeight
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.Windows.FontWeight
+    name: FontWeight
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: neo_bpsys_wpf.Models.TextSettings.Color*
+  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.Color
+  href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_Color
+  name: Color
+  nameWithType: TextSettings.Color
+  fullName: neo_bpsys_wpf.Models.TextSettings.Color
+- uid: neo_bpsys_wpf.Models.TextSettings.FontWeight*
+  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.FontWeight
+  href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_FontWeight
+  name: FontWeight
+  nameWithType: TextSettings.FontWeight
+  fullName: neo_bpsys_wpf.Models.TextSettings.FontWeight
+- uid: System.Windows.FontWeight
+  commentId: T:System.Windows.FontWeight
+  parent: System.Windows
+  isExternal: true
+  name: FontWeight
+  nameWithType: FontWeight
+  fullName: System.Windows.FontWeight
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
 - uid: neo_bpsys_wpf.Models.TextSettings.FontSize*
   commentId: Overload:neo_bpsys_wpf.Models.TextSettings.FontSize
   href: neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_FontSize

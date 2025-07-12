@@ -6,7 +6,7 @@ items:
   parent: neo_bpsys_wpf.ViewModels.Windows
   children:
   - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor
-  - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanCurrentHunBanned
   - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanCurrentSurBanned
   - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanGlobalHunBanned
@@ -19,6 +19,8 @@ items:
   - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
   - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)
   - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
   langs:
   - csharp
   - vb
@@ -62,11 +64,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 19
+    startLine: 21
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -77,38 +79,40 @@ items:
   nameWithType.vb: WidgetsWindowViewModel.New()
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.New()
   name.vb: New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)'
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)'
   parent: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel
   langs:
   - csharp
   - vb
-  name: WidgetsWindowViewModel(ISharedDataService)
-  nameWithType: WidgetsWindowViewModel.WidgetsWindowViewModel(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.WidgetsWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  name: WidgetsWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType: WidgetsWindowViewModel.WidgetsWindowViewModel(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.WidgetsWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 30
+    startLine: 33
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
   syntax:
-    content: public WidgetsWindowViewModel(ISharedDataService sharedDataService)
+    content: public WidgetsWindowViewModel(ISharedDataService sharedDataService, ISettingsHostService settingsHostService)
     parameters:
     - id: sharedDataService
       type: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
-    content.vb: Public Sub New(sharedDataService As ISharedDataService)
+    - id: settingsHostService
+      type: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+    content.vb: Public Sub New(sharedDataService As ISharedDataService, settingsHostService As ISettingsHostService)
   overload: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor*
-  nameWithType.vb: WidgetsWindowViewModel.New(ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
+  nameWithType.vb: WidgetsWindowViewModel.New(ISharedDataService, ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   id: Receive(neo_bpsys_wpf.Messages.NewGameMessage)
@@ -123,11 +127,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 39
+    startLine: 43
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -155,11 +159,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 47
+    startLine: 51
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -187,11 +191,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 56
+    startLine: 60
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -222,11 +226,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentBanLockImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 64
+    startLine: 68
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -251,11 +255,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBanLockImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 65
+    startLine: 69
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -280,11 +284,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 67
+    startLine: 71
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -309,11 +313,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 69
+    startLine: 73
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -338,11 +342,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 70
+    startLine: 74
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -367,11 +371,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 71
+    startLine: 75
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -396,11 +400,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
-    startLine: 72
+    startLine: 76
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -411,6 +415,67 @@ items:
       type: System.Collections.ObjectModel.ObservableCollection{System.Boolean}
     content.vb: Public ReadOnly Property CanGlobalHunBanned As ObservableCollection(Of Boolean)
   overload: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanGlobalHunBanned*
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  id: Settings
+  parent: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: WidgetsWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Settings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
+    startLine: 78
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public WidgetsWindowSettings Settings { get; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.WidgetsWindowSettings
+    content.vb: Public ReadOnly Property Settings As WidgetsWindowSettings
+  overload: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings*
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  parent: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Receive(SettingsChangedMessage)
+  nameWithType: WidgetsWindowViewModel.Receive(SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs
+    startLine: 80
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.SettingsChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public void Receive(SettingsChangedMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.SettingsChangedMessage
+      description: The message being received.
+    content.vb: Public Sub Receive(message As SettingsChangedMessage)
+  overload: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive*
 - uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsDesignMode
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsDesignMode
   id: IsDesignMode
@@ -627,6 +692,13 @@ references:
   name: ISharedDataService
   nameWithType: ISharedDataService
   fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html
+  name: ISettingsHostService
+  nameWithType: ISettingsHostService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
 - uid: neo_bpsys_wpf.Abstractions.Services
   commentId: N:neo_bpsys_wpf.Abstractions.Services
   href: neo_bpsys_wpf.html
@@ -1019,6 +1091,26 @@ references:
   name: CanGlobalHunBanned
   nameWithType: WidgetsWindowViewModel.CanGlobalHunBanned
   fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanGlobalHunBanned
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  href: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Settings
+  name: Settings
+  nameWithType: WidgetsWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.WidgetsWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html
+  name: WidgetsWindowSettings
+  nameWithType: WidgetsWindowSettings
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.SettingsChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.SettingsChangedMessage.html
+  name: SettingsChangedMessage
+  nameWithType: SettingsChangedMessage
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage
 - uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsDesignMode*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsDesignMode
   href: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_IsDesignMode

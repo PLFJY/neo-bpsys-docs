@@ -21,11 +21,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SettingsHostService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
-    startLine: 12
+    startLine: 14
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -52,11 +52,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -85,11 +85,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
-    startLine: 27
+    startLine: 30
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -117,11 +117,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
-    startLine: 41
+    startLine: 43
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -147,11 +147,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: LoadConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
-    startLine: 52
+    startLine: 60
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -177,11 +177,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
-    startLine: 82
+    startLine: 88
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -207,11 +207,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
-    startLine: 104
+    startLine: 110
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services

@@ -18,21 +18,23 @@ items:
   fullName: neo_bpsys_wpf.Models.Settings
   type: Class
   source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 7
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Settings.g.cs
+    startLine: 6
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
+  summary: A base class for objects of which the properties must be observable.
+  example: []
   syntax:
-    content: public class Settings
-    content.vb: Public Class Settings
+    content: 'public class Settings : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging'
+    content.vb: Public Class Settings Inherits ObservableObject Implements INotifyPropertyChanged, INotifyPropertyChanging
   inheritance:
   - System.Object
+  - CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - System.ComponentModel.INotifyPropertyChanging
 - uid: neo_bpsys_wpf.Models.Settings.BpWindowSettings
   commentId: P:neo_bpsys_wpf.Models.Settings.BpWindowSettings
   id: BpWindowSettings
@@ -45,16 +47,13 @@ items:
   fullName: neo_bpsys_wpf.Models.Settings.BpWindowSettings
   type: Property
   source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BpWindowSettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Settings.g.cs
     startLine: 9
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
+  example: []
   syntax:
     content: public BpWindowSettings BpWindowSettings { get; set; }
     parameters: []
@@ -74,16 +73,13 @@ items:
   fullName: neo_bpsys_wpf.Models.Settings.CutSceneWindowSettings
   type: Property
   source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CutSceneWindowSettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 10
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Settings.g.cs
+    startLine: 31
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
+  example: []
   syntax:
     content: public CutSceneWindowSettings CutSceneWindowSettings { get; set; }
     parameters: []
@@ -103,16 +99,13 @@ items:
   fullName: neo_bpsys_wpf.Models.Settings.ScoreWindowSettings
   type: Property
   source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreWindowSettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 11
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Settings.g.cs
+    startLine: 53
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
+  example: []
   syntax:
     content: public ScoreWindowSettings ScoreWindowSettings { get; set; }
     parameters: []
@@ -132,16 +125,13 @@ items:
   fullName: neo_bpsys_wpf.Models.Settings.GameDataWindowSettings
   type: Property
   source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataWindowSettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 12
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Settings.g.cs
+    startLine: 75
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
+  example: []
   syntax:
     content: public GameDataWindowSettings GameDataWindowSettings { get; set; }
     parameters: []
@@ -161,16 +151,13 @@ items:
   fullName: neo_bpsys_wpf.Models.Settings.WidgetsWindowSettings
   type: Property
   source:
-    remote:
-      path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WidgetsWindowSettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 13
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Models.Settings.g.cs
+    startLine: 97
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
+  example: []
   syntax:
     content: public WidgetsWindowSettings WidgetsWindowSettings { get; set; }
     parameters: []
@@ -211,6 +198,29 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  commentId: T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+  parent: CommunityToolkit.Mvvm.ComponentModel
+  isExternal: true
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.ComponentModel.INotifyPropertyChanging
+  commentId: T:System.ComponentModel.INotifyPropertyChanging
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging
+  name: INotifyPropertyChanging
+  nameWithType: INotifyPropertyChanging
+  fullName: System.ComponentModel.INotifyPropertyChanging
 - uid: System
   commentId: N:System
   isExternal: true
@@ -218,6 +228,70 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: CommunityToolkit.Mvvm.ComponentModel
+  commentId: N:CommunityToolkit.Mvvm.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  name: CommunityToolkit.Mvvm.ComponentModel
+  nameWithType: CommunityToolkit.Mvvm.ComponentModel
+  fullName: CommunityToolkit.Mvvm.ComponentModel
+  spec.csharp:
+  - uid: CommunityToolkit
+    name: CommunityToolkit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  - name: .
+  - uid: CommunityToolkit.Mvvm
+    name: Mvvm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
+  - name: .
+  - uid: CommunityToolkit.Mvvm.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel
+  spec.vb:
+  - uid: CommunityToolkit
+    name: CommunityToolkit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  - name: .
+  - uid: CommunityToolkit.Mvvm
+    name: Mvvm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
+  - name: .
+  - uid: CommunityToolkit.Mvvm.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.componentmodel
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
 - uid: neo_bpsys_wpf.Models.Settings.BpWindowSettings*
   commentId: Overload:neo_bpsys_wpf.Models.Settings.BpWindowSettings
   href: neo_bpsys_wpf.Models.Settings.html#neo_bpsys_wpf_Models_Settings_BpWindowSettings

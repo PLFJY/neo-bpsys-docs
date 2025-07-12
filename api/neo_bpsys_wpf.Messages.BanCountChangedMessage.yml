@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BanCountChangedMessage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
@@ -44,7 +44,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/BanCountChangedMessage.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ChangedList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/BanCountChangedMessage.cs

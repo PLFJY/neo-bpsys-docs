@@ -6,7 +6,7 @@ items:
   parent: neo_bpsys_wpf.ViewModels.Windows
   children:
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor
-  - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.CurrentGame
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsBo3Mode
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode
@@ -14,6 +14,8 @@ items:
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
   langs:
   - csharp
   - vb
@@ -57,11 +59,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 17
+    startLine: 19
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -72,38 +74,40 @@ items:
   nameWithType.vb: GameDataWindowViewModel.New()
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.New()
   name.vb: New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)'
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)'
   parent: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
   langs:
   - csharp
   - vb
-  name: GameDataWindowViewModel(ISharedDataService)
-  nameWithType: GameDataWindowViewModel.GameDataWindowViewModel(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.GameDataWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  name: GameDataWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType: GameDataWindowViewModel.GameDataWindowViewModel(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.GameDataWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 28
+    startLine: 31
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
   syntax:
-    content: public GameDataWindowViewModel(ISharedDataService sharedDataService)
+    content: public GameDataWindowViewModel(ISharedDataService sharedDataService, ISettingsHostService settingsHostService)
     parameters:
     - id: sharedDataService
       type: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
-    content.vb: Public Sub New(sharedDataService As ISharedDataService)
+    - id: settingsHostService
+      type: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+    content.vb: Public Sub New(sharedDataService As ISharedDataService, settingsHostService As ISettingsHostService)
   overload: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor*
-  nameWithType.vb: GameDataWindowViewModel.New(ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
+  nameWithType.vb: GameDataWindowViewModel.New(ISharedDataService, ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.CurrentGame
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.CurrentGame
   id: CurrentGame
@@ -118,11 +122,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 35
+    startLine: 39
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -147,11 +151,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 37
+    startLine: 41
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -179,11 +183,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 42
+    startLine: 46
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -211,11 +215,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 50
+    startLine: 54
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -246,11 +250,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
-    startLine: 58
+    startLine: 62
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -263,6 +267,67 @@ items:
       type: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
       description: The message being received.
     content.vb: Public Sub Receive(message As MemberPropertyChangedMessage)
+  overload: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive*
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  id: Settings
+  parent: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: GameDataWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Settings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
+    startLine: 67
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public GameDataWindowSettings Settings { get; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.GameDataWindowSettings
+    content.vb: Public ReadOnly Property Settings As GameDataWindowSettings
+  overload: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings*
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  parent: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Receive(SettingsChangedMessage)
+  nameWithType: GameDataWindowViewModel.Receive(SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/GameDataWindowViewModel.cs
+    startLine: 69
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.SettingsChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public void Receive(SettingsChangedMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.SettingsChangedMessage
+      description: The message being received.
+    content.vb: Public Sub Receive(message As SettingsChangedMessage)
   overload: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive*
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode
@@ -480,6 +545,13 @@ references:
   name: ISharedDataService
   nameWithType: ISharedDataService
   fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html
+  name: ISettingsHostService
+  nameWithType: ISettingsHostService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
 - uid: neo_bpsys_wpf.Abstractions.Services
   commentId: N:neo_bpsys_wpf.Abstractions.Services
   href: neo_bpsys_wpf.html
@@ -699,6 +771,26 @@ references:
   name: MemberPropertyChangedMessage
   nameWithType: MemberPropertyChangedMessage
   fullName: neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  href: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_Settings
+  name: Settings
+  nameWithType: GameDataWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+- uid: neo_bpsys_wpf.Models.GameDataWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.GameDataWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.GameDataWindowSettings.html
+  name: GameDataWindowSettings
+  nameWithType: GameDataWindowSettings
+  fullName: neo_bpsys_wpf.Models.GameDataWindowSettings
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.SettingsChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.SettingsChangedMessage.html
+  name: SettingsChangedMessage
+  nameWithType: SettingsChangedMessage
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.IsDesignMode
   href: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_IsDesignMode

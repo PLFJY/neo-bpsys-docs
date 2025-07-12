@@ -12,6 +12,7 @@ items:
   - neo_bpsys_wpf.Messages.MemberPropertyChangedMessage
   - neo_bpsys_wpf.Messages.NewGameMessage
   - neo_bpsys_wpf.Messages.PlayerSwappedMessage
+  - neo_bpsys_wpf.Messages.SettingsChangedMessage
   - neo_bpsys_wpf.Messages.SwapMessage
   langs:
   - csharp
@@ -79,6 +80,13 @@ references:
   name: PlayerSwappedMessage
   nameWithType: PlayerSwappedMessage
   fullName: neo_bpsys_wpf.Messages.PlayerSwappedMessage
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.SettingsChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.SettingsChangedMessage.html
+  name: SettingsChangedMessage
+  nameWithType: SettingsChangedMessage
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage
 - uid: neo_bpsys_wpf.Messages.SwapMessage
   commentId: T:neo_bpsys_wpf.Messages.SwapMessage
   parent: neo_bpsys_wpf.Messages

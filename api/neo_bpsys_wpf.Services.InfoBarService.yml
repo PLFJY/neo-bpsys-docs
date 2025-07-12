@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/InfoBarService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InfoBarService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/InfoBarService.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/InfoBarService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetInfoBarControl
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/InfoBarService.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/InfoBarService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowErrorInfoBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/InfoBarService.cs
@@ -123,7 +123,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/InfoBarService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowInformationalInfoBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/InfoBarService.cs
@@ -160,7 +160,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/InfoBarService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowSuccessInfoBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/InfoBarService.cs
@@ -197,7 +197,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/InfoBarService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowWarningInfoBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/InfoBarService.cs
@@ -234,7 +234,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/InfoBarService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CloseInfoBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/InfoBarService.cs

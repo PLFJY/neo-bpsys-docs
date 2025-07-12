@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/StringToDoubleConverter.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StringToDoubleConverter
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/StringToDoubleConverter.cs
@@ -44,7 +44,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/StringToDoubleConverter.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Convert
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/StringToDoubleConverter.cs
@@ -91,7 +91,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/StringToDoubleConverter.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ConvertBack
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/StringToDoubleConverter.cs

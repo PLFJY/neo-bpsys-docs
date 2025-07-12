@@ -2382,6 +2382,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
   nameWithType: TextSettingsEditControl.FontList
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontWeightList
+  name: FontWeightList
+  href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_FontWeightList
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.FontWeightList
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontWeightList
+  nameWithType: TextSettingsEditControl.FontWeightList
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontWeightList*
+  name: FontWeightList
+  href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_FontWeightList_
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.FontWeightList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontWeightList
+  nameWithType: TextSettingsEditControl.FontWeightList
 - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.InitializeComponent
   name: InitializeComponent()
   href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_InitializeComponent
@@ -2503,6 +2516,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
   nameWithType: TextSettingsEditControl.SelectedFontSize
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  name: SelectedFontWeight
+  href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedFontWeight
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  nameWithType: TextSettingsEditControl.SelectedFontWeight
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight*
+  name: SelectedFontWeight
+  href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedFontWeight_
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  nameWithType: TextSettingsEditControl.SelectedFontWeight
 - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SetProperty*
   name: SetProperty
   href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SetProperty_
@@ -3052,6 +3078,41 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Converters.DoubleToThicknessConverter.ConvertBack
   nameWithType: DoubleToThicknessConverter.ConvertBack
+- uid: neo_bpsys_wpf.Converters.FontWeightJsonConverter
+  name: FontWeightJsonConverter
+  href: api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.html
+  commentId: T:neo_bpsys_wpf.Converters.FontWeightJsonConverter
+  fullName: neo_bpsys_wpf.Converters.FontWeightJsonConverter
+  nameWithType: FontWeightJsonConverter
+- uid: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.html#neo_bpsys_wpf_Converters_FontWeightJsonConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:neo_bpsys_wpf.Converters.FontWeightJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: FontWeightJsonConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: FontWeightJsonConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Read*
+  name: Read
+  href: api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.html#neo_bpsys_wpf_Converters_FontWeightJsonConverter_Read_
+  commentId: Overload:neo_bpsys_wpf.Converters.FontWeightJsonConverter.Read
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Read
+  nameWithType: FontWeightJsonConverter.Read
+- uid: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.Windows.FontWeight,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, FontWeight, JsonSerializerOptions)
+  href: api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.html#neo_bpsys_wpf_Converters_FontWeightJsonConverter_Write_System_Text_Json_Utf8JsonWriter_System_Windows_FontWeight_System_Text_Json_JsonSerializerOptions_
+  commentId: M:neo_bpsys_wpf.Converters.FontWeightJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.Windows.FontWeight,System.Text.Json.JsonSerializerOptions)
+  fullName: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Write(System.Text.Json.Utf8JsonWriter, System.Windows.FontWeight, System.Text.Json.JsonSerializerOptions)
+  nameWithType: FontWeightJsonConverter.Write(Utf8JsonWriter, FontWeight, JsonSerializerOptions)
+- uid: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Write*
+  name: Write
+  href: api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.html#neo_bpsys_wpf_Converters_FontWeightJsonConverter_Write_
+  commentId: Overload:neo_bpsys_wpf.Converters.FontWeightJsonConverter.Write
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.FontWeightJsonConverter.Write
+  nameWithType: FontWeightJsonConverter.Write
 - uid: neo_bpsys_wpf.Converters.GameProgressToStringConverter
   name: GameProgressToStringConverter
   href: api/neo_bpsys_wpf.Converters.GameProgressToStringConverter.html
@@ -4421,6 +4482,44 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Messages.PlayerSwappedMessage.Sender
   nameWithType: PlayerSwappedMessage.Sender
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  name: SettingsChangedMessage
+  href: api/neo_bpsys_wpf.Messages.SettingsChangedMessage.html
+  commentId: T:neo_bpsys_wpf.Messages.SettingsChangedMessage
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  nameWithType: SettingsChangedMessage
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor(neo_bpsys_wpf.Enums.FrontWindowType)
+  name: SettingsChangedMessage(FrontWindowType)
+  href: api/neo_bpsys_wpf.Messages.SettingsChangedMessage.html#neo_bpsys_wpf_Messages_SettingsChangedMessage__ctor_neo_bpsys_wpf_Enums_FrontWindowType_
+  commentId: M:neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor(neo_bpsys_wpf.Enums.FrontWindowType)
+  name.vb: New(FrontWindowType)
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage.SettingsChangedMessage(neo_bpsys_wpf.Enums.FrontWindowType)
+  fullName.vb: neo_bpsys_wpf.Messages.SettingsChangedMessage.New(neo_bpsys_wpf.Enums.FrontWindowType)
+  nameWithType: SettingsChangedMessage.SettingsChangedMessage(FrontWindowType)
+  nameWithType.vb: SettingsChangedMessage.New(FrontWindowType)
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor*
+  name: SettingsChangedMessage
+  href: api/neo_bpsys_wpf.Messages.SettingsChangedMessage.html#neo_bpsys_wpf_Messages_SettingsChangedMessage__ctor_
+  commentId: Overload:neo_bpsys_wpf.Messages.SettingsChangedMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage.SettingsChangedMessage
+  fullName.vb: neo_bpsys_wpf.Messages.SettingsChangedMessage.New
+  nameWithType: SettingsChangedMessage.SettingsChangedMessage
+  nameWithType.vb: SettingsChangedMessage.New
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  name: WindowType
+  href: api/neo_bpsys_wpf.Messages.SettingsChangedMessage.html#neo_bpsys_wpf_Messages_SettingsChangedMessage_WindowType
+  commentId: P:neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  nameWithType: SettingsChangedMessage.WindowType
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType*
+  name: WindowType
+  href: api/neo_bpsys_wpf.Messages.SettingsChangedMessage.html#neo_bpsys_wpf_Messages_SettingsChangedMessage_WindowType_
+  commentId: Overload:neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage.WindowType
+  nameWithType: SettingsChangedMessage.WindowType
 - uid: neo_bpsys_wpf.Messages.SwapMessage
   name: SwapMessage
   href: api/neo_bpsys_wpf.Messages.SwapMessage.html
@@ -4887,6 +4986,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.GameProgress
   nameWithType: CutSceneWindowTextSettings.GameProgress
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  name: HunPlayerId
+  href: api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_HunPlayerId
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  nameWithType: CutSceneWindowTextSettings.HunPlayerId
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId*
+  name: HunPlayerId
+  href: api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_HunPlayerId_
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.HunPlayerId
+  nameWithType: CutSceneWindowTextSettings.HunPlayerId
 - uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MajorPoints
   name: MajorPoints
   href: api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_MajorPoints
@@ -4913,19 +5025,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.MapName
   nameWithType: CutSceneWindowTextSettings.MapName
-- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
-  name: PlayerId
-  href: api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_PlayerId
-  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
-  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
-  nameWithType: CutSceneWindowTextSettings.PlayerId
-- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId*
-  name: PlayerId
-  href: api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_PlayerId_
-  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
+  name: SurPlayerId
+  href: api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_SurPlayerId
+  commentId: P:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
+  nameWithType: CutSceneWindowTextSettings.SurPlayerId
+- uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId*
+  name: SurPlayerId
+  href: api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_SurPlayerId_
+  commentId: Overload:neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.PlayerId
-  nameWithType: CutSceneWindowTextSettings.PlayerId
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.SurPlayerId
+  nameWithType: CutSceneWindowTextSettings.SurPlayerId
 - uid: neo_bpsys_wpf.Models.CutSceneWindowTextSettings.TeamName
   name: TeamName
   href: api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html#neo_bpsys_wpf_Models_CutSceneWindowTextSettings_TeamName
@@ -5352,6 +5464,83 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.GameDataWindowTextSettings.TeamName
   nameWithType: GameDataWindowTextSettings.TeamName
+- uid: neo_bpsys_wpf.Models.MapV2
+  name: MapV2
+  href: api/neo_bpsys_wpf.Models.MapV2.html
+  commentId: T:neo_bpsys_wpf.Models.MapV2
+  fullName: neo_bpsys_wpf.Models.MapV2
+  nameWithType: MapV2
+- uid: neo_bpsys_wpf.Models.MapV2.#ctor(System.String)
+  name: MapV2(string)
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2__ctor_System_String_
+  commentId: M:neo_bpsys_wpf.Models.MapV2.#ctor(System.String)
+  name.vb: New(String)
+  fullName: neo_bpsys_wpf.Models.MapV2.MapV2(string)
+  fullName.vb: neo_bpsys_wpf.Models.MapV2.New(String)
+  nameWithType: MapV2.MapV2(string)
+  nameWithType.vb: MapV2.New(String)
+- uid: neo_bpsys_wpf.Models.MapV2.#ctor*
+  name: MapV2
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2__ctor_
+  commentId: Overload:neo_bpsys_wpf.Models.MapV2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Models.MapV2.MapV2
+  fullName.vb: neo_bpsys_wpf.Models.MapV2.New
+  nameWithType: MapV2.MapV2
+  nameWithType.vb: MapV2.New
+- uid: neo_bpsys_wpf.Models.MapV2.ImageSource
+  name: ImageSource
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_ImageSource
+  commentId: P:neo_bpsys_wpf.Models.MapV2.ImageSource
+  fullName: neo_bpsys_wpf.Models.MapV2.ImageSource
+  nameWithType: MapV2.ImageSource
+- uid: neo_bpsys_wpf.Models.MapV2.ImageSource*
+  name: ImageSource
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_ImageSource_
+  commentId: Overload:neo_bpsys_wpf.Models.MapV2.ImageSource
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.MapV2.ImageSource
+  nameWithType: MapV2.ImageSource
+- uid: neo_bpsys_wpf.Models.MapV2.IsBanned
+  name: IsBanned
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_IsBanned
+  commentId: P:neo_bpsys_wpf.Models.MapV2.IsBanned
+  fullName: neo_bpsys_wpf.Models.MapV2.IsBanned
+  nameWithType: MapV2.IsBanned
+- uid: neo_bpsys_wpf.Models.MapV2.IsBanned*
+  name: IsBanned
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_IsBanned_
+  commentId: Overload:neo_bpsys_wpf.Models.MapV2.IsBanned
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.MapV2.IsBanned
+  nameWithType: MapV2.IsBanned
+- uid: neo_bpsys_wpf.Models.MapV2.IsChecked
+  name: IsChecked
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_IsChecked
+  commentId: P:neo_bpsys_wpf.Models.MapV2.IsChecked
+  fullName: neo_bpsys_wpf.Models.MapV2.IsChecked
+  nameWithType: MapV2.IsChecked
+- uid: neo_bpsys_wpf.Models.MapV2.IsChecked*
+  name: IsChecked
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_IsChecked_
+  commentId: Overload:neo_bpsys_wpf.Models.MapV2.IsChecked
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.MapV2.IsChecked
+  nameWithType: MapV2.IsChecked
+- uid: neo_bpsys_wpf.Models.MapV2.MapName
+  name: MapName
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_MapName
+  commentId: P:neo_bpsys_wpf.Models.MapV2.MapName
+  fullName: neo_bpsys_wpf.Models.MapV2.MapName
+  nameWithType: MapV2.MapName
+- uid: neo_bpsys_wpf.Models.MapV2.MapName*
+  name: MapName
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_MapName_
+  commentId: Overload:neo_bpsys_wpf.Models.MapV2.MapName
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.MapV2.MapName
+  nameWithType: MapV2.MapName
 - uid: neo_bpsys_wpf.Models.Member
   name: Member
   href: api/neo_bpsys_wpf.Models.Member.html
@@ -5558,12 +5747,24 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Player.PictureShown
   nameWithType: Player.PictureShown
+- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  name: Receive(MemberOnFieldChangedMessage)
+  href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_MemberOnFieldChangedMessage_
+  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
+  nameWithType: Player.Receive(MemberOnFieldChangedMessage)
 - uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   name: Receive(MemberPropertyChangedMessage)
   href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_
   commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   nameWithType: Player.Receive(MemberPropertyChangedMessage)
+- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  name: Receive(SwapMessage)
+  href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_SwapMessage_
+  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  nameWithType: Player.Receive(SwapMessage)
 - uid: neo_bpsys_wpf.Models.Player.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_
@@ -6427,15 +6628,24 @@ references:
   commentId: T:neo_bpsys_wpf.Models.TextSettings
   fullName: neo_bpsys_wpf.Models.TextSettings
   nameWithType: TextSettings
-- uid: neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double)
-  name: TextSettings(string, string, double)
-  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings__ctor_System_String_System_String_System_Double_
-  commentId: M:neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double)
-  name.vb: New(String, String, Double)
-  fullName: neo_bpsys_wpf.Models.TextSettings.TextSettings(string, string, double)
-  fullName.vb: neo_bpsys_wpf.Models.TextSettings.New(String, String, Double)
-  nameWithType: TextSettings.TextSettings(string, string, double)
-  nameWithType.vb: TextSettings.New(String, String, Double)
+- uid: neo_bpsys_wpf.Models.TextSettings.#ctor
+  name: TextSettings()
+  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings__ctor
+  commentId: M:neo_bpsys_wpf.Models.TextSettings.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.Models.TextSettings.TextSettings()
+  fullName.vb: neo_bpsys_wpf.Models.TextSettings.New()
+  nameWithType: TextSettings.TextSettings()
+  nameWithType.vb: TextSettings.New()
+- uid: neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double,System.Nullable{System.Windows.FontWeight})
+  name: TextSettings(string, string?, double, FontWeight?)
+  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings__ctor_System_String_System_String_System_Double_System_Nullable_System_Windows_FontWeight__
+  commentId: M:neo_bpsys_wpf.Models.TextSettings.#ctor(System.String,System.String,System.Double,System.Nullable{System.Windows.FontWeight})
+  name.vb: New(String, String, Double, FontWeight?)
+  fullName: neo_bpsys_wpf.Models.TextSettings.TextSettings(string, string?, double, System.Windows.FontWeight?)
+  fullName.vb: neo_bpsys_wpf.Models.TextSettings.New(String, String, Double, System.Windows.FontWeight?)
+  nameWithType: TextSettings.TextSettings(string, string?, double, FontWeight?)
+  nameWithType.vb: TextSettings.New(String, String, Double, FontWeight?)
 - uid: neo_bpsys_wpf.Models.TextSettings.#ctor*
   name: TextSettings
   href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings__ctor_
@@ -6459,19 +6669,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.TextSettings.Color
   nameWithType: TextSettings.Color
-- uid: neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  name: ColorBrush
-  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_ColorBrush
-  commentId: P:neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  fullName: neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  nameWithType: TextSettings.ColorBrush
-- uid: neo_bpsys_wpf.Models.TextSettings.ColorBrush*
-  name: ColorBrush
-  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_ColorBrush_
-  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Models.TextSettings.ColorBrush
-  nameWithType: TextSettings.ColorBrush
 - uid: neo_bpsys_wpf.Models.TextSettings.FontFamily
   name: FontFamily
   href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_FontFamily
@@ -6511,6 +6708,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.TextSettings.FontSize
   nameWithType: TextSettings.FontSize
+- uid: neo_bpsys_wpf.Models.TextSettings.FontWeight
+  name: FontWeight
+  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_FontWeight
+  commentId: P:neo_bpsys_wpf.Models.TextSettings.FontWeight
+  fullName: neo_bpsys_wpf.Models.TextSettings.FontWeight
+  nameWithType: TextSettings.FontWeight
+- uid: neo_bpsys_wpf.Models.TextSettings.FontWeight*
+  name: FontWeight
+  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_FontWeight_
+  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.FontWeight
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.TextSettings.FontWeight
+  nameWithType: TextSettings.FontWeight
+- uid: neo_bpsys_wpf.Models.TextSettings.Foreground
+  name: Foreground
+  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_Foreground
+  commentId: P:neo_bpsys_wpf.Models.TextSettings.Foreground
+  fullName: neo_bpsys_wpf.Models.TextSettings.Foreground
+  nameWithType: TextSettings.Foreground
+- uid: neo_bpsys_wpf.Models.TextSettings.Foreground*
+  name: Foreground
+  href: api/neo_bpsys_wpf.Models.TextSettings.html#neo_bpsys_wpf_Models_TextSettings_Foreground_
+  commentId: Overload:neo_bpsys_wpf.Models.TextSettings.Foreground
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.TextSettings.Foreground
+  nameWithType: TextSettings.Foreground
 - uid: neo_bpsys_wpf.Models.Trait
   name: Trait
   href: api/neo_bpsys_wpf.Models.Trait.html
@@ -7718,15 +7941,15 @@ references:
   commentId: T:neo_bpsys_wpf.Services.SharedDataService
   fullName: neo_bpsys_wpf.Services.SharedDataService
   nameWithType: SharedDataService
-- uid: neo_bpsys_wpf.Services.SharedDataService.#ctor
-  name: SharedDataService()
-  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService__ctor
-  commentId: M:neo_bpsys_wpf.Services.SharedDataService.#ctor
-  name.vb: New()
-  fullName: neo_bpsys_wpf.Services.SharedDataService.SharedDataService()
-  fullName.vb: neo_bpsys_wpf.Services.SharedDataService.New()
-  nameWithType: SharedDataService.SharedDataService()
-  nameWithType.vb: SharedDataService.New()
+- uid: neo_bpsys_wpf.Services.SharedDataService.#ctor(Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService})
+  name: SharedDataService(ILogger<SharedDataService>)
+  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService__ctor_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Services_SharedDataService__
+  commentId: M:neo_bpsys_wpf.Services.SharedDataService.#ctor(Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService})
+  name.vb: New(ILogger(Of SharedDataService))
+  fullName: neo_bpsys_wpf.Services.SharedDataService.SharedDataService(Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Services.SharedDataService>)
+  fullName.vb: neo_bpsys_wpf.Services.SharedDataService.New(Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Services.SharedDataService))
+  nameWithType: SharedDataService.SharedDataService(ILogger<SharedDataService>)
+  nameWithType.vb: SharedDataService.New(ILogger(Of SharedDataService))
 - uid: neo_bpsys_wpf.Services.SharedDataService.#ctor*
   name: SharedDataService
   href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService__ctor_
@@ -9936,15 +10159,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.New()
   nameWithType: ScorePageViewModel.ScorePageViewModel()
   nameWithType.vb: ScorePageViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Views.Windows.ScoreManualWindow)
-  name: ScorePageViewModel(ISharedDataService, IFrontService, ScoreManualWindow)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_IFrontService_neo_bpsys_wpf_Views_Windows_ScoreManualWindow_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Views.Windows.ScoreManualWindow)
-  name.vb: New(ISharedDataService, IFrontService, ScoreManualWindow)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ScorePageViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IFrontService, neo_bpsys_wpf.Views.Windows.ScoreManualWindow)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IFrontService, neo_bpsys_wpf.Views.Windows.ScoreManualWindow)
-  nameWithType: ScorePageViewModel.ScorePageViewModel(ISharedDataService, IFrontService, ScoreManualWindow)
-  nameWithType.vb: ScorePageViewModel.New(ISharedDataService, IFrontService, ScoreManualWindow)
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IFrontService)
+  name: ScorePageViewModel(ISharedDataService, IFrontService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_IFrontService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IFrontService)
+  name.vb: New(ISharedDataService, IFrontService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ScorePageViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IFrontService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IFrontService)
+  nameWithType: ScorePageViewModel.ScorePageViewModel(ISharedDataService, IFrontService)
+  nameWithType.vb: ScorePageViewModel.New(ISharedDataService, IFrontService)
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.#ctor*
   name: ScorePageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel__ctor_
@@ -10524,6 +10747,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand
   nameWithType: SettingPageViewModel.HopToGameOutputDirCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDirCommand
+  name: HopToLogDirCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToLogDirCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDirCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDirCommand
+  nameWithType: SettingPageViewModel.HopToLogDirCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDirCommand*
+  name: HopToLogDirCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToLogDirCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDirCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDirCommand
+  nameWithType: SettingPageViewModel.HopToLogDirCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand
   name: InstallUpdateCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_InstallUpdateCommand
@@ -11345,15 +11581,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.New()
   nameWithType: BpWindowViewModel.BpWindowViewModel()
   nameWithType.vb: BpWindowViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name: BpWindowViewModel(ISharedDataService)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BpWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  nameWithType: BpWindowViewModel.BpWindowViewModel(ISharedDataService)
-  nameWithType.vb: BpWindowViewModel.New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name: BpWindowViewModel(ISharedDataService, ISettingsHostService)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BpWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  nameWithType: BpWindowViewModel.BpWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType.vb: BpWindowViewModel.New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.#ctor*
   name: BpWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel__ctor_
@@ -11524,6 +11760,12 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   nameWithType: BpWindowViewModel.Receive(NewGameMessage)
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  name: Receive(SettingsChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_Receive_neo_bpsys_wpf_Messages_SettingsChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  nameWithType: BpWindowViewModel.Receive(SettingsChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_Receive_
@@ -11544,6 +11786,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.RemainingSeconds
   nameWithType: BpWindowViewModel.RemainingSeconds
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Settings
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Settings
+  nameWithType: BpWindowViewModel.Settings
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Settings*
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_Settings_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Settings
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Settings
+  nameWithType: BpWindowViewModel.Settings
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
   name: CutSceneWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html
@@ -11559,15 +11814,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.New()
   nameWithType: CutSceneWindowViewModel.CutSceneWindowViewModel()
   nameWithType.vb: CutSceneWindowViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name: CutSceneWindowViewModel(ISharedDataService)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CutSceneWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  nameWithType: CutSceneWindowViewModel.CutSceneWindowViewModel(ISharedDataService)
-  nameWithType.vb: CutSceneWindowViewModel.New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name: CutSceneWindowViewModel(ISharedDataService, ISettingsHostService)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CutSceneWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  nameWithType: CutSceneWindowViewModel.CutSceneWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType.vb: CutSceneWindowViewModel.New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor*
   name: CutSceneWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel__ctor_
@@ -11729,6 +11984,12 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   nameWithType: CutSceneWindowViewModel.Receive(NewGameMessage)
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  name: Receive(SettingsChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_Receive_neo_bpsys_wpf_Messages_SettingsChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  nameWithType: CutSceneWindowViewModel.Receive(SettingsChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_Receive_
@@ -11736,6 +11997,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive
   nameWithType: CutSceneWindowViewModel.Receive
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  nameWithType: CutSceneWindowViewModel.Settings
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings*
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_Settings_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  nameWithType: CutSceneWindowViewModel.Settings
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TideTurnerImageSource
   name: TideTurnerImageSource
   href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_TideTurnerImageSource
@@ -11777,15 +12051,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.New()
   nameWithType: GameDataWindowViewModel.GameDataWindowViewModel()
   nameWithType.vb: GameDataWindowViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name: GameDataWindowViewModel(ISharedDataService)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.GameDataWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  nameWithType: GameDataWindowViewModel.GameDataWindowViewModel(ISharedDataService)
-  nameWithType.vb: GameDataWindowViewModel.New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name: GameDataWindowViewModel(ISharedDataService, ISettingsHostService)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.GameDataWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  nameWithType: GameDataWindowViewModel.GameDataWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType.vb: GameDataWindowViewModel.New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.#ctor*
   name: GameDataWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel__ctor_
@@ -11862,6 +12136,12 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   nameWithType: GameDataWindowViewModel.Receive(NewGameMessage)
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  name: Receive(SettingsChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_Receive_neo_bpsys_wpf_Messages_SettingsChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  nameWithType: GameDataWindowViewModel.Receive(SettingsChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_Receive_
@@ -11869,6 +12149,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Receive
   nameWithType: GameDataWindowViewModel.Receive
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  nameWithType: GameDataWindowViewModel.Settings
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings*
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_Settings_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.Settings
+  nameWithType: GameDataWindowViewModel.Settings
 - uid: neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel
   name: InterludeWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel.html
@@ -12102,15 +12395,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New()
   nameWithType: MainWindowViewModel.MainWindowViewModel()
   nameWithType.vb: MainWindowViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  name: MainWindowViewModel(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IGameGuidanceService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  name.vb: New(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.MainWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  nameWithType: MainWindowViewModel.MainWindowViewModel(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService)
-  nameWithType.vb: MainWindowViewModel.New(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService)
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
+  name: MainWindowViewModel(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService, ILogger<MainWindowViewModel>)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IGameGuidanceService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
+  name.vb: New(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService, ILogger(Of MainWindowViewModel))
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.MainWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel>)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel))
+  nameWithType: MainWindowViewModel.MainWindowViewModel(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService, ILogger<MainWindowViewModel>)
+  nameWithType.vb: MainWindowViewModel.New(ISharedDataService, IMessageBoxService, IGameGuidanceService, IInfoBarService, ILogger(Of MainWindowViewModel))
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor*
   name: MainWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_
@@ -12160,6 +12453,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CanGameProgressChange
   nameWithType: MainWindowViewModel.CanGameProgressChange
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CurrentGame
+  name: CurrentGame
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_CurrentGame
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CurrentGame
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CurrentGame
+  nameWithType: MainWindowViewModel.CurrentGame
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CurrentGame*
+  name: CurrentGame
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_CurrentGame_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CurrentGame
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.CurrentGame
+  nameWithType: MainWindowViewModel.CurrentGame
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.FooterMenuItems
   name: FooterMenuItems
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_FooterMenuItems
@@ -12186,19 +12492,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.GameList
   nameWithType: MainWindowViewModel.GameList
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.HunTeamName
-  name: HunTeamName
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_HunTeamName
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.HunTeamName
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.HunTeamName
-  nameWithType: MainWindowViewModel.HunTeamName
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.HunTeamName*
-  name: HunTeamName
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_HunTeamName_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.HunTeamName
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.HunTeamName
-  nameWithType: MainWindowViewModel.HunTeamName
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.IsBo3Mode
   name: IsBo3Mode
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_IsBo3Mode
@@ -12327,18 +12620,6 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.HighlightMessage)
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.HighlightMessage)
   nameWithType: MainWindowViewModel.Receive(HighlightMessage)
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
-  name: Receive(NewGameMessage)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
-  nameWithType: MainWindowViewModel.Receive(NewGameMessage)
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
-  name: Receive(SwapMessage)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_neo_bpsys_wpf_Messages_SwapMessage_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
-  nameWithType: MainWindowViewModel.Receive(SwapMessage)
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_
@@ -12424,19 +12705,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StopNavigationCommand
   nameWithType: MainWindowViewModel.StopNavigationCommand
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SurTeamName
-  name: SurTeamName
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SurTeamName
-  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SurTeamName
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SurTeamName
-  nameWithType: MainWindowViewModel.SurTeamName
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SurTeamName*
-  name: SurTeamName
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SurTeamName_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SurTeamName
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SurTeamName
-  nameWithType: MainWindowViewModel.SurTeamName
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SwapCommand
   name: SwapCommand
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_SwapCommand
@@ -12676,15 +12944,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.New()
   nameWithType: ScoreWindowViewModel.ScoreWindowViewModel()
   nameWithType.vb: ScoreWindowViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name: ScoreWindowViewModel(ISharedDataService)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  nameWithType: ScoreWindowViewModel.ScoreWindowViewModel(ISharedDataService)
-  nameWithType.vb: ScoreWindowViewModel.New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name: ScoreWindowViewModel(ISharedDataService, ISettingsHostService)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  nameWithType: ScoreWindowViewModel.ScoreWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType.vb: ScoreWindowViewModel.New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor*
   name: ScoreWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel__ctor_
@@ -12768,6 +13036,12 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   nameWithType: ScoreWindowViewModel.Receive(NewGameMessage)
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  name: Receive(SettingsChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Receive_neo_bpsys_wpf_Messages_SettingsChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  nameWithType: ScoreWindowViewModel.Receive(SettingsChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Receive_
@@ -12775,6 +13049,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive
   nameWithType: ScoreWindowViewModel.Receive
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  nameWithType: ScoreWindowViewModel.Settings
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings*
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Settings_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
+  nameWithType: ScoreWindowViewModel.Settings
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.TotalAwayMinorPoint
   name: TotalAwayMinorPoint
   href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_TotalAwayMinorPoint
@@ -12816,15 +13103,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.New()
   nameWithType: WidgetsWindowViewModel.WidgetsWindowViewModel()
   nameWithType.vb: WidgetsWindowViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name: WidgetsWindowViewModel(ISharedDataService)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.WidgetsWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  nameWithType: WidgetsWindowViewModel.WidgetsWindowViewModel(ISharedDataService)
-  nameWithType.vb: WidgetsWindowViewModel.New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name: WidgetsWindowViewModel(ISharedDataService, ISettingsHostService)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.WidgetsWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  nameWithType: WidgetsWindowViewModel.WidgetsWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType.vb: WidgetsWindowViewModel.New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor*
   name: WidgetsWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel__ctor_
@@ -12973,6 +13260,12 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   nameWithType: WidgetsWindowViewModel.Receive(NewGameMessage)
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  name: Receive(SettingsChangedMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_neo_bpsys_wpf_Messages_SettingsChangedMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  nameWithType: WidgetsWindowViewModel.Receive(SettingsChangedMessage)
 - uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_
@@ -12980,6 +13273,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive
   nameWithType: WidgetsWindowViewModel.Receive
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  nameWithType: WidgetsWindowViewModel.Settings
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings*
+  name: Settings
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Settings_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings
+  nameWithType: WidgetsWindowViewModel.Settings
 - uid: neo_bpsys_wpf.Views.Pages
   name: neo_bpsys_wpf.Views.Pages
   href: api/neo_bpsys_wpf.Views.Pages.html
@@ -13658,15 +13964,15 @@ references:
   commentId: T:neo_bpsys_wpf.Views.Windows.MainWindow
   fullName: neo_bpsys_wpf.Views.Windows.MainWindow
   nameWithType: MainWindow
-- uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  name: MainWindow(INavigationService, IMessageBoxService, IInfoBarService)
-  href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow__ctor_Wpf_Ui_INavigationService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_
-  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  name.vb: New(INavigationService, IMessageBoxService, IInfoBarService)
-  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.MainWindow(Wpf.Ui.INavigationService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  fullName.vb: neo_bpsys_wpf.Views.Windows.MainWindow.New(Wpf.Ui.INavigationService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  nameWithType: MainWindow.MainWindow(INavigationService, IMessageBoxService, IInfoBarService)
-  nameWithType.vb: MainWindow.New(INavigationService, IMessageBoxService, IInfoBarService)
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
+  name: MainWindow(INavigationService, IMessageBoxService, IInfoBarService, ILogger<MainWindow>)
+  href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow__ctor_Wpf_Ui_INavigationService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Views_Windows_MainWindow__
+  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
+  name.vb: New(INavigationService, IMessageBoxService, IInfoBarService, ILogger(Of MainWindow))
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.MainWindow(Wpf.Ui.INavigationService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Views.Windows.MainWindow>)
+  fullName.vb: neo_bpsys_wpf.Views.Windows.MainWindow.New(Wpf.Ui.INavigationService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Views.Windows.MainWindow))
+  nameWithType: MainWindow.MainWindow(INavigationService, IMessageBoxService, IInfoBarService, ILogger<MainWindow>)
+  nameWithType.vb: MainWindow.New(INavigationService, IMessageBoxService, IInfoBarService, ILogger(Of MainWindow))
 - uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor*
   name: MainWindow
   href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow__ctor_
@@ -13729,6 +14035,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Views.Windows.MainWindow.Navigate
   nameWithType: MainWindow.Navigate
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  name: OnClosing(CancelEventArgs)
+  href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow_OnClosing_System_ComponentModel_CancelEventArgs_
+  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  nameWithType: MainWindow.OnClosing(CancelEventArgs)
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing*
+  name: OnClosing
+  href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow_OnClosing_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing
+  nameWithType: MainWindow.OnClosing
 - uid: neo_bpsys_wpf.Views.Windows.MainWindow.SetPageService(Wpf.Ui.Abstractions.INavigationViewPageProvider)
   name: SetPageService(INavigationViewPageProvider)
   href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow_SetPageService_Wpf_Ui_Abstractions_INavigationViewPageProvider_
@@ -13844,19 +14163,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.InitializeComponent
   nameWithType: ScoreManualWindow.InitializeComponent
-- uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing(System.ComponentModel.CancelEventArgs)
-  name: OnClosing(CancelEventArgs)
-  href: api/neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html#neo_bpsys_wpf_Views_Windows_ScoreManualWindow_OnClosing_System_ComponentModel_CancelEventArgs_
-  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing(System.ComponentModel.CancelEventArgs)
-  fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing(System.ComponentModel.CancelEventArgs)
-  nameWithType: ScoreManualWindow.OnClosing(CancelEventArgs)
-- uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing*
-  name: OnClosing
-  href: api/neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html#neo_bpsys_wpf_Views_Windows_ScoreManualWindow_OnClosing_
-  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing
-  nameWithType: ScoreManualWindow.OnClosing
 - uid: neo_bpsys_wpf.Views.Windows.ScoreWindow
   name: ScoreWindow
   href: api/neo_bpsys_wpf.Views.Windows.ScoreWindow.html

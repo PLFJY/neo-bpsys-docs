@@ -5,11 +5,12 @@ items:
   id: MainWindow
   parent: neo_bpsys_wpf.Views.Windows
   children:
-  - neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
+  - neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
   - neo_bpsys_wpf.Views.Windows.MainWindow.CloseWindow
   - neo_bpsys_wpf.Views.Windows.MainWindow.GetNavigation
   - neo_bpsys_wpf.Views.Windows.MainWindow.InitializeComponent
   - neo_bpsys_wpf.Views.Windows.MainWindow.Navigate(System.Type)
+  - neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing(System.ComponentModel.CancelEventArgs)
   - neo_bpsys_wpf.Views.Windows.MainWindow.SetPageService(Wpf.Ui.Abstractions.INavigationViewPageProvider)
   - neo_bpsys_wpf.Views.Windows.MainWindow.SetServiceProvider(System.IServiceProvider)
   - neo_bpsys_wpf.Views.Windows.MainWindow.ShowWindow
@@ -23,7 +24,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs
@@ -62,30 +63,30 @@ items:
   - Wpf.Ui.Controls.FluentWindow.WindowCornerPreference
   - Wpf.Ui.Controls.FluentWindow.WindowBackdropType
   - Wpf.Ui.Controls.FluentWindow.ExtendsContentIntoTitleBar
-- uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  id: '#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)'
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
+  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
+  id: '#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})'
   parent: neo_bpsys_wpf.Views.Windows.MainWindow
   langs:
   - csharp
   - vb
-  name: MainWindow(INavigationService, IMessageBoxService, IInfoBarService)
-  nameWithType: MainWindow.MainWindow(INavigationService, IMessageBoxService, IInfoBarService)
-  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.MainWindow(Wpf.Ui.INavigationService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
+  name: MainWindow(INavigationService, IMessageBoxService, IInfoBarService, ILogger<MainWindow>)
+  nameWithType: MainWindow.MainWindow(INavigationService, IMessageBoxService, IInfoBarService, ILogger<MainWindow>)
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.MainWindow(Wpf.Ui.INavigationService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Views.Windows.MainWindow>)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
   syntax:
-    content: public MainWindow(INavigationService navigationService, IMessageBoxService messageBoxService, IInfoBarService infoBarService)
+    content: public MainWindow(INavigationService navigationService, IMessageBoxService messageBoxService, IInfoBarService infoBarService, ILogger<MainWindow> logger)
     parameters:
     - id: navigationService
       type: Wpf.Ui.INavigationService
@@ -93,11 +94,46 @@ items:
       type: neo_bpsys_wpf.Abstractions.Services.IMessageBoxService
     - id: infoBarService
       type: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
-    content.vb: Public Sub New(navigationService As INavigationService, messageBoxService As IMessageBoxService, infoBarService As IInfoBarService)
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow}
+    content.vb: Public Sub New(navigationService As INavigationService, messageBoxService As IMessageBoxService, infoBarService As IInfoBarService, logger As ILogger(Of MainWindow))
   overload: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor*
-  nameWithType.vb: MainWindow.New(INavigationService, IMessageBoxService, IInfoBarService)
-  fullName.vb: neo_bpsys_wpf.Views.Windows.MainWindow.New(Wpf.Ui.INavigationService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService)
-  name.vb: New(INavigationService, IMessageBoxService, IInfoBarService)
+  nameWithType.vb: MainWindow.New(INavigationService, IMessageBoxService, IInfoBarService, ILogger(Of MainWindow))
+  fullName.vb: neo_bpsys_wpf.Views.Windows.MainWindow.New(Wpf.Ui.INavigationService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Views.Windows.MainWindow))
+  name.vb: New(INavigationService, IMessageBoxService, IInfoBarService, ILogger(Of MainWindow))
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  id: OnClosing(System.ComponentModel.CancelEventArgs)
+  parent: neo_bpsys_wpf.Views.Windows.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: OnClosing(CancelEventArgs)
+  nameWithType: MainWindow.OnClosing(CancelEventArgs)
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: OnClosing
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
+    startLine: 33
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Views.Windows
+  summary: Raises the <xref href="System.Windows.Window.Closing" data-throw-if-not-resolved="false"></xref> event.
+  example: []
+  syntax:
+    content: protected override void OnClosing(CancelEventArgs e)
+    parameters:
+    - id: e
+      type: System.ComponentModel.CancelEventArgs
+      description: A <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+    content.vb: Protected Overrides Sub OnClosing(e As CancelEventArgs)
+  overridden: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
+  overload: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing*
 - uid: neo_bpsys_wpf.Views.Windows.MainWindow.GetNavigation
   commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.GetNavigation
   id: GetNavigation
@@ -112,11 +148,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetNavigation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 95
+    startLine: 102
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -140,11 +176,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CloseWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 97
+    startLine: 104
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -170,11 +206,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 99
+    startLine: 106
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -200,11 +236,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Navigate
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 101
+    startLine: 108
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -237,11 +273,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetPageService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 103
+    startLine: 114
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -271,11 +307,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetServiceProvider
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs
-    startLine: 111
+    startLine: 122
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -305,7 +341,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs
@@ -881,7 +917,7 @@ references:
     isExternal: true
 - uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor*
   commentId: Overload:neo_bpsys_wpf.Views.Windows.MainWindow.#ctor
-  href: neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow__ctor_Wpf_Ui_INavigationService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_
+  href: neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow__ctor_Wpf_Ui_INavigationService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Views_Windows_MainWindow__
   name: MainWindow
   nameWithType: MainWindow.MainWindow
   fullName: neo_bpsys_wpf.Views.Windows.MainWindow.MainWindow
@@ -910,6 +946,39 @@ references:
   name: IInfoBarService
   nameWithType: IInfoBarService
   fullName: neo_bpsys_wpf.Abstractions.Services.IInfoBarService
+- uid: Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<MainWindow>
+  nameWithType: ILogger<MainWindow>
+  fullName: Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Views.Windows.MainWindow>
+  nameWithType.vb: ILogger(Of MainWindow)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Views.Windows.MainWindow)
+  name.vb: ILogger(Of MainWindow)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: neo_bpsys_wpf.Views.Windows.MainWindow
+    name: MainWindow
+    href: neo_bpsys_wpf.Views.Windows.MainWindow.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: neo_bpsys_wpf.Views.Windows.MainWindow
+    name: MainWindow
+    href: neo_bpsys_wpf.Views.Windows.MainWindow.html
+  - name: )
 - uid: neo_bpsys_wpf.Abstractions.Services
   commentId: N:neo_bpsys_wpf.Abstractions.Services
   href: neo_bpsys_wpf.html
@@ -940,6 +1009,119 @@ references:
   - uid: neo_bpsys_wpf.Abstractions.Services
     name: Services
     href: neo_bpsys_wpf.Abstractions.Services.html
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: System.Windows.Window.Closing
+  commentId: E:System.Windows.Window.Closing
+  isExternal: true
+  name: Closing
+  nameWithType: Window.Closing
+  fullName: System.Windows.Window.Closing
+- uid: System.ComponentModel.CancelEventArgs
+  commentId: T:System.ComponentModel.CancelEventArgs
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs
+  name: CancelEventArgs
+  nameWithType: CancelEventArgs
+  fullName: System.ComponentModel.CancelEventArgs
+- uid: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
+  commentId: M:System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
+  parent: System.Windows.Window
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs
+  name: OnClosing(CancelEventArgs)
+  nameWithType: Window.OnClosing(CancelEventArgs)
+  fullName: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
+  spec.csharp:
+  - uid: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
+    name: OnClosing
+    isExternal: true
+  - name: (
+  - uid: System.ComponentModel.CancelEventArgs
+    name: CancelEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
+    name: OnClosing
+    isExternal: true
+  - name: (
+  - uid: System.ComponentModel.CancelEventArgs
+    name: CancelEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs
+  - name: )
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing*
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing
+  href: neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow_OnClosing_System_ComponentModel_CancelEventArgs_
+  name: OnClosing
+  nameWithType: MainWindow.OnClosing
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing
 - uid: neo_bpsys_wpf.Views.Windows.MainWindow.GetNavigation*
   commentId: Overload:neo_bpsys_wpf.Views.Windows.MainWindow.GetNavigation
   href: neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow_GetNavigation

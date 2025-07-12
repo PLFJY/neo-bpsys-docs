@@ -6,7 +6,7 @@ items:
   parent: neo_bpsys_wpf.ViewModels.Windows
   children:
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor
-  - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.ConfinedSpaceImageSource
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CurrentGame
@@ -20,6 +20,8 @@ items:
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TideTurnerImageSource
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TrumpCardImageSource
   langs:
@@ -65,11 +67,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 18
+    startLine: 20
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -80,38 +82,40 @@ items:
   nameWithType.vb: CutSceneWindowViewModel.New()
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.New()
   name.vb: New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)'
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  id: '#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)'
   parent: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
   langs:
   - csharp
   - vb
-  name: CutSceneWindowViewModel(ISharedDataService)
-  nameWithType: CutSceneWindowViewModel.CutSceneWindowViewModel(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CutSceneWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
+  name: CutSceneWindowViewModel(ISharedDataService, ISettingsHostService)
+  nameWithType: CutSceneWindowViewModel.CutSceneWindowViewModel(ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CutSceneWindowViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
   syntax:
-    content: public CutSceneWindowViewModel(ISharedDataService sharedDataService)
+    content: public CutSceneWindowViewModel(ISharedDataService sharedDataService, ISettingsHostService settingsHostService)
     parameters:
     - id: sharedDataService
       type: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
-    content.vb: Public Sub New(sharedDataService As ISharedDataService)
+    - id: settingsHostService
+      type: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+    content.vb: Public Sub New(sharedDataService As ISharedDataService, settingsHostService As ISettingsHostService)
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor*
-  nameWithType.vb: CutSceneWindowViewModel.New(ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
+  nameWithType.vb: CutSceneWindowViewModel.New(ISharedDataService, ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   id: Receive(neo_bpsys_wpf.Messages.NewGameMessage)
@@ -126,11 +130,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 48
+    startLine: 52
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -158,11 +162,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 56
+    startLine: 60
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -190,11 +194,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 65
+    startLine: 69
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -225,11 +229,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BorrowedTimeImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 79
+    startLine: 84
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -254,11 +258,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FlywheelEffectImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 80
+    startLine: 85
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -283,11 +287,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: KneeJerkReflexImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 81
+    startLine: 86
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -312,11 +316,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TideTurnerImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 82
+    startLine: 87
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -341,11 +345,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ConfinedSpaceImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 84
+    startLine: 89
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -370,11 +374,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: DetentionImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 85
+    startLine: 90
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -399,11 +403,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InsolenceImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 86
+    startLine: 91
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -428,11 +432,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TrumpCardImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 87
+    startLine: 92
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -457,11 +461,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 89
+    startLine: 94
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -472,6 +476,67 @@ items:
       type: neo_bpsys_wpf.Models.Game
     content.vb: Public ReadOnly Property CurrentGame As Game
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CurrentGame*
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  id: Settings
+  parent: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: CutSceneWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Settings
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
+    startLine: 99
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public CutSceneWindowSettings Settings { get; }
+    parameters: []
+    return:
+      type: neo_bpsys_wpf.Models.CutSceneWindowSettings
+    content.vb: Public ReadOnly Property Settings As CutSceneWindowSettings
+  overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings*
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  id: Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  parent: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Receive(SettingsChangedMessage)
+  nameWithType: CutSceneWindowViewModel.Receive(SettingsChangedMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
+      branch: dev-feat/multiBanMap
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
+    startLine: 101
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.SettingsChangedMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public void Receive(SettingsChangedMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.SettingsChangedMessage
+      description: The message being received.
+    content.vb: Public Sub Receive(message As SettingsChangedMessage)
+  overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.IsDesignMode
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.IsDesignMode
   id: IsDesignMode
@@ -714,6 +779,13 @@ references:
   name: ISharedDataService
   nameWithType: ISharedDataService
   fullName: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
+- uid: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  commentId: T:neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
+  parent: neo_bpsys_wpf.Abstractions.Services
+  href: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html
+  name: ISettingsHostService
+  nameWithType: ISettingsHostService
+  fullName: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
 - uid: neo_bpsys_wpf.Abstractions.Services
   commentId: N:neo_bpsys_wpf.Abstractions.Services
   href: neo_bpsys_wpf.html
@@ -1018,6 +1090,26 @@ references:
   - uid: neo_bpsys_wpf.Models
     name: Models
     href: neo_bpsys_wpf.Models.html
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+  href: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_Settings
+  name: Settings
+  nameWithType: CutSceneWindowViewModel.Settings
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Settings
+- uid: neo_bpsys_wpf.Models.CutSceneWindowSettings
+  commentId: T:neo_bpsys_wpf.Models.CutSceneWindowSettings
+  parent: neo_bpsys_wpf.Models
+  href: neo_bpsys_wpf.Models.CutSceneWindowSettings.html
+  name: CutSceneWindowSettings
+  nameWithType: CutSceneWindowSettings
+  fullName: neo_bpsys_wpf.Models.CutSceneWindowSettings
+- uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
+  commentId: T:neo_bpsys_wpf.Messages.SettingsChangedMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.SettingsChangedMessage.html
+  name: SettingsChangedMessage
+  nameWithType: SettingsChangedMessage
+  fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.IsDesignMode*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.IsDesignMode
   href: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_IsDesignMode

@@ -12,6 +12,7 @@ items:
   - neo_bpsys_wpf.Models.Game
   - neo_bpsys_wpf.Models.GameDataWindowSettings
   - neo_bpsys_wpf.Models.GameDataWindowTextSettings
+  - neo_bpsys_wpf.Models.MapV2
   - neo_bpsys_wpf.Models.Member
   - neo_bpsys_wpf.Models.Player
   - neo_bpsys_wpf.Models.PlayerData
@@ -50,6 +51,12 @@ references:
   name: Game
   nameWithType: Game
   fullName: neo_bpsys_wpf.Models.Game
+- uid: neo_bpsys_wpf.Models.MapV2
+  commentId: T:neo_bpsys_wpf.Models.MapV2
+  href: neo_bpsys_wpf.Models.MapV2.html
+  name: MapV2
+  nameWithType: MapV2
+  fullName: neo_bpsys_wpf.Models.MapV2
 - uid: neo_bpsys_wpf.Models.Member
   commentId: T:neo_bpsys_wpf.Models.Member
   parent: neo_bpsys_wpf.Models

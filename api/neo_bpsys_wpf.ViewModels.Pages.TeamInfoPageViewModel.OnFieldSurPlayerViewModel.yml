@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ThisPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Index
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -179,7 +179,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs

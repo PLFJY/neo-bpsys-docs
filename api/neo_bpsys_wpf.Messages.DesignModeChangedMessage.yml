@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/DesignModeChangedMessage.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: DesignModeChangedMessage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/DesignModeChangedMessage.cs
@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/DesignModeChangedMessage.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/DesignModeChangedMessage.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/DesignModeChangedMessage.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Sender
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/DesignModeChangedMessage.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Messages/DesignModeChangedMessage.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsDesignMode
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Messages/DesignModeChangedMessage.cs

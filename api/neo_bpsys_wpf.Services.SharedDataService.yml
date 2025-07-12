@@ -5,7 +5,7 @@ items:
   id: SharedDataService
   parent: neo_bpsys_wpf.Services
   children:
-  - neo_bpsys_wpf.Services.SharedDataService.#ctor
+  - neo_bpsys_wpf.Services.SharedDataService.#ctor(Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService})
   - neo_bpsys_wpf.Services.SharedDataService.AwayTeam
   - neo_bpsys_wpf.Services.SharedDataService.CanCurrentHunBanned
   - neo_bpsys_wpf.Services.SharedDataService.CanCurrentSurBanned
@@ -33,11 +33,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SharedDataService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -50,35 +50,38 @@ items:
   - System.Object
   implements:
   - neo_bpsys_wpf.Abstractions.Services.ISharedDataService
-- uid: neo_bpsys_wpf.Services.SharedDataService.#ctor
-  commentId: M:neo_bpsys_wpf.Services.SharedDataService.#ctor
-  id: '#ctor'
+- uid: neo_bpsys_wpf.Services.SharedDataService.#ctor(Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService})
+  commentId: M:neo_bpsys_wpf.Services.SharedDataService.#ctor(Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService})'
   parent: neo_bpsys_wpf.Services.SharedDataService
   langs:
   - csharp
   - vb
-  name: SharedDataService()
-  nameWithType: SharedDataService.SharedDataService()
-  fullName: neo_bpsys_wpf.Services.SharedDataService.SharedDataService()
+  name: SharedDataService(ILogger<SharedDataService>)
+  nameWithType: SharedDataService.SharedDataService(ILogger<SharedDataService>)
+  fullName: neo_bpsys_wpf.Services.SharedDataService.SharedDataService(Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Services.SharedDataService>)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 21
+    startLine: 23
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
   syntax:
-    content: public SharedDataService()
-    content.vb: Public Sub New()
+    content: public SharedDataService(ILogger<SharedDataService> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService}
+    content.vb: Public Sub New(logger As ILogger(Of SharedDataService))
   overload: neo_bpsys_wpf.Services.SharedDataService.#ctor*
-  nameWithType.vb: SharedDataService.New()
-  fullName.vb: neo_bpsys_wpf.Services.SharedDataService.New()
-  name.vb: New()
+  nameWithType.vb: SharedDataService.New(ILogger(Of SharedDataService))
+  fullName.vb: neo_bpsys_wpf.Services.SharedDataService.New(Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Services.SharedDataService))
+  name.vb: New(ILogger(Of SharedDataService))
 - uid: neo_bpsys_wpf.Services.SharedDataService.MainTeam
   commentId: P:neo_bpsys_wpf.Services.SharedDataService.MainTeam
   id: MainTeam
@@ -93,11 +96,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 88
+    startLine: 93
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -126,11 +129,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 92
+    startLine: 97
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -159,11 +162,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 96
+    startLine: 101
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -192,11 +195,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharacterList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 100
+    startLine: 105
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -225,11 +228,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurCharaList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 104
+    startLine: 109
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -258,11 +261,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunCharaList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 108
+    startLine: 113
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -291,11 +294,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 112
+    startLine: 117
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -324,11 +327,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 113
+    startLine: 118
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -357,11 +360,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 117
+    startLine: 122
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -390,11 +393,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 118
+    startLine: 123
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -423,11 +426,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsTraitVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 124
+    startLine: 129
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -456,11 +459,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsBo3Mode
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 138
+    startLine: 145
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -489,11 +492,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RemainingSeconds
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 152
+    startLine: 161
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -522,11 +525,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TimerStart
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 177
+    startLine: 186
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -559,11 +562,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TimerStop
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 184
+    startLine: 194
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -589,11 +592,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetBanCount
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 197
+    startLine: 208
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -633,11 +636,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalScoreTotalMargin
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
-    startLine: 227
+    startLine: 239
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -731,13 +734,111 @@ references:
   fullName: System
 - uid: neo_bpsys_wpf.Services.SharedDataService.#ctor*
   commentId: Overload:neo_bpsys_wpf.Services.SharedDataService.#ctor
-  href: neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService__ctor
+  href: neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService__ctor_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Services_SharedDataService__
   name: SharedDataService
   nameWithType: SharedDataService.SharedDataService
   fullName: neo_bpsys_wpf.Services.SharedDataService.SharedDataService
   nameWithType.vb: SharedDataService.New
   fullName.vb: neo_bpsys_wpf.Services.SharedDataService.New
   name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<SharedDataService>
+  nameWithType: ILogger<SharedDataService>
+  fullName: Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Services.SharedDataService>
+  nameWithType.vb: ILogger(Of SharedDataService)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Services.SharedDataService)
+  name.vb: ILogger(Of SharedDataService)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: neo_bpsys_wpf.Services.SharedDataService
+    name: SharedDataService
+    href: neo_bpsys_wpf.Services.SharedDataService.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: neo_bpsys_wpf.Services.SharedDataService
+    name: SharedDataService
+    href: neo_bpsys_wpf.Services.SharedDataService.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: neo_bpsys_wpf.Services.SharedDataService.MainTeam*
   commentId: Overload:neo_bpsys_wpf.Services.SharedDataService.MainTeam
   href: neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_MainTeam

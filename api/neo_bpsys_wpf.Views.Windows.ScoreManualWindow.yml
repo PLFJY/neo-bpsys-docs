@@ -7,7 +7,6 @@ items:
   children:
   - neo_bpsys_wpf.Views.Windows.ScoreManualWindow.#ctor
   - neo_bpsys_wpf.Views.Windows.ScoreManualWindow.InitializeComponent
-  - neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing(System.ComponentModel.CancelEventArgs)
   langs:
   - csharp
   - vb
@@ -18,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/ScoreManualWindow.g.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreManualWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/ScoreManualWindow.g.cs
@@ -70,7 +69,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/ScoreManualWindow.xaml.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/ScoreManualWindow.xaml.cs
@@ -85,39 +84,6 @@ items:
   nameWithType.vb: ScoreManualWindow.New()
   fullName.vb: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.New()
   name.vb: New()
-- uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing(System.ComponentModel.CancelEventArgs)
-  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing(System.ComponentModel.CancelEventArgs)
-  id: OnClosing(System.ComponentModel.CancelEventArgs)
-  parent: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
-  langs:
-  - csharp
-  - vb
-  name: OnClosing(CancelEventArgs)
-  nameWithType: ScoreManualWindow.OnClosing(CancelEventArgs)
-  fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing(System.ComponentModel.CancelEventArgs)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Views/Windows/ScoreManualWindow.xaml.cs
-      branch: dev
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: OnClosing
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/ScoreManualWindow.xaml.cs
-    startLine: 15
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Views.Windows
-  summary: Raises the <xref href="System.Windows.Window.Closing" data-throw-if-not-resolved="false"></xref> event.
-  example: []
-  syntax:
-    content: protected override void OnClosing(CancelEventArgs e)
-    parameters:
-    - id: e
-      type: System.ComponentModel.CancelEventArgs
-      description: A <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
-    content.vb: Protected Overrides Sub OnClosing(e As CancelEventArgs)
-  overridden: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
-  overload: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing*
 - uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.InitializeComponent
   commentId: M:neo_bpsys_wpf.Views.Windows.ScoreManualWindow.InitializeComponent
   id: InitializeComponent
@@ -132,7 +98,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/ScoreManualWindow.g.cs
-      branch: dev
+      branch: dev-feat/multiBanMap
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/ScoreManualWindow.g.cs
@@ -685,54 +651,6 @@ references:
   nameWithType.vb: ScoreManualWindow.New
   fullName.vb: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.New
   name.vb: New
-- uid: System.Windows.Window.Closing
-  commentId: E:System.Windows.Window.Closing
-  isExternal: true
-  name: Closing
-  nameWithType: Window.Closing
-  fullName: System.Windows.Window.Closing
-- uid: System.ComponentModel.CancelEventArgs
-  commentId: T:System.ComponentModel.CancelEventArgs
-  parent: System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs
-  name: CancelEventArgs
-  nameWithType: CancelEventArgs
-  fullName: System.ComponentModel.CancelEventArgs
-- uid: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
-  commentId: M:System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
-  parent: System.Windows.Window
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs
-  name: OnClosing(CancelEventArgs)
-  nameWithType: Window.OnClosing(CancelEventArgs)
-  fullName: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
-  spec.csharp:
-  - uid: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
-    name: OnClosing
-    isExternal: true
-  - name: (
-  - uid: System.ComponentModel.CancelEventArgs
-    name: CancelEventArgs
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs
-  - name: )
-  spec.vb:
-  - uid: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
-    name: OnClosing
-    isExternal: true
-  - name: (
-  - uid: System.ComponentModel.CancelEventArgs
-    name: CancelEventArgs
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs
-  - name: )
-- uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing*
-  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing
-  href: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html#neo_bpsys_wpf_Views_Windows_ScoreManualWindow_OnClosing_System_ComponentModel_CancelEventArgs_
-  name: OnClosing
-  nameWithType: ScoreManualWindow.OnClosing
-  fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.OnClosing
 - uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.InitializeComponent*
   commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreManualWindow.InitializeComponent
   href: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html#neo_bpsys_wpf_Views_Windows_ScoreManualWindow_InitializeComponent
