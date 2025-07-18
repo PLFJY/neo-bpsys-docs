@@ -17,14 +17,7 @@ jobs:
             - name: clone neo-bpsys-wpf
               shell: pwsh
               run: |
-                git clone --depth=1 https://github.com/PLFJY/neo-bpsys-wpf ../neo-bpsys-wpf 
-
-            - name: Generate docsite
-              shell: pwsh
-              run: |
-                ls
-                ls ..
-                ls ../neo-bpsys-wpf
+                git clone --depth=1 https://github.com/PLFJY/neo-bpsys-wpf ../neo-bpsys-wpf
 
             - name: Install .NET Core
               uses: actions/setup-dotnet@v4
@@ -40,11 +33,6 @@ jobs:
               run: |
                 cd ${{ github.workspace }}
                 docfx docfx.json
-
-            - name: Setup Git
-              shell: pwsh
-              run: |
-                git config --global core.autocrlf true
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v4
