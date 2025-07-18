@@ -46,3 +46,9 @@ jobs:
               run: |
                 cd ${{ github.workspace }}
                 docfx docfx.json
+
+            - name: Deploy
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                publish_dir: ./_site
