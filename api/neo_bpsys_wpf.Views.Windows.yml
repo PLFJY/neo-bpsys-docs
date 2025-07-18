@@ -8,8 +8,10 @@ items:
   - neo_bpsys_wpf.Views.Windows.CutSceneWindow
   - neo_bpsys_wpf.Views.Windows.GameDataWindow
   - neo_bpsys_wpf.Views.Windows.MainWindow
+  - neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+  - neo_bpsys_wpf.Views.Windows.ScoreHunWindow
   - neo_bpsys_wpf.Views.Windows.ScoreManualWindow
-  - neo_bpsys_wpf.Views.Windows.ScoreWindow
+  - neo_bpsys_wpf.Views.Windows.ScoreSurWindow
   - neo_bpsys_wpf.Views.Windows.WidgetsWindow
   langs:
   - csharp
@@ -48,19 +50,33 @@ references:
   name: MainWindow
   nameWithType: MainWindow
   fullName: neo_bpsys_wpf.Views.Windows.MainWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html
+  name: ScoreGlobalWindow
+  nameWithType: ScoreGlobalWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html
+  name: ScoreHunWindow
+  nameWithType: ScoreHunWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow
 - uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
   commentId: T:neo_bpsys_wpf.Views.Windows.ScoreManualWindow
   href: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html
   name: ScoreManualWindow
   nameWithType: ScoreManualWindow
   fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
-- uid: neo_bpsys_wpf.Views.Windows.ScoreWindow
-  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreSurWindow
   parent: neo_bpsys_wpf.Views.Windows
-  href: neo_bpsys_wpf.Views.Windows.ScoreWindow.html
-  name: ScoreWindow
-  nameWithType: ScoreWindow
-  fullName: neo_bpsys_wpf.Views.Windows.ScoreWindow
+  href: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html
+  name: ScoreSurWindow
+  nameWithType: ScoreSurWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow
 - uid: neo_bpsys_wpf.Views.Windows.WidgetsWindow
   commentId: T:neo_bpsys_wpf.Views.Windows.WidgetsWindow
   parent: neo_bpsys_wpf.Views.Windows

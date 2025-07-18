@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataPageViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
@@ -81,7 +81,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurPlayerList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunPlayer
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/GameDataPageViewModel.cs

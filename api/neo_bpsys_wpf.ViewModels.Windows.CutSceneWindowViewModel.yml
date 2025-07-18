@@ -7,6 +7,7 @@ items:
   children:
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.ConfinedSpaceImageSource
   - neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CurrentGame
@@ -67,11 +68,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 20
+    startLine: 21
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -96,7 +97,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -130,11 +131,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 52
+    startLine: 42
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -162,11 +163,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 60
+    startLine: 50
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -194,11 +195,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 69
+    startLine: 58
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -215,6 +216,35 @@ items:
   nameWithType.vb: CutSceneWindowViewModel.Receive(PropertyChangedMessage(Of Boolean))
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage(Of Boolean))
   name.vb: Receive(PropertyChangedMessage(Of Boolean))
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  id: BgImage
+  parent: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: BgImage
+  nameWithType: CutSceneWindowViewModel.BgImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BgImage
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
+    startLine: 71
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public ImageSource? BgImage { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.ImageSource
+    content.vb: Public ReadOnly Property BgImage As ImageSource
+  overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
   id: BorrowedTimeImageSource
@@ -229,11 +259,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BorrowedTimeImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 84
+    startLine: 78
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -242,7 +272,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property BorrowedTimeImageSource As ImageSource
+    content.vb: Public ReadOnly Property BorrowedTimeImageSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.FlywheelEffectImageSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.FlywheelEffectImageSource
@@ -258,11 +288,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FlywheelEffectImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 85
+    startLine: 81
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -271,7 +301,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property FlywheelEffectImageSource As ImageSource
+    content.vb: Public ReadOnly Property FlywheelEffectImageSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.FlywheelEffectImageSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.KneeJerkReflexImageSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.KneeJerkReflexImageSource
@@ -287,11 +317,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: KneeJerkReflexImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 86
+    startLine: 84
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -300,7 +330,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property KneeJerkReflexImageSource As ImageSource
+    content.vb: Public ReadOnly Property KneeJerkReflexImageSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.KneeJerkReflexImageSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TideTurnerImageSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TideTurnerImageSource
@@ -316,7 +346,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TideTurnerImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
@@ -329,7 +359,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property TideTurnerImageSource As ImageSource
+    content.vb: Public ReadOnly Property TideTurnerImageSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TideTurnerImageSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.ConfinedSpaceImageSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.ConfinedSpaceImageSource
@@ -345,11 +375,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ConfinedSpaceImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 89
+    startLine: 91
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -358,7 +388,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property ConfinedSpaceImageSource As ImageSource
+    content.vb: Public ReadOnly Property ConfinedSpaceImageSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.ConfinedSpaceImageSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.DetentionImageSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.DetentionImageSource
@@ -374,11 +404,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: DetentionImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 90
+    startLine: 94
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -387,7 +417,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property DetentionImageSource As ImageSource
+    content.vb: Public ReadOnly Property DetentionImageSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.DetentionImageSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.InsolenceImageSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.InsolenceImageSource
@@ -403,11 +433,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InsolenceImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 91
+    startLine: 97
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -416,7 +446,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property InsolenceImageSource As ImageSource
+    content.vb: Public ReadOnly Property InsolenceImageSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.InsolenceImageSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TrumpCardImageSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TrumpCardImageSource
@@ -432,11 +462,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TrumpCardImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 92
+    startLine: 100
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -445,7 +475,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property TrumpCardImageSource As ImageSource
+    content.vb: Public ReadOnly Property TrumpCardImageSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.TrumpCardImageSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CurrentGame
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.CurrentGame
@@ -461,11 +491,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 94
+    startLine: 103
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -490,11 +520,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 99
+    startLine: 107
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -519,11 +549,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs
-    startLine: 101
+    startLine: 109
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -963,12 +993,12 @@ references:
     name: Messages
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.messaging.messages
-- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
-  href: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_BorrowedTimeImageSource
-  name: BorrowedTimeImageSource
-  nameWithType: CutSceneWindowViewModel.BorrowedTimeImageSource
-  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  href: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_BgImage
+  name: BgImage
+  nameWithType: CutSceneWindowViewModel.BgImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
 - uid: System.Windows.Media.ImageSource
   commentId: T:System.Windows.Media.ImageSource
   parent: System.Windows.Media
@@ -1013,6 +1043,12 @@ references:
     name: Media
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
+  href: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_BorrowedTimeImageSource
+  name: BorrowedTimeImageSource
+  nameWithType: CutSceneWindowViewModel.BorrowedTimeImageSource
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.FlywheelEffectImageSource*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.FlywheelEffectImageSource
   href: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_FlywheelEffectImageSource

@@ -5,11 +5,9 @@ items:
   id: FrontService
   parent: neo_bpsys_wpf.Services
   children:
-  - neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  - neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreSurWindow,neo_bpsys_wpf.Views.Windows.ScoreHunWindow,neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   - neo_bpsys_wpf.Services.FrontService.AllWindowHide
   - neo_bpsys_wpf.Services.FrontService.AllWindowShow
-  - neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-  - neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
   - neo_bpsys_wpf.Services.FrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
   - neo_bpsys_wpf.Services.FrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
   - neo_bpsys_wpf.Services.FrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
@@ -32,7 +30,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FrontService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
@@ -49,21 +47,21 @@ items:
   - System.Object
   implements:
   - neo_bpsys_wpf.Abstractions.Services.IFrontService
-- uid: neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
-  commentId: M:neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
-  id: '#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)'
+- uid: neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreSurWindow,neo_bpsys_wpf.Views.Windows.ScoreHunWindow,neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  commentId: M:neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreSurWindow,neo_bpsys_wpf.Views.Windows.ScoreHunWindow,neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  id: '#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreSurWindow,neo_bpsys_wpf.Views.Windows.ScoreHunWindow,neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)'
   parent: neo_bpsys_wpf.Services.FrontService
   langs:
   - csharp
   - vb
-  name: FrontService(BpWindow, CutSceneWindow, GameDataWindow, ScoreWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
-  nameWithType: FrontService.FrontService(BpWindow, CutSceneWindow, GameDataWindow, ScoreWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
-  fullName: neo_bpsys_wpf.Services.FrontService.FrontService(neo_bpsys_wpf.Views.Windows.BpWindow, neo_bpsys_wpf.Views.Windows.CutSceneWindow, neo_bpsys_wpf.Views.Windows.GameDataWindow, neo_bpsys_wpf.Views.Windows.ScoreWindow, neo_bpsys_wpf.Views.Windows.WidgetsWindow, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name: FrontService(BpWindow, CutSceneWindow, GameDataWindow, ScoreSurWindow, ScoreHunWindow, ScoreGlobalWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
+  nameWithType: FrontService.FrontService(BpWindow, CutSceneWindow, GameDataWindow, ScoreSurWindow, ScoreHunWindow, ScoreGlobalWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.Services.FrontService.FrontService(neo_bpsys_wpf.Views.Windows.BpWindow, neo_bpsys_wpf.Views.Windows.CutSceneWindow, neo_bpsys_wpf.Views.Windows.GameDataWindow, neo_bpsys_wpf.Views.Windows.ScoreSurWindow, neo_bpsys_wpf.Views.Windows.ScoreHunWindow, neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow, neo_bpsys_wpf.Views.Windows.WidgetsWindow, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
@@ -72,7 +70,7 @@ items:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
   syntax:
-    content: public FrontService(BpWindow bpWindow, CutSceneWindow cutSceneWindow, GameDataWindow gameDataWindow, ScoreWindow scoreWindow, WidgetsWindow widgetsWindow, IMessageBoxService messageBoxService, ISharedDataService sharedDataService, ISettingsHostService settingsHostService)
+    content: public FrontService(BpWindow bpWindow, CutSceneWindow cutSceneWindow, GameDataWindow gameDataWindow, ScoreSurWindow scoreSurWindow, ScoreHunWindow scoreHunWindow, ScoreGlobalWindow scoreGlobalWindow, WidgetsWindow widgetsWindow, IMessageBoxService messageBoxService, ISharedDataService sharedDataService, ISettingsHostService settingsHostService)
     parameters:
     - id: bpWindow
       type: neo_bpsys_wpf.Views.Windows.BpWindow
@@ -80,8 +78,12 @@ items:
       type: neo_bpsys_wpf.Views.Windows.CutSceneWindow
     - id: gameDataWindow
       type: neo_bpsys_wpf.Views.Windows.GameDataWindow
-    - id: scoreWindow
-      type: neo_bpsys_wpf.Views.Windows.ScoreWindow
+    - id: scoreSurWindow
+      type: neo_bpsys_wpf.Views.Windows.ScoreSurWindow
+    - id: scoreHunWindow
+      type: neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+    - id: scoreGlobalWindow
+      type: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
     - id: widgetsWindow
       type: neo_bpsys_wpf.Views.Windows.WidgetsWindow
     - id: messageBoxService
@@ -90,11 +92,11 @@ items:
       type: neo_bpsys_wpf.Abstractions.Services.ISharedDataService
     - id: settingsHostService
       type: neo_bpsys_wpf.Abstractions.Services.ISettingsHostService
-    content.vb: Public Sub New(bpWindow As BpWindow, cutSceneWindow As CutSceneWindow, gameDataWindow As GameDataWindow, scoreWindow As ScoreWindow, widgetsWindow As WidgetsWindow, messageBoxService As IMessageBoxService, sharedDataService As ISharedDataService, settingsHostService As ISettingsHostService)
+    content.vb: Public Sub New(bpWindow As BpWindow, cutSceneWindow As CutSceneWindow, gameDataWindow As GameDataWindow, scoreSurWindow As ScoreSurWindow, scoreHunWindow As ScoreHunWindow, scoreGlobalWindow As ScoreGlobalWindow, widgetsWindow As WidgetsWindow, messageBoxService As IMessageBoxService, sharedDataService As ISharedDataService, settingsHostService As ISettingsHostService)
   overload: neo_bpsys_wpf.Services.FrontService.#ctor*
-  nameWithType.vb: FrontService.New(BpWindow, CutSceneWindow, GameDataWindow, ScoreWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.New(neo_bpsys_wpf.Views.Windows.BpWindow, neo_bpsys_wpf.Views.Windows.CutSceneWindow, neo_bpsys_wpf.Views.Windows.GameDataWindow, neo_bpsys_wpf.Views.Windows.ScoreWindow, neo_bpsys_wpf.Views.Windows.WidgetsWindow, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
-  name.vb: New(BpWindow, CutSceneWindow, GameDataWindow, ScoreWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
+  nameWithType.vb: FrontService.New(BpWindow, CutSceneWindow, GameDataWindow, ScoreSurWindow, ScoreHunWindow, ScoreGlobalWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.New(neo_bpsys_wpf.Views.Windows.BpWindow, neo_bpsys_wpf.Views.Windows.CutSceneWindow, neo_bpsys_wpf.Views.Windows.GameDataWindow, neo_bpsys_wpf.Views.Windows.ScoreSurWindow, neo_bpsys_wpf.Views.Windows.ScoreHunWindow, neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow, neo_bpsys_wpf.Views.Windows.WidgetsWindow, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(BpWindow, CutSceneWindow, GameDataWindow, ScoreSurWindow, ScoreHunWindow, ScoreGlobalWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.Services.FrontService.AllWindowShow
   commentId: M:neo_bpsys_wpf.Services.FrontService.AllWindowShow
   id: AllWindowShow
@@ -109,11 +111,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowShow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 129
+    startLine: 127
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -139,11 +141,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowHide
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 141
+    startLine: 139
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -169,11 +171,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 150
+    startLine: 148
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -203,11 +205,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HideWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 172
+    startLine: 171
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -237,11 +239,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveWindowElementsPosition
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 304
+    startLine: 303
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -277,11 +279,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveAllWindowElementsPosition
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 333
+    startLine: 332
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -307,11 +309,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RestoreInitialPositions
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 404
+    startLine: 403
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -349,11 +351,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetGlobalScore
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 521
+    startLine: 520
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -395,11 +397,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetGlobalScoreToBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 541
+    startLine: 540
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -432,11 +434,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetGlobalScore
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 563
+    startLine: 562
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -462,11 +464,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FadeInAnimation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 657
+    startLine: 656
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -508,11 +510,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FadeOutAnimation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 677
+    startLine: 676
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -554,11 +556,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BreathingStart
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 696
+    startLine: 695
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -602,11 +604,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BreathingStop
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 737
+    startLine: 736
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Services
@@ -636,70 +638,6 @@ items:
   nameWithType.vb: FrontService.BreathingStop(FrontWindowType, String, Integer, String)
   fullName.vb: neo_bpsys_wpf.Services.FrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType, String, Integer, String)
   name.vb: BreathingStop(FrontWindowType, String, Integer, String)
-- uid: neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  commentId: M:neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  id: ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  parent: neo_bpsys_wpf.Services.FrontService
-  langs:
-  - csharp
-  - vb
-  name: ApplySettings(FrontWindowType)
-  nameWithType: FrontService.ApplySettings(FrontWindowType)
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ApplySettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 763
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Services
-  summary: 应用设置
-  example: []
-  syntax:
-    content: public void ApplySettings(FrontWindowType windowType)
-    parameters:
-    - id: windowType
-      type: neo_bpsys_wpf.Enums.FrontWindowType
-      description: 窗口类型
-    content.vb: Public Sub ApplySettings(windowType As FrontWindowType)
-  overload: neo_bpsys_wpf.Services.FrontService.ApplySettings*
-  implements:
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-- uid: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-  commentId: M:neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-  id: ApplyAllWindowsSettings
-  parent: neo_bpsys_wpf.Services.FrontService
-  langs:
-  - csharp
-  - vb
-  name: ApplyAllWindowsSettings()
-  nameWithType: FrontService.ApplyAllWindowsSettings()
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings()
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Services/FrontService.cs
-      branch: dev-feat/multiBanMap
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ApplyAllWindowsSettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FrontService.cs
-    startLine: 894
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Services
-  summary: 应用所有窗口设置
-  example: []
-  syntax:
-    content: public void ApplyAllWindowsSettings()
-    content.vb: Public Sub ApplyAllWindowsSettings()
-  overload: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings*
-  implements:
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
 references:
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService
   commentId: T:neo_bpsys_wpf.Abstractions.Services.IFrontService
@@ -779,7 +717,7 @@ references:
   fullName: System
 - uid: neo_bpsys_wpf.Services.FrontService.#ctor*
   commentId: Overload:neo_bpsys_wpf.Services.FrontService.#ctor
-  href: neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService__ctor_neo_bpsys_wpf_Views_Windows_BpWindow_neo_bpsys_wpf_Views_Windows_CutSceneWindow_neo_bpsys_wpf_Views_Windows_GameDataWindow_neo_bpsys_wpf_Views_Windows_ScoreWindow_neo_bpsys_wpf_Views_Windows_WidgetsWindow_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
+  href: neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService__ctor_neo_bpsys_wpf_Views_Windows_BpWindow_neo_bpsys_wpf_Views_Windows_CutSceneWindow_neo_bpsys_wpf_Views_Windows_GameDataWindow_neo_bpsys_wpf_Views_Windows_ScoreSurWindow_neo_bpsys_wpf_Views_Windows_ScoreHunWindow_neo_bpsys_wpf_Views_Windows_ScoreGlobalWindow_neo_bpsys_wpf_Views_Windows_WidgetsWindow_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
   name: FrontService
   nameWithType: FrontService.FrontService
   fullName: neo_bpsys_wpf.Services.FrontService.FrontService
@@ -807,13 +745,27 @@ references:
   name: GameDataWindow
   nameWithType: GameDataWindow
   fullName: neo_bpsys_wpf.Views.Windows.GameDataWindow
-- uid: neo_bpsys_wpf.Views.Windows.ScoreWindow
-  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreSurWindow
   parent: neo_bpsys_wpf.Views.Windows
-  href: neo_bpsys_wpf.Views.Windows.ScoreWindow.html
-  name: ScoreWindow
-  nameWithType: ScoreWindow
-  fullName: neo_bpsys_wpf.Views.Windows.ScoreWindow
+  href: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html
+  name: ScoreSurWindow
+  nameWithType: ScoreSurWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html
+  name: ScoreHunWindow
+  nameWithType: ScoreHunWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+  parent: neo_bpsys_wpf.Views.Windows
+  href: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html
+  name: ScoreGlobalWindow
+  nameWithType: ScoreGlobalWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
 - uid: neo_bpsys_wpf.Views.Windows.WidgetsWindow
   commentId: T:neo_bpsys_wpf.Views.Windows.WidgetsWindow
   parent: neo_bpsys_wpf.Views.Windows
@@ -1636,60 +1588,4 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: neo_bpsys_wpf.Services.FrontService.ApplySettings*
-  commentId: Overload:neo_bpsys_wpf.Services.FrontService.ApplySettings
-  href: neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
-  name: ApplySettings
-  nameWithType: FrontService.ApplySettings
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplySettings
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
-  name: ApplySettings(FrontWindowType)
-  nameWithType: IFrontService.ApplySettings(FrontWindowType)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  spec.csharp:
-  - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-    name: ApplySettings
-    href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
-  - name: (
-  - uid: neo_bpsys_wpf.Enums.FrontWindowType
-    name: FrontWindowType
-    href: neo_bpsys_wpf.Enums.FrontWindowType.html
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-    name: ApplySettings
-    href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
-  - name: (
-  - uid: neo_bpsys_wpf.Enums.FrontWindowType
-    name: FrontWindowType
-    href: neo_bpsys_wpf.Enums.FrontWindowType.html
-  - name: )
-- uid: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings*
-  commentId: Overload:neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-  href: neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplyAllWindowsSettings
-  name: ApplyAllWindowsSettings
-  nameWithType: FrontService.ApplyAllWindowsSettings
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings
-  name: ApplyAllWindowsSettings()
-  nameWithType: IFrontService.ApplyAllWindowsSettings()
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-    name: ApplyAllWindowsSettings
-    href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-    name: ApplyAllWindowsSettings
-    href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings
-  - name: (
   - name: )

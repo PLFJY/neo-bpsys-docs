@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ITextSettingsNavigationService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
@@ -43,7 +43,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Close
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
@@ -75,7 +75,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Navigate
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetFrameControl
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/ITextSettingsNavigationService.cs

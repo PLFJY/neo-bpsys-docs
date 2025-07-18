@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ReleaseInfo
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TagName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Body
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs
@@ -127,7 +127,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/UpdaterService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Assets
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/UpdaterService.cs

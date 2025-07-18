@@ -33,7 +33,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SharedDataService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -129,7 +129,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -162,7 +162,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -195,7 +195,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharacterList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -228,7 +228,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurCharaList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -261,7 +261,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunCharaList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -294,7 +294,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -327,7 +327,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -360,7 +360,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -393,7 +393,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -426,7 +426,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsTraitVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -459,7 +459,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsBo3Mode
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -492,7 +492,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RemainingSeconds
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -525,7 +525,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TimerStart
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -562,7 +562,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TimerStop
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -592,7 +592,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetBanCount
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs
@@ -636,7 +636,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SharedDataService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalScoreTotalMargin
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SharedDataService.cs

@@ -53,6 +53,7 @@ references:
   fullName: neo_bpsys_wpf.Models.Game
 - uid: neo_bpsys_wpf.Models.MapV2
   commentId: T:neo_bpsys_wpf.Models.MapV2
+  parent: neo_bpsys_wpf.Models
   href: neo_bpsys_wpf.Models.MapV2.html
   name: MapV2
   nameWithType: MapV2

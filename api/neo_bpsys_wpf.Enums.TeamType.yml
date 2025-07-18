@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/TeamType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TeamType
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/TeamType.cs
@@ -42,7 +42,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/TeamType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/TeamType.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/TeamType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/TeamType.cs

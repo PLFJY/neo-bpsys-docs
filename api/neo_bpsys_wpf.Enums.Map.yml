@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Map
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 军工厂
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 红教堂
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -114,7 +114,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 圣心医院
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -140,7 +140,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 湖景村
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 月亮河公园
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -192,7 +192,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 里奥的回忆
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -218,7 +218,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 唐人街
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -244,7 +244,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 永眠镇
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -270,7 +270,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 不归林
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs
@@ -296,7 +296,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Map.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 无禁用
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Map.cs

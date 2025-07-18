@@ -7,7 +7,7 @@ items:
   children:
   - neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromFileName(neo_bpsys_wpf.Enums.ImageSourceKey,System.String)
   - neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromName(neo_bpsys_wpf.Enums.ImageSourceKey,System.String)
-  - neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String)
+  - neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String,System.Boolean)
   - neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})
   - neo_bpsys_wpf.Helpers.ImageHelper.GetUiImageBrush(System.String)
   - neo_bpsys_wpf.Helpers.ImageHelper.GetUiImageSource(System.String)
@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageHelper
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
@@ -48,11 +48,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetUiImageBrush
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
@@ -86,11 +86,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetUiImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 35
+    startLine: 38
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
@@ -124,11 +124,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetImageSourceFromFileName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 52
+    startLine: 55
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
@@ -165,11 +165,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetImageSourceFromName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 67
+    startLine: 70
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
@@ -192,32 +192,32 @@ items:
   nameWithType.vb: ImageHelper.GetImageSourceFromName(ImageSourceKey, String)
   fullName.vb: neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromName(neo_bpsys_wpf.Enums.ImageSourceKey, String)
   name.vb: GetImageSourceFromName(ImageSourceKey, String)
-- uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String)
-  commentId: M:neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String)
-  id: GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String)
+- uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String,System.Boolean)
+  commentId: M:neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String,System.Boolean)
+  id: GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String,System.Boolean)
   parent: neo_bpsys_wpf.Helpers.ImageHelper
   langs:
   - csharp
   - vb
-  name: GetTalentImageSource(Camp, string?)
-  nameWithType: ImageHelper.GetTalentImageSource(Camp, string?)
-  fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, string?)
+  name: GetTalentImageSource(Camp, string?, bool)
+  nameWithType: ImageHelper.GetTalentImageSource(Camp, string?, bool)
+  fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, string?, bool)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetTalentImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 82
+    startLine: 86
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
   summary: Get Talent ImageSource corresponding Resources folder
   example: []
   syntax:
-    content: public static ImageSource? GetTalentImageSource(Camp camp, string? name)
+    content: public static ImageSource? GetTalentImageSource(Camp camp, string? name, bool isBlackVerEnable)
     parameters:
     - id: camp
       type: neo_bpsys_wpf.Enums.Camp
@@ -225,14 +225,17 @@ items:
     - id: name
       type: System.String
       description: Talent Name
+    - id: isBlackVerEnable
+      type: System.Boolean
+      description: Is Black Ver Enable
     return:
       type: System.Windows.Media.ImageSource
       description: ''
-    content.vb: Public Shared Function GetTalentImageSource(camp As Camp, name As String) As ImageSource
+    content.vb: Public Shared Function GetTalentImageSource(camp As Camp, name As String, isBlackVerEnable As Boolean) As ImageSource
   overload: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource*
-  nameWithType.vb: ImageHelper.GetTalentImageSource(Camp, String)
-  fullName.vb: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, String)
-  name.vb: GetTalentImageSource(Camp, String)
+  nameWithType.vb: ImageHelper.GetTalentImageSource(Camp, String, Boolean)
+  fullName.vb: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, String, Boolean)
+  name.vb: GetTalentImageSource(Camp, String, Boolean)
 - uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})
   commentId: M:neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})
   id: GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})
@@ -247,21 +250,25 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Helpers/ImageHelper.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GetTraitImageSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Helpers/ImageHelper.cs
-    startLine: 104
+    startLine: 107
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Helpers
+  summary: Get Trait ImageSource corresponding Resources folder
+  example: []
   syntax:
     content: public static ImageSource? GetTraitImageSource(Trait? trait)
     parameters:
     - id: trait
       type: System.Nullable{neo_bpsys_wpf.Enums.Trait}
+      description: Trait
     return:
       type: System.Windows.Media.ImageSource
+      description: ''
     content.vb: Public Shared Function GetTraitImageSource(trait As Trait?) As ImageSource
   overload: neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource*
 references:
@@ -421,7 +428,7 @@ references:
   fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromName
 - uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource*
   commentId: Overload:neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource
-  href: neo_bpsys_wpf.Helpers.ImageHelper.html#neo_bpsys_wpf_Helpers_ImageHelper_GetTalentImageSource_neo_bpsys_wpf_Enums_Camp_System_String_
+  href: neo_bpsys_wpf.Helpers.ImageHelper.html#neo_bpsys_wpf_Helpers_ImageHelper_GetTalentImageSource_neo_bpsys_wpf_Enums_Camp_System_String_System_Boolean_
   name: GetTalentImageSource
   nameWithType: ImageHelper.GetTalentImageSource
   fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource
@@ -432,6 +439,17 @@ references:
   name: Camp
   nameWithType: Camp
   fullName: neo_bpsys_wpf.Enums.Camp
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource*
   commentId: Overload:neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource
   href: neo_bpsys_wpf.Helpers.ImageHelper.html#neo_bpsys_wpf_Helpers_ImageHelper_GetTraitImageSource_System_Nullable_neo_bpsys_wpf_Enums_Trait__

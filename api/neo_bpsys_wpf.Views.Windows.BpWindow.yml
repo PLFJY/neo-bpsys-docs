@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/BpWindow.g.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BpWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/BpWindow.g.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/BpWindow.xaml.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/BpWindow.xaml.cs
@@ -86,11 +86,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Views/Windows/BpWindow.xaml.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: OnClosing
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Views/Windows/BpWindow.xaml.cs
-    startLine: 35
+    startLine: 34
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Views.Windows
@@ -119,7 +119,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/BpWindow.g.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/BpWindow.g.cs

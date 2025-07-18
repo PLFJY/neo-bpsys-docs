@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FilePickerService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FilePickerService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FilePickerService.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FilePickerService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FilePickerService.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/FilePickerService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickJsonFile
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/FilePickerService.cs

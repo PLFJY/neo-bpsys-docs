@@ -11,6 +11,7 @@ items:
   - neo_bpsys_wpf.Controls.CustomTitleBar
   - neo_bpsys_wpf.Controls.GameDataEditor
   - neo_bpsys_wpf.Controls.GlobalScorePresenter
+  - neo_bpsys_wpf.Controls.MapV2Presenter
   - neo_bpsys_wpf.Controls.TalentPicker
   - neo_bpsys_wpf.Controls.TextSettingsEditControl
   - neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier
@@ -68,6 +69,12 @@ references:
   name: GlobalScorePresenter
   nameWithType: GlobalScorePresenter
   fullName: neo_bpsys_wpf.Controls.GlobalScorePresenter
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter
+  commentId: T:neo_bpsys_wpf.Controls.MapV2Presenter
+  href: neo_bpsys_wpf.Controls.MapV2Presenter.html
+  name: MapV2Presenter
+  nameWithType: MapV2Presenter
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter
 - uid: neo_bpsys_wpf.Controls.TalentPicker
   commentId: T:neo_bpsys_wpf.Controls.TalentPicker
   href: neo_bpsys_wpf.Controls.TalentPicker.html

@@ -21,11 +21,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreWindowTextSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 171
+    startLine: 172
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -50,11 +50,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MinorPoints
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 173
+    startLine: 174
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -79,11 +79,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MajorPoints
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 176
+    startLine: 177
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -108,11 +108,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TeamName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 179
+    startLine: 180
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -137,11 +137,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreGlobal_TeamName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 182
+    startLine: 183
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -166,11 +166,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreGlobal_Data
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 185
+    startLine: 186
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -195,11 +195,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreGlobal_Total
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 188
+    startLine: 189
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models

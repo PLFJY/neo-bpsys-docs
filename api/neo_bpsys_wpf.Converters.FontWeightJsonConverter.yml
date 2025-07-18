@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/FontWeightJsonConverter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FontWeightJsonConverter
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/FontWeightJsonConverter.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/FontWeightJsonConverter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Read
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/FontWeightJsonConverter.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Converters/FontWeightJsonConverter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Write
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Converters/FontWeightJsonConverter.cs

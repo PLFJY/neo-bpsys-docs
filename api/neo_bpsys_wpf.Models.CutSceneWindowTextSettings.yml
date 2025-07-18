@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CutSceneWindowTextSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -50,7 +50,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TeamName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MajorPoints
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurPlayerId
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunPlayerId
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MapName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -195,7 +195,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameProgress
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs

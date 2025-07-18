@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -92,7 +92,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Name
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -121,7 +121,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBannedSurRecordArray
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -179,7 +179,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBannedHunRecordArray
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -240,7 +240,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ImportTeamInfo
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanMemberOnField
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -307,7 +307,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MemberOnField
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs
@@ -342,7 +342,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Team.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MemberOffField
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Team.cs

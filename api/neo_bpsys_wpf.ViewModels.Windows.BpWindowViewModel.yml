@@ -7,6 +7,7 @@ items:
   children:
   - neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.#ctor
   - neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  - neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
   - neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CanCurrentHunBanned
   - neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CanCurrentSurBanned
   - neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CanGlobalHunBanned
@@ -67,11 +68,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -96,7 +97,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -125,7 +126,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -159,11 +160,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 47
+    startLine: 44
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -191,11 +192,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 55
+    startLine: 52
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -226,11 +227,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 63
+    startLine: 60
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -258,11 +259,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 72
+    startLine: 68
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -279,6 +280,35 @@ items:
   nameWithType.vb: BpWindowViewModel.Receive(PropertyChangedMessage(Of Boolean))
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage(Of Boolean))
   name.vb: Receive(PropertyChangedMessage(Of Boolean))
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  id: BgImage
+  parent: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: BgImage
+  nameWithType: BpWindowViewModel.BgImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: BgImage
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
+    startLine: 76
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public ImageSource? BgImage { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.ImageSource
+    content.vb: Public ReadOnly Property BgImage As ImageSource
+  overload: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage*
 - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage
   id: CurrentBanLockImage
@@ -293,7 +323,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentBanLockImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
@@ -306,7 +336,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property CurrentBanLockImage As ImageSource
+    content.vb: Public ReadOnly Property CurrentBanLockImage As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage*
 - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.GlobalBanLockImage
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.GlobalBanLockImage
@@ -322,11 +352,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBanLockImage
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 81
+    startLine: 84
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -335,7 +365,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property GlobalBanLockImage As ImageSource
+    content.vb: Public ReadOnly Property GlobalBanLockImage As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.GlobalBanLockImage*
 - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.PickingBorderSource
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.PickingBorderSource
@@ -351,11 +381,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickingBorderSource
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 83
+    startLine: 88
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -364,7 +394,7 @@ items:
     parameters: []
     return:
       type: System.Windows.Media.ImageSource
-    content.vb: Public Property PickingBorderSource As ImageSource
+    content.vb: Public ReadOnly Property PickingBorderSource As ImageSource
   overload: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.PickingBorderSource*
 - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentGame
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentGame
@@ -380,11 +410,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 85
+    startLine: 92
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -409,11 +439,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RemainingSeconds
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 87
+    startLine: 94
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -438,11 +468,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 89
+    startLine: 96
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -467,11 +497,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanCurrentHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 90
+    startLine: 97
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -496,11 +526,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalSurBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 91
+    startLine: 98
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -525,11 +555,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CanGlobalHunBanned
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 92
+    startLine: 99
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -554,11 +584,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/BpWindowViewModel.cs
-    startLine: 93
+    startLine: 101
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -1065,12 +1095,12 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage*
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage
-  href: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_CurrentBanLockImage
-  name: CurrentBanLockImage
-  nameWithType: BpWindowViewModel.CurrentBanLockImage
-  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  href: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_BgImage
+  name: BgImage
+  nameWithType: BpWindowViewModel.BgImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
 - uid: System.Windows.Media.ImageSource
   commentId: T:System.Windows.Media.ImageSource
   parent: System.Windows.Media
@@ -1115,6 +1145,12 @@ references:
     name: Media
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage
+  href: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_CurrentBanLockImage
+  name: CurrentBanLockImage
+  nameWithType: BpWindowViewModel.CurrentBanLockImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CurrentBanLockImage
 - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.GlobalBanLockImage*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.GlobalBanLockImage
   href: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_GlobalBanLockImage

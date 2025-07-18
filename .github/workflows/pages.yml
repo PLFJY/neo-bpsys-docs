@@ -1,0 +1,44 @@
+name: Pages
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: windows-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                fetch-depth: 1
+                    
+            - name: Checkout source repo
+              uses: actions/checkout@v4
+              with:
+                repository: PLFJY/neo-bpsys-wpf
+                path: main
+                fetch-depth: 1
+
+            - name: Generate docsite
+              shell: pwsh
+              run: |
+                ls
+                cd ..
+                ls
+
+            - name: Install .NET Core
+              uses: actions/setup-dotnet@v4
+              with:
+                dotnet-version: 9.0.x
+
+            - name: Install docfx
+              shell: pwsh
+              run: dotnet tool install -g docfx
+            
+            - name: Generate docsite
+              shell: pwsh
+              run: |
+                cd ${{ github.workspace }}
+                docfx docfx.json

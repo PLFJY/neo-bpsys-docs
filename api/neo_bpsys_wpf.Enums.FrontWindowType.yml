@@ -8,7 +8,9 @@ items:
   - neo_bpsys_wpf.Enums.FrontWindowType.BpWindow
   - neo_bpsys_wpf.Enums.FrontWindowType.CutSceneWindow
   - neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
-  - neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  - neo_bpsys_wpf.Enums.FrontWindowType.ScoreGlobalWindow
+  - neo_bpsys_wpf.Enums.FrontWindowType.ScoreHunWindow
+  - neo_bpsys_wpf.Enums.FrontWindowType.ScoreSurWindow
   - neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
   langs:
   - csharp
@@ -20,7 +22,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FrontWindowType
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
@@ -47,7 +49,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BpWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
@@ -73,7 +75,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CutSceneWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
@@ -85,30 +87,82 @@ items:
     content: CutSceneWindow = 1
     return:
       type: neo_bpsys_wpf.Enums.FrontWindowType
-- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
-  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
-  id: ScoreWindow
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreSurWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreSurWindow
+  id: ScoreSurWindow
   parent: neo_bpsys_wpf.Enums.FrontWindowType
   langs:
   - csharp
   - vb
-  name: ScoreWindow
-  nameWithType: FrontWindowType.ScoreWindow
-  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
+  name: ScoreSurWindow
+  nameWithType: FrontWindowType.ScoreSurWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreSurWindow
   type: Field
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ScoreWindow
+    id: ScoreSurWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
     startLine: 9
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums
   syntax:
-    content: ScoreWindow = 2
+    content: ScoreSurWindow = 2
+    return:
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreHunWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreHunWindow
+  id: ScoreHunWindow
+  parent: neo_bpsys_wpf.Enums.FrontWindowType
+  langs:
+  - csharp
+  - vb
+  name: ScoreHunWindow
+  nameWithType: FrontWindowType.ScoreHunWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreHunWindow
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/WindowType.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ScoreHunWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
+    startLine: 10
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: ScoreHunWindow = 3
+    return:
+      type: neo_bpsys_wpf.Enums.FrontWindowType
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreGlobalWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreGlobalWindow
+  id: ScoreGlobalWindow
+  parent: neo_bpsys_wpf.Enums.FrontWindowType
+  langs:
+  - csharp
+  - vb
+  name: ScoreGlobalWindow
+  nameWithType: FrontWindowType.ScoreGlobalWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreGlobalWindow
+  type: Field
+  source:
+    remote:
+      path: neo-bpsys-wpf/Enums/WindowType.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ScoreGlobalWindow
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
+    startLine: 11
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Enums
+  syntax:
+    content: ScoreGlobalWindow = 4
     return:
       type: neo_bpsys_wpf.Enums.FrontWindowType
 - uid: neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
@@ -125,16 +179,16 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameDataWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
-    startLine: 10
+    startLine: 12
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums
   syntax:
-    content: GameDataWindow = 3
+    content: GameDataWindow = 5
     return:
       type: neo_bpsys_wpf.Enums.FrontWindowType
 - uid: neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
@@ -151,16 +205,16 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/WindowType.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WidgetsWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/WindowType.cs
-    startLine: 11
+    startLine: 13
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Enums
   syntax:
-    content: WidgetsWindow = 4
+    content: WidgetsWindow = 6
     return:
       type: neo_bpsys_wpf.Enums.FrontWindowType
 references:

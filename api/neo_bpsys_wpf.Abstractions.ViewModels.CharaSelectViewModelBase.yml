@@ -81,7 +81,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SharedDataService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Index
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharaList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -195,7 +195,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -221,7 +221,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncIsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -247,7 +247,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsActionNameCorrect
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -278,7 +278,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -312,7 +312,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -323,12 +323,12 @@ items:
   summary: Receives a given <xref href="neo_bpsys_wpf.Messages.NewGameMessage" data-throw-if-not-resolved="false"></xref> message instance.
   example: []
   syntax:
-    content: public void Receive(NewGameMessage message)
+    content: public virtual void Receive(NewGameMessage message)
     parameters:
     - id: message
       type: neo_bpsys_wpf.Messages.NewGameMessage
       description: The message being received.
-    content.vb: Public Sub Receive(message As NewGameMessage)
+    content.vb: Public Overridable Sub Receive(message As NewGameMessage)
   overload: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive*
 - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.BanCountChangedMessage)
   commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.BanCountChangedMessage)
@@ -344,7 +344,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
@@ -376,7 +376,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/ViewModels/CharaSelectViewModelBase.cs

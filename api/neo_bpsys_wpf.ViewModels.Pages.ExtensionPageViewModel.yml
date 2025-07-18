@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/ExtensionPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ExtensionPageViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/ExtensionPageViewModel.cs

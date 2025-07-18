@@ -7,8 +7,6 @@ items:
   children:
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  - neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
   - neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
@@ -31,7 +29,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IFrontService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -58,7 +56,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowHide
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -86,7 +84,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AllWindowShow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
@@ -100,66 +98,6 @@ items:
     content: void AllWindowShow()
     content.vb: Sub AllWindowShow()
   overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow*
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  id: ApplyAllWindowsSettings
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: ApplyAllWindowsSettings()
-  nameWithType: IFrontService.ApplyAllWindowsSettings()
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings()
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ApplyAllWindowsSettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 20
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 应用全部窗口设置
-  example: []
-  syntax:
-    content: void ApplyAllWindowsSettings()
-    content.vb: Sub ApplyAllWindowsSettings()
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings*
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  id: ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  parent: neo_bpsys_wpf.Abstractions.Services.IFrontService
-  langs:
-  - csharp
-  - vb
-  name: ApplySettings(FrontWindowType)
-  nameWithType: IFrontService.ApplySettings(FrontWindowType)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  type: Method
-  source:
-    remote:
-      path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
-      repo: https://github.com/plfjy/neo-bpsys-wpf.git
-    id: ApplySettings
-    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 25
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Abstractions.Services
-  summary: 应用窗口设置
-  example: []
-  syntax:
-    content: void ApplySettings(FrontWindowType windowType)
-    parameters:
-    - id: windowType
-      type: neo_bpsys_wpf.Enums.FrontWindowType
-      description: 窗口类型
-    content.vb: Sub ApplySettings(windowType As FrontWindowType)
-  overload: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
   commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
   id: BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
@@ -174,11 +112,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BreathingStart
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 34
+    startLine: 25
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -221,11 +159,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BreathingStop
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 43
+    startLine: 34
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -268,11 +206,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FadeInAnimation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 52
+    startLine: 43
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -312,11 +250,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FadeOutAnimation
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 61
+    startLine: 52
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -356,11 +294,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HideWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 66
+    startLine: 57
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -388,11 +326,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetGlobalScore
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 70
+    startLine: 61
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -416,11 +354,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RestoreInitialPositions
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 77
+    startLine: 68
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -457,11 +395,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveAllWindowElementsPosition
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 81
+    startLine: 72
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -485,11 +423,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveWindowElementsPosition
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 87
+    startLine: 78
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -523,11 +461,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetGlobalScore
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 95
+    startLine: 86
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -567,11 +505,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SetGlobalScoreToBar
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 101
+    startLine: 92
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -602,11 +540,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowWindow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs
-    startLine: 106
+    startLine: 97
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Abstractions.Services
@@ -663,18 +601,12 @@ references:
   name: AllWindowShow
   nameWithType: IFrontService.AllWindowShow
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings
-  name: ApplyAllWindowsSettings
-  nameWithType: IFrontService.ApplyAllWindowsSettings
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
-  name: ApplySettings
-  nameWithType: IFrontService.ApplySettings
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
+- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*
+  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
+  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
+  name: BreathingStart
+  nameWithType: IFrontService.BreathingStart
+  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
 - uid: neo_bpsys_wpf.Enums.FrontWindowType
   commentId: T:neo_bpsys_wpf.Enums.FrontWindowType
   parent: neo_bpsys_wpf.Enums
@@ -682,34 +614,6 @@ references:
   name: FrontWindowType
   nameWithType: FrontWindowType
   fullName: neo_bpsys_wpf.Enums.FrontWindowType
-- uid: neo_bpsys_wpf.Enums
-  commentId: N:neo_bpsys_wpf.Enums
-  href: neo_bpsys_wpf.html
-  name: neo_bpsys_wpf.Enums
-  nameWithType: neo_bpsys_wpf.Enums
-  fullName: neo_bpsys_wpf.Enums
-  spec.csharp:
-  - uid: neo_bpsys_wpf
-    name: neo_bpsys_wpf
-    href: neo_bpsys_wpf.html
-  - name: .
-  - uid: neo_bpsys_wpf.Enums
-    name: Enums
-    href: neo_bpsys_wpf.Enums.html
-  spec.vb:
-  - uid: neo_bpsys_wpf
-    name: neo_bpsys_wpf
-    href: neo_bpsys_wpf.html
-  - name: .
-  - uid: neo_bpsys_wpf.Enums
-    name: Enums
-    href: neo_bpsys_wpf.Enums.html
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
-  href: neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
-  name: BreathingStart
-  nameWithType: IFrontService.BreathingStart
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -740,6 +644,28 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: neo_bpsys_wpf.Enums
+  commentId: N:neo_bpsys_wpf.Enums
+  href: neo_bpsys_wpf.html
+  name: neo_bpsys_wpf.Enums
+  nameWithType: neo_bpsys_wpf.Enums
+  fullName: neo_bpsys_wpf.Enums
+  spec.csharp:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
+  spec.vb:
+  - uid: neo_bpsys_wpf
+    name: neo_bpsys_wpf
+    href: neo_bpsys_wpf.html
+  - name: .
+  - uid: neo_bpsys_wpf.Enums
+    name: Enums
+    href: neo_bpsys_wpf.Enums.html
 - uid: System
   commentId: N:System
   isExternal: true

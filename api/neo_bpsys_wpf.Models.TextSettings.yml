@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Foreground
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FontFamilySite
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FontFamily
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -163,7 +163,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -202,7 +202,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs

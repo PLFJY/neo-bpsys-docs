@@ -14,10 +14,11 @@ items:
   - neo_bpsys_wpf.Models.Game.Guid
   - neo_bpsys_wpf.Models.Game.HunPlayer
   - neo_bpsys_wpf.Models.Game.HunTeam
+  - neo_bpsys_wpf.Models.Game.MapV2Dictionary
   - neo_bpsys_wpf.Models.Game.PickedMap
   - neo_bpsys_wpf.Models.Game.PickedMapImage
   - neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
-  - neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  - neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   - neo_bpsys_wpf.Models.Game.StartTime
   - neo_bpsys_wpf.Models.Game.SurPlayerList
   - neo_bpsys_wpf.Models.Game.SurTeam
@@ -61,7 +62,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Guid
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -90,7 +91,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StartTime
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -119,7 +120,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickedMap
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -148,7 +149,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BannedMap
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
@@ -163,6 +164,35 @@ items:
       type: System.Nullable{neo_bpsys_wpf.Enums.Map}
     content.vb: Public Property BannedMap As Map?
   overload: neo_bpsys_wpf.Models.Game.BannedMap*
+- uid: neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  commentId: P:neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  id: MapV2Dictionary
+  parent: neo_bpsys_wpf.Models.Game
+  langs:
+  - csharp
+  - vb
+  name: MapV2Dictionary
+  nameWithType: Game.MapV2Dictionary
+  fullName: neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Game.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: MapV2Dictionary
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
+    startLine: 59
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public Dictionary<string, MapV2> MapV2Dictionary { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.MapV2}
+    content.vb: Public ReadOnly Property MapV2Dictionary As Dictionary(Of String, MapV2)
+  overload: neo_bpsys_wpf.Models.Game.MapV2Dictionary*
 - uid: neo_bpsys_wpf.Models.Game.#ctor(neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Enums.GameProgress)
   commentId: M:neo_bpsys_wpf.Models.Game.#ctor(neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Enums.GameProgress)
   id: '#ctor(neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Enums.GameProgress)'
@@ -177,11 +207,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 67
+    startLine: 69
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -213,11 +243,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 102
+    startLine: 109
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -231,37 +261,37 @@ items:
       description: The message being received.
     content.vb: Public Sub Receive(message As MemberOnFieldChangedMessage)
   overload: neo_bpsys_wpf.Models.Game.Receive*
-- uid: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
-  commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
-  id: Receive(neo_bpsys_wpf.Messages.SwapMessage)
+- uid: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  id: Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   parent: neo_bpsys_wpf.Models.Game
   langs:
   - csharp
   - vb
-  name: Receive(SwapMessage)
-  nameWithType: Game.Receive(SwapMessage)
-  fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
+  name: Receive(NewGameMessage)
+  nameWithType: Game.Receive(NewGameMessage)
+  fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   type: Method
   source:
     remote:
       path: neo-bpsys-wpf/Models/Game.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Game.cs
-    startLine: 104
+    startLine: 111
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
-  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.SwapMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.NewGameMessage" data-throw-if-not-resolved="false"></xref> message instance.
   example: []
   syntax:
-    content: public void Receive(SwapMessage message)
+    content: public void Receive(NewGameMessage message)
     parameters:
     - id: message
-      type: neo_bpsys_wpf.Messages.SwapMessage
+      type: neo_bpsys_wpf.Messages.NewGameMessage
       description: The message being received.
-    content.vb: Public Sub Receive(message As SwapMessage)
+    content.vb: Public Sub Receive(message As NewGameMessage)
   overload: neo_bpsys_wpf.Models.Game.Receive*
 - uid: neo_bpsys_wpf.Models.Game.SurTeam
   commentId: P:neo_bpsys_wpf.Models.Game.SurTeam
@@ -758,6 +788,128 @@ references:
   name: BannedMap
   nameWithType: Game.BannedMap
   fullName: neo_bpsys_wpf.Models.Game.BannedMap
+- uid: neo_bpsys_wpf.Models.Game.MapV2Dictionary*
+  commentId: Overload:neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  href: neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_MapV2Dictionary
+  name: MapV2Dictionary
+  nameWithType: Game.MapV2Dictionary
+  fullName: neo_bpsys_wpf.Models.Game.MapV2Dictionary
+- uid: System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.MapV2}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.MapV2}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, MapV2>
+  nameWithType: Dictionary<string, MapV2>
+  fullName: System.Collections.Generic.Dictionary<string, neo_bpsys_wpf.Models.MapV2>
+  nameWithType.vb: Dictionary(Of String, MapV2)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, neo_bpsys_wpf.Models.MapV2)
+  name.vb: Dictionary(Of String, MapV2)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: neo_bpsys_wpf.Models.MapV2
+    name: MapV2
+    href: neo_bpsys_wpf.Models.MapV2.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: neo_bpsys_wpf.Models.MapV2
+    name: MapV2
+    href: neo_bpsys_wpf.Models.MapV2.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: neo_bpsys_wpf.Models.Game.#ctor*
   commentId: Overload:neo_bpsys_wpf.Models.Game.#ctor
   href: neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game__ctor_neo_bpsys_wpf_Models_Team_neo_bpsys_wpf_Models_Team_neo_bpsys_wpf_Enums_GameProgress_
@@ -838,13 +990,13 @@ references:
   - uid: neo_bpsys_wpf.Messages
     name: Messages
     href: neo_bpsys_wpf.Messages.html
-- uid: neo_bpsys_wpf.Messages.SwapMessage
-  commentId: T:neo_bpsys_wpf.Messages.SwapMessage
+- uid: neo_bpsys_wpf.Messages.NewGameMessage
+  commentId: T:neo_bpsys_wpf.Messages.NewGameMessage
   parent: neo_bpsys_wpf.Messages
-  href: neo_bpsys_wpf.Messages.SwapMessage.html
-  name: SwapMessage
-  nameWithType: SwapMessage
-  fullName: neo_bpsys_wpf.Messages.SwapMessage
+  href: neo_bpsys_wpf.Messages.NewGameMessage.html
+  name: NewGameMessage
+  nameWithType: NewGameMessage
+  fullName: neo_bpsys_wpf.Messages.NewGameMessage
 - uid: neo_bpsys_wpf.Models.Game.SurTeam*
   commentId: Overload:neo_bpsys_wpf.Models.Game.SurTeam
   href: neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_SurTeam

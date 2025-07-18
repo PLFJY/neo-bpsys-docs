@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SettingsHostService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
@@ -117,7 +117,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SaveConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: LoadConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs
@@ -207,7 +207,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/SettingsHostService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ResetConfig
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/SettingsHostService.cs

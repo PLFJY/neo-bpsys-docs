@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainHunGlobalBanRecordViewModel
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 273
+    startLine: 279
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -66,11 +66,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: RecordedChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 277
+    startLine: 283
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -95,11 +95,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 287
+    startLine: 293
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -129,11 +129,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 293
+    startLine: 299
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -157,11 +157,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncIsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 295
+    startLine: 301
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages
@@ -185,11 +185,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsActionNameCorrect
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-    startLine: 297
+    startLine: 303
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Pages

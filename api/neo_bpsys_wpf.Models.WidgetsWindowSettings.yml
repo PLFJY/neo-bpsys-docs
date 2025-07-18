@@ -6,7 +6,11 @@ items:
   parent: neo_bpsys_wpf.Models
   children:
   - neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri
+  - neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  - neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  - neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
   - neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpBgUri
+  - neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
   - neo_bpsys_wpf.Models.WidgetsWindowSettings.TextSettings
   langs:
   - csharp
@@ -18,11 +22,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WidgetsWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 234
+    startLine: 235
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -47,11 +51,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MapBpBgUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 236
+    startLine: 237
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -62,6 +66,64 @@ items:
       type: System.String
     content.vb: Public Property MapBpBgUri As String
   overload: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpBgUri*
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  id: MapBpV2BgUri
+  parent: neo_bpsys_wpf.Models.WidgetsWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: MapBpV2BgUri
+  nameWithType: WidgetsWindowSettings.MapBpV2BgUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: MapBpV2BgUri
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 238
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public string? MapBpV2BgUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MapBpV2BgUri As String
+  overload: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri*
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  id: IsCampIconBlackVerEnabled
+  parent: neo_bpsys_wpf.Models.WidgetsWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: IsCampIconBlackVerEnabled
+  nameWithType: WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IsCampIconBlackVerEnabled
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 239
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public bool IsCampIconBlackVerEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsCampIconBlackVerEnabled As Boolean
+  overload: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled*
 - uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri
   commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri
   id: BpOverviewBgUri
@@ -76,11 +138,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BpOverviewBgUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 237
+    startLine: 240
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -91,6 +153,64 @@ items:
       type: System.String
     content.vb: Public Property BpOverviewBgUri As String
   overload: neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri*
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  id: CurrentBanLockImageUri
+  parent: neo_bpsys_wpf.Models.WidgetsWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: CurrentBanLockImageUri
+  nameWithType: WidgetsWindowSettings.CurrentBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: CurrentBanLockImageUri
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 241
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public string? CurrentBanLockImageUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentBanLockImageUri As String
+  overload: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri*
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  id: GlobalBanLockImageUri
+  parent: neo_bpsys_wpf.Models.WidgetsWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: GlobalBanLockImageUri
+  nameWithType: WidgetsWindowSettings.GlobalBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: GlobalBanLockImageUri
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 242
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public string? GlobalBanLockImageUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GlobalBanLockImageUri As String
+  overload: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri*
 - uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.TextSettings
   commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.TextSettings
   id: TextSettings
@@ -105,11 +225,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TextSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 238
+    startLine: 243
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -177,12 +297,47 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri*
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2BgUri
+  name: MapBpV2BgUri
+  nameWithType: WidgetsWindowSettings.MapBpV2BgUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled*
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_IsCampIconBlackVerEnabled
+  name: IsCampIconBlackVerEnabled
+  nameWithType: WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri*
   commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri
   href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_BpOverviewBgUri
   name: BpOverviewBgUri
   nameWithType: WidgetsWindowSettings.BpOverviewBgUri
   fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri*
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_CurrentBanLockImageUri
+  name: CurrentBanLockImageUri
+  nameWithType: WidgetsWindowSettings.CurrentBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri*
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_GlobalBanLockImageUri
+  name: GlobalBanLockImageUri
+  nameWithType: WidgetsWindowSettings.GlobalBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
 - uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.TextSettings*
   commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.TextSettings
   href: neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_TextSettings

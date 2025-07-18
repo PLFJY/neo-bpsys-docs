@@ -5,7 +5,7 @@ items:
   id: TextSettingsEditControl
   parent: neo_bpsys_wpf.Controls
   children:
-  - neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action,System.Action)
+  - neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action)
   - neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
   - neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
   - neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
@@ -41,7 +41,7 @@ items:
   type: Class
   source:
     id: TextSettingsEditControl
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservableObjectGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
     startLine: 6
   assemblies:
   - neo-bpsys-wpf
@@ -75,46 +75,44 @@ items:
   - type: CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute
     ctor: CommunityToolkit.Mvvm.ComponentModel.ObservableObjectAttribute.#ctor
     arguments: []
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action,System.Action)
-  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action,System.Action)
-  id: '#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action,System.Action)'
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action)
+  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action)
+  id: '#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action)'
   parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
   langs:
   - csharp
   - vb
-  name: TextSettingsEditControl(List<FontFamily>, TextSettings?, Action, Action, Action)
-  nameWithType: TextSettingsEditControl.TextSettingsEditControl(List<FontFamily>, TextSettings?, Action, Action, Action)
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.TextSettingsEditControl(System.Collections.Generic.List<System.Windows.Media.FontFamily>, neo_bpsys_wpf.Models.TextSettings?, System.Action, System.Action, System.Action)
+  name: TextSettingsEditControl(List<FontFamily>, TextSettings?, Action, Action)
+  nameWithType: TextSettingsEditControl.TextSettingsEditControl(List<FontFamily>, TextSettings?, Action, Action)
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.TextSettingsEditControl(System.Collections.Generic.List<System.Windows.Media.FontFamily>, neo_bpsys_wpf.Models.TextSettings?, System.Action, System.Action)
   type: Constructor
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TextSettingsEditControl.xaml.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TextSettingsEditControl.xaml.cs
-    startLine: 21
+    startLine: 20
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Controls
   syntax:
-    content: public TextSettingsEditControl(List<FontFamily> fontList, TextSettings? textSettings, Action applyAction, Action saveAction, Action cancelAction)
+    content: public TextSettingsEditControl(List<FontFamily> fontList, TextSettings? textSettings, Action saveAction, Action cancelAction)
     parameters:
     - id: fontList
       type: System.Collections.Generic.List{System.Windows.Media.FontFamily}
     - id: textSettings
       type: neo_bpsys_wpf.Models.TextSettings
-    - id: applyAction
-      type: System.Action
     - id: saveAction
       type: System.Action
     - id: cancelAction
       type: System.Action
-    content.vb: Public Sub New(fontList As List(Of FontFamily), textSettings As TextSettings, applyAction As Action, saveAction As Action, cancelAction As Action)
+    content.vb: Public Sub New(fontList As List(Of FontFamily), textSettings As TextSettings, saveAction As Action, cancelAction As Action)
   overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor*
-  nameWithType.vb: TextSettingsEditControl.New(List(Of FontFamily), TextSettings, Action, Action, Action)
-  fullName.vb: neo_bpsys_wpf.Controls.TextSettingsEditControl.New(System.Collections.Generic.List(Of System.Windows.Media.FontFamily), neo_bpsys_wpf.Models.TextSettings, System.Action, System.Action, System.Action)
-  name.vb: New(List(Of FontFamily), TextSettings, Action, Action, Action)
+  nameWithType.vb: TextSettingsEditControl.New(List(Of FontFamily), TextSettings, Action, Action)
+  fullName.vb: neo_bpsys_wpf.Controls.TextSettingsEditControl.New(System.Collections.Generic.List(Of System.Windows.Media.FontFamily), neo_bpsys_wpf.Models.TextSettings, System.Action, System.Action)
+  name.vb: New(List(Of FontFamily), TextSettings, Action, Action)
 - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontWeightList
   commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.FontWeightList
   id: FontWeightList
@@ -129,11 +127,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/TextSettingsEditControl.xaml.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: FontWeightList
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/TextSettingsEditControl.xaml.cs
-    startLine: 88
+    startLine: 85
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Controls
@@ -158,7 +156,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/TextSettingsEditControl.g.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: InitializeComponent
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Controls/TextSettingsEditControl.g.cs
@@ -172,217 +170,6 @@ items:
     content: public void InitializeComponent()
     content.vb: Public Sub InitializeComponent()
   overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.InitializeComponent*
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
-  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
-  id: FontList
-  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
-  langs:
-  - csharp
-  - vb
-  name: FontList
-  nameWithType: TextSettingsEditControl.FontList
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
-  type: Property
-  source:
-    id: FontList
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
-    startLine: 9
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Controls
-  example: []
-  syntax:
-    content: public List<FontFamily> FontList { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{System.Windows.Media.FontFamily}
-    content.vb: Public Property FontList As List(Of FontFamily)
-  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList*
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
-  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
-  id: SelectedColor
-  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
-  langs:
-  - csharp
-  - vb
-  name: SelectedColor
-  nameWithType: TextSettingsEditControl.SelectedColor
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
-  type: Property
-  source:
-    id: SelectedColor
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
-    startLine: 31
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Controls
-  example: []
-  syntax:
-    content: public Color SelectedColor { get; set; }
-    parameters: []
-    return:
-      type: System.Windows.Media.Color
-    content.vb: Public Property SelectedColor As Color
-  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor*
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
-  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
-  id: SelectedFontFamily
-  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
-  langs:
-  - csharp
-  - vb
-  name: SelectedFontFamily
-  nameWithType: TextSettingsEditControl.SelectedFontFamily
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
-  type: Property
-  source:
-    id: SelectedFontFamily
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
-    startLine: 52
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Controls
-  example: []
-  syntax:
-    content: public FontFamily SelectedFontFamily { get; set; }
-    parameters: []
-    return:
-      type: System.Windows.Media.FontFamily
-    content.vb: Public Property SelectedFontFamily As FontFamily
-  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily*
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
-  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
-  id: SelectedFontSize
-  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
-  langs:
-  - csharp
-  - vb
-  name: SelectedFontSize
-  nameWithType: TextSettingsEditControl.SelectedFontSize
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
-  type: Property
-  source:
-    id: SelectedFontSize
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
-    startLine: 74
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Controls
-  example: []
-  syntax:
-    content: public string SelectedFontSize { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property SelectedFontSize As String
-  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize*
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
-  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
-  id: SelectedFontWeight
-  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
-  langs:
-  - csharp
-  - vb
-  name: SelectedFontWeight
-  nameWithType: TextSettingsEditControl.SelectedFontWeight
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
-  type: Property
-  source:
-    id: SelectedFontWeight
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
-    startLine: 96
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Controls
-  example: []
-  syntax:
-    content: public FontWeight SelectedFontWeight { get; set; }
-    parameters: []
-    return:
-      type: System.Windows.FontWeight
-    content.vb: Public Property SelectedFontWeight As FontWeight
-  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight*
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
-  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
-  id: SaveCommand
-  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
-  langs:
-  - csharp
-  - vb
-  name: SaveCommand
-  nameWithType: TextSettingsEditControl.SaveCommand
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
-  type: Property
-  source:
-    id: SaveCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.Save.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Controls
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.Controls.TextSettingsEditControl.Save" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand SaveCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property SaveCommand As IRelayCommand
-  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand*
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
-  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
-  id: CloseCommand
-  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
-  langs:
-  - csharp
-  - vb
-  name: CloseCommand
-  nameWithType: TextSettingsEditControl.CloseCommand
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
-  type: Property
-  source:
-    id: CloseCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.Close.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Controls
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.Controls.TextSettingsEditControl.Close" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand CloseCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property CloseCommand As IRelayCommand
-  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand*
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
-  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
-  id: ApplyCommand
-  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
-  langs:
-  - csharp
-  - vb
-  name: ApplyCommand
-  nameWithType: TextSettingsEditControl.ApplyCommand
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
-  type: Property
-  source:
-    id: ApplyCommand
-    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply.g.cs
-    startLine: 12
-  assemblies:
-  - neo-bpsys-wpf
-  namespace: neo_bpsys_wpf.Controls
-  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public IRelayCommand ApplyCommand { get; }
-    parameters: []
-    return:
-      type: CommunityToolkit.Mvvm.Input.IRelayCommand
-    content.vb: Public ReadOnly Property ApplyCommand As IRelayCommand
-  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand*
 - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.PropertyChanged
   commentId: E:neo_bpsys_wpf.Controls.TextSettingsEditControl.PropertyChanged
   id: PropertyChanged
@@ -1243,6 +1030,217 @@ items:
   nameWithType.vb: TextSettingsEditControl.SetPropertyAndNotifyOnCompletion(Of T)(TextSettingsEditControl.TaskNotifier(Of T), Task(Of T), Action(Of Task(Of T)), String)
   fullName.vb: neo_bpsys_wpf.Controls.TextSettingsEditControl.SetPropertyAndNotifyOnCompletion(Of T)(neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier(Of T), System.Threading.Tasks.Task(Of T), System.Action(Of System.Threading.Tasks.Task(Of T)), String)
   name.vb: SetPropertyAndNotifyOnCompletion(Of T)(TaskNotifier(Of T), Task(Of T), Action(Of Task(Of T)), String)
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
+  id: SaveCommand
+  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
+  langs:
+  - csharp
+  - vb
+  name: SaveCommand
+  nameWithType: TextSettingsEditControl.SaveCommand
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
+  type: Property
+  source:
+    id: SaveCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.Save.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.Controls.TextSettingsEditControl.Save" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand SaveCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property SaveCommand As IRelayCommand
+  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand*
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
+  id: ApplyCommand
+  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
+  langs:
+  - csharp
+  - vb
+  name: ApplyCommand
+  nameWithType: TextSettingsEditControl.ApplyCommand
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
+  type: Property
+  source:
+    id: ApplyCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand ApplyCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property ApplyCommand As IRelayCommand
+  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand*
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
+  id: CloseCommand
+  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
+  langs:
+  - csharp
+  - vb
+  name: CloseCommand
+  nameWithType: TextSettingsEditControl.CloseCommand
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
+  type: Property
+  source:
+    id: CloseCommand
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.Close.g.cs
+    startLine: 12
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  summary: Gets an <xref href="CommunityToolkit.Mvvm.Input.IRelayCommand" data-throw-if-not-resolved="false"></xref> instance wrapping <xref href="neo_bpsys_wpf.Controls.TextSettingsEditControl.Close" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IRelayCommand CloseCommand { get; }
+    parameters: []
+    return:
+      type: CommunityToolkit.Mvvm.Input.IRelayCommand
+    content.vb: Public ReadOnly Property CloseCommand As IRelayCommand
+  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand*
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
+  id: FontList
+  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
+  langs:
+  - csharp
+  - vb
+  name: FontList
+  nameWithType: TextSettingsEditControl.FontList
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
+  type: Property
+  source:
+    id: FontList
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
+    startLine: 9
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  example: []
+  syntax:
+    content: public List<FontFamily> FontList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Windows.Media.FontFamily}
+    content.vb: Public Property FontList As List(Of FontFamily)
+  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList*
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
+  id: SelectedColor
+  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
+  langs:
+  - csharp
+  - vb
+  name: SelectedColor
+  nameWithType: TextSettingsEditControl.SelectedColor
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
+  type: Property
+  source:
+    id: SelectedColor
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
+    startLine: 31
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  example: []
+  syntax:
+    content: public Color SelectedColor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Color
+    content.vb: Public Property SelectedColor As Color
+  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor*
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
+  id: SelectedFontFamily
+  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
+  langs:
+  - csharp
+  - vb
+  name: SelectedFontFamily
+  nameWithType: TextSettingsEditControl.SelectedFontFamily
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
+  type: Property
+  source:
+    id: SelectedFontFamily
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
+    startLine: 52
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  example: []
+  syntax:
+    content: public FontFamily SelectedFontFamily { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.FontFamily
+    content.vb: Public Property SelectedFontFamily As FontFamily
+  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily*
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
+  id: SelectedFontSize
+  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
+  langs:
+  - csharp
+  - vb
+  name: SelectedFontSize
+  nameWithType: TextSettingsEditControl.SelectedFontSize
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
+  type: Property
+  source:
+    id: SelectedFontSize
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
+    startLine: 74
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  example: []
+  syntax:
+    content: public string SelectedFontSize { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedFontSize As String
+  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize*
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  commentId: P:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  id: SelectedFontWeight
+  parent: neo_bpsys_wpf.Controls.TextSettingsEditControl
+  langs:
+  - csharp
+  - vb
+  name: SelectedFontWeight
+  nameWithType: TextSettingsEditControl.SelectedFontWeight
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  type: Property
+  source:
+    id: SelectedFontWeight
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.Controls.TextSettingsEditControl.g.cs
+    startLine: 96
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Controls
+  example: []
+  syntax:
+    content: public FontWeight SelectedFontWeight { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.FontWeight
+    content.vb: Public Property SelectedFontWeight As FontWeight
+  overload: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight*
 references:
 - uid: neo_bpsys_wpf.Controls
   commentId: N:neo_bpsys_wpf.Controls
@@ -1530,7 +1528,7 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.componentmodel
 - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor*
   commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl__ctor_System_Collections_Generic_List_System_Windows_Media_FontFamily__neo_bpsys_wpf_Models_TextSettings_System_Action_System_Action_System_Action_
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl__ctor_System_Collections_Generic_List_System_Windows_Media_FontFamily__neo_bpsys_wpf_Models_TextSettings_System_Action_System_Action_
   name: TextSettingsEditControl
   nameWithType: TextSettingsEditControl.TextSettingsEditControl
   fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.TextSettingsEditControl
@@ -1717,175 +1715,6 @@ references:
   name: InitializeComponent
   nameWithType: TextSettingsEditControl.InitializeComponent
   fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.InitializeComponent
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList*
-  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_FontList
-  name: FontList
-  nameWithType: TextSettingsEditControl.FontList
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor*
-  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedColor
-  name: SelectedColor
-  nameWithType: TextSettingsEditControl.SelectedColor
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
-- uid: System.Windows.Media.Color
-  commentId: T:System.Windows.Media.Color
-  parent: System.Windows.Media
-  isExternal: true
-  name: Color
-  nameWithType: Color
-  fullName: System.Windows.Media.Color
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily*
-  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedFontFamily
-  name: SelectedFontFamily
-  nameWithType: TextSettingsEditControl.SelectedFontFamily
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
-- uid: System.Windows.Media.FontFamily
-  commentId: T:System.Windows.Media.FontFamily
-  parent: System.Windows.Media
-  isExternal: true
-  name: FontFamily
-  nameWithType: FontFamily
-  fullName: System.Windows.Media.FontFamily
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize*
-  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedFontSize
-  name: SelectedFontSize
-  nameWithType: TextSettingsEditControl.SelectedFontSize
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight*
-  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedFontWeight
-  name: SelectedFontWeight
-  nameWithType: TextSettingsEditControl.SelectedFontWeight
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
-- uid: System.Windows.FontWeight
-  commentId: T:System.Windows.FontWeight
-  parent: System.Windows
-  isExternal: true
-  name: FontWeight
-  nameWithType: FontWeight
-  fullName: System.Windows.FontWeight
-- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
-  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
-  parent: CommunityToolkit.Mvvm.Input
-  isExternal: true
-  name: IRelayCommand
-  nameWithType: IRelayCommand
-  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Save
-  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.Save
-  name: Save()
-  nameWithType: TextSettingsEditControl.Save()
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.Save()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Save
-    name: Save
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Save
-    name: Save
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand*
-  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SaveCommand
-  name: SaveCommand
-  nameWithType: TextSettingsEditControl.SaveCommand
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
-- uid: CommunityToolkit.Mvvm.Input
-  commentId: N:CommunityToolkit.Mvvm.Input
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/communitytoolkit
-  name: CommunityToolkit.Mvvm.Input
-  nameWithType: CommunityToolkit.Mvvm.Input
-  fullName: CommunityToolkit.Mvvm.Input
-  spec.csharp:
-  - uid: CommunityToolkit
-    name: CommunityToolkit
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
-  - name: .
-  - uid: CommunityToolkit.Mvvm
-    name: Mvvm
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
-  - name: .
-  - uid: CommunityToolkit.Mvvm.Input
-    name: Input
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
-  spec.vb:
-  - uid: CommunityToolkit
-    name: CommunityToolkit
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
-  - name: .
-  - uid: CommunityToolkit.Mvvm
-    name: Mvvm
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
-  - name: .
-  - uid: CommunityToolkit.Mvvm.Input
-    name: Input
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Close
-  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.Close
-  name: Close()
-  nameWithType: TextSettingsEditControl.Close()
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.Close()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Close
-    name: Close
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Close
-    name: Close
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand*
-  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_CloseCommand
-  name: CloseCommand
-  nameWithType: TextSettingsEditControl.CloseCommand
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply
-  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply
-  name: Apply()
-  nameWithType: TextSettingsEditControl.Apply()
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply()
-  spec.csharp:
-  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply
-    name: Apply
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply
-    name: Apply
-  - name: (
-  - name: )
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand*
-  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
-  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_ApplyCommand
-  name: ApplyCommand
-  nameWithType: TextSettingsEditControl.ApplyCommand
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
 - uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
   commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
   parent: System.ComponentModel.INotifyPropertyChanged
@@ -1958,6 +1787,17 @@ references:
   name: OnPropertyChanging
   nameWithType: TextSettingsEditControl.OnPropertyChanging
   fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.OnPropertyChanging
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SetProperty*
   commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SetProperty
   href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SetProperty__1___0____0_System_String_
@@ -2798,3 +2638,161 @@ references:
   - name: T
   - name: )
   - name: )
+- uid: CommunityToolkit.Mvvm.Input.IRelayCommand
+  commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand
+  parent: CommunityToolkit.Mvvm.Input
+  isExternal: true
+  name: IRelayCommand
+  nameWithType: IRelayCommand
+  fullName: CommunityToolkit.Mvvm.Input.IRelayCommand
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Save
+  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.Save
+  name: Save()
+  nameWithType: TextSettingsEditControl.Save()
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.Save()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Save
+    name: Save
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Save
+    name: Save
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand*
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SaveCommand
+  name: SaveCommand
+  nameWithType: TextSettingsEditControl.SaveCommand
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SaveCommand
+- uid: CommunityToolkit.Mvvm.Input
+  commentId: N:CommunityToolkit.Mvvm.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  name: CommunityToolkit.Mvvm.Input
+  nameWithType: CommunityToolkit.Mvvm.Input
+  fullName: CommunityToolkit.Mvvm.Input
+  spec.csharp:
+  - uid: CommunityToolkit
+    name: CommunityToolkit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  - name: .
+  - uid: CommunityToolkit.Mvvm
+    name: Mvvm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
+  - name: .
+  - uid: CommunityToolkit.Mvvm.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
+  spec.vb:
+  - uid: CommunityToolkit
+    name: CommunityToolkit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit
+  - name: .
+  - uid: CommunityToolkit.Mvvm
+    name: Mvvm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm
+  - name: .
+  - uid: CommunityToolkit.Mvvm.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/communitytoolkit.mvvm.input
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply
+  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply
+  name: Apply()
+  nameWithType: TextSettingsEditControl.Apply()
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply
+    name: Apply
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Apply
+    name: Apply
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand*
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_ApplyCommand
+  name: ApplyCommand
+  nameWithType: TextSettingsEditControl.ApplyCommand
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.ApplyCommand
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Close
+  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.Close
+  name: Close()
+  nameWithType: TextSettingsEditControl.Close()
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.Close()
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Close
+    name: Close
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.Close
+    name: Close
+  - name: (
+  - name: )
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand*
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_CloseCommand
+  name: CloseCommand
+  nameWithType: TextSettingsEditControl.CloseCommand
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.CloseCommand
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList*
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_FontList
+  name: FontList
+  nameWithType: TextSettingsEditControl.FontList
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.FontList
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor*
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedColor
+  name: SelectedColor
+  nameWithType: TextSettingsEditControl.SelectedColor
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedColor
+- uid: System.Windows.Media.Color
+  commentId: T:System.Windows.Media.Color
+  parent: System.Windows.Media
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Windows.Media.Color
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily*
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedFontFamily
+  name: SelectedFontFamily
+  nameWithType: TextSettingsEditControl.SelectedFontFamily
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontFamily
+- uid: System.Windows.Media.FontFamily
+  commentId: T:System.Windows.Media.FontFamily
+  parent: System.Windows.Media
+  isExternal: true
+  name: FontFamily
+  nameWithType: FontFamily
+  fullName: System.Windows.Media.FontFamily
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize*
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedFontSize
+  name: SelectedFontSize
+  nameWithType: TextSettingsEditControl.SelectedFontSize
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontSize
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight*
+  commentId: Overload:neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+  href: neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl_SelectedFontWeight
+  name: SelectedFontWeight
+  nameWithType: TextSettingsEditControl.SelectedFontWeight
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.SelectedFontWeight
+- uid: System.Windows.FontWeight
+  commentId: T:System.Windows.FontWeight
+  parent: System.Windows
+  isExternal: true
+  name: FontWeight
+  nameWithType: FontWeight
+  fullName: System.Windows.FontWeight

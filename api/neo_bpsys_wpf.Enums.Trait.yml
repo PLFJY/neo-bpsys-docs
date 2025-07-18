@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Trait
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 传送
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 聆听
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 窥视者
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 闪现
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs
@@ -164,7 +164,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 失常
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs
@@ -190,7 +190,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 兴奋
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs
@@ -216,7 +216,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 巡视者
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs
@@ -242,7 +242,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Enums/Trait.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: 移形
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Enums/Trait.cs

@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BpWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -50,7 +50,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Resolution
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: BgImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentBanLockImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalBanLockImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PickingBorderImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -195,7 +195,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TextSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IMessageBoxService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
@@ -46,7 +46,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowDeleteConfirmAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowErrorAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowInfoAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
@@ -181,7 +181,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ShowConfirmAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IMessageBoxService.cs

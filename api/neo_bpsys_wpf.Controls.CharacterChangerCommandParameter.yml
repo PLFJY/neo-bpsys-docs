@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChangerCommandParameter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CharacterChangerCommandParameter
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChangerCommandParameter.cs
@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChangerCommandParameter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChangerCommandParameter.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChangerCommandParameter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Target
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChangerCommandParameter.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/CharacterChangerCommandParameter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Source
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/CharacterChangerCommandParameter.cs

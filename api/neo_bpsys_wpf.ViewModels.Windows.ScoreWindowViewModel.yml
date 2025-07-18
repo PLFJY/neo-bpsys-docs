@@ -9,12 +9,17 @@ items:
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.AwayTeam
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.CurrentGame
+  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.MainTeam
+  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Int32})
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.TotalAwayMinorPoint
   - neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.TotalMainMinorPoint
@@ -61,11 +66,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 18
+    startLine: 22
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -90,11 +95,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 27
+    startLine: 31
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -124,11 +129,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 43
+    startLine: 47
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -156,11 +161,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 51
+    startLine: 55
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -188,11 +193,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 57
+    startLine: 61
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -223,11 +228,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: CurrentGame
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 69
+    startLine: 74
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -252,11 +257,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: MainTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 71
+    startLine: 76
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -281,11 +286,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: AwayTeam
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 72
+    startLine: 77
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -310,11 +315,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Settings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 74
+    startLine: 79
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -325,6 +330,93 @@ items:
       type: neo_bpsys_wpf.Models.ScoreWindowSettings
     content.vb: Public ReadOnly Property Settings As ScoreWindowSettings
   overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  id: ScoreGlobalImage
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: ScoreGlobalImage
+  nameWithType: ScoreWindowViewModel.ScoreGlobalImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ScoreGlobalImage
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+    startLine: 81
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public ImageSource? ScoreGlobalImage { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.ImageSource
+    content.vb: Public ReadOnly Property ScoreGlobalImage As ImageSource
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  id: ScoreSurImage
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: ScoreSurImage
+  nameWithType: ScoreWindowViewModel.ScoreSurImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ScoreSurImage
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+    startLine: 90
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public ImageSource? ScoreSurImage { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.ImageSource
+    content.vb: Public ReadOnly Property ScoreSurImage As ImageSource
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  id: ScoreHunImage
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: ScoreHunImage
+  nameWithType: ScoreWindowViewModel.ScoreHunImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: ScoreHunImage
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+    startLine: 94
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  syntax:
+    content: public ImageSource? ScoreHunImage { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.ImageSource
+    content.vb: Public ReadOnly Property ScoreHunImage As ImageSource
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage*
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
   commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
   id: Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)
@@ -339,11 +431,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
-    startLine: 76
+    startLine: 98
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.ViewModels.Windows
@@ -357,6 +449,41 @@ items:
       description: The message being received.
     content.vb: Public Sub Receive(message As SettingsChangedMessage)
   overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
+  id: Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: Receive(PropertyChangedMessage<bool>)
+  nameWithType: ScoreWindowViewModel.Receive(PropertyChangedMessage<bool>)
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage<bool>)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Windows/ScoreWindowViewModel.cs
+    startLine: 104
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  summary: Receives a given <xref href="CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage%7bSystem.Boolean%7d" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public void Receive(PropertyChangedMessage<bool> message)
+    parameters:
+    - id: message
+      type: CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean}
+      description: The message being received.
+    content.vb: Public Sub Receive(message As PropertyChangedMessage(Of Boolean))
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive*
+  nameWithType.vb: ScoreWindowViewModel.Receive(PropertyChangedMessage(Of Boolean))
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage(Of Boolean))
+  name.vb: Receive(PropertyChangedMessage(Of Boolean))
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
   commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
   id: IsDesignMode
@@ -435,6 +562,32 @@ items:
       type: System.Int32
     content.vb: Public Property TotalAwayMinorPoint As Integer
   overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.TotalAwayMinorPoint*
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  id: IsBo3Mode
+  parent: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsBo3Mode
+  nameWithType: ScoreWindowViewModel.IsBo3Mode
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  type: Property
+  source:
+    id: IsBo3Mode
+    path: CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.g.cs
+    startLine: 72
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Windows
+  example: []
+  syntax:
+    content: public bool IsBo3Mode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsBo3Mode As Boolean
+  overload: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode*
 references:
 - uid: CommunityToolkit.Mvvm.ComponentModel.ObservableObject
   commentId: T:CommunityToolkit.Mvvm.ComponentModel.ObservableObject
@@ -850,6 +1003,68 @@ references:
   name: ScoreWindowSettings
   nameWithType: ScoreWindowSettings
   fullName: neo_bpsys_wpf.Models.ScoreWindowSettings
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreGlobalImage
+  name: ScoreGlobalImage
+  nameWithType: ScoreWindowViewModel.ScoreGlobalImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+- uid: System.Windows.Media.ImageSource
+  commentId: T:System.Windows.Media.ImageSource
+  parent: System.Windows.Media
+  isExternal: true
+  name: ImageSource
+  nameWithType: ImageSource
+  fullName: System.Windows.Media.ImageSource
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreSurImage
+  name: ScoreSurImage
+  nameWithType: ScoreWindowViewModel.ScoreSurImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreHunImage
+  name: ScoreHunImage
+  nameWithType: ScoreWindowViewModel.ScoreHunImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
 - uid: neo_bpsys_wpf.Messages.SettingsChangedMessage
   commentId: T:neo_bpsys_wpf.Messages.SettingsChangedMessage
   parent: neo_bpsys_wpf.Messages
@@ -857,6 +1072,39 @@ references:
   name: SettingsChangedMessage
   nameWithType: SettingsChangedMessage
   fullName: neo_bpsys_wpf.Messages.SettingsChangedMessage
+- uid: CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean}
+  commentId: T:CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean}
+  parent: CommunityToolkit.Mvvm.Messaging.Messages
+  definition: CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: PropertyChangedMessage<bool>
+  nameWithType: PropertyChangedMessage<bool>
+  fullName: CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage<bool>
+  nameWithType.vb: PropertyChangedMessage(Of Boolean)
+  fullName.vb: CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage(Of Boolean)
+  name.vb: PropertyChangedMessage(Of Boolean)
+  spec.csharp:
+  - uid: CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1
+    name: PropertyChangedMessage
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage`1
+    name: PropertyChangedMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode*
   commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
   href: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_IsDesignMode
@@ -897,3 +1145,9 @@ references:
   name: TotalAwayMinorPoint
   nameWithType: ScoreWindowViewModel.TotalAwayMinorPoint
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.TotalAwayMinorPoint
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode*
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  href: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_IsBo3Mode
+  name: IsBo3Mode
+  nameWithType: ScoreWindowViewModel.IsBo3Mode
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode

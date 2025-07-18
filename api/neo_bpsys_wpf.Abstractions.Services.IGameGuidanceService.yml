@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IGameGuidanceService
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
@@ -47,7 +47,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsGuidanceStarted
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
@@ -78,7 +78,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StartGuidance
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
@@ -109,7 +109,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: NextStepAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
@@ -140,7 +140,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PrevStepAsync
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: StopGuidance
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Abstractions/Services/IGameGuidanceService.cs

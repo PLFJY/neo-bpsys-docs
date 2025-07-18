@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class MapV2 | neo-bpsys Docs ">
       
-      
+      <meta name="description" content="A base class for observable objects that also acts as recipients for messages. This class is an extension of  which also provides built-in support to use the  type.">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/plfjy/neo-bpsys-wpf/new/dev-feat/multiBanMap/apiSpec/new?filename=neo_bpsys_wpf_Models_MapV2.md&amp;value=---%0Auid%3A%20neo_bpsys_wpf.Models.MapV2%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Models_MapV2" data-uid="neo_bpsys_wpf.Models.MapV2" class="text-break">
-Class MapV2  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/Models/MapV2.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class MapV2  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,13 @@ Class MapV2  <a class="header-action link-secondary" title="View source" href="h
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>A base class for observable objects that also acts as recipients for messages. This class is an extension of
+<span class="xref">CommunityToolkit.Mvvm.ComponentModel.ObservableObject</span> which also provides built-in support to use the <span class="xref">CommunityToolkit.Mvvm.Messaging.IMessenger</span> type.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MapV2</code></pre>
+    <pre><code class="lang-csharp hljs">public class MapV2 : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -111,10 +113,19 @@ Class MapV2  <a class="header-action link-secondary" title="View source" href="h
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableRecipient</span></div>
       <div><span class="xref">MapV2</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -129,21 +140,25 @@ Class MapV2  <a class="header-action link-secondary" title="View source" href="h
 
   <a id="neo_bpsys_wpf_Models_MapV2__ctor_" data-uid="neo_bpsys_wpf.Models.MapV2.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_Models_MapV2__ctor_System_String_" data-uid="neo_bpsys_wpf.Models.MapV2.#ctor(System.String)">
-  MapV2(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/Models/MapV2.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Models_MapV2__ctor_System_String_System_String_System_String_" data-uid="neo_bpsys_wpf.Models.MapV2.#ctor(System.String,System.String,System.String)">
+  MapV2(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/MapBpV2/neo-bpsys-wpf/Models/MapV2.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MapV2(string mapName)</code></pre>
+    <pre><code class="lang-csharp hljs">public MapV2(string mapName, string mapBorderNormal = &quot;#2B483B&quot;, string mapBorderBanned = &quot;#9C3E2F&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>mapName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mapBorderNormal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mapBorderBanned</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -166,7 +181,7 @@ Class MapV2  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="neo_bpsys_wpf_Models_MapV2_ImageSource" data-uid="neo_bpsys_wpf.Models.MapV2.ImageSource">
   ImageSource
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/Models/MapV2.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/MapBpV2/neo-bpsys-wpf/Models/MapV2.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -197,7 +212,7 @@ Class MapV2  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="neo_bpsys_wpf_Models_MapV2_IsBanned" data-uid="neo_bpsys_wpf.Models.MapV2.IsBanned">
   IsBanned
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/Models/MapV2.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -224,11 +239,42 @@ Class MapV2  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <a id="neo_bpsys_wpf_Models_MapV2_IsCampVisible_" data-uid="neo_bpsys_wpf.Models.MapV2.IsCampVisible*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_MapV2_IsCampVisible" data-uid="neo_bpsys_wpf.Models.MapV2.IsCampVisible">
+  IsCampVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCampVisible { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Models_MapV2_IsChecked_" data-uid="neo_bpsys_wpf.Models.MapV2.IsChecked*"></a>
 
   <h3 id="neo_bpsys_wpf_Models_MapV2_IsChecked" data-uid="neo_bpsys_wpf.Models.MapV2.IsChecked">
   IsChecked
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/Models/MapV2.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -255,11 +301,42 @@ Class MapV2  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <a id="neo_bpsys_wpf_Models_MapV2_MapBorderBrush_" data-uid="neo_bpsys_wpf.Models.MapV2.MapBorderBrush*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_MapV2_MapBorderBrush" data-uid="neo_bpsys_wpf.Models.MapV2.MapBorderBrush">
+  MapBorderBrush
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/MapBpV2/neo-bpsys-wpf/Models/MapV2.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Brush MapBorderBrush { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Brush</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Models_MapV2_MapName_" data-uid="neo_bpsys_wpf.Models.MapV2.MapName*"></a>
 
   <h3 id="neo_bpsys_wpf_Models_MapV2_MapName" data-uid="neo_bpsys_wpf.Models.MapV2.MapName">
   MapName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/Models/MapV2.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/MapBpV2/neo-bpsys-wpf/Models/MapV2.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -286,11 +363,41 @@ Class MapV2  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <a id="neo_bpsys_wpf_Models_MapV2_OperationTeam_" data-uid="neo_bpsys_wpf.Models.MapV2.OperationTeam*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_MapV2_OperationTeam" data-uid="neo_bpsys_wpf.Models.MapV2.OperationTeam">
+  OperationTeam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Team? OperationTeam { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.Team.html">Team</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/plfjy/neo-bpsys-wpf/blob/dev-feat/multiBanMap/neo-bpsys-wpf/Models/MapV2.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

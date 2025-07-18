@@ -10,6 +10,7 @@ items:
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.PlayerName
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.CharacterSwappedMessage)
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
+  - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)
   - neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SwapCharacterInPlayersCommand
@@ -56,7 +57,6 @@ items:
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Index
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList
-  - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.BanCountChangedMessage)
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.HighlightMessage)
   - neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara
@@ -78,7 +78,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: PlayerName
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -107,7 +107,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: .ctor
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -143,7 +143,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncChara
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -203,7 +203,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SyncIsEnabled
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -231,7 +231,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsActionNameCorrect
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -264,7 +264,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -296,7 +296,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -328,7 +328,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Receive
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
@@ -345,6 +345,39 @@ items:
       type: neo_bpsys_wpf.Messages.SwapMessage
       description: The message being received.
     content.vb: Public Sub Receive(message As SwapMessage)
+  overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive*
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  id: Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  parent: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel
+  langs:
+  - csharp
+  - vb
+  name: Receive(NewGameMessage)
+  nameWithType: PickPageViewModel.SurPickViewModel.Receive(NewGameMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  type: Method
+  source:
+    remote:
+      path: neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: Receive
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs
+    startLine: 214
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.ViewModels.Pages
+  summary: Receives a given <xref href="neo_bpsys_wpf.Messages.NewGameMessage" data-throw-if-not-resolved="false"></xref> message instance.
+  example: []
+  syntax:
+    content: public override void Receive(NewGameMessage message)
+    parameters:
+    - id: message
+      type: neo_bpsys_wpf.Messages.NewGameMessage
+      description: The message being received.
+    content.vb: Public Overrides Sub Receive(message As NewGameMessage)
+  overridden: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
   overload: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive*
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SwapCharacterInPlayersCommand
   commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SwapCharacterInPlayersCommand
@@ -504,31 +537,6 @@ references:
   name: Index
   nameWithType: CharaSelectViewModelBase.Index
   fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Index
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
-  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
-  parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
-  href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
-  name: Receive(NewGameMessage)
-  nameWithType: CharaSelectViewModelBase.Receive(NewGameMessage)
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
-  spec.csharp:
-  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
-    name: Receive
-    href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
-  - name: (
-  - uid: neo_bpsys_wpf.Messages.NewGameMessage
-    name: NewGameMessage
-    href: neo_bpsys_wpf.Messages.NewGameMessage.html
-  - name: )
-  spec.vb:
-  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
-    name: Receive
-    href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
-  - name: (
-  - uid: neo_bpsys_wpf.Messages.NewGameMessage
-    name: NewGameMessage
-    href: neo_bpsys_wpf.Messages.NewGameMessage.html
-  - name: )
 - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.BanCountChangedMessage)
   commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.BanCountChangedMessage)
   parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
@@ -973,6 +981,38 @@ references:
   name: SwapMessage
   nameWithType: SwapMessage
   fullName: neo_bpsys_wpf.Messages.SwapMessage
+- uid: neo_bpsys_wpf.Messages.NewGameMessage
+  commentId: T:neo_bpsys_wpf.Messages.NewGameMessage
+  parent: neo_bpsys_wpf.Messages
+  href: neo_bpsys_wpf.Messages.NewGameMessage.html
+  name: NewGameMessage
+  nameWithType: NewGameMessage
+  fullName: neo_bpsys_wpf.Messages.NewGameMessage
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  parent: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase
+  href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
+  name: Receive(NewGameMessage)
+  nameWithType: CharaSelectViewModelBase.Receive(NewGameMessage)
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  spec.csharp:
+  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+    name: Receive
+    href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
+  - name: (
+  - uid: neo_bpsys_wpf.Messages.NewGameMessage
+    name: NewGameMessage
+    href: neo_bpsys_wpf.Messages.NewGameMessage.html
+  - name: )
+  spec.vb:
+  - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+    name: Receive
+    href: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
+  - name: (
+  - uid: neo_bpsys_wpf.Messages.NewGameMessage
+    name: NewGameMessage
+    href: neo_bpsys_wpf.Messages.NewGameMessage.html
+  - name: )
 - uid: CommunityToolkit.Mvvm.Input.IRelayCommand`1
   commentId: T:CommunityToolkit.Mvvm.Input.IRelayCommand`1
   isExternal: true

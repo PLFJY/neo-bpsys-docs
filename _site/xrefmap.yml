@@ -77,32 +77,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow
   nameWithType: IFrontService.AllWindowShow
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  name: ApplyAllWindowsSettings()
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings()
-  nameWithType: IFrontService.ApplyAllWindowsSettings()
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings*
-  name: ApplyAllWindowsSettings
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings_
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings
-  nameWithType: IFrontService.ApplyAllWindowsSettings
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  name: ApplySettings(FrontWindowType)
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
-  commentId: M:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  nameWithType: IFrontService.ApplySettings(FrontWindowType)
-- uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*
-  name: ApplySettings
-  href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_
-  commentId: Overload:neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings
-  nameWithType: IFrontService.ApplySettings
 - uid: neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
   name: BreathingStart(FrontWindowType, string, int, string)
   href: api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html#neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
@@ -2236,6 +2210,310 @@ references:
   commentId: F:neo_bpsys_wpf.Controls.GlobalScorePresenter.TextProperty
   fullName: neo_bpsys_wpf.Controls.GlobalScorePresenter.TextProperty
   nameWithType: GlobalScorePresenter.TextProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter
+  name: MapV2Presenter
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html
+  commentId: T:neo_bpsys_wpf.Controls.MapV2Presenter
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter
+  nameWithType: MapV2Presenter
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.#ctor
+  name: MapV2Presenter()
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter__ctor
+  commentId: M:neo_bpsys_wpf.Controls.MapV2Presenter.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapV2Presenter()
+  fullName.vb: neo_bpsys_wpf.Controls.MapV2Presenter.New()
+  nameWithType: MapV2Presenter.MapV2Presenter()
+  nameWithType.vb: MapV2Presenter.New()
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.#ctor*
+  name: MapV2Presenter
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter__ctor_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapV2Presenter
+  fullName.vb: neo_bpsys_wpf.Controls.MapV2Presenter.New
+  nameWithType: MapV2Presenter.MapV2Presenter
+  nameWithType.vb: MapV2Presenter.New
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamily
+  name: CampNameFontFamily
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontFamily
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamily
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamily
+  nameWithType: MapV2Presenter.CampNameFontFamily
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamily*
+  name: CampNameFontFamily
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontFamily_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamily
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamily
+  nameWithType: MapV2Presenter.CampNameFontFamily
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamilyProperty
+  name: CampNameFontFamilyProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontFamilyProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamilyProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontFamilyProperty
+  nameWithType: MapV2Presenter.CampNameFontFamilyProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSize
+  name: CampNameFontSize
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontSize
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSize
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSize
+  nameWithType: MapV2Presenter.CampNameFontSize
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSize*
+  name: CampNameFontSize
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontSize_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSize
+  nameWithType: MapV2Presenter.CampNameFontSize
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSizeProperty
+  name: CampNameFontSizeProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontSizeProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSizeProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontSizeProperty
+  nameWithType: MapV2Presenter.CampNameFontSizeProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeight
+  name: CampNameFontWeight
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontWeight
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeight
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeight
+  nameWithType: MapV2Presenter.CampNameFontWeight
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeight*
+  name: CampNameFontWeight
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontWeight_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeight
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeight
+  nameWithType: MapV2Presenter.CampNameFontWeight
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeightProperty
+  name: CampNameFontWeightProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameFontWeightProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeightProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameFontWeightProperty
+  nameWithType: MapV2Presenter.CampNameFontWeightProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForeground
+  name: CampNameForeground
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameForeground
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForeground
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForeground
+  nameWithType: MapV2Presenter.CampNameForeground
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForeground*
+  name: CampNameForeground
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameForeground_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForeground
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForeground
+  nameWithType: MapV2Presenter.CampNameForeground
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForegroundProperty
+  name: CampNameForegroundProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_CampNameForegroundProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForegroundProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.CampNameForegroundProperty
+  nameWithType: MapV2Presenter.CampNameForegroundProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.InitializeComponent
+  name: InitializeComponent()
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_InitializeComponent
+  commentId: M:neo_bpsys_wpf.Controls.MapV2Presenter.InitializeComponent
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.InitializeComponent()
+  nameWithType: MapV2Presenter.InitializeComponent()
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.InitializeComponent*
+  name: InitializeComponent
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_InitializeComponent_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.InitializeComponent
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.InitializeComponent
+  nameWithType: MapV2Presenter.InitializeComponent
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisible
+  name: IsCampVisible
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_IsCampVisible
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisible
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisible
+  nameWithType: MapV2Presenter.IsCampVisible
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisible*
+  name: IsCampVisible
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_IsCampVisible_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisible
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisible
+  nameWithType: MapV2Presenter.IsCampVisible
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisibleProperty
+  name: IsCampVisibleProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_IsCampVisibleProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisibleProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.IsCampVisibleProperty
+  nameWithType: MapV2Presenter.IsCampVisibleProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.Map
+  name: Map
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_Map
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.Map
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.Map
+  nameWithType: MapV2Presenter.Map
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.Map*
+  name: Map
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_Map_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.Map
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.Map
+  nameWithType: MapV2Presenter.Map
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamily
+  name: MapNameFontFamily
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontFamily
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamily
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamily
+  nameWithType: MapV2Presenter.MapNameFontFamily
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamily*
+  name: MapNameFontFamily
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontFamily_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamily
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamily
+  nameWithType: MapV2Presenter.MapNameFontFamily
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamilyProperty
+  name: MapNameFontFamilyProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontFamilyProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamilyProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontFamilyProperty
+  nameWithType: MapV2Presenter.MapNameFontFamilyProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSize
+  name: MapNameFontSize
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontSize
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSize
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSize
+  nameWithType: MapV2Presenter.MapNameFontSize
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSize*
+  name: MapNameFontSize
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontSize_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSize
+  nameWithType: MapV2Presenter.MapNameFontSize
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSizeProperty
+  name: MapNameFontSizeProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontSizeProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSizeProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontSizeProperty
+  nameWithType: MapV2Presenter.MapNameFontSizeProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeight
+  name: MapNameFontWeight
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontWeight
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeight
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeight
+  nameWithType: MapV2Presenter.MapNameFontWeight
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeight*
+  name: MapNameFontWeight
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontWeight_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeight
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeight
+  nameWithType: MapV2Presenter.MapNameFontWeight
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeightProperty
+  name: MapNameFontWeightProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameFontWeightProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeightProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameFontWeightProperty
+  nameWithType: MapV2Presenter.MapNameFontWeightProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForeground
+  name: MapNameForeground
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameForeground
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForeground
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForeground
+  nameWithType: MapV2Presenter.MapNameForeground
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForeground*
+  name: MapNameForeground
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameForeground_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForeground
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForeground
+  nameWithType: MapV2Presenter.MapNameForeground
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForegroundProperty
+  name: MapNameForegroundProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapNameForegroundProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForegroundProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapNameForegroundProperty
+  nameWithType: MapV2Presenter.MapNameForegroundProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.MapProperty
+  name: MapProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_MapProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.MapProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.MapProperty
+  nameWithType: MapV2Presenter.MapProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamily
+  name: TeamNameFontFamily
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontFamily
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamily
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamily
+  nameWithType: MapV2Presenter.TeamNameFontFamily
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamily*
+  name: TeamNameFontFamily
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontFamily_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamily
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamily
+  nameWithType: MapV2Presenter.TeamNameFontFamily
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamilyProperty
+  name: TeamNameFontFamilyProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontFamilyProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamilyProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontFamilyProperty
+  nameWithType: MapV2Presenter.TeamNameFontFamilyProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSize
+  name: TeamNameFontSize
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontSize
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSize
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSize
+  nameWithType: MapV2Presenter.TeamNameFontSize
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSize*
+  name: TeamNameFontSize
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontSize_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSize
+  nameWithType: MapV2Presenter.TeamNameFontSize
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSizeProperty
+  name: TeamNameFontSizeProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontSizeProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSizeProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontSizeProperty
+  nameWithType: MapV2Presenter.TeamNameFontSizeProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeight
+  name: TeamNameFontWeight
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontWeight
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeight
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeight
+  nameWithType: MapV2Presenter.TeamNameFontWeight
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeight*
+  name: TeamNameFontWeight
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontWeight_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeight
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeight
+  nameWithType: MapV2Presenter.TeamNameFontWeight
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeightProperty
+  name: TeamNameFontWeightProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameFontWeightProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeightProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameFontWeightProperty
+  nameWithType: MapV2Presenter.TeamNameFontWeightProperty
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForeground
+  name: TeamNameForeground
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameForeground
+  commentId: P:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForeground
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForeground
+  nameWithType: MapV2Presenter.TeamNameForeground
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForeground*
+  name: TeamNameForeground
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameForeground_
+  commentId: Overload:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForeground
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForeground
+  nameWithType: MapV2Presenter.TeamNameForeground
+- uid: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForegroundProperty
+  name: TeamNameForegroundProperty
+  href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html#neo_bpsys_wpf_Controls_MapV2Presenter_TeamNameForegroundProperty
+  commentId: F:neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForegroundProperty
+  fullName: neo_bpsys_wpf.Controls.MapV2Presenter.TeamNameForegroundProperty
+  nameWithType: MapV2Presenter.TeamNameForegroundProperty
 - uid: neo_bpsys_wpf.Controls.TalentPicker
   name: TalentPicker
   href: api/neo_bpsys_wpf.Controls.TalentPicker.html
@@ -2324,15 +2602,15 @@ references:
   commentId: T:neo_bpsys_wpf.Controls.TextSettingsEditControl
   fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl
   nameWithType: TextSettingsEditControl
-- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action,System.Action)
-  name: TextSettingsEditControl(List<FontFamily>, TextSettings?, Action, Action, Action)
-  href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl__ctor_System_Collections_Generic_List_System_Windows_Media_FontFamily__neo_bpsys_wpf_Models_TextSettings_System_Action_System_Action_System_Action_
-  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action,System.Action)
-  name.vb: New(List(Of FontFamily), TextSettings, Action, Action, Action)
-  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.TextSettingsEditControl(System.Collections.Generic.List<System.Windows.Media.FontFamily>, neo_bpsys_wpf.Models.TextSettings?, System.Action, System.Action, System.Action)
-  fullName.vb: neo_bpsys_wpf.Controls.TextSettingsEditControl.New(System.Collections.Generic.List(Of System.Windows.Media.FontFamily), neo_bpsys_wpf.Models.TextSettings, System.Action, System.Action, System.Action)
-  nameWithType: TextSettingsEditControl.TextSettingsEditControl(List<FontFamily>, TextSettings?, Action, Action, Action)
-  nameWithType.vb: TextSettingsEditControl.New(List(Of FontFamily), TextSettings, Action, Action, Action)
+- uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action)
+  name: TextSettingsEditControl(List<FontFamily>, TextSettings?, Action, Action)
+  href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl__ctor_System_Collections_Generic_List_System_Windows_Media_FontFamily__neo_bpsys_wpf_Models_TextSettings_System_Action_System_Action_
+  commentId: M:neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor(System.Collections.Generic.List{System.Windows.Media.FontFamily},neo_bpsys_wpf.Models.TextSettings,System.Action,System.Action)
+  name.vb: New(List(Of FontFamily), TextSettings, Action, Action)
+  fullName: neo_bpsys_wpf.Controls.TextSettingsEditControl.TextSettingsEditControl(System.Collections.Generic.List<System.Windows.Media.FontFamily>, neo_bpsys_wpf.Models.TextSettings?, System.Action, System.Action)
+  fullName.vb: neo_bpsys_wpf.Controls.TextSettingsEditControl.New(System.Collections.Generic.List(Of System.Windows.Media.FontFamily), neo_bpsys_wpf.Models.TextSettings, System.Action, System.Action)
+  nameWithType: TextSettingsEditControl.TextSettingsEditControl(List<FontFamily>, TextSettings?, Action, Action)
+  nameWithType.vb: TextSettingsEditControl.New(List(Of FontFamily), TextSettings, Action, Action)
 - uid: neo_bpsys_wpf.Controls.TextSettingsEditControl.#ctor*
   name: TextSettingsEditControl
   href: api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html#neo_bpsys_wpf_Controls_TextSettingsEditControl__ctor_
@@ -2964,6 +3242,82 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter.ConvertBack
   nameWithType: BooleanToReverseVisibilityConverter.ConvertBack
+- uid: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter
+  name: CampHunToVisibilityConverter
+  href: api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.html
+  commentId: T:neo_bpsys_wpf.Converters.CampHunToVisibilityConverter
+  fullName: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter
+  nameWithType: CampHunToVisibilityConverter
+- uid: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(object, Type, object, CultureInfo)
+  href: api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.html#neo_bpsys_wpf_Converters_CampHunToVisibilityConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: Convert(Object, Type, Object, CultureInfo)
+  fullName: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.Convert(object, System.Type, object, System.Globalization.CultureInfo)
+  fullName.vb: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.Convert(Object, System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: CampHunToVisibilityConverter.Convert(object, Type, object, CultureInfo)
+  nameWithType.vb: CampHunToVisibilityConverter.Convert(Object, Type, Object, CultureInfo)
+- uid: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.Convert*
+  name: Convert
+  href: api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.html#neo_bpsys_wpf_Converters_CampHunToVisibilityConverter_Convert_
+  commentId: Overload:neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.Convert
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.Convert
+  nameWithType: CampHunToVisibilityConverter.Convert
+- uid: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: ConvertBack(object, Type, object, CultureInfo)
+  href: api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.html#neo_bpsys_wpf_Converters_CampHunToVisibilityConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.ConvertBack(object, System.Type, object, System.Globalization.CultureInfo)
+  fullName.vb: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.ConvertBack(Object, System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: CampHunToVisibilityConverter.ConvertBack(object, Type, object, CultureInfo)
+  nameWithType.vb: CampHunToVisibilityConverter.ConvertBack(Object, Type, Object, CultureInfo)
+- uid: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.ConvertBack*
+  name: ConvertBack
+  href: api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.html#neo_bpsys_wpf_Converters_CampHunToVisibilityConverter_ConvertBack_
+  commentId: Overload:neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.ConvertBack
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.ConvertBack
+  nameWithType: CampHunToVisibilityConverter.ConvertBack
+- uid: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter
+  name: CampSurToVisibilityConverter
+  href: api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.html
+  commentId: T:neo_bpsys_wpf.Converters.CampSurToVisibilityConverter
+  fullName: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter
+  nameWithType: CampSurToVisibilityConverter
+- uid: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(object, Type, object, CultureInfo)
+  href: api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.html#neo_bpsys_wpf_Converters_CampSurToVisibilityConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: Convert(Object, Type, Object, CultureInfo)
+  fullName: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.Convert(object, System.Type, object, System.Globalization.CultureInfo)
+  fullName.vb: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.Convert(Object, System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: CampSurToVisibilityConverter.Convert(object, Type, object, CultureInfo)
+  nameWithType.vb: CampSurToVisibilityConverter.Convert(Object, Type, Object, CultureInfo)
+- uid: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.Convert*
+  name: Convert
+  href: api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.html#neo_bpsys_wpf_Converters_CampSurToVisibilityConverter_Convert_
+  commentId: Overload:neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.Convert
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.Convert
+  nameWithType: CampSurToVisibilityConverter.Convert
+- uid: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: ConvertBack(object, Type, object, CultureInfo)
+  href: api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.html#neo_bpsys_wpf_Converters_CampSurToVisibilityConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.ConvertBack(object, System.Type, object, System.Globalization.CultureInfo)
+  fullName.vb: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.ConvertBack(Object, System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: CampSurToVisibilityConverter.ConvertBack(object, Type, object, CultureInfo)
+  nameWithType.vb: CampSurToVisibilityConverter.ConvertBack(Object, Type, Object, CultureInfo)
+- uid: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.ConvertBack*
+  name: ConvertBack
+  href: api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.html#neo_bpsys_wpf_Converters_CampSurToVisibilityConverter_ConvertBack_
+  commentId: Overload:neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.ConvertBack
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.ConvertBack
+  nameWithType: CampSurToVisibilityConverter.ConvertBack
 - uid: neo_bpsys_wpf.Converters.CampToStringConverter
   name: CampToStringConverter
   href: api/neo_bpsys_wpf.Converters.CampToStringConverter.html
@@ -3278,6 +3632,82 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Converters.InverseBooleanConverter.ConvertBack
   nameWithType: InverseBooleanConverter.ConvertBack
+- uid: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter
+  name: NullObjectToReverseVisibilityConverter
+  href: api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.html
+  commentId: T:neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter
+  fullName: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter
+  nameWithType: NullObjectToReverseVisibilityConverter
+- uid: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(object, Type, object, CultureInfo)
+  href: api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.html#neo_bpsys_wpf_Converters_NullObjectToReverseVisibilityConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: Convert(Object, Type, Object, CultureInfo)
+  fullName: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.Convert(object, System.Type, object, System.Globalization.CultureInfo)
+  fullName.vb: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.Convert(Object, System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: NullObjectToReverseVisibilityConverter.Convert(object, Type, object, CultureInfo)
+  nameWithType.vb: NullObjectToReverseVisibilityConverter.Convert(Object, Type, Object, CultureInfo)
+- uid: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.Convert*
+  name: Convert
+  href: api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.html#neo_bpsys_wpf_Converters_NullObjectToReverseVisibilityConverter_Convert_
+  commentId: Overload:neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.Convert
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.Convert
+  nameWithType: NullObjectToReverseVisibilityConverter.Convert
+- uid: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: ConvertBack(object, Type, object, CultureInfo)
+  href: api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.html#neo_bpsys_wpf_Converters_NullObjectToReverseVisibilityConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.ConvertBack(object, System.Type, object, System.Globalization.CultureInfo)
+  fullName.vb: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.ConvertBack(Object, System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: NullObjectToReverseVisibilityConverter.ConvertBack(object, Type, object, CultureInfo)
+  nameWithType.vb: NullObjectToReverseVisibilityConverter.ConvertBack(Object, Type, Object, CultureInfo)
+- uid: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.ConvertBack*
+  name: ConvertBack
+  href: api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.html#neo_bpsys_wpf_Converters_NullObjectToReverseVisibilityConverter_ConvertBack_
+  commentId: Overload:neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.ConvertBack
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.ConvertBack
+  nameWithType: NullObjectToReverseVisibilityConverter.ConvertBack
+- uid: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter
+  name: NullObjectToVisibilityConverter
+  href: api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.html
+  commentId: T:neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter
+  fullName: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter
+  nameWithType: NullObjectToVisibilityConverter
+- uid: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(object, Type, object, CultureInfo)
+  href: api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.html#neo_bpsys_wpf_Converters_NullObjectToVisibilityConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: Convert(Object, Type, Object, CultureInfo)
+  fullName: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.Convert(object, System.Type, object, System.Globalization.CultureInfo)
+  fullName.vb: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.Convert(Object, System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: NullObjectToVisibilityConverter.Convert(object, Type, object, CultureInfo)
+  nameWithType.vb: NullObjectToVisibilityConverter.Convert(Object, Type, Object, CultureInfo)
+- uid: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.Convert*
+  name: Convert
+  href: api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.html#neo_bpsys_wpf_Converters_NullObjectToVisibilityConverter_Convert_
+  commentId: Overload:neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.Convert
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.Convert
+  nameWithType: NullObjectToVisibilityConverter.Convert
+- uid: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: ConvertBack(object, Type, object, CultureInfo)
+  href: api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.html#neo_bpsys_wpf_Converters_NullObjectToVisibilityConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.ConvertBack(object, System.Type, object, System.Globalization.CultureInfo)
+  fullName.vb: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.ConvertBack(Object, System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: NullObjectToVisibilityConverter.ConvertBack(object, Type, object, CultureInfo)
+  nameWithType.vb: NullObjectToVisibilityConverter.ConvertBack(Object, Type, Object, CultureInfo)
+- uid: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.ConvertBack*
+  name: ConvertBack
+  href: api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.html#neo_bpsys_wpf_Converters_NullObjectToVisibilityConverter_ConvertBack_
+  commentId: Overload:neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.ConvertBack
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.ConvertBack
+  nameWithType: NullObjectToVisibilityConverter.ConvertBack
 - uid: neo_bpsys_wpf.Converters.ObjectToBooleanConverter
   name: ObjectToBooleanConverter
   href: api/neo_bpsys_wpf.Converters.ObjectToBooleanConverter.html
@@ -3432,12 +3862,24 @@ references:
   commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
   fullName: neo_bpsys_wpf.Enums.FrontWindowType.GameDataWindow
   nameWithType: FrontWindowType.GameDataWindow
-- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
-  name: ScoreWindow
-  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_ScoreWindow
-  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
-  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreWindow
-  nameWithType: FrontWindowType.ScoreWindow
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreGlobalWindow
+  name: ScoreGlobalWindow
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_ScoreGlobalWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreGlobalWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreGlobalWindow
+  nameWithType: FrontWindowType.ScoreGlobalWindow
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreHunWindow
+  name: ScoreHunWindow
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_ScoreHunWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreHunWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreHunWindow
+  nameWithType: FrontWindowType.ScoreHunWindow
+- uid: neo_bpsys_wpf.Enums.FrontWindowType.ScoreSurWindow
+  name: ScoreSurWindow
+  href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_ScoreSurWindow
+  commentId: F:neo_bpsys_wpf.Enums.FrontWindowType.ScoreSurWindow
+  fullName: neo_bpsys_wpf.Enums.FrontWindowType.ScoreSurWindow
+  nameWithType: FrontWindowType.ScoreSurWindow
 - uid: neo_bpsys_wpf.Enums.FrontWindowType.WidgetsWindow
   name: WidgetsWindow
   href: api/neo_bpsys_wpf.Enums.FrontWindowType.html#neo_bpsys_wpf_Enums_FrontWindowType_WidgetsWindow
@@ -4034,15 +4476,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromName
   nameWithType: ImageHelper.GetImageSourceFromName
-- uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String)
-  name: GetTalentImageSource(Camp, string?)
-  href: api/neo_bpsys_wpf.Helpers.ImageHelper.html#neo_bpsys_wpf_Helpers_ImageHelper_GetTalentImageSource_neo_bpsys_wpf_Enums_Camp_System_String_
-  commentId: M:neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String)
-  name.vb: GetTalentImageSource(Camp, String)
-  fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, string?)
-  fullName.vb: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, String)
-  nameWithType: ImageHelper.GetTalentImageSource(Camp, string?)
-  nameWithType.vb: ImageHelper.GetTalentImageSource(Camp, String)
+- uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String,System.Boolean)
+  name: GetTalentImageSource(Camp, string?, bool)
+  href: api/neo_bpsys_wpf.Helpers.ImageHelper.html#neo_bpsys_wpf_Helpers_ImageHelper_GetTalentImageSource_neo_bpsys_wpf_Enums_Camp_System_String_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String,System.Boolean)
+  name.vb: GetTalentImageSource(Camp, String, Boolean)
+  fullName: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, string?, bool)
+  fullName.vb: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp, String, Boolean)
+  nameWithType: ImageHelper.GetTalentImageSource(Camp, string?, bool)
+  nameWithType.vb: ImageHelper.GetTalentImageSource(Camp, String, Boolean)
 - uid: neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource*
   name: GetTalentImageSource
   href: api/neo_bpsys_wpf.Helpers.ImageHelper.html#neo_bpsys_wpf_Helpers_ImageHelper_GetTalentImageSource_
@@ -5225,6 +5667,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Game.HunTeam
   nameWithType: Game.HunTeam
+- uid: neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  name: MapV2Dictionary
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_MapV2Dictionary
+  commentId: P:neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  fullName: neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  nameWithType: Game.MapV2Dictionary
+- uid: neo_bpsys_wpf.Models.Game.MapV2Dictionary*
+  name: MapV2Dictionary
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_MapV2Dictionary_
+  commentId: Overload:neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.Game.MapV2Dictionary
+  nameWithType: Game.MapV2Dictionary
 - uid: neo_bpsys_wpf.Models.Game.PickedMap
   name: PickedMap
   href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_PickedMap
@@ -5257,12 +5712,12 @@ references:
   commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
   fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage)
   nameWithType: Game.Receive(MemberOnFieldChangedMessage)
-- uid: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
-  name: Receive(SwapMessage)
-  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_Receive_neo_bpsys_wpf_Messages_SwapMessage_
-  commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
-  fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.SwapMessage)
-  nameWithType: Game.Receive(SwapMessage)
+- uid: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  name: Receive(NewGameMessage)
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
+  commentId: M:neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  fullName: neo_bpsys_wpf.Models.Game.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  nameWithType: Game.Receive(NewGameMessage)
 - uid: neo_bpsys_wpf.Models.Game.Receive*
   name: Receive
   href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_Receive_
@@ -5470,15 +5925,15 @@ references:
   commentId: T:neo_bpsys_wpf.Models.MapV2
   fullName: neo_bpsys_wpf.Models.MapV2
   nameWithType: MapV2
-- uid: neo_bpsys_wpf.Models.MapV2.#ctor(System.String)
-  name: MapV2(string)
-  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2__ctor_System_String_
-  commentId: M:neo_bpsys_wpf.Models.MapV2.#ctor(System.String)
-  name.vb: New(String)
-  fullName: neo_bpsys_wpf.Models.MapV2.MapV2(string)
-  fullName.vb: neo_bpsys_wpf.Models.MapV2.New(String)
-  nameWithType: MapV2.MapV2(string)
-  nameWithType.vb: MapV2.New(String)
+- uid: neo_bpsys_wpf.Models.MapV2.#ctor(System.String,System.String,System.String)
+  name: MapV2(string, string, string)
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2__ctor_System_String_System_String_System_String_
+  commentId: M:neo_bpsys_wpf.Models.MapV2.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: neo_bpsys_wpf.Models.MapV2.MapV2(string, string, string)
+  fullName.vb: neo_bpsys_wpf.Models.MapV2.New(String, String, String)
+  nameWithType: MapV2.MapV2(string, string, string)
+  nameWithType.vb: MapV2.New(String, String, String)
 - uid: neo_bpsys_wpf.Models.MapV2.#ctor*
   name: MapV2
   href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2__ctor_
@@ -5515,6 +5970,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.MapV2.IsBanned
   nameWithType: MapV2.IsBanned
+- uid: neo_bpsys_wpf.Models.MapV2.IsCampVisible
+  name: IsCampVisible
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_IsCampVisible
+  commentId: P:neo_bpsys_wpf.Models.MapV2.IsCampVisible
+  fullName: neo_bpsys_wpf.Models.MapV2.IsCampVisible
+  nameWithType: MapV2.IsCampVisible
+- uid: neo_bpsys_wpf.Models.MapV2.IsCampVisible*
+  name: IsCampVisible
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_IsCampVisible_
+  commentId: Overload:neo_bpsys_wpf.Models.MapV2.IsCampVisible
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.MapV2.IsCampVisible
+  nameWithType: MapV2.IsCampVisible
 - uid: neo_bpsys_wpf.Models.MapV2.IsChecked
   name: IsChecked
   href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_IsChecked
@@ -5528,6 +5996,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.MapV2.IsChecked
   nameWithType: MapV2.IsChecked
+- uid: neo_bpsys_wpf.Models.MapV2.MapBorderBrush
+  name: MapBorderBrush
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_MapBorderBrush
+  commentId: P:neo_bpsys_wpf.Models.MapV2.MapBorderBrush
+  fullName: neo_bpsys_wpf.Models.MapV2.MapBorderBrush
+  nameWithType: MapV2.MapBorderBrush
+- uid: neo_bpsys_wpf.Models.MapV2.MapBorderBrush*
+  name: MapBorderBrush
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_MapBorderBrush_
+  commentId: Overload:neo_bpsys_wpf.Models.MapV2.MapBorderBrush
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.MapV2.MapBorderBrush
+  nameWithType: MapV2.MapBorderBrush
 - uid: neo_bpsys_wpf.Models.MapV2.MapName
   name: MapName
   href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_MapName
@@ -5541,6 +6022,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.MapV2.MapName
   nameWithType: MapV2.MapName
+- uid: neo_bpsys_wpf.Models.MapV2.OperationTeam
+  name: OperationTeam
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_OperationTeam
+  commentId: P:neo_bpsys_wpf.Models.MapV2.OperationTeam
+  fullName: neo_bpsys_wpf.Models.MapV2.OperationTeam
+  nameWithType: MapV2.OperationTeam
+- uid: neo_bpsys_wpf.Models.MapV2.OperationTeam*
+  name: OperationTeam
+  href: api/neo_bpsys_wpf.Models.MapV2.html#neo_bpsys_wpf_Models_MapV2_OperationTeam_
+  commentId: Overload:neo_bpsys_wpf.Models.MapV2.OperationTeam
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.MapV2.OperationTeam
+  nameWithType: MapV2.OperationTeam
 - uid: neo_bpsys_wpf.Models.Member
   name: Member
   href: api/neo_bpsys_wpf.Models.Member.html
@@ -6063,6 +6557,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.HunScoreBgImageUri
   nameWithType: ScoreWindowSettings.HunScoreBgImageUri
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  name: IsCampIconBlackVerEnabled
+  href: api/neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_IsCampIconBlackVerEnabled
+  commentId: P:neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  nameWithType: ScoreWindowSettings.IsCampIconBlackVerEnabled
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled*
+  name: IsCampIconBlackVerEnabled
+  href: api/neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_IsCampIconBlackVerEnabled_
+  commentId: Overload:neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  nameWithType: ScoreWindowSettings.IsCampIconBlackVerEnabled
 - uid: neo_bpsys_wpf.Models.ScoreWindowSettings.Resolution
   name: Resolution
   href: api/neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_Resolution
@@ -6804,6 +7311,45 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri
   nameWithType: WidgetsWindowSettings.BpOverviewBgUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  name: CurrentBanLockImageUri
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_CurrentBanLockImageUri
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  nameWithType: WidgetsWindowSettings.CurrentBanLockImageUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri*
+  name: CurrentBanLockImageUri
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_CurrentBanLockImageUri_
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri
+  nameWithType: WidgetsWindowSettings.CurrentBanLockImageUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  name: GlobalBanLockImageUri
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_GlobalBanLockImageUri
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  nameWithType: WidgetsWindowSettings.GlobalBanLockImageUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri*
+  name: GlobalBanLockImageUri
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_GlobalBanLockImageUri_
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri
+  nameWithType: WidgetsWindowSettings.GlobalBanLockImageUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  name: IsCampIconBlackVerEnabled
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_IsCampIconBlackVerEnabled
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  nameWithType: WidgetsWindowSettings.IsCampIconBlackVerEnabled
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled*
+  name: IsCampIconBlackVerEnabled
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_IsCampIconBlackVerEnabled_
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled
+  nameWithType: WidgetsWindowSettings.IsCampIconBlackVerEnabled
 - uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpBgUri
   name: MapBpBgUri
   href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpBgUri
@@ -6817,6 +7363,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpBgUri
   nameWithType: WidgetsWindowSettings.MapBpBgUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  name: MapBpV2BgUri
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2BgUri
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  nameWithType: WidgetsWindowSettings.MapBpV2BgUri
+- uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri*
+  name: MapBpV2BgUri
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2BgUri_
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri
+  nameWithType: WidgetsWindowSettings.MapBpV2BgUri
 - uid: neo_bpsys_wpf.Models.WidgetsWindowSettings.TextSettings
   name: TextSettings
   href: api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Models_WidgetsWindowSettings_TextSettings
@@ -6875,6 +7434,45 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.BpOverview_TeamName
   nameWithType: WidgetsWindowTextSettings.BpOverview_TeamName
+- uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_CampWords
+  name: MapBpV2_CampWords
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html#neo_bpsys_wpf_Models_WidgetsWindowTextSettings_MapBpV2_CampWords
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_CampWords
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_CampWords
+  nameWithType: WidgetsWindowTextSettings.MapBpV2_CampWords
+- uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_CampWords*
+  name: MapBpV2_CampWords
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html#neo_bpsys_wpf_Models_WidgetsWindowTextSettings_MapBpV2_CampWords_
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_CampWords
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_CampWords
+  nameWithType: WidgetsWindowTextSettings.MapBpV2_CampWords
+- uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_MapName
+  name: MapBpV2_MapName
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html#neo_bpsys_wpf_Models_WidgetsWindowTextSettings_MapBpV2_MapName
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_MapName
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_MapName
+  nameWithType: WidgetsWindowTextSettings.MapBpV2_MapName
+- uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_MapName*
+  name: MapBpV2_MapName
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html#neo_bpsys_wpf_Models_WidgetsWindowTextSettings_MapBpV2_MapName_
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_MapName
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_MapName
+  nameWithType: WidgetsWindowTextSettings.MapBpV2_MapName
+- uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_TeamName
+  name: MapBpV2_TeamName
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html#neo_bpsys_wpf_Models_WidgetsWindowTextSettings_MapBpV2_TeamName
+  commentId: P:neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_TeamName
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_TeamName
+  nameWithType: WidgetsWindowTextSettings.MapBpV2_TeamName
+- uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_TeamName*
+  name: MapBpV2_TeamName
+  href: api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html#neo_bpsys_wpf_Models_WidgetsWindowTextSettings_MapBpV2_TeamName_
+  commentId: Overload:neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_TeamName
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBpV2_TeamName
+  nameWithType: WidgetsWindowTextSettings.MapBpV2_TeamName
 - uid: neo_bpsys_wpf.Models.WidgetsWindowTextSettings.MapBp_BanWord
   name: MapBp_BanWord
   href: api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html#neo_bpsys_wpf_Models_WidgetsWindowTextSettings_MapBp_BanWord
@@ -7184,15 +7782,15 @@ references:
   commentId: T:neo_bpsys_wpf.Services.FrontService
   fullName: neo_bpsys_wpf.Services.FrontService
   nameWithType: FrontService
-- uid: neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
-  name: FrontService(BpWindow, CutSceneWindow, GameDataWindow, ScoreWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService__ctor_neo_bpsys_wpf_Views_Windows_BpWindow_neo_bpsys_wpf_Views_Windows_CutSceneWindow_neo_bpsys_wpf_Views_Windows_GameDataWindow_neo_bpsys_wpf_Views_Windows_ScoreWindow_neo_bpsys_wpf_Views_Windows_WidgetsWindow_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
-  name.vb: New(BpWindow, CutSceneWindow, GameDataWindow, ScoreWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
-  fullName: neo_bpsys_wpf.Services.FrontService.FrontService(neo_bpsys_wpf.Views.Windows.BpWindow, neo_bpsys_wpf.Views.Windows.CutSceneWindow, neo_bpsys_wpf.Views.Windows.GameDataWindow, neo_bpsys_wpf.Views.Windows.ScoreWindow, neo_bpsys_wpf.Views.Windows.WidgetsWindow, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
-  fullName.vb: neo_bpsys_wpf.Services.FrontService.New(neo_bpsys_wpf.Views.Windows.BpWindow, neo_bpsys_wpf.Views.Windows.CutSceneWindow, neo_bpsys_wpf.Views.Windows.GameDataWindow, neo_bpsys_wpf.Views.Windows.ScoreWindow, neo_bpsys_wpf.Views.Windows.WidgetsWindow, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
-  nameWithType: FrontService.FrontService(BpWindow, CutSceneWindow, GameDataWindow, ScoreWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
-  nameWithType.vb: FrontService.New(BpWindow, CutSceneWindow, GameDataWindow, ScoreWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
+- uid: neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreSurWindow,neo_bpsys_wpf.Views.Windows.ScoreHunWindow,neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name: FrontService(BpWindow, CutSceneWindow, GameDataWindow, ScoreSurWindow, ScoreHunWindow, ScoreGlobalWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
+  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService__ctor_neo_bpsys_wpf_Views_Windows_BpWindow_neo_bpsys_wpf_Views_Windows_CutSceneWindow_neo_bpsys_wpf_Views_Windows_GameDataWindow_neo_bpsys_wpf_Views_Windows_ScoreSurWindow_neo_bpsys_wpf_Views_Windows_ScoreHunWindow_neo_bpsys_wpf_Views_Windows_ScoreGlobalWindow_neo_bpsys_wpf_Views_Windows_WidgetsWindow_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.Services.FrontService.#ctor(neo_bpsys_wpf.Views.Windows.BpWindow,neo_bpsys_wpf.Views.Windows.CutSceneWindow,neo_bpsys_wpf.Views.Windows.GameDataWindow,neo_bpsys_wpf.Views.Windows.ScoreSurWindow,neo_bpsys_wpf.Views.Windows.ScoreHunWindow,neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow,neo_bpsys_wpf.Views.Windows.WidgetsWindow,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  name.vb: New(BpWindow, CutSceneWindow, GameDataWindow, ScoreSurWindow, ScoreHunWindow, ScoreGlobalWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.Services.FrontService.FrontService(neo_bpsys_wpf.Views.Windows.BpWindow, neo_bpsys_wpf.Views.Windows.CutSceneWindow, neo_bpsys_wpf.Views.Windows.GameDataWindow, neo_bpsys_wpf.Views.Windows.ScoreSurWindow, neo_bpsys_wpf.Views.Windows.ScoreHunWindow, neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow, neo_bpsys_wpf.Views.Windows.WidgetsWindow, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.Services.FrontService.New(neo_bpsys_wpf.Views.Windows.BpWindow, neo_bpsys_wpf.Views.Windows.CutSceneWindow, neo_bpsys_wpf.Views.Windows.GameDataWindow, neo_bpsys_wpf.Views.Windows.ScoreSurWindow, neo_bpsys_wpf.Views.Windows.ScoreHunWindow, neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow, neo_bpsys_wpf.Views.Windows.WidgetsWindow, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)
+  nameWithType: FrontService.FrontService(BpWindow, CutSceneWindow, GameDataWindow, ScoreSurWindow, ScoreHunWindow, ScoreGlobalWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
+  nameWithType.vb: FrontService.New(BpWindow, CutSceneWindow, GameDataWindow, ScoreSurWindow, ScoreHunWindow, ScoreGlobalWindow, WidgetsWindow, IMessageBoxService, ISharedDataService, ISettingsHostService)
 - uid: neo_bpsys_wpf.Services.FrontService.#ctor*
   name: FrontService
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService__ctor_
@@ -7229,32 +7827,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.FrontService.AllWindowShow
   nameWithType: FrontService.AllWindowShow
-- uid: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-  name: ApplyAllWindowsSettings()
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplyAllWindowsSettings
-  commentId: M:neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings()
-  nameWithType: FrontService.ApplyAllWindowsSettings()
-- uid: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings*
-  name: ApplyAllWindowsSettings
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplyAllWindowsSettings_
-  commentId: Overload:neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplyAllWindowsSettings
-  nameWithType: FrontService.ApplyAllWindowsSettings
-- uid: neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  name: ApplySettings(FrontWindowType)
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_
-  commentId: M:neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)
-  nameWithType: FrontService.ApplySettings(FrontWindowType)
-- uid: neo_bpsys_wpf.Services.FrontService.ApplySettings*
-  name: ApplySettings
-  href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_ApplySettings_
-  commentId: Overload:neo_bpsys_wpf.Services.FrontService.ApplySettings
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Services.FrontService.ApplySettings
-  nameWithType: FrontService.ApplySettings
 - uid: neo_bpsys_wpf.Services.FrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)
   name: BreathingStart(FrontWindowType, string, int, string)
   href: api/neo_bpsys_wpf.Services.FrontService.html#neo_bpsys_wpf_Services_FrontService_BreathingStart_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_
@@ -9017,71 +9589,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand
   nameWithType: FrontManagePageViewModel.HideAllWindowsCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-  name: HideBpWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideBpWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-  nameWithType: FrontManagePageViewModel.HideBpWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand*
-  name: HideBpWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideBpWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindowCommand
+  name: HideWindowCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindowCommand
+  nameWithType: FrontManagePageViewModel.HideWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindowCommand*
+  name: HideWindowCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWindowCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindowCommand
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand
-  nameWithType: FrontManagePageViewModel.HideBpWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
-  name: HideCutSceneWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideCutSceneWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
-  nameWithType: FrontManagePageViewModel.HideCutSceneWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand*
-  name: HideCutSceneWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideCutSceneWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand
-  nameWithType: FrontManagePageViewModel.HideCutSceneWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
-  name: HideGameDataWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideGameDataWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
-  nameWithType: FrontManagePageViewModel.HideGameDataWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand*
-  name: HideGameDataWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideGameDataWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand
-  nameWithType: FrontManagePageViewModel.HideGameDataWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-  name: HideScoreWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideScoreWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-  nameWithType: FrontManagePageViewModel.HideScoreWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand*
-  name: HideScoreWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideScoreWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand
-  nameWithType: FrontManagePageViewModel.HideScoreWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  name: HideWidgetsWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWidgetsWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  nameWithType: FrontManagePageViewModel.HideWidgetsWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand*
-  name: HideWidgetsWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWidgetsWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand
-  nameWithType: FrontManagePageViewModel.HideWidgetsWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindowCommand
+  nameWithType: FrontManagePageViewModel.HideWindowCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.IsDesignMode
   name: IsDesignMode
   href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_IsDesignMode
@@ -9134,19 +9654,45 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
   nameWithType: FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-  name: ResetScoreWindowElementsPositionCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreWindowElementsPositionCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-  nameWithType: FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand*
-  name: ResetScoreWindowElementsPositionCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreWindowElementsPositionCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand
+  name: ResetScoreGlobalWindowElementsPositionCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreGlobalWindowElementsPositionCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand*
+  name: ResetScoreGlobalWindowElementsPositionCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreGlobalWindowElementsPositionCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
-  nameWithType: FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand
+  name: ResetScoreHunWindowElementsPositionCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreHunWindowElementsPositionCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand*
+  name: ResetScoreHunWindowElementsPositionCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreHunWindowElementsPositionCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand
+  name: ResetScoreSurWindowElementsPositionCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreSurWindowElementsPositionCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand*
+  name: ResetScoreSurWindowElementsPositionCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreSurWindowElementsPositionCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand
+  nameWithType: FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand
   name: ResetWidgetsWindowElementsPositionCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetWidgetsWindowElementsPositionCommand
@@ -9173,71 +9719,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand
   nameWithType: FrontManagePageViewModel.ShowAllWindowsCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
-  name: ShowBpWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowBpWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowBpWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand*
-  name: ShowBpWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowBpWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindowCommand
+  name: ShowWindowCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWindowCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowWindowCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindowCommand*
+  name: ShowWindowCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWindowCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindowCommand
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowBpWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
-  name: ShowCutSceneWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowCutSceneWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowCutSceneWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand*
-  name: ShowCutSceneWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowCutSceneWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowCutSceneWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  name: ShowGameDataWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowGameDataWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowGameDataWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand*
-  name: ShowGameDataWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowGameDataWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowGameDataWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  name: ShowScoreWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowScoreWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowScoreWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand*
-  name: ShowScoreWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowScoreWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowScoreWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
-  name: ShowWidgetsWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWidgetsWindowCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowWidgetsWindowCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand*
-  name: ShowWidgetsWindowCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWidgetsWindowCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand
-  nameWithType: FrontManagePageViewModel.ShowWidgetsWindowCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindowCommand
+  nameWithType: FrontManagePageViewModel.ShowWindowCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel
   name: GameDataPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel.html
@@ -10060,6 +10554,12 @@ references:
   commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   nameWithType: PickPageViewModel.SurPickViewModel.Receive(MemberPropertyChangedMessage)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  name: Receive(NewGameMessage)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_NewGameMessage_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)
+  nameWithType: PickPageViewModel.SurPickViewModel.Receive(NewGameMessage)
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
   name: Receive(PlayerSwappedMessage)
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_PlayerSwappedMessage_
@@ -10799,6 +11299,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading
   nameWithType: SettingPageViewModel.IsDownloading
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable
+  name: IsMapBpV2CampIconBlackVerEnable
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsMapBpV2CampIconBlackVerEnable
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable
+  nameWithType: SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable*
+  name: IsMapBpV2CampIconBlackVerEnable
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsMapBpV2CampIconBlackVerEnable_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable
+  nameWithType: SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable
+  name: IsScoreGlobalCampIconBlackVerEnable
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsScoreGlobalCampIconBlackVerEnable
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable
+  nameWithType: SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable*
+  name: IsScoreGlobalCampIconBlackVerEnable
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsScoreGlobalCampIconBlackVerEnable_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable
+  nameWithType: SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable
   name: IsTalentAndTraitBlackVerEnable
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsTalentAndTraitBlackVerEnable
@@ -11600,6 +12126,19 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.New
   nameWithType: BpWindowViewModel.BpWindowViewModel
   nameWithType.vb: BpWindowViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  name: BgImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_BgImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  nameWithType: BpWindowViewModel.BgImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage*
+  name: BgImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_BgImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.BgImage
+  nameWithType: BpWindowViewModel.BgImage
 - uid: neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.CanCurrentHunBanned
   name: CanCurrentHunBanned
   href: api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_BpWindowViewModel_CanCurrentHunBanned
@@ -11833,6 +12372,19 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.New
   nameWithType: CutSceneWindowViewModel.CutSceneWindowViewModel
   nameWithType.vb: CutSceneWindowViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  name: BgImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_BgImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  nameWithType: CutSceneWindowViewModel.BgImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage*
+  name: BgImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_BgImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BgImage
+  nameWithType: CutSceneWindowViewModel.BgImage
 - uid: neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.BorrowedTimeImageSource
   name: BorrowedTimeImageSource
   href: api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel_BorrowedTimeImageSource
@@ -12070,6 +12622,19 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.New
   nameWithType: GameDataWindowViewModel.GameDataWindowViewModel
   nameWithType.vb: GameDataWindowViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.BgImage
+  name: BgImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_BgImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.BgImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.BgImage
+  nameWithType: GameDataWindowViewModel.BgImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.BgImage*
+  name: BgImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_BgImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.BgImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.BgImage
+  nameWithType: GameDataWindowViewModel.BgImage
 - uid: neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.CurrentGame
   name: CurrentGame
   href: api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_GameDataWindowViewModel_CurrentGame
@@ -12989,6 +13554,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.CurrentGame
   nameWithType: ScoreWindowViewModel.CurrentGame
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  name: IsBo3Mode
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_IsBo3Mode
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  nameWithType: ScoreWindowViewModel.IsBo3Mode
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode*
+  name: IsBo3Mode
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_IsBo3Mode_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsBo3Mode
+  nameWithType: ScoreWindowViewModel.IsBo3Mode
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.IsDesignMode
   name: IsDesignMode
   href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_IsDesignMode
@@ -13015,6 +13593,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.MainTeam
   nameWithType: ScoreWindowViewModel.MainTeam
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
+  name: Receive(PropertyChangedMessage<bool>)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_PropertyChangedMessage_System_Boolean__
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
+  name.vb: Receive(PropertyChangedMessage(Of Boolean))
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage<bool>)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage(Of Boolean))
+  nameWithType: ScoreWindowViewModel.Receive(PropertyChangedMessage<bool>)
+  nameWithType.vb: ScoreWindowViewModel.Receive(PropertyChangedMessage(Of Boolean))
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Int32})
   name: Receive(PropertyChangedMessage<int>)
   href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_PropertyChangedMessage_System_Int32__
@@ -13049,6 +13636,45 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive
   nameWithType: ScoreWindowViewModel.Receive
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  name: ScoreGlobalImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreGlobalImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  nameWithType: ScoreWindowViewModel.ScoreGlobalImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage*
+  name: ScoreGlobalImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreGlobalImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  nameWithType: ScoreWindowViewModel.ScoreGlobalImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  name: ScoreHunImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreHunImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  nameWithType: ScoreWindowViewModel.ScoreHunImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage*
+  name: ScoreHunImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreHunImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreHunImage
+  nameWithType: ScoreWindowViewModel.ScoreHunImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  name: ScoreSurImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreSurImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  nameWithType: ScoreWindowViewModel.ScoreSurImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage*
+  name: ScoreSurImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreSurImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreSurImage
+  nameWithType: ScoreWindowViewModel.ScoreSurImage
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
   name: Settings
   href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Settings
@@ -13122,6 +13748,19 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.New
   nameWithType: WidgetsWindowViewModel.WidgetsWindowViewModel
   nameWithType.vb: WidgetsWindowViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.BpOverViewBgImage
+  name: BpOverViewBgImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_BpOverViewBgImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.BpOverViewBgImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.BpOverViewBgImage
+  nameWithType: WidgetsWindowViewModel.BpOverViewBgImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.BpOverViewBgImage*
+  name: BpOverViewBgImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_BpOverViewBgImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.BpOverViewBgImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.BpOverViewBgImage
+  nameWithType: WidgetsWindowViewModel.BpOverViewBgImage
 - uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanCurrentHunBanned
   name: CanCurrentHunBanned
   href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanCurrentHunBanned
@@ -13239,6 +13878,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsDesignMode
   nameWithType: WidgetsWindowViewModel.IsDesignMode
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpImage
+  name: MapBpImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_MapBpImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpImage
+  nameWithType: WidgetsWindowViewModel.MapBpImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpImage*
+  name: MapBpImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_MapBpImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpImage
+  nameWithType: WidgetsWindowViewModel.MapBpImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpV2Image
+  name: MapBpV2Image
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_MapBpV2Image
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpV2Image
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpV2Image
+  nameWithType: WidgetsWindowViewModel.MapBpV2Image
+- uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpV2Image*
+  name: MapBpV2Image
+  href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_MapBpV2Image_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpV2Image
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.MapBpV2Image
+  nameWithType: WidgetsWindowViewModel.MapBpV2Image
 - uid: neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
   name: Receive(PropertyChangedMessage<bool>)
   href: api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_PropertyChangedMessage_System_Boolean__
@@ -14125,6 +14790,108 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Views.Windows.MapBpWindow.InitializeComponent
   nameWithType: MapBpWindow.InitializeComponent
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+  name: ScoreGlobalWindow
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+  nameWithType: ScoreGlobalWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.#ctor
+  name: ScoreGlobalWindow()
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html#neo_bpsys_wpf_Views_Windows_ScoreGlobalWindow__ctor
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.ScoreGlobalWindow()
+  fullName.vb: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.New()
+  nameWithType: ScoreGlobalWindow.ScoreGlobalWindow()
+  nameWithType.vb: ScoreGlobalWindow.New()
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.#ctor*
+  name: ScoreGlobalWindow
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html#neo_bpsys_wpf_Views_Windows_ScoreGlobalWindow__ctor_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.ScoreGlobalWindow
+  fullName.vb: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.New
+  nameWithType: ScoreGlobalWindow.ScoreGlobalWindow
+  nameWithType.vb: ScoreGlobalWindow.New
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html#neo_bpsys_wpf_Views_Windows_ScoreGlobalWindow_InitializeComponent
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.InitializeComponent
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.InitializeComponent()
+  nameWithType: ScoreGlobalWindow.InitializeComponent()
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html#neo_bpsys_wpf_Views_Windows_ScoreGlobalWindow_InitializeComponent_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.InitializeComponent
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.InitializeComponent
+  nameWithType: ScoreGlobalWindow.InitializeComponent
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  name: OnClosing(CancelEventArgs)
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html#neo_bpsys_wpf_Views_Windows_ScoreGlobalWindow_OnClosing_System_ComponentModel_CancelEventArgs_
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  nameWithType: ScoreGlobalWindow.OnClosing(CancelEventArgs)
+- uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.OnClosing*
+  name: OnClosing
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html#neo_bpsys_wpf_Views_Windows_ScoreGlobalWindow_OnClosing_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.OnClosing
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.OnClosing
+  nameWithType: ScoreGlobalWindow.OnClosing
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+  name: ScoreHunWindow
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+  nameWithType: ScoreHunWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.#ctor
+  name: ScoreHunWindow()
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html#neo_bpsys_wpf_Views_Windows_ScoreHunWindow__ctor
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreHunWindow.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.ScoreHunWindow()
+  fullName.vb: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.New()
+  nameWithType: ScoreHunWindow.ScoreHunWindow()
+  nameWithType.vb: ScoreHunWindow.New()
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.#ctor*
+  name: ScoreHunWindow
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html#neo_bpsys_wpf_Views_Windows_ScoreHunWindow__ctor_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreHunWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.ScoreHunWindow
+  fullName.vb: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.New
+  nameWithType: ScoreHunWindow.ScoreHunWindow
+  nameWithType.vb: ScoreHunWindow.New
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html#neo_bpsys_wpf_Views_Windows_ScoreHunWindow_InitializeComponent
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreHunWindow.InitializeComponent
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.InitializeComponent()
+  nameWithType: ScoreHunWindow.InitializeComponent()
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html#neo_bpsys_wpf_Views_Windows_ScoreHunWindow_InitializeComponent_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreHunWindow.InitializeComponent
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.InitializeComponent
+  nameWithType: ScoreHunWindow.InitializeComponent
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  name: OnClosing(CancelEventArgs)
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html#neo_bpsys_wpf_Views_Windows_ScoreHunWindow_OnClosing_System_ComponentModel_CancelEventArgs_
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreHunWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  nameWithType: ScoreHunWindow.OnClosing(CancelEventArgs)
+- uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.OnClosing*
+  name: OnClosing
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html#neo_bpsys_wpf_Views_Windows_ScoreHunWindow_OnClosing_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreHunWindow.OnClosing
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreHunWindow.OnClosing
+  nameWithType: ScoreHunWindow.OnClosing
 - uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
   name: ScoreManualWindow
   href: api/neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html
@@ -14163,6 +14930,57 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Views.Windows.ScoreManualWindow.InitializeComponent
   nameWithType: ScoreManualWindow.InitializeComponent
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow
+  name: ScoreSurWindow
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html
+  commentId: T:neo_bpsys_wpf.Views.Windows.ScoreSurWindow
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow
+  nameWithType: ScoreSurWindow
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.#ctor
+  name: ScoreSurWindow()
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html#neo_bpsys_wpf_Views_Windows_ScoreSurWindow__ctor
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreSurWindow.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.ScoreSurWindow()
+  fullName.vb: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.New()
+  nameWithType: ScoreSurWindow.ScoreSurWindow()
+  nameWithType.vb: ScoreSurWindow.New()
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.#ctor*
+  name: ScoreSurWindow
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html#neo_bpsys_wpf_Views_Windows_ScoreSurWindow__ctor_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreSurWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.ScoreSurWindow
+  fullName.vb: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.New
+  nameWithType: ScoreSurWindow.ScoreSurWindow
+  nameWithType.vb: ScoreSurWindow.New
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html#neo_bpsys_wpf_Views_Windows_ScoreSurWindow_InitializeComponent
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreSurWindow.InitializeComponent
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.InitializeComponent()
+  nameWithType: ScoreSurWindow.InitializeComponent()
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html#neo_bpsys_wpf_Views_Windows_ScoreSurWindow_InitializeComponent_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreSurWindow.InitializeComponent
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.InitializeComponent
+  nameWithType: ScoreSurWindow.InitializeComponent
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  name: OnClosing(CancelEventArgs)
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html#neo_bpsys_wpf_Views_Windows_ScoreSurWindow_OnClosing_System_ComponentModel_CancelEventArgs_
+  commentId: M:neo_bpsys_wpf.Views.Windows.ScoreSurWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.OnClosing(System.ComponentModel.CancelEventArgs)
+  nameWithType: ScoreSurWindow.OnClosing(CancelEventArgs)
+- uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.OnClosing*
+  name: OnClosing
+  href: api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html#neo_bpsys_wpf_Views_Windows_ScoreSurWindow_OnClosing_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.ScoreSurWindow.OnClosing
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.ScoreSurWindow.OnClosing
+  nameWithType: ScoreSurWindow.OnClosing
 - uid: neo_bpsys_wpf.Views.Windows.ScoreWindow
   name: ScoreWindow
   href: api/neo_bpsys_wpf.Views.Windows.ScoreWindow.html

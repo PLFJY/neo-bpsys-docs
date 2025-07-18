@@ -80,6 +80,9 @@ items:
   - uid: neo_bpsys_wpf.Controls.GlobalScorePresenter
     name: GlobalScorePresenter
     type: Class
+  - uid: neo_bpsys_wpf.Controls.MapV2Presenter
+    name: MapV2Presenter
+    type: Class
   - uid: neo_bpsys_wpf.Controls.TalentPicker
     name: TalentPicker
     type: Class
@@ -111,6 +114,12 @@ items:
   - uid: neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter
     name: BooleanToReverseVisibilityConverter
     type: Class
+  - uid: neo_bpsys_wpf.Converters.CampHunToVisibilityConverter
+    name: CampHunToVisibilityConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.CampSurToVisibilityConverter
+    name: CampSurToVisibilityConverter
+    type: Class
   - uid: neo_bpsys_wpf.Converters.CampToStringConverter
     name: CampToStringConverter
     type: Class
@@ -134,6 +143,12 @@ items:
     type: Class
   - uid: neo_bpsys_wpf.Converters.InverseBooleanConverter
     name: InverseBooleanConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter
+    name: NullObjectToReverseVisibilityConverter
+    type: Class
+  - uid: neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter
+    name: NullObjectToVisibilityConverter
     type: Class
   - uid: neo_bpsys_wpf.Converters.ObjectToBooleanConverter
     name: ObjectToBooleanConverter
@@ -515,11 +530,17 @@ items:
   - uid: neo_bpsys_wpf.Views.Windows.MainWindow
     name: MainWindow
     type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow
+    name: ScoreGlobalWindow
+    type: Class
+  - uid: neo_bpsys_wpf.Views.Windows.ScoreHunWindow
+    name: ScoreHunWindow
+    type: Class
   - uid: neo_bpsys_wpf.Views.Windows.ScoreManualWindow
     name: ScoreManualWindow
     type: Class
-  - uid: neo_bpsys_wpf.Views.Windows.ScoreWindow
-    name: ScoreWindow
+  - uid: neo_bpsys_wpf.Views.Windows.ScoreSurWindow
+    name: ScoreSurWindow
     type: Class
   - uid: neo_bpsys_wpf.Views.Windows.WidgetsWindow
     name: WidgetsWindow

@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalScorePresenter
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
@@ -56,7 +56,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Text
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TextProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHunIcon
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsHunIconProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsCampVisible
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
@@ -197,7 +197,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Controls/GlobalScorePresenter.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: IsCampVisibleProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Controls/GlobalScorePresenter.cs

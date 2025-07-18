@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GameProperty
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -47,7 +47,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurCurrentBan
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunCurrentBan
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -105,7 +105,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurGlobalBan
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunGlobalBan
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs
@@ -163,7 +163,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Services/GameGuidanceService.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: WorkFlow
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Services/GameGuidanceService.cs

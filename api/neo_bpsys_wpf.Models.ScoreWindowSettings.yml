@@ -9,6 +9,7 @@ items:
   - neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
   - neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   - neo_bpsys_wpf.Models.ScoreWindowSettings.HunScoreBgImageUri
+  - neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
   - neo_bpsys_wpf.Models.ScoreWindowSettings.Resolution
   - neo_bpsys_wpf.Models.ScoreWindowSettings.SurScoreBgImageUri
   - neo_bpsys_wpf.Models.ScoreWindowSettings.TextSettings
@@ -22,7 +23,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: ScoreWindowSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -51,7 +52,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: Resolution
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -80,7 +81,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: SurScoreBgImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -109,7 +110,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: HunScoreBgImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -138,7 +139,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalScoreBgImageUri
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -167,7 +168,7 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalScoreBgImageUriBo3
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
@@ -182,6 +183,35 @@ items:
       type: System.String
     content.vb: Public Property GlobalScoreBgImageUriBo3 As String
   overload: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3*
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  commentId: P:neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  id: IsCampIconBlackVerEnabled
+  parent: neo_bpsys_wpf.Models.ScoreWindowSettings
+  langs:
+  - csharp
+  - vb
+  name: IsCampIconBlackVerEnabled
+  nameWithType: ScoreWindowSettings.IsCampIconBlackVerEnabled
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  type: Property
+  source:
+    remote:
+      path: neo-bpsys-wpf/Models/Settings.cs
+      branch: dev-feat/MapBpV2
+      repo: https://github.com/plfjy/neo-bpsys-wpf.git
+    id: IsCampIconBlackVerEnabled
+    path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
+    startLine: 164
+  assemblies:
+  - neo-bpsys-wpf
+  namespace: neo_bpsys_wpf.Models
+  syntax:
+    content: public bool IsCampIconBlackVerEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsCampIconBlackVerEnabled As Boolean
+  overload: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled*
 - uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   commentId: P:neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   id: GlobalScoreTotalMargin
@@ -196,11 +226,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: GlobalScoreTotalMargin
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 164
+    startLine: 165
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -225,11 +255,11 @@ items:
   source:
     remote:
       path: neo-bpsys-wpf/Models/Settings.cs
-      branch: dev-feat/multiBanMap
+      branch: dev-feat/MapBpV2
       repo: https://github.com/plfjy/neo-bpsys-wpf.git
     id: TextSettings
     path: ../neo-bpsys-wpf/neo-bpsys-wpf/Models/Settings.cs
-    startLine: 165
+    startLine: 166
   assemblies:
   - neo-bpsys-wpf
   namespace: neo_bpsys_wpf.Models
@@ -328,6 +358,23 @@ references:
   name: GlobalScoreBgImageUriBo3
   nameWithType: ScoreWindowSettings.GlobalScoreBgImageUriBo3
   fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreBgImageUriBo3
+- uid: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled*
+  commentId: Overload:neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+  href: neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_IsCampIconBlackVerEnabled
+  name: IsCampIconBlackVerEnabled
+  nameWithType: ScoreWindowSettings.IsCampIconBlackVerEnabled
+  fullName: neo_bpsys_wpf.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin*
   commentId: Overload:neo_bpsys_wpf.Models.ScoreWindowSettings.GlobalScoreTotalMargin
   href: neo_bpsys_wpf.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Models_ScoreWindowSettings_GlobalScoreTotalMargin
