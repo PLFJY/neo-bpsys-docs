@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WidgetsWindowViewModel | neo-bpsys Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WidgetsWindowViewModel | neo-bpsys Docs ">
+      
+      <meta name="description" content="A base class for observable objects that also acts as recipients for messages. This class is an extension of  which also provides built-in support to use the  type.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/favicon.ico" alt="neo-bpsys-wpf">
+            neo-bpsys-wpf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel">
+
+
+
+  <h1 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel" class="text-break">
+Class WidgetsWindowViewModel  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="neo_bpsys_wpf.html">neo_bpsys_wpf</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.html">ViewModels</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Windows.html">Windows</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A base class for observable objects that also acts as recipients for messages. This class is an extension of
+<span class="xref">CommunityToolkit.Mvvm.ComponentModel.ObservableObject</span> which also provides built-in support to use the <span class="xref">CommunityToolkit.Mvvm.Messaging.IMessenger</span> type.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class WidgetsWindowViewModel : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableRecipient</span></div>
+      <div><span class="xref">WidgetsWindowViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor">
+  WidgetsWindowViewModel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WidgetsWindowViewModel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)">
+  WidgetsWindowViewModel(ISharedDataService, ISettingsHostService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WidgetsWindowViewModel(ISharedDataService sharedDataService, ISettingsHostService settingsHostService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
+    <dd></dd>
+    <dt><code>settingsHostService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html">ISettingsHostService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanCurrentHunBanned_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanCurrentHunBanned*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanCurrentHunBanned" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanCurrentHunBanned">
+  CanCurrentHunBanned
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanCurrentHunBanned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanCurrentSurBanned_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanCurrentSurBanned*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanCurrentSurBanned" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanCurrentSurBanned">
+  CanCurrentSurBanned
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanCurrentSurBanned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanGlobalHunBanned_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanGlobalHunBanned*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanGlobalHunBanned" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanGlobalHunBanned">
+  CanGlobalHunBanned
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanGlobalHunBanned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanGlobalSurBanned_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanGlobalSurBanned*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CanGlobalSurBanned" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CanGlobalSurBanned">
+  CanGlobalSurBanned
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanGlobalSurBanned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CurrentBanLockImage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CurrentBanLockImage*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CurrentBanLockImage" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CurrentBanLockImage">
+  CurrentBanLockImage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImageSource? CurrentBanLockImage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ImageSource</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CurrentGame_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CurrentGame*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_CurrentGame" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.CurrentGame">
+  CurrentGame
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Game CurrentGame { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_GlobalBanLockImage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.GlobalBanLockImage*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_GlobalBanLockImage" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.GlobalBanLockImage">
+  GlobalBanLockImage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImageSource? GlobalBanLockImage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ImageSource</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_IsBo3Mode_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsBo3Mode*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_IsBo3Mode" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsBo3Mode">
+  IsBo3Mode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBo3Mode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_IsDesignMode_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsDesignMode*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_IsDesignMode" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.IsDesignMode">
+  IsDesignMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDesignMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Settings_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Settings" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Settings">
+  Settings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WidgetsWindowSettings Settings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.WidgetsWindowSettings.html">WidgetsWindowSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_PropertyChangedMessage_System_Boolean__" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})">
+  Receive(PropertyChangedMessage&lt;bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">PropertyChangedMessage&lt;bool&gt;</a> message instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Receive(PropertyChangedMessage&lt;bool&gt; message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <span class="xref">PropertyChangedMessage</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The message being received.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_neo_bpsys_wpf_Messages_DesignModeChangedMessage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.DesignModeChangedMessage)">
+  Receive(DesignModeChangedMessage)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.DesignModeChangedMessage.html">DesignModeChangedMessage</a> message instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Receive(DesignModeChangedMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Messages.DesignModeChangedMessage.html">DesignModeChangedMessage</a></dt>
+    <dd><p>The message being received.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_neo_bpsys_wpf_Messages_NewGameMessage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)">
+  Receive(NewGameMessage)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.NewGameMessage.html">NewGameMessage</a> message instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Receive(NewGameMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Messages.NewGameMessage.html">NewGameMessage</a></dt>
+    <dd><p>The message being received.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Windows_WidgetsWindowViewModel_Receive_neo_bpsys_wpf_Messages_SettingsChangedMessage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.Receive(neo_bpsys_wpf.Messages.SettingsChangedMessage)">
+  Receive(SettingsChangedMessage)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/WidgetsWindowViewModel.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.SettingsChangedMessage.html">SettingsChangedMessage</a> message instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Receive(SettingsChangedMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Messages.SettingsChangedMessage.html">SettingsChangedMessage</a></dt>
+    <dd><p>The message being received.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

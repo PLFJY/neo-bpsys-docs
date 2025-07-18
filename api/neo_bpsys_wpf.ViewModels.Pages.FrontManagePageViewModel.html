@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FrontManagePageViewModel | neo-bpsys Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FrontManagePageViewModel | neo-bpsys Docs ">
+      
+      <meta name="description" content="A base class for objects of which the properties must be observable.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/favicon.ico" alt="neo-bpsys-wpf">
+            neo-bpsys-wpf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel">
+
+
+
+  <h1 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel" class="text-break">
+Class FrontManagePageViewModel  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="neo_bpsys_wpf.html">neo_bpsys_wpf</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.html">ViewModels</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.html">Pages</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A base class for objects of which the properties must be observable.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FrontManagePageViewModel : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">FrontManagePageViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.#ctor*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.#ctor">
+  FrontManagePageViewModel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/FrontManagePageViewModel.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrontManagePageViewModel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.#ctor*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IFrontService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService)">
+  FrontManagePageViewModel(IFrontService, IMessageBoxService, ISharedDataService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/FrontManagePageViewModel.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrontManagePageViewModel(IFrontService frontService, IMessageBoxService messageBoxService, ISharedDataService sharedDataService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frontService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IFrontService.html">IFrontService</a></dt>
+    <dd></dd>
+    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
+    <dd></dd>
+    <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideAllWindowsCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideAllWindowsCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand">
+  HideAllWindowsCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HideAllWindowsCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideBpWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideBpWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindowCommand">
+  HideBpWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideBpWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HideBpWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideCutSceneWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideCutSceneWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindowCommand">
+  HideCutSceneWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideCutSceneWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HideCutSceneWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideGameDataWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideGameDataWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindowCommand">
+  HideGameDataWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideGameDataWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HideGameDataWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideScoreWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideScoreWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindowCommand">
+  HideScoreWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideScoreWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HideScoreWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWidgetsWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWidgetsWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindowCommand">
+  HideWidgetsWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWidgetsWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HideWidgetsWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_IsDesignMode_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.IsDesignMode*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_IsDesignMode" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.IsDesignMode">
+  IsDesignMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/FrontManagePageViewModel.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDesignMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetBpWindowElementsPositionCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPositionCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetBpWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPositionCommand">
+  ResetBpWindowElementsPositionCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPosition()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ResetBpWindowElementsPositionCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetCutSceneWindowElementsPositionCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetCutSceneWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand">
+  ResetCutSceneWindowElementsPositionCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ResetCutSceneWindowElementsPositionCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetGameDataWindowElementsPositionCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetGameDataWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand">
+  ResetGameDataWindowElementsPositionCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ResetGameDataWindowElementsPositionCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreWindowElementsPositionCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreWindowElementsPositionCommand">
+  ResetScoreWindowElementsPositionCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ResetScoreWindowElementsPosition(string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;string&gt; ResetScoreWindowElementsPositionCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetWidgetsWindowElementsPositionCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetWidgetsWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand">
+  ResetWidgetsWindowElementsPositionCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ResetWidgetsWindowElementsPosition(string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;string&gt; ResetWidgetsWindowElementsPositionCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowAllWindowsCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowAllWindowsCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand">
+  ShowAllWindowsCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ShowAllWindowsCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowBpWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowBpWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindowCommand">
+  ShowBpWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowBpWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ShowBpWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowCutSceneWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowCutSceneWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindowCommand">
+  ShowCutSceneWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowCutSceneWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ShowCutSceneWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowGameDataWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowGameDataWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindowCommand">
+  ShowGameDataWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowGameDataWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ShowGameDataWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowScoreWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowScoreWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindowCommand">
+  ShowScoreWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowScoreWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ShowScoreWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWidgetsWindowCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWidgetsWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindowCommand">
+  ShowWidgetsWindowCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWidgetsWindow()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ShowWidgetsWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

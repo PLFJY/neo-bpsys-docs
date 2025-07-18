@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IFrontService | neo-bpsys Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IFrontService | neo-bpsys Docs ">
+      
+      <meta name="description" content="前台窗口接口服务">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-wpf/new/master/apiSpec/new?filename=neo_bpsys_wpf_Abstractions_Services_IFrontService.md&amp;value=---%0Auid%3A%20neo_bpsys_wpf.Abstractions.Services.IFrontService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/favicon.ico" alt="neo-bpsys-wpf">
+            neo-bpsys-wpf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService">
+
+
+
+  <h1 id="neo_bpsys_wpf_Abstractions_Services_IFrontService" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService" class="text-break">
+Interface IFrontService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="neo_bpsys_wpf.html">neo_bpsys_wpf</a>.<a class="xref" href="neo_bpsys_wpf.Abstractions.html">Abstractions</a>.<a class="xref" href="neo_bpsys_wpf.Abstractions.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>前台窗口接口服务</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFrontService</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowHide_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowHide" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowHide">
+  AllWindowHide()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>隐藏全部窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AllWindowHide()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowShow_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_AllWindowShow" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.AllWindowShow">
+  AllWindowShow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示全部窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AllWindowShow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplyAllWindowsSettings" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplyAllWindowsSettings">
+  ApplyAllWindowsSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>应用全部窗口设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ApplyAllWindowsSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ApplySettings_neo_bpsys_wpf_Enums_FrontWindowType_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ApplySettings(neo_bpsys_wpf.Enums.FrontWindowType)">
+  ApplySettings(FrontWindowType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>应用窗口设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ApplySettings(FrontWindowType windowType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStart_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStart(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)">
+  BreathingStart(FrontWindowType, string, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>呼吸灯启动</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BreathingStart(FrontWindowType windowType, string controlNameHeader, int controlIndex, string controlNameFooter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+    <dt><code>controlNameHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称头</p>
+</dd>
+    <dt><code>controlIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>控件索引(-1表示没有)</p>
+</dd>
+    <dt><code>controlNameFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称尾</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStop_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_BreathingStop_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.BreathingStop(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)">
+  BreathingStop(FrontWindowType, string, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>呼吸灯停止</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BreathingStop(FrontWindowType windowType, string controlNameHeader, int controlIndex, string controlNameFooter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+    <dt><code>controlNameHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称头</p>
+</dd>
+    <dt><code>controlIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>控件索引(-1表示没有)</p>
+</dd>
+    <dt><code>controlNameFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称尾</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeInAnimation_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeInAnimation_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeInAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)">
+  FadeInAnimation(FrontWindowType, string, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>渐显动画</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void FadeInAnimation(FrontWindowType windowType, string controlNameHeader, int controlIndex, string controlNameFooter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+    <dt><code>controlNameHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称头</p>
+</dd>
+    <dt><code>controlIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>控件索引(-1表示没有)</p>
+</dd>
+    <dt><code>controlNameFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称尾</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeOutAnimation_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_FadeOutAnimation_neo_bpsys_wpf_Enums_FrontWindowType_System_String_System_Int32_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.FadeOutAnimation(neo_bpsys_wpf.Enums.FrontWindowType,System.String,System.Int32,System.String)">
+  FadeOutAnimation(FrontWindowType, string, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>渐隐动画</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void FadeOutAnimation(FrontWindowType windowType, string controlNameHeader, int controlIndex, string controlNameFooter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+    <dt><code>controlNameHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称头</p>
+</dd>
+    <dt><code>controlIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>控件索引(-1表示没有)</p>
+</dd>
+    <dt><code>controlNameFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称尾</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_HideWindow_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_HideWindow_neo_bpsys_wpf_Enums_FrontWindowType_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.HideWindow(neo_bpsys_wpf.Enums.FrontWindowType)">
+  HideWindow(FrontWindowType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>隐藏窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HideWindow(FrontWindowType windowType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ResetGlobalScore_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ResetGlobalScore" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ResetGlobalScore">
+  ResetGlobalScore()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重置全局分数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetGlobalScore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_RestoreInitialPositions_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_RestoreInitialPositions_neo_bpsys_wpf_Enums_FrontWindowType_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.RestoreInitialPositions(neo_bpsys_wpf.Enums.FrontWindowType,System.String)">
+  RestoreInitialPositions(FrontWindowType, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>恢复初始位置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RestoreInitialPositions(FrontWindowType windowType, string canvasName = &quot;BaseCanvas&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+    <dt><code>canvasName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveAllWindowElementsPosition_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveAllWindowElementsPosition" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveAllWindowElementsPosition">
+  SaveAllWindowElementsPosition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存所有窗口元素位置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SaveAllWindowElementsPosition()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveWindowElementsPosition_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SaveWindowElementsPosition_neo_bpsys_wpf_Enums_FrontWindowType_System_String_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SaveWindowElementsPosition(neo_bpsys_wpf.Enums.FrontWindowType,System.String)">
+  SaveWindowElementsPosition(FrontWindowType, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存窗口元素位置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SaveWindowElementsPosition(FrontWindowType windowType, string canvasName = &quot;BaseCanvas&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+    <dt><code>canvasName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>画布名称</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScore_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScore_neo_bpsys_wpf_Enums_TeamType_neo_bpsys_wpf_Enums_GameProgress_neo_bpsys_wpf_Enums_Camp_System_Int32_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScore(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress,neo_bpsys_wpf.Enums.Camp,System.Int32)">
+  SetGlobalScore(TeamType, GameProgress, Camp, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置全局分数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetGlobalScore(TeamType team, GameProgress gameProgress, Camp camp, int score)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>team</code> <a class="xref" href="neo_bpsys_wpf.Enums.TeamType.html">TeamType</a></dt>
+    <dd><p>队伍</p>
+</dd>
+    <dt><code>gameProgress</code> <a class="xref" href="neo_bpsys_wpf.Enums.GameProgress.html">GameProgress</a></dt>
+    <dd><p>游戏进度</p>
+</dd>
+    <dt><code>camp</code> <a class="xref" href="neo_bpsys_wpf.Enums.Camp.html">Camp</a></dt>
+    <dd><p>阵营</p>
+</dd>
+    <dt><code>score</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>分数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScoreToBar_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_SetGlobalScoreToBar_neo_bpsys_wpf_Enums_TeamType_neo_bpsys_wpf_Enums_GameProgress_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.SetGlobalScoreToBar(neo_bpsys_wpf.Enums.TeamType,neo_bpsys_wpf.Enums.GameProgress)">
+  SetGlobalScoreToBar(TeamType, GameProgress)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置全局分数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetGlobalScoreToBar(TeamType team, GameProgress gameProgress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>team</code> <a class="xref" href="neo_bpsys_wpf.Enums.TeamType.html">TeamType</a></dt>
+    <dd><p>队伍</p>
+</dd>
+    <dt><code>gameProgress</code> <a class="xref" href="neo_bpsys_wpf.Enums.GameProgress.html">GameProgress</a></dt>
+    <dd><p>对局进度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ShowWindow_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow*"></a>
+
+  <h3 id="neo_bpsys_wpf_Abstractions_Services_IFrontService_ShowWindow_neo_bpsys_wpf_Enums_FrontWindowType_" data-uid="neo_bpsys_wpf.Abstractions.Services.IFrontService.ShowWindow(neo_bpsys_wpf.Enums.FrontWindowType)">
+  ShowWindow(FrontWindowType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShowWindow(FrontWindowType windowType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Abstractions/Services/IFrontService.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
