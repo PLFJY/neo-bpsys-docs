@@ -14,12 +14,6 @@ jobs:
               with:
                 fetch-depth: 1
 
-            - name: Setup Git
-              shell: pwsh
-              run: |
-                git config --global user.name "gitHub-actions"
-                git config --global user.email "action@github.com"
-                    
             - name: clone neo-bpsys-wpf
               shell: pwsh
               run: |
@@ -46,6 +40,11 @@ jobs:
               run: |
                 cd ${{ github.workspace }}
                 docfx docfx.json
+
+            - name: Setup Git
+              shell: pwsh
+              run: |
+                git config --global core.autocrlf true
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v4
