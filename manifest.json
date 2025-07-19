@@ -64,20 +64,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Abstractions.Services.IIgnoreFocusLossService",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IInfoBarService.yml",
       "output": {
         ".html": {
@@ -327,20 +313,6 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Controls.CustomTitleBar",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.CustomTitleBar.yml\" sourcestartlinenumber=\"1\">CustomTitleBar.xaml 的交互逻辑</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Controls.DeferredContentHost.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Controls.DeferredContentHost.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Controls.DeferredContentHost",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -848,20 +820,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Helpers.AdminHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Helpers.AdminHelper.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Helpers.AdminHelper",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Helpers.ColorHelper.yml",
       "output": {
         ".html": {
@@ -984,20 +942,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Messages.MemberPropertyChangedMessage",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Messages.MemberStateChangedMessage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Messages.MemberStateChangedMessage.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Messages.MemberStateChangedMessage",
       "Summary": null
     },
     {
@@ -1142,20 +1086,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Models.FrontResolution.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Models.FrontResolution.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Models.FrontResolution",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Models.Game.yml",
       "output": {
         ".html": {
@@ -1195,20 +1125,6 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Models.GameDataWindowTextSettings",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.GameDataWindowTextSettings.yml\" sourcestartlinenumber=\"1\">赛后数据窗口文本设置</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Models.MapV2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Models.MapV2.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Models.MapV2",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.MapV2.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1422,20 +1338,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.NativeMethods.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.NativeMethods.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.NativeMethods",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Services.ApplicationHostService.yml",
       "output": {
         ".html": {
@@ -1517,20 +1419,6 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Services.GameGuidanceService",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.GameGuidanceService.yml\" sourcestartlinenumber=\"1\">前台窗口服务, 实现了 <xref href=\"neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责对局引导功能</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Services.IgnoreFocusLossService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Services.IgnoreFocusLossService.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Services.IgnoreFocusLossService",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2108,20 +1996,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.InterludeWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.yml",
       "output": {
         ".html": {
@@ -2133,20 +2007,6 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.ViewModels.Windows.MapBpWindowViewModel",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2430,20 +2290,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.InterludeWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Views.Windows.InterludeWindow.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Views.Windows.InterludeWindow",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.InterludeWindow.yml\" sourcestartlinenumber=\"1\">InterludeWindow.xaml 的交互逻辑</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.MainWindow.yml",
       "output": {
         ".html": {
@@ -2455,20 +2301,6 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Views.Windows.MainWindow",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.MainWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for MainWindow.xaml</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.MapBpWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Views.Windows.MapBpWindow.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Views.Windows.MapBpWindow",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.MapBpWindow.yml\" sourcestartlinenumber=\"1\">MapBpWindow.xaml 的交互逻辑</p>\n"
     },
     {
       "type": "ManagedReference",
