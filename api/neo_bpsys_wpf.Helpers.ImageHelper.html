@@ -131,7 +131,7 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="neo_bpsys_wpf_Helpers_ImageHelper_GetImageSourceFromFileName_neo_bpsys_wpf_Enums_ImageSourceKey_System_String_" data-uid="neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromFileName(neo_bpsys_wpf.Enums.ImageSourceKey,System.String)">
   GetImageSourceFromFileName(ImageSourceKey, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get ImageSource from corresponding Resources folder</p>
@@ -172,7 +172,7 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="neo_bpsys_wpf_Helpers_ImageHelper_GetImageSourceFromName_neo_bpsys_wpf_Enums_ImageSourceKey_System_String_" data-uid="neo_bpsys_wpf.Helpers.ImageHelper.GetImageSourceFromName(neo_bpsys_wpf.Enums.ImageSourceKey,System.String)">
   GetImageSourceFromName(ImageSourceKey, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get ImageSource from corresponding Resources folder</p>
@@ -210,9 +210,9 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
 
   <a id="neo_bpsys_wpf_Helpers_ImageHelper_GetTalentImageSource_" data-uid="neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource*"></a>
 
-  <h3 id="neo_bpsys_wpf_Helpers_ImageHelper_GetTalentImageSource_neo_bpsys_wpf_Enums_Camp_System_String_" data-uid="neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String)">
-  GetTalentImageSource(Camp, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Helpers_ImageHelper_GetTalentImageSource_neo_bpsys_wpf_Enums_Camp_System_String_System_Boolean_" data-uid="neo_bpsys_wpf.Helpers.ImageHelper.GetTalentImageSource(neo_bpsys_wpf.Enums.Camp,System.String,System.Boolean)">
+  GetTalentImageSource(Camp, string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get Talent ImageSource corresponding Resources folder</p>
@@ -220,7 +220,7 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ImageSource? GetTalentImageSource(Camp camp, string? name)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ImageSource? GetTalentImageSource(Camp camp, string? name, bool isBlackVerEnable)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -229,6 +229,9 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
     <dd></dd>
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>Talent Name</p>
+</dd>
+    <dt><code>isBlackVerEnable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Is Black Ver Enable</p>
 </dd>
   </dl>
 
@@ -252,10 +255,11 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="neo_bpsys_wpf_Helpers_ImageHelper_GetTraitImageSource_System_Nullable_neo_bpsys_wpf_Enums_Trait__" data-uid="neo_bpsys_wpf.Helpers.ImageHelper.GetTraitImageSource(System.Nullable{neo_bpsys_wpf.Enums.Trait})">
   GetTraitImageSource(Trait?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get Trait ImageSource corresponding Resources folder</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -265,7 +269,8 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>trait</code> <a class="xref" href="neo_bpsys_wpf.Enums.Trait.html">Trait</a>?</dt>
-    <dd></dd>
+    <dd><p>Trait</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -288,7 +293,7 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="neo_bpsys_wpf_Helpers_ImageHelper_GetUiImageBrush_System_String_" data-uid="neo_bpsys_wpf.Helpers.ImageHelper.GetUiImageBrush(System.String)">
   GetUiImageBrush(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get Ui ImageBrush from Resources\bpui\</p>
@@ -326,7 +331,7 @@ Class ImageHelper  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="neo_bpsys_wpf_Helpers_ImageHelper_GetUiImageSource_System_String_" data-uid="neo_bpsys_wpf.Helpers.ImageHelper.GetUiImageSource(System.String)">
   GetUiImageSource(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Helpers/ImageHelper.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get Ui ImageSource from Resources\bpui\</p>

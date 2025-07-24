@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-wpf/new/master/apiSpec/new?filename=neo_bpsys_wpf_Models_BpWindowSettings.md&amp;value=---%0Auid%3A%20neo_bpsys_wpf.Models.BpWindowSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Models_BpWindowSettings" data-uid="neo_bpsys_wpf.Models.BpWindowSettings" class="text-break">
-Class BpWindowSettings  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L85"><i class="bi bi-code-slash"></i></a>
+Class BpWindowSettings  
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BpWindowSettings</code></pre>
+    <pre><code class="lang-csharp hljs">public class BpWindowSettings : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -112,10 +112,18 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
       <div><span class="xref">BpWindowSettings</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -132,7 +140,7 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
 
   <h3 id="neo_bpsys_wpf_Models_BpWindowSettings_BgImageUri" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.BgImageUri">
   BgImageUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -163,7 +171,7 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
 
   <h3 id="neo_bpsys_wpf_Models_BpWindowSettings_CurrentBanLockImageUri" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.CurrentBanLockImageUri">
   CurrentBanLockImageUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -194,7 +202,7 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
 
   <h3 id="neo_bpsys_wpf_Models_BpWindowSettings_GlobalBanLockImageUri" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.GlobalBanLockImageUri">
   GlobalBanLockImageUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -221,11 +229,75 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="neo_bpsys_wpf_Models_BpWindowSettings_PickingBorderBrush_" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderBrush*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_BpWindowSettings_PickingBorderBrush" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderBrush">
+  PickingBorderBrush
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>文本颜色Brush</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public Brush PickingBorderBrush { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Brush</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Models_BpWindowSettings_PickingBorderColor_" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderColor*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_BpWindowSettings_PickingBorderColor" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderColor">
+  PickingBorderColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? PickingBorderColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Models_BpWindowSettings_PickingBorderImageUri_" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri*"></a>
 
   <h3 id="neo_bpsys_wpf_Models_BpWindowSettings_PickingBorderImageUri" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.PickingBorderImageUri">
   PickingBorderImageUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -256,7 +328,7 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
 
   <h3 id="neo_bpsys_wpf_Models_BpWindowSettings_Resolution" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.Resolution">
   Resolution
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -287,7 +359,7 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
 
   <h3 id="neo_bpsys_wpf_Models_BpWindowSettings_TextSettings" data-uid="neo_bpsys_wpf.Models.BpWindowSettings.TextSettings">
   TextSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -318,7 +390,6 @@ Class BpWindowSettings  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L85" class="edit-link">Edit this page</a>
         </div>
 
 

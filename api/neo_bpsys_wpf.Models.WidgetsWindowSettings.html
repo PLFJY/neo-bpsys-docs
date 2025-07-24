@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-wpf/new/master/apiSpec/new?filename=neo_bpsys_wpf_Models_WidgetsWindowSettings.md&amp;value=---%0Auid%3A%20neo_bpsys_wpf.Models.WidgetsWindowSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Models_WidgetsWindowSettings" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings" class="text-break">
-Class WidgetsWindowSettings  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L235"><i class="bi bi-code-slash"></i></a>
+Class WidgetsWindowSettings  
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class WidgetsWindowSettings  <a class="header-action link-secondary" title="View
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class WidgetsWindowSettings</code></pre>
+    <pre><code class="lang-csharp hljs">public class WidgetsWindowSettings : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -112,10 +112,18 @@ Class WidgetsWindowSettings  <a class="header-action link-secondary" title="View
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
       <div><span class="xref">WidgetsWindowSettings</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -132,7 +140,7 @@ Class WidgetsWindowSettings  <a class="header-action link-secondary" title="View
 
   <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_BpOverviewBgUri" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.BpOverviewBgUri">
   BpOverviewBgUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L253"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -159,11 +167,104 @@ Class WidgetsWindowSettings  <a class="header-action link-secondary" title="View
 
 
 
+  <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_CurrentBanLockImageUri_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_CurrentBanLockImageUri" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.CurrentBanLockImageUri">
+  CurrentBanLockImageUri
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CurrentBanLockImageUri { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_GlobalBanLockImageUri_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_GlobalBanLockImageUri" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.GlobalBanLockImageUri">
+  GlobalBanLockImageUri
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GlobalBanLockImageUri { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_IsCampIconBlackVerEnabled_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_IsCampIconBlackVerEnabled" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.IsCampIconBlackVerEnabled">
+  IsCampIconBlackVerEnabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCampIconBlackVerEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpBgUri_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpBgUri*"></a>
 
   <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpBgUri" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpBgUri">
   MapBpBgUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L249"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -190,11 +291,137 @@ Class WidgetsWindowSettings  <a class="header-action link-secondary" title="View
 
 
 
+  <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2BgUri_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2BgUri" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2BgUri">
+  MapBpV2BgUri
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? MapBpV2BgUri { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2PickBorderImageUri_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2PickBorderImageUri*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2PickBorderImageUri" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2PickBorderImageUri">
+  MapBpV2PickBorderImageUri
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? MapBpV2PickBorderImageUri { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2_PickingBorderBrush_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2_PickingBorderBrush*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2_PickingBorderBrush" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2_PickingBorderBrush">
+  MapBpV2_PickingBorderBrush
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>MapBpV2文本颜色Brush</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public Brush MapBpV2_PickingBorderBrush { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Brush</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2_PickingBorderColor_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2_PickingBorderColor*"></a>
+
+  <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_MapBpV2_PickingBorderColor" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.MapBpV2_PickingBorderColor">
+  MapBpV2_PickingBorderColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? MapBpV2_PickingBorderColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Models_WidgetsWindowSettings_TextSettings_" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.TextSettings*"></a>
 
   <h3 id="neo_bpsys_wpf_Models_WidgetsWindowSettings_TextSettings" data-uid="neo_bpsys_wpf.Models.WidgetsWindowSettings.TextSettings">
   TextSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L264"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -225,7 +452,6 @@ Class WidgetsWindowSettings  <a class="header-action link-secondary" title="View
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Models/Settings.cs/#L235" class="edit-link">Edit this page</a>
         </div>
 
 

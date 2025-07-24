@@ -142,7 +142,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor">
   MapBpPageViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -168,7 +168,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)">
   MapBpPageViewModel(ISharedDataService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -199,18 +199,19 @@ Class MapBpPageViewModel
 </h2>
 
 
-  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BannedMap_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BannedMap*"></a>
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BanMapCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapCommand*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BannedMap" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BannedMap">
-  BannedMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BanMapCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapCommand">
+  BanMapCommand
+  
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Enums.Map.html">BanMap(Map?)</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Map? BannedMap { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;Map?&gt; BanMapCommand { get; }</code></pre>
   </div>
 
 
@@ -219,7 +220,69 @@ Class MapBpPageViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="neo_bpsys_wpf.Enums.Map.html">Map</a>?</dt>
+    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="neo_bpsys_wpf.Enums.Map.html">Map</a>?&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BanMapTeam_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapTeam*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BanMapTeam" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapTeam">
+  BanMapTeam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MapBpPageViewModel.MapSelectTeam BanMapTeam { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html">MapBpPageViewModel</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam.html">MapSelectTeam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BannedMap_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BannedMap*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BannedMap" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BannedMap">
+  BannedMap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;MapBpPageViewModel.BanMapInfo&gt; BannedMap { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html">MapBpPageViewModel</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.html">BanMapInfo</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -242,6 +305,68 @@ Class MapBpPageViewModel
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsBanHighlighted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_IsBreathing_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.IsBreathing*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_IsBreathing" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.IsBreathing">
+  IsBreathing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBreathing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_IsCampVisible_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.IsCampVisible*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_IsCampVisible" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.IsCampVisible">
+  IsCampVisible
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCampVisible { get; set; }</code></pre>
   </div>
 
 
@@ -292,11 +417,105 @@ Class MapBpPageViewModel
 
 
 
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelectTeamsList_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeamsList*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelectTeamsList" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeamsList">
+  MapSelectTeamsList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;MapBpPageViewModel.MapSelectTeam&gt; MapSelectTeamsList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html">MapBpPageViewModel</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam.html">MapSelectTeam</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickMapCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickMapCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickMapCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickMapCommand">
+  PickMapCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Enums.Map.html">PickMap(Map?)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;Map?&gt; PickMapCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="neo_bpsys_wpf.Enums.Map.html">Map</a>?&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickMapTeam_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickMapTeam*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickMapTeam" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickMapTeam">
+  PickMapTeam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MapBpPageViewModel.MapSelectTeam PickMapTeam { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html">MapBpPageViewModel</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam.html">MapSelectTeam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickedMap_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickedMap*"></a>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickedMap" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickedMap">
   PickedMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -327,14 +546,14 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickedMapSelections" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickedMapSelections">
   PickedMapSelections
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;MapBpPageViewModel.MapSelection&gt; PickedMapSelections { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;MapBpPageViewModel.MapSelection&gt; PickedMapSelections { get; }</code></pre>
   </div>
 
 
@@ -343,38 +562,7 @@ Class MapBpPageViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html">MapBpPageViewModel</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.html">MapSelection</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_SharedDataService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.SharedDataService*"></a>
-
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_SharedDataService" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.SharedDataService">
-  SharedDataService
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L13"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ISharedDataService SharedDataService { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html">MapBpPageViewModel</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.html">MapSelection</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -393,7 +581,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_Receive_neo_bpsys_wpf_Messages_HighlightMessage_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.Receive(neo_bpsys_wpf.Messages.HighlightMessage)">
   Receive(HighlightMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.HighlightMessage.html">HighlightMessage</a> message instance.</p>

@@ -344,6 +344,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.MapV2Presenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.MapV2Presenter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.MapV2Presenter",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.MapV2Presenter.yml\" sourcestartlinenumber=\"1\">MapV2Presenter.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Controls.TalentPicker.yml",
       "output": {
         ".html": {
@@ -452,7 +466,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Converters.BooleanMultiConverter",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.BooleanMultiConverter.yml\" sourcestartlinenumber=\"1\">转换多个布尔值到一个布尔值，用于合并待选框1和2的</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -466,7 +480,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Converters.BooleanToEnumConverter",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.BooleanToEnumConverter.yml\" sourcestartlinenumber=\"1\">转换布尔值到枚举</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -481,6 +495,34 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter.yml\" sourcestartlinenumber=\"1\">布尔值转换为可见性</p>\n<p>true 对应 Collapsed</p>\n<p>false 对应 Visible</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.CampHunToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.CampSurToVisibilityConverter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -592,6 +634,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Converters.InverseBooleanConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter",
       "Summary": null
     },
     {
@@ -1125,6 +1195,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Models.GameDataWindowTextSettings",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.GameDataWindowTextSettings.yml\" sourcestartlinenumber=\"1\">赛后数据窗口文本设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.MapV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.MapV2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.MapV2",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.MapV2.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1702,6 +1786,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.yml",
       "output": {
         ".html": {
@@ -1712,7 +1824,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1838,7 +1950,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.yml\" sourcestartlinenumber=\"1\">A base class for objects of which the properties must be observable.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2304,6 +2416,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.yml\" sourcestartlinenumber=\"1\">ScoreGlobalWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.ScoreHunWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.yml\" sourcestartlinenumber=\"1\">ScoreHunWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreManualWindow.yml",
       "output": {
         ".html": {
@@ -2318,17 +2458,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreWindow.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreWindow.html"
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Views.Windows.ScoreWindow",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.ScoreWindow.yml\" sourcestartlinenumber=\"1\">ScoreWindow.xaml 的交互逻辑</p>\n"
+      "Title": "neo_bpsys_wpf.Views.Windows.ScoreSurWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.yml\" sourcestartlinenumber=\"1\">ScoreSurWindow.xaml 的交互逻辑</p>\n"
     },
     {
       "type": "ManagedReference",

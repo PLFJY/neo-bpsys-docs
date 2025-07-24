@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class MapBpPageViewModel.MapSelection | neo-bpsys Docs ">
       
-      
+      <meta name="description" content="A base class for observable objects that also acts as recipients for messages. This class is an extension of  which also provides built-in support to use the  type.">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-wpf/new/master/apiSpec/new?filename=neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection.md&amp;value=---%0Auid%3A%20neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection" class="text-break">
-Class MapBpPageViewModel.MapSelection  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L79"><i class="bi bi-code-slash"></i></a>
+Class MapBpPageViewModel.MapSelection  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,13 @@ Class MapBpPageViewModel.MapSelection  <a class="header-action link-secondary" t
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>A base class for observable objects that also acts as recipients for messages. This class is an extension of
+<span class="xref">CommunityToolkit.Mvvm.ComponentModel.ObservableObject</span> which also provides built-in support to use the <span class="xref">CommunityToolkit.Mvvm.Messaging.IMessenger</span> type.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MapBpPageViewModel.MapSelection</code></pre>
+    <pre><code class="lang-csharp hljs">public class MapBpPageViewModel.MapSelection : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -111,10 +113,19 @@ Class MapBpPageViewModel.MapSelection  <a class="header-action link-secondary" t
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableRecipient</span></div>
       <div><span class="xref">MapBpPageViewModel.MapSelection</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -129,21 +140,21 @@ Class MapBpPageViewModel.MapSelection  <a class="header-action link-secondary" t
 
   <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection__ctor_neo_bpsys_wpf_Enums_Map_System_Windows_Media_ImageSource_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.#ctor(neo_bpsys_wpf.Enums.Map,System.Windows.Media.ImageSource)">
-  MapSelection(Map, ImageSource?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection__ctor_System_Nullable_neo_bpsys_wpf_Enums_Map__System_Windows_Media_ImageSource_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.#ctor(System.Nullable{neo_bpsys_wpf.Enums.Map},System.Windows.Media.ImageSource)">
+  MapSelection(Map?, ImageSource?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MapSelection(Map map, ImageSource? imageSource)</code></pre>
+    <pre><code class="lang-csharp hljs">public MapSelection(Map? map = null, ImageSource? imageSource = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>map</code> <a class="xref" href="neo_bpsys_wpf.Enums.Map.html">Map</a></dt>
+    <dt><code>map</code> <a class="xref" href="neo_bpsys_wpf.Enums.Map.html">Map</a>?</dt>
     <dd></dd>
     <dt><code>imageSource</code> <span class="xref">ImageSource</span></dt>
     <dd></dd>
@@ -164,11 +175,42 @@ Class MapBpPageViewModel.MapSelection  <a class="header-action link-secondary" t
 </h2>
 
 
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection_CanPickInvoke_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.CanPickInvoke*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection_CanPickInvoke" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.CanPickInvoke">
+  CanPickInvoke
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanPickInvoke { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection_ImageSource_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.ImageSource*"></a>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection_ImageSource" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.ImageSource">
   ImageSource
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -199,14 +241,14 @@ Class MapBpPageViewModel.MapSelection  <a class="header-action link-secondary" t
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection_Map" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.Map">
   Map
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Map Map { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Map? Map { get; set; }</code></pre>
   </div>
 
 
@@ -215,9 +257,46 @@ Class MapBpPageViewModel.MapSelection  <a class="header-action link-secondary" t
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="neo_bpsys_wpf.Enums.Map.html">Map</a></dt>
+    <dt><a class="xref" href="neo_bpsys_wpf.Enums.Map.html">Map</a>?</dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection_Receive_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.Receive*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelection_Receive_CommunityToolkit_Mvvm_Messaging_Messages_PropertyChangedMessage_System_Collections_Generic_List_neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_BanMapInfo___" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Collections.Generic.List{neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo}})">
+  Receive(PropertyChangedMessage&lt;List&lt;BanMapInfo&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">PropertyChangedMessage&lt;List&lt;MapBpPageViewModel.BanMapInfo&gt;&gt;</a> message instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Receive(PropertyChangedMessage&lt;List&lt;MapBpPageViewModel.BanMapInfo&gt;&gt; message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <span class="xref">PropertyChangedMessage</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html">MapBpPageViewModel</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.html">BanMapInfo</a>&gt;&gt;</dt>
+    <dd><p>The message being received.</p>
+</dd>
+  </dl>
+
+
+
+
 
 
 
@@ -230,7 +309,6 @@ Class MapBpPageViewModel.MapSelection  <a class="header-action link-secondary" t
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L79" class="edit-link">Edit this page</a>
         </div>
 
 
