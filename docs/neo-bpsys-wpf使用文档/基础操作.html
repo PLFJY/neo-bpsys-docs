@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/neo-bpsys-wpf使用文档/前言.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/neo-bpsys-wpf使用文档/基础操作.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,31 +86,80 @@
 
         <article data-uid="">
 
-<p>本软件基于GPL-3.0协议开源，<strong>完全免费</strong>。</p>
-<h2 id="如果你是付费购买的此软件那么你一定是被骗了"><font color=red>如果你是付费购买的此软件，那么你一定是被骗了！！！</font></h2>
-<h2 id="如果你是付费购买的此软件那么你一定是被骗了-1"><font color=red>如果你是付费购买的此软件，那么你一定是被骗了！！！</font></h2>
-<h2 id="如果你是付费购买的此软件那么你一定是被骗了-2"><font color=red>如果你是付费购买的此软件，那么你一定是被骗了！！！</font></h2>
-<p>‍
-<strong>如果遇到前台控件错误或者消失请前往<a href="%E5%89%8D%E5%8F%B0%E7%AE%A1%E7%90%86.md">前台管理</a>页面重置配置，这可能是由于上一个版本留下的默认配置导致的Bug</strong></p>
-<p>官网地址 (基于Cloudflare Pages部署)：<a href="https://bpsys.plfjy.top/">https://bpsys.plfjy.top/</a></p>
-<p>备用地址 (基于Github Pages部署): <a href="https://plfjy.github.io/neo-bpsys-website/">https://plfjy.github.io/neo-bpsys-website/</a></p>
-<p>项目地址：<a href="https://github.com/PLFJY/neo-bpsys-wpf/">https://github.com/PLFJY/neo-bpsys-wpf/</a></p>
-<p>作者QQ：3424127335</p>
-<p>QQ交流群号：175741665</p>
-<p>‍</p>
-<p><strong>温馨提醒，在GitHub上提交issue或在群内反馈问题前请一定认真检查一下是软件的问题还是眼神或脑子的问题，否则我们的断档S1记录员将记录下您的黑历史并使其成为我们未来几个月甚至几年的笑料 。</strong></p>
-<p>↓以下是一个唐诗issue的示例↓   （![[记录.png|35]]+![[宣读.png|35]]+![[采信.png|35]]）——S0记录员</p>
-<p><img src="%E5%AE%A3%E8%AF%BB%E5%94%90%E8%AF%97issue.png" alt=""></p>
-<p>以下是合作开发者列表：</p>
+<p>本文章将告诉你如何快速上手 neo-bpsys-wpf。如果你是使用本软件的新手，请跟随本文指引来了解如何使用本软件。</p>
+<hr>
+<h2 id="一设置双方队伍的信息">一、设置双方队伍的信息。</h2>
+<p>打开软件后点击窗口左侧的【队伍信息】。对于每一支队伍，输入其战队名、队员名并上传队徽、选手定妆照（可选）后将所有上场的队员设为【上场】（每支队伍的求生者和监管者都点）。</p>
+<p>在该页面的最下面显示了当前上场的选手。对于每个求生者选手，可以点击名称后面的数字以切换其位置。</p>
+<p>如果需要了解如何更快速的导入队伍信息，请参阅[[从Json导入队伍信息]]。</p>
+<hr>
+<h2 id="二设置赛制">二、设置赛制</h2>
+<p>在软件窗口上可以设置赛制为 BO5 或 BO3，<strong>该设置将影响[[从Json导入队伍信息|对局引导]]、比分计算等功能，请如实选择</strong>。</p>
+<hr>
+<h2 id="三启动前台">三、启动前台</h2>
+<p>在软件窗口左侧的页面选择区域点击[[前台管理]]。在这里可以打开或关闭各个前台画面（一般建议全打开然后在<a href="https://obsproject.com/download">OBS</a>等直播软件中管理前台画面的显示与隐藏）。<strong>如果没有自定义前台画面布局的需求请勿开启设计模式，如果不慎开启并且移动了组件位置可以点击【重置布局】相关按钮恢复。</strong></p>
+<hr>
+<h2 id="四开启对局引导">四、开启对局引导</h2>
+<p>本软件根据官方比赛BP规则设计了对局引导功能，请选择当前对局进度（例如第一局上半场）后点击【开始对局引导】，然后点击【下一步】来根据比赛规则进行每一步操作。同时，你可以点击【上一步】和【结束对局引导】来进行对应操作。</p>
+<p>开启对局引导后即可根据引导来进行BP，关于BP过程中各个步骤的详细介绍，详见：</p>
 <ul>
-<li>Zack</li>
-<li>tp</li>
+<li>[[地图禁选]]</li>
+<li>[[禁用监管者]]</li>
+<li>[[禁用求生者]]</li>
+<li>[[选择角色]]</li>
+<li>[[天赋特质]]</li>
 </ul>
+<hr>
+<h2 id="五赛后数据">五、赛后数据</h2>
+<p>在前台的[[赛后数据画面]]可以显示当局双方数据。具体使用方法是在赛后数据页面输入各选手的数据。此时，输入的数据将会显示在[[赛后数据画面]]显示。</p>
+<hr>
+<h2 id="六比分控制">六、比分控制</h2>
+<p>进行完一个对局后，可以在<a href="5e17ac8d466b971655e6b7e79ecf9dd6">比分控制</a>页面来输入和计算比分，比分将同步到<a href="01a5647297bfcdbefa707d71b2f28aaa">比分组件</a>中。</p>
+<p>本软件内对局结果的加分与官方比赛一致，关于官方比赛加分详见下表。</p>
+<table>
+<thead>
+<tr>
+<th><strong>对局结果</strong></th>
+<th><strong>求生者队伍加分</strong></th>
+<th><strong>监管者队伍加分</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>四抓</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>三抓</td>
+<td>1</td>
+<td>3</td>
+</tr>
+<tr>
+<td>平局</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>三跑</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>四跑</td>
+<td>5</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="七结束对局">七、结束对局</h2>
+<p>在一局游戏结束后，点击【新对局（重置）】以清空当局BP信息（地图BP、全局禁选记录、比分等跨局信息将被保留）。</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/neo-bpsys-wpf使用文档/前言.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/neo-bpsys-wpf使用文档/基础操作.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

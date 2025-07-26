@@ -10145,6 +10145,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModelList
   nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModelList
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayTeam
+  name: AwayTeam
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayTeam
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayTeam
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayTeam
+  nameWithType: PickPageViewModel.AwayTeam
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayTeam*
+  name: AwayTeam
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayTeam_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayTeam
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayTeam
+  nameWithType: PickPageViewModel.AwayTeam
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel
   name: PickPageViewModel.HunPickViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html
@@ -10415,6 +10428,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModelList
   nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModelList
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainTeam
+  name: MainTeam
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainTeam
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainTeam
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainTeam
+  nameWithType: PickPageViewModel.MainTeam
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainTeam*
+  name: MainTeam
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainTeam_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainTeam
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainTeam
+  nameWithType: PickPageViewModel.MainTeam
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickingBorderSwitchCommand
   name: PickingBorderSwitchCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_PickingBorderSwitchCommand

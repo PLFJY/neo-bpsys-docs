@@ -7,16 +7,16 @@
       <meta name="title" content=" | neo-bpsys Docs ">
       
       
-      <link rel="icon" href="../../images/favicon.ico">
-      <link rel="stylesheet" href="../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../public/main.css">
-      <meta name="docfx:navrel" content="../../toc.html">
-      <meta name="docfx:tocrel" content="../toc.html">
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
       
-      <meta name="docfx:rel" content="../../">
+      <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/neo-bpsys-wpf使用文档/前言.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/neo-bpsys-wpf使用文档/高级选项/从Json导入队伍信息.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../../public/docfx.min.js"></script>
+      <script type="module" src="./../../../public/docfx.min.js"></script>
 
       <script>
         const theme = localStorage.getItem('theme') || 'auto'
@@ -43,8 +43,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../images/favicon.ico" alt="neo-bpsys-wpf">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/favicon.ico" alt="neo-bpsys-wpf">
             neo-bpsys-wpf
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,31 +86,50 @@
 
         <article data-uid="">
 
-<p>本软件基于GPL-3.0协议开源，<strong>完全免费</strong>。</p>
-<h2 id="如果你是付费购买的此软件那么你一定是被骗了"><font color=red>如果你是付费购买的此软件，那么你一定是被骗了！！！</font></h2>
-<h2 id="如果你是付费购买的此软件那么你一定是被骗了-1"><font color=red>如果你是付费购买的此软件，那么你一定是被骗了！！！</font></h2>
-<h2 id="如果你是付费购买的此软件那么你一定是被骗了-2"><font color=red>如果你是付费购买的此软件，那么你一定是被骗了！！！</font></h2>
-<p>‍
-<strong>如果遇到前台控件错误或者消失请前往<a href="%E5%89%8D%E5%8F%B0%E7%AE%A1%E7%90%86.md">前台管理</a>页面重置配置，这可能是由于上一个版本留下的默认配置导致的Bug</strong></p>
-<p>官网地址 (基于Cloudflare Pages部署)：<a href="https://bpsys.plfjy.top/">https://bpsys.plfjy.top/</a></p>
-<p>备用地址 (基于Github Pages部署): <a href="https://plfjy.github.io/neo-bpsys-website/">https://plfjy.github.io/neo-bpsys-website/</a></p>
-<p>项目地址：<a href="https://github.com/PLFJY/neo-bpsys-wpf/">https://github.com/PLFJY/neo-bpsys-wpf/</a></p>
-<p>作者QQ：3424127335</p>
-<p>QQ交流群号：175741665</p>
-<p>‍</p>
-<p><strong>温馨提醒，在GitHub上提交issue或在群内反馈问题前请一定认真检查一下是软件的问题还是眼神或脑子的问题，否则我们的断档S1记录员将记录下您的黑历史并使其成为我们未来几个月甚至几年的笑料 。</strong></p>
-<p>↓以下是一个唐诗issue的示例↓   （![[记录.png|35]]+![[宣读.png|35]]+![[采信.png|35]]）——S0记录员</p>
-<p><img src="%E5%AE%A3%E8%AF%BB%E5%94%90%E8%AF%97issue.png" alt=""></p>
-<p>以下是合作开发者列表：</p>
-<ul>
-<li>Zack</li>
-<li>tp</li>
-</ul>
+<p>除了<a href="%E9%98%9F%E4%BC%8D%E4%BF%A1%E6%81%AF.md">手动设置</a>之外，本软件还提供了从Json一键导入队伍信息的功能。</p>
+<p>使用方法为点击队伍信息页面中的【从Json文件导入】来选择一个Json文件。</p>
+<pre><code class="lang-json">{
+  &quot;Name&quot;: &quot;队伍名称&quot;,
+  &quot;ImageUri&quot;: &quot;&lt;队徽URI或文件路径&gt;&quot;,
+  &quot;SurMemberList&quot;: [
+    {
+      &quot;Name&quot;: &quot;选手名称1&quot;,
+      &quot;Camp&quot;: &quot;Sur&quot;,
+      &quot;ImageUri&quot;: &quot;&lt;定妆照URl或文件路径&gt;&quot;
+    },
+    {
+      &quot;Name&quot;: &quot;选手名称2&quot;,
+      &quot;Camp&quot;: &quot;Sur&quot;,
+      &quot;ImageUri&quot;: null
+    },
+    {
+      &quot;Name&quot;: &quot;选手名称3&quot;,
+      &quot;Camp&quot;: &quot;Sur&quot;,
+      &quot;ImageUri&quot;: null
+    },
+    {
+      &quot;Name&quot;: &quot;选手名称4&quot;,
+      &quot;Camp&quot;: &quot;Sur&quot;,
+      &quot;ImageUri&quot;: null
+    }
+  ],
+  &quot;HunMemberList&quot;: [
+    {
+      &quot;Name&quot;: &quot;选手名称5&quot;,
+      &quot;Camp&quot;: &quot;Hun&quot;,
+      &quot;ImageUri&quot;: null
+    }
+  ]
+}
+</code></pre>
+<p>SurMemberList下存储队伍求生者选手名单；HunMemberList下存储队伍监管者选手名单。</p>
+<p>选手名称下的Camp表示选手阵营（Sur表示求生者，Hun表示监管者）</p>
+<p>队伍名称下的 ImageUri 表示队徽URl或文件路径（例：D:\\ExamplePhoto\\1.png)，如果没有队徽或定妆照则在该项填入null</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/neo-bpsys-wpf使用文档/前言.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/neo-bpsys-wpf使用文档/高级选项/从Json导入队伍信息.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
