@@ -1118,19 +1118,19 @@ references:
   commentId: F:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SharedDataService
   fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SharedDataService
   nameWithType: CharaSelectViewModelBase.SharedDataService
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_SyncChara
-  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncChara
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncChara()
-  nameWithType: CharaSelectViewModelBase.SyncChara()
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncChara
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync()
+  nameWithType: CharaSelectViewModelBase.SyncCharaAsync()
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncChara
-  nameWithType: CharaSelectViewModelBase.SyncChara
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync
+  nameWithType: CharaSelectViewModelBase.SyncCharaAsync
 - uid: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_SyncIsEnabled
@@ -1144,6 +1144,47 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncIsEnabled
   nameWithType: CharaSelectViewModelBase.SyncIsEnabled
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase
+  name: ViewModelBase
+  href: api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html
+  commentId: T:neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase
+  nameWithType: ViewModelBase
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.#ctor
+  name: ViewModelBase()
+  href: api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase__ctor
+  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.ViewModelBase()
+  fullName.vb: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.New()
+  nameWithType: ViewModelBase.ViewModelBase()
+  nameWithType.vb: ViewModelBase.New()
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.#ctor*
+  name: ViewModelBase
+  href: api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase__ctor_
+  commentId: Overload:neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.ViewModelBase
+  fullName.vb: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.New
+  nameWithType: ViewModelBase.ViewModelBase
+  nameWithType.vb: ViewModelBase.New
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction*
+  name: SetPropertyWithAction
+  href: api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction_
+  commentId: Overload:neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction
+  nameWithType: ViewModelBase.SetPropertyWithAction
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction``1(``0@,``0,System.Action{``0,``0},System.String)
+  name: SetPropertyWithAction<T>(ref T, T, Action<T, T>?, string?)
+  href: api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0___0__System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction``1(``0@,``0,System.Action{``0,``0},System.String)
+  name.vb: SetPropertyWithAction(Of T)(T, T, Action(Of T, T), String)
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction<T>(ref T, T, System.Action<T, T>?, string?)
+  fullName.vb: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction(Of T)(T, T, System.Action(Of T, T), String)
+  nameWithType: ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T, T>?, string?)
+  nameWithType.vb: ViewModelBase.SetPropertyWithAction(Of T)(T, T, Action(Of T, T), String)
 - uid: neo_bpsys_wpf.App
   name: App
   href: api/neo_bpsys_wpf.App.html
@@ -5276,15 +5317,15 @@ references:
   commentId: T:neo_bpsys_wpf.Models.Game
   fullName: neo_bpsys_wpf.Models.Game
   nameWithType: Game
-- uid: neo_bpsys_wpf.Models.Game.#ctor(neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Enums.GameProgress)
-  name: Game(Team, Team, GameProgress)
-  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game__ctor_neo_bpsys_wpf_Models_Team_neo_bpsys_wpf_Models_Team_neo_bpsys_wpf_Enums_GameProgress_
-  commentId: M:neo_bpsys_wpf.Models.Game.#ctor(neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Enums.GameProgress)
-  name.vb: New(Team, Team, GameProgress)
-  fullName: neo_bpsys_wpf.Models.Game.Game(neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Enums.GameProgress)
-  fullName.vb: neo_bpsys_wpf.Models.Game.New(neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Enums.GameProgress)
-  nameWithType: Game.Game(Team, Team, GameProgress)
-  nameWithType.vb: Game.New(Team, Team, GameProgress)
+- uid: neo_bpsys_wpf.Models.Game.#ctor(neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Enums.GameProgress,System.Nullable{neo_bpsys_wpf.Enums.Map},System.Nullable{neo_bpsys_wpf.Enums.Map},System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.MapV2})
+  name: Game(Team, Team, GameProgress, Map?, Map?, Dictionary<string, MapV2>?)
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game__ctor_neo_bpsys_wpf_Models_Team_neo_bpsys_wpf_Models_Team_neo_bpsys_wpf_Enums_GameProgress_System_Nullable_neo_bpsys_wpf_Enums_Map__System_Nullable_neo_bpsys_wpf_Enums_Map__System_Collections_Generic_Dictionary_System_String_neo_bpsys_wpf_Models_MapV2__
+  commentId: M:neo_bpsys_wpf.Models.Game.#ctor(neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Models.Team,neo_bpsys_wpf.Enums.GameProgress,System.Nullable{neo_bpsys_wpf.Enums.Map},System.Nullable{neo_bpsys_wpf.Enums.Map},System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Models.MapV2})
+  name.vb: New(Team, Team, GameProgress, Map?, Map?, Dictionary(Of String, MapV2))
+  fullName: neo_bpsys_wpf.Models.Game.Game(neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Map?, neo_bpsys_wpf.Enums.Map?, System.Collections.Generic.Dictionary<string, neo_bpsys_wpf.Models.MapV2>?)
+  fullName.vb: neo_bpsys_wpf.Models.Game.New(neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Models.Team, neo_bpsys_wpf.Enums.GameProgress, neo_bpsys_wpf.Enums.Map?, neo_bpsys_wpf.Enums.Map?, System.Collections.Generic.Dictionary(Of String, neo_bpsys_wpf.Models.MapV2))
+  nameWithType: Game.Game(Team, Team, GameProgress, Map?, Map?, Dictionary<string, MapV2>?)
+  nameWithType.vb: Game.New(Team, Team, GameProgress, Map?, Map?, Dictionary(Of String, MapV2))
 - uid: neo_bpsys_wpf.Models.Game.#ctor*
   name: Game
   href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game__ctor_
@@ -5486,6 +5527,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Models.Game.Receive
   nameWithType: Game.Receive
+- uid: neo_bpsys_wpf.Models.Game.ResetMapBp
+  name: ResetMapBp()
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_ResetMapBp
+  commentId: M:neo_bpsys_wpf.Models.Game.ResetMapBp
+  fullName: neo_bpsys_wpf.Models.Game.ResetMapBp()
+  nameWithType: Game.ResetMapBp()
+- uid: neo_bpsys_wpf.Models.Game.ResetMapBp*
+  name: ResetMapBp
+  href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_ResetMapBp_
+  commentId: Overload:neo_bpsys_wpf.Models.Game.ResetMapBp
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Models.Game.ResetMapBp
+  nameWithType: Game.ResetMapBp
 - uid: neo_bpsys_wpf.Models.Game.StartTime
   name: StartTime
   href: api/neo_bpsys_wpf.Models.Game.html#neo_bpsys_wpf_Models_Game_StartTime
@@ -6059,6 +6113,12 @@ references:
   commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)
   nameWithType: Player.Receive(MemberPropertyChangedMessage)
+- uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
+  name: Receive(PlayerSwappedMessage)
+  href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_PlayerSwappedMessage_
+  commentId: M:neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
+  fullName: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)
+  nameWithType: Player.Receive(PlayerSwappedMessage)
 - uid: neo_bpsys_wpf.Models.Player.Receive(neo_bpsys_wpf.Messages.SwapMessage)
   name: Receive(SwapMessage)
   href: api/neo_bpsys_wpf.Models.Player.html#neo_bpsys_wpf_Models_Player_Receive_neo_bpsys_wpf_Messages_SwapMessage_
@@ -8827,19 +8887,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.Receive
   nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.Receive
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncChara()
-  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync()
+  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncChara
-  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
+  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncIsEnabled
@@ -8917,19 +8977,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.Receive
   nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.Receive
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncChara()
-  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync()
+  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncChara
-  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
+  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncIsEnabled
@@ -9067,19 +9127,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.Receive
   nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.Receive
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncChara()
-  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync()
+  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncChara
-  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
+  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncIsEnabled
@@ -9157,19 +9217,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.Receive
   nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.Receive
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncChara()
-  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync()
+  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncChara
-  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
+  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncIsEnabled
@@ -9506,15 +9566,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.New()
   nameWithType: MapBpPageViewModel.MapBpPageViewModel()
   nameWithType.vb: MapBpPageViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name: MapBpPageViewModel(ISharedDataService)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapBpPageViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)
-  nameWithType: MapBpPageViewModel.MapBpPageViewModel(ISharedDataService)
-  nameWithType.vb: MapBpPageViewModel.New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
+  name: MapBpPageViewModel(ISharedDataService, IMessageBoxService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
+  name.vb: New(ISharedDataService, IMessageBoxService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapBpPageViewModel(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.New(neo_bpsys_wpf.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)
+  nameWithType: MapBpPageViewModel.MapBpPageViewModel(ISharedDataService, IMessageBoxService)
+  nameWithType.vb: MapBpPageViewModel.New(ISharedDataService, IMessageBoxService)
 - uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor*
   name: MapBpPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor_
@@ -9931,6 +9991,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.Receive
   nameWithType: MapBpPageViewModel.Receive
+- uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand
+  name: ResetMapBpCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_ResetMapBpCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand
+  nameWithType: MapBpPageViewModel.ResetMapBpCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand*
+  name: ResetMapBpCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_ResetMapBpCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand
+  nameWithType: MapBpPageViewModel.ResetMapBpCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel
   name: PickPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html
@@ -10016,19 +10089,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.RecordedChara
   nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncChara()
-  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync()
+  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncChara
-  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
+  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncIsEnabled
@@ -10106,19 +10179,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.RecordedChara
   nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncChara()
-  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync()
+  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncChara
-  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
+  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncIsEnabled
@@ -10196,19 +10269,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.IsActionNameCorrect
   nameWithType: PickPageViewModel.HunPickViewModel.IsActionNameCorrect
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncChara()
-  nameWithType: PickPageViewModel.HunPickViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync()
+  nameWithType: PickPageViewModel.HunPickViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncChara
-  nameWithType: PickPageViewModel.HunPickViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync
+  nameWithType: PickPageViewModel.HunPickViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncIsEnabled
@@ -10299,19 +10372,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
   nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncChara()
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync()
+  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncChara
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
+  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncIsEnabled
@@ -10389,19 +10462,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
   nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncChara()
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync()
+  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncChara
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
+  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncIsEnabled
@@ -10568,19 +10641,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SwapCharacterInPlayersCommand
   nameWithType: PickPageViewModel.SurPickViewModel.SwapCharacterInPlayersCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncChara
-  name: SyncChara()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncChara
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncChara()
-  nameWithType: PickPageViewModel.SurPickViewModel.SyncChara()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncChara*
-  name: SyncChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync
+  name: SyncCharaAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync()
+  nameWithType: PickPageViewModel.SurPickViewModel.SyncCharaAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync*
+  name: SyncCharaAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncChara
-  nameWithType: PickPageViewModel.SurPickViewModel.SyncChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync
+  nameWithType: PickPageViewModel.SurPickViewModel.SyncCharaAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncIsEnabled

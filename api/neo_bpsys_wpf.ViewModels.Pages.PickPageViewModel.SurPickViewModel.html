@@ -101,7 +101,7 @@ Class PickPageViewModel.SurPickViewModel
 需要派生类所做的是: <br>
 1.设置<a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_CharaList">CharaList</a><br>
 2.设置<a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_IsEnabled">IsEnabled</a><br>
-3.实现<a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_SyncChara">SyncChara()</a></p>
+3.实现<a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_SyncCharaAsync">SyncCharaAsync()</a></p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -118,6 +118,7 @@ Class PickPageViewModel.SurPickViewModel
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
       <div><span class="xref">ObservableRecipient</span></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
       <div><a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html">CharaSelectViewModelBase</a></div>
       <div><span class="xref">PickPageViewModel.SurPickViewModel</span></div>
     </dd>
@@ -167,6 +168,9 @@ Class PickPageViewModel.SurPickViewModel
     </div>
     <div>
       <a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand">CharaSelectViewModelBase.ConfirmCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T, T&gt;, string)</a>
     </div>
   </dd></dl>
 
@@ -256,12 +260,12 @@ Class PickPageViewModel.SurPickViewModel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Controls.CharacterChangerCommandParameter.html">SwapCharacterInPlayers(CharacterChangerCommandParameter)</a>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Controls.CharacterChangerCommandParameter.html">SwapCharacterInPlayersAsync(CharacterChangerCommandParameter)</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;CharacterChangerCommandParameter&gt; SwapCharacterInPlayersCommand { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IAsyncRelayCommand&lt;CharacterChangerCommandParameter&gt; SwapCharacterInPlayersCommand { get; }</code></pre>
   </div>
 
 
@@ -270,7 +274,7 @@ Class PickPageViewModel.SurPickViewModel
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="neo_bpsys_wpf.Controls.CharacterChangerCommandParameter.html">CharacterChangerCommandParameter</a>&gt;</dt>
+    <dt><span class="xref">IAsyncRelayCommand</span>&lt;<a class="xref" href="neo_bpsys_wpf.Controls.CharacterChangerCommandParameter.html">CharacterChangerCommandParameter</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -289,7 +293,7 @@ Class PickPageViewModel.SurPickViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Enums_GameAction__" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Enums.GameAction})">
   IsActionNameCorrect(GameAction?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L205"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -325,7 +329,7 @@ Class PickPageViewModel.SurPickViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_CharacterSwappedMessage_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.CharacterSwappedMessage)">
   Receive(CharacterSwappedMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L195"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.CharacterSwappedMessage.html">CharacterSwappedMessage</a> message instance.</p>
@@ -358,7 +362,7 @@ Class PickPageViewModel.SurPickViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_MemberPropertyChangedMessage_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.MemberPropertyChangedMessage)">
   Receive(MemberPropertyChangedMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html">MemberPropertyChangedMessage</a> message instance.</p>
@@ -391,7 +395,7 @@ Class PickPageViewModel.SurPickViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_NewGameMessage_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.NewGameMessage)">
   Receive(NewGameMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L223"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.NewGameMessage.html">NewGameMessage</a> message instance.</p>
@@ -424,7 +428,7 @@ Class PickPageViewModel.SurPickViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_PlayerSwappedMessage_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.PlayerSwappedMessage)">
   Receive(PlayerSwappedMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L207"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.PlayerSwappedMessage.html">PlayerSwappedMessage</a> message instance.</p>
@@ -457,7 +461,7 @@ Class PickPageViewModel.SurPickViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_Receive_neo_bpsys_wpf_Messages_SwapMessage_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.Receive(neo_bpsys_wpf.Messages.SwapMessage)">
   Receive(SwapMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L217"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.SwapMessage.html">SwapMessage</a> message instance.</p>
@@ -486,10 +490,10 @@ Class PickPageViewModel.SurPickViewModel
 
 
 
-  <a id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncChara_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncChara*"></a>
+  <a id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaAsync_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncChara" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncChara">
-  SyncChara()
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaAsync" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync">
+  SyncCharaAsync()
   <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -497,10 +501,15 @@ Class PickPageViewModel.SurPickViewModel
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SyncChara()</code></pre>
+    <pre><code class="lang-csharp hljs">public override Task SyncCharaAsync()</code></pre>
   </div>
 
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -516,7 +525,7 @@ Class PickPageViewModel.SurPickViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncIsEnabled" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncIsEnabled">
   SyncIsEnabled()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

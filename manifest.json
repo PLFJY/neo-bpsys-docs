@@ -172,7 +172,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList\" data-throw-if-not-resolved=\"false\"></xref><br>\n2.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref><br>\n3.实现<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncChara\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList\" data-throw-if-not-resolved=\"false\"></xref><br>\n2.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref><br>\n3.实现<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1208,7 +1222,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Models.MapV2",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.MapV2.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1306,7 +1320,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Models.Settings",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Settings.yml\" sourcestartlinenumber=\"1\">A base class for objects of which the properties must be observable.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1320,7 +1334,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Models.Talent",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Talent.yml\" sourcestartlinenumber=\"1\">A base class for objects of which the properties must be observable.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1768,7 +1782,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.yml\" sourcestartlinenumber=\"1\">A base class for objects of which the properties must be observable.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1796,7 +1810,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1824,7 +1838,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1838,7 +1852,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1922,7 +1936,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList\" data-throw-if-not-resolved=\"false\"></xref><br>\n2.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref><br>\n3.实现<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncChara\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList\" data-throw-if-not-resolved=\"false\"></xref><br>\n2.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref><br>\n3.实现<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1936,7 +1950,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1964,7 +1978,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1978,7 +1992,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.yml\" sourcestartlinenumber=\"1\">A base class for objects of which the properties must be observable.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1992,7 +2006,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2034,7 +2048,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2048,7 +2062,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2076,7 +2090,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2090,7 +2104,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2104,7 +2118,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2118,7 +2132,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2132,7 +2146,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for objects of which the properties must be observable.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2146,7 +2160,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2160,7 +2174,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2867,6 +2881,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/前台UI个性化区域.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/前台UI个性化区域.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/前台管理.png",
       "output": {
         "resource": {
@@ -2911,6 +2935,16 @@
       "output": {
         "resource": {
           "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/待选择框开关.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/快捷入口区域.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/快捷入口区域.png"
         }
       },
       "version": ""
@@ -3046,6 +3080,16 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/软件信息区域.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/软件信息区域.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/前台管理.md",
       "output": {
@@ -3161,6 +3205,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/neo-bpsys-wpf使用文档/页面/队伍信息.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/images/Pasted image 20250727150607.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/images/Pasted image 20250727150607.png"
         }
       },
       "version": ""

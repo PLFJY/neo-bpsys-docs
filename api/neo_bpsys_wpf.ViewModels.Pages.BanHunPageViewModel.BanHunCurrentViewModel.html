@@ -113,6 +113,7 @@ Class BanHunPageViewModel.BanHunCurrentViewModel  <a class="header-action link-s
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
       <div><span class="xref">ObservableRecipient</span></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
       <div><a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html">CharaSelectViewModelBase</a></div>
       <div><span class="xref">BanHunPageViewModel.BanHunCurrentViewModel</span></div>
     </dd>
@@ -162,6 +163,9 @@ Class BanHunPageViewModel.BanHunCurrentViewModel  <a class="header-action link-s
     </div>
     <div>
       <a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand">CharaSelectViewModelBase.ConfirmCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T, T&gt;, string)</a>
     </div>
   </dd></dl>
 
@@ -215,7 +219,7 @@ Class BanHunPageViewModel.BanHunCurrentViewModel  <a class="header-action link-s
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Enums_GameAction__" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Enums.GameAction})">
   IsActionNameCorrect(GameAction?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -280,10 +284,10 @@ Class BanHunPageViewModel.BanHunCurrentViewModel  <a class="header-action link-s
 
 
 
-  <a id="neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncChara_" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncChara*"></a>
+  <a id="neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaAsync_" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncChara" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncChara">
-  SyncChara()
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaAsync" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync">
+  SyncCharaAsync()
   <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -291,10 +295,15 @@ Class BanHunPageViewModel.BanHunCurrentViewModel  <a class="header-action link-s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SyncChara()</code></pre>
+    <pre><code class="lang-csharp hljs">public override Task SyncCharaAsync()</code></pre>
   </div>
 
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -310,7 +319,7 @@ Class BanHunPageViewModel.BanHunCurrentViewModel  <a class="header-action link-s
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncIsEnabled" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncIsEnabled">
   SyncIsEnabled()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanHunPageViewModel.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

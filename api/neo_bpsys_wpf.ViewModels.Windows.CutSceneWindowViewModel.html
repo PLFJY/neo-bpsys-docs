@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CutSceneWindowViewModel | neo-bpsys Docs ">
       
-      <meta name="description" content="A base class for observable objects that also acts as recipients for messages. This class is an extension of  which also provides built-in support to use the  type.">
+      
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,13 +97,11 @@ Class CutSceneWindowViewModel
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A base class for observable objects that also acts as recipients for messages. This class is an extension of
-<span class="xref">CommunityToolkit.Mvvm.ComponentModel.ObservableObject</span> which also provides built-in support to use the <span class="xref">CommunityToolkit.Mvvm.Messaging.IMessenger</span> type.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CutSceneWindowViewModel : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public class CutSceneWindowViewModel : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -115,6 +113,7 @@ Class CutSceneWindowViewModel
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
       <div><span class="xref">ObservableRecipient</span></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">CutSceneWindowViewModel</span></div>
     </dd>
   </dl>
@@ -128,6 +127,13 @@ Class CutSceneWindowViewModel
   </dl>
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T, T&gt;, string)</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -142,7 +148,7 @@ Class CutSceneWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor">
   CutSceneWindowViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -168,7 +174,7 @@ Class CutSceneWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_CutSceneWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_" data-uid="neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService)">
   CutSceneWindowViewModel(ISharedDataService, ISettingsHostService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/CutSceneWindowViewModel.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

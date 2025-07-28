@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ScoreManualWindowViewModel | neo-bpsys Docs ">
       
-      <meta name="description" content="A base class for objects of which the properties must be observable.">
+      
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,12 +97,11 @@ Class ScoreManualWindowViewModel
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A base class for objects of which the properties must be observable.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScoreManualWindowViewModel : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public class ScoreManualWindowViewModel : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -113,6 +112,8 @@ Class ScoreManualWindowViewModel
     <dd>
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableRecipient</span></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">ScoreManualWindowViewModel</span></div>
     </dd>
   </dl>
@@ -126,6 +127,13 @@ Class ScoreManualWindowViewModel
   </dl>
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T, T&gt;, string)</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -140,7 +148,7 @@ Class ScoreManualWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.#ctor">
   ScoreManualWindowViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/ScoreManualWindowViewModel.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/ScoreManualWindowViewModel.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -166,7 +174,7 @@ Class ScoreManualWindowViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_ScoreManualWindowViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_" data-uid="neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)">
   ScoreManualWindowViewModel(ISharedDataService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/ScoreManualWindowViewModel.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/ScoreManualWindowViewModel.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

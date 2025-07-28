@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class MapBpPageViewModel | neo-bpsys Docs ">
       
-      <meta name="description" content="A base class for observable objects that also acts as recipients for messages. This class is an extension of  which also provides built-in support to use the  type.">
+      
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,13 +97,11 @@ Class MapBpPageViewModel
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A base class for observable objects that also acts as recipients for messages. This class is an extension of
-<span class="xref">CommunityToolkit.Mvvm.ComponentModel.ObservableObject</span> which also provides built-in support to use the <span class="xref">CommunityToolkit.Mvvm.Messaging.IMessenger</span> type.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MapBpPageViewModel : ObservableRecipient, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public class MapBpPageViewModel : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -115,6 +113,7 @@ Class MapBpPageViewModel
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
       <div><span class="xref">ObservableRecipient</span></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">MapBpPageViewModel</span></div>
     </dd>
   </dl>
@@ -128,6 +127,13 @@ Class MapBpPageViewModel
   </dl>
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T, T&gt;, string)</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -142,7 +148,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor">
   MapBpPageViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -166,21 +172,23 @@ Class MapBpPageViewModel
 
   <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService)">
-  MapBpPageViewModel(ISharedDataService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService)">
+  MapBpPageViewModel(ISharedDataService, IMessageBoxService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MapBpPageViewModel(ISharedDataService sharedDataService)</code></pre>
+    <pre><code class="lang-csharp hljs">public MapBpPageViewModel(ISharedDataService sharedDataService, IMessageBoxService messageBoxService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
+    <dd></dd>
+    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
     <dd></dd>
   </dl>
 
@@ -328,7 +336,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_IsBreathing" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.IsBreathing">
   IsBreathing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -359,7 +367,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_IsCampVisible" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.IsCampVisible">
   IsCampVisible
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -421,7 +429,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_MapSelectTeamsList" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeamsList">
   MapSelectTeamsList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -515,7 +523,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickedMap" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickedMap">
   PickedMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -546,7 +554,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_PickedMapSelections" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.PickedMapSelections">
   PickedMapSelections
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -573,6 +581,38 @@ Class MapBpPageViewModel
 
 
 
+  <a id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_ResetMapBpCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_ResetMapBpCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand">
+  ResetMapBpCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpAsync()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncRelayCommand ResetMapBpCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -581,7 +621,7 @@ Class MapBpPageViewModel
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_Receive_neo_bpsys_wpf_Messages_HighlightMessage_" data-uid="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.Receive(neo_bpsys_wpf.Messages.HighlightMessage)">
   Receive(HighlightMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/MapBpPageViewModel.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Messages.HighlightMessage.html">HighlightMessage</a> message instance.</p>
