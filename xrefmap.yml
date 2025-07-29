@@ -1176,15 +1176,15 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction
   nameWithType: ViewModelBase.SetPropertyWithAction
-- uid: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction``1(``0@,``0,System.Action{``0,``0},System.String)
-  name: SetPropertyWithAction<T>(ref T, T, Action<T, T>?, string?)
-  href: api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0___0__System_String_
-  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction``1(``0@,``0,System.Action{``0,``0},System.String)
-  name.vb: SetPropertyWithAction(Of T)(T, T, Action(Of T, T), String)
-  fullName: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction<T>(ref T, T, System.Action<T, T>?, string?)
-  fullName.vb: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction(Of T)(T, T, System.Action(Of T, T), String)
-  nameWithType: ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T, T>?, string?)
-  nameWithType.vb: ViewModelBase.SetPropertyWithAction(Of T)(T, T, Action(Of T, T), String)
+- uid: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction``1(``0@,``0,System.Action{``0},System.String)
+  name: SetPropertyWithAction<T>(ref T, T, Action<T>?, string?)
+  href: api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_
+  commentId: M:neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction``1(``0@,``0,System.Action{``0},System.String)
+  name.vb: SetPropertyWithAction(Of T)(T, T, Action(Of T), String)
+  fullName: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction<T>(ref T, T, System.Action<T>?, string?)
+  fullName.vb: neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.SetPropertyWithAction(Of T)(T, T, System.Action(Of T), String)
+  nameWithType: ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>?, string?)
+  nameWithType.vb: ViewModelBase.SetPropertyWithAction(Of T)(T, T, Action(Of T), String)
 - uid: neo_bpsys_wpf.App
   name: App
   href: api/neo_bpsys_wpf.App.html
@@ -10004,6 +10004,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.ResetMapBpCommand
   nameWithType: MapBpPageViewModel.ResetMapBpCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.SelectedIndex
+  name: SelectedIndex
+  href: api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_SelectedIndex
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.SelectedIndex
+  fullName: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.SelectedIndex
+  nameWithType: MapBpPageViewModel.SelectedIndex
+- uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.SelectedIndex*
+  name: SelectedIndex
+  href: api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_MapBpPageViewModel_SelectedIndex_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.SelectedIndex
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.SelectedIndex
+  nameWithType: MapBpPageViewModel.SelectedIndex
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel
   name: PickPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html

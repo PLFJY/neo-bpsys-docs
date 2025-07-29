@@ -494,7 +494,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Converters.BooleanToEnumConverter",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.BooleanToEnumConverter.yml\" sourcestartlinenumber=\"1\">转换布尔值到枚举</p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.BooleanToEnumConverter.yml\" sourcestartlinenumber=\"1\">转换布尔值到枚举，用于支持RadioButton与枚举类型的双向绑定</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2541,6 +2541,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/修改上场选手顺序.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/images/修改上场选手顺序.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/前台管理.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/images/前台管理.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/宣读.png",
       "output": {
         "resource": {
@@ -2561,10 +2581,60 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/对局引导_未开始.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/images/对局引导_未开始.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/比分控制.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/images/比分控制.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/记录.png",
       "output": {
         "resource": {
           "relative_path": "docs/neo-bpsys-wpf使用文档/images/记录.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/设置赛制.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/images/设置赛制.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/设置队伍信息及上场选手.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/images/设置队伍信息及上场选手.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/赛后数据页面.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/images/赛后数据页面.png"
         }
       },
       "version": ""
