@@ -6,7 +6,7 @@
         {
           "src": "../neo-bpsys-wpf",
           "files": [
-            "**/*.csproj"
+            "**/neo-bpsys-wpf.Core.csproj"
           ]
         }
       ],
