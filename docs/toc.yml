@@ -65,4 +65,18 @@
         - name: 修改前台画面
           href: neo-bpsys-wpf使用文档/高级选项/修改前台画面.md
 - name: 开发文档
-  href: 开发文档.md
+  items: 
+    - name: 开始
+    - href: 开始.md
+    - name: 命名规范
+    - href: 命名规范.md
+    - name: (新) 核心数据流架构
+    - href: (新) 核心数据流架构.md
+    - name: 插件开发文档
+    - href: 插件开发文档.md
+    - name: (给Core-dev) Commit提交规范
+    - href: (给Core-dev) Commit提交规范.md
+    - name: (给Core-dev) 版本号迭代原则.md
+    - href: (给Core-dev) 版本号迭代原则.md
+    - name: (给Core-dev) 仓库管理规范.md
+    - href: (给Core-dev) 仓库管理规范.md
