@@ -21,6 +21,2525 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IFilePickerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IFilePickerService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.IFilePickerService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.Services.IFilePickerService.yml\" sourcestartlinenumber=\"1\">文件选择服务接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IFrontService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IFrontService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.IFrontService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.Services.IFrontService.yml\" sourcestartlinenumber=\"1\">前台窗口接口服务</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService.yml\" sourcestartlinenumber=\"1\">对局引导服务接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IInfoBarService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.IInfoBarService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.Services.IInfoBarService.yml\" sourcestartlinenumber=\"1\">信息框服务接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.IMessageBoxService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.yml\" sourcestartlinenumber=\"1\">提示框服务接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.ISettingsHostService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.yml\" sourcestartlinenumber=\"1\">应用设置服务接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.ISharedDataService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.ISharedDataService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.Services.ISharedDataService.yml\" sourcestartlinenumber=\"1\">共享数据服务接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IUpdaterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services.IUpdaterService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.Services.IUpdaterService.yml\" sourcestartlinenumber=\"1\">更新服务接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList\" data-throw-if-not-resolved=\"false\"></xref><br>\n2.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref><br>\n3.实现<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Abstractions.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Abstractions.ViewModels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Abstractions.ViewModels",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.App",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.App.yml\" sourcestartlinenumber=\"1\">Interaction logic for App.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.DesignBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.DesignBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.AttachedBehaviors.DesignBehavior",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.ToggleButtonAttach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.ToggleButtonAttach.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.AttachedBehaviors.ToggleButtonAttach",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.AttachedBehaviors",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.CanvasAdorner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.CanvasAdorner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.CanvasAdorner",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.CanvasAdorner.yml\" sourcestartlinenumber=\"1\">设计者模式下的控件Adorner，用于调整控件大小和显示控件名称</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.CharacterChanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.CharacterChanger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.CharacterChanger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.CharacterChangerCommandParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.CharacterChangerCommandParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.CharacterChangerCommandParameter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.CharacterSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.CharacterSelector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.CharacterSelector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.CustomTitleBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.CustomTitleBar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.CustomTitleBar",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.CustomTitleBar.yml\" sourcestartlinenumber=\"1\">CustomTitleBar.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.GameDataEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.GameDataEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.GameDataEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.GlobalScorePresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.GlobalScorePresenter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.GlobalScorePresenter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.MapV2Presenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.MapV2Presenter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.MapV2Presenter",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.MapV2Presenter.yml\" sourcestartlinenumber=\"1\">MapV2Presenter.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.TalentPicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.TalentPicker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.TalentPicker",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.TalentPicker.yml\" sourcestartlinenumber=\"1\">天赋选择器，传入玩家即可</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier<T>",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier-1.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task%601\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.TextSettingsEditControl.TaskNotifier.yml\" sourcestartlinenumber=\"1\">A wrapping class that can hold a <xref href=\"System.Threading.Tasks.Task\" data-throw-if-not-resolved=\"false\"></xref> value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.TextSettingsEditControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.TextSettingsEditControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.TextSettingsEditControl",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.TextSettingsEditControl.yml\" sourcestartlinenumber=\"1\">TextSettingsEditControl.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.ToggleStyledRadioButton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.ToggleStyledRadioButton",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.ApplicationThemeToBooleanConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.ApplicationThemeToBooleanConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.ApplicationThemeToBooleanConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.BooleanMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.BooleanMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.BooleanMultiConverter",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.BooleanMultiConverter.yml\" sourcestartlinenumber=\"1\">转换多个布尔值到一个布尔值，用于合并待选框1和2的</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.BooleanToEnumConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.BooleanToEnumConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.BooleanToEnumConverter",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.BooleanToEnumConverter.yml\" sourcestartlinenumber=\"1\">转换布尔值到枚举，用于支持RadioButton与枚举类型的双向绑定</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.BooleanToReverseVisibilityConverter.yml\" sourcestartlinenumber=\"1\">布尔值转换为可见性</p>\n<p>true 对应 Collapsed</p>\n<p>false 对应 Visible</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.CampHunToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.CampHunToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.CampSurToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.CampSurToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.CampToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.CampToStringConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.CampToStringConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.CharacterChangerCommandParameterConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.CharacterChangerCommandParameterConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.CharacterChangerCommandParameterConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.DoubleToThicknessConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.DoubleToThicknessConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.DoubleToThicknessConverter",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.DoubleToThicknessConverter.yml\" sourcestartlinenumber=\"1\">将Double的Spacing值转换为Margin的Right值</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.FontWeightJsonConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.GameProgressToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.GameProgressToStringConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.GameProgressToStringConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.IndexToButtonContentConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.IndexToButtonContentConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.IndexToButtonContentConverter",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.IndexToButtonContentConverter.yml\" sourcestartlinenumber=\"1\">将Index转换为CharacterChanger的Button Content，对应Button的Nmae的数字-1</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.IntPlusOneConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.IntPlusOneConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.IntPlusOneConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.InverseBooleanConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.InverseBooleanConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.InverseBooleanConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.NullObjectToReverseVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.NullObjectToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.ObjectToBooleanConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.ObjectToBooleanConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.ObjectToBooleanConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.StringToDoubleConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.StringToDoubleConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.StringToDoubleConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.BanListName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.BanListName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.BanListName",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.Camp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.Camp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.Camp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.FrontWindowType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.FrontWindowType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.FrontWindowType",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Enums.FrontWindowType.yml\" sourcestartlinenumber=\"1\">前台窗口类型枚举</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.GameAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.GameAction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.GameAction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.GameProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.GameProgress.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.GameProgress",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.GameResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.GameResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.GameResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.ImageSourceKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.ImageSourceKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.ImageSourceKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.Map.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.Map",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.TeamType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.TeamType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.TeamType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.Trait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.Trait.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums.Trait",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Enums.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Enums",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Exceptions.GuidanceNotSupportedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Exceptions.GuidanceNotSupportedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Exceptions.GuidanceNotSupportedException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Helpers.ColorHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Helpers.ColorHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Helpers.ColorHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Helpers.ImageHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Helpers.ImageHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Helpers.ImageHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.BanCountChangedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.BanCountChangedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.BanCountChangedMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.CharacterSwappedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.CharacterSwappedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.CharacterSwappedMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.DesignModeChangedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.DesignModeChangedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.DesignModeChangedMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.HighlightMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.HighlightMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.HighlightMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.MemberOnFieldChangedMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.MemberPropertyChangedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.MemberPropertyChangedMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.NewGameMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.NewGameMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.NewGameMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.PlayerSwappedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.PlayerSwappedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.PlayerSwappedMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.SettingsChangedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.SettingsChangedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.SettingsChangedMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.SwapMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.SwapMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages.SwapMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Messages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Messages",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.BpWindowSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.BpWindowSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.BpWindowSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.BpWindowSettings.yml\" sourcestartlinenumber=\"1\">BP窗口设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.BpWindowTextSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.BpWindowTextSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.BpWindowTextSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.BpWindowTextSettings.yml\" sourcestartlinenumber=\"1\">BP窗口文本设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Character.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Character.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Character",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Character.yml\" sourcestartlinenumber=\"1\">角色类, 属性设定均由构造函数完成，不存在后续修改</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.CutSceneWindowSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.CutSceneWindowSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.CutSceneWindowSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.CutSceneWindowSettings.yml\" sourcestartlinenumber=\"1\">过场窗口设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.CutSceneWindowTextSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.CutSceneWindowTextSettings.yml\" sourcestartlinenumber=\"1\">过场窗口文本设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Game.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Game",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Game.yml\" sourcestartlinenumber=\"1\">对局类, 创建需要导入 <xref href=\"neo_bpsys_wpf.Models.Game.SurTeam\" data-throw-if-not-resolved=\"false\"></xref> 和 <xref href=\"neo_bpsys_wpf.Models.Game.HunTeam\" data-throw-if-not-resolved=\"false\"></xref> 两支队伍以及对局进度</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.GameDataWindowSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.GameDataWindowSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.GameDataWindowSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.GameDataWindowSettings.yml\" sourcestartlinenumber=\"1\">赛后数据窗口设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.GameDataWindowTextSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.GameDataWindowTextSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.GameDataWindowTextSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.GameDataWindowTextSettings.yml\" sourcestartlinenumber=\"1\">赛后数据窗口文本设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.MapV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.MapV2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.MapV2",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Member.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Member",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Member.yml\" sourcestartlinenumber=\"1\">选手类, 注意与 <xref href=\"neo_bpsys_wpf.Models.Player\" data-throw-if-not-resolved=\"false\"></xref> 类做区分，这是表示上场的选手，本类是表示队伍内的成员, <xref href=\"neo_bpsys_wpf.Models.Member\" data-throw-if-not-resolved=\"false\"></xref> 被它所操纵的 <xref href=\"neo_bpsys_wpf.Models.Player\" data-throw-if-not-resolved=\"false\"></xref> 包含</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Player",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Player.yml\" sourcestartlinenumber=\"1\">选手类, 注意与 <xref href=\"neo_bpsys_wpf.Models.Member\" data-throw-if-not-resolved=\"false\"></xref> 类做区分，这是表示队伍内的成员，本类是表示上场的选手, <xref href=\"neo_bpsys_wpf.Models.Player\" data-throw-if-not-resolved=\"false\"></xref> 类包含操纵它的 <xref href=\"neo_bpsys_wpf.Models.Member\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.PlayerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.PlayerData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.PlayerData",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.PlayerData.yml\" sourcestartlinenumber=\"1\">赛后数据类，用于存储赛后数据</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Score.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Score.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Score",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Score.yml\" sourcestartlinenumber=\"1\">比分类, 用于展示比分</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.ScoreWindowSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.ScoreWindowSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.ScoreWindowSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.ScoreWindowSettings.yml\" sourcestartlinenumber=\"1\">比分窗口设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.ScoreWindowTextSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.ScoreWindowTextSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.ScoreWindowTextSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.ScoreWindowTextSettings.yml\" sourcestartlinenumber=\"1\">分数窗口文本设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Talent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Talent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Talent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Team.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Team",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Team.yml\" sourcestartlinenumber=\"1\">队伍类, <xref href=\"neo_bpsys_wpf.Services.SharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 中主队和客队对应的对象全场始终不变，信息导入依靠 <xref href=\"neo_bpsys_wpf.Models.Team.ImportTeamInfo(neo_bpsys_wpf.Models.Team)\" data-throw-if-not-resolved=\"false\"></xref> 方法</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.TextSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.TextSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.TextSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.TextSettings.yml\" sourcestartlinenumber=\"1\">文本设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.Trait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.Trait.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.Trait",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.Trait.yml\" sourcestartlinenumber=\"1\">天赋类, 属性设定均由构造函数完成，不存在后续修改</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.WidgetsWindowSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.WidgetsWindowSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.WidgetsWindowSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.WidgetsWindowSettings.yml\" sourcestartlinenumber=\"1\">小组件窗口设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.WidgetsWindowTextSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Models.WidgetsWindowTextSettings.yml\" sourcestartlinenumber=\"1\">小组件窗口文本设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.WindowResolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.WindowResolution.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models.WindowResolution",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.ApplicationHostService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.ApplicationHostService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.ApplicationHostService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.ApplicationHostService.yml\" sourcestartlinenumber=\"1\">应用程序启动服务，包含导航页面预加载</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.FilePickerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.FilePickerService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.FilePickerService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.FilePickerService.yml\" sourcestartlinenumber=\"1\">文件选择服务，实现了 <xref href=\"neo_bpsys_wpf.Abstractions.Services.IFilePickerService\" data-throw-if-not-resolved=\"false\"></xref> 接口\n用于封装文件选择操作</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.FrontService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.FrontService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.FrontService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.FrontService.yml\" sourcestartlinenumber=\"1\">对局引导服务, 实现了 <xref href=\"neo_bpsys_wpf.Abstractions.Services.IFrontService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责与前台窗口进行交互</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.GameGuidanceService.GameProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.GameGuidanceService.GameProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.GameGuidanceService.GameProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.GameGuidanceService.Step.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.GameGuidanceService.Step.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.GameGuidanceService.Step",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.GameGuidanceService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.GameGuidanceService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.GameGuidanceService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.GameGuidanceService.yml\" sourcestartlinenumber=\"1\">前台窗口服务, 实现了 <xref href=\"neo_bpsys_wpf.Abstractions.Services.IGameGuidanceService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责对局引导功能</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.InfoBarService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.InfoBarService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.InfoBarService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.InfoBarService.yml\" sourcestartlinenumber=\"1\">提示框服务, 实现了 <xref href=\"neo_bpsys_wpf.Abstractions.Services.IInfoBarService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责显示提示框</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.MessageBoxService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.MessageBoxService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.MessageBoxService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.MessageBoxService.yml\" sourcestartlinenumber=\"1\">信息框服务, 实现了 <xref href=\"neo_bpsys_wpf.Abstractions.Services.IMessageBoxService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责展示信息框</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.SettingsHostService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.SettingsHostService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.SettingsHostService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.SettingsHostService.yml\" sourcestartlinenumber=\"1\">设置服务, 实现了 <xref href=\"neo_bpsys_wpf.Abstractions.Services.ISettingsHostService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责设置相关的内容</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.SharedDataService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.SharedDataService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.SharedDataService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.SharedDataService.yml\" sourcestartlinenumber=\"1\">共享数据服务, 实现了 <xref href=\"neo_bpsys_wpf.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责全局的共享数据</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.TextSettingsNavigationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.TextSettingsNavigationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.UpdaterService.AssetsInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.UpdaterService.AssetsInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.UpdaterService.AssetsInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.UpdaterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.UpdaterService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.UpdaterService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.UpdaterService.yml\" sourcestartlinenumber=\"1\">更新服务</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Themes.IconThemesDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Themes.IconThemesDictionary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Themes.IconThemesDictionary",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Themes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Themes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Themes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelectTeam",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.MapSelection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList\" data-throw-if-not-resolved=\"false\"></xref><br>\n2.设置<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref><br>\n3.实现<xref href=\"neo_bpsys_wpf.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.yml\" sourcestartlinenumber=\"1\">A base class for objects of which the properties must be observable.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.yml\" sourcestartlinenumber=\"1\">A base class for observable objects that also acts as recipients for messages. This class is an extension of\n<xref href=\"CommunityToolkit.Mvvm.ComponentModel.ObservableObject\" data-throw-if-not-resolved=\"false\"></xref> which also provides built-in support to use the <xref href=\"CommunityToolkit.Mvvm.Messaging.IMessenger\" data-throw-if-not-resolved=\"false\"></xref> type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Windows.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Windows",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.BanHunPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.BanHunPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.BanHunPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.BanHunPage.yml\" sourcestartlinenumber=\"1\">BanHunPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.BanSurPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.BanSurPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.BanSurPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.BanSurPage.yml\" sourcestartlinenumber=\"1\">BanSurPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.ExtensionPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.ExtensionPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.ExtensionPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.ExtensionPage.yml\" sourcestartlinenumber=\"1\">ExtensionPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.FrontManagePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.FrontManagePage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.FrontManagePage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.FrontManagePage.yml\" sourcestartlinenumber=\"1\">FrontManagePage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.GameDataPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.GameDataPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.GameDataPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.GameDataPage.yml\" sourcestartlinenumber=\"1\">GameDataPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.HomePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.HomePage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.HomePage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.HomePage.yml\" sourcestartlinenumber=\"1\">HomePage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.MapBpPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.MapBpPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.MapBpPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.MapBpPage.yml\" sourcestartlinenumber=\"1\">MapBpPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.PickPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.PickPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.PickPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.PickPage.yml\" sourcestartlinenumber=\"1\">PickPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.ScorePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.ScorePage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.ScorePage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.ScorePage.yml\" sourcestartlinenumber=\"1\">ScorePage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.SettingPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.SettingPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.SettingPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.SettingPage.yml\" sourcestartlinenumber=\"1\">SettingPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.TalentPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.TalentPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.TalentPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.TalentPage.yml\" sourcestartlinenumber=\"1\">TalentPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.TeamInfoPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.TeamInfoPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.TeamInfoPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.TeamInfoPage.yml\" sourcestartlinenumber=\"1\">TeamInfoPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.BpWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.BpWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.BpWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.BpWindow.yml\" sourcestartlinenumber=\"1\">BpWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.CutSceneWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.CutSceneWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.CutSceneWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.CutSceneWindow.yml\" sourcestartlinenumber=\"1\">CutSceneWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.GameDataWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.GameDataWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.GameDataWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.GameDataWindow.yml\" sourcestartlinenumber=\"1\">GameDataWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.MainWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.MainWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.MainWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for MainWindow.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.ScoreGlobalWindow.yml\" sourcestartlinenumber=\"1\">ScoreGlobalWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.ScoreHunWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.ScoreHunWindow.yml\" sourcestartlinenumber=\"1\">ScoreHunWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreManualWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreManualWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.ScoreManualWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.ScoreManualWindow.yml\" sourcestartlinenumber=\"1\">ScoreManualWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.ScoreSurWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.ScoreSurWindow.yml\" sourcestartlinenumber=\"1\">ScoreSurWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.WidgetsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.WidgetsWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.WidgetsWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.WidgetsWindow.yml\" sourcestartlinenumber=\"1\">WidgetsWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "docs/neo-bpsys-wpf使用文档/images/修改上场选手顺序.png",
       "output": {
@@ -855,10 +3374,70 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/开发文档.md",
+      "source_relative_path": "docs/开发文档/(新) 核心数据流架构.md",
       "output": {
         ".html": {
-          "relative_path": "docs/开发文档.html"
+          "relative_path": "docs/开发文档/(新) 核心数据流架构.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/开发文档/(给Core-dev) Commit提交规范.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/开发文档/(给Core-dev) Commit提交规范.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/开发文档/(给Core-dev) 仓库管理规范.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/开发文档/(给Core-dev) 仓库管理规范.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/开发文档/(给Core-dev) 版本号迭代原则.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/开发文档/(给Core-dev) 版本号迭代原则.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/开发文档/命名规范.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/开发文档/命名规范.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/开发文档/开始.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/开发文档/开始.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/开发文档/插件开发文档.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/开发文档/插件开发文档.html"
         }
       },
       "version": ""

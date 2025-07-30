@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> | neo-bpsys Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" | neo-bpsys Docs ">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/开发文档/命名规范.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/favicon.ico" alt="neo-bpsys-wpf">
+            neo-bpsys-wpf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<h2 id="命名规范">命名规范</h2>
+<p>类Class、属性Property、方法Mothods 统一采用大驼峰命名法upper camel case</p>
+<p>字段Field 统一采用_+小驼峰命名法lower camel case</p>
+<h3 id="与游戏名词相关的术语">与游戏名词相关的术语</h3>
+<table>
+<thead>
+<tr>
+<th>Ban</th>
+<th>禁用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pick</td>
+<td>选择</td>
+</tr>
+<tr>
+<td>Sur</td>
+<td>求生者</td>
+</tr>
+<tr>
+<td>Hun</td>
+<td>监管者</td>
+</tr>
+<tr>
+<td>Camp</td>
+<td>阵营</td>
+</tr>
+<tr>
+<td>Talent</td>
+<td>天赋</td>
+</tr>
+<tr>
+<td>Trait</td>
+<td>辅助特质</td>
+</tr>
+<tr>
+<td>Game</td>
+<td>对局，单独出现时是单个游戏对局，在GameProgress中是指一个回合</td>
+</tr>
+<tr>
+<td>Character/Chara</td>
+<td>角色</td>
+</tr>
+<tr>
+<td>Map</td>
+<td>地图</td>
+</tr>
+<tr>
+<td>GameProgress</td>
+<td>对局进度，如Game1FirstHalf 第一局上半场</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>队伍</td>
+</tr>
+<tr>
+<td>Main</td>
+<td>主队</td>
+</tr>
+<tr>
+<td>Away</td>
+<td>客队</td>
+</tr>
+<tr>
+<td>Member</td>
+<td>队伍成员</td>
+</tr>
+<tr>
+<td>Player</td>
+<td>选手（包含Member）</td>
+</tr>
+<tr>
+<td>OnField</td>
+<td>已上场</td>
+</tr>
+<tr>
+<td>Score</td>
+<td>比分</td>
+</tr>
+<tr>
+<td>Win</td>
+<td>胜</td>
+</tr>
+<tr>
+<td>Lose</td>
+<td>负（前台的好像用不着了）</td>
+</tr>
+<tr>
+<td>Tie</td>
+<td>平</td>
+</tr>
+<tr>
+<td>MinorPoint</td>
+<td>小比分</td>
+</tr>
+<tr>
+<td>MajorPoint</td>
+<td>大比分</td>
+</tr>
+<tr>
+<td>Front</td>
+<td>前台（bp展示界面）</td>
+</tr>
+<tr>
+<td>Interlude</td>
+<td>过场画面，展示阵容和天赋</td>
+</tr>
+<tr>
+<td>GameData</td>
+<td>赛后数据</td>
+</tr>
+</tbody>
+</table>
+<p>禁用Ban的部分统一采用动词在前如BanHun（禁用监管者），其余均为名词在前的命名比如（SurPick求生者选择）</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/开发文档/命名规范.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

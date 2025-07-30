@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SettingPageViewModel | neo-bpsys Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SettingPageViewModel | neo-bpsys Docs ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/favicon.ico" alt="neo-bpsys-wpf">
+            neo-bpsys-wpf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel">
+
+
+
+  <h1 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel" class="text-break">
+Class SettingPageViewModel  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="neo_bpsys_wpf.html">neo_bpsys_wpf</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.html">ViewModels</a>.<a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.html">Pages</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SettingPageViewModel : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableRecipient</span></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><span class="xref">SettingPageViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor">
+  SettingPageViewModel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SettingPageViewModel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel__ctor_neo_bpsys_wpf_Abstractions_Services_IUpdaterService_neo_bpsys_wpf_Abstractions_Services_ISettingsHostService_neo_bpsys_wpf_Abstractions_Services_ITextSettingsNavigationService_neo_bpsys_wpf_Abstractions_Services_IFrontService_neo_bpsys_wpf_Abstractions_Services_IFilePickerService_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_ISharedDataService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.#ctor(neo_bpsys_wpf.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Abstractions.Services.ISettingsHostService,neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService,neo_bpsys_wpf.Abstractions.Services.IFrontService,neo_bpsys_wpf.Abstractions.Services.IFilePickerService,neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.ISharedDataService)">
+  SettingPageViewModel(IUpdaterService, ISettingsHostService, ITextSettingsNavigationService, IFrontService, IFilePickerService, IMessageBoxService, ISharedDataService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SettingPageViewModel(IUpdaterService updaterService, ISettingsHostService settingsHostService, ITextSettingsNavigationService textSettingsNavigationService, IFrontService frontService, IFilePickerService filePickerService, IMessageBoxService messageBoxService, ISharedDataService sharedDataService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>updaterService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html">IUpdaterService</a></dt>
+    <dd></dd>
+    <dt><code>settingsHostService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISettingsHostService.html">ISettingsHostService</a></dt>
+    <dd></dd>
+    <dt><code>textSettingsNavigationService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ITextSettingsNavigationService.html">ITextSettingsNavigationService</a></dt>
+    <dd></dd>
+    <dt><code>frontService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IFrontService.html">IFrontService</a></dt>
+    <dd></dd>
+    <dt><code>filePickerService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IFilePickerService.html">IFilePickerService</a></dt>
+    <dd></dd>
+    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
+    <dd></dd>
+    <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AppVersion_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AppVersion" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion">
+  AppVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AppVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowPickingColorSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowPickingColorSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowPickingColorSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowPickingColorSettings">
+  BpWindowPickingColorSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color BpWindowPickingColorSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowTextSettings">
+  BpWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; BpWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CancelDownloadCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CancelDownloadCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownloadCommand">
+  CancelDownloadCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CancelDownload()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand CancelDownloadCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CutSceneWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CutSceneWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_CutSceneWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.CutSceneWindowTextSettings">
+  CutSceneWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L453"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; CutSceneWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_DownloadProgress_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgress*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_DownloadProgress" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgress">
+  DownloadProgress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DownloadProgress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_DownloadProgressText_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgressText*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_DownloadProgressText" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.DownloadProgressText">
+  DownloadProgressText
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DownloadProgressText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditBpWindowImagesCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditBpWindowImagesCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditBpWindowImagesCommand">
+  EditBpWindowImagesCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">EditBpWindowImages(string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;string&gt; EditBpWindowImagesCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditCutSceneWindowImagesCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImagesCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditCutSceneWindowImagesCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImagesCommand">
+  EditCutSceneWindowImagesCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditCutSceneWindowImages()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand EditCutSceneWindowImagesCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditGameDataWindowImagesCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImagesCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditGameDataWindowImagesCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImagesCommand">
+  EditGameDataWindowImagesCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditGameDataWindowImages()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand EditGameDataWindowImagesCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditScoreWindowImagesCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditScoreWindowImagesCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditScoreWindowImagesCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditScoreWindowImagesCommand">
+  EditScoreWindowImagesCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">EditScoreWindowImages(string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;string&gt; EditScoreWindowImagesCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditTextSettingsCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditTextSettingsCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditTextSettingsCommand">
+  EditTextSettingsCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">EditTextSettings(FrontWindowType)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;FrontWindowType&gt; EditTextSettingsCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditWidgetsWindowImagesCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditWidgetsWindowImagesCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_EditWidgetsWindowImagesCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.EditWidgetsWindowImagesCommand">
+  EditWidgetsWindowImagesCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">EditWidgetsWindowImages(string)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand&lt;string&gt; EditWidgetsWindowImagesCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GameDataWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GameDataWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GameDataWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GameDataWindowTextSettings">
+  GameDataWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L459"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; GameDataWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GlobalScoreTotalMargin_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GlobalScoreTotalMargin*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_GlobalScoreTotalMargin" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.GlobalScoreTotalMargin">
+  GlobalScoreTotalMargin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GlobalScoreTotalMargin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToConfigDirCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToConfigDirCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDirCommand">
+  HopToConfigDirCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToConfigDir()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HopToConfigDirCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToGameOutputDirCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToGameOutputDirCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDirCommand">
+  HopToGameOutputDirCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToGameOutputDir()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HopToGameOutputDirCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToLogDirCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDirCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_HopToLogDirCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDirCommand">
+  HopToLogDirCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.HopToLogDir()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand HopToLogDirCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_InstallUpdateCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_InstallUpdateCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdateCommand">
+  InstallUpdateCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.InstallUpdate()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand InstallUpdateCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsDownloadFinished_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloadFinished*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsDownloadFinished" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloadFinished">
+  IsDownloadFinished
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDownloadFinished { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsDownloading_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsDownloading" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsDownloading">
+  IsDownloading
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDownloading { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsMapBpV2CampIconBlackVerEnable_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsMapBpV2CampIconBlackVerEnable" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsMapBpV2CampIconBlackVerEnable">
+  IsMapBpV2CampIconBlackVerEnable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMapBpV2CampIconBlackVerEnable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsScoreGlobalCampIconBlackVerEnable_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsScoreGlobalCampIconBlackVerEnable" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsScoreGlobalCampIconBlackVerEnable">
+  IsScoreGlobalCampIconBlackVerEnable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsScoreGlobalCampIconBlackVerEnable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsTalentAndTraitBlackVerEnable_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_IsTalentAndTraitBlackVerEnable" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.IsTalentAndTraitBlackVerEnable">
+  IsTalentAndTraitBlackVerEnable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTalentAndTraitBlackVerEnable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ManualGcCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ManualGcCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGcCommand">
+  ManualGcCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ManualGc()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand ManualGcCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MapBpV2PickingColorSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MapBpV2PickingColorSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MapBpV2PickingColorSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MapBpV2PickingColorSettings">
+  MapBpV2PickingColorSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L462"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color MapBpV2PickingColorSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MbPerSecondSpeed_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MbPerSecondSpeed" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MbPerSecondSpeed">
+  MbPerSecondSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MbPerSecondSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_Mirror_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.Mirror*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_Mirror" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.Mirror">
+  Mirror
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Mirror { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MirrorList_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MirrorList*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_MirrorList" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MirrorList">
+  MirrorList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L466"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;string&gt; MirrorList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetAllCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetAllCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand">
+  ResetAllCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllAsync()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncRelayCommand ResetAllCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand">
+  ResetCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">ResetAsync(FrontWindowType)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncRelayCommand&lt;FrontWindowType&gt; ResetCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IAsyncRelayCommand</span>&lt;<a class="xref" href="neo_bpsys_wpf.Enums.FrontWindowType.html">FrontWindowType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveBpWindowPickingBorderColorCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowPickingBorderColorCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveBpWindowPickingBorderColorCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowPickingBorderColorCommand">
+  SaveBpWindowPickingBorderColorCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowPickingBorderColor()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand SaveBpWindowPickingBorderColorCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveGlobalScoreTotalMarginCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMarginCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveGlobalScoreTotalMarginCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMarginCommand">
+  SaveGlobalScoreTotalMarginCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveGlobalScoreTotalMargin()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncRelayCommand SaveGlobalScoreTotalMarginCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveMapBpV2PickingBorderColorCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveMapBpV2PickingBorderColorCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveMapBpV2PickingBorderColorCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveMapBpV2PickingBorderColorCommand">
+  SaveMapBpV2PickingBorderColorCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveMapBpV2PickingBorderColor()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRelayCommand SaveMapBpV2PickingBorderColorCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreWindowTextSettings">
+  ScoreWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; ScoreWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedBpWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedBpWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowTextSettings">
+  SelectedBpWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L451"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedBpWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedCutSceneWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedCutSceneWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowTextSettings">
+  SelectedCutSceneWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L454"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedCutSceneWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedGameDataWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedGameDataWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowTextSettings">
+  SelectedGameDataWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L460"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedGameDataWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedScoreWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedScoreWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedScoreWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedScoreWindowTextSettings">
+  SelectedScoreWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L457"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedScoreWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedWidgetsWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedWidgetsWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedWidgetsWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedWidgetsWindowTextSettings">
+  SelectedWidgetsWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L464"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextSettings? SelectedWidgetsWindowTextSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_UpdateCheckCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_UpdateCheckCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheckCommand">
+  UpdateCheckCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdateCheck()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncRelayCommand UpdateCheckCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_UpdaterService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdaterService*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_UpdaterService" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdaterService">
+  UpdaterService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IUpdaterService UpdaterService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html">IUpdaterService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowTextSettings_" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowTextSettings*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowTextSettings" data-uid="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowTextSettings">
+  WidgetsWindowTextSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/SettingPageViewModel.cs/#L463"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, TextSettings&gt; WidgetsWindowTextSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.TextSettings.html">TextSettings</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
