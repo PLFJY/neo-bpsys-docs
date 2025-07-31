@@ -6,63 +6,71 @@
       href: neo-bpsys-wpf使用文档/安装与开始.md
     - name: 基础操作
       href: neo-bpsys-wpf使用文档/基础操作.md
-    - name: 窗口
+    - name: 前台
+      items:            
+        - name: BP画面
+          href: neo-bpsys-wpf使用文档/前台/BP画面.md
+        - name: BP总览
+          href: neo-bpsys-wpf使用文档/前台/BP总览.md
+        - name: 比分组件
+          href: neo-bpsys-wpf使用文档/前台/比分组件.md
+        - name: 地图BP
+          href: neo-bpsys-wpf使用文档/前台/地图BP.md
+        - name: 过场画面
+          href: neo-bpsys-wpf使用文档/前台/过场画面.md
+        - name: 赛后数据画面
+          href: neo-bpsys-wpf使用文档/前台/赛后数据画面.md
+    - name: 后台
       items:
-        - name: 后台控制窗口
-          items:
-            - name: 对局信息及导航
-              href: neo-bpsys-wpf使用文档/窗口/后台控制窗口/对局信息及导航.md
-            - name: 计时器
-              href: neo-bpsys-wpf使用文档/窗口/后台控制窗口/计时器.md
-            - name: 双方阵营及换边
-              href: neo-bpsys-wpf使用文档/窗口/后台控制窗口/双方阵营及换边.md
-        - name: 前台窗口
-          items:
-            - name: BP画面
-              href: neo-bpsys-wpf使用文档/窗口/前台窗口/BP画面.md
-            - name: BP回顾
-              href: neo-bpsys-wpf使用文档/窗口/前台窗口/BP回顾.md
-            - name: 比分组件
-              href: neo-bpsys-wpf使用文档/窗口/前台窗口/比分组件.md
-            - name: 地图BP
-              href: neo-bpsys-wpf使用文档/窗口/前台窗口/地图BP.md
-            - name: 过场画面
-              href: neo-bpsys-wpf使用文档/窗口/前台窗口/过场画面.md
-            - name: 赛后数据画面
-              href: neo-bpsys-wpf使用文档/窗口/前台窗口/赛后数据画面.md
-    - name: 页面
-      items:
-        - name: 启动页
-          href: neo-bpsys-wpf使用文档/页面/启动页.md
+        - name: 对局信息及对局引导
+          href: neo-bpsys-wpf使用文档/后台/对局信息及对局引导.md
+        - name: 计时器
+          href: neo-bpsys-wpf使用文档/后台/计时器.md
+        - name: 双方阵营及换边
+          href: neo-bpsys-wpf使用文档/后台/双方阵营及换边.md
         - name: 队伍信息
-          href: neo-bpsys-wpf使用文档/页面/队伍信息.md
+          href: neo-bpsys-wpf使用文档/后台/队伍信息.md
         - name: 地图禁选
-          href: neo-bpsys-wpf使用文档/页面/地图禁选.md
+          href: neo-bpsys-wpf使用文档/后台/地图禁选.md
         - name: 禁用监管者
-          href: neo-bpsys-wpf使用文档/页面/禁用监管者.md
+          href: neo-bpsys-wpf使用文档/后台/禁用监管者.md
         - name: 禁用求生者
-          href: neo-bpsys-wpf使用文档/页面/禁用求生者.md
+          href: neo-bpsys-wpf使用文档/后台/禁用求生者.md
         - name: 选择角色
-          href: neo-bpsys-wpf使用文档/页面/选择角色.md
+          href: neo-bpsys-wpf使用文档/后台/选择角色.md
         - name: 天赋特质
-          href: neo-bpsys-wpf使用文档/页面/天赋特质.md
-        - name: 比分控制
-          href: neo-bpsys-wpf使用文档/页面/比分控制.md
+          href: neo-bpsys-wpf使用文档/后台/天赋特质.md
+        - name: 比分系统
+          href: neo-bpsys-wpf使用文档/后台/比分系统.md
         - name: 赛后数据
-          href: neo-bpsys-wpf使用文档/页面/赛后数据.md
+          href: neo-bpsys-wpf使用文档/后台/赛后数据.md
         - name: 前台管理
-          href: neo-bpsys-wpf使用文档/页面/前台管理.md
+          href: neo-bpsys-wpf使用文档/后台/前台管理.md
         - name: 拓展功能
-          href: neo-bpsys-wpf使用文档/页面/拓展功能.md
+          href: neo-bpsys-wpf使用文档/后台/拓展功能.md
         - name: 设置
-          href: neo-bpsys-wpf使用文档/页面/设置.md
+          href: neo-bpsys-wpf使用文档/后台/设置.md
     - name: 高级选项
       items:
         - name: 从Json导入队伍信息
           href: neo-bpsys-wpf使用文档/高级选项/从Json导入队伍信息.md
         - name: 修改比赛规则
           href: neo-bpsys-wpf使用文档/高级选项/修改比赛规则.md
-        - name: 修改前台画面
-          href: neo-bpsys-wpf使用文档/高级选项/修改前台画面.md
+        - name: 前台自定义
+          href: neo-bpsys-wpf使用文档/高级选项/前台自定义.md
 - name: 开发文档
-  href: 开发文档.md
+  items: 
+    - name: 开始
+      href: 开发文档/开始.md
+    - name: 命名规范
+      href: 开发文档/命名规范.md
+    - name: (新) 核心数据流架构
+      href: 开发文档/(新) 核心数据流架构.md
+    - name: 插件开发文档
+      href: 开发文档/插件开发文档.md
+    - name: (给Core-dev) Commit提交规范
+      href: 开发文档/(给Core-dev) Commit提交规范.md
+    - name: (给Core-dev) 版本号迭代原则
+      href: 开发文档/(给Core-dev) 版本号迭代原则.md
+    - name: (给Core-dev) 仓库管理规范
+      href: 开发文档/(给Core-dev) 仓库管理规范.md
