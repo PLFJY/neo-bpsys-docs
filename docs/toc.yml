@@ -22,8 +22,8 @@
           href: neo-bpsys-wpf使用文档/前台/赛后数据画面.md
     - name: 后台
       items:
-        - name: 对局信息及导航
-          href: neo-bpsys-wpf使用文档/后台/对局信息及导航.md
+        - name: 对局信息及对局引导
+          href: neo-bpsys-wpf使用文档/后台/对局信息及对局引导.md
         - name: 计时器
           href: neo-bpsys-wpf使用文档/后台/计时器.md
         - name: 双方阵营及换边
