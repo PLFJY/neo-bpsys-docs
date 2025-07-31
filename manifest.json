@@ -2651,140 +2651,140 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP回顾.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/BP总览.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP回顾.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/BP总览.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP画面.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/BP画面.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP画面.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/BP画面.html"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/BP回顾.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/BP回顾.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/BP回顾.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/BP回顾.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/BP画面.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/BP画面.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/BP画面.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/BP画面.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/MapBpV2.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/MapBpV2.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/MapBpV2.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/MapBpV2.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/地图BP.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/地图BP.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/地图BP.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/地图BP.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/比分画面.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/比分画面.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/比分画面.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/比分画面.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/比分画面_BO3.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/比分画面_BO3.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/比分画面_BO3.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/比分画面_BO3.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/赛后数据.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/赛后数据.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/赛后数据.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/赛后数据.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/过场画面.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/过场画面.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/过场画面.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/过场画面.png"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/地图BP.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/地图BP.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/地图BP.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/地图BP.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/比分组件.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/比分组件.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/比分组件.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/比分组件.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/赛后数据画面.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/赛后数据画面.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/赛后数据画面.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/赛后数据画面.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/过场画面.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/过场画面.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/过场画面.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/过场画面.html"
         }
       },
       "version": ""
@@ -3091,6 +3091,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/赛后数据.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/赛后数据.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/软件信息区域.png",
       "output": {
         "resource": {
@@ -3115,16 +3125,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/neo-bpsys-wpf使用文档/后台/双方阵营及换边.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/启动页.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/启动页.html"
         }
       },
       "version": ""
@@ -3171,10 +3171,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/比分控制.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/比分系统.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/比分控制.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/比分系统.html"
         }
       },
       "version": ""
@@ -3331,20 +3331,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/修改前台画面.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/修改比赛规则.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/修改前台画面.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/修改比赛规则.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/修改比赛规则.md",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/前台自定义.md",
       "output": {
         ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/修改比赛规则.html"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/高级选项/前台自定义.html"
         }
       },
       "version": ""

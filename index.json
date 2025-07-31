@@ -899,40 +899,40 @@
     "title": "Namespace neo_bpsys_wpf | neo-bpsys Docs",
     "summary": "Namespace neo_bpsys_wpf Classes App Interaction logic for App.xaml"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP回顾.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP回顾.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "BP回顾和地图BP的打开方式都是点击前台管理页面中的其它小组件。 本功能的作用是在一局游戏结束后显示当局BP以及本局小比分。 以下是本页面各个部分的功能： 队徽 战队名 本局被禁用的监管者 对局进度 本局被禁用的求生者 本局求生者方角色选择 本局小比分 监管者方角色选择"
+  "docs/neo-bpsys-wpf使用文档/前台/BP总览.html": {
+    "href": "docs/neo-bpsys-wpf使用文档/前台/BP总览.html",
+    "title": "BP总览 | neo-bpsys Docs",
+    "summary": "BP总览 BP总览和地图BP的打开方式都是点击前台管理页面中的其它小组件。 本功能的作用是在一局游戏结束后显示当局BP以及本局小比分。 以下是本页面各个部分的功能： 队徽 战队名 本局被禁用的监管者 对局进度 本局被禁用的求生者 本局求生者方角色选择 本局小比分 监管者方角色选择"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP画面.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP画面.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "BP画面的功能是在角色BP时显示比赛信息的窗口，以下是BP画面的图例 以下是不同编号区域的功能： 双方胜平数 双方队伍名称 当局小比分 计时器 当局禁用监管者 当局禁用求生者 求生方定妆照或角色立绘 求生方选手名 地图名 监管者全局禁选 求生者全局禁选 监管者方定妆照或角色立绘 监管者方选手名 双方战队队徽 ‍"
+  "docs/neo-bpsys-wpf使用文档/前台/BP画面.html": {
+    "href": "docs/neo-bpsys-wpf使用文档/前台/BP画面.html",
+    "title": "BP画面 | neo-bpsys Docs",
+    "summary": "BP画面 BP画面的功能是在角色BP时显示比赛信息的窗口，以下是BP画面的图例 以下是不同编号区域的功能： 双方胜平数 双方队伍名称 当局小比分 计时器 当局禁用监管者 当局禁用求生者 求生方定妆照或角色立绘 求生方选手名 地图名 监管者全局禁选 求生者全局禁选 监管者方定妆照或角色立绘 监管者方选手名 双方战队队徽 ‍"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/前台窗口/地图BP.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/地图BP.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "地图BP和BP回顾的打开方式都是点击前台管理页面中的其它小组件。 本窗口的功能是显示在地图禁选页面中被禁用和选择的地图。 以下是本窗口各部分的功能： 被选择的地图 战队名 被禁用的地图 在v1.1.0.9483版本，软件更新了MapBpV2，适配了2025IVL夏季赛地图BP规则。 以下是新的地图BP画面： 在兼容旧版的同时软件支持同时禁用多张地图，具体使用方法详见地图禁选。"
+  "docs/neo-bpsys-wpf使用文档/前台/地图BP.html": {
+    "href": "docs/neo-bpsys-wpf使用文档/前台/地图BP.html",
+    "title": "地图BP | neo-bpsys Docs",
+    "summary": "地图BP 地图BP和BP回顾的打开方式都是点击前台管理页面中的其它小组件。 本窗口的功能是显示在地图禁选页面中被禁用和选择的地图。 以下是本窗口各部分的功能： 被选择的地图 战队名 被禁用的地图 在v1.1.0.9483版本，软件更新了MapBpV2，适配了2025IVL夏季赛地图BP规则。 以下是新的地图BP画面： 在兼容旧版的同时软件支持同时禁用多张地图，具体使用方法详见地图禁选。"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/前台窗口/比分组件.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/比分组件.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "比分组件的功能是在局内的左上角和右上角显示当局小比分和双方胜平数以及再赛后显示双方每一轮的小分。 本软件同时支持BO3模式和BO5模式，切换方法详见对局信息及导航。 下图为组件样式 由于BO3模式与BO5模式中的窗口控件几乎完全相同，我们仅为BO5模式下的控件功能做描述 以下是不同控件的功能： 双方队徽 双方战队名 双方胜平数 当局小比分 对局进度 不同对局进度的得分情况 双方小分总和 从v1.1.0.9483版本开始，上述组件已经分离为3个窗口，但其内容保持不变"
+  "docs/neo-bpsys-wpf使用文档/前台/比分组件.html": {
+    "href": "docs/neo-bpsys-wpf使用文档/前台/比分组件.html",
+    "title": "比分组件 | neo-bpsys Docs",
+    "summary": "比分组件 比分组件的功能是在局内的左上角和右上角显示当局小比分和双方胜平数以及再赛后显示双方每一轮的小分。 本软件同时支持BO3模式和BO5模式，切换方法详见对局信息及导航。 下图为组件样式 由于BO3模式与BO5模式中的窗口控件几乎完全相同，我们仅为BO5模式下的控件功能做描述 以下是不同控件的功能： 双方队徽 双方战队名 双方胜平数 当局小比分 对局进度 不同对局进度的得分情况 双方小分总和 从v1.1.0.9483版本开始，上述组件已经分离为3个窗口，但其内容保持不变"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/前台窗口/赛后数据画面.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/赛后数据画面.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "该窗口用于展示双方赛后数据。 赛后数据画面分为以下部分： 双方队徽 战队名 胜平数 本局比分 本局地图及对局进度 求生方角色选择 求生方选手ID 求生方当局数据 监管者角色选择 监管者当局数据 未来我们计划使用OCR来自动从游戏内识别相关数据并自动输入"
+  "docs/neo-bpsys-wpf使用文档/前台/赛后数据画面.html": {
+    "href": "docs/neo-bpsys-wpf使用文档/前台/赛后数据画面.html",
+    "title": "赛后数据 | neo-bpsys Docs",
+    "summary": "赛后数据 该窗口用于展示双方赛后数据。 赛后数据画面分为以下部分： 双方队徽 战队名 胜平数 本局比分 本局地图及对局进度 求生方角色选择 求生方选手ID 求生方当局数据 监管者角色选择 监管者当局数据 未来我们计划使用OCR来自动从游戏内识别相关数据并自动输入"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/前台窗口/过场画面.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/过场画面.html",
-    "title": "1.2.2 过场画面 | neo-bpsys Docs",
-    "summary": "1.2.2 过场画面 过场画面的功能是在双方选择完角色和天赋后在前台展示相关信息 过场画面分为以下几个部分： 队伍名称 双方队徽 双方胜平数 比赛地图及对局进度 求生方角色选择 求生方选手名称 求生方天赋选择 监管者角色选择 监管方选手名称 监管方天赋选择 监管方辅助特质选择"
+  "docs/neo-bpsys-wpf使用文档/前台/过场画面.html": {
+    "href": "docs/neo-bpsys-wpf使用文档/前台/过场画面.html",
+    "title": "过场画面 | neo-bpsys Docs",
+    "summary": "过场画面 过场画面的功能是在双方选择完角色和天赋后在前台展示相关信息 过场画面分为以下几个部分： 队伍名称 双方队徽 双方胜平数 比赛地图及对局进度 求生方角色选择 求生方选手名称 求生方天赋选择 监管者角色选择 监管方选手名称 监管方天赋选择 监管方辅助特质选择"
   },
   "docs/neo-bpsys-wpf使用文档/前言.html": {
     "href": "docs/neo-bpsys-wpf使用文档/前言.html",
     "title": "前言 | neo-bpsys Docs",
-    "summary": "本软件基于GPL-3.0协议开源，完全免费。 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ ‍ 如果遇到前台控件错误或者消失请前往前台管理页面重置配置，这可能是由于上一个版本留下的默认配置导致的Bug 官网地址 (基于Cloudflare Pages部署)：https://bpsys.plfjy.top/ 备用地址 (基于Github Pages部署): https://plfjy.github.io/neo-bpsys-website/ 项目地址：https://github.com/PLFJY/neo-bpsys-wpf/ 作者QQ：3424127335 QQ交流群号：175741665 ‍ 温馨提醒，在GitHub上提交issue或在群内反馈问题前请一定认真检查一下是软件的问题还是眼神或脑子的问题，否则我们的断档S1记录员将记录下您的黑历史并使其成为我们未来几个月甚至几年的笑料 。 ↓以下是一个唐诗issue的示例↓ （++）——S0记录员 以下是合作开发者列表： Zack (文档 + 对局引导) tp (还在制作的新UI设计) älskar (插件系统)"
+    "summary": "前言 软件基于GPL-3.0协议开源，完全免费。 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ ‍ 如果遇到前台控件错误或者消失请前往前台管理页面重置配置，这可能是由于上一个版本留下的默认配置导致的Bug 官网地址 (基于Cloudflare Pages部署)：https://bpsys.plfjy.top/ 备用地址 (基于Github Pages部署): https://plfjy.github.io/neo-bpsys-website/ 项目地址：https://github.com/PLFJY/neo-bpsys-wpf/ 作者QQ：3424127335 QQ交流群号：175741665 ‍ 温馨提醒，在GitHub上提交issue或在群内反馈问题前请一定认真检查一下是软件的问题还是眼神或脑子的问题，否则我们的断档S1记录员将记录下您的黑历史并使其成为我们未来几个月甚至几年的笑料 。 ↓以下是一个唐诗issue的示例↓ （++）——S0记录员 以下是合作开发者列表： Zack (文档 + 对局引导) tp (还在制作的新UI设计) älskar (插件系统)"
   },
   "docs/neo-bpsys-wpf使用文档/后台/前台管理.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/前台管理.html",
@@ -941,53 +941,48 @@
   },
   "docs/neo-bpsys-wpf使用文档/后台/双方阵营及换边.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/双方阵营及换边.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "点击【换边】按钮切换两个队伍当前阵营。 ‍"
-  },
-  "docs/neo-bpsys-wpf使用文档/后台/启动页.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/启动页.html",
-    "title": "2.1 启动页 | neo-bpsys Docs",
-    "summary": "2.1 启动页 ‍ 如图是本软件的启动页，可以点击按钮打开本项目官网以及本文档。"
+    "title": "双方阵营及换边 | neo-bpsys Docs",
+    "summary": "双方阵营及换边 点击【换边】按钮切换两个队伍当前阵营。 ‍"
   },
   "docs/neo-bpsys-wpf使用文档/后台/地图禁选.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/地图禁选.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "本页面的功能是设置在地图BP窗口上显示的选择的和被禁用的地图。 本软件支持选择/禁用全部排位地图，使用方法为点击需要选择/禁用的地图（未来将支持多选已于v1.1.0.9483版本开始支持）。 ‍目前，我们同时支持新旧版地图BP规则并制作了相关的前台画面，详见[[地图BP]]。 在MapBpV2中的新版规则下，软件支持以下功能： 待选框呼吸灯： 本功能的作用是为未被禁用的地图添加呼吸灯效果（新版地图BP） 阵营选择结果展示： 本功能的作用是展示禁用/选择各个地图的战队名和阵营"
+    "title": "地图禁选 | neo-bpsys Docs",
+    "summary": "地图禁选 本页面的功能是设置在地图BP窗口上显示的选择的和被禁用的地图。 本软件支持选择/禁用全部排位地图，使用方法为点击需要选择/禁用的地图（未来将支持多选已于v1.1.0.9483版本开始支持）。 ‍目前，我们同时支持新旧版地图BP规则并制作了相关的前台画面，详见[[地图BP]]。 在MapBpV2中的新版规则下，软件支持以下功能： 待选框呼吸灯： 本功能的作用是为未被禁用的地图添加呼吸灯效果（新版地图BP） 阵营选择结果展示： 本功能的作用是展示禁用/选择各个地图的战队名和阵营"
   },
   "docs/neo-bpsys-wpf使用文档/后台/天赋特质.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/天赋特质.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "本页面的功能是设置在过场画面显示的双方天赋以及监管者辅助特质。 天赋选择器 这里又是一个自定义控件——天赋选择器，由四个ToggleButton组成 (饶了我吧，我不知道怎么翻译它，你知道可以选中就对了)，各个天赋的位置与游戏内完全相同，所以完全可以靠肌肉记忆点出来 辅助特质选择 由于游戏内比赛模式下观战席无法查看监管者携带的辅助特质，本软件允许用户选择是否显示监管者辅助特质（以应对能在游戏开始前知晓监管者方携带的辅助特质的情况）。使用方法为点击监管者选手选择的辅助特质。"
+    "title": "天赋特质 | neo-bpsys Docs",
+    "summary": "天赋特质 本页面的功能是设置在过场画面显示的双方天赋以及监管者辅助特质。 天赋选择器 这里又是一个自定义控件——天赋选择器，由四个ToggleButton组成 (饶了我吧，我不知道怎么翻译它，你知道可以选中就对了)，各个天赋的位置与游戏内完全相同，所以完全可以靠肌肉记忆点出来 辅助特质选择 由于游戏内比赛模式下观战席无法查看监管者携带的辅助特质，本软件允许用户选择是否显示监管者辅助特质（以应对能在游戏开始前知晓监管者方携带的辅助特质的情况）。使用方法为点击监管者选手选择的辅助特质。"
   },
   "docs/neo-bpsys-wpf使用文档/后台/对局信息及导航.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/对局信息及导航.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "该功能的作用是保存对局信息以及根据文件GameRule.json中存储的比赛规则信息来进行步骤引导。 使用方法： 根据需求决定是否选择BO3模式（该按钮同时决定除此功能以外的多个功能的模式） 设置对局进度（自由对局不支持步骤引导） 点击开始导航 ‍ 如果你跟着上面的步骤，你的窗口将会变成这样： 这时就可以点击【上一步】或【下一步】来根据预设规则跳转到对应页面或点击【结束导航】来手动结束导航。 规则详情见第五人格WIKI。 ‍"
+    "title": "对局信息及对局引导 | neo-bpsys Docs",
+    "summary": "对局信息及对局引导 该功能的作用是保存对局信息以及根据文件GameRule.json中存储的比赛规则信息来进行步骤引导。 使用方法： 根据需求决定是否选择BO3模式（该按钮同时决定除此功能以外的多个功能的模式） 设置对局进度（自由对局不支持步骤引导） 点击开始导航 ‍ 如果你跟着上面的步骤，你的窗口将会变成这样： 这时就可以点击【上一步】或【下一步】来根据预设规则跳转到对应页面或点击【结束导航】来手动对局引导，同时，对应的步骤会自动调整倒计时、亮起对应的呼吸灯，不需要手动操作 规则详情见第五人格WIKI。 ‍"
   },
   "docs/neo-bpsys-wpf使用文档/后台/拓展功能.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/拓展功能.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "前面的区域以后再来探索吧~"
+    "title": "拓展功能 | neo-bpsys Docs",
+    "summary": "拓展功能 前面的区域以后再来探索吧~"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/比分控制.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/比分控制.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "本页面的功能是设置比分组件上显示的各类分数。 上图中设置的比分将显示在BP画面和比分组件上半部分（显示在游戏内左上角和右上角的比分）。 使用方法为每局游戏结束后点击对应的游戏结果，每局上下半场都结束后点击【大比分结算】来设置显示在各处的战队胜平数。 如果由于失误或自定义规则等原因需要清零比分或手动控制比分，请点击【总清零】、【小比分清零】、【手动控制】按钮完成相应操作。 此部分的功能是控制比分组件下半部分（每局结束后显示的每局小分以及小分和）。 使用方法为在对局已完成且确认场次选择的内容正确后勾选【对局已完成】。 选择主场及客场队伍阵营后点击相应的对局结果。 ‍"
+  "docs/neo-bpsys-wpf使用文档/后台/比分系统.html": {
+    "href": "docs/neo-bpsys-wpf使用文档/后台/比分系统.html",
+    "title": "比分系统 | neo-bpsys Docs",
+    "summary": "比分系统 本页面的功能是设置比分组件上显示的各类分数。 上图中设置的比分将显示在BP画面和比分组件上半部分（显示在游戏内左上角和右上角的比分）。 使用方法为每局游戏结束后点击对应的游戏结果，每局上下半场都结束后点击【大比分结算】来设置显示在各处的战队胜平数。 如果由于失误或自定义规则等原因需要清零比分或手动控制比分，请点击【总清零】、【小比分清零】、【手动控制】按钮完成相应操作。 此部分的功能是控制比分组件下半部分（每局结束后显示的每局小分以及小分和）。 使用方法为在对局已完成且确认场次选择的内容正确后勾选【对局已完成】。 选择主场及客场队伍阵营后点击相应的对局结果。 ‍"
   },
   "docs/neo-bpsys-wpf使用文档/后台/禁用求生者.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/禁用求生者.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "本页面的功能是设置显示在BP画面上的被禁用的求生者。 本软件内置了4个求生者当局ban位和9个全局ban位。具体禁用方法与禁用监管者相同。 与禁用监管者页面相同，本页面也支持手动调整ban位数量。 ‍"
+    "title": "禁用求生者 | neo-bpsys Docs",
+    "summary": "禁用求生者 本页面的功能是设置显示在BP画面上的被禁用的求生者。 本软件内置了4个求生者当局ban位和9个全局ban位。具体禁用方法与禁用监管者相同。 与禁用监管者页面相同，本页面也支持手动调整ban位数量。 ‍"
   },
   "docs/neo-bpsys-wpf使用文档/后台/禁用监管者.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/禁用监管者.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "本页面的功能是设置显示在BP画面上的被禁用的监管者。 本软件内置了2个监管者当局ban位和3个全局ban位。 角色选择器 这里需要引入一个概念——角色选择器，是一个自定义控件，由一个下拉选择框 (又名组合框)、一个确认按钮和一个图片框组成，下拉选择框用于检索和选择角色，支持全称、拼音全拼、拼音首拼搜索，空格键检索，Tab/回车键 确认 (推荐使用Tab，因为回车要按两次) (例：如果想选中“宿伞之魂”，在下拉框中输入“宿伞”后点击 Tab/回车 或输入“sszh/susan”后按空格然后Tab) 同时，这个控价存在一个变种，只保留下拉选择框的形式，你会在“选择角色”页面见到它，用于全局禁选记录 26号守卫支持输入bb来检索（不支持输入邦邦） ‍ 同时可以自定义ban位数量."
+    "title": "禁用监管者 | neo-bpsys Docs",
+    "summary": "禁用监管者 本页面的功能是设置显示在BP画面上的被禁用的监管者。 本软件内置了2个监管者当局ban位和3个全局ban位。 角色选择器 这里需要引入一个概念——角色选择器，是一个自定义控件，由一个下拉选择框 (又名组合框)、一个确认按钮和一个图片框组成，下拉选择框用于检索和选择角色，支持全称、拼音全拼、拼音首拼搜索，空格键检索，Tab/回车键 确认 (推荐使用Tab，因为回车要按两次) (例：如果想选中“宿伞之魂”，在下拉框中输入“宿伞”后点击 Tab/回车 或输入“sszh/susan”后按空格然后Tab) 同时，这个控价存在一个变种，只保留下拉选择框的形式，你会在“选择角色”页面见到它，用于全局禁选记录 26号守卫支持输入bb来检索（不支持输入邦邦） ‍ 同时可以自定义ban位数量."
   },
   "docs/neo-bpsys-wpf使用文档/后台/计时器.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/计时器.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "该功能的作用是在前台窗口的BP画面显示计时器，计时器工作过程中BP画面中的 “VS” 会被替换为倒计时剩余秒数，倒计时结束或用户手动停止计时器时会恢复为 “VS”。 ‍ 使用方法 使用下拉框或鼠标左键单击控件来设定倒计时秒数 点击【开始】按钮 需要停止计时器时点击【停止（恢复 VS）】按钮或等待倒计时归零 ‍ 右边的【预览】显示的是当前BP画面上 “VS” 地方的内容 ‍"
+    "title": "计时器 | neo-bpsys Docs",
+    "summary": "计时器 该功能的作用是在前台窗口的BP画面显示计时器，计时器工作过程中BP画面中的 “VS” 会被替换为倒计时剩余秒数，倒计时结束或用户手动停止计时器时会恢复为 “VS”。 ‍ 使用方法 使用下拉框或鼠标左键单击控件来设定倒计时秒数 点击【开始】按钮 需要停止计时器时点击【停止（恢复 VS）】按钮或等待倒计时归零 ‍ 右边的【预览】显示的是当前BP画面上 “VS” 地方的内容"
   },
   "docs/neo-bpsys-wpf使用文档/后台/设置.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/设置.html",
@@ -996,67 +991,67 @@
   },
   "docs/neo-bpsys-wpf使用文档/后台/赛后数据.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/赛后数据.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "赛后数据窗口的功能是在一局游戏结束后显示当局双方数据，如破译进度、牵制时长等。 以下是赛后数据窗口各部分的功能： 队徽 战队名 双方胜平数 本局小比分 地图选择及对局进度 求生方当局角色 选手ID 求生者数据 监管者角色选择 监管者数据"
+    "title": "赛后数据 | neo-bpsys Docs",
+    "summary": "赛后数据 赛后数据窗口的功能是在一局游戏结束后显示当局双方数据，如破译进度、牵制时长等。 以下是赛后数据窗口各部分的功能： 队徽 战队名 双方胜平数 本局小比分 地图选择及对局进度 求生方当局角色 选手ID 求生者数据 监管者角色选择 监管者数据"
   },
   "docs/neo-bpsys-wpf使用文档/后台/选择角色.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/选择角色.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "本页面的功能是记录双方选择的角色以及全局禁选记录，以下是选择求生者部分： 选择方法与禁用监管者中的禁用方法一致。 ‍与上文同理。 在轮到指定选手选择角色时启用待选框（前面的区域以后再来探索吧~） 上图是全局禁选记录，它的功能是记录各队伍下次扮演该阵营时应该进入全局禁选的角色并会在换边时自动应用到全局禁选中。"
+    "title": "选择角色 | neo-bpsys Docs",
+    "summary": "选择角色 本页面的功能是记录双方选择的角色以及全局禁选记录，以下是选择求生者部分： 选择方法与禁用监管者中的禁用方法一致。 ‍与上文同理。 在轮到指定选手选择角色时启用待选框（前面的区域以后再来探索吧~） 上图是全局禁选记录，它的功能是记录各队伍下次扮演该阵营时应该进入全局禁选的角色并会在换边时自动应用到全局禁选中。"
   },
   "docs/neo-bpsys-wpf使用文档/后台/队伍信息.html": {
     "href": "docs/neo-bpsys-wpf使用文档/后台/队伍信息.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "本页的功能是设置队伍信息，如战队名、队徽、上场选手等。 ‍ 上图为队伍信息填入页面（客场同理）。 用户只需填入各类队伍信息即可使用（可以不需要定妆照）。 点击【上场】来使选手上场（此处可以设置一支战队的监管者选手和求生者选手同时上场，软件会根据选边自动调整）。 另外，用户可以使用【从Json文件导入】按钮来从Json文件一键导入队伍信息。 设置完双方上场选手后可以通过下图部分的按钮更改选手的显示顺序（使用方法为点击选手名称后面的数字来将该选手与指定位置的选手互换）。"
+    "title": "队伍信息编辑 | neo-bpsys Docs",
+    "summary": "队伍信息编辑 本页的功能是设置队伍信息，如战队名、队徽、上场选手等。 ‍ 上图为队伍信息填入页面（客场同理）。 用户只需填入各类队伍信息即可使用（可以不需要定妆照）。 点击【上场】来使选手上场（此处可以设置一支战队的监管者选手和求生者选手同时上场，软件会根据选边自动调整）。 另外，用户可以使用【从Json文件导入】按钮来从Json文件一键导入队伍信息。 设置完双方上场选手后可以通过下图部分的按钮更改选手的显示顺序（使用方法为点击选手名称后面的数字来将该选手与指定位置的选手互换）。"
   },
   "docs/neo-bpsys-wpf使用文档/基础操作.html": {
     "href": "docs/neo-bpsys-wpf使用文档/基础操作.html",
     "title": "基础操作 | neo-bpsys Docs",
-    "summary": "本文章将告诉你如何快速上手 neo-bpsys-wpf。如果你是使用本软件的新手，请跟随本文指引来了解如何使用本软件。 一、设置双方队伍的信息。 打开软件后点击窗口左侧的【队伍信息】。对于每一支队伍，输入其战队名、队员名并上传队徽、选手定妆照（可选）后将所有上场的队员设为【上场】（每支队伍的求生者和监管者都点）。 在该页面的最下面显示了当前上场的选手。对于每个求生者选手，可以点击名称后面的数字以切换其位置。 如果需要了解如何更快速的导入队伍信息，请参阅从Json导入队伍信息。 二、设置赛制 在软件窗口上可以设置赛制为 BO5 或 BO3，该设置将影响对局引导、比分计算等功能，请如实选择。 三、启动前台 在软件窗口左侧的页面选择区域点击前台管理。在这里可以打开或关闭各个前台画面（一般建议全打开然后在OBS等直播软件中管理前台画面的显示与隐藏）。如果没有自定义前台画面布局的需求请勿开启设计模式，如果不慎开启并且移动了组件位置可以点击【重置布局】相关按钮恢复。 四、开启对局引导 本软件根据官方比赛BP规则设计了对局引导功能，请选择当前对局进度（例如第一局上半场）后点击【开始对局引导】，然后点击【下一步】来根据比赛规则进行每一步操作。同时，你可以点击【上一步】和【结束对局引导】来进行对应操作。 开启对局引导后即可根据引导来进行BP，关于BP过程中各个步骤的详细介绍，详见： 地图禁选 禁用监管者 禁用求生者 选择角色 天赋特质 五、赛后数据 在前台的赛后数据画面可以显示当局双方数据。具体使用方法是在赛后数据页面输入各选手的数据。此时，输入的数据将会显示在赛后数据画面显示。 六、比分控制 进行完一个对局后，可以在比分控制页面来输入和计算比分，比分将同步到比分组件中。 本软件内对局结果的加分与官方比赛一致，关于官方比赛加分详见下表。 对局结果 求生者队伍加分 监管者队伍加分 四抓 0 5 三抓 1 3 平局 2 2 三跑 3 1 四跑 5 0 七、结束对局 在一局游戏结束后，点击【新对局（重置）】以清空当局BP信息（地图BP、全局禁选记录、比分等跨局信息将被保留）。"
+    "summary": "基础操作 本文章将告诉你如何快速上手 neo-bpsys-wpf。如果你是使用本软件的新手，请跟随本文指引来了解如何使用本软件。 一、设置双方队伍的信息。 打开软件后点击窗口左侧的【队伍信息】。对于每一支队伍，输入其战队名、队员名并上传队徽、选手定妆照（可选）后将所有上场的队员设为【上场】（每支队伍的求生者和监管者都点）。 在该页面的最下面显示了当前上场的选手。对于每个求生者选手，可以点击名称后面的数字以切换其位置。 如果需要了解如何更快速的导入队伍信息，请参阅从Json导入队伍信息。 二、设置赛制 在软件窗口上可以设置赛制为 BO5 或 BO3，该设置将影响对局引导、比分计算等功能，请如实选择。 三、启动前台 在软件窗口左侧的页面选择区域点击前台管理。在这里可以打开或关闭各个前台画面（一般建议全打开然后在OBS等直播软件中管理前台画面的显示与隐藏）。如果没有自定义前台画面布局的需求请勿开启设计模式，如果不慎开启并且移动了组件位置可以点击【重置布局】相关按钮恢复。 四、开启对局引导 本软件根据官方比赛BP规则设计了对局引导功能，请选择当前对局进度（例如第一局上半场）后点击【开始对局引导】，然后点击【下一步】来根据比赛规则进行每一步操作。同时，你可以点击【上一步】和【结束对局引导】来进行对应操作。 开启对局引导后即可根据引导来进行BP，关于BP过程中各个步骤的详细介绍，详见： 地图禁选 禁用监管者 禁用求生者 选择角色 天赋特质 五、赛后数据 在前台的赛后数据画面可以显示当局双方数据。具体使用方法是在赛后数据页面输入各选手的数据。此时，输入的数据将会显示在赛后数据画面显示。 六、比分控制 进行完一个对局后，可以在比分控制页面来输入和计算比分，比分将同步到比分组件中。 本软件内对局结果的加分与官方比赛一致，关于官方比赛加分详见下表。 对局结果 求生者队伍加分 监管者队伍加分 四抓 0 5 三抓 1 3 平局 2 2 三跑 3 1 四跑 5 0 七、结束对局 在一局游戏结束后，点击【新对局（重置）】以清空当局BP信息（地图BP、全局禁选记录、比分等跨局信息将被保留）。"
   },
   "docs/neo-bpsys-wpf使用文档/安装与开始.html": {
     "href": "docs/neo-bpsys-wpf使用文档/安装与开始.html",
     "title": "安装与开始 | neo-bpsys Docs",
-    "summary": "本文将介绍如何安装 neo-bpsys-wpf。 检查系统需求 在开始使用软件之前，请确保您的设备符合以下推荐配置： Windows 10 及以上版本的系统(Windows 10 需要最新版，不支持Windows 7) 推荐配置为i5 13400F + RTX 3060 +16GB 运行内存（最低配置为 i5 8300H + GTX 1060 + 8GB 运行内存）* 已安装 .NET 9.0 桌面运行时 (一般会由安装包自动处理好) *核显能正常使用软件但不建议做导播 下载软件 目前有以下渠道下载本软件： 项目官网（备用官网） GitHub Releases Gitee 发行版（因无法上传大于100MB的文件而弃用）"
+    "summary": "安装与开始 本文将介绍如何安装 neo-bpsys-wpf。 检查系统需求 在开始使用软件之前，请确保您的设备符合以下推荐配置： Windows 10 及以上版本的系统(Windows 10 需要最新版，不支持Windows 7) 推荐配置为i5 13400F + RTX 3060 +16GB 运行内存（最低配置为 i5 8300H + GTX 1060 + 8GB 运行内存）* 已安装 .NET 9.0 桌面运行时 (一般会由安装包自动处理好) *核显能正常使用软件但不建议做导播 下载软件 目前有以下渠道下载本软件： 项目官网（备用官网） GitHub Releases Gitee 发行版（因无法上传大于100MB的文件而弃用）"
   },
   "docs/neo-bpsys-wpf使用文档/高级选项/从Json导入队伍信息.html": {
     "href": "docs/neo-bpsys-wpf使用文档/高级选项/从Json导入队伍信息.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "除了手动设置之外，本软件还提供了从Json一键导入队伍信息的功能。 使用方法为点击队伍信息页面中的【从Json文件导入】来选择一个Json文件。 以下是队伍信息Json文件的空模板 { \"Name\": \"\", \"ImageUri\": \"\", \"SurMemberList\": [ { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": \"\" }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null } ], \"HunMemberList\": [ { \"Name\": \"\", \"Camp\": \"Hun\", \"ImageUri\": null } ] } SurMemberList下存储队伍求生者选手名单；HunMemberList下存储队伍监管者选手名单。 选手名称下的Camp表示选手阵营（Sur表示求生者，Hun表示监管者） 队伍名称下的 ImageUri 表示队徽URl或文件路径（例：D:\\\\ExamplePhoto\\\\1.png)，如果没有队徽或定妆照则在该项填入null 以下分别为成都WOLVES和GR的队伍信息Json示例 成都WOLVES { \"Name\": \"Wolves\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/0f/5upqyt4fcxhv4g8tbgzw01c3ijy2xmz.png\", \"SurMemberList\": [ { \"Name\": \"Wolves_487\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/6/6d/ery6o97q1e2pgcacstg73tyrmtyibij.png\" }, { \"Name\": \"Wolves_Jelly\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/05/c4sgrg7oxnsygca01g7w44k02fq4knq.png\" }, { \"Name\": \"Wolves_XMX\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/b3/9ih5l1tr1pj3vr1q1o67awxxhfn1wnx.png\" }, { \"Name\": \"Wolves_DKing\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/8/86/b88uor92d5z8uiiqqb8n1jfyeddd02l.png\" } ], \"HunMemberList\": [ { \"Name\": \"Wolves_ChoAi\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/c/c2/ahjuo114o8icn6zznr96o8addi91zq3.png\" }, { \"Name\": \"Wolves_Yeyv\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/2/28/89wlcs5x73vseaqcgq2a0y72e40bpdr.png\" } ] } GR { \"Name\": \"Gr\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/be/fca4fwk94d87pkj9d4rudposbk3r2y0.png\", \"SurMemberList\": [ { \"Name\": \"Gr_heart\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/d/d9/tokh7z1vgovzel9tplgrn4k3waub1co.png\" }, { \"Name\": \"Gr_AK\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/b7/g3xph7i8sg4s72neqcx17ykqlj6g1t5.png\" }, { \"Name\": \"Gr_ac\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/c/ce/1rtb0oxkmjksay3a5lk4h4y1cl1dpmp.png\" }, { \"Name\": \"Gr_Xmiao5\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/1/1d/3kmh5ukn49445uudj6zx37ej1bcq5ba.png\" }, { \"Name\": \"Gr_iron\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/4/45/iic2g4zv1t42wtslzdsq35uy1335p3q.png\" } ], \"HunMemberList\": [ { \"Name\": \"Gr_mlx\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/a/a6/r9kgxgq6lqz7caj77mjrfwel7jr0lwd.png\" }, { \"Name\": \"Gr_Jin\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/08/2fp7w10or7jlufkjcoxkeofv33v4abk.png\" } ] }"
-  },
-  "docs/neo-bpsys-wpf使用文档/高级选项/修改前台画面.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/高级选项/修改前台画面.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "修改背景及文字属性 在设置页面中，用户可以修改各个前台窗口的背景和文字属性。 修改组件大小及位置 用户可以在前台管理页面打开设计模式。在设计模式中，用户可以自定义每一个组件的大小和位置。 如果您希望辛苦劳作了不知道多久弄出来的UI没有保存的话，请不要读下去 温馨提醒：自定义完后需要先关闭设计者模式再退出软件，否则您的更改将不会被保存！ ↓血和泪的教训↓（++)——S0记录员 ‍"
+    "title": "从Json文件导入信息 | neo-bpsys Docs",
+    "summary": "从Json文件导入信息 除了手动设置之外，本软件还提供了从Json一键导入队伍信息的功能。 使用方法为点击队伍信息页面中的【从Json文件导入】来选择一个Json文件。 以下是队伍信息Json文件的空模板 { \"Name\": \"\", \"ImageUri\": \"\", \"SurMemberList\": [ { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": \"\" }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null } ], \"HunMemberList\": [ { \"Name\": \"\", \"Camp\": \"Hun\", \"ImageUri\": null } ] } SurMemberList下存储队伍求生者选手名单；HunMemberList下存储队伍监管者选手名单。 选手名称下的Camp表示选手阵营（Sur表示求生者，Hun表示监管者） 队伍名称下的 ImageUri 表示队徽URl或文件路径（例：D:\\\\ExamplePhoto\\\\1.png)，如果没有队徽或定妆照则在该项填入null 以下分别为成都WOLVES和GR的队伍信息Json示例 成都WOLVES { \"Name\": \"Wolves\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/0f/5upqyt4fcxhv4g8tbgzw01c3ijy2xmz.png\", \"SurMemberList\": [ { \"Name\": \"Wolves_487\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/6/6d/ery6o97q1e2pgcacstg73tyrmtyibij.png\" }, { \"Name\": \"Wolves_Jelly\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/05/c4sgrg7oxnsygca01g7w44k02fq4knq.png\" }, { \"Name\": \"Wolves_XMX\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/b3/9ih5l1tr1pj3vr1q1o67awxxhfn1wnx.png\" }, { \"Name\": \"Wolves_DKing\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/8/86/b88uor92d5z8uiiqqb8n1jfyeddd02l.png\" } ], \"HunMemberList\": [ { \"Name\": \"Wolves_ChoAi\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/c/c2/ahjuo114o8icn6zznr96o8addi91zq3.png\" }, { \"Name\": \"Wolves_Yeyv\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/2/28/89wlcs5x73vseaqcgq2a0y72e40bpdr.png\" } ] } GR { \"Name\": \"Gr\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/be/fca4fwk94d87pkj9d4rudposbk3r2y0.png\", \"SurMemberList\": [ { \"Name\": \"Gr_heart\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/d/d9/tokh7z1vgovzel9tplgrn4k3waub1co.png\" }, { \"Name\": \"Gr_AK\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/b7/g3xph7i8sg4s72neqcx17ykqlj6g1t5.png\" }, { \"Name\": \"Gr_ac\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/c/ce/1rtb0oxkmjksay3a5lk4h4y1cl1dpmp.png\" }, { \"Name\": \"Gr_Xmiao5\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/1/1d/3kmh5ukn49445uudj6zx37ej1bcq5ba.png\" }, { \"Name\": \"Gr_iron\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/4/45/iic2g4zv1t42wtslzdsq35uy1335p3q.png\" } ], \"HunMemberList\": [ { \"Name\": \"Gr_mlx\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/a/a6/r9kgxgq6lqz7caj77mjrfwel7jr0lwd.png\" }, { \"Name\": \"Gr_Jin\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/08/2fp7w10or7jlufkjcoxkeofv33v4abk.png\" } ] }"
   },
   "docs/neo-bpsys-wpf使用文档/高级选项/修改比赛规则.html": {
     "href": "docs/neo-bpsys-wpf使用文档/高级选项/修改比赛规则.html",
-    "title": "| neo-bpsys Docs",
-    "summary": "在本软件的根目录下找到GameRule.json，这里是对局引导模式的相关规则，具体所对应的内容可以查看API文档。 ‍"
+    "title": "修改比赛规则 | neo-bpsys Docs",
+    "summary": "修改比赛规则 在本软件的根目录下找到GameRule.json，这里是对局引导模式的相关规则，具体所对应的内容可以查看API文档。 ‍"
+  },
+  "docs/neo-bpsys-wpf使用文档/高级选项/前台自定义.html": {
+    "href": "docs/neo-bpsys-wpf使用文档/高级选项/前台自定义.html",
+    "title": "前台自定义 | neo-bpsys Docs",
+    "summary": "前台自定义 修改背景及文字属性 在设置页面中，用户可以修改各个前台窗口的背景和文字属性。 修改组件大小及位置 用户可以在前台管理页面打开设计模式。在设计模式中，用户可以自定义每一个组件的大小和位置。 如果您希望辛苦劳作了不知道多久弄出来的UI没有保存的话，请不要读下去 温馨提醒：自定义完后需要先关闭设计者模式再退出软件，否则您的更改将不会被保存！ ↓血和泪的教训↓（++)——S0记录员 ‍"
   },
   "docs/开发文档/(新) 核心数据流架构.html": {
     "href": "docs/开发文档/(新) 核心数据流架构.html",
-    "title": "NeoBpSys 核心数据流架构 | neo-bpsys Docs",
-    "summary": "NeoBpSys 核心数据流架构 整体架构概览 ┌─────────────────────────────────────────────────────────────────────────────────────────────┐ │ NeoBpSys.Core (跨平台) │ │ │ │ ┌─────────────┐ ┌──────────┐ ┌─────────────┐ ┌──────────────┐ ┌───────┐ │ │ │ Models │────▶│ Enums │────▶│ ValueTypes │────▶│ Interfaces │────▶│ Events│ │ │ └─────────────┘ └──────────┘ └─────────────┘ └──────────────┘ └───────┘ │ │ │ ▲ │ │ │ │ │ │ ▼ │ │ │ ┌─────────────────────┐ │ │ │ │ Core Business Logic│◀─────────────────────────────────────────────────┘ │ │ └─────────────────────┘ │ └─────────────────────────────────────────────────────────────────────────────────────────────┘ ▲ │ │ │ │ ▼ ┌─────────────────────────────────────────────────────────────────────────────────────────────┐ │ NeoBpSys (WPF 主项目) │ │ │ │ ┌─────────────┐ ┌──────────────┐ ┌─────────────┐ ┌───────────────────┐ │ │ │ ViewModels │────▶│ Views │────▶│ Converters │────▶│ UI Controls │ │ │ └─────────────┘ └──────────────┘ └─────────────┘ └───────────────────┘ │ │ ▲ │ │ │ │ │ └─────────────────────────────────────────────────────────────────────────────┘ └─────────────────────────────────────────────────────────────────────────────────────────────┘ ▲ │ │ ┌─────────────────────────────────────────────────────────────────────────────────────────────┐ │ 插件系统 (Plugin) │ │ │ │ ┌─────────────┐ ┌───────────────────┐ │ │ │ Plugins │────▶│ ISharedDataService│─────────────────────────────────────────────────▶│ │ └─────────────┘ └───────────────────┘ │ └─────────────────────────────────────────────────────────────────────────────────────────────┘ 详细数据流流程 1. 数据结构定义（.Core 项目） flowchart TD A[.Core 项目] --> B[核心模型] A --> C[枚举类型] A --> D[值类型] B --> B1[Character.cs] B --> B2[Game.cs] B --> B3[Team.cs] B --> B4[Member.cs] B --> B5[Player.cs] D --> D1[Color.cs - 跨平台颜色] B1 --> B11[\"partial class Character : ObservableObject\"] B11 --> B111[\"[ObservableProperty] private string _name;\"] B11 --> B112[\"[ObservableProperty] private Color _backgroundColor;\"] B11 --> B113[\"[ObservableProperty] private ObservableCollection<Talent> _talents;\"] 2. 数据变更流程 flowchart TD A[数据变更源] -->|插件或主程序| B[SharedDataService] B -->|调用方法| C[Core 模型] subgraph .Core C --> C1[\"Character character = GetCharacterById(id);\"] C1 --> C2[\"character.Name = 'New Name';\"] C2 --> C3[\"触发 PropertyChanged(nameof(Name))\"] end C3 -->|对象引用变化| D{是否对象引用变化?} D -->|是| E[\"触发外层属性 PropertyChanged\"] D -->|否| F[\"WPF 自动处理内部属性变更\"] E --> G[TeamInfoPageViewModel.CurrentGame] F --> H[MapV2Presenter.xaml 绑定] G --> I[Converter 转换] H --> I subgraph WPF I --> I1[\"ColorToBrushConverter.Convert()\"] I1 --> I2[\"System.Windows.Media.Brush\"] I2 --> J[UI 更新] end 3. 完整数据变更到UI更新流程 sequenceDiagram participant Plugin as 插件 participant SharedData as SharedDataService participant CoreModel as Core 模型 participant ViewModel as TeamInfoPageViewModel participant WPF as WPF 绑定系统 participant Converter as ColorToBrushConverter participant UI as UI 元素 Plugin->>SharedData: AssignCharacterToMember(memberId, characterId) SharedData->>CoreModel: member.Character = newCharacter CoreModel->>CoreModel: 触发 PropertyChanged(nameof(Character)) alt 对象引用变化 CoreModel->>ViewModel: CurrentGame 属性变更 ViewModel->>ViewModel: OnPropertyChanged(nameof(CurrentGame)) ViewModel->>WPF: WPF 检测到 CurrentGame 变更 WPF->>WPF: 重新解析绑定路径 WPF->>WPF: 检测到 Players[0].Member.Character 变化 WPF->>Converter: 转换 Character.BackgroundColor Converter->>Converter: Color -> SolidColorBrush Converter->>UI: 返回 SolidColorBrush UI->>UI: 更新 UI 元素 else 内部属性变化 CoreModel->>WPF: 检测到 Character.Name 变更 WPF->>WPF: 自动更新绑定到 Name 的 UI 元素 end 具体实现步骤 1. .Core 项目结构 NeoBpSys.Core/ ├─ Entities/ │ ├─ Character/ │ │ ├─ Character.cs // 保留ObservableObject │ │ ├─ Talent.cs // 保留ObservableObject │ │ └─ ... │ ├─ Game/ │ │ ├─ Game.cs // 保留ObservableObject │ │ ├─ Player.cs // 保留ObservableObject │ │ ├─ Score.cs // 保留ObservableObject │ │ └─ ... │ └─ Teams/ │ ├─ Team.cs // 保留ObservableObject │ ├─ Member.cs // 保留ObservableObject │ └─ ... ├─ Enums/ │ ├─ BanListName.cs │ ├─ Camp.cs │ ├─ GameAction.cs │ └─ ... // 从您项目中的Enums迁移 ├─ ValueTypes/ │ └─ Color.cs // 跨平台Color实现 └─ Services/ └─ ISharedDataService.cs // 仅定义接口 2. 数据流关键点说明 a) 对象引用变化处理（如更换Character） // SharedDataService.cs public void AssignCharacterToMember(Guid memberId, Guid characterId) { var member = GetMemberById(memberId); var oldCharacter = member.Character; var newCharacter = GetCharacterById(characterId); if (oldCharacter != newCharacter) { member.Character = newCharacter; // 触发Member.Character的PropertyChanged // WPF会自动更新绑定到Member.Character的所有UI } } // TeamInfoPageViewModel.cs // 不需要特殊处理 - WPF会自动更新{Binding Players[0].Member.Character.Name} b) 对象替换处理（如更换CurrentGame） // SharedDataService.cs private Game _currentGame; public event EventHandler CurrentGameChanged; public Game CurrentGame { get => _currentGame; set { if (_currentGame != value) { _currentGame = value; CurrentGameChanged?.Invoke(this, EventArgs.Empty); } } } public void StartNewGame() { CurrentGame = new Game(); // 会触发CurrentGameChanged } // TeamInfoPageViewModel.cs public TeamInfoPageViewModel(ISharedDataService sharedData) { _sharedData = sharedData; _sharedData.CurrentGameChanged += (s, e) => OnPropertyChanged(nameof(CurrentGame)); } public Game CurrentGame => _sharedData.CurrentGame; <!-- TeamInfoPage.xaml --> <TextBlock Text=\"{Binding CurrentGame.Players[0].Member.Character.Name}\"/> <!-- 当CurrentGame对象被替换时，会重新解析整个绑定路径 --> c) 跨平台Color处理 // .Core/ValueTypes/Color.cs public readonly struct Color { public byte R { get; } public byte G { get; } public byte B { get; } public byte A { get; } public Color(byte r, byte g, byte b, byte a = 255) { R = r; G = g; B = b; A = a; } // 常用颜色 public static Color Red => new Color(255, 0, 0); // ... } // .Core/Entities/Character/Character.cs public partial class Character : ObservableObject { [ObservableProperty] private Color _backgroundColor; // 使用跨平台Color } // 主项目/Converters/ColorToBrushConverter.cs public class ColorToBrushConverter : IValueConverter { public object Convert(object value, Type targetType, object parameter, CultureInfo culture) { if (value is Color coreColor) { return new SolidColorBrush( System.Windows.Media.Color.FromArgb( coreColor.A, coreColor.R, coreColor.G, coreColor.B)); } return Brushes.Transparent; } // ConvertBack 实现... } <!-- TeamInfoPage.xaml --> <Border Background=\"{Binding CurrentGame.Players[0].Member.Character.BackgroundColor, Converter={StaticResource ColorToBrushConverter}}\"/> 3. Message系统迁移路径 旧Message 新机制 迁移步骤 NewGameMessage SharedDataService.CurrentGameChanged 1. 在SharedDataService中添加CurrentGameChanged事件 2. 将Messenger.Send替换为SharedDataService.StartNewGame() CharacterSwappedMessage Member.Character PropertyChanged 1. 移除Message发送 2. 确保Character属性正确触发PropertyChanged MemberPropertyChangedMessage 直接属性变更 1. 移除Message发送 2. 直接修改属性，依赖自动通知 PlayerSwappedMessage Game.Players 集合变更 1. 确保Players是ObservableCollection 2. 使用集合操作方法 优势 符合WPF设计哲学： 充分利用WPF内置的绑定机制 避免了不必要的抽象层 与您现有的深层绑定兼容 解决\"屎山\"问题： 淘汰了9种Message类型 建立了清晰的数据中枢（SharedDataService） 修复了\"缺乏层级性\"和\"中心缺失\"问题 跨平台支持： .Core可被WPF、Avalonia、Blazor等使用 通过Converter处理平台特定类型 保持核心模型的纯净性 插件系统友好： 插件只需引用.Core 通过SharedDataService接口操作数据 无需了解UI实现细节 迁移实施路线图 阶段1：创建.Core项目 迁移Models目录到.Core 创建跨平台Color类型 确保所有模型保持ObservableObject实现 保证去除WPF特有特征 阶段2：重构SharedDataService 添加对象替换事件（如CurrentGameChanged） 替换Message发送为直接数据操作 移除不必要的Message处理 阶段3：更新Converter 实现Color到Brush的转换 处理其他跨平台类型转换 阶段4：淘汰Message系统 从NewGameMessage开始 逐步替换所有Message类型 验证UI更新是否正常工作 .Core保持纯净但包含INotifyPropertyChanged，UI层通过Converter处理平台特定类型，利用WPF的内置机制处理数据绑定，同时为插件系统提供清晰的接口。整个方案无需额外的包装ViewModel，充分利用了WPF绑定机制。"
+    "title": "核心数据流架构 | neo-bpsys Docs",
+    "summary": "核心数据流架构 整体架构概览 ┌─────────────────────────────────────────────────────────────────────────────────────────────┐ │ NeoBpSys.Core (跨平台) │ │ │ │ ┌─────────────┐ ┌──────────┐ ┌─────────────┐ ┌──────────────┐ ┌───────┐ │ │ │ Models │────▶│ Enums │────▶│ ValueTypes │────▶│ Interfaces │────▶│ Events│ │ │ └─────────────┘ └──────────┘ └─────────────┘ └──────────────┘ └───────┘ │ │ │ ▲ │ │ │ │ │ │ ▼ │ │ │ ┌─────────────────────┐ │ │ │ │ Core Business Logic│◀─────────────────────────────────────────────────┘ │ │ └─────────────────────┘ │ └─────────────────────────────────────────────────────────────────────────────────────────────┘ ▲ │ │ │ │ ▼ ┌─────────────────────────────────────────────────────────────────────────────────────────────┐ │ NeoBpSys (WPF 主项目) │ │ │ │ ┌─────────────┐ ┌──────────────┐ ┌─────────────┐ ┌───────────────────┐ │ │ │ ViewModels │────▶│ Views │────▶│ Converters │────▶│ UI Controls │ │ │ └─────────────┘ └──────────────┘ └─────────────┘ └───────────────────┘ │ │ ▲ │ │ │ │ │ └─────────────────────────────────────────────────────────────────────────────┘ └─────────────────────────────────────────────────────────────────────────────────────────────┘ ▲ │ │ ┌─────────────────────────────────────────────────────────────────────────────────────────────┐ │ 插件系统 (Plugin) │ │ │ │ ┌─────────────┐ ┌───────────────────┐ │ │ │ Plugins │────▶│ ISharedDataService│─────────────────────────────────────────────────▶│ │ └─────────────┘ └───────────────────┘ │ └─────────────────────────────────────────────────────────────────────────────────────────────┘ 详细数据流流程 1. 数据结构定义（.Core 项目） flowchart TD A[.Core 项目] --> B[核心模型] A --> C[枚举类型] A --> D[值类型] B --> B1[Character.cs] B --> B2[Game.cs] B --> B3[Team.cs] B --> B4[Member.cs] B --> B5[Player.cs] D --> D1[Color.cs - 跨平台颜色] B1 --> B11[\"partial class Character : ObservableObject\"] B11 --> B111[\"[ObservableProperty] private string _name;\"] B11 --> B112[\"[ObservableProperty] private Color _backgroundColor;\"] B11 --> B113[\"[ObservableProperty] private ObservableCollection<Talent> _talents;\"] 2. 数据变更流程 flowchart TD A[数据变更源] -->|插件或主程序| B[SharedDataService] B -->|调用方法| C[Core 模型] subgraph .Core C --> C1[\"Character character = GetCharacterById(id);\"] C1 --> C2[\"character.Name = 'New Name';\"] C2 --> C3[\"触发 PropertyChanged(nameof(Name))\"] end C3 -->|对象引用变化| D{是否对象引用变化?} D -->|是| E[\"触发外层属性 PropertyChanged\"] D -->|否| F[\"WPF 自动处理内部属性变更\"] E --> G[TeamInfoPageViewModel.CurrentGame] F --> H[MapV2Presenter.xaml 绑定] G --> I[Converter 转换] H --> I subgraph WPF I --> I1[\"ColorToBrushConverter.Convert()\"] I1 --> I2[\"System.Windows.Media.Brush\"] I2 --> J[UI 更新] end 3. 完整数据变更到UI更新流程 sequenceDiagram participant Plugin as 插件 participant SharedData as SharedDataService participant CoreModel as Core 模型 participant ViewModel as TeamInfoPageViewModel participant WPF as WPF 绑定系统 participant Converter as ColorToBrushConverter participant UI as UI 元素 Plugin->>SharedData: AssignCharacterToMember(memberId, characterId) SharedData->>CoreModel: member.Character = newCharacter CoreModel->>CoreModel: 触发 PropertyChanged(nameof(Character)) alt 对象引用变化 CoreModel->>ViewModel: CurrentGame 属性变更 ViewModel->>ViewModel: OnPropertyChanged(nameof(CurrentGame)) ViewModel->>WPF: WPF 检测到 CurrentGame 变更 WPF->>WPF: 重新解析绑定路径 WPF->>WPF: 检测到 Players[0].Member.Character 变化 WPF->>Converter: 转换 Character.BackgroundColor Converter->>Converter: Color -> SolidColorBrush Converter->>UI: 返回 SolidColorBrush UI->>UI: 更新 UI 元素 else 内部属性变化 CoreModel->>WPF: 检测到 Character.Name 变更 WPF->>WPF: 自动更新绑定到 Name 的 UI 元素 end 具体实现步骤 1. .Core 项目结构 NeoBpSys.Core/ ├─ Entities/ │ ├─ Character/ │ │ ├─ Character.cs // 保留ObservableObject │ │ ├─ Talent.cs // 保留ObservableObject │ │ └─ ... │ ├─ Game/ │ │ ├─ Game.cs // 保留ObservableObject │ │ ├─ Player.cs // 保留ObservableObject │ │ ├─ Score.cs // 保留ObservableObject │ │ └─ ... │ └─ Teams/ │ ├─ Team.cs // 保留ObservableObject │ ├─ Member.cs // 保留ObservableObject │ └─ ... ├─ Enums/ │ ├─ BanListName.cs │ ├─ Camp.cs │ ├─ GameAction.cs │ └─ ... // 从您项目中的Enums迁移 ├─ ValueTypes/ │ └─ Color.cs // 跨平台Color实现 └─ Services/ └─ ISharedDataService.cs // 仅定义接口 2. 数据流关键点说明 a) 对象引用变化处理（如更换Character） // SharedDataService.cs public void AssignCharacterToMember(Guid memberId, Guid characterId) { var member = GetMemberById(memberId); var oldCharacter = member.Character; var newCharacter = GetCharacterById(characterId); if (oldCharacter != newCharacter) { member.Character = newCharacter; // 触发Member.Character的PropertyChanged // WPF会自动更新绑定到Member.Character的所有UI } } // TeamInfoPageViewModel.cs // 不需要特殊处理 - WPF会自动更新{Binding Players[0].Member.Character.Name} b) 对象替换处理（如更换CurrentGame） // SharedDataService.cs private Game _currentGame; public event EventHandler CurrentGameChanged; public Game CurrentGame { get => _currentGame; set { if (_currentGame != value) { _currentGame = value; CurrentGameChanged?.Invoke(this, EventArgs.Empty); } } } public void StartNewGame() { CurrentGame = new Game(); // 会触发CurrentGameChanged } // TeamInfoPageViewModel.cs public TeamInfoPageViewModel(ISharedDataService sharedData) { _sharedData = sharedData; _sharedData.CurrentGameChanged += (s, e) => OnPropertyChanged(nameof(CurrentGame)); } public Game CurrentGame => _sharedData.CurrentGame; <!-- TeamInfoPage.xaml --> <TextBlock Text=\"{Binding CurrentGame.Players[0].Member.Character.Name}\"/> <!-- 当CurrentGame对象被替换时，会重新解析整个绑定路径 --> c) 跨平台Color处理 // .Core/ValueTypes/Color.cs public readonly struct Color { public byte R { get; } public byte G { get; } public byte B { get; } public byte A { get; } public Color(byte r, byte g, byte b, byte a = 255) { R = r; G = g; B = b; A = a; } // 常用颜色 public static Color Red => new Color(255, 0, 0); // ... } // .Core/Entities/Character/Character.cs public partial class Character : ObservableObject { [ObservableProperty] private Color _backgroundColor; // 使用跨平台Color } // 主项目/Converters/ColorToBrushConverter.cs public class ColorToBrushConverter : IValueConverter { public object Convert(object value, Type targetType, object parameter, CultureInfo culture) { if (value is Color coreColor) { return new SolidColorBrush( System.Windows.Media.Color.FromArgb( coreColor.A, coreColor.R, coreColor.G, coreColor.B)); } return Brushes.Transparent; } // ConvertBack 实现... } <!-- TeamInfoPage.xaml --> <Border Background=\"{Binding CurrentGame.Players[0].Member.Character.BackgroundColor, Converter={StaticResource ColorToBrushConverter}}\"/> 3. Message系统迁移路径 旧Message 新机制 迁移步骤 NewGameMessage SharedDataService.CurrentGameChanged 1. 在SharedDataService中添加CurrentGameChanged事件 2. 将Messenger.Send替换为SharedDataService.StartNewGame() CharacterSwappedMessage Member.Character PropertyChanged 1. 移除Message发送 2. 确保Character属性正确触发PropertyChanged MemberPropertyChangedMessage 直接属性变更 1. 移除Message发送 2. 直接修改属性，依赖自动通知 PlayerSwappedMessage Game.Players 集合变更 1. 确保Players是ObservableCollection 2. 使用集合操作方法 优势 符合WPF设计哲学： 充分利用WPF内置的绑定机制 避免了不必要的抽象层 与您现有的深层绑定兼容 解决\"屎山\"问题： 淘汰了9种Message类型 建立了清晰的数据中枢（SharedDataService） 修复了\"缺乏层级性\"和\"中心缺失\"问题 跨平台支持： .Core可被WPF、Avalonia、Blazor等使用 通过Converter处理平台特定类型 保持核心模型的纯净性 插件系统友好： 插件只需引用.Core 通过SharedDataService接口操作数据 无需了解UI实现细节 迁移实施路线图 阶段1：创建.Core项目 迁移Models目录到.Core 创建跨平台Color类型 确保所有模型保持ObservableObject实现 保证去除WPF特有特征 阶段2：重构SharedDataService 添加对象替换事件（如CurrentGameChanged） 替换Message发送为直接数据操作 移除不必要的Message处理 阶段3：更新Converter 实现Color到Brush的转换 处理其他跨平台类型转换 阶段4：淘汰Message系统 从NewGameMessage开始 逐步替换所有Message类型 验证UI更新是否正常工作 .Core保持纯净但包含INotifyPropertyChanged，UI层通过Converter处理平台特定类型，利用WPF的内置机制处理数据绑定，同时为插件系统提供清晰的接口。整个方案无需额外的包装ViewModel，充分利用了WPF绑定机制。"
   },
   "docs/开发文档/(给Core-dev) Commit提交规范.html": {
     "href": "docs/开发文档/(给Core-dev) Commit提交规范.html",
-    "title": "| neo-bpsys Docs",
+    "title": "Commit 提交规范 | neo-bpsys Docs",
     "summary": "Commit 提交规范 类型(作用域): 内容，如果是bug fix，说明解决方案 类型和作用域可以有多个，逗号+空格隔开，可以只写对应功能Page/Window的名称或者对应模块的名称，如：BanHunPage、DesignMode Example: refactor(Timer, DesignMode): 计时器获取改为Messenger通知改变，IsDesignMode变化由原来的事件通知改为Messenger通知 类型 说明 feat 新功能 fix 修复bug refactor 重构 docs 改文档，例如README style 代码风格改变，不影响功能 temp 临时提交，用于合作开发 chore 杂项，例如.gitignore、github workflow build 更改构建脚本、构建工具 revert 回滚 merge 合并 improve 提升"
   },
   "docs/开发文档/(给Core-dev) 仓库管理规范.html": {
     "href": "docs/开发文档/(给Core-dev) 仓库管理规范.html",
-    "title": "| neo-bpsys Docs",
+    "title": "仓库分支管理流程规范 | neo-bpsys Docs",
     "summary": "仓库分支管理流程规范 1. 分支结构说明 • main 分支：主分支，存放稳定发布版本，仅通过 PR 合并更新 • dev 分支：开发主分支，存放最新开发代码，基于 main 分支创建 • feature 分支：功能开发分支，基于 dev 分支创建，开发完成后合并至 dev 2. 主版本更新流程（dev 合并至 main） 2.1. 提交 PR 合并 dev 到 main 在 GitHub 上创建从 dev 到 main 的合并请求（PR） 确保 PR 通过代码审查后，点击 Merge pull request 合并 合并方式选择 Create a merge commit（默认方式） 2.2. 自动同步 dev 分支 PR 合并后，GitHub Action 自动触发以下操作： git checkout dev && git rebase main （注：此步骤由 CI 工具自动完成，无需手动操作） 2.3. 本地更新 dev 分支 本地切换到 dev 分支： git checkout dev git pull # 拉取远程 dev 分支（已自动 rebase 到 main） 继续在 dev 上进行后续开发 3. 小 bug 修复流程（直接在 dev 上修改） 3.1. 更新本地 dev 分支 git checkout dev git pull --rebase # 拉取远程更新并变基，保持本地分支整洁 3.2. 修复 bug 并提交 修改代码 提交 git add . git commit -m \"fix: 修复具体 bug 描述\" 3.3. 推送到远程 dev 分支 git push origin dev 4. 新功能开发流程（基于 feature 分支开发） 4.1. 在 Microsoft Todo 上新增条目并分配给自己 4.2. 拉取最新 dev 分支 git checkout dev git pull --rebase 4.3. 创建 feature 分支 git checkout -b feature/功能名称 4.4. 开发功能并提交 开发过程中可多次提交，提交信息需清晰描述改动： git add . git commit -m \"feat: 功能模块-具体功能描述\" 4.5. 同步最新 dev 分支 git checkout dev git pull --rebase git checkout feature/功能名称 git rebase dev # 将 feature 分支变基到最新 dev，解决冲突 4.6. 压缩提交并合并到 dev 压缩 feature 分支的所有提交为一个 commit git checkout dev git merge --squash feature/功能名称 git commit -m \"feat: 完整功能描述\" # 编写统一的提交信息 4.7. 推送到远程 dev 分支并清理 git push origin dev git branch -d feature/功能名称 # 删除本地 feature 分支 git push origin --delete feature/功能名称 # 删除远程 feature 分支 4.8. 在 Microsoft Todo 上勾选对应完成的 feature 5. 注意事项 5.1. 提交规范 使用语义化提交格式（如 feat:、fix:、docs: 等前缀） 提交信息需清晰描述改动目的，避免模糊表述 5.2. 分支维护 dev 分支需定期与 main 同步（通过主版本更新流程自动完成） 废弃的 feature 分支需及时删除，保持仓库整洁 5.3. 冲突处理 变基（rebase）过程中遇到冲突时，需手动解决后执行 git rebase --continue 合并（merge）时优先使用变基方式，保持线性提交历史"
   },
   "docs/开发文档/(给Core-dev) 版本号迭代原则.html": {
     "href": "docs/开发文档/(给Core-dev) 版本号迭代原则.html",
-    "title": "| neo-bpsys Docs",
+    "title": "版本号迭代原则 | neo-bpsys Docs",
     "summary": "版本号迭代原则 首位仅在出现大型重构或又非常重大更改时（如官方规则改变、UI重构）才会跟进 第二位出现重大的新Module更新/第三位满十才会跟进 第三位是有新Feature就会跟进 最后一位自动生成，用于BugFix和Improvement版本，不用手动迭代"
   },
   "docs/开发文档/命名规范.html": {
     "href": "docs/开发文档/命名规范.html",
-    "title": "| neo-bpsys Docs",
+    "title": "命名规范 | neo-bpsys Docs",
     "summary": "命名规范 类Class、属性Property、方法Mothods 统一采用大驼峰命名法upper camel case 字段Field 统一采用_+小驼峰命名法lower camel case 与游戏名词相关的术语 Ban 禁用 Pick 选择 Sur 求生者 Hun 监管者 Camp 阵营 Talent 天赋 Trait 辅助特质 Game 对局，单独出现时是单个游戏对局，在GameProgress中是指一个回合 Character/Chara 角色 Map 地图 GameProgress 对局进度，如Game1FirstHalf 第一局上半场 Team 队伍 Main 主队 Away 客队 Member 队伍成员 Player 选手（包含Member） OnField 已上场 Score 比分 Win 胜 Lose 负（前台的好像用不着了） Tie 平 MinorPoint 小比分 MajorPoint 大比分 Front 前台（bp展示界面） Interlude 过场画面，展示阵容和天赋 GameData 赛后数据 禁用Ban的部分统一采用动词在前如BanHun（禁用监管者），其余均为名词在前的命名比如（SurPick求生者选择）"
   },
   "docs/开发文档/开始.html": {
@@ -1066,7 +1061,7 @@
   },
   "docs/开发文档/插件开发文档.html": {
     "href": "docs/开发文档/插件开发文档.html",
-    "title": "| neo-bpsys Docs",
+    "title": "插件开发文档 | neo-bpsys Docs",
     "summary": "插件开发文档 前面的区域以后再来探索吧"
   },
   "index.html": {
