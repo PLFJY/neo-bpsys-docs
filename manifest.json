@@ -2651,10 +2651,600 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP回顾.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP回顾.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP画面.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/BP画面.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/BP回顾.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/BP回顾.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/BP画面.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/BP画面.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/MapBpV2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/MapBpV2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/地图BP.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/地图BP.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/比分画面.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/比分画面.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/比分画面_BO3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/比分画面_BO3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/赛后数据.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/赛后数据.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/过场画面.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/images/过场画面.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/地图BP.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/地图BP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/比分组件.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/比分组件.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/赛后数据画面.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/赛后数据画面.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/过场画面.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/前台窗口/过场画面.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/neo-bpsys-wpf使用文档/前言.md",
       "output": {
         ".html": {
           "relative_path": "docs/neo-bpsys-wpf使用文档/前言.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/BP界面及游戏内比分.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/BP界面及游戏内比分.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/修改上场选手顺序.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/修改上场选手顺序.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/倒计时.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/倒计时.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/全局禁选记录.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/全局禁选记录.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/分数统计.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/分数统计.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/前台UI个性化区域.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/前台UI个性化区域.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/前台管理.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/前台管理.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/后台控制窗口.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/后台控制窗口.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/后台控制窗口_light.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/后台控制窗口_light.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/地图禁用.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/地图禁用.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/地图选择.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/地图选择.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/对局引导_已开始.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/对局引导_已开始.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/对局引导_未开始.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/对局引导_未开始.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/待选择框开关.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/待选择框开关.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/快捷入口区域.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/快捷入口区域.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/换边按钮.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/换边按钮.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/控制监管者禁用数量.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/控制监管者禁用数量.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/新地图BP前台.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/新地图BP前台.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/新地图BP前台开呼吸灯.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/新地图BP前台开呼吸灯.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/新地图BP前台开阵营选择结果.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/新地图BP前台开阵营选择结果.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/求生者天赋.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/求生者天赋.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/求生者禁用数量控制.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/求生者禁用数量控制.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/求生者角色选择.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/求生者角色选择.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/监管者天赋.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/监管者天赋.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/监管者技能.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/监管者技能.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/监管者角色选择.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/监管者角色选择.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/禁用求生者.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/禁用求生者.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/禁用监管者.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/禁用监管者.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/设置队伍信息及上场选手.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/设置队伍信息及上场选手.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/软件信息区域.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/images/软件信息区域.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/前台管理.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/前台管理.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/双方阵营及换边.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/双方阵营及换边.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/启动页.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/启动页.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/地图禁选.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/地图禁选.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/天赋特质.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/天赋特质.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/对局信息及导航.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/对局信息及导航.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/拓展功能.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/拓展功能.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/比分控制.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/比分控制.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/禁用求生者.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/禁用求生者.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/禁用监管者.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/禁用监管者.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/计时器.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/计时器.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/设置.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/设置.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/赛后数据.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/赛后数据.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/选择角色.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/选择角色.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/后台/队伍信息.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/neo-bpsys-wpf使用文档/后台/队伍信息.html"
         }
       },
       "version": ""
@@ -2675,606 +3265,6 @@
       "output": {
         ".html": {
           "relative_path": "docs/neo-bpsys-wpf使用文档/安装与开始.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/BP回顾.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/BP回顾.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/BP画面.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/BP画面.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/BP回顾.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/BP回顾.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/BP画面.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/BP画面.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/MapBpV2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/MapBpV2.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/地图BP.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/地图BP.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/比分画面.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/比分画面.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/比分画面_BO3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/比分画面_BO3.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/赛后数据.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/赛后数据.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/过场画面.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/images/过场画面.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/地图BP.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/地图BP.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/比分组件.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/比分组件.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/赛后数据画面.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/赛后数据画面.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/过场画面.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/前台窗口/过场画面.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/倒计时.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/倒计时.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/后台控制窗口.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/后台控制窗口.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/后台控制窗口_light.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/后台控制窗口_light.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/对局引导_已开始.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/对局引导_已开始.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/对局引导_未开始.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/对局引导_未开始.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/换边按钮.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/images/换边按钮.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/双方阵营及换边.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/双方阵营及换边.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/对局信息及导航.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/对局信息及导航.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/计时器.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/窗口/后台控制窗口/计时器.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/BP界面及游戏内比分.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/BP界面及游戏内比分.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/修改上场选手顺序.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/修改上场选手顺序.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/全局禁选记录.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/全局禁选记录.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/分数统计.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/分数统计.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/前台UI个性化区域.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/前台UI个性化区域.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/前台管理.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/前台管理.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/后台控制窗口.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/后台控制窗口.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/地图禁用.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/地图禁用.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/地图选择.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/地图选择.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/待选择框开关.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/待选择框开关.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/快捷入口区域.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/快捷入口区域.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/控制监管者禁用数量.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/控制监管者禁用数量.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/新地图BP前台.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/新地图BP前台.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/新地图BP前台开呼吸灯.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/新地图BP前台开呼吸灯.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/新地图BP前台开阵营选择结果.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/新地图BP前台开阵营选择结果.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/求生者天赋.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/求生者天赋.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/求生者禁用数量控制.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/求生者禁用数量控制.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/求生者角色选择.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/求生者角色选择.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/监管者天赋.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/监管者天赋.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/监管者技能.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/监管者技能.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/监管者角色选择.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/监管者角色选择.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/禁用求生者.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/禁用求生者.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/禁用监管者.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/禁用监管者.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/设置队伍信息及上场选手.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/设置队伍信息及上场选手.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/软件信息区域.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/images/软件信息区域.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/前台管理.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/前台管理.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/启动页.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/启动页.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/地图禁选.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/地图禁选.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/天赋特质.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/天赋特质.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/拓展功能.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/拓展功能.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/比分控制.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/比分控制.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/禁用求生者.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/禁用求生者.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/禁用监管者.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/禁用监管者.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/设置.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/设置.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/赛后数据.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/赛后数据.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/选择角色.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/选择角色.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/页面/队伍信息.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/页面/队伍信息.html"
         }
       },
       "version": ""
