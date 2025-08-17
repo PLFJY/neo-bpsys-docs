@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Services_UpdaterService" data-uid="neo_bpsys_wpf.Services.UpdaterService" class="text-break">
-Class UpdaterService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L17"><i class="bi bi-code-slash"></i></a>
+Class UpdaterService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -119,7 +119,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IUpdaterService.html">IUpdaterService</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService.html">IUpdaterService</a></div>
     </dd>
   </dl>
 
@@ -136,9 +136,9 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <a id="neo_bpsys_wpf_Services_UpdaterService__ctor_" data-uid="neo_bpsys_wpf.Services.UpdaterService.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_UpdaterService__ctor_neo_bpsys_wpf_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Abstractions_Services_IInfoBarService_" data-uid="neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Abstractions.Services.IInfoBarService)">
+  <h3 id="neo_bpsys_wpf_Services_UpdaterService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_" data-uid="neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService)">
   UpdaterService(IMessageBoxService, IInfoBarService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -150,9 +150,9 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
+    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
     <dd></dd>
-    <dt><code>infoBarService</code> <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html">IInfoBarService</a></dt>
+    <dt><code>infoBarService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService.html">IInfoBarService</a></dt>
     <dd></dd>
   </dl>
 
@@ -175,15 +175,15 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_Downloader" data-uid="neo_bpsys_wpf.Services.UpdaterService.Downloader">
   Downloader
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>下载器</p>
+  <div class="markdown level1 summary"><p>下载器对象</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DownloadService Downloader { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public object Downloader { get; }</code></pre>
   </div>
 
 
@@ -192,7 +192,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">DownloadService</span></dt>
+    <dt><span class="xref">object</span></dt>
     <dd></dd>
   </dl>
 
@@ -207,7 +207,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_IsFindPreRelease" data-uid="neo_bpsys_wpf.Services.UpdaterService.IsFindPreRelease">
   IsFindPreRelease
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>是否寻找预览版</p>
@@ -239,7 +239,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_NewVersion" data-uid="neo_bpsys_wpf.Services.UpdaterService.NewVersion">
   NewVersion
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>最新版本号</p>
@@ -271,7 +271,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_NewVersionInfo" data-uid="neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo">
   NewVersionInfo
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>最新版本信息</p>
@@ -279,7 +279,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UpdaterService.ReleaseInfo NewVersionInfo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ReleaseInfo NewVersionInfo { get; set; }</code></pre>
   </div>
 
 
@@ -288,7 +288,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="neo_bpsys_wpf.Services.UpdaterService.html">UpdaterService</a>.<a class="xref" href="neo_bpsys_wpf.Services.UpdaterService.ReleaseInfo.html">ReleaseInfo</a></dt>
+    <dt><a class="xref" href="neo_bpsys_wpf.Core.Models.ReleaseInfo.html">ReleaseInfo</a></dt>
     <dd></dd>
   </dl>
 
@@ -307,7 +307,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_DownloadUpdate_System_String_" data-uid="neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate(System.String)">
   DownloadUpdate(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>下载更新</p>
@@ -344,7 +344,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_InstallUpdate" data-uid="neo_bpsys_wpf.Services.UpdaterService.InstallUpdate">
   InstallUpdate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L187"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>安装更新</p>
@@ -371,7 +371,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_UpdateCheck_System_Boolean_System_String_" data-uid="neo_bpsys_wpf.Services.UpdaterService.UpdateCheck(System.Boolean,System.String)">
   UpdateCheck(bool, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>检查更新</p>
@@ -411,7 +411,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L17" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L18" class="edit-link">Edit this page</a>
         </div>
 
 

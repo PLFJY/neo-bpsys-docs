@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class GameProgressToStringConverter | neo-bpsys Docs ">
       
-      
+      <meta name="description" content="对局进度到文字转换器 比如： 会变为 GAME1 FIRST HALF 若传入了其它参数比如endl表示输出换行版则是 GAME1\nFIRST HALF，同时利用Bo3Mode（MultiBinding的第二个Value）来判断是输出">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Converters_GameProgressToStringConverter" data-uid="neo_bpsys_wpf.Converters.GameProgressToStringConverter" class="text-break">
-Class GameProgressToStringConverter  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class GameProgressToStringConverter  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,10 @@ Class GameProgressToStringConverter  <a class="header-action link-secondary" tit
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>对局进度到文字转换器<br>
+比如：<a class="xref" href="neo_bpsys_wpf.Core.Enums.GameProgress.html#neo_bpsys_wpf_Core_Enums_GameProgress_Game1FirstHalf">Game1FirstHalf</a> 会变为 GAME1 FIRST HALF<br>
+若传入了其它参数比如endl表示输出换行版则是 GAME1\nFIRST HALF，同时利用Bo3Mode（MultiBinding的第二个Value）来判断是输出</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -130,8 +133,8 @@ Class GameProgressToStringConverter  <a class="header-action link-secondary" tit
   <a id="neo_bpsys_wpf_Converters_GameProgressToStringConverter_Convert_" data-uid="neo_bpsys_wpf.Converters.GameProgressToStringConverter.Convert*"></a>
 
   <h3 id="neo_bpsys_wpf_Converters_GameProgressToStringConverter_Convert_System_Object___System_Type_System_Object_System_Globalization_CultureInfo_" data-uid="neo_bpsys_wpf.Converters.GameProgressToStringConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)">
-  Convert(object[], Type, object, CultureInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  Convert(object[], Type, object?, CultureInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts source values to a value for the binding target. The data binding engine calls this method when it propagates the values from source bindings to the binding target.</p>
@@ -139,7 +142,7 @@ Class GameProgressToStringConverter  <a class="header-action link-secondary" tit
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)</code></pre>
+    <pre><code class="lang-csharp hljs">public object Convert(object[] values, Type targetType, object? parameter, CultureInfo culture)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -182,7 +185,7 @@ Class GameProgressToStringConverter  <a class="header-action link-secondary" tit
 
   <h3 id="neo_bpsys_wpf_Converters_GameProgressToStringConverter_ConvertBack_System_Object_System_Type___System_Object_System_Globalization_CultureInfo_" data-uid="neo_bpsys_wpf.Converters.GameProgressToStringConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)">
   ConvertBack(object, Type[], object, CultureInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts a binding target value to the source binding values.</p>
@@ -229,7 +232,7 @@ Class GameProgressToStringConverter  <a class="header-action link-secondary" tit
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/GameProgressToStringConverter.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

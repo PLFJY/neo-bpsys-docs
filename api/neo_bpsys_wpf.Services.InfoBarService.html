@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Services_InfoBarService" data-uid="neo_bpsys_wpf.Services.InfoBarService" class="text-break">
-Class InfoBarService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class InfoBarService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>提示框服务, 实现了 <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html">IInfoBarService</a> 接口，负责显示提示框</p>
+  <div class="markdown summary"><p>提示框服务, 实现了 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService.html">IInfoBarService</a> 接口，负责显示提示框</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -119,7 +119,7 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.Services.IInfoBarService.html">IInfoBarService</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService.html">IInfoBarService</a></div>
     </dd>
   </dl>
 
@@ -138,7 +138,7 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_InfoBarService_CloseInfoBar" data-uid="neo_bpsys_wpf.Services.InfoBarService.CloseInfoBar">
   CloseInfoBar()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>关闭提示框</p>
@@ -163,9 +163,9 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
 
   <a id="neo_bpsys_wpf_Services_InfoBarService_SetInfoBarControl_" data-uid="neo_bpsys_wpf.Services.InfoBarService.SetInfoBarControl*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_InfoBarService_SetInfoBarControl_Wpf_Ui_Controls_InfoBar_" data-uid="neo_bpsys_wpf.Services.InfoBarService.SetInfoBarControl(Wpf.Ui.Controls.InfoBar)">
-  SetInfoBarControl(InfoBar)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Services_InfoBarService_SetInfoBarControl_System_Object_" data-uid="neo_bpsys_wpf.Services.InfoBarService.SetInfoBarControl(System.Object)">
+  SetInfoBarControl(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>设置提示框控件</p>
@@ -173,12 +173,12 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetInfoBarControl(InfoBar infoBar)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetInfoBarControl(object infoBar)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>infoBar</code> <a class="xref" href="https://github.com/lepoco/wpfui/blob/master/src/Wpf.Ui/Controls/InfoBar/InfoBar.cs">InfoBar</a></dt>
+    <dt><code>infoBar</code> <span class="xref">object</span></dt>
     <dd></dd>
   </dl>
 
@@ -197,7 +197,7 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_InfoBarService_ShowErrorInfoBar_System_String_" data-uid="neo_bpsys_wpf.Services.InfoBarService.ShowErrorInfoBar(System.String)">
   ShowErrorInfoBar(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>显示错误提示框</p>
@@ -229,7 +229,7 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_InfoBarService_ShowInformationalInfoBar_System_String_" data-uid="neo_bpsys_wpf.Services.InfoBarService.ShowInformationalInfoBar(System.String)">
   ShowInformationalInfoBar(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>显示信息提示框</p>
@@ -261,7 +261,7 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_InfoBarService_ShowSuccessInfoBar_System_String_" data-uid="neo_bpsys_wpf.Services.InfoBarService.ShowSuccessInfoBar(System.String)">
   ShowSuccessInfoBar(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>显示成功提示框</p>
@@ -293,7 +293,7 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_InfoBarService_ShowWarningInfoBar_System_String_" data-uid="neo_bpsys_wpf.Services.InfoBarService.ShowWarningInfoBar(System.String)">
   ShowWarningInfoBar(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>显示警告提示框</p>
@@ -325,7 +325,7 @@ Class InfoBarService  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/InfoBarService.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

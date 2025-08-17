@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Services_SharedDataService" data-uid="neo_bpsys_wpf.Services.SharedDataService" class="text-break">
-Class SharedDataService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L19"><i class="bi bi-code-slash"></i></a>
+Class SharedDataService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>共享数据服务, 实现了 <a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a> 接口，负责全局的共享数据</p>
+  <div class="markdown summary"><p>共享数据服务, 实现了 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a> 接口，负责全局的共享数据</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -119,7 +119,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="neo_bpsys_wpf.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></div>
     </dd>
   </dl>
 
@@ -138,7 +138,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService__ctor_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Services_SharedDataService__" data-uid="neo_bpsys_wpf.Services.SharedDataService.#ctor(Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.SharedDataService})">
   SharedDataService(ILogger&lt;SharedDataService&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -173,7 +173,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_AwayTeam" data-uid="neo_bpsys_wpf.Services.SharedDataService.AwayTeam">
   AwayTeam
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>客队</p>
@@ -190,7 +190,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="neo_bpsys_wpf.Models.Team.html">Team</a></dt>
+    <dt><a class="xref" href="neo_bpsys_wpf.Core.Models.Team.html">Team</a></dt>
     <dd></dd>
   </dl>
 
@@ -201,19 +201,19 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
 
 
-  <a id="neo_bpsys_wpf_Services_SharedDataService_CanCurrentHunBanned_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanCurrentHunBanned*"></a>
+  <a id="neo_bpsys_wpf_Services_SharedDataService_CanCurrentHunBannedList_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanCurrentHunBannedList*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CanCurrentHunBanned" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanCurrentHunBanned">
-  CanCurrentHunBanned
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CanCurrentHunBannedList" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanCurrentHunBannedList">
+  CanCurrentHunBannedList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>监管者 (当局禁用) 是否可禁用</p>
+  <div class="markdown level1 summary"><p>当局禁用(监管者)是否可禁用</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanCurrentHunBanned { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanCurrentHunBannedList { get; set; }</code></pre>
   </div>
 
 
@@ -233,19 +233,19 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
 
 
-  <a id="neo_bpsys_wpf_Services_SharedDataService_CanCurrentSurBanned_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanCurrentSurBanned*"></a>
+  <a id="neo_bpsys_wpf_Services_SharedDataService_CanCurrentSurBannedList_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanCurrentSurBannedList*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CanCurrentSurBanned" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanCurrentSurBanned">
-  CanCurrentSurBanned
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CanCurrentSurBannedList" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanCurrentSurBannedList">
+  CanCurrentSurBannedList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>当局禁用是否可禁用</p>
+  <div class="markdown level1 summary"><p>当局禁用(求生者)是否可禁用</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanCurrentSurBanned { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanCurrentSurBannedList { get; set; }</code></pre>
   </div>
 
 
@@ -265,19 +265,19 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
 
 
-  <a id="neo_bpsys_wpf_Services_SharedDataService_CanGlobalHunBanned_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanGlobalHunBanned*"></a>
+  <a id="neo_bpsys_wpf_Services_SharedDataService_CanGlobalHunBannedList_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanGlobalHunBannedList*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CanGlobalHunBanned" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanGlobalHunBanned">
-  CanGlobalHunBanned
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CanGlobalHunBannedList" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanGlobalHunBannedList">
+  CanGlobalHunBannedList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>监管者 (全局禁用) 是否可禁用</p>
+  <div class="markdown level1 summary"><p>全局禁用(监管者)是否可禁用</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanGlobalHunBanned { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanGlobalHunBannedList { get; set; }</code></pre>
   </div>
 
 
@@ -297,19 +297,19 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
 
 
-  <a id="neo_bpsys_wpf_Services_SharedDataService_CanGlobalSurBanned_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanGlobalSurBanned*"></a>
+  <a id="neo_bpsys_wpf_Services_SharedDataService_CanGlobalSurBannedList_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanGlobalSurBannedList*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CanGlobalSurBanned" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanGlobalSurBanned">
-  CanGlobalSurBanned
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CanGlobalSurBannedList" data-uid="neo_bpsys_wpf.Services.SharedDataService.CanGlobalSurBannedList">
+  CanGlobalSurBannedList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>全局禁用是否可禁用</p>
+  <div class="markdown level1 summary"><p>全局禁用(求生者)是否可禁用</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanGlobalSurBanned { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;bool&gt; CanGlobalSurBannedList { get; set; }</code></pre>
   </div>
 
 
@@ -329,11 +329,11 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
 
 
-  <a id="neo_bpsys_wpf_Services_SharedDataService_CharacterList_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CharacterList*"></a>
+  <a id="neo_bpsys_wpf_Services_SharedDataService_CharacterDict_" data-uid="neo_bpsys_wpf.Services.SharedDataService.CharacterDict*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CharacterList" data-uid="neo_bpsys_wpf.Services.SharedDataService.CharacterList">
-  CharacterList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CharacterDict" data-uid="neo_bpsys_wpf.Services.SharedDataService.CharacterDict">
+  CharacterDict
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>所有角色</p>
@@ -341,7 +341,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Character&gt; CharacterList { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Character&gt; CharacterDict { get; }</code></pre>
   </div>
 
 
@@ -350,7 +350,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.Character.html">Character</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -365,10 +365,10 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_CurrentGame" data-uid="neo_bpsys_wpf.Services.SharedDataService.CurrentGame">
   CurrentGame
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>当前游戏</p>
+  <div class="markdown level1 summary"><p>当前对局</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -382,7 +382,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="neo_bpsys_wpf.Models.Game.html">Game</a></dt>
+    <dt><a class="xref" href="neo_bpsys_wpf.Core.Models.Game.html">Game</a></dt>
     <dd></dd>
   </dl>
 
@@ -397,7 +397,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_GlobalScoreTotalMargin" data-uid="neo_bpsys_wpf.Services.SharedDataService.GlobalScoreTotalMargin">
   GlobalScoreTotalMargin
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L327"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>分数统计界面 BO3 和 BO5之间&quot;Total&quot;相差的距离</p>
@@ -429,7 +429,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_HunCharaList" data-uid="neo_bpsys_wpf.Services.SharedDataService.HunCharaList">
   HunCharaList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L158"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>监管者角色列表</p>
@@ -437,7 +437,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Character&gt; HunCharaList { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Character&gt; HunCharaList { get; }</code></pre>
   </div>
 
 
@@ -446,7 +446,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.Character.html">Character</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -461,7 +461,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_IsBo3Mode" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsBo3Mode">
   IsBo3Mode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L307"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>是否是Bo3模式</p>
@@ -489,11 +489,75 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="neo_bpsys_wpf_Services_SharedDataService_IsMapV2Breathing_" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsMapV2Breathing*"></a>
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_IsMapV2Breathing" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsMapV2Breathing">
+  IsMapV2Breathing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>地图V2呼吸灯是否开启</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMapV2Breathing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Services_SharedDataService_IsMapV2CampVisible_" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsMapV2CampVisible*"></a>
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_IsMapV2CampVisible" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsMapV2CampVisible">
+  IsMapV2CampVisible
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>地图V2阵营是否可见</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMapV2CampVisible { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Services_SharedDataService_IsTraitVisible_" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsTraitVisible*"></a>
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_IsTraitVisible" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsTraitVisible">
   IsTraitVisible
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L289"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>辅助特质是否可见</p>
@@ -525,7 +589,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_MainTeam" data-uid="neo_bpsys_wpf.Services.SharedDataService.MainTeam">
   MainTeam
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>主队</p>
@@ -542,7 +606,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="neo_bpsys_wpf.Models.Team.html">Team</a></dt>
+    <dt><a class="xref" href="neo_bpsys_wpf.Core.Models.Team.html">Team</a></dt>
     <dd></dd>
   </dl>
 
@@ -557,7 +621,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_RemainingSeconds" data-uid="neo_bpsys_wpf.Services.SharedDataService.RemainingSeconds">
   RemainingSeconds
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>倒计时剩余时间</p>
@@ -589,7 +653,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_SurCharaList" data-uid="neo_bpsys_wpf.Services.SharedDataService.SurCharaList">
   SurCharaList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>求生者角色列表</p>
@@ -597,7 +661,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Character&gt; SurCharaList { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Character&gt; SurCharaList { get; }</code></pre>
   </div>
 
 
@@ -606,7 +670,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Models.Character.html">Character</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -623,9 +687,9 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <a id="neo_bpsys_wpf_Services_SharedDataService_SetBanCount_" data-uid="neo_bpsys_wpf.Services.SharedDataService.SetBanCount*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_SharedDataService_SetBanCount_neo_bpsys_wpf_Enums_BanListName_System_Int32_" data-uid="neo_bpsys_wpf.Services.SharedDataService.SetBanCount(neo_bpsys_wpf.Enums.BanListName,System.Int32)">
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_SetBanCount_neo_bpsys_wpf_Core_Enums_BanListName_System_Int32_" data-uid="neo_bpsys_wpf.Services.SharedDataService.SetBanCount(neo_bpsys_wpf.Core.Enums.BanListName,System.Int32)">
   SetBanCount(BanListName, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L190"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>设置Ban位数量，第一个参数传入列表名称<br></p>
@@ -638,7 +702,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>listName</code> <a class="xref" href="neo_bpsys_wpf.Enums.BanListName.html">BanListName</a></dt>
+    <dt><code>listName</code> <a class="xref" href="neo_bpsys_wpf.Core.Enums.BanListName.html">BanListName</a></dt>
     <dd><p>传入的列表名称</p>
 </dd>
     <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
@@ -666,7 +730,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_TimerStart_System_Nullable_System_Int32__" data-uid="neo_bpsys_wpf.Services.SharedDataService.TimerStart(System.Nullable{System.Int32})">
   TimerStart(int?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L265"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>开始倒计时</p>
@@ -698,7 +762,7 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="neo_bpsys_wpf_Services_SharedDataService_TimerStop" data-uid="neo_bpsys_wpf.Services.SharedDataService.TimerStop">
   TimerStop()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L274"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>停止倒计时</p>
@@ -721,11 +785,294 @@ Class SharedDataService  <a class="header-action link-secondary" title="View sou
 
 
 
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_BanCountChanged" data-uid="neo_bpsys_wpf.Services.SharedDataService.BanCountChanged">
+  BanCountChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ban位数量改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;BanCountChangedEventArgs&gt;? BanCountChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.BanCountChangedEventArgs.html">BanCountChangedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CountDownValueChanged" data-uid="neo_bpsys_wpf.Services.SharedDataService.CountDownValueChanged">
+  CountDownValueChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>倒计时剩余秒数改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? CountDownValueChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_CurrentGameChanged" data-uid="neo_bpsys_wpf.Services.SharedDataService.CurrentGameChanged">
+  CurrentGameChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L392"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前对局改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? CurrentGameChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_GlobalScoreTotalMarginChanged" data-uid="neo_bpsys_wpf.Services.SharedDataService.GlobalScoreTotalMarginChanged">
+  GlobalScoreTotalMarginChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L397"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>分数统计界面 BO3 和 BO5之间&quot;Total&quot;相差的距离改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? GlobalScoreTotalMarginChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_IsBo3ModeChanged" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsBo3ModeChanged">
+  IsBo3ModeChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>BO3模式改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? IsBo3ModeChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_IsMapV2BreathingChanged" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsMapV2BreathingChanged">
+  IsMapV2BreathingChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L427"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>地图V2呼吸灯改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? IsMapV2BreathingChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_IsMapV2CampVisibleChanged" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsMapV2CampVisibleChanged">
+  IsMapV2CampVisibleChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L432"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>地图V2阵营是否可见改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? IsMapV2CampVisibleChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_IsTraitVisibleChanged" data-uid="neo_bpsys_wpf.Services.SharedDataService.IsTraitVisibleChanged">
+  IsTraitVisibleChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L407"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>辅助特质可见性改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? IsTraitVisibleChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_Services_SharedDataService_TeamSwapped" data-uid="neo_bpsys_wpf.Services.SharedDataService.TeamSwapped">
+  TeamSwapped
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>队伍换边事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? TeamSwapped</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L19" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SharedDataService.cs/#L24" class="edit-link">Edit this page</a>
         </div>
 
 

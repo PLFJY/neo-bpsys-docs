@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CharaSelectViewModelBase | neo-bpsys Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CharaSelectViewModelBase | neo-bpsys Docs ">
+      
+      <meta name="description" content="用于选择角色的角色选择器行为的基类 需要派生类所做的是:  1.设置 2.设置 3.实现">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/favicon.ico" alt="neo-bpsys-wpf">
+            neo-bpsys-wpf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase">
+
+
+
+  <h1 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase" class="text-break">
+Class CharaSelectViewModelBase  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="neo_bpsys_wpf.html">neo_bpsys_wpf</a>.<a class="xref" href="neo_bpsys_wpf.Core.html">Core</a>.<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.html">Abstractions</a>.<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.html">ViewModels</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>用于选择角色的角色选择器行为的基类
+需要派生类所做的是: <br>
+1.设置<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_CharaList">CharaList</a><br>
+2.设置<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsEnabled">IsEnabled</a><br>
+3.实现<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SyncCharaAsync">SyncCharaAsync()</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CharaSelectViewModelBase : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ObservableObject</span></div>
+      <div><span class="xref">ObservableRecipient</span></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><span class="xref">CharaSelectViewModelBase</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html">BanHunPageViewModel.BanHunCurrentViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html">BanHunPageViewModel.BanHunGlobalViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html">BanSurPageViewModel.BanSurCurrentViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html">BanSurPageViewModel.BanSurGlobalViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html">PickPageViewModel.AwayHunGlobalBanRecordViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html">PickPageViewModel.AwaySurGlobalBanRecordViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html">PickPageViewModel.HunPickViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html">PickPageViewModel.MainHunGlobalBanRecordViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html">PickPageViewModel.MainSurGlobalBanRecordViewModel</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html">PickPageViewModel.SurPickViewModel</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase__ctor_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.#ctor*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)">
+  CharaSelectViewModelBase(ISharedDataService, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CharaSelectViewModelBase(ISharedDataService sharedDataService, int index = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
+    <dd><p>共享数据服务</p>
+</dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>当前序号</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SharedDataService" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SharedDataService">
+  SharedDataService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ISharedDataService SharedDataService</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_CharaList_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_CharaList" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList">
+  CharaList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>角色列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Character&gt; CharaList { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_ConfirmCommand" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmCommand">
+  ConfirmCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IAsyncRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.ConfirmAsync()</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncRelayCommand ConfirmCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IAsyncRelayCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_Index_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.Index*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_Index" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.Index">
+  Index
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前的序号</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Index { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsCharaChangerHighlighted_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsCharaChangerHighlighted*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsCharaChangerHighlighted" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsCharaChangerHighlighted">
+  IsCharaChangerHighlighted
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>对应的互换器是否高亮</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCharaChangerHighlighted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsEnabled_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsEnabled" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled">
+  IsEnabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前选择器是否可用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsHighlighted_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsHighlighted*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsHighlighted" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsHighlighted">
+  IsHighlighted
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前选择器是否高亮</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHighlighted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_PreviewImage_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.PreviewImage*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_PreviewImage" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.PreviewImage">
+  PreviewImage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>预览图片</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImageSource? PreviewImage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ImageSource</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SelectedChara_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SelectedChara" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SelectedChara">
+  SelectedChara
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前选中的角色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Character? SelectedChara { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsActionNameCorrect_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})">
+  IsActionNameCorrect(GameAction?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断当前高亮步骤是否符合当前控件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract bool IsActionNameCorrect(GameAction? action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="neo_bpsys_wpf.Core.Enums.GameAction.html">GameAction</a>?</dt>
+    <dd><p>当前步骤</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否符合</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_Receive_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.Receive*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Core_Messages_HighlightMessage_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Core.Messages.HighlightMessage)">
+  Receive(HighlightMessage)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>接收高亮消息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Receive(HighlightMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="neo_bpsys_wpf.Core.Messages.HighlightMessage.html">HighlightMessage</a></dt>
+    <dd><p>消息</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SyncCharaAsync_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SyncCharaAsync" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync">
+  SyncCharaAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>确认</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task SyncCharaAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SyncIsEnabled_" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SyncIsEnabled*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SyncIsEnabled" data-uid="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SyncIsEnabled">
+  SyncIsEnabled()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/ViewModels/CharaSelectViewModelBase.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>同步当前角色选择器是否启用状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void SyncIsEnabled()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

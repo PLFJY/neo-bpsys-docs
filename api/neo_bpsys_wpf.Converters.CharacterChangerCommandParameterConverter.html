@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CharacterChangerCommandParameterConverter | neo-bpsys Docs ">
       
-      
+      <meta name="description" content="用于转换角色切换器的Command参数，">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Converters_CharacterChangerCommandParameterConverter" data-uid="neo_bpsys_wpf.Converters.CharacterChangerCommandParameterConverter" class="text-break">
-Class CharacterChangerCommandParameterConverter  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/CharacterChangerCommandParameterConverter.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class CharacterChangerCommandParameterConverter  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/CharacterChangerCommandParameterConverter.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class CharacterChangerCommandParameterConverter  <a class="header-action link-se
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>用于转换角色切换器的Command参数，</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -131,11 +132,10 @@ Class CharacterChangerCommandParameterConverter  <a class="header-action link-se
 
   <h3 id="neo_bpsys_wpf_Converters_CharacterChangerCommandParameterConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_" data-uid="neo_bpsys_wpf.Converters.CharacterChangerCommandParameterConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
   Convert(object, Type, object, CultureInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/CharacterChangerCommandParameterConverter.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/CharacterChangerCommandParameterConverter.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Converts a value.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -145,23 +145,21 @@ Class CharacterChangerCommandParameterConverter  <a class="header-action link-se
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>value</code> <span class="xref">object</span></dt>
-    <dd><p>The value produced by the binding source.</p>
+    <dd><p>CharacterChanger控件</p>
 </dd>
     <dt><code>targetType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd><p>The type of the binding target property.</p>
-</dd>
+    <dd></dd>
     <dt><code>parameter</code> <span class="xref">object</span></dt>
-    <dd><p>The converter parameter to use.</p>
+    <dd><p>指定了的将自身Index转为ButtonContent的Converter，用于判断自身Index和目标Index</p>
 </dd>
     <dt><code>culture</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></dt>
-    <dd><p>The culture to use in the converter.</p>
-</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">object</span></dt>
-    <dd><p>A converted value. If the method returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the valid null value is used.</p>
+    <dd><p>返回一个CharacterChangerCommandParameter对象，Source是自身index，Target是点击的按钮所在的Index，但是由于我们无法为按钮直接设置Name，所以通过判断其Content的Converter来判断目标的Index</p>
 </dd>
   </dl>
 
@@ -179,7 +177,7 @@ Class CharacterChangerCommandParameterConverter  <a class="header-action link-se
 
   <h3 id="neo_bpsys_wpf_Converters_CharacterChangerCommandParameterConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_" data-uid="neo_bpsys_wpf.Converters.CharacterChangerCommandParameterConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
   ConvertBack(object, Type, object, CultureInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/CharacterChangerCommandParameterConverter.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/CharacterChangerCommandParameterConverter.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts a value.</p>
@@ -227,7 +225,7 @@ Class CharacterChangerCommandParameterConverter  <a class="header-action link-se
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/CharacterChangerCommandParameterConverter.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Converters/CharacterChangerCommandParameterConverter.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
