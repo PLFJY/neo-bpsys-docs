@@ -183,25 +183,27 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <a id="neo_bpsys_wpf_Views_Windows_MainWindow__ctor_" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow__ctor_Wpf_Ui_INavigationService_neo_bpsys_wpf_Core_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Views_Windows_MainWindow__" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})">
-  MainWindow(INavigationService, IMessageBoxService, IInfoBarService, ILogger&lt;MainWindow&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow__ctor_Wpf_Ui_INavigationService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Views_Windows_MainWindow__" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService,neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})">
+  MainWindow(INavigationService, IInfoBarService, ISnackbarService, ISettingsHostService, ILogger&lt;MainWindow&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MainWindow(INavigationService navigationService, IMessageBoxService messageBoxService, IInfoBarService infoBarService, ILogger&lt;MainWindow&gt; logger)</code></pre>
+    <pre><code class="lang-csharp hljs">public MainWindow(INavigationService navigationService, IInfoBarService infoBarService, ISnackbarService snackbarService, ISettingsHostService settingsHostService, ILogger&lt;MainWindow&gt; logger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>navigationService</code> <a class="xref" href="https://github.com/lepoco/wpfui/blob/master/src/Wpf.Ui/INavigationService.cs">INavigationService</a></dt>
     <dd></dd>
-    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
-    <dd></dd>
     <dt><code>infoBarService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService.html">IInfoBarService</a></dt>
+    <dd></dd>
+    <dt><code>snackbarService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html">ISnackbarService</a></dt>
+    <dd></dd>
+    <dt><code>settingsHostService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html">ISettingsHostService</a></dt>
     <dd></dd>
     <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="neo_bpsys_wpf.Views.Windows.MainWindow.html">MainWindow</a>&gt;</dt>
     <dd></dd>
@@ -226,7 +228,7 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow_CloseWindow" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.CloseWindow">
   CloseWindow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Triggers the command to close a window.</p>
@@ -253,7 +255,7 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow_GetNavigation" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.GetNavigation">
   GetNavigation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -284,7 +286,7 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow_InitializeComponent" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.InitializeComponent">
   InitializeComponent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/Views/Windows/MainWindow.g.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>InitializeComponent</p>
@@ -311,7 +313,7 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow_Navigate_System_Type_" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.Navigate(System.Type)">
   Navigate(Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Lets you navigate to the selected page based on it's type. Should be used with <a class="xref" href="https://github.com/lepoco/wpfui/blob/master/src/Wpf.Ui.Abstractions/INavigationViewPageProvider.cs">INavigationViewPageProvider</a>.</p>
@@ -350,7 +352,7 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow_OnClosing_System_ComponentModel_CancelEventArgs_" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing(System.ComponentModel.CancelEventArgs)">
   OnClosing(CancelEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raises the <span class="xref">System.Windows.Window.Closing</span> event.</p>
@@ -383,7 +385,7 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow_SetPageService_Wpf_Ui_Abstractions_INavigationViewPageProvider_" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.SetPageService(Wpf.Ui.Abstractions.INavigationViewPageProvider)">
   SetPageService(INavigationViewPageProvider)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Lets you attach the service that delivers page instances to <a class="xref" href="https://github.com/lepoco/wpfui/blob/master/src/Wpf.Ui/Controls/NavigationView/INavigationView.cs">INavigationView</a>.</p>
@@ -416,7 +418,7 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow_SetServiceProvider_System_IServiceProvider_" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.SetServiceProvider(System.IServiceProvider)">
   SetServiceProvider(IServiceProvider)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Lets you attach the service provider that delivers page instances to <a class="xref" href="https://github.com/lepoco/wpfui/blob/master/src/Wpf.Ui/Controls/NavigationView/INavigationView.cs">INavigationView</a>.</p>
@@ -449,7 +451,7 @@ Class MainWindow  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="neo_bpsys_wpf_Views_Windows_MainWindow_ShowWindow" data-uid="neo_bpsys_wpf.Views.Windows.MainWindow.ShowWindow">
   ShowWindow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Views/Windows/MainWindow.xaml.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Triggers the command to open a window.</p>

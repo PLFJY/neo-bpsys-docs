@@ -907,6 +907,83 @@ references:
   commentId: F:neo_bpsys_wpf.Controls.GlobalScorePresenter.TextProperty
   fullName: neo_bpsys_wpf.Controls.GlobalScorePresenter.TextProperty
   nameWithType: GlobalScorePresenter.TextProperty
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent
+  name: HyperLinkSnackbarContent
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html
+  commentId: T:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent
+  nameWithType: HyperLinkSnackbarContent
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.#ctor(System.String,System.String,System.Action)
+  name: HyperLinkSnackbarContent(string, string, Action)
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent__ctor_System_String_System_String_System_Action_
+  commentId: M:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.#ctor(System.String,System.String,System.Action)
+  name.vb: New(String, String, Action)
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.HyperLinkSnackbarContent(string, string, System.Action)
+  fullName.vb: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.New(String, String, System.Action)
+  nameWithType: HyperLinkSnackbarContent.HyperLinkSnackbarContent(string, string, Action)
+  nameWithType.vb: HyperLinkSnackbarContent.New(String, String, Action)
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.#ctor*
+  name: HyperLinkSnackbarContent
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent__ctor_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.HyperLinkSnackbarContent
+  fullName.vb: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.New
+  nameWithType: HyperLinkSnackbarContent.HyperLinkSnackbarContent
+  nameWithType.vb: HyperLinkSnackbarContent.New
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.InitializeComponent
+  name: InitializeComponent()
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_InitializeComponent
+  commentId: M:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.InitializeComponent
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.InitializeComponent()
+  nameWithType: HyperLinkSnackbarContent.InitializeComponent()
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.InitializeComponent*
+  name: InitializeComponent
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_InitializeComponent_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.InitializeComponent
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.InitializeComponent
+  nameWithType: HyperLinkSnackbarContent.InitializeComponent
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
+  name: NavigateUri
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NavigateUri
+  commentId: P:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
+  nameWithType: HyperLinkSnackbarContent.NavigateUri
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri*
+  name: NavigateUri
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NavigateUri_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
+  nameWithType: HyperLinkSnackbarContent.NavigateUri
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLogerDisplayedCommand
+  name: NoLogerDisplayedCommand
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NoLogerDisplayedCommand
+  commentId: P:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLogerDisplayedCommand
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLogerDisplayedCommand
+  nameWithType: HyperLinkSnackbarContent.NoLogerDisplayedCommand
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLogerDisplayedCommand*
+  name: NoLogerDisplayedCommand
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NoLogerDisplayedCommand_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLogerDisplayedCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLogerDisplayedCommand
+  nameWithType: HyperLinkSnackbarContent.NoLogerDisplayedCommand
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.Text
+  name: Text
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_Text
+  commentId: P:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.Text
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.Text
+  nameWithType: HyperLinkSnackbarContent.Text
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.Text*
+  name: Text
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_Text_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.Text
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.Text
+  nameWithType: HyperLinkSnackbarContent.Text
 - uid: neo_bpsys_wpf.Controls.MapV2Presenter
   name: MapV2Presenter
   href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html
@@ -3546,6 +3623,67 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.TimerStop
   nameWithType: ISharedDataService.TimerStop
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService
+  name: ISnackbarService
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html
+  commentId: T:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService
+  nameWithType: ISnackbarService
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.DefaultTimeOut
+  name: DefaultTimeOut
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_DefaultTimeOut
+  commentId: P:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.DefaultTimeOut
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.DefaultTimeOut
+  nameWithType: ISnackbarService.DefaultTimeOut
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.DefaultTimeOut*
+  name: DefaultTimeOut
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_DefaultTimeOut_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.DefaultTimeOut
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.DefaultTimeOut
+  nameWithType: ISnackbarService.DefaultTimeOut
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Hide
+  name: Hide()
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_Hide
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Hide
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Hide()
+  nameWithType: ISnackbarService.Hide()
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Hide*
+  name: Hide
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_Hide_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Hide
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Hide
+  nameWithType: ISnackbarService.Hide
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.SetSnackbarPresenter(Wpf.Ui.Controls.SnackbarPresenter)
+  name: SetSnackbarPresenter(SnackbarPresenter)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_SetSnackbarPresenter_Wpf_Ui_Controls_SnackbarPresenter_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.SetSnackbarPresenter(Wpf.Ui.Controls.SnackbarPresenter)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.SetSnackbarPresenter(Wpf.Ui.Controls.SnackbarPresenter)
+  nameWithType: ISnackbarService.SetSnackbarPresenter(SnackbarPresenter)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.SetSnackbarPresenter*
+  name: SetSnackbarPresenter
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_SetSnackbarPresenter_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.SetSnackbarPresenter
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.SetSnackbarPresenter
+  nameWithType: ISnackbarService.SetSnackbarPresenter
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Show(System.String,System.Windows.DependencyObject,Wpf.Ui.Controls.ControlAppearance,Wpf.Ui.Controls.IconElement,System.TimeSpan,System.Boolean)
+  name: Show(string, DependencyObject, ControlAppearance, IconElement?, TimeSpan, bool)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_Show_System_String_System_Windows_DependencyObject_Wpf_Ui_Controls_ControlAppearance_Wpf_Ui_Controls_IconElement_System_TimeSpan_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Show(System.String,System.Windows.DependencyObject,Wpf.Ui.Controls.ControlAppearance,Wpf.Ui.Controls.IconElement,System.TimeSpan,System.Boolean)
+  name.vb: Show(String, DependencyObject, ControlAppearance, IconElement, TimeSpan, Boolean)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Show(string, System.Windows.DependencyObject, Wpf.Ui.Controls.ControlAppearance, Wpf.Ui.Controls.IconElement?, System.TimeSpan, bool)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Show(String, System.Windows.DependencyObject, Wpf.Ui.Controls.ControlAppearance, Wpf.Ui.Controls.IconElement, System.TimeSpan, Boolean)
+  nameWithType: ISnackbarService.Show(string, DependencyObject, ControlAppearance, IconElement?, TimeSpan, bool)
+  nameWithType.vb: ISnackbarService.Show(String, DependencyObject, ControlAppearance, IconElement, TimeSpan, Boolean)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Show*
+  name: Show
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_Show_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Show
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.Show
+  nameWithType: ISnackbarService.Show
 - uid: neo_bpsys_wpf.Core.Abstractions.Services.ITextSettingsNavigationService
   name: ITextSettingsNavigationService
   href: api/neo_bpsys_wpf.Core.Abstractions.Services.ITextSettingsNavigationService.html
@@ -6851,6 +6989,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.Settings.ScoreWindowSettings
   nameWithType: Settings.ScoreWindowSettings
+- uid: neo_bpsys_wpf.Core.Models.Settings.ShowTip
+  name: ShowTip
+  href: api/neo_bpsys_wpf.Core.Models.Settings.html#neo_bpsys_wpf_Core_Models_Settings_ShowTip
+  commentId: P:neo_bpsys_wpf.Core.Models.Settings.ShowTip
+  fullName: neo_bpsys_wpf.Core.Models.Settings.ShowTip
+  nameWithType: Settings.ShowTip
+- uid: neo_bpsys_wpf.Core.Models.Settings.ShowTip*
+  name: ShowTip
+  href: api/neo_bpsys_wpf.Core.Models.Settings.html#neo_bpsys_wpf_Core_Models_Settings_ShowTip_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.Settings.ShowTip
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.Settings.ShowTip
+  nameWithType: Settings.ShowTip
 - uid: neo_bpsys_wpf.Core.Models.Settings.WidgetsWindowSettings
   name: WidgetsWindowSettings
   href: api/neo_bpsys_wpf.Core.Models.Settings.html#neo_bpsys_wpf_Core_Models_Settings_WidgetsWindowSettings
@@ -9031,6 +9182,67 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.SharedDataService.TimerStop
   nameWithType: SharedDataService.TimerStop
+- uid: neo_bpsys_wpf.Services.SnackbarService
+  name: SnackbarService
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html
+  commentId: T:neo_bpsys_wpf.Services.SnackbarService
+  fullName: neo_bpsys_wpf.Services.SnackbarService
+  nameWithType: SnackbarService
+- uid: neo_bpsys_wpf.Services.SnackbarService.DefaultTimeOut
+  name: DefaultTimeOut
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html#neo_bpsys_wpf_Services_SnackbarService_DefaultTimeOut
+  commentId: P:neo_bpsys_wpf.Services.SnackbarService.DefaultTimeOut
+  fullName: neo_bpsys_wpf.Services.SnackbarService.DefaultTimeOut
+  nameWithType: SnackbarService.DefaultTimeOut
+- uid: neo_bpsys_wpf.Services.SnackbarService.DefaultTimeOut*
+  name: DefaultTimeOut
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html#neo_bpsys_wpf_Services_SnackbarService_DefaultTimeOut_
+  commentId: Overload:neo_bpsys_wpf.Services.SnackbarService.DefaultTimeOut
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.SnackbarService.DefaultTimeOut
+  nameWithType: SnackbarService.DefaultTimeOut
+- uid: neo_bpsys_wpf.Services.SnackbarService.Hide
+  name: Hide()
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html#neo_bpsys_wpf_Services_SnackbarService_Hide
+  commentId: M:neo_bpsys_wpf.Services.SnackbarService.Hide
+  fullName: neo_bpsys_wpf.Services.SnackbarService.Hide()
+  nameWithType: SnackbarService.Hide()
+- uid: neo_bpsys_wpf.Services.SnackbarService.Hide*
+  name: Hide
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html#neo_bpsys_wpf_Services_SnackbarService_Hide_
+  commentId: Overload:neo_bpsys_wpf.Services.SnackbarService.Hide
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.SnackbarService.Hide
+  nameWithType: SnackbarService.Hide
+- uid: neo_bpsys_wpf.Services.SnackbarService.SetSnackbarPresenter(Wpf.Ui.Controls.SnackbarPresenter)
+  name: SetSnackbarPresenter(SnackbarPresenter)
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html#neo_bpsys_wpf_Services_SnackbarService_SetSnackbarPresenter_Wpf_Ui_Controls_SnackbarPresenter_
+  commentId: M:neo_bpsys_wpf.Services.SnackbarService.SetSnackbarPresenter(Wpf.Ui.Controls.SnackbarPresenter)
+  fullName: neo_bpsys_wpf.Services.SnackbarService.SetSnackbarPresenter(Wpf.Ui.Controls.SnackbarPresenter)
+  nameWithType: SnackbarService.SetSnackbarPresenter(SnackbarPresenter)
+- uid: neo_bpsys_wpf.Services.SnackbarService.SetSnackbarPresenter*
+  name: SetSnackbarPresenter
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html#neo_bpsys_wpf_Services_SnackbarService_SetSnackbarPresenter_
+  commentId: Overload:neo_bpsys_wpf.Services.SnackbarService.SetSnackbarPresenter
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.SnackbarService.SetSnackbarPresenter
+  nameWithType: SnackbarService.SetSnackbarPresenter
+- uid: neo_bpsys_wpf.Services.SnackbarService.Show(System.String,System.Windows.DependencyObject,Wpf.Ui.Controls.ControlAppearance,Wpf.Ui.Controls.IconElement,System.TimeSpan,System.Boolean)
+  name: Show(string, DependencyObject, ControlAppearance, IconElement?, TimeSpan, bool)
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html#neo_bpsys_wpf_Services_SnackbarService_Show_System_String_System_Windows_DependencyObject_Wpf_Ui_Controls_ControlAppearance_Wpf_Ui_Controls_IconElement_System_TimeSpan_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Services.SnackbarService.Show(System.String,System.Windows.DependencyObject,Wpf.Ui.Controls.ControlAppearance,Wpf.Ui.Controls.IconElement,System.TimeSpan,System.Boolean)
+  name.vb: Show(String, DependencyObject, ControlAppearance, IconElement, TimeSpan, Boolean)
+  fullName: neo_bpsys_wpf.Services.SnackbarService.Show(string, System.Windows.DependencyObject, Wpf.Ui.Controls.ControlAppearance, Wpf.Ui.Controls.IconElement?, System.TimeSpan, bool)
+  fullName.vb: neo_bpsys_wpf.Services.SnackbarService.Show(String, System.Windows.DependencyObject, Wpf.Ui.Controls.ControlAppearance, Wpf.Ui.Controls.IconElement, System.TimeSpan, Boolean)
+  nameWithType: SnackbarService.Show(string, DependencyObject, ControlAppearance, IconElement?, TimeSpan, bool)
+  nameWithType.vb: SnackbarService.Show(String, DependencyObject, ControlAppearance, IconElement, TimeSpan, Boolean)
+- uid: neo_bpsys_wpf.Services.SnackbarService.Show*
+  name: Show
+  href: api/neo_bpsys_wpf.Services.SnackbarService.html#neo_bpsys_wpf_Services_SnackbarService_Show_
+  commentId: Overload:neo_bpsys_wpf.Services.SnackbarService.Show
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.SnackbarService.Show
+  nameWithType: SnackbarService.Show
 - uid: neo_bpsys_wpf.Services.TextSettingsNavigationService
   name: TextSettingsNavigationService
   href: api/neo_bpsys_wpf.Services.TextSettingsNavigationService.html
@@ -11793,6 +12005,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.MirrorList
   nameWithType: SettingPageViewModel.MirrorList
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.OpenTipCommand
+  name: OpenTipCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_OpenTipCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.OpenTipCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.OpenTipCommand
+  nameWithType: SettingPageViewModel.OpenTipCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.OpenTipCommand*
+  name: OpenTipCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_OpenTipCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.OpenTipCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.OpenTipCommand
+  nameWithType: SettingPageViewModel.OpenTipCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand
   name: ResetAllCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetAllCommand
@@ -14390,15 +14615,15 @@ references:
   commentId: T:neo_bpsys_wpf.Views.Windows.MainWindow
   fullName: neo_bpsys_wpf.Views.Windows.MainWindow
   nameWithType: MainWindow
-- uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
-  name: MainWindow(INavigationService, IMessageBoxService, IInfoBarService, ILogger<MainWindow>)
-  href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow__ctor_Wpf_Ui_INavigationService_neo_bpsys_wpf_Core_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Views_Windows_MainWindow__
-  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
-  name.vb: New(INavigationService, IMessageBoxService, IInfoBarService, ILogger(Of MainWindow))
-  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.MainWindow(Wpf.Ui.INavigationService, neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Views.Windows.MainWindow>)
-  fullName.vb: neo_bpsys_wpf.Views.Windows.MainWindow.New(Wpf.Ui.INavigationService, neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Views.Windows.MainWindow))
-  nameWithType: MainWindow.MainWindow(INavigationService, IMessageBoxService, IInfoBarService, ILogger<MainWindow>)
-  nameWithType.vb: MainWindow.New(INavigationService, IMessageBoxService, IInfoBarService, ILogger(Of MainWindow))
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService,neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
+  name: MainWindow(INavigationService, IInfoBarService, ISnackbarService, ISettingsHostService, ILogger<MainWindow>)
+  href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow__ctor_Wpf_Ui_INavigationService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_neo_bpsys_wpf_Core_Abstractions_Services_ISnackbarService_neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Views_Windows_MainWindow__
+  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.#ctor(Wpf.Ui.INavigationService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService,neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Views.Windows.MainWindow})
+  name.vb: New(INavigationService, IInfoBarService, ISnackbarService, ISettingsHostService, ILogger(Of MainWindow))
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.MainWindow(Wpf.Ui.INavigationService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService, neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Views.Windows.MainWindow>)
+  fullName.vb: neo_bpsys_wpf.Views.Windows.MainWindow.New(Wpf.Ui.INavigationService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService, neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Views.Windows.MainWindow))
+  nameWithType: MainWindow.MainWindow(INavigationService, IInfoBarService, ISnackbarService, ISettingsHostService, ILogger<MainWindow>)
+  nameWithType.vb: MainWindow.New(INavigationService, IInfoBarService, ISnackbarService, ISettingsHostService, ILogger(Of MainWindow))
 - uid: neo_bpsys_wpf.Views.Windows.MainWindow.#ctor*
   name: MainWindow
   href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow__ctor_

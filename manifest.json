@@ -176,6 +176,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.HyperLinkSnackbarContent",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.yml\" sourcestartlinenumber=\"1\">HyperLinkSnackbarContent</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Controls.MapV2Presenter.yml",
       "output": {
         ".html": {
@@ -663,6 +677,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.yml\" sourcestartlinenumber=\"1\">共享数据服务接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Abstractions.Services.ISnackbarService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1559,6 +1587,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Services.SharedDataService",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.SharedDataService.yml\" sourcestartlinenumber=\"1\">共享数据服务, 实现了 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责全局的共享数据</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.SnackbarService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Services.SnackbarService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Services.SnackbarService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
