@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>核心数据流架构 (AI写的，和实际有出入) | neo-bpsys Docs </title>
+      <title>核心数据流架构 | neo-bpsys Docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="核心数据流架构 (AI写的，和实际有出入) | neo-bpsys Docs ">
+      <meta name="title" content="核心数据流架构 | neo-bpsys Docs ">
       
       
       <link rel="icon" href="../../images/favicon.ico">
@@ -85,7 +85,7 @@
         </div>
 
         <article data-uid="">
-<h1 id="核心数据流架构-ai写的和实际有出入">核心数据流架构 (AI写的，和实际有出入)</h1>
+<h1 id="核心数据流架构">核心数据流架构</h1>
 
 <h2 id="整体架构概览">整体架构概览</h2>
 <pre><code>┌─────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -105,7 +105,7 @@
                          │                                  │
                          │                                  ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                  neo_bpsys_wpf (WPF 主项目)                                      │
+│                                  neo_bpsys_wpf (主项目)                                      │
 │                                                                                           │
 │  ┌─────────────┐     ┌──────────────┐     ┌─────────────┐     ┌───────────────────┐       │
 │  │  ViewModels │────▶│     Views    │────▶│ Converters  │────▶│   UI Controls     │       │
@@ -130,7 +130,6 @@
 <pre><code class="lang-mermaid">flowchart TD
     A[.Core 项目] --&gt; B[核心模型]
     A --&gt; C[枚举类型]
-    A --&gt; D[值类型]
     
     B --&gt; B1[Character.cs]
     B --&gt; B2[Game.cs]
@@ -138,12 +137,9 @@
     B --&gt; B4[Member.cs]
     B --&gt; B5[Player.cs]
     
-    D --&gt; D1[Color.cs - 跨平台颜色]
-    
-    B1 --&gt; B11[&quot;partial class Character : ObservableObject&quot;]
-    B11 --&gt; B111[&quot;[ObservableProperty] private string _name;&quot;]
-    B11 --&gt; B112[&quot;[ObservableProperty] private Color _backgroundColor;&quot;]
-    B11 --&gt; B113[&quot;[ObservableProperty] private ObservableCollection&lt;Talent&gt; _talents;&quot;]
+    B5 --&gt; B51[&quot;partial class Player : ObservableObject&quot;]
+    B51 --&gt; B511[&quot;[ObservableProperty] private Character? _character;&quot;]
+    B51 --&gt; B512[&quot;[ObservableProperty] private Talent _talent&quot;]
 </code></pre>
 <h3 id="2-数据变更流程">2. 数据变更流程</h3>
 <pre><code class="lang-mermaid">flowchart TD
@@ -151,8 +147,8 @@
     B --&gt;|调用方法| C[Core 模型]
     
     subgraph .Core
-        C --&gt; C1[&quot;Team team = PlayerOnField(id);&quot;]
-        C1 --&gt; C2[&quot;character.Name = 'New Name';&quot;]
+        C --&gt; C1[&quot;Team team = new();&quot;]
+        C1 --&gt; C2[&quot;team.Name = 'Team 1';&quot;]
         C2 --&gt; C3[&quot;触发 OnPropertyChanged(nameof(Name))&quot;]
     end
     
@@ -160,16 +156,14 @@
     D --&gt;|是| E[&quot;触发外层属性 PropertyChanged&quot;]
     D --&gt;|否| F[&quot;WPF 自动处理内部属性变更&quot;]
     
-    E --&gt; G[TeamInfoPageViewModel.CurrentGame]
-    F --&gt; H[MapV2Presenter.xaml 绑定]
+    E --&gt; G[TeamInfoPageViewModel.TeamName]
+    F --&gt; H[TeamInfoPage.xaml 绑定]
     
     G --&gt; I[Converter 转换]
     H --&gt; I
     
     subgraph WPF
-        I --&gt; I1[&quot;ColorToBrushConverter.Convert()&quot;]
-        I1 --&gt; I2[&quot;System.Windows.Media.Brush&quot;]
-        I2 --&gt; J[UI 更新]
+        I --&gt; I1[&quot;UI 更新&quot;]
     end
 </code></pre>
 <h3 id="3-完整数据变更到ui更新流程">3. 完整数据变更到UI更新流程</h3>
@@ -201,37 +195,32 @@
         WPF-&gt;&gt;WPF: 自动更新绑定到 Name 的 UI 元素
     end
 </code></pre>
-<h2 id="具体实现步骤">具体实现步骤</h2>
+<h2 id="example">Example</h2>
 <h3 id="1-core-项目结构">1. .Core 项目结构</h3>
 <pre><code>neo_bpsys_wpf.Core/
-├─ Entities/
-│   ├─ Character/
-│   │   ├─ Character.cs       // 保留ObservableObject
-│   │   ├─ Talent.cs          // 保留ObservableObject
-│   │   └─ ...
-│   ├─ Game/
-│   │   ├─ Game.cs            // 保留ObservableObject
-│   │   ├─ Player.cs          // 保留ObservableObject
-│   │   ├─ Score.cs           // 保留ObservableObject
-│   │   └─ ...
-│   └─ Teams/
-│       ├─ Team.cs            // 保留ObservableObject
-│       ├─ Member.cs          // 保留ObservableObject
-│       └─ ...
+├─ Models/
+│   ├─ Character.cs
+│   ├─ Character.cs
+│   ├─ Talent.cs
+│   ├─ Game.cs 
+│   ├─ Player.cs
+│   ├─ Score.cs
+│   ├─ Team.cs
+│   └─ ...  
 ├─ Enums/
 │   ├─ BanListName.cs
 │   ├─ Camp.cs
 │   ├─ GameAction.cs
-│   └─ ...  // 从您项目中的Enums迁移
-├─ ValueTypes/
-│   └─ Color.cs               // 跨平台Color实现
-└─ Services/
-    └─ ISharedDataService.cs  // 仅定义接口
+│   └─ ...  
+└─ Abstractions/
+	└─ Services/
+		├─ IFrontService.cs
+    	└─ ISharedDataService.cs
 </code></pre>
 <h3 id="2-数据流关键点说明">2. 数据流关键点说明</h3>
 <h4 id="a-对象引用变化处理如更换character">a) 对象引用变化处理（如更换Character）</h4>
 <pre><code class="lang-csharp">// SharedDataService.cs
-public void AssignCharacterToMember(Guid memberId, Guid characterId)
+public void AssignCharacterToMember(Guid memberId, Guid characterId) //此方法实际并不存在，程序中直接用的赋值
 {
     var member = GetMemberById(memberId);
     var oldCharacter = member.Character;
@@ -285,101 +274,6 @@ public Game CurrentGame =&gt; _sharedData.CurrentGame;
 &lt;TextBlock Text=&quot;{Binding CurrentGame.Players[0].Member.Character.Name}&quot;/&gt;
 &lt;!-- 当CurrentGame对象被替换时，会重新解析整个绑定路径 --&gt;
 </code></pre>
-<h3 id="3-message系统迁移路径">3. Message系统迁移路径</h3>
-<table>
-<thead>
-<tr>
-<th>旧Message</th>
-<th>新机制</th>
-<th>迁移步骤</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>NewGameMessage</code></td>
-<td><code>SharedDataService.CurrentGameChanged</code></td>
-<td>1. 在SharedDataService中添加CurrentGameChanged事件<br>2. 将Messenger.Send替换为SharedDataService.StartNewGame()</td>
-</tr>
-<tr>
-<td><code>CharacterSwappedMessage</code></td>
-<td><code>Member.Character</code> PropertyChanged</td>
-<td>1. 移除Message发送<br>2. 确保Character属性正确触发PropertyChanged</td>
-</tr>
-<tr>
-<td><code>MemberPropertyChangedMessage</code></td>
-<td>直接属性变更</td>
-<td>1. 移除Message发送<br>2. 直接修改属性，依赖自动通知</td>
-</tr>
-<tr>
-<td><code>PlayerSwappedMessage</code></td>
-<td><code>Game.Players</code> 集合变更</td>
-<td>1. 确保Players是ObservableCollection<br>2. 使用集合操作方法</td>
-</tr>
-</tbody>
-</table>
-<h2 id="优势">优势</h2>
-<ol>
-<li><p><strong>符合WPF设计哲学</strong>：</p>
-<ul>
-<li>充分利用WPF内置的绑定机制</li>
-<li>避免了不必要的抽象层</li>
-<li>与您现有的深层绑定兼容</li>
-</ul>
-</li>
-<li><p><strong>解决&quot;屎山&quot;问题</strong>：</p>
-<ul>
-<li>淘汰了9种Message类型</li>
-<li>建立了清晰的数据中枢（SharedDataService）</li>
-<li>修复了&quot;缺乏层级性&quot;和&quot;中心缺失&quot;问题</li>
-</ul>
-</li>
-<li><p><strong>跨平台支持</strong>：</p>
-<ul>
-<li>.Core可被WPF、Avalonia、Blazor等使用</li>
-<li>通过Converter处理平台特定类型</li>
-<li>保持核心模型的纯净性</li>
-</ul>
-</li>
-<li><p><strong>插件系统友好</strong>：</p>
-<ul>
-<li>插件只需引用.Core</li>
-<li>通过SharedDataService接口操作数据</li>
-<li>无需了解UI实现细节</li>
-</ul>
-</li>
-</ol>
-<h2 id="迁移实施路线图">迁移实施路线图</h2>
-<ol>
-<li><p><strong>阶段1：创建.Core项目</strong></p>
-<ul>
-<li>迁移Models目录到.Core</li>
-<li>创建跨平台Color类型</li>
-<li>确保所有模型保持ObservableObject实现</li>
-<li>保证去除WPF特有特征</li>
-</ul>
-</li>
-<li><p><strong>阶段2：重构SharedDataService</strong></p>
-<ul>
-<li>添加对象替换事件（如CurrentGameChanged）</li>
-<li>替换Message发送为直接数据操作</li>
-<li>移除不必要的Message处理</li>
-</ul>
-</li>
-<li><p><strong>阶段3：更新Converter</strong></p>
-<ul>
-<li>实现Color到Brush的转换</li>
-<li>处理其他跨平台类型转换</li>
-</ul>
-</li>
-<li><p><strong>阶段4：淘汰Message系统</strong></p>
-<ul>
-<li>从NewGameMessage开始</li>
-<li>逐步替换所有Message类型</li>
-<li>验证UI更新是否正常工作</li>
-</ul>
-</li>
-</ol>
-<p>.Core保持纯净但包含INotifyPropertyChanged，UI层通过Converter处理平台特定类型，利用WPF的内置机制处理数据绑定，同时为插件系统提供清晰的接口。整个方案无需额外的包装ViewModel，充分利用了WPF绑定机制。</p>
 
 </article>
 
