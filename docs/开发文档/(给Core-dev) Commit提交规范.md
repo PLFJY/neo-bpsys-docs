@@ -12,16 +12,17 @@ refactor(Timer, DesignMode):
 
 计时器获取改为Messenger通知改变，IsDesignMode变化由原来的事件通知改为Messenger通知
 
-| 类型     | 说明                                  |
-| -------- | ------------------------------------- |
-| feat     | 新功能                                |
-| fix      | 修复bug                               |
-| refactor | 重构                                  |
+| 类型       | 说明                              |
+| -------- | ------------------------------- |
+| feat     | 新功能                             |
+| fix      | 修复bug                           |
+| refactor | 重构                              |
 | docs     | 改文档，例如README                    |
-| style    | 代码风格改变，不影响功能              |
-| temp     | 临时提交，用于合作开发                |
+| style    | 代码风格改变，不影响功能                    |
+| temp     | 临时提交，用于合作开发                     |
 | chore    | 杂项，例如.gitignore、github workflow |
-| build    | 更改构建脚本、构建工具                |
-| revert   | 回滚                                  |
-| merge    | 合并                                  |
-| improve  | 提升                                  |
+| build    | 更改构建脚本、构建工具                     |
+| revert   | 回滚                              |
+| merge    | 合并                              |
+| improve  | 提升                              |
+| i18n     | 国际化                             |
