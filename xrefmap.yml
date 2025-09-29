@@ -984,6 +984,57 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.Text
   nameWithType: HyperLinkSnackbarContent.Text
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage
+  name: HyperLinkSnackbarMessage
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html
+  commentId: T:neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage
+  nameWithType: HyperLinkSnackbarMessage
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.#ctor
+  name: HyperLinkSnackbarMessage()
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarMessage__ctor
+  commentId: M:neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.HyperLinkSnackbarMessage()
+  fullName.vb: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.New()
+  nameWithType: HyperLinkSnackbarMessage.HyperLinkSnackbarMessage()
+  nameWithType.vb: HyperLinkSnackbarMessage.New()
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.#ctor*
+  name: HyperLinkSnackbarMessage
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarMessage__ctor_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.HyperLinkSnackbarMessage
+  fullName.vb: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.New
+  nameWithType: HyperLinkSnackbarMessage.HyperLinkSnackbarMessage
+  nameWithType.vb: HyperLinkSnackbarMessage.New
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.HyperLinkUri
+  name: HyperLinkUri
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarMessage_HyperLinkUri
+  commentId: P:neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.HyperLinkUri
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.HyperLinkUri
+  nameWithType: HyperLinkSnackbarMessage.HyperLinkUri
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.HyperLinkUri*
+  name: HyperLinkUri
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarMessage_HyperLinkUri_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.HyperLinkUri
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.HyperLinkUri
+  nameWithType: HyperLinkSnackbarMessage.HyperLinkUri
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.InitializeComponent
+  name: InitializeComponent()
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarMessage_InitializeComponent
+  commentId: M:neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.InitializeComponent
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.InitializeComponent()
+  nameWithType: HyperLinkSnackbarMessage.InitializeComponent()
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.InitializeComponent*
+  name: InitializeComponent
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarMessage_InitializeComponent_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.InitializeComponent
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.InitializeComponent
+  nameWithType: HyperLinkSnackbarMessage.InitializeComponent
 - uid: neo_bpsys_wpf.Controls.MapV2Presenter
   name: MapV2Presenter
   href: api/neo_bpsys_wpf.Controls.MapV2Presenter.html
@@ -4105,18 +4156,48 @@ references:
   commentId: F:neo_bpsys_wpf.Core.AppConstants.ConfigFilePath
   fullName: neo_bpsys_wpf.Core.AppConstants.ConfigFilePath
   nameWithType: AppConstants.ConfigFilePath
+- uid: neo_bpsys_wpf.Core.AppConstants.CurrentBanHunCount
+  name: CurrentBanHunCount
+  href: api/neo_bpsys_wpf.Core.AppConstants.html#neo_bpsys_wpf_Core_AppConstants_CurrentBanHunCount
+  commentId: F:neo_bpsys_wpf.Core.AppConstants.CurrentBanHunCount
+  fullName: neo_bpsys_wpf.Core.AppConstants.CurrentBanHunCount
+  nameWithType: AppConstants.CurrentBanHunCount
+- uid: neo_bpsys_wpf.Core.AppConstants.CurrentBanSurCount
+  name: CurrentBanSurCount
+  href: api/neo_bpsys_wpf.Core.AppConstants.html#neo_bpsys_wpf_Core_AppConstants_CurrentBanSurCount
+  commentId: F:neo_bpsys_wpf.Core.AppConstants.CurrentBanSurCount
+  fullName: neo_bpsys_wpf.Core.AppConstants.CurrentBanSurCount
+  nameWithType: AppConstants.CurrentBanSurCount
 - uid: neo_bpsys_wpf.Core.AppConstants.CustomUiPath
   name: CustomUiPath
   href: api/neo_bpsys_wpf.Core.AppConstants.html#neo_bpsys_wpf_Core_AppConstants_CustomUiPath
   commentId: F:neo_bpsys_wpf.Core.AppConstants.CustomUiPath
   fullName: neo_bpsys_wpf.Core.AppConstants.CustomUiPath
   nameWithType: AppConstants.CustomUiPath
+- uid: neo_bpsys_wpf.Core.AppConstants.GlobalBanHunCount
+  name: GlobalBanHunCount
+  href: api/neo_bpsys_wpf.Core.AppConstants.html#neo_bpsys_wpf_Core_AppConstants_GlobalBanHunCount
+  commentId: F:neo_bpsys_wpf.Core.AppConstants.GlobalBanHunCount
+  fullName: neo_bpsys_wpf.Core.AppConstants.GlobalBanHunCount
+  nameWithType: AppConstants.GlobalBanHunCount
+- uid: neo_bpsys_wpf.Core.AppConstants.GlobalBanSurCount
+  name: GlobalBanSurCount
+  href: api/neo_bpsys_wpf.Core.AppConstants.html#neo_bpsys_wpf_Core_AppConstants_GlobalBanSurCount
+  commentId: F:neo_bpsys_wpf.Core.AppConstants.GlobalBanSurCount
+  fullName: neo_bpsys_wpf.Core.AppConstants.GlobalBanSurCount
+  nameWithType: AppConstants.GlobalBanSurCount
 - uid: neo_bpsys_wpf.Core.AppConstants.LogPath
   name: LogPath
   href: api/neo_bpsys_wpf.Core.AppConstants.html#neo_bpsys_wpf_Core_AppConstants_LogPath
   commentId: F:neo_bpsys_wpf.Core.AppConstants.LogPath
   fullName: neo_bpsys_wpf.Core.AppConstants.LogPath
   nameWithType: AppConstants.LogPath
+- uid: neo_bpsys_wpf.Core.AppConstants.ResourcesPath
+  name: ResourcesPath
+  href: api/neo_bpsys_wpf.Core.AppConstants.html#neo_bpsys_wpf_Core_AppConstants_ResourcesPath
+  commentId: F:neo_bpsys_wpf.Core.AppConstants.ResourcesPath
+  fullName: neo_bpsys_wpf.Core.AppConstants.ResourcesPath
+  nameWithType: AppConstants.ResourcesPath
 - uid: neo_bpsys_wpf.Core.Enums
   name: neo_bpsys_wpf.Core.Enums
   href: api/neo_bpsys_wpf.Core.Enums.html

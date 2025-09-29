@@ -64,6 +64,11 @@
     "title": "Class HyperLinkSnackbarContent | neo-bpsys Docs",
     "summary": "Class HyperLinkSnackbarContent Namespace neo_bpsys_wpf.Controls Assembly neo-bpsys-wpf.dll HyperLinkSnackbarContent public class HyperLinkSnackbarContent : UserControl, ISupportInitialize Inheritance object DispatcherObject DependencyObject Visual UIElement FrameworkElement Control ContentControl UserControl HyperLinkSnackbarContent Implements ISupportInitialize Constructors HyperLinkSnackbarContent(string, string, Action) public HyperLinkSnackbarContent(string navigateUri, string text, Action noLogerDisplayedAction) Parameters navigateUri string text string noLogerDisplayedAction Action Properties NavigateUri public string NavigateUri { get; } Property Value string NoLogerDisplayedCommand public ICommand NoLogerDisplayedCommand { get; } Property Value ICommand Text public string Text { get; } Property Value string Methods InitializeComponent() InitializeComponent public void InitializeComponent()"
   },
+  "api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html": {
+    "href": "api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html",
+    "title": "Class HyperLinkSnackbarMessage | neo-bpsys Docs",
+    "summary": "Class HyperLinkSnackbarMessage Namespace neo_bpsys_wpf.Controls Assembly neo-bpsys-wpf.dll HyperLinkSnackbarMessage public class HyperLinkSnackbarMessage : UserControl, ISupportInitialize Inheritance object DispatcherObject DependencyObject Visual UIElement FrameworkElement Control ContentControl UserControl HyperLinkSnackbarMessage Implements ISupportInitialize Constructors HyperLinkSnackbarMessage() public HyperLinkSnackbarMessage() Properties HyperLinkUri public string HyperLinkUri { get; set; } Property Value string Methods InitializeComponent() InitializeComponent public void InitializeComponent()"
+  },
   "api/neo_bpsys_wpf.Controls.MapV2Presenter.html": {
     "href": "api/neo_bpsys_wpf.Controls.MapV2Presenter.html",
     "title": "Class MapV2Presenter | neo-bpsys Docs",
@@ -97,7 +102,7 @@
   "api/neo_bpsys_wpf.Controls.html": {
     "href": "api/neo_bpsys_wpf.Controls.html",
     "title": "Namespace neo_bpsys_wpf.Controls | neo-bpsys Docs",
-    "summary": "Namespace neo_bpsys_wpf.Controls Classes CanvasAdorner 设计者模式下的控件Adorner，用于调整控件大小和显示控件名称 CharacterChanger CharacterChangerCommandParameter CharacterSelector CustomTitleBar CustomTitleBar.xaml 的交互逻辑 GameDataEditor GlobalScorePresenter HyperLinkSnackbarContent HyperLinkSnackbarContent MapV2Presenter MapV2Presenter.xaml 的交互逻辑 TalentPicker 天赋选择器，传入玩家即可 TextSettingsEditControl TextSettingsEditControl.xaml 的交互逻辑 TextSettingsEditControl.TaskNotifier A wrapping class that can hold a Task value. TextSettingsEditControl.TaskNotifier<T> A wrapping class that can hold a Task<TResult> value. ToggleStyledRadioButton"
+    "summary": "Namespace neo_bpsys_wpf.Controls Classes CanvasAdorner 设计者模式下的控件Adorner，用于调整控件大小和显示控件名称 CharacterChanger CharacterChangerCommandParameter CharacterSelector CustomTitleBar CustomTitleBar.xaml 的交互逻辑 GameDataEditor GlobalScorePresenter HyperLinkSnackbarContent HyperLinkSnackbarContent HyperLinkSnackbarMessage HyperLinkSnackbarMessage MapV2Presenter MapV2Presenter.xaml 的交互逻辑 TalentPicker 天赋选择器，传入玩家即可 TextSettingsEditControl TextSettingsEditControl.xaml 的交互逻辑 TextSettingsEditControl.TaskNotifier A wrapping class that can hold a Task value. TextSettingsEditControl.TaskNotifier<T> A wrapping class that can hold a Task<TResult> value. ToggleStyledRadioButton"
   },
   "api/neo_bpsys_wpf.Converters.ApplicationThemeToBooleanConverter.html": {
     "href": "api/neo_bpsys_wpf.Converters.ApplicationThemeToBooleanConverter.html",
@@ -277,7 +282,7 @@
   "api/neo_bpsys_wpf.Core.AppConstants.html": {
     "href": "api/neo_bpsys_wpf.Core.AppConstants.html",
     "title": "Class AppConstants | neo-bpsys Docs",
-    "summary": "Class AppConstants Namespace neo_bpsys_wpf.Core Assembly neo-bpsys-wpf.Core.dll 应用程序常量 public static class AppConstants Inheritance object AppConstants Fields AppDataPath 应用程序数据路径 public static readonly string AppDataPath Field Value string AppName 应用程序名称 public const string AppName = \"neo-bpsys-wpf\" Field Value string AppOutputPath 应用程序输出路径 public static readonly string AppOutputPath Field Value string AppTempPath 应用程序临时数据路径 public static readonly string AppTempPath Field Value string ConfigFilePath 应用程序输出路径 public static readonly string ConfigFilePath Field Value string CustomUiPath 自定义UI路径 public static readonly string CustomUiPath Field Value string LogPath 日志路径 public static readonly string LogPath Field Value string"
+    "summary": "Class AppConstants Namespace neo_bpsys_wpf.Core Assembly neo-bpsys-wpf.Core.dll 应用程序常量 public static class AppConstants Inheritance object AppConstants Fields AppDataPath 应用程序数据路径 public static readonly string AppDataPath Field Value string AppName 应用程序名称 public const string AppName = \"neo-bpsys-wpf\" Field Value string AppOutputPath 应用程序输出路径 public static readonly string AppOutputPath Field Value string AppTempPath 应用程序临时数据路径 public static readonly string AppTempPath Field Value string ConfigFilePath 应用程序输出路径 public static readonly string ConfigFilePath Field Value string CurrentBanHunCount 当局监管者Ban位数量 public const int CurrentBanHunCount = 2 Field Value int CurrentBanSurCount 当局求生者Ban位数量 public const int CurrentBanSurCount = 4 Field Value int CustomUiPath 自定义UI路径 public static readonly string CustomUiPath Field Value string GlobalBanHunCount 全局监管者Ban位数量 public const int GlobalBanHunCount = 3 Field Value int GlobalBanSurCount 全局求生者Ban位数量 public const int GlobalBanSurCount = 12 Field Value int LogPath 日志路径 public static readonly string LogPath Field Value string ResourcesPath 资源文件路径 public static readonly string ResourcesPath Field Value string"
   },
   "api/neo_bpsys_wpf.Core.Enums.BanListName.html": {
     "href": "api/neo_bpsys_wpf.Core.Enums.BanListName.html",

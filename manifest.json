@@ -190,6 +190,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.yml\" sourcestartlinenumber=\"1\">HyperLinkSnackbarMessage</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Controls.MapV2Presenter.yml",
       "output": {
         ".html": {
