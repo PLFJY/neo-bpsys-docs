@@ -14,7 +14,8 @@
 
 - 在 GitHub 上创建从 dev 到 main 的合并请求（PR）
 - 确保 PR 通过代码审查后，点击 Merge pull request 合并
-- 合并方式选择 Rebase or merge
+- 合并方式选择 Merge
+- 由Action自动更新dev到最新的main上
 
 
 ### 3. 小 bug 修复流程（直接在 dev 上修改）
