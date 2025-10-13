@@ -6,6 +6,8 @@
 
 类型和作用域可以有多个，逗号+空格隔开，可以只写对应功能Page/Window的名称或者对应模块的名称，如：BanHunPage、DesignMode
 
+若出现命名空间、接口上的更改需要在 Commit Message 的第一行添加 `BREAKING CHANGE`
+
 Example: 
 
 refactor(Timer, DesignMode):
