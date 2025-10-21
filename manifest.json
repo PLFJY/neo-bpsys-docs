@@ -2685,10 +2685,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/BP回顾.png",
+      "source_relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/BP总览.png",
       "output": {
         "resource": {
-          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/BP回顾.png"
+          "relative_path": "docs/neo-bpsys-wpf使用文档/前台/images/BP总览.png"
         }
       },
       "version": ""
