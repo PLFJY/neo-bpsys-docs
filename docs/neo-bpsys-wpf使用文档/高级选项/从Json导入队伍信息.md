@@ -48,6 +48,8 @@ SurMemberList下存储队伍求生者选手名单；HunMemberList下存储队伍
 
 队伍名称下的 ImageUri 表示队徽URl或文件路径（例：D:\\\ExamplePhoto\\\1.png)，如果没有队徽或定妆照则在该项填入null
 
+#### <font color="#ff0000">文件路径需要两个反斜杠</font>
+
 以下分别为成都WOLVES和GR的队伍信息Json示例
 
 成都WOLVES
