@@ -602,12 +602,12 @@
   "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html",
     "title": "Class BanHunPageViewModel.BanHunCurrentViewModel | neo-bpsys Docs",
-    "summary": "Class BanHunPageViewModel.BanHunCurrentViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class BanHunPageViewModel.BanHunCurrentViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase BanHunPageViewModel.BanHunCurrentViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors BanHunCurrentViewModel(ISharedDataService, int) public BanHunCurrentViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class BanHunPageViewModel.BanHunCurrentViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class BanHunPageViewModel.BanHunCurrentViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase BanHunPageViewModel.BanHunCurrentViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors BanHunCurrentViewModel(ISharedDataService, int) public BanHunCurrentViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html",
     "title": "Class BanHunPageViewModel.BanHunGlobalViewModel | neo-bpsys Docs",
-    "summary": "Class BanHunPageViewModel.BanHunGlobalViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class BanHunPageViewModel.BanHunGlobalViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase BanHunPageViewModel.BanHunGlobalViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors BanHunGlobalViewModel(ISharedDataService, int) public BanHunGlobalViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class BanHunPageViewModel.BanHunGlobalViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class BanHunPageViewModel.BanHunGlobalViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase BanHunPageViewModel.BanHunGlobalViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors BanHunGlobalViewModel(ISharedDataService, int) public BanHunGlobalViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.html",
@@ -617,12 +617,12 @@
   "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html",
     "title": "Class BanSurPageViewModel.BanSurCurrentViewModel | neo-bpsys Docs",
-    "summary": "Class BanSurPageViewModel.BanSurCurrentViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class BanSurPageViewModel.BanSurCurrentViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase BanSurPageViewModel.BanSurCurrentViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors BanSurCurrentViewModel(ISharedDataService, int) public BanSurCurrentViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class BanSurPageViewModel.BanSurCurrentViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class BanSurPageViewModel.BanSurCurrentViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase BanSurPageViewModel.BanSurCurrentViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors BanSurCurrentViewModel(ISharedDataService, int) public BanSurCurrentViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html",
     "title": "Class BanSurPageViewModel.BanSurGlobalViewModel | neo-bpsys Docs",
-    "summary": "Class BanSurPageViewModel.BanSurGlobalViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class BanSurPageViewModel.BanSurGlobalViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase BanSurPageViewModel.BanSurGlobalViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors BanSurGlobalViewModel(ISharedDataService, int) public BanSurGlobalViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class BanSurPageViewModel.BanSurGlobalViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class BanSurPageViewModel.BanSurGlobalViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase BanSurPageViewModel.BanSurGlobalViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors BanSurGlobalViewModel(ISharedDataService, int) public BanSurGlobalViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.html",
@@ -667,32 +667,32 @@
   "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html",
     "title": "Class PickPageViewModel.AwayHunGlobalBanRecordViewModel | neo-bpsys Docs",
-    "summary": "Class PickPageViewModel.AwayHunGlobalBanRecordViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.AwayHunGlobalBanRecordViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.AwayHunGlobalBanRecordViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors AwayHunGlobalBanRecordViewModel(ISharedDataService, int) public AwayHunGlobalBanRecordViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Properties RecordedChara public Character? RecordedChara { get; set; } Property Value Character Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class PickPageViewModel.AwayHunGlobalBanRecordViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.AwayHunGlobalBanRecordViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.AwayHunGlobalBanRecordViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors AwayHunGlobalBanRecordViewModel(ISharedDataService, int) public AwayHunGlobalBanRecordViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Properties RecordedChara public Character? RecordedChara { get; set; } Property Value Character Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html",
     "title": "Class PickPageViewModel.AwaySurGlobalBanRecordViewModel | neo-bpsys Docs",
-    "summary": "Class PickPageViewModel.AwaySurGlobalBanRecordViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.AwaySurGlobalBanRecordViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.AwaySurGlobalBanRecordViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors AwaySurGlobalBanRecordViewModel(ISharedDataService, int) public AwaySurGlobalBanRecordViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Properties RecordedChara public Character? RecordedChara { get; set; } Property Value Character Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class PickPageViewModel.AwaySurGlobalBanRecordViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.AwaySurGlobalBanRecordViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.AwaySurGlobalBanRecordViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors AwaySurGlobalBanRecordViewModel(ISharedDataService, int) public AwaySurGlobalBanRecordViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Properties RecordedChara public Character? RecordedChara { get; set; } Property Value Character Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html",
     "title": "Class PickPageViewModel.HunPickViewModel | neo-bpsys Docs",
-    "summary": "Class PickPageViewModel.HunPickViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.HunPickViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.HunPickViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors HunPickViewModel(ISharedDataService, IFrontService) public HunPickViewModel(ISharedDataService sharedDataService, IFrontService frontService) Parameters sharedDataService ISharedDataService frontService IFrontService Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class PickPageViewModel.HunPickViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.HunPickViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.HunPickViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors HunPickViewModel(ISharedDataService, IFrontService) public HunPickViewModel(ISharedDataService sharedDataService, IFrontService frontService) Parameters sharedDataService ISharedDataService frontService IFrontService Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html",
     "title": "Class PickPageViewModel.MainHunGlobalBanRecordViewModel | neo-bpsys Docs",
-    "summary": "Class PickPageViewModel.MainHunGlobalBanRecordViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.MainHunGlobalBanRecordViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.MainHunGlobalBanRecordViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors MainHunGlobalBanRecordViewModel(ISharedDataService, int) public MainHunGlobalBanRecordViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Properties RecordedChara public Character? RecordedChara { get; set; } Property Value Character Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class PickPageViewModel.MainHunGlobalBanRecordViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.MainHunGlobalBanRecordViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.MainHunGlobalBanRecordViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors MainHunGlobalBanRecordViewModel(ISharedDataService, int) public MainHunGlobalBanRecordViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Properties RecordedChara public Character? RecordedChara { get; set; } Property Value Character Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html",
     "title": "Class PickPageViewModel.MainSurGlobalBanRecordViewModel | neo-bpsys Docs",
-    "summary": "Class PickPageViewModel.MainSurGlobalBanRecordViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.MainSurGlobalBanRecordViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.MainSurGlobalBanRecordViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors MainSurGlobalBanRecordViewModel(ISharedDataService, int) public MainSurGlobalBanRecordViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Properties RecordedChara public Character? RecordedChara { get; set; } Property Value Character Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class PickPageViewModel.MainSurGlobalBanRecordViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll public class PickPageViewModel.MainSurGlobalBanRecordViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.MainSurGlobalBanRecordViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors MainSurGlobalBanRecordViewModel(ISharedDataService, int) public MainSurGlobalBanRecordViewModel(ISharedDataService sharedDataService, int index = 0) Parameters sharedDataService ISharedDataService index int Properties RecordedChara public Character? RecordedChara { get; set; } Property Value Character Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html",
     "title": "Class PickPageViewModel.SurPickViewModel | neo-bpsys Docs",
-    "summary": "Class PickPageViewModel.SurPickViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll 用于选择角色的角色选择器行为的基类 需要派生类所做的是: 1.设置CharaList 2.设置IsEnabled 3.实现SyncCharaAsync() public class PickPageViewModel.SurPickViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.SurPickViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.ConfirmCommand CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors SurPickViewModel(ISharedDataService, IFrontService, int) public SurPickViewModel(ISharedDataService sharedDataService, IFrontService frontService, int index = 0) Parameters sharedDataService ISharedDataService frontService IFrontService index int Properties SwapCharacterInPlayersCommand Gets an CommunityToolkit.Mvvm.Input.IAsyncRelayCommand<T> instance wrapping SwapCharacterInPlayersAsync(CharacterChangerCommandParameter). [ExcludeFromCodeCoverage] public IAsyncRelayCommand<CharacterChangerCommandParameter> SwapCharacterInPlayersCommand { get; } Property Value IAsyncRelayCommand<CharacterChangerCommandParameter> ThisPlayer public Player ThisPlayer { get; } Property Value Player Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
+    "summary": "Class PickPageViewModel.SurPickViewModel Namespace neo_bpsys_wpf.ViewModels.Pages Assembly neo-bpsys-wpf.dll 用于选择角色的角色选择器行为的基类 需要派生类所做的是: 1.设置CharaList 2.设置IsEnabled 3.实现SyncCharaAsync() public class PickPageViewModel.SurPickViewModel : CharaSelectViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ObservableRecipient ViewModelBase CharaSelectViewModelBase PickPageViewModel.SurPickViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members CharaSelectViewModelBase.SharedDataService CharaSelectViewModelBase.Index CharaSelectViewModelBase.IsEnabled CharaSelectViewModelBase.CharaList CharaSelectViewModelBase.Receive(HighlightMessage) CharaSelectViewModelBase.SelectedChara CharaSelectViewModelBase.PreviewImage CharaSelectViewModelBase.IsHighlighted CharaSelectViewModelBase.IsCharaChangerHighlighted CharaSelectViewModelBase.ConfirmCommand ViewModelBase.SetPropertyWithAction<T>(ref T, T, Action<T>, string) Constructors SurPickViewModel(ISharedDataService, IFrontService, int) public SurPickViewModel(ISharedDataService sharedDataService, IFrontService frontService, int index = 0) Parameters sharedDataService ISharedDataService frontService IFrontService index int Properties SwapCharacterInPlayersCommand Gets an CommunityToolkit.Mvvm.Input.IAsyncRelayCommand<T> instance wrapping SwapCharacterInPlayersAsync(CharacterChangerCommandParameter). [ExcludeFromCodeCoverage] public IAsyncRelayCommand<CharacterChangerCommandParameter> SwapCharacterInPlayersCommand { get; } Property Value IAsyncRelayCommand<CharacterChangerCommandParameter> ThisPlayer public Player ThisPlayer { get; } Property Value Player Methods IsActionNameCorrect(GameAction?) 判断当前高亮步骤是否符合当前控件 protected override bool IsActionNameCorrect(GameAction? action) Parameters action GameAction? 当前步骤 Returns bool 是否符合 SyncCharaAsync() 确认 public override Task SyncCharaAsync() Returns Task SyncIsEnabled() 同步当前角色选择器是否启用状态 protected override void SyncIsEnabled()"
   },
   "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html": {
     "href": "api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html",
@@ -904,133 +904,138 @@
     "title": "Namespace neo_bpsys_wpf | neo-bpsys Docs",
     "summary": "Namespace neo_bpsys_wpf Classes App Interaction logic for App.xaml"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/BP总览.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/BP总览.html",
+  "docs/使用文档/前台/BP总览.html": {
+    "href": "docs/使用文档/前台/BP总览.html",
     "title": "BP总览 | neo-bpsys Docs",
     "summary": "BP总览 BP总览和地图BP的打开方式都是点击前台管理页面中的其它小组件。 本功能的作用是在一局游戏结束后显示当局BP以及本局小比分。 以下是本页面各个部分的功能： 队徽 战队名 本局被禁用的监管者 对局进度 本局被禁用的求生者 本局求生者方角色选择 本局小比分 监管者方角色选择"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/BP画面.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/BP画面.html",
+  "docs/使用文档/前台/BP画面.html": {
+    "href": "docs/使用文档/前台/BP画面.html",
     "title": "BP画面 | neo-bpsys Docs",
     "summary": "BP画面 BP画面的功能是在角色BP时显示比赛信息的窗口，以下是BP画面的图例 以下是不同编号区域的功能： 双方胜平数 双方队伍名称 当局小比分 计时器 当局禁用监管者 当局禁用求生者 求生方定妆照或角色立绘 求生方选手名 地图名 监管者全局禁选 求生者全局禁选 监管者方定妆照或角色立绘 监管者方选手名 双方战队队徽 ‍"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/地图BP.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/地图BP.html",
+  "docs/使用文档/前台/地图BP.html": {
+    "href": "docs/使用文档/前台/地图BP.html",
     "title": "地图BP | neo-bpsys Docs",
     "summary": "地图BP 地图BP和BP总览的打开方式都是点击前台管理页面中的其它小组件。 本窗口的功能是显示在地图禁选页面中被禁用和选择的地图。 以下是本窗口各部分的功能： 被选择的地图 战队名 被禁用的地图 在v1.1.0.9483版本，软件更新了MapBpV2，适配了2025IVL夏季赛地图BP规则。 以下是新的地图BP画面： 在兼容旧版的同时软件支持同时禁用多张地图，具体使用方法详见地图禁选。"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/比分组件.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/比分组件.html",
+  "docs/使用文档/前台/比分组件.html": {
+    "href": "docs/使用文档/前台/比分组件.html",
     "title": "比分组件 | neo-bpsys Docs",
     "summary": "比分组件 比分组件的功能是在局内的左上角和右上角显示当局小比分和双方胜平数以及再赛后显示双方每一轮的小分。 本软件同时支持BO3模式和BO5模式，切换方法详见对局信息及对局引导。 下图为组件样式 由于BO3模式与BO5模式中的窗口控件几乎完全相同，我们仅为BO5模式下的控件功能做描述 以下是不同控件的功能： 双方队徽 双方战队名 双方胜平数 当局小比分 对局进度 不同对局进度的得分情况 双方小分总和 从v1.1.0.9483版本开始，上述组件已经分离为3个窗口，但其内容保持不变"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/赛后数据画面.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/赛后数据画面.html",
+  "docs/使用文档/前台/赛后数据画面.html": {
+    "href": "docs/使用文档/前台/赛后数据画面.html",
     "title": "赛后数据 | neo-bpsys Docs",
     "summary": "赛后数据 该窗口用于展示双方赛后数据。 赛后数据画面分为以下部分： 双方队徽 战队名 胜平数 本局比分 本局地图及对局进度 求生方角色选择 求生方选手ID 求生方当局数据 监管者角色选择 监管者当局数据 未来我们计划使用OCR来自动从游戏内识别相关数据并自动输入"
   },
-  "docs/neo-bpsys-wpf使用文档/前台/过场画面.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前台/过场画面.html",
+  "docs/使用文档/前台/过场画面.html": {
+    "href": "docs/使用文档/前台/过场画面.html",
     "title": "过场画面 | neo-bpsys Docs",
     "summary": "过场画面 过场画面的功能是在双方选择完角色和天赋后在前台展示相关信息 过场画面分为以下几个部分： 队伍名称 双方队徽 双方胜平数 比赛地图及对局进度 求生方角色选择 求生方选手名称 求生方天赋选择 监管者角色选择 监管方选手名称 监管方天赋选择 监管方辅助特质选择"
   },
-  "docs/neo-bpsys-wpf使用文档/前言.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/前言.html",
+  "docs/使用文档/前言.html": {
+    "href": "docs/使用文档/前言.html",
     "title": "前言 | neo-bpsys Docs",
-    "summary": "前言 软件基于GPL-3.0协议开源，完全免费。 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ ‍ 如果遇到前台控件错误或者消失请前往前台管理页面重置配置，这可能是由于上一个版本留下的默认配置导致的Bug 官网地址 (基于Cloudflare Pages部署)：https://bpsys.plfjy.top/ 备用地址 (基于Github Pages部署): https://plfjy.github.io/neo-bpsys-website/ 项目地址：https://github.com/PLFJY/neo-bpsys-wpf/ 作者QQ：3424127335 QQ交流群号：175741665 ‍ 温馨提醒：在GitHub上提交issue或在群内反馈问题前请一定认真检查一下是软件的问题还是自己偷着练邦邦的问题 。 ↓以下是一个唐诗issue的示例↓ （++）——S0记录员 以下是合作开发者列表： Zack (文档 + 对局引导) tp (还在制作的新UI设计) 天启 (插件系统)"
+    "summary": "前言 软件基于GPL-3.0协议开源，完全免费。 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ ‍ 如果你遇到了UI与文档中有些许差异请不要慌张，文档基于软件旧版本完成，如果使用上没有较大程度上的不同暂不考虑更新 如果遇到前台控件错误或者消失请前往前台管理页面重置配置，这可能是由于上一个版本留下的默认配置导致的Bug 官网地址 (基于Cloudflare Pages部署)：https://bpsys.plfjy.top/ 备用地址 (基于Github Pages部署): https://plfjy.github.io/neo-bpsys-website/ 项目地址：https://github.com/PLFJY/neo-bpsys-wpf/ 作者QQ：3424127335 QQ交流群号：175741665 ‍ 温馨提醒：在GitHub上提交issue或在群内反馈问题前请一定认真检查一下是软件的问题还是自己偷着练邦邦的问题 。 ↓以下是一个唐诗issue的示例↓ （++）——S0记录员 以下是合作开发者列表： Zack (文档 + 对局引导) tp (还在制作的新UI设计) 天启 (插件系统)"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/前台管理.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/前台管理.html",
+  "docs/使用文档/后台/前台管理.html": {
+    "href": "docs/使用文档/后台/前台管理.html",
     "title": "| neo-bpsys Docs",
     "summary": "本页面的功能是管理前台窗口的显示与隐藏。 本软件支持用户自定义各个前台窗口的样式与布局，具体操作方法详见 修改前台画面 ‍其它小组件内未来可能会加别的东西。 “已经在计划中啦~” ——卧唐会"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/双方阵营及换边.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/双方阵营及换边.html",
+  "docs/使用文档/后台/双方阵营及换边.html": {
+    "href": "docs/使用文档/后台/双方阵营及换边.html",
     "title": "双方阵营及换边 | neo-bpsys Docs",
     "summary": "双方阵营及换边 点击【换边】按钮切换两个队伍当前阵营。 ‍"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/地图禁选.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/地图禁选.html",
+  "docs/使用文档/后台/地图禁选.html": {
+    "href": "docs/使用文档/后台/地图禁选.html",
     "title": "地图禁选 | neo-bpsys Docs",
     "summary": "地图禁选 本页面的功能是设置在地图BP窗口上显示的选择的和被禁用的地图。 本软件支持选择/禁用全部排位地图，使用方法为点击需要选择/禁用的地图（未来将支持多选已于v1.1.0.9483版本开始支持）。 ‍目前，我们同时支持新旧版地图BP规则并制作了相关的前台画面，详见[[地图BP]]。 在MapBpV2中的新版规则下，软件支持以下功能： 待选框呼吸灯： 本功能的作用是为未被禁用的地图添加呼吸灯效果（新版地图BP） 阵营选择结果展示： 本功能的作用是展示禁用/选择各个地图的战队名和阵营"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/天赋特质.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/天赋特质.html",
+  "docs/使用文档/后台/天赋特质.html": {
+    "href": "docs/使用文档/后台/天赋特质.html",
     "title": "天赋特质 | neo-bpsys Docs",
     "summary": "天赋特质 本页面的功能是设置在过场画面显示的双方天赋以及监管者辅助特质。 天赋选择器 这里又是一个自定义控件——天赋选择器，由四个ToggleButton组成 (饶了我吧，我不知道怎么翻译它，你知道可以选中就对了)，各个天赋的位置与游戏内完全相同，所以完全可以靠肌肉记忆点出来 辅助特质选择 由于游戏内比赛模式下观战席无法查看监管者携带的辅助特质，本软件允许用户选择是否显示监管者辅助特质（以应对能在游戏开始前知晓监管者方携带的辅助特质的情况）。使用方法为点击监管者选手选择的辅助特质。"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/对局信息及对局引导.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/对局信息及对局引导.html",
+  "docs/使用文档/后台/对局信息及对局引导.html": {
+    "href": "docs/使用文档/后台/对局信息及对局引导.html",
     "title": "对局信息及对局引导 | neo-bpsys Docs",
     "summary": "对局信息及对局引导 该功能的作用是保存对局信息以及根据文件GameRule.json中存储的比赛规则信息来进行步骤引导。 使用方法： 根据需求决定是否选择BO3模式（该按钮同时决定除此功能以外的多个功能的模式） 设置对局进度（自由对局不支持步骤引导） 点击【开始对局引导】 ‍ 如果你跟着上面的步骤，你的窗口将会变成这样： 这时就可以点击【上一步】或【下一步】来根据预设规则跳转到对应页面或点击【结束对局引导】来手动对局引导，同时，对应的步骤会自动调整倒计时、亮起对应的呼吸灯，不需要手动操作 规则详情见第五人格WIKI。 ‍"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/拓展功能.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/拓展功能.html",
+  "docs/使用文档/后台/拓展功能.html": {
+    "href": "docs/使用文档/后台/拓展功能.html",
     "title": "拓展功能 | neo-bpsys Docs",
     "summary": "拓展功能 前面的区域以后再来探索吧~"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/比分系统.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/比分系统.html",
+  "docs/使用文档/后台/比分系统.html": {
+    "href": "docs/使用文档/后台/比分系统.html",
     "title": "比分系统 | neo-bpsys Docs",
     "summary": "比分系统 本页面的功能是设置比分组件上显示的各类分数。 上图中设置的比分将显示在BP画面和比分组件上半部分（显示在游戏内左上角和右上角的比分）。 使用方法为每局游戏结束后点击对应的游戏结果，每局上下半场都结束后点击【大比分结算】来设置显示在各处的战队胜平数。 如果由于失误或自定义规则等原因需要清零比分或手动控制比分，请点击【总清零】、【小比分清零】、【手动控制】按钮完成相应操作。 此部分的功能是控制比分组件下半部分（每局结束后显示的每局小分以及小分和）。 使用方法为在对局已完成且确认场次选择的内容正确后勾选【对局已完成】。 选择主场及客场队伍阵营后点击相应的对局结果。 ‍"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/禁用求生者.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/禁用求生者.html",
+  "docs/使用文档/后台/禁用求生者.html": {
+    "href": "docs/使用文档/后台/禁用求生者.html",
     "title": "禁用求生者 | neo-bpsys Docs",
     "summary": "禁用求生者 本页面的功能是设置显示在BP画面上的被禁用的求生者。 本软件内置了4个求生者当局ban位和9个全局ban位。具体禁用方法与禁用监管者相同。 与禁用监管者页面相同，本页面也支持手动调整ban位数量。 ‍"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/禁用监管者.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/禁用监管者.html",
+  "docs/使用文档/后台/禁用监管者.html": {
+    "href": "docs/使用文档/后台/禁用监管者.html",
     "title": "禁用监管者 | neo-bpsys Docs",
     "summary": "禁用监管者 本页面的功能是设置显示在BP画面上的被禁用的监管者。 本软件内置了2个监管者当局ban位和3个全局ban位。 角色选择器 这里需要引入一个概念——角色选择器，是一个自定义控件，由一个下拉选择框 (又名组合框)、一个确认按钮和一个图片框组成，下拉选择框用于检索和选择角色，支持全称、拼音全拼、拼音首拼搜索，空格键检索，Tab/回车键 确认 (推荐使用Tab，因为回车要按两次) (例：如果想选中“宿伞之魂”，在下拉框中输入“宿伞”后点击 Tab/回车 或输入“sszh/susan”后按空格然后Tab) 同时，这个控价存在一个变种，只保留下拉选择框的形式，你会在“选择角色”页面见到它，用于全局禁选记录 26号守卫支持输入bb来检索（不支持输入邦邦） ‍ 同时可以自定义ban位数量."
   },
-  "docs/neo-bpsys-wpf使用文档/后台/计时器.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/计时器.html",
+  "docs/使用文档/后台/计时器.html": {
+    "href": "docs/使用文档/后台/计时器.html",
     "title": "计时器 | neo-bpsys Docs",
     "summary": "计时器 该功能的作用是在前台窗口的BP画面显示计时器，计时器工作过程中BP画面中的 “VS” 会被替换为倒计时剩余秒数，倒计时结束或用户手动停止计时器时会恢复为 “VS”。 ‍ 使用方法 使用下拉框或鼠标左键单击控件来设定倒计时秒数 点击【开始】按钮 需要停止计时器时点击【停止（恢复 VS）】按钮或等待倒计时归零 ‍ 右边的【预览】显示的是当前BP画面上 “VS” 地方的内容"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/设置.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/设置.html",
+  "docs/使用文档/后台/设置.html": {
+    "href": "docs/使用文档/后台/设置.html",
     "title": "| neo-bpsys Docs",
     "summary": "本页面的功能是针对软件进行个性化设置以及显示本软件的各类信息，如作者信息、联系方式、版本号、开源协议、赞助方式等，以及软件的更新信息。 在这里可以查看软件版本、使用的各类开源代码库以及进行软件更新。 软件的更新目前支持3个国内可用的下载源，第四个空的下载源是从源站 (Github) 下载，旁边还有一个下载预览版的开关，现在测试阶段这个开关默认开启，正式版后此开关会默认关闭 【打开前台配置文件所在目录】的作用是便于用户手动修改前台布局。 【打开对局文件输出目录】的作用是使用户查看保存的对局信息‍更方便。 【打开日志目录】 的作用是便于用户在反馈bug时向开发者提供日志。 目前最新版软件已支持深度自定义，如对各类前台窗口的背景及各区域文字的字体、大小、颜色、权重等按需进行调整。 再强调一遍： 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ 如果你是付费购买的此软件，那么你一定是被骗了！！！ 扫描微信支付二维码来赞助我们对本软件的开发工作，我们非常感谢您的支持！"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/赛后数据.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/赛后数据.html",
+  "docs/使用文档/后台/赛后数据.html": {
+    "href": "docs/使用文档/后台/赛后数据.html",
     "title": "赛后数据 | neo-bpsys Docs",
     "summary": "赛后数据 赛后数据窗口的功能是在一局游戏结束后显示当局双方数据，如破译进度、牵制时长等。 以下是赛后数据窗口各部分的功能： 队徽 战队名 双方胜平数 本局小比分 地图选择及对局进度 求生方当局角色 选手ID 求生者数据 监管者角色选择 监管者数据"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/选择角色.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/选择角色.html",
+  "docs/使用文档/后台/选择角色.html": {
+    "href": "docs/使用文档/后台/选择角色.html",
     "title": "选择角色 | neo-bpsys Docs",
     "summary": "选择角色 本页面的功能是记录双方选择的角色以及全局禁选记录，以下是选择求生者部分： 选择方法与禁用监管者中的禁用方法一致。 ‍与上文同理。 在轮到指定选手选择角色时启用待选框 上图是全局禁选记录，它的功能是记录各队伍下次扮演该阵营时应该进入全局禁选的角色并会在换边时自动应用到全局禁选中。"
   },
-  "docs/neo-bpsys-wpf使用文档/后台/队伍信息.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/后台/队伍信息.html",
+  "docs/使用文档/后台/队伍信息.html": {
+    "href": "docs/使用文档/后台/队伍信息.html",
     "title": "队伍信息编辑 | neo-bpsys Docs",
     "summary": "队伍信息编辑 本页的功能是设置队伍信息，如战队名、队徽、上场选手等。 ‍ 上图为队伍信息填入页面（客场同理）。 用户只需填入各类队伍信息即可使用（可以不需要定妆照）。 点击【上场】来使选手上场（此处可以设置一支战队的监管者选手和求生者选手同时上场，软件会根据选边自动调整）。 另外，用户可以使用【从Json文件导入】按钮来从Json文件一键导入队伍信息。 设置完双方上场选手后可以通过下图部分的按钮更改选手的显示顺序（使用方法为点击选手名称后面的数字来将该选手与指定位置的选手互换）。"
   },
-  "docs/neo-bpsys-wpf使用文档/基础操作.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/基础操作.html",
+  "docs/使用文档/基础操作.html": {
+    "href": "docs/使用文档/基础操作.html",
     "title": "基础操作 | neo-bpsys Docs",
     "summary": "基础操作 本文章将告诉你如何快速上手 neo-bpsys-wpf。如果你是使用本软件的新手，请跟随本文指引来了解如何使用本软件。 一、设置双方队伍的信息。 打开软件后点击窗口左侧的【队伍信息】。对于每一支队伍，输入其战队名、队员名并上传队徽、选手定妆照（可选）后将所有上场的队员设为【上场】（每支队伍的求生者和监管者都点）。 在该页面的最下面显示了当前上场的选手。对于每个求生者选手，可以点击名称后面的数字以切换其位置。 如果需要了解如何更快速的导入队伍信息，请参阅从Json导入队伍信息。 二、设置赛制 在软件窗口上可以设置赛制为 BO5 或 BO3，该设置将影响对局引导、比分计算等功能，请如实选择。 三、启动前台 在软件窗口左侧的页面选择区域点击前台管理。在这里可以打开或关闭各个前台画面（一般建议全打开然后在OBS等直播软件中管理前台画面的显示与隐藏）。如果没有自定义前台画面布局的需求请勿开启设计模式，如果不慎开启并且移动了组件位置可以点击【重置布局】相关按钮恢复。 四、开启对局引导 本软件根据官方比赛BP规则设计了对局引导功能，请选择当前对局进度（例如第一局上半场）后点击【开始对局引导】，然后点击【下一步】来根据比赛规则进行每一步操作。同时，你可以点击【上一步】和【结束对局引导】来进行对应操作。 开启对局引导后即可根据引导来进行BP，关于BP过程中各个步骤的详细介绍，详见： 地图禁选 禁用监管者 禁用求生者 选择角色 天赋特质 五、赛后数据 在前台的赛后数据画面可以显示当局双方数据。具体使用方法是在赛后数据页面输入各选手的数据。此时，输入的数据将会显示在赛后数据画面显示。 六、比分控制 进行完一个对局后，可以在比分系统页面来输入和计算比分，比分将同步到比分组件中。 本软件内对局结果的加分与官方比赛一致，关于官方比赛加分详见下表。 对局结果 求生者队伍加分 监管者队伍加分 四抓 0 5 三抓 1 3 平局 2 2 三跑 3 1 四跑 5 0 七、结束对局 在一局游戏结束后，点击【新对局（重置）】以清空当局BP信息（地图BP、全局禁选记录、比分等跨局信息将被保留）。"
   },
-  "docs/neo-bpsys-wpf使用文档/安装与开始.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/安装与开始.html",
+  "docs/使用文档/安装与开始.html": {
+    "href": "docs/使用文档/安装与开始.html",
     "title": "| neo-bpsys Docs",
     "summary": "本文将介绍如何安装 neo-bpsys-wpf。 检查系统需求 在开始使用软件之前，请确保您的设备符合以下推荐配置： Windows 10 20H2 及以上版本的系统（因为这下面的系统没有CET保护，如有需要可参考这篇博文自行拉取修改并编译源码解决 解决.NET 9 WPF应用在特定Windows版本上无法启动的问题 推荐配置为i5 13400F + RTX 3060 +16GB 运行内存（最低配置为 i5 8300H + GTX 1060 + 8GB 运行内存）* 已安装 .NET 9.0 桌面运行时 (一般会由安装包自动处理好) *核显能正常使用软件但不建议做导播 下载软件 目前有以下渠道下载本软件： 官方渠道（实时更新） 项目官网（备用官网） GitHub Releases Gitee 发行版（因无法上传大于100MB的文件而弃用） 第三方渠道（网友维护，不保证为最新版） 蓝奏云（无需登录即可下载，密码：零风NB） 百度网盘 阿里云盘（提取码：86em）"
   },
-  "docs/neo-bpsys-wpf使用文档/高级选项/从Json导入队伍信息.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/高级选项/从Json导入队伍信息.html",
+  "docs/使用文档/常见问题及解决方法.html": {
+    "href": "docs/使用文档/常见问题及解决方法.html",
+    "title": "| neo-bpsys Docs",
+    "summary": "本文档收录了软件使用过程中经常遇见的问题及解决方法，请在群内提问或提交issue前仔细检查遇到的问题是否能够在本文档中找到解决方案。 前台组件错位 打开 设置-系统-屏幕，将缩放设为 200% 以下（建议使用默认缩放值） 重启软件"
+  },
+  "docs/使用文档/高级选项/从Json导入队伍信息.html": {
+    "href": "docs/使用文档/高级选项/从Json导入队伍信息.html",
     "title": "从Json文件导入信息 | neo-bpsys Docs",
     "summary": "从Json文件导入信息 除了手动设置之外，本软件还提供了从Json一键导入队伍信息的功能。 使用方法为点击队伍信息页面中的【从Json文件导入】来选择一个Json文件。 以下是队伍信息Json文件的空模板 { \"Name\": \"\", \"ImageUri\": \"\", \"SurMemberList\": [ { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": \"\" }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null }, { \"Name\": \"\", \"Camp\": \"Sur\", \"ImageUri\": null } ], \"HunMemberList\": [ { \"Name\": \"\", \"Camp\": \"Hun\", \"ImageUri\": null } ] } SurMemberList下存储队伍求生者选手名单；HunMemberList下存储队伍监管者选手名单。 选手名称下的Camp表示选手阵营（Sur表示求生者，Hun表示监管者） 队伍名称下的 ImageUri 表示队徽URl或文件路径（例：D:\\\\ExamplePhoto\\\\1.png)，如果没有队徽或定妆照则在该项填入null 文件路径需要两个反斜杠 以下分别为成都WOLVES和GR的队伍信息Json示例 成都WOLVES { \"Name\": \"Wolves\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/0f/5upqyt4fcxhv4g8tbgzw01c3ijy2xmz.png\", \"SurMemberList\": [ { \"Name\": \"Wolves_487\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/6/6d/ery6o97q1e2pgcacstg73tyrmtyibij.png\" }, { \"Name\": \"Wolves_Jelly\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/05/c4sgrg7oxnsygca01g7w44k02fq4knq.png\" }, { \"Name\": \"Wolves_XMX\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/b3/9ih5l1tr1pj3vr1q1o67awxxhfn1wnx.png\" }, { \"Name\": \"Wolves_DKing\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/8/86/b88uor92d5z8uiiqqb8n1jfyeddd02l.png\" } ], \"HunMemberList\": [ { \"Name\": \"Wolves_ChoAi\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/c/c2/ahjuo114o8icn6zznr96o8addi91zq3.png\" }, { \"Name\": \"Wolves_Yeyv\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/2/28/89wlcs5x73vseaqcgq2a0y72e40bpdr.png\" } ] } GR { \"Name\": \"Gr\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/be/fca4fwk94d87pkj9d4rudposbk3r2y0.png\", \"SurMemberList\": [ { \"Name\": \"Gr_heart\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/d/d9/tokh7z1vgovzel9tplgrn4k3waub1co.png\" }, { \"Name\": \"Gr_AK\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/b/b7/g3xph7i8sg4s72neqcx17ykqlj6g1t5.png\" }, { \"Name\": \"Gr_ac\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/c/ce/1rtb0oxkmjksay3a5lk4h4y1cl1dpmp.png\" }, { \"Name\": \"Gr_Xmiao5\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/1/1d/3kmh5ukn49445uudj6zx37ej1bcq5ba.png\" }, { \"Name\": \"Gr_iron\", \"Camp\": \"Sur\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/4/45/iic2g4zv1t42wtslzdsq35uy1335p3q.png\" } ], \"HunMemberList\": [ { \"Name\": \"Gr_mlx\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/a/a6/r9kgxgq6lqz7caj77mjrfwel7jr0lwd.png\" }, { \"Name\": \"Gr_Jin\", \"Camp\": \"Hun\", \"ImageUri\": \"https://patchwiki.biligame.com/images/dwrg/0/08/2fp7w10or7jlufkjcoxkeofv33v4abk.png\" } ] }"
   },
-  "docs/neo-bpsys-wpf使用文档/高级选项/修改比赛规则.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/高级选项/修改比赛规则.html",
+  "docs/使用文档/高级选项/修改比赛规则.html": {
+    "href": "docs/使用文档/高级选项/修改比赛规则.html",
     "title": "修改比赛规则 | neo-bpsys Docs",
     "summary": "修改比赛规则 在本软件的根目录下找到GameRule.json，这里是对局引导模式的相关规则，具体所对应的内容可以查看API文档。 ‍"
   },
-  "docs/neo-bpsys-wpf使用文档/高级选项/前台自定义.html": {
-    "href": "docs/neo-bpsys-wpf使用文档/高级选项/前台自定义.html",
+  "docs/使用文档/高级选项/前台自定义.html": {
+    "href": "docs/使用文档/高级选项/前台自定义.html",
     "title": "前台自定义 | neo-bpsys Docs",
     "summary": "前台自定义 修改背景及文字属性 在设置页面中，用户可以修改各个前台窗口的背景和文字属性。 修改组件大小及位置 用户可以在前台管理页面打开设计模式。在设计模式中，用户可以自定义每一个组件的大小和位置。 如果您希望辛苦劳作了不知道多久弄出来的UI没有保存的话，请不要读下去 温馨提醒：自定义完后需要先关闭设计者模式再退出软件，否则您的更改将不会被保存！ ↓血和泪的教训↓（++)——S0记录员 ‍"
   },

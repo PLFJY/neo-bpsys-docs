@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> | neo-bpsys Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" | neo-bpsys Docs ">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/使用文档/安装与开始.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/favicon.ico" alt="neo-bpsys-wpf">
+            neo-bpsys-wpf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<p>本文将介绍如何安装 neo-bpsys-wpf。</p>
+<hr>
+<h2 id="检查系统需求">检查系统需求</h2>
+<p>在开始使用软件之前，请确保您的设备符合以下推荐配置：</p>
+<ul>
+<li>Windows 10 20H2 及以上版本的系统（因为这下面的系统没有CET保护，如有需要可参考这篇博文自行拉取修改并编译源码解决 <a href="https://blog.gitcode.com/36cf881744718a915f1506032a8c695c.html">解决.NET 9 WPF应用在特定Windows版本上无法启动的问题</a></li>
+<li>推荐配置为i5 13400F + RTX 3060 +16GB 运行内存（最低配置为 i5 8300H + GTX 1060 + 8GB 运行内存）*</li>
+<li>已安装 <a href="https://dotnet.microsoft.com/zh-cn/download/dotnet/9.0">.NET 9.0 桌面运行时 </a> (一般会由安装包自动处理好)</li>
+</ul>
+<blockquote>
+<p>*核显能正常使用软件但不建议做导播</p>
+</blockquote>
+<hr>
+<h2 id="下载软件">下载软件</h2>
+<p>目前有以下渠道下载本软件：</p>
+<p>官方渠道（实时更新）</p>
+<ul>
+<li><a href="https://bpsys.plfjy.top/">项目官网</a>（<a href="https://plfjy.github.io/neo-bpsys-website/">备用官网</a>）</li>
+<li><a href="https://github.com/PLFJY/neo-bpsys-wpf/releases">GitHub Releases</a></li>
+<li><del><a href="https://gitee.com/plfjy/neo-bpsys-wpf/releases">Gitee 发行版</a></del>（因无法上传大于100MB的文件而弃用）</li>
+</ul>
+<p>第三方渠道（网友维护，<strong>不保证为最新版</strong>）</p>
+<ul>
+<li><a href="https://wwsm.lanzouo.com/b009hclqvi">蓝奏云</a>（无需登录即可下载，密码：零风NB）</li>
+<li><a href="https://pan.baidu.com/s/5_8kzq0n-09o6T1LreZHisg">百度网盘</a></li>
+<li><a href="https://www.alipan.com/s/t8SByXpso8o">阿里云盘</a>（提取码：86em）</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/PLFJY/neo-bpsys-docs/blob/master/docs/使用文档/安装与开始.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
