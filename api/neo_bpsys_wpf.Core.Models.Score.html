@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Core_Models_Score" data-uid="neo_bpsys_wpf.Core.Models.Score" class="text-break">
-Class Score  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class Score  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class Score  <a class="header-action link-secondary" title="View source" href="h
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Score : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public class Score : ObservableObjectBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -113,8 +113,7 @@ Class Score  <a class="header-action link-secondary" title="View source" href="h
     <dd>
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
-      <div><span class="xref">ObservableRecipient</span></div>
-      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html">ObservableObjectBase</a></div>
       <div><span class="xref">Score</span></div>
     </dd>
   </dl>
@@ -132,7 +131,7 @@ Class Score  <a class="header-action link-secondary" title="View source" href="h
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
+      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html#neo_bpsys_wpf_Core_Abstractions_ObservableObjectBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ObservableObjectBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
     </div>
   </dd></dl>
 
@@ -145,11 +144,44 @@ Class Score  <a class="header-action link-secondary" title="View source" href="h
 </h2>
 
 
+  <a id="neo_bpsys_wpf_Core_Models_Score_GameScores_" data-uid="neo_bpsys_wpf.Core.Models.Score.GameScores*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_Score_GameScores" data-uid="neo_bpsys_wpf.Core.Models.Score.GameScores">
+  GameScores
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>小比分</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
+public int GameScores { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Core_Models_Score_MajorPointsOnFront_" data-uid="neo_bpsys_wpf.Core.Models.Score.MajorPointsOnFront*"></a>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Score_MajorPointsOnFront" data-uid="neo_bpsys_wpf.Core.Models.Score.MajorPointsOnFront">
   MajorPointsOnFront
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Score.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Score.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>前台显示的格式化的大比分</p>
@@ -178,77 +210,11 @@ public string MajorPointsOnFront { get; }</code></pre>
 
 
 
-  <a id="neo_bpsys_wpf_Core_Models_Score_MinorPoints_" data-uid="neo_bpsys_wpf.Core.Models.Score.MinorPoints*"></a>
-
-  <h3 id="neo_bpsys_wpf_Core_Models_Score_MinorPoints" data-uid="neo_bpsys_wpf.Core.Models.Score.MinorPoints">
-  MinorPoints
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L60"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>小比分</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public int MinorPoints { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_Core_Models_Score_ScorePreviewOnBack_" data-uid="neo_bpsys_wpf.Core.Models.Score.ScorePreviewOnBack*"></a>
-
-  <h3 id="neo_bpsys_wpf_Core_Models_Score_ScorePreviewOnBack" data-uid="neo_bpsys_wpf.Core.Models.Score.ScorePreviewOnBack">
-  ScorePreviewOnBack
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Score.cs/#L44"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>后台显示的格式化的比分</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonIgnore]
-public string ScorePreviewOnBack { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="neo_bpsys_wpf_Core_Models_Score_Tie_" data-uid="neo_bpsys_wpf.Core.Models.Score.Tie*"></a>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Score_Tie" data-uid="neo_bpsys_wpf.Core.Models.Score.Tie">
   Tie
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>大比分--平</p>
@@ -281,7 +247,7 @@ public int Tie { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Score_Win" data-uid="neo_bpsys_wpf.Core.Models.Score.Win">
   Win
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>大比分--胜</p>
@@ -310,11 +276,41 @@ public int Win { get; set; }</code></pre>
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="neo_bpsys_wpf_Core_Models_Score_Reset_" data-uid="neo_bpsys_wpf.Core.Models.Score.Reset*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_Score_Reset" data-uid="neo_bpsys_wpf.Core.Models.Score.Reset">
+  Reset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Score.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Score.g.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

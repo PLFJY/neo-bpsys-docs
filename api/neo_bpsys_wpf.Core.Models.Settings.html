@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Core_Models_Settings" data-uid="neo_bpsys_wpf.Core.Models.Settings" class="text-break">
-Class Settings  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class Settings  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class Settings  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Settings : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public class Settings : ObservableObjectBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -113,8 +113,7 @@ Class Settings  <a class="header-action link-secondary" title="View source" href
     <dd>
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
-      <div><span class="xref">ObservableRecipient</span></div>
-      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html">ObservableObjectBase</a></div>
       <div><span class="xref">Settings</span></div>
     </dd>
   </dl>
@@ -132,7 +131,7 @@ Class Settings  <a class="header-action link-secondary" title="View source" href
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
+      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html#neo_bpsys_wpf_Core_Abstractions_ObservableObjectBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ObservableObjectBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
     </div>
   </dd></dl>
 
@@ -149,7 +148,7 @@ Class Settings  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="neo_bpsys_wpf_Core_Models_Settings_BpWindowSettings" data-uid="neo_bpsys_wpf.Core.Models.Settings.BpWindowSettings">
   BpWindowSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -177,11 +176,43 @@ public BpWindowSettings BpWindowSettings { get; set; }</code></pre>
 
 
 
+  <a id="neo_bpsys_wpf_Core_Models_Settings_CultureInfo_" data-uid="neo_bpsys_wpf.Core.Models.Settings.CultureInfo*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_Settings_CultureInfo" data-uid="neo_bpsys_wpf.Core.Models.Settings.CultureInfo">
+  CultureInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Settings.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public CultureInfo CultureInfo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Core_Models_Settings_CutSceneWindowSettings_" data-uid="neo_bpsys_wpf.Core.Models.Settings.CutSceneWindowSettings*"></a>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Settings_CutSceneWindowSettings" data-uid="neo_bpsys_wpf.Core.Models.Settings.CutSceneWindowSettings">
   CutSceneWindowSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -213,7 +244,7 @@ public CutSceneWindowSettings CutSceneWindowSettings { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Settings_GameDataWindowSettings" data-uid="neo_bpsys_wpf.Core.Models.Settings.GameDataWindowSettings">
   GameDataWindowSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -241,11 +272,42 @@ public GameDataWindowSettings GameDataWindowSettings { get; set; }</code></pre>
 
 
 
+  <a id="neo_bpsys_wpf_Core_Models_Settings_Language_" data-uid="neo_bpsys_wpf.Core.Models.Settings.Language*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_Settings_Language" data-uid="neo_bpsys_wpf.Core.Models.Settings.Language">
+  Language
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Settings.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LanguageKey Language { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="neo_bpsys_wpf.Core.Enums.LanguageKey.html">LanguageKey</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Core_Models_Settings_ScoreWindowSettings_" data-uid="neo_bpsys_wpf.Core.Models.Settings.ScoreWindowSettings*"></a>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Settings_ScoreWindowSettings" data-uid="neo_bpsys_wpf.Core.Models.Settings.ScoreWindowSettings">
   ScoreWindowSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -277,7 +339,7 @@ public ScoreWindowSettings ScoreWindowSettings { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Settings_ShowTip" data-uid="neo_bpsys_wpf.Core.Models.Settings.ShowTip">
   ShowTip
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Settings.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Settings.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -308,7 +370,7 @@ public ScoreWindowSettings ScoreWindowSettings { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Settings_WidgetsWindowSettings" data-uid="neo_bpsys_wpf.Core.Models.Settings.WidgetsWindowSettings">
   WidgetsWindowSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -340,7 +402,7 @@ public WidgetsWindowSettings WidgetsWindowSettings { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Settings.g.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

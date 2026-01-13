@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class GameGuidanceService | neo-bpsys Docs ">
       
-      <meta name="description" content="前台窗口服务, 实现了  接口，负责对局引导功能">
+      <meta name="description" content="对局引导服务, 实现了  接口，负责对局引导功能">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Services_GameGuidanceService" data-uid="neo_bpsys_wpf.Services.GameGuidanceService" class="text-break">
-Class GameGuidanceService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L22"><i class="bi bi-code-slash"></i></a>
+Class GameGuidanceService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class GameGuidanceService  <a class="header-action link-secondary" title="View s
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>前台窗口服务, 实现了 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService.html">IGameGuidanceService</a> 接口，负责对局引导功能</p>
+  <div class="markdown summary"><p>对局引导服务, 实现了 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService.html">IGameGuidanceService</a> 接口，负责对局引导功能</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -136,17 +136,17 @@ Class GameGuidanceService  <a class="header-action link-secondary" title="View s
 
   <a id="neo_bpsys_wpf_Services_GameGuidanceService__ctor_" data-uid="neo_bpsys_wpf.Services.GameGuidanceService.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_GameGuidanceService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_Wpf_Ui_INavigationService_neo_bpsys_wpf_Core_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_" data-uid="neo_bpsys_wpf.Services.GameGuidanceService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,Wpf.Ui.INavigationService,neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService)">
-  GameGuidanceService(ISharedDataService, INavigationService, IMessageBoxService, IInfoBarService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Services_GameGuidanceService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_Wpf_Ui_INavigationService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_" data-uid="neo_bpsys_wpf.Services.GameGuidanceService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,Wpf.Ui.INavigationService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService)">
+  GameGuidanceService(ISharedDataService, INavigationService, IInfoBarService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>前台窗口服务, 实现了 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService.html">IGameGuidanceService</a> 接口，负责对局引导功能</p>
+  <div class="markdown level1 summary"><p>对局引导服务, 实现了 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService.html">IGameGuidanceService</a> 接口，负责对局引导功能</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameGuidanceService(ISharedDataService sharedDataService, INavigationService navigationService, IMessageBoxService messageBoxService, IInfoBarService infoBarService)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameGuidanceService(ISharedDataService sharedDataService, INavigationService navigationService, IInfoBarService infoBarService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -154,8 +154,6 @@ Class GameGuidanceService  <a class="header-action link-secondary" title="View s
     <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
     <dd></dd>
     <dt><code>navigationService</code> <a class="xref" href="https://github.com/lepoco/wpfui/blob/master/src/Wpf.Ui/INavigationService.cs">INavigationService</a></dt>
-    <dd></dd>
-    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
     <dd></dd>
     <dt><code>infoBarService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService.html">IInfoBarService</a></dt>
     <dd></dd>
@@ -180,7 +178,7 @@ Class GameGuidanceService  <a class="header-action link-secondary" title="View s
 
   <h3 id="neo_bpsys_wpf_Services_GameGuidanceService_IsGuidanceStarted" data-uid="neo_bpsys_wpf.Services.GameGuidanceService.IsGuidanceStarted">
   IsGuidanceStarted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>是否启动引导</p>
@@ -224,7 +222,7 @@ Class GameGuidanceService  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; NextStepAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;string?&gt; NextStepAsync()</code></pre>
   </div>
 
 
@@ -248,7 +246,7 @@ Class GameGuidanceService  <a class="header-action link-secondary" title="View s
 
   <h3 id="neo_bpsys_wpf_Services_GameGuidanceService_PrevStepAsync" data-uid="neo_bpsys_wpf.Services.GameGuidanceService.PrevStepAsync">
   PrevStepAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>上一步</p>
@@ -256,7 +254,7 @@ Class GameGuidanceService  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; PrevStepAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;string?&gt; PrevStepAsync()</code></pre>
   </div>
 
 
@@ -339,7 +337,7 @@ Class GameGuidanceService  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L22" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/GameGuidanceService.cs/#L23" class="edit-link">Edit this page</a>
         </div>
 
 

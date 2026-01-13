@@ -119,12 +119,9 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html">ExtensionPageViewModel</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.html">FrontManagePageViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel.html">GameDataPageViewModel</a></dt>
@@ -132,7 +129,8 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html">MapBpPageViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.BanMapInfo.html">MapBpPageViewModel.BanMapInfo</a></dt>
@@ -148,7 +146,8 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html">PickPageViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html">PickPageViewModel.AwayHunGlobalBanRecordViewModel</a></dt>
@@ -174,14 +173,22 @@ Classes
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html">PickPageViewModel.SurPickViewModel</a></dt>
       <dd><p>用于选择角色的角色选择器行为的基类
 需要派生类所做的是: <br>
-1.设置<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_CharaList">CharaList</a><br>
-2.设置<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_IsEnabled">IsEnabled</a><br>
-3.实现<a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_CharaSelectViewModelBase_SyncCharaAsync">SyncCharaAsync()</a></p>
+1.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_CharaDict">CharaDict</a> 更新的行为<br>
+2.设置 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_IsEnabled">IsEnabled</a> 同步 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a> 的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件<br>
+3.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaAsync">SyncCharaAsync()</a> 将角色同步到前台的行为
+4.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncIsEnabled">SyncIsEnabled()</a> 通过toggle button设置后同步状态到对应的 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a> 中 CanCurrentBannedList 的值的行为
+5.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__">IsActionNameCorrect(GameAction?)</a> 判断当前步骤引导的步骤是否符合当前控件的行为</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.PluginPageViewModel.html">PluginPageViewModel</a></dt>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html">ScorePageViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.html">ScorePageViewModel.GameGlobalInfo</a></dt>
@@ -190,15 +197,18 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html">SettingPageViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel.html">TalentPageViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.html">TeamInfoPageViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerViewModel.html">TeamInfoPageViewModel.OnFieldHunPlayerViewModel</a></dt>
@@ -206,11 +216,15 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.html">TeamInfoPageViewModel.OnFieldSurPlayerViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged
+and provides helper methods for property change handling.
+Not MVVM-layer specific.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.html">TeamInfoPageViewModel.TeamInfoViewModel</a></dt>
-      <dd></dd>
+      <dd><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</dd>
     </dl>
 
 

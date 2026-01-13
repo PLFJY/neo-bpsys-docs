@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TeamInfoPageViewModel | neo-bpsys Docs ">
       
-      
+      <meta name="description" content="Base class that implements INotifyPropertyChanged with Recipient">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel" class="text-break">
-Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.RemoveSurMemberAsync.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.AddHunMember.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -113,7 +114,7 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
       <div><span class="xref">ObservableRecipient</span></div>
-      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">TeamInfoPageViewModel</span></div>
     </dd>
   </dl>
@@ -131,7 +132,7 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
+      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
     </div>
   </dd></dl>
 
@@ -148,7 +149,7 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.#ctor">
   TeamInfoPageViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -172,16 +173,16 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
 
   <a id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IFilePickerService_neo_bpsys_wpf_Core_Abstractions_Services_IMessageBoxService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService,neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService)">
-  TeamInfoPageViewModel(ISharedDataService, IFilePickerService, IMessageBoxService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IFilePickerService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService)">
+  TeamInfoPageViewModel(ISharedDataService, IFilePickerService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TeamInfoPageViewModel(ISharedDataService sharedDataService, IFilePickerService filePickerService, IMessageBoxService messageBoxService)</code></pre>
+    <pre><code class="lang-csharp hljs">public TeamInfoPageViewModel(ISharedDataService sharedDataService, IFilePickerService filePickerService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -189,8 +190,6 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
     <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
     <dd></dd>
     <dt><code>filePickerService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.html">IFilePickerService</a></dt>
-    <dd></dd>
-    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
     <dd></dd>
   </dl>
 
@@ -213,7 +212,7 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_AwayTeamInfoViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.AwayTeamInfoViewModel">
   AwayTeamInfoViewModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -244,7 +243,7 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_MainTeamInfoViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.MainTeamInfoViewModel">
   MainTeamInfoViewModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -275,7 +274,7 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldHunPlayerVm" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldHunPlayerVm">
   OnFieldHunPlayerVm
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -306,7 +305,7 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModels" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModels">
   OnFieldSurPlayerViewModels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -337,7 +336,7 @@ Class TeamInfoPageViewModel  <a class="header-action link-secondary" title="View
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.RemoveSurMemberAsync.g.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+TeamInfoViewModel.AddHunMember.g.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

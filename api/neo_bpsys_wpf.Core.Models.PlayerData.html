@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Core_Models_PlayerData" data-uid="neo_bpsys_wpf.Core.Models.PlayerData" class="text-break">
-Class PlayerData  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class PlayerData  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PlayerData  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerData : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerData : ObservableObjectBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -113,8 +113,7 @@ Class PlayerData  <a class="header-action link-secondary" title="View source" hr
     <dd>
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
-      <div><span class="xref">ObservableRecipient</span></div>
-      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html">ObservableObjectBase</a></div>
       <div><span class="xref">PlayerData</span></div>
     </dd>
   </dl>
@@ -132,7 +131,7 @@ Class PlayerData  <a class="header-action link-secondary" title="View source" hr
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
+      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html#neo_bpsys_wpf_Core_Abstractions_ObservableObjectBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ObservableObjectBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
     </div>
   </dd></dl>
 
@@ -145,110 +144,11 @@ Class PlayerData  <a class="header-action link-secondary" title="View source" hr
 </h2>
 
 
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_DownTimes_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.DownTimes*"></a>
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_ContainmentTime_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.ContainmentTime*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_DownTimes" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.DownTimes">
-  DownTimes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L208"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>击倒次数</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string DownTimes { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_HealedTimes_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.HealedTimes*"></a>
-
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_HealedTimes" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.HealedTimes">
-  HealedTimes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L76"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>治疗次数</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string HealedTimes { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_HitTimes_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.HitTimes*"></a>
-
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_HitTimes" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.HitTimes">
-  HitTimes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L164"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>命中求生者次数</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string HitTimes { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_KiteTime_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.KiteTime*"></a>
-
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_KiteTime" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.KiteTime">
-  KiteTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_ContainmentTime" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.ContainmentTime">
+  ContainmentTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>牵制时间</p>
@@ -257,7 +157,7 @@ public string HitTimes { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string KiteTime { get; set; }</code></pre>
+public string ContainmentTime { get; set; }</code></pre>
   </div>
 
 
@@ -277,11 +177,11 @@ public string KiteTime { get; set; }</code></pre>
 
 
 
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_MachineDecoded_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.MachineDecoded*"></a>
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_DecodingProgress_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.DecodingProgress*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_MachineDecoded" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.MachineDecoded">
-  MachineDecoded
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_DecodingProgress" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.DecodingProgress">
+  DecodingProgress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>破译进度</p>
@@ -290,7 +190,7 @@ public string KiteTime { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string MachineDecoded { get; set; }</code></pre>
+public string DecodingProgress { get; set; }</code></pre>
   </div>
 
 
@@ -310,20 +210,20 @@ public string MachineDecoded { get; set; }</code></pre>
 
 
 
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_MachineLeft_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.MachineLeft*"></a>
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_Heals_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.Heals*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_MachineLeft" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.MachineLeft">
-  MachineLeft
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_Heals" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.Heals">
+  Heals
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>剩余密码机数量</p>
+  <div class="markdown level1 summary"><p>治疗次数</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string MachineLeft { get; set; }</code></pre>
+public string Heals { get; set; }</code></pre>
   </div>
 
 
@@ -343,20 +243,20 @@ public string MachineLeft { get; set; }</code></pre>
 
 
 
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_PalletBroken_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.PalletBroken*"></a>
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_Knockdowns_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.Knockdowns*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_PalletBroken" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.PalletBroken">
-  PalletBroken
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_Knockdowns" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.Knockdowns">
+  Knockdowns
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L208"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>破坏板子数</p>
+  <div class="markdown level1 summary"><p>击倒次数</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string PalletBroken { get; set; }</code></pre>
+public string Knockdowns { get; set; }</code></pre>
   </div>
 
 
@@ -376,11 +276,11 @@ public string PalletBroken { get; set; }</code></pre>
 
 
 
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_PalletStunTimes_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.PalletStunTimes*"></a>
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_PalletStrikes_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.PalletStrikes*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_PalletStunTimes" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.PalletStunTimes">
-  PalletStunTimes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_PalletStrikes" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.PalletStrikes">
+  PalletStrikes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>砸板命中次数</p>
@@ -389,7 +289,7 @@ public string PalletBroken { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string PalletStunTimes { get; set; }</code></pre>
+public string PalletStrikes { get; set; }</code></pre>
   </div>
 
 
@@ -409,11 +309,77 @@ public string PalletStunTimes { get; set; }</code></pre>
 
 
 
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_RescueTimes_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.RescueTimes*"></a>
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_PalletsDestroyed_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.PalletsDestroyed*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_RescueTimes" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.RescueTimes">
-  RescueTimes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_PalletsDestroyed" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.PalletsDestroyed">
+  PalletsDestroyed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>破坏板子数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
+public string PalletsDestroyed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_RemainingCipher_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.RemainingCipher*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_RemainingCipher" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.RemainingCipher">
+  RemainingCipher
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>剩余密码机数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
+public string RemainingCipher { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_Rescues_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.Rescues*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_Rescues" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.Rescues">
+  Rescues
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>救人次数</p>
@@ -422,7 +388,7 @@ public string PalletStunTimes { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string RescueTimes { get; set; }</code></pre>
+public string Rescues { get; set; }</code></pre>
   </div>
 
 
@@ -442,11 +408,44 @@ public string RescueTimes { get; set; }</code></pre>
 
 
 
-  <a id="neo_bpsys_wpf_Core_Models_PlayerData_TerrorShockTimes_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.TerrorShockTimes*"></a>
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_SurvivorHits_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.SurvivorHits*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_TerrorShockTimes" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.TerrorShockTimes">
-  TerrorShockTimes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_SurvivorHits" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.SurvivorHits">
+  SurvivorHits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>命中求生者次数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
+public string SurvivorHits { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Models_PlayerData_TerrorShocks_" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.TerrorShocks*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_PlayerData_TerrorShocks" data-uid="neo_bpsys_wpf.Core.Models.PlayerData.TerrorShocks">
+  TerrorShocks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>恐惧震慑次数</p>
@@ -455,7 +454,7 @@ public string RescueTimes { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public string TerrorShockTimes { get; set; }</code></pre>
+public string TerrorShocks { get; set; }</code></pre>
   </div>
 
 
@@ -479,7 +478,7 @@ public string TerrorShockTimes { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.PlayerData.g.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

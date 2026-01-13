@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel | neo-bpsys Docs ">
       
-      
+      <meta name="description" content="Base class that implements INotifyPropertyChanged and provides helper methods for property change handling. Not MVVM-layer specific.">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel" class="text-break">
-Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+OnFieldSurPlayerViewModel.SwapMembersInPlayers.g.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+OnFieldSurPlayerViewModel.SwapMembersInPlayers.g.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,14 @@ Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel  <a class="header-action l
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Base class that implements INotifyPropertyChanged
+and provides helper methods for property change handling.
+Not MVVM-layer specific.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TeamInfoPageViewModel.OnFieldSurPlayerViewModel : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public class TeamInfoPageViewModel.OnFieldSurPlayerViewModel : ObservableObjectBase, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
   </div>
 
 
@@ -112,8 +115,7 @@ Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel  <a class="header-action l
     <dd>
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
-      <div><span class="xref">ObservableRecipient</span></div>
-      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html">ObservableObjectBase</a></div>
       <div><span class="xref">TeamInfoPageViewModel.OnFieldSurPlayerViewModel</span></div>
     </dd>
   </dl>
@@ -131,7 +133,7 @@ Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel  <a class="header-action l
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
+      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html#neo_bpsys_wpf_Core_Abstractions_ObservableObjectBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ObservableObjectBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
     </div>
   </dd></dl>
 
@@ -148,7 +150,7 @@ Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel  <a class="header-action l
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)">
   OnFieldSurPlayerViewModel(ISharedDataService, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -185,7 +187,7 @@ Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel  <a class="header-action l
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel_Index" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.Index">
   Index
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -216,7 +218,7 @@ Class TeamInfoPageViewModel.OnFieldSurPlayerViewModel  <a class="header-action l
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel_SwapMembersInPlayersCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.SwapMembersInPlayersCommand">
   SwapMembersInPlayersCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+OnFieldSurPlayerViewModel.SwapMembersInPlayers.g.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+OnFieldSurPlayerViewModel.SwapMembersInPlayers.g.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Controls.CharacterChangerCommandParameter.html">SwapMembersInPlayers(CharacterChangerCommandParameter)</a>.</p>
@@ -249,7 +251,7 @@ public IRelayCommand&lt;CharacterChangerCommandParameter&gt; SwapMembersInPlayer
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_TeamInfoPageViewModel_OnFieldSurPlayerViewModel_ThisPlayer" data-uid="neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.ThisPlayer">
   ThisPlayer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/TeamInfoPageViewModel.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -280,7 +282,7 @@ public IRelayCommand&lt;CharacterChangerCommandParameter&gt; SwapMembersInPlayer
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+OnFieldSurPlayerViewModel.SwapMembersInPlayers.g.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel+OnFieldSurPlayerViewModel.SwapMembersInPlayers.g.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

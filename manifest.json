@@ -36,20 +36,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.DesignBehavior.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.DesignBehavior.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.AttachedBehaviors.DesignBehavior",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.AttachedBehaviors.ToggleButtonAttach.yml",
       "output": {
         ".html": {
@@ -75,20 +61,6 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.AttachedBehaviors",
       "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Controls.CanvasAdorner.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Controls.CanvasAdorner.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Controls.CanvasAdorner",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.CanvasAdorner.yml\" sourcestartlinenumber=\"1\">设计者模式下的控件Adorner，用于调整控件大小和显示控件名称</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -187,20 +159,6 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Controls.HyperLinkSnackbarContent",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.yml\" sourcestartlinenumber=\"1\">HyperLinkSnackbarContent</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Controls.HyperLinkSnackbarMessage.yml\" sourcestartlinenumber=\"1\">HyperLinkSnackbarMessage</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -438,7 +396,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Converters.FontWeightJsonConverter",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.yml\" sourcestartlinenumber=\"1\">字体权重的Json转换器</p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.FontWeightJsonConverter.yml\" sourcestartlinenumber=\"1\">字体权重的JSON转换器</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -453,6 +411,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Converters.GameProgressToStringConverter",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.GameProgressToStringConverter.yml\" sourcestartlinenumber=\"1\">对局进度到文字转换器<br>\n比如：<xref href=\"neo_bpsys_wpf.Core.Enums.GameProgress.Game1FirstHalf\" data-throw-if-not-resolved=\"false\"></xref> 会变为 GAME1 FIRST HALF<br>\n若传入了其它参数比如endl表示输出换行版则是 GAME1\\nFIRST HALF，同时利用Bo3Mode（MultiBinding的第二个Value）来判断是输出</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Converters.IndexFormatConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Converters.IndexFormatConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Converters.IndexFormatConverter",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Converters.IndexFormatConverter.yml\" sourcestartlinenumber=\"1\">用于格式化索引的转换器，支持中文和英文环境\n用法：</p>\n<ol sourcefile=\"api/neo_bpsys_wpf.Converters.IndexFormatConverter.yml\" sourcestartlinenumber=\"3\">\n<li sourcefile=\"api/neo_bpsys_wpf.Converters.IndexFormatConverter.yml\" sourcestartlinenumber=\"3\">在 XAML 中使用MultiBinding</li>\n<li sourcefile=\"api/neo_bpsys_wpf.Converters.IndexFormatConverter.yml\" sourcestartlinenumber=\"4\">第一个传格式，通常从 I18N 中获取</li>\n<li sourcefile=\"api/neo_bpsys_wpf.Converters.IndexFormatConverter.yml\" sourcestartlinenumber=\"5\">第二个传索引，通常从数据源中获取</li>\n</ol>\n"
     },
     {
       "type": "ManagedReference",
@@ -582,17 +554,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.BanCountChangedEventArgs.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.BanCountChangedEventArgs.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Abstractions.Services.BanCountChangedEventArgs",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Abstractions.Services.BanCountChangedEventArgs.yml\" sourcestartlinenumber=\"1\">Ban位数量改变事件参数</p>\n"
+      "Title": "neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Abstractions.ObservableObjectBase.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged\nand provides helper methods for property change handling.\nNot MVVM-layer specific.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.PluginBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.PluginBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Abstractions.PluginBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -610,17 +596,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.IFrontService.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.IFrontService.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Abstractions.Services.IFrontService",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Abstractions.Services.IFrontService.yml\" sourcestartlinenumber=\"1\">前台窗口接口服务</p>\n"
+      "Title": "neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService.yml\" sourcestartlinenumber=\"1\">前台窗口接口服务</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -652,17 +638,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.IPluginService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.Services.IPluginService.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService.yml\" sourcestartlinenumber=\"1\">提示框服务接口</p>\n"
+      "Title": "neo_bpsys_wpf.Core.Abstractions.Services.IPluginService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -750,44 +736,44 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ViewModelBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ViewModelBase.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.设置<xref href=\"neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList\" data-throw-if-not-resolved=\"false\"></xref><br>\n2.设置<xref href=\"neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref><br>\n3.实现<xref href=\"neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+      "Title": "neo_bpsys_wpf.Core.Abstractions.ViewModelBase",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Abstractions.ViewModelBase.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase",
+      "Title": "neo_bpsys_wpf.Core.Abstractions",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ViewModels.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.AppBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Abstractions.ViewModels.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.AppBase.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Abstractions.ViewModels",
+      "Title": "neo_bpsys_wpf.Core.AppBase",
       "Summary": null
     },
     {
@@ -803,6 +789,160 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.AppConstants",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.AppConstants.yml\" sourcestartlinenumber=\"1\">应用程序常量</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.AttachedBehaviors.DesignBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.AttachedBehaviors.DesignBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.AttachedBehaviors.DesignBehavior",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.AttachedBehaviors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.AttachedBehaviors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.AttachedBehaviors",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Attributes.BackendPageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Attributes.BackendPageInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Attributes.BackendPageInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Attributes.CanvasName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Attributes.CanvasName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Attributes.CanvasName",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Attributes.CanvasName.yml\" sourcestartlinenumber=\"1\">画布名称信息</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Attributes.FrontedWindowInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Attributes.FrontedWindowInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Attributes.FrontedWindowInfo",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Attributes.FrontedWindowInfo.yml\" sourcestartlinenumber=\"1\">前台窗口信息</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Controls.CanvasAdorner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Controls.CanvasAdorner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Controls.CanvasAdorner",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Controls.CanvasAdorner.yml\" sourcestartlinenumber=\"1\">设计者模式下的控件Adorner，用于调整控件大小和显示控件名称</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Controls.FrontedWindowBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Controls.FrontedWindowBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Controls.FrontedWindowBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Controls.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Controls",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Enums.ApplicationLifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Enums.ApplicationLifetime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Enums.ApplicationLifetime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Enums.BackendPageCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Enums.BackendPageCategory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Enums.BackendPageCategory",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Enums.BackendPageCategory.yml\" sourcestartlinenumber=\"1\">设置页面类别</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -834,17 +974,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Enums.FrontWindowType.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Enums.FrontedWindowType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Enums.FrontWindowType.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.Enums.FrontedWindowType.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Enums.FrontWindowType",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Enums.FrontWindowType.yml\" sourcestartlinenumber=\"1\">前台窗口类型枚举</p>\n"
+      "Title": "neo_bpsys_wpf.Core.Enums.FrontedWindowType",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Enums.FrontedWindowType.yml\" sourcestartlinenumber=\"1\">前台窗口类型枚举</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -904,6 +1044,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Enums.LanguageKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Enums.LanguageKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Enums.LanguageKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Core.Enums.Map.yml",
       "output": {
         ".html": {
@@ -915,6 +1069,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.Enums.Map",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Enums.Map.yml\" sourcestartlinenumber=\"1\">地图</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Enums.PluginLoadStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Enums.PluginLoadStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Enums.PluginLoadStatus",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Enums.PluginLoadStatus.yml\" sourcestartlinenumber=\"1\">表示插件加载状态。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -960,6 +1128,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Events.BanCountChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Events.BanCountChangedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Events.BanCountChangedEventArgs",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Events.BanCountChangedEventArgs.yml\" sourcestartlinenumber=\"1\">Ban位数量改变事件参数</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Events.LanguageChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Events.LanguageChangedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Events.LanguageChangedEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Events.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Events",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Extensions.Registry.BackendPagesRegistryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Extensions.Registry.BackendPagesRegistryExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Extensions.Registry.BackendPagesRegistryExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Extensions.Registry.FrontedWindowRegistryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Extensions.Registry.FrontedWindowRegistryExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Extensions.Registry.FrontedWindowRegistryExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Extensions.Registry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Extensions.Registry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Extensions.Registry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Core.Helpers.ColorHelper.yml",
       "output": {
         ".html": {
@@ -971,6 +1223,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.Helpers.ColorHelper",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Helpers.ColorHelper.yml\" sourcestartlinenumber=\"1\">颜色工具类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Helpers.ConfigureFileHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Helpers.ConfigureFileHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Helpers.ConfigureFileHelper",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -988,6 +1254,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Helpers.FrontedWindowHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Helpers.FrontedWindowHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Helpers.FrontedWindowHelper",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Helpers.FrontedWindowHelper.yml\" sourcestartlinenumber=\"1\">前台窗口辅助类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Core.Helpers.ImageHelper.yml",
       "output": {
         ".html": {
@@ -999,6 +1279,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.Helpers.ImageHelper",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Helpers.ImageHelper.yml\" sourcestartlinenumber=\"1\">图片工具类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Helpers.MessageBoxHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Helpers.MessageBoxHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Helpers.MessageBoxHelper",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Helpers.MessageBoxHelper.yml\" sourcestartlinenumber=\"1\">消息框助手</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1016,17 +1310,45 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Messages.DesignModeChangedMessage.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.IAppHost.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Messages.DesignModeChangedMessage.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.IAppHost.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Messages.DesignModeChangedMessage",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Messages.DesignModeChangedMessage.yml\" sourcestartlinenumber=\"1\">設計モード変更メッセージ</p>\n"
+      "Title": "neo_bpsys_wpf.Core.IAppHost",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Messages.CharacterDictChangedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Messages.CharacterDictChangedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Messages.CharacterDictChangedMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Messages.DesignerModeChangedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Messages.DesignerModeChangedMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Messages.DesignerModeChangedMessage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Messages.DesignerModeChangedMessage.yml\" sourcestartlinenumber=\"1\">設計モード変更メッセージ</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1142,6 +1464,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.ElementInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Models.ElementInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Models.ElementInfo",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.ElementInfo.yml\" sourcestartlinenumber=\"1\">窗口中元素位置信息</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Core.Models.Game.yml",
       "output": {
         ".html": {
@@ -1184,6 +1520,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.InjectedControlInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Models.InjectedControlInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Models.InjectedControlInfo",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.InjectedControlInfo.yml\" sourcestartlinenumber=\"1\">添加到前台窗口的控件信息</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.LanguageSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Models.LanguageSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Models.LanguageSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.LanguageSettings.yml\" sourcestartlinenumber=\"1\">语言设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Core.Models.MapV2.yml",
       "output": {
         ".html": {
@@ -1194,7 +1558,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.Models.MapV2",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.MapV2.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged\nand provides helper methods for property change handling.\nNot MVVM-layer specific.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1237,6 +1601,48 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.Models.PlayerData",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.PlayerData.yml\" sourcestartlinenumber=\"1\">赛后数据类，用于存储赛后数据</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.PluginInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Models.PluginInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Models.PluginInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.PluginManifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Models.PluginManifest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Models.PluginManifest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.PluginStatusConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Models.PluginStatusConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Models.PluginStatusConfig",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.PluginStatusConfig.yml\" sourcestartlinenumber=\"1\">插件状态配置模型</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1320,7 +1726,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.Models.Talent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.Talent.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged\nand provides helper methods for property change handling.\nNot MVVM-layer specific.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1422,6 +1828,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Services.PluginStatusService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Services.PluginStatusService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Services.PluginStatusService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Services.PluginStatusService.yml\" sourcestartlinenumber=\"1\">插件状态管理器，用于管理内置插件的启用/禁用状态</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Services.Registry.BackendPagesRegistryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Services.Registry.BackendPagesRegistryService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Services.Registry.BackendPagesRegistryService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Services.Registry.FrontedWindowRegistryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Services.Registry.FrontedWindowRegistryService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Services.Registry.FrontedWindowRegistryService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Services.Registry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Services.Registry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Services.Registry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Core.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Core.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Core.yml",
       "output": {
         ".html": {
@@ -1432,6 +1908,202 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.ExamplePlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.ExamplePlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.ExamplePlugin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Models.PluginSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Models.PluginSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Models.PluginSettings",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ExamplePlugin.Models.PluginSettings.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged\nand provides helper methods for property change handling.\nNot MVVM-layer specific.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Services.ExampleService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Services.ExampleService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Services.ExampleService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Services.IExampleService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Services.IExampleService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Services.IExampleService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.ViewModels.MainPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.ViewModels.MainPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.ViewModels.MainPageViewModel",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ExamplePlugin.ViewModels.MainPageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.ViewModels.MainWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.ViewModels.MainWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.ViewModels.MainWindowViewModel",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ExamplePlugin.ViewModels.MainWindowViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.ViewModels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.ViewModels",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Views.ExampleInjectedControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Views.ExampleInjectedControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Views.ExampleInjectedControl",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ExamplePlugin.Views.ExampleInjectedControl.yml\" sourcestartlinenumber=\"1\">ExampleInjectedControl</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Views.MainPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Views.MainPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Views.MainPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ExamplePlugin.Views.MainPage.yml\" sourcestartlinenumber=\"1\">MainPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Views.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Views.MainWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Views.MainWindow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.Views.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin.Views",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ExamplePlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ExamplePlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ExamplePlugin",
       "Summary": null
     },
     {
@@ -1464,6 +2136,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Helpers.I18nHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Helpers.I18nHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Helpers.I18nHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Locales.Lang.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Locales.Lang.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Locales.Lang",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Locales.Lang.yml\" sourcestartlinenumber=\"1\">一个强类型的资源类，用于查找本地化的字符串等。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Locales.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Locales.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Locales",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Services.ApplicationHostService.yml",
       "output": {
         ".html": {
@@ -1492,17 +2220,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Services.FrontService.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.FrontedWindowService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Services.FrontService.html"
+          "relative_path": "api/neo_bpsys_wpf.Services.FrontedWindowService.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Services.FrontService",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.FrontService.yml\" sourcestartlinenumber=\"1\">对局引导服务, 实现了 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.IFrontService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责与前台窗口进行交互</p>\n"
+      "Title": "neo_bpsys_wpf.Services.FrontedWindowService",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.FrontedWindowService.yml\" sourcestartlinenumber=\"1\">前台窗口服务, 实现了 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责与前台窗口进行交互</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1544,7 +2272,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Services.GameGuidanceService",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.GameGuidanceService.yml\" sourcestartlinenumber=\"1\">前台窗口服务, 实现了 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责对局引导功能</p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.GameGuidanceService.yml\" sourcestartlinenumber=\"1\">对局引导服务, 实现了 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责对局引导功能</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1562,17 +2290,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Services.MessageBoxService.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Services.PluginService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Services.MessageBoxService.html"
+          "relative_path": "api/neo_bpsys_wpf.Services.PluginService.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Services.MessageBoxService",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Services.MessageBoxService.yml\" sourcestartlinenumber=\"1\">信息框服务, 实现了 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService\" data-throw-if-not-resolved=\"false\"></xref> 接口，负责展示信息框</p>\n"
+      "Title": "neo_bpsys_wpf.Services.PluginService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1660,6 +2388,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.Plugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.Plugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.TeamJsonMaker.Plugin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.Team.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.TeamJsonMaker.Team",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.TeamJsonMaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.TeamJsonMaker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.TeamJsonMaker.TeamJsonMaker",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.TeamJsonMaker.TeamJsonMaker.yml\" sourcestartlinenumber=\"1\">TeamJsonMaker.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.TeamJsonMakerViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.TeamJsonMakerViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.TeamJsonMaker.TeamJsonMakerViewModel",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.TeamJsonMaker.TeamJsonMakerViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.TeamJsonMaker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Themes.IconThemesDictionary.yml",
       "output": {
         ".html": {
@@ -1685,6 +2483,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Themes",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.CharaDict\" data-throw-if-not-resolved=\"false\"></xref> 更新的行为<br>\n2.设置 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 同步 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件<br>\n3.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref> 将角色同步到前台的行为\n4.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncIsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 通过toggle button设置后同步状态到对应的 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 中 CanCurrentBannedList 的值的行为\n5.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect(System.Nullable%7bneo_bpsys_wpf.Core.Enums.GameAction%7d)\" data-throw-if-not-resolved=\"false\"></xref> 判断当前步骤引导的步骤是否符合当前控件的行为</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1772,20 +2584,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.ViewModels.Pages.ExtensionPageViewModel",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.yml",
       "output": {
         ".html": {
@@ -1796,7 +2594,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1866,7 +2664,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1950,7 +2748,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.设置<xref href=\"neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.CharaList\" data-throw-if-not-resolved=\"false\"></xref><br>\n2.设置<xref href=\"neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref><br>\n3.实现<xref href=\"neo_bpsys_wpf.Core.Abstractions.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.CharaDict\" data-throw-if-not-resolved=\"false\"></xref> 更新的行为<br>\n2.设置 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 同步 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件<br>\n3.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref> 将角色同步到前台的行为\n4.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncIsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 通过toggle button设置后同步状态到对应的 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 中 CanCurrentBannedList 的值的行为\n5.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect(System.Nullable%7bneo_bpsys_wpf.Core.Enums.GameAction%7d)\" data-throw-if-not-resolved=\"false\"></xref> 判断当前步骤引导的步骤是否符合当前控件的行为</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1964,7 +2762,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PluginPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.PluginPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.PluginPageViewModel",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PluginPageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1992,7 +2804,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2006,7 +2818,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2020,7 +2832,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.TalentPageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2048,7 +2860,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.OnFieldSurPlayerViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged\nand provides helper methods for property change handling.\nNot MVVM-layer specific.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2062,7 +2874,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.TeamInfoViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2076,7 +2888,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.TeamInfoPageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2104,7 +2916,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.BpWindowViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2118,7 +2930,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.CutSceneWindowViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2132,7 +2944,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.GameDataWindowViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2146,7 +2958,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2160,7 +2972,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.ScoreManualWindowViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2174,7 +2986,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2188,7 +3000,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Windows.WidgetsWindowViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2202,6 +3014,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Windows",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels",
       "Summary": null
     },
     {
@@ -2231,20 +3057,6 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Views.Pages.BanSurPage",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.BanSurPage.yml\" sourcestartlinenumber=\"1\">BanSurPage.xaml 的交互逻辑</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.ExtensionPage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Views.Pages.ExtensionPage.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Views.Pages.ExtensionPage",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.ExtensionPage.yml\" sourcestartlinenumber=\"1\">ExtensionPage.xaml 的交互逻辑</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2315,6 +3127,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Views.Pages.PickPage",
       "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.PickPage.yml\" sourcestartlinenumber=\"1\">PickPage.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Pages.PluginPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Pages.PluginPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Pages.PluginPage",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Pages.PluginPage.yml\" sourcestartlinenumber=\"1\">PluginPage.xaml 的交互逻辑</p>\n"
     },
     {
       "type": "ManagedReference",

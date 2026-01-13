@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_App" data-uid="neo_bpsys_wpf.App" class="text-break">
-Class App  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs/#L46"><i class="bi bi-code-slash"></i></a>
+Class App  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class App  <a class="header-action link-secondary" title="View source" href="htt
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class App : Application</code></pre>
+    <pre><code class="lang-csharp hljs">public class App : AppBase, IAppHost</code></pre>
   </div>
 
 
@@ -114,48 +114,32 @@ Class App  <a class="header-action link-secondary" title="View source" href="htt
       <div><span class="xref">object</span></div>
       <div><span class="xref">DispatcherObject</span></div>
       <div><span class="xref">Application</span></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.AppBase.html">AppBase</a></div>
       <div><span class="xref">App</span></div>
     </dd>
   </dl>
 
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="neo_bpsys_wpf_App_Services_" data-uid="neo_bpsys_wpf.App.Services*"></a>
-
-  <h3 id="neo_bpsys_wpf_App_Services" data-uid="neo_bpsys_wpf.App.Services">
-  Services
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L222"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets services.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IServiceProvider Services { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
-    <dd></dd>
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.IAppHost.html">IAppHost</a></div>
+    </dd>
   </dl>
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Core.AppBase.html#neo_bpsys_wpf_Core_AppBase_Current">AppBase.Current</a>
+    </div>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Core.AppBase.html#neo_bpsys_wpf_Core_AppBase_CurrentLifetime">AppBase.CurrentLifetime</a>
+    </div>
+    <div>
+      <a class="xref" href="neo_bpsys_wpf.Core.AppBase.html#neo_bpsys_wpf_Core_AppBase_MainWindow">AppBase.MainWindow</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -166,66 +150,11 @@ Class App  <a class="header-action link-secondary" title="View source" href="htt
 </h2>
 
 
-  <a id="neo_bpsys_wpf_App_InitializeComponent_" data-uid="neo_bpsys_wpf.App.InitializeComponent*"></a>
-
-  <h3 id="neo_bpsys_wpf_App_InitializeComponent" data-uid="neo_bpsys_wpf.App.InitializeComponent">
-  InitializeComponent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs/#L53"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>InitializeComponent</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void InitializeComponent()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_App_Main_" data-uid="neo_bpsys_wpf.App.Main*"></a>
-
-  <h3 id="neo_bpsys_wpf_App_Main" data-uid="neo_bpsys_wpf.App.Main">
-  Main()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs/#L78"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Application Entry Point.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[STAThread]
-public static void Main()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="neo_bpsys_wpf_App_OnExit_" data-uid="neo_bpsys_wpf.App.OnExit*"></a>
 
   <h3 id="neo_bpsys_wpf_App_OnExit_System_Windows_ExitEventArgs_" data-uid="neo_bpsys_wpf.App.OnExit(System.Windows.ExitEventArgs)">
   OnExit(ExitEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raises the <span class="xref">System.Windows.Application.Exit</span> event.</p>
@@ -258,7 +187,7 @@ public static void Main()</code></pre>
 
   <h3 id="neo_bpsys_wpf_App_OnStartup_System_Windows_StartupEventArgs_" data-uid="neo_bpsys_wpf.App.OnStartup(System.Windows.StartupEventArgs)">
   OnStartup(StartupEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raises the <span class="xref">System.Windows.Application.Startup</span> event.</p>
@@ -291,15 +220,15 @@ public static void Main()</code></pre>
 
   <h3 id="neo_bpsys_wpf_App_Restart" data-uid="neo_bpsys_wpf.App.Restart">
   Restart()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>重启程序</p>
+  <div class="markdown level1 summary"><p>重启应用程序。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Restart()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Restart()</code></pre>
   </div>
 
 
@@ -314,11 +243,104 @@ public static void Main()</code></pre>
 
 
 
+  <a id="neo_bpsys_wpf_App_ShutDown_" data-uid="neo_bpsys_wpf.App.ShutDown*"></a>
+
+  <h3 id="neo_bpsys_wpf_App_ShutDown" data-uid="neo_bpsys_wpf.App.ShutDown">
+  ShutDown()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止当前应用程序。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ShutDown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="neo_bpsys_wpf_App_AppStarted" data-uid="neo_bpsys_wpf.App.AppStarted">
+  AppStarted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当应用启动时触发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override event EventHandler? AppStarted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="neo_bpsys_wpf_App_AppStopping" data-uid="neo_bpsys_wpf.App.AppStopping">
+  AppStopping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当应用正在停止时触发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override event EventHandler? AppStopping</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/App.g.cs/#L46" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/App.xaml.cs/#L23" class="edit-link">Edit this page</a>
         </div>
 
 

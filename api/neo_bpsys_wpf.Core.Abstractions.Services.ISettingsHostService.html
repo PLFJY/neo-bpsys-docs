@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService" class="text-break">
-Interface ISettingsHostService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Interface ISettingsHostService  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -125,7 +125,7 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
 
   <h3 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_Settings" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.Settings">
   Settings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>设置项</p>
@@ -161,7 +161,7 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
 
   <h3 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_LoadConfig" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.LoadConfig">
   LoadConfig()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>读取配置</p>
@@ -169,10 +169,15 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void LoadConfig()</code></pre>
+    <pre><code class="lang-csharp hljs">Task LoadConfig()</code></pre>
   </div>
 
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -188,7 +193,7 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
 
   <h3 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfig" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig">
   ResetConfig()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>重置配置</p>
@@ -213,9 +218,9 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
 
   <a id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfig_" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfig_neo_bpsys_wpf_Core_Enums_FrontWindowType_" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontWindowType)">
-  ResetConfig(FrontWindowType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfig_neo_bpsys_wpf_Core_Enums_FrontedWindowType_" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontedWindowType)">
+  ResetConfig(FrontedWindowType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>重置指定窗口的配置</p>
@@ -223,12 +228,12 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ResetConfig(FrontWindowType windowType)</code></pre>
+    <pre><code class="lang-csharp hljs">void ResetConfig(FrontedWindowType windowType)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Core.Enums.FrontWindowType.html">FrontWindowType</a></dt>
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Core.Enums.FrontedWindowType.html">FrontedWindowType</a></dt>
     <dd><p>窗口类型</p>
 </dd>
   </dl>
@@ -248,7 +253,7 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
 
   <h3 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_SaveConfig" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfig">
   SaveConfig()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>保存配置</p>
@@ -276,9 +281,40 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
 
 
 
+  <h3 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_LanguageSettingChanged" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.LanguageSettingChanged">
+  LanguageSettingChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>语言改变事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;LanguageChangedEventArgs&gt; LanguageSettingChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Events.LanguageChangedEventArgs.html">LanguageChangedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h3 id="neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_SettingsChanged" data-uid="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SettingsChanged">
   SettingsChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>配置项改变事件</p>
@@ -310,7 +346,7 @@ Interface ISettingsHostService  <a class="header-action link-secondary" title="V
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Abstractions/Services/ISettingsHostService.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

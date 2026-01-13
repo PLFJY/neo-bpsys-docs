@@ -143,7 +143,7 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.Converters.FontWeightJsonConverter.html">FontWeightJsonConverter</a></dt>
-      <dd><p>字体权重的Json转换器</p>
+      <dd><p>字体权重的JSON转换器</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -151,6 +151,17 @@ Classes
       <dd><p>对局进度到文字转换器<br>
 比如：<a class="xref" href="neo_bpsys_wpf.Core.Enums.GameProgress.html#neo_bpsys_wpf_Core_Enums_GameProgress_Game1FirstHalf">Game1FirstHalf</a> 会变为 GAME1 FIRST HALF<br>
 若传入了其它参数比如endl表示输出换行版则是 GAME1\nFIRST HALF，同时利用Bo3Mode（MultiBinding的第二个Value）来判断是输出</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="neo_bpsys_wpf.Converters.IndexFormatConverter.html">IndexFormatConverter</a></dt>
+      <dd><p>用于格式化索引的转换器，支持中文和英文环境
+用法：</p>
+<ol>
+<li>在 XAML 中使用MultiBinding</li>
+<li>第一个传格式，通常从 I18N 中获取</li>
+<li>第二个传索引，通常从数据源中获取</li>
+</ol>
 </dd>
     </dl>
     <dl class="jumplist">

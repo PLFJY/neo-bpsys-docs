@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class FrontManagePageViewModel | neo-bpsys Docs ">
       
-      
+      <meta name="description" content="Base class that implements INotifyPropertyChanged with Recipient">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel" class="text-break">
-Class FrontManagePageViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class FrontManagePageViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPosition.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class FrontManagePageViewModel  <a class="header-action link-secondary" title="V
   <dl><dt>Assembly</dt><dd>neo-bpsys-wpf.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Base class that implements INotifyPropertyChanged with Recipient</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -113,7 +114,7 @@ Class FrontManagePageViewModel  <a class="header-action link-secondary" title="V
       <div><span class="xref">object</span></div>
       <div><span class="xref">ObservableObject</span></div>
       <div><span class="xref">ObservableRecipient</span></div>
-      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">FrontManagePageViewModel</span></div>
     </dd>
   </dl>
@@ -131,7 +132,7 @@ Class FrontManagePageViewModel  <a class="header-action link-secondary" title="V
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModels.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModels_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
+      <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
     </div>
   </dd></dl>
 
@@ -148,7 +149,7 @@ Class FrontManagePageViewModel  <a class="header-action link-secondary" title="V
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel__ctor" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.#ctor">
   FrontManagePageViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/FrontManagePageViewModel.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/FrontManagePageViewModel.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -172,23 +173,21 @@ Class FrontManagePageViewModel  <a class="header-action link-secondary" title="V
 
   <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IFrontService_neo_bpsys_wpf_Core_Abstractions_Services_IMessageBoxService_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IFrontService,neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService,neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)">
-  FrontManagePageViewModel(IFrontService, IMessageBoxService, ISharedDataService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/FrontManagePageViewModel.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IFrontedWindowService_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService,neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)">
+  FrontManagePageViewModel(IFrontedWindowService, ISharedDataService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/FrontManagePageViewModel.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FrontManagePageViewModel(IFrontService frontService, IMessageBoxService messageBoxService, ISharedDataService sharedDataService)</code></pre>
+    <pre><code class="lang-csharp hljs">public FrontManagePageViewModel(IFrontedWindowService frontedWindowService, ISharedDataService sharedDataService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>frontService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IFrontService.html">IFrontService</a></dt>
-    <dd></dd>
-    <dt><code>messageBoxService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IMessageBoxService.html">IMessageBoxService</a></dt>
+    <dt><code>frontedWindowService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService.html">IFrontedWindowService</a></dt>
     <dd></dd>
     <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
     <dd></dd>
@@ -209,20 +208,20 @@ Class FrontManagePageViewModel  <a class="header-action link-secondary" title="V
 </h2>
 
 
-  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ChangeDesignModeCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ChangeDesignModeCommand*"></a>
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ChangeDesignerModeCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ChangeDesignerModeCommand*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ChangeDesignModeCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ChangeDesignModeCommand">
-  ChangeDesignModeCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ChangeDesignMode.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ChangeDesignerModeCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ChangeDesignerModeCommand">
+  ChangeDesignerModeCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ChangeDesignerMode.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ChangeDesignMode(object[])</span>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ChangeDesignerMode(object[])</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public IRelayCommand&lt;object?[]&gt; ChangeDesignModeCommand { get; }</code></pre>
+public IRelayCommand&lt;object?[]&gt; ChangeDesignerModeCommand { get; }</code></pre>
   </div>
 
 
@@ -242,11 +241,42 @@ public IRelayCommand&lt;object?[]&gt; ChangeDesignModeCommand { get; }</code></p
 
 
 
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ExternalFrontedWindows_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ExternalFrontedWindows*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ExternalFrontedWindows" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ExternalFrontedWindows">
+  ExternalFrontedWindows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/FrontManagePageViewModel.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;FrontedWindowInfo&gt; ExternalFrontedWindows { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Attributes.FrontedWindowInfo.html">FrontedWindowInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideAllWindowsCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand*"></a>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideAllWindowsCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindowsCommand">
   HideAllWindowsCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideAllWindows()</span>.</p>
@@ -279,16 +309,16 @@ public IRelayCommand HideAllWindowsCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_HideWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindowCommand">
   HideWindowCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindow.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindow.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Core.Enums.FrontWindowType.html">HideWindow(FrontWindowType)</a>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.HideWindow(object)</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public IRelayCommand&lt;FrontWindowType&gt; HideWindowCommand { get; }</code></pre>
+public IRelayCommand&lt;object?&gt; HideWindowCommand { get; }</code></pre>
   </div>
 
 
@@ -297,7 +327,7 @@ public IRelayCommand&lt;FrontWindowType&gt; HideWindowCommand { get; }</code></p
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Enums.FrontWindowType.html">FrontWindowType</a>&gt;</dt>
+    <dt><span class="xref">IRelayCommand</span>&lt;<span class="xref">object</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -312,7 +342,7 @@ public IRelayCommand&lt;FrontWindowType&gt; HideWindowCommand { get; }</code></p
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetBpWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPositionCommand">
   ResetBpWindowElementsPositionCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetBpWindowElementsPosition()</span>.</p>
@@ -341,11 +371,44 @@ public IRelayCommand ResetBpWindowElementsPositionCommand { get; }</code></pre>
 
 
 
+  <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetCanvasElementsPositionCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCanvasElementsPositionCommand*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetCanvasElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCanvasElementsPositionCommand">
+  ResetCanvasElementsPositionCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCanvasElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCanvasElementsPosition(object[])</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
+public IRelayCommand&lt;object?[]&gt; ResetCanvasElementsPositionCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IRelayCommand</span>&lt;<span class="xref">object</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetCutSceneWindowElementsPositionCommand_" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand*"></a>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetCutSceneWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPositionCommand">
   ResetCutSceneWindowElementsPositionCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition()</span>.</p>
@@ -378,7 +441,7 @@ public IRelayCommand ResetCutSceneWindowElementsPositionCommand { get; }</code><
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetGameDataWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPositionCommand">
   ResetGameDataWindowElementsPositionCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetGameDataWindowElementsPosition()</span>.</p>
@@ -411,7 +474,7 @@ public IRelayCommand ResetGameDataWindowElementsPositionCommand { get; }</code><
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreGlobalWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPositionCommand">
   ResetScoreGlobalWindowElementsPositionCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPosition()</span>.</p>
@@ -444,7 +507,7 @@ public IRelayCommand ResetScoreGlobalWindowElementsPositionCommand { get; }</cod
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreHunWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPositionCommand">
   ResetScoreHunWindowElementsPositionCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreHunWindowElementsPosition()</span>.</p>
@@ -477,7 +540,7 @@ public IRelayCommand ResetScoreHunWindowElementsPositionCommand { get; }</code><
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetScoreSurWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPositionCommand">
   ResetScoreSurWindowElementsPositionCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreSurWindowElementsPosition()</span>.</p>
@@ -510,7 +573,7 @@ public IRelayCommand ResetScoreSurWindowElementsPositionCommand { get; }</code><
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ResetWidgetsWindowElementsPositionCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPositionCommand">
   ResetWidgetsWindowElementsPositionCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetWidgetsWindowElementsPosition.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ResetWidgetsWindowElementsPosition(string)</a>.</p>
@@ -543,7 +606,7 @@ public IRelayCommand&lt;string&gt; ResetWidgetsWindowElementsPositionCommand { g
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowAllWindowsCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindowsCommand">
   ShowAllWindowsCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowAllWindows()</span>.</p>
@@ -576,16 +639,16 @@ public IRelayCommand ShowAllWindowsCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_FrontManagePageViewModel_ShowWindowCommand" data-uid="neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindowCommand">
   ShowWindowCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindow.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindow.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <a class="xref" href="neo_bpsys_wpf.Core.Enums.FrontWindowType.html">ShowWindow(FrontWindowType)</a>.</p>
+  <div class="markdown level1 summary"><p>Gets an <span class="xref">CommunityToolkit.Mvvm.Input.IRelayCommand&lt;T&gt;</span> instance wrapping <span class="xref">neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ShowWindow(object)</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public IRelayCommand&lt;FrontWindowType&gt; ShowWindowCommand { get; }</code></pre>
+public IRelayCommand&lt;object?&gt; ShowWindowCommand { get; }</code></pre>
   </div>
 
 
@@ -594,7 +657,7 @@ public IRelayCommand&lt;FrontWindowType&gt; ShowWindowCommand { get; }</code></p
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">IRelayCommand</span>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Enums.FrontWindowType.html">FrontWindowType</a>&gt;</dt>
+    <dt><span class="xref">IRelayCommand</span>&lt;<span class="xref">object</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -609,7 +672,7 @@ public IRelayCommand&lt;FrontWindowType&gt; ShowWindowCommand { get; }</code></p
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows7.0/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetCutSceneWindowElementsPosition.g.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Pages.FrontManagePageViewModel.ResetScoreGlobalWindowElementsPosition.g.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 
