@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CharaSelectViewModelBase | neo-bpsys Docs ">
       
-      <meta name="description" content="用于选择角色的角色选择器行为的基类 需要派生类所做的是:  1.实现  更新的行为 2.设置  同步  的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件 3.实现  将角色同步到前台的行为 4.实现  通过toggle button设置后同步状态到对应的  中 CanCurrentBannedList 的值的行为 5.实现  判断当前步骤引导的步骤是否符合当前控件的行为">
+      <meta name="description" content="用于选择角色的角色选择器行为的基类 需要派生类所做的是:  1.实现  更新的行为 2.设置  同步  的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件 3.实现  将角色同步到前台的行为 4.实现  通过toggle button设置后同步状态到对应的  中 CanCurrentBannedList 的值的行为 5.实现  判断当前步骤引导的步骤是否符合当前控件的行为 6.在  中更新 preview 的 image">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase" class="text-break">
-Class CharaSelectViewModelBase  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class CharaSelectViewModelBase  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.ConfirmAsync.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,9 +101,10 @@ Class CharaSelectViewModelBase  <a class="header-action link-secondary" title="V
 需要派生类所做的是: <br>
 1.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_CharaDict">CharaDict</a> 更新的行为<br>
 2.设置 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_IsEnabled">IsEnabled</a> 同步 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a> 的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件<br>
-3.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaAsync">SyncCharaAsync()</a> 将角色同步到前台的行为
+3.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaToSourceAsync">SyncCharaToSourceAsync()</a> 将角色同步到前台的行为
 4.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncIsEnabled">SyncIsEnabled()</a> 通过toggle button设置后同步状态到对应的 <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a> 中 CanCurrentBannedList 的值的行为
-5.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__">IsActionNameCorrect(GameAction?)</a> 判断当前步骤引导的步骤是否符合当前控件的行为</p>
+5.实现 <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__">IsActionNameCorrect(GameAction?)</a> 判断当前步骤引导的步骤是否符合当前控件的行为
+6.在 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">OnCurrentGameChanged(object, EventArgs)</a> 中更新 preview 的 image</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -170,7 +171,7 @@ Class CharaSelectViewModelBase  <a class="header-action link-secondary" title="V
 
   <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Enums.Camp,System.Int32)">
   CharaSelectViewModelBase(ISharedDataService, Camp, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数</p>
@@ -212,7 +213,7 @@ Class CharaSelectViewModelBase  <a class="header-action link-secondary" title="V
 
   <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SharedDataService" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SharedDataService">
   SharedDataService
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -313,7 +314,7 @@ public IAsyncRelayCommand ConfirmCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_Index" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.Index">
   Index
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>当前的序号</p>
@@ -378,7 +379,7 @@ public bool IsCharaChangerHighlighted { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_IsEnabled" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsEnabled">
   IsEnabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>当前选择器是否可用</p>
@@ -513,7 +514,7 @@ public Character? SelectedChara { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})">
   IsActionNameCorrect(GameAction?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L181"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>判断当前高亮步骤是否符合当前控件</p>
@@ -552,7 +553,7 @@ public Character? SelectedChara { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Core_Messages_CharacterDictChangedMessage_" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Core.Messages.CharacterDictChangedMessage)">
   Receive(CharacterDictChangedMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>接收角色字典更换的消息</p>
@@ -585,7 +586,7 @@ public Character? SelectedChara { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Core_Messages_HighlightMessage_" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.Receive(neo_bpsys_wpf.Core.Messages.HighlightMessage)">
   Receive(HighlightMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>接收高亮消息</p>
@@ -614,19 +615,46 @@ public Character? SelectedChara { get; set; }</code></pre>
 
 
 
-  <a id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaAsync_" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync*"></a>
+  <a id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaFromSourceAsync_" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaFromSourceAsync*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaAsync" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync">
-  SyncCharaAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaFromSourceAsync" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaFromSourceAsync">
+  SyncCharaFromSourceAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>确认</p>
+  <div class="markdown level1 summary"><p>从源同步当前角色</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Task SyncCharaAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void SyncCharaFromSourceAsync()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaToSourceAsync_" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync*"></a>
+
+  <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaToSourceAsync" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync">
+  SyncCharaToSourceAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>同步当前角色到源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract Task SyncCharaToSourceAsync()</code></pre>
   </div>
 
 
@@ -650,7 +678,7 @@ public Character? SelectedChara { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncIsEnabled" data-uid="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncIsEnabled">
   SyncIsEnabled()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/CharaSelectViewModelBase.cs/#L174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>同步当前角色选择器是否启用状态</p>
@@ -677,7 +705,7 @@ public Character? SelectedChara { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.g.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.ConfirmAsync.g.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

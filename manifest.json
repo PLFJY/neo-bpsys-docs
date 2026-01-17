@@ -2388,6 +2388,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.Member.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.TeamJsonMaker.Member",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.TeamJsonMaker.Plugin.yml",
       "output": {
         ".html": {
@@ -2496,7 +2510,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.CharaDict\" data-throw-if-not-resolved=\"false\"></xref> 更新的行为<br>\n2.设置 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 同步 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件<br>\n3.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref> 将角色同步到前台的行为\n4.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncIsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 通过toggle button设置后同步状态到对应的 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 中 CanCurrentBannedList 的值的行为\n5.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect(System.Nullable%7bneo_bpsys_wpf.Core.Enums.GameAction%7d)\" data-throw-if-not-resolved=\"false\"></xref> 判断当前步骤引导的步骤是否符合当前控件的行为</p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.CharaDict\" data-throw-if-not-resolved=\"false\"></xref> 更新的行为<br>\n2.设置 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 同步 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件<br>\n3.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync\" data-throw-if-not-resolved=\"false\"></xref> 将角色同步到前台的行为\n4.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncIsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 通过toggle button设置后同步状态到对应的 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 中 CanCurrentBannedList 的值的行为\n5.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect(System.Nullable%7bneo_bpsys_wpf.Core.Enums.GameAction%7d)\" data-throw-if-not-resolved=\"false\"></xref> 判断当前步骤引导的步骤是否符合当前控件的行为\n6.在 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.OnCurrentGameChanged(System.Object%2cSystem.EventArgs)\" data-throw-if-not-resolved=\"false\"></xref> 中更新 preview 的 image</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2748,7 +2762,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.CharaDict\" data-throw-if-not-resolved=\"false\"></xref> 更新的行为<br>\n2.设置 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 同步 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件<br>\n3.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync\" data-throw-if-not-resolved=\"false\"></xref> 将角色同步到前台的行为\n4.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncIsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 通过toggle button设置后同步状态到对应的 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 中 CanCurrentBannedList 的值的行为\n5.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect(System.Nullable%7bneo_bpsys_wpf.Core.Enums.GameAction%7d)\" data-throw-if-not-resolved=\"false\"></xref> 判断当前步骤引导的步骤是否符合当前控件的行为</p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.yml\" sourcestartlinenumber=\"1\">用于选择角色的角色选择器行为的基类\n需要派生类所做的是: <br>\n1.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.CharaDict\" data-throw-if-not-resolved=\"false\"></xref> 更新的行为<br>\n2.设置 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 同步 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 的哪一个 CanCurrentBannedList 的值，通常需要搭配订阅 Ban 位数量变动的事件<br>\n3.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync\" data-throw-if-not-resolved=\"false\"></xref> 将角色同步到前台的行为\n4.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncIsEnabled\" data-throw-if-not-resolved=\"false\"></xref> 通过toggle button设置后同步状态到对应的 <xref href=\"neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService\" data-throw-if-not-resolved=\"false\"></xref> 中 CanCurrentBannedList 的值的行为\n5.实现 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.IsActionNameCorrect(System.Nullable%7bneo_bpsys_wpf.Core.Enums.GameAction%7d)\" data-throw-if-not-resolved=\"false\"></xref> 判断当前步骤引导的步骤是否符合当前控件的行为\n6.在 <xref href=\"neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.OnCurrentGameChanged(System.Object%2cSystem.EventArgs)\" data-throw-if-not-resolved=\"false\"></xref> 中更新 preview 的 image</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3242,6 +3256,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.DebugNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.DebugNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.DebugNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.yml\" sourcestartlinenumber=\"1\">DebugSharedDataWindow</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Views.Windows.GameDataWindow.yml",
       "output": {
         ".html": {
@@ -3448,6 +3490,16 @@
       "output": {
         "resource": {
           "relative_path": "docs/使用文档/images/对局引导_未开始.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/使用文档/images/意义不明文字.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/使用文档/images/意义不明文字.jpg"
         }
       },
       "version": ""

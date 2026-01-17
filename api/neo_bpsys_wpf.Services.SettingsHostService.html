@@ -237,10 +237,10 @@ Class SettingsHostService  <a class="header-action link-secondary" title="View s
 
 
 
-  <a id="neo_bpsys_wpf_Services_SettingsHostService_ResetConfig_" data-uid="neo_bpsys_wpf.Services.SettingsHostService.ResetConfig*"></a>
+  <a id="neo_bpsys_wpf_Services_SettingsHostService_ResetConfigAsync_" data-uid="neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_SettingsHostService_ResetConfig" data-uid="neo_bpsys_wpf.Services.SettingsHostService.ResetConfig">
-  ResetConfig()
+  <h3 id="neo_bpsys_wpf_Services_SettingsHostService_ResetConfigAsync" data-uid="neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync">
+  ResetConfigAsync()
   <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SettingsHostService.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -249,41 +249,14 @@ Class SettingsHostService  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ResetConfig()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task ResetConfigAsync()</code></pre>
   </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-  <a id="neo_bpsys_wpf_Services_SettingsHostService_ResetConfig_" data-uid="neo_bpsys_wpf.Services.SettingsHostService.ResetConfig*"></a>
-
-  <h3 id="neo_bpsys_wpf_Services_SettingsHostService_ResetConfig_neo_bpsys_wpf_Core_Enums_FrontedWindowType_" data-uid="neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontedWindowType)">
-  ResetConfig(FrontedWindowType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SettingsHostService.cs/#L140"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>重置指定窗口的设置</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ResetConfig(FrontedWindowType windowType)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
+  <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Core.Enums.FrontedWindowType.html">FrontedWindowType</a></dt>
-    <dd><p>窗口类型</p>
-</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -296,11 +269,48 @@ Class SettingsHostService  <a class="header-action link-secondary" title="View s
 
 
 
+  <a id="neo_bpsys_wpf_Services_SettingsHostService_ResetConfigAsync_" data-uid="neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync*"></a>
 
-  <a id="neo_bpsys_wpf_Services_SettingsHostService_SaveConfig_" data-uid="neo_bpsys_wpf.Services.SettingsHostService.SaveConfig*"></a>
+  <h3 id="neo_bpsys_wpf_Services_SettingsHostService_ResetConfigAsync_neo_bpsys_wpf_Core_Enums_FrontedWindowType_" data-uid="neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync(neo_bpsys_wpf.Core.Enums.FrontedWindowType)">
+  ResetConfigAsync(FrontedWindowType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SettingsHostService.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
 
-  <h3 id="neo_bpsys_wpf_Services_SettingsHostService_SaveConfig" data-uid="neo_bpsys_wpf.Services.SettingsHostService.SaveConfig">
-  SaveConfig()
+  <div class="markdown level1 summary"><p>重置指定窗口的设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ResetConfigAsync(FrontedWindowType windowType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="neo_bpsys_wpf.Core.Enums.FrontedWindowType.html">FrontedWindowType</a></dt>
+    <dd><p>窗口类型</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Services_SettingsHostService_SaveConfigAsync_" data-uid="neo_bpsys_wpf.Services.SettingsHostService.SaveConfigAsync*"></a>
+
+  <h3 id="neo_bpsys_wpf_Services_SettingsHostService_SaveConfigAsync" data-uid="neo_bpsys_wpf.Services.SettingsHostService.SaveConfigAsync">
+  SaveConfigAsync()
   <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/SettingsHostService.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -309,10 +319,15 @@ Class SettingsHostService  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SaveConfig()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task SaveConfigAsync()</code></pre>
   </div>
 
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

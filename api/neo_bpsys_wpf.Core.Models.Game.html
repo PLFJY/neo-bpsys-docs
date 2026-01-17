@@ -146,9 +146,9 @@ Class Game  <a class="header-action link-secondary" title="View source" href="ht
 
   <a id="neo_bpsys_wpf_Core_Models_Game__ctor_" data-uid="neo_bpsys_wpf.Core.Models.Game.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_Core_Models_Game__ctor_neo_bpsys_wpf_Core_Models_Team_neo_bpsys_wpf_Core_Models_Team_neo_bpsys_wpf_Core_Enums_GameProgress_System_Nullable_neo_bpsys_wpf_Core_Enums_Map__System_Nullable_neo_bpsys_wpf_Core_Enums_Map__System_Collections_Generic_Dictionary_System_String_neo_bpsys_wpf_Core_Models_MapV2__" data-uid="neo_bpsys_wpf.Core.Models.Game.#ctor(neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Enums.GameProgress,System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Core.Models.MapV2})">
-  Game(Team, Team, GameProgress, Map?, Map?, Dictionary&lt;string, MapV2&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Core_Models_Game__ctor_neo_bpsys_wpf_Core_Models_Team_neo_bpsys_wpf_Core_Models_Team_neo_bpsys_wpf_Core_Enums_GameProgress_System_Nullable_neo_bpsys_wpf_Core_Enums_Map__System_Nullable_neo_bpsys_wpf_Core_Enums_Map__System_Collections_Generic_Dictionary_System_String_neo_bpsys_wpf_Core_Models_MapV2__System_Guid_System_DateTime_System_Collections_ObjectModel_ObservableCollection_neo_bpsys_wpf_Core_Models_Player__neo_bpsys_wpf_Core_Models_Player_System_Collections_ObjectModel_ObservableCollection_neo_bpsys_wpf_Core_Models_Character__System_Collections_ObjectModel_ObservableCollection_neo_bpsys_wpf_Core_Models_Character__" data-uid="neo_bpsys_wpf.Core.Models.Game.#ctor(neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Enums.GameProgress,System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Core.Models.MapV2},System.Guid,System.DateTime,System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Player},neo_bpsys_wpf.Core.Models.Player,System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Character},System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Character})">
+  Game(Team, Team, GameProgress, Map?, Map?, Dictionary&lt;string, MapV2&gt;?, Guid, DateTime, ObservableCollection&lt;Player&gt;?, Player?, ObservableCollection&lt;Character?&gt;?, ObservableCollection&lt;Character?&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Game的构造函数</p>
@@ -156,7 +156,8 @@ Class Game  <a class="header-action link-secondary" title="View source" href="ht
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Game(Team surTeam, Team hunTeam, GameProgress gameProgress, Map? pickedMap = null, Map? bannedMap = null, Dictionary&lt;string, MapV2&gt;? mapV2Dictionary = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonConstructor]
+public Game(Team surTeam, Team hunTeam, GameProgress gameProgress, Map? pickedMap = null, Map? bannedMap = null, Dictionary&lt;string, MapV2&gt;? mapV2Dictionary = null, Guid guid = default, DateTime startTime = default, ObservableCollection&lt;Player&gt;? surPlayersData = null, Player? hunPlayerData = null, ObservableCollection&lt;Character?&gt;? currentSurBannedList = null, ObservableCollection&lt;Character?&gt;? currentHunBannedList = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -179,6 +180,24 @@ Class Game  <a class="header-action link-secondary" title="View source" href="ht
     <dt><code>mapV2Dictionary</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="neo_bpsys_wpf.Core.Models.MapV2.html">MapV2</a>&gt;</dt>
     <dd><p>地图V2字典</p>
 </dd>
+    <dt><code>guid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>对局GUID(用于恢复记录)</p>
+</dd>
+    <dt><code>startTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>对局开始时间(用于恢复记录)</p>
+</dd>
+    <dt><code>surPlayersData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Models.Player.html">Player</a>&gt;</dt>
+    <dd><p>求生者选手数据(用于恢复记录)</p>
+</dd>
+    <dt><code>hunPlayerData</code> <a class="xref" href="neo_bpsys_wpf.Core.Models.Player.html">Player</a></dt>
+    <dd><p>监管者选手数据(用于恢复记录)</p>
+</dd>
+    <dt><code>currentSurBannedList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>&gt;</dt>
+    <dd><p>求生者禁用列表(用于恢复记录)</p>
+</dd>
+    <dt><code>currentHunBannedList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>&gt;</dt>
+    <dd><p>监管者禁用列表(用于恢复记录)</p>
+</dd>
   </dl>
 
 
@@ -200,7 +219,7 @@ Class Game  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_BannedMap" data-uid="neo_bpsys_wpf.Core.Models.Game.BannedMap">
   BannedMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L225"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ban掉的地图 (V1)</p>
@@ -266,10 +285,11 @@ public ImageSource? BannedMapImage { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_CurrentHunBannedList" data-uid="neo_bpsys_wpf.Core.Models.Game.CurrentHunBannedList">
   CurrentHunBannedList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Game.g.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Game.g.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>当局监管者禁用列表</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -298,10 +318,11 @@ public ObservableCollection&lt;Character?&gt; CurrentHunBannedList { get; set; }
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_CurrentSurBannedList" data-uid="neo_bpsys_wpf.Core.Models.Game.CurrentSurBannedList">
   CurrentSurBannedList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Game.g.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/neo_bpsys_wpf.Core.Models.Game.g.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>当局求生者禁用列表</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -395,14 +416,15 @@ public GameProgress GameProgress { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_HunPlayer" data-uid="neo_bpsys_wpf.Core.Models.Game.HunPlayer">
   HunPlayer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L180"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Player HunPlayer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public Player HunPlayer { get; }</code></pre>
   </div>
 
 
@@ -458,7 +480,7 @@ public GameProgress GameProgress { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_MapV2Dictionary" data-uid="neo_bpsys_wpf.Core.Models.Game.MapV2Dictionary">
   MapV2Dictionary
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L257"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>地图V2字典</p>
@@ -490,7 +512,7 @@ public GameProgress GameProgress { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_PickedMap" data-uid="neo_bpsys_wpf.Core.Models.Game.PickedMap">
   PickedMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L208"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>选择的地图</p>
@@ -622,14 +644,15 @@ public ImageSource? PickedMapImageLarge { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_SurPlayerList" data-uid="neo_bpsys_wpf.Core.Models.Game.SurPlayerList">
   SurPlayerList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L176"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReadOnlyObservableCollection&lt;Player&gt; SurPlayerList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public ReadOnlyObservableCollection&lt;Player&gt; SurPlayerList { get; }</code></pre>
   </div>
 
 
@@ -689,7 +712,7 @@ public ImageSource? PickedMapImageLarge { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_PickMap_System_Nullable_neo_bpsys_wpf_Core_Enums_Map__neo_bpsys_wpf_Core_Models_Team_" data-uid="neo_bpsys_wpf.Core.Models.Game.PickMap(System.Nullable{neo_bpsys_wpf.Core.Enums.Map},neo_bpsys_wpf.Core.Models.Team)">
   PickMap(Map?, Team)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L265"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>选择地图</p>
@@ -731,7 +754,7 @@ public ImageSource? PickedMapImageLarge { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_ResetMapBp" data-uid="neo_bpsys_wpf.Core.Models.Game.ResetMapBp">
   ResetMapBp()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L293"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>重置地图BP</p>
@@ -758,7 +781,7 @@ public ImageSource? PickedMapImageLarge { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_Swap" data-uid="neo_bpsys_wpf.Core.Models.Game.Swap">
   Swap()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L312"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>换边</p>
@@ -785,7 +808,7 @@ public ImageSource? PickedMapImageLarge { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_SwapCharactersInPlayers_System_Int32_System_Int32_" data-uid="neo_bpsys_wpf.Core.Models.Game.SwapCharactersInPlayers(System.Int32,System.Int32)">
   SwapCharactersInPlayers(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L345"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>角色换位</p>
@@ -821,7 +844,7 @@ public ImageSource? PickedMapImageLarge { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_SwapMembersInPlayers_System_Int32_System_Int32_" data-uid="neo_bpsys_wpf.Core.Models.Game.SwapMembersInPlayers(System.Int32,System.Int32)">
   SwapMembersInPlayers(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L334"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>选手换位</p>
@@ -860,7 +883,7 @@ public ImageSource? PickedMapImageLarge { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Game_TeamSwapped" data-uid="neo_bpsys_wpf.Core.Models.Game.TeamSwapped">
   TeamSwapped
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Game.cs/#L323"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>换边事件</p>

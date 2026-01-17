@@ -823,19 +823,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.InitializeComponent
   nameWithType: HyperLinkSnackbarContent.InitializeComponent
-- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
-  name: NavigateUri
-  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NavigateUri
-  commentId: P:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
-  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
-  nameWithType: HyperLinkSnackbarContent.NavigateUri
-- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri*
-  name: NavigateUri
-  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NavigateUri_
-  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NavigateUri
-  nameWithType: HyperLinkSnackbarContent.NavigateUri
 - uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLogerDisplayedCommand
   name: NoLogerDisplayedCommand
   href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NoLogerDisplayedCommand
@@ -849,6 +836,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLogerDisplayedCommand
   nameWithType: HyperLinkSnackbarContent.NoLogerDisplayedCommand
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLongerDisplayText
+  name: NoLongerDisplayText
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NoLongerDisplayText
+  commentId: P:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLongerDisplayText
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLongerDisplayText
+  nameWithType: HyperLinkSnackbarContent.NoLongerDisplayText
+- uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLongerDisplayText*
+  name: NoLongerDisplayText
+  href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_NoLongerDisplayText_
+  commentId: Overload:neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLongerDisplayText
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.NoLongerDisplayText
+  nameWithType: HyperLinkSnackbarContent.NoLongerDisplayText
 - uid: neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.Text
   name: Text
   href: api/neo_bpsys_wpf.Controls.HyperLinkSnackbarContent.html#neo_bpsys_wpf_Controls_HyperLinkSnackbarContent_Text
@@ -3271,38 +3271,38 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.LoadConfig
   nameWithType: ISettingsHostService.LoadConfig
-- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig
-  name: ResetConfig()
-  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfig
-  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig
-  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig()
-  nameWithType: ISettingsHostService.ResetConfig()
-- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
-  name: ResetConfig(FrontedWindowType)
-  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfig_neo_bpsys_wpf_Core_Enums_FrontedWindowType_
-  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
-  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
-  nameWithType: ISettingsHostService.ResetConfig(FrontedWindowType)
-- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig*
-  name: ResetConfig
-  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfig_
-  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync
+  name: ResetConfigAsync()
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfigAsync
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync()
+  nameWithType: ISettingsHostService.ResetConfigAsync()
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
+  name: ResetConfigAsync(FrontedWindowType)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfigAsync_neo_bpsys_wpf_Core_Enums_FrontedWindowType_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
+  nameWithType: ISettingsHostService.ResetConfigAsync(FrontedWindowType)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync*
+  name: ResetConfigAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_ResetConfigAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfig
-  nameWithType: ISettingsHostService.ResetConfig
-- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfig
-  name: SaveConfig()
-  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_SaveConfig
-  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfig
-  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfig()
-  nameWithType: ISettingsHostService.SaveConfig()
-- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfig*
-  name: SaveConfig
-  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_SaveConfig_
-  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfig
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.ResetConfigAsync
+  nameWithType: ISettingsHostService.ResetConfigAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfigAsync
+  name: SaveConfigAsync()
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_SaveConfigAsync
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfigAsync
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfigAsync()
+  nameWithType: ISettingsHostService.SaveConfigAsync()
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfigAsync*
+  name: SaveConfigAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_SaveConfigAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfigAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfig
-  nameWithType: ISettingsHostService.SaveConfig
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.SaveConfigAsync
+  nameWithType: ISettingsHostService.SaveConfigAsync
 - uid: neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.Settings
   name: Settings
   href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_Settings
@@ -3443,6 +3443,19 @@ references:
   commentId: E:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.GlobalScoreTotalMarginChanged
   fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.GlobalScoreTotalMarginChanged
   nameWithType: ISharedDataService.GlobalScoreTotalMarginChanged
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.HomeTeam
+  name: HomeTeam
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_HomeTeam
+  commentId: P:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.HomeTeam
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.HomeTeam
+  nameWithType: ISharedDataService.HomeTeam
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.HomeTeam*
+  name: HomeTeam
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_HomeTeam_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.HomeTeam
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.HomeTeam
+  nameWithType: ISharedDataService.HomeTeam
 - uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.HunCharaDict
   name: HunCharaDict
   href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_HunCharaDict
@@ -3456,6 +3469,22 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.HunCharaDict
   nameWithType: ISharedDataService.HunCharaDict
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.ImportGameAsync(System.String)
+  name: ImportGameAsync(string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_ImportGameAsync_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.ImportGameAsync(System.String)
+  name.vb: ImportGameAsync(String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.ImportGameAsync(string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.ImportGameAsync(String)
+  nameWithType: ISharedDataService.ImportGameAsync(string)
+  nameWithType.vb: ISharedDataService.ImportGameAsync(String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.ImportGameAsync*
+  name: ImportGameAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_ImportGameAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.ImportGameAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.ImportGameAsync
+  nameWithType: ISharedDataService.ImportGameAsync
 - uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.IsBo3Mode
   name: IsBo3Mode
   href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_IsBo3Mode
@@ -3532,19 +3561,19 @@ references:
   commentId: E:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.IsTraitVisibleChanged
   fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.IsTraitVisibleChanged
   nameWithType: ISharedDataService.IsTraitVisibleChanged
-- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.MainTeam
-  name: MainTeam
-  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_MainTeam
-  commentId: P:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.MainTeam
-  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.MainTeam
-  nameWithType: ISharedDataService.MainTeam
-- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.MainTeam*
-  name: MainTeam
-  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_MainTeam_
-  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.MainTeam
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.NewGame
+  name: NewGame()
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_NewGame
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.NewGame
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.NewGame()
+  nameWithType: ISharedDataService.NewGame()
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.NewGame*
+  name: NewGame
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_NewGame_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.NewGame
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.MainTeam
-  nameWithType: ISharedDataService.MainTeam
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.NewGame
+  nameWithType: ISharedDataService.NewGame
 - uid: neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.RemainingSeconds
   name: RemainingSeconds
   href: api/neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html#neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_RemainingSeconds
@@ -6516,15 +6545,15 @@ references:
   commentId: T:neo_bpsys_wpf.Core.Models.Game
   fullName: neo_bpsys_wpf.Core.Models.Game
   nameWithType: Game
-- uid: neo_bpsys_wpf.Core.Models.Game.#ctor(neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Enums.GameProgress,System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Core.Models.MapV2})
-  name: Game(Team, Team, GameProgress, Map?, Map?, Dictionary<string, MapV2>?)
-  href: api/neo_bpsys_wpf.Core.Models.Game.html#neo_bpsys_wpf_Core_Models_Game__ctor_neo_bpsys_wpf_Core_Models_Team_neo_bpsys_wpf_Core_Models_Team_neo_bpsys_wpf_Core_Enums_GameProgress_System_Nullable_neo_bpsys_wpf_Core_Enums_Map__System_Nullable_neo_bpsys_wpf_Core_Enums_Map__System_Collections_Generic_Dictionary_System_String_neo_bpsys_wpf_Core_Models_MapV2__
-  commentId: M:neo_bpsys_wpf.Core.Models.Game.#ctor(neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Enums.GameProgress,System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Core.Models.MapV2})
-  name.vb: New(Team, Team, GameProgress, Map?, Map?, Dictionary(Of String, MapV2))
-  fullName: neo_bpsys_wpf.Core.Models.Game.Game(neo_bpsys_wpf.Core.Models.Team, neo_bpsys_wpf.Core.Models.Team, neo_bpsys_wpf.Core.Enums.GameProgress, neo_bpsys_wpf.Core.Enums.Map?, neo_bpsys_wpf.Core.Enums.Map?, System.Collections.Generic.Dictionary<string, neo_bpsys_wpf.Core.Models.MapV2>?)
-  fullName.vb: neo_bpsys_wpf.Core.Models.Game.New(neo_bpsys_wpf.Core.Models.Team, neo_bpsys_wpf.Core.Models.Team, neo_bpsys_wpf.Core.Enums.GameProgress, neo_bpsys_wpf.Core.Enums.Map?, neo_bpsys_wpf.Core.Enums.Map?, System.Collections.Generic.Dictionary(Of String, neo_bpsys_wpf.Core.Models.MapV2))
-  nameWithType: Game.Game(Team, Team, GameProgress, Map?, Map?, Dictionary<string, MapV2>?)
-  nameWithType.vb: Game.New(Team, Team, GameProgress, Map?, Map?, Dictionary(Of String, MapV2))
+- uid: neo_bpsys_wpf.Core.Models.Game.#ctor(neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Enums.GameProgress,System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Core.Models.MapV2},System.Guid,System.DateTime,System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Player},neo_bpsys_wpf.Core.Models.Player,System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Character},System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Character})
+  name: Game(Team, Team, GameProgress, Map?, Map?, Dictionary<string, MapV2>?, Guid, DateTime, ObservableCollection<Player>?, Player?, ObservableCollection<Character?>?, ObservableCollection<Character?>?)
+  href: api/neo_bpsys_wpf.Core.Models.Game.html#neo_bpsys_wpf_Core_Models_Game__ctor_neo_bpsys_wpf_Core_Models_Team_neo_bpsys_wpf_Core_Models_Team_neo_bpsys_wpf_Core_Enums_GameProgress_System_Nullable_neo_bpsys_wpf_Core_Enums_Map__System_Nullable_neo_bpsys_wpf_Core_Enums_Map__System_Collections_Generic_Dictionary_System_String_neo_bpsys_wpf_Core_Models_MapV2__System_Guid_System_DateTime_System_Collections_ObjectModel_ObservableCollection_neo_bpsys_wpf_Core_Models_Player__neo_bpsys_wpf_Core_Models_Player_System_Collections_ObjectModel_ObservableCollection_neo_bpsys_wpf_Core_Models_Character__System_Collections_ObjectModel_ObservableCollection_neo_bpsys_wpf_Core_Models_Character__
+  commentId: M:neo_bpsys_wpf.Core.Models.Game.#ctor(neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Models.Team,neo_bpsys_wpf.Core.Enums.GameProgress,System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Nullable{neo_bpsys_wpf.Core.Enums.Map},System.Collections.Generic.Dictionary{System.String,neo_bpsys_wpf.Core.Models.MapV2},System.Guid,System.DateTime,System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Player},neo_bpsys_wpf.Core.Models.Player,System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Character},System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Character})
+  name.vb: New(Team, Team, GameProgress, Map?, Map?, Dictionary(Of String, MapV2), Guid, Date, ObservableCollection(Of Player), Player, ObservableCollection(Of Character), ObservableCollection(Of Character))
+  fullName: neo_bpsys_wpf.Core.Models.Game.Game(neo_bpsys_wpf.Core.Models.Team, neo_bpsys_wpf.Core.Models.Team, neo_bpsys_wpf.Core.Enums.GameProgress, neo_bpsys_wpf.Core.Enums.Map?, neo_bpsys_wpf.Core.Enums.Map?, System.Collections.Generic.Dictionary<string, neo_bpsys_wpf.Core.Models.MapV2>?, System.Guid, System.DateTime, System.Collections.ObjectModel.ObservableCollection<neo_bpsys_wpf.Core.Models.Player>?, neo_bpsys_wpf.Core.Models.Player?, System.Collections.ObjectModel.ObservableCollection<neo_bpsys_wpf.Core.Models.Character?>?, System.Collections.ObjectModel.ObservableCollection<neo_bpsys_wpf.Core.Models.Character?>?)
+  fullName.vb: neo_bpsys_wpf.Core.Models.Game.New(neo_bpsys_wpf.Core.Models.Team, neo_bpsys_wpf.Core.Models.Team, neo_bpsys_wpf.Core.Enums.GameProgress, neo_bpsys_wpf.Core.Enums.Map?, neo_bpsys_wpf.Core.Enums.Map?, System.Collections.Generic.Dictionary(Of String, neo_bpsys_wpf.Core.Models.MapV2), System.Guid, Date, System.Collections.ObjectModel.ObservableCollection(Of neo_bpsys_wpf.Core.Models.Player), neo_bpsys_wpf.Core.Models.Player, System.Collections.ObjectModel.ObservableCollection(Of neo_bpsys_wpf.Core.Models.Character), System.Collections.ObjectModel.ObservableCollection(Of neo_bpsys_wpf.Core.Models.Character))
+  nameWithType: Game.Game(Team, Team, GameProgress, Map?, Map?, Dictionary<string, MapV2>?, Guid, DateTime, ObservableCollection<Player>?, Player?, ObservableCollection<Character?>?, ObservableCollection<Character?>?)
+  nameWithType.vb: Game.New(Team, Team, GameProgress, Map?, Map?, Dictionary(Of String, MapV2), Guid, Date, ObservableCollection(Of Player), Player, ObservableCollection(Of Character), ObservableCollection(Of Character))
 - uid: neo_bpsys_wpf.Core.Models.Game.#ctor*
   name: Game
   href: api/neo_bpsys_wpf.Core.Models.Game.html#neo_bpsys_wpf_Core_Models_Game__ctor_
@@ -8412,19 +8441,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.Settings.ScoreWindowSettings
   nameWithType: Settings.ScoreWindowSettings
-- uid: neo_bpsys_wpf.Core.Models.Settings.ShowTip
-  name: ShowTip
-  href: api/neo_bpsys_wpf.Core.Models.Settings.html#neo_bpsys_wpf_Core_Models_Settings_ShowTip
-  commentId: P:neo_bpsys_wpf.Core.Models.Settings.ShowTip
-  fullName: neo_bpsys_wpf.Core.Models.Settings.ShowTip
-  nameWithType: Settings.ShowTip
-- uid: neo_bpsys_wpf.Core.Models.Settings.ShowTip*
-  name: ShowTip
-  href: api/neo_bpsys_wpf.Core.Models.Settings.html#neo_bpsys_wpf_Core_Models_Settings_ShowTip_
-  commentId: Overload:neo_bpsys_wpf.Core.Models.Settings.ShowTip
+- uid: neo_bpsys_wpf.Core.Models.Settings.ShowAfterUpdateTip
+  name: ShowAfterUpdateTip
+  href: api/neo_bpsys_wpf.Core.Models.Settings.html#neo_bpsys_wpf_Core_Models_Settings_ShowAfterUpdateTip
+  commentId: P:neo_bpsys_wpf.Core.Models.Settings.ShowAfterUpdateTip
+  fullName: neo_bpsys_wpf.Core.Models.Settings.ShowAfterUpdateTip
+  nameWithType: Settings.ShowAfterUpdateTip
+- uid: neo_bpsys_wpf.Core.Models.Settings.ShowAfterUpdateTip*
+  name: ShowAfterUpdateTip
+  href: api/neo_bpsys_wpf.Core.Models.Settings.html#neo_bpsys_wpf_Core_Models_Settings_ShowAfterUpdateTip_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.Settings.ShowAfterUpdateTip
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Models.Settings.ShowTip
-  nameWithType: Settings.ShowTip
+  fullName: neo_bpsys_wpf.Core.Models.Settings.ShowAfterUpdateTip
+  nameWithType: Settings.ShowAfterUpdateTip
 - uid: neo_bpsys_wpf.Core.Models.Settings.WidgetsWindowSettings
   name: WidgetsWindowSettings
   href: api/neo_bpsys_wpf.Core.Models.Settings.html#neo_bpsys_wpf_Core_Models_Settings_WidgetsWindowSettings
@@ -8554,15 +8583,6 @@ references:
   commentId: T:neo_bpsys_wpf.Core.Models.Team
   fullName: neo_bpsys_wpf.Core.Models.Team
   nameWithType: Team
-- uid: neo_bpsys_wpf.Core.Models.Team.#ctor(System.String,System.String,System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Member},System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Member})
-  name: Team(string, string, ObservableCollection<Member>, ObservableCollection<Member>)
-  href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team__ctor_System_String_System_String_System_Collections_ObjectModel_ObservableCollection_neo_bpsys_wpf_Core_Models_Member__System_Collections_ObjectModel_ObservableCollection_neo_bpsys_wpf_Core_Models_Member__
-  commentId: M:neo_bpsys_wpf.Core.Models.Team.#ctor(System.String,System.String,System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Member},System.Collections.ObjectModel.ObservableCollection{neo_bpsys_wpf.Core.Models.Member})
-  name.vb: New(String, String, ObservableCollection(Of Member), ObservableCollection(Of Member))
-  fullName: neo_bpsys_wpf.Core.Models.Team.Team(string, string, System.Collections.ObjectModel.ObservableCollection<neo_bpsys_wpf.Core.Models.Member>, System.Collections.ObjectModel.ObservableCollection<neo_bpsys_wpf.Core.Models.Member>)
-  fullName.vb: neo_bpsys_wpf.Core.Models.Team.New(String, String, System.Collections.ObjectModel.ObservableCollection(Of neo_bpsys_wpf.Core.Models.Member), System.Collections.ObjectModel.ObservableCollection(Of neo_bpsys_wpf.Core.Models.Member))
-  nameWithType: Team.Team(string, string, ObservableCollection<Member>, ObservableCollection<Member>)
-  nameWithType.vb: Team.New(String, String, ObservableCollection(Of Member), ObservableCollection(Of Member))
 - uid: neo_bpsys_wpf.Core.Models.Team.#ctor(neo_bpsys_wpf.Core.Enums.Camp,neo_bpsys_wpf.Core.Enums.TeamType)
   name: Team(Camp, TeamType)
   href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team__ctor_neo_bpsys_wpf_Core_Enums_Camp_neo_bpsys_wpf_Core_Enums_TeamType_
@@ -9922,6 +9942,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.AddPlayer
   nameWithType: Lang.AddPlayer
+- uid: neo_bpsys_wpf.Locales.Lang.AfterUpdateTip
+  name: AfterUpdateTip
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AfterUpdateTip
+  commentId: P:neo_bpsys_wpf.Locales.Lang.AfterUpdateTip
+  fullName: neo_bpsys_wpf.Locales.Lang.AfterUpdateTip
+  nameWithType: Lang.AfterUpdateTip
+- uid: neo_bpsys_wpf.Locales.Lang.AfterUpdateTip*
+  name: AfterUpdateTip
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AfterUpdateTip_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.AfterUpdateTip
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.AfterUpdateTip
+  nameWithType: Lang.AfterUpdateTip
 - uid: neo_bpsys_wpf.Locales.Lang.AllFrontendWindows
   name: AllFrontendWindows
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AllFrontendWindows
@@ -10403,6 +10436,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.Blink
   nameWithType: Lang.Blink
+- uid: neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
+  name: BuiltInPluginCannotBeUninstalled
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_BuiltInPluginCannotBeUninstalled
+  commentId: P:neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
+  fullName: neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
+  nameWithType: Lang.BuiltInPluginCannotBeUninstalled
+- uid: neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled*
+  name: BuiltInPluginCannotBeUninstalled
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_BuiltInPluginCannotBeUninstalled_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
+  nameWithType: Lang.BuiltInPluginCannotBeUninstalled
 - uid: neo_bpsys_wpf.Locales.Lang.CampIconColorInScoreStatistics
   name: CampIconColorInScoreStatistics
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_CampIconColorInScoreStatistics
@@ -11183,19 +11229,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.Documentations
   nameWithType: Lang.Documentations
-- uid: neo_bpsys_wpf.Locales.Lang.DontShowThisAgain
-  name: DontShowThisAgain
-  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_DontShowThisAgain
-  commentId: P:neo_bpsys_wpf.Locales.Lang.DontShowThisAgain
-  fullName: neo_bpsys_wpf.Locales.Lang.DontShowThisAgain
-  nameWithType: Lang.DontShowThisAgain
-- uid: neo_bpsys_wpf.Locales.Lang.DontShowThisAgain*
-  name: DontShowThisAgain
-  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_DontShowThisAgain_
-  commentId: Overload:neo_bpsys_wpf.Locales.Lang.DontShowThisAgain
+- uid: neo_bpsys_wpf.Locales.Lang.DontRemindMeAgainUntilTheNextUpdate
+  name: DontRemindMeAgainUntilTheNextUpdate
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_DontRemindMeAgainUntilTheNextUpdate
+  commentId: P:neo_bpsys_wpf.Locales.Lang.DontRemindMeAgainUntilTheNextUpdate
+  fullName: neo_bpsys_wpf.Locales.Lang.DontRemindMeAgainUntilTheNextUpdate
+  nameWithType: Lang.DontRemindMeAgainUntilTheNextUpdate
+- uid: neo_bpsys_wpf.Locales.Lang.DontRemindMeAgainUntilTheNextUpdate*
+  name: DontRemindMeAgainUntilTheNextUpdate
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_DontRemindMeAgainUntilTheNextUpdate_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.DontRemindMeAgainUntilTheNextUpdate
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Locales.Lang.DontShowThisAgain
-  nameWithType: Lang.DontShowThisAgain
+  fullName: neo_bpsys_wpf.Locales.Lang.DontRemindMeAgainUntilTheNextUpdate
+  nameWithType: Lang.DontRemindMeAgainUntilTheNextUpdate
 - uid: neo_bpsys_wpf.Locales.Lang.DownloadFailed
   name: DownloadFailed
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_DownloadFailed
@@ -12535,6 +12581,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.ImageMaybeDamagedOrUnsupported
   nameWithType: Lang.ImageMaybeDamagedOrUnsupported
+- uid: neo_bpsys_wpf.Locales.Lang.ImportFailed
+  name: ImportFailed
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportFailed
+  commentId: P:neo_bpsys_wpf.Locales.Lang.ImportFailed
+  fullName: neo_bpsys_wpf.Locales.Lang.ImportFailed
+  nameWithType: Lang.ImportFailed
+- uid: neo_bpsys_wpf.Locales.Lang.ImportFailed*
+  name: ImportFailed
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportFailed_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.ImportFailed
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.ImportFailed
+  nameWithType: Lang.ImportFailed
 - uid: neo_bpsys_wpf.Locales.Lang.ImportFromJsonFile
   name: ImportFromJsonFile
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportFromJsonFile
@@ -12548,6 +12607,45 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.ImportFromJsonFile
   nameWithType: Lang.ImportFromJsonFile
+- uid: neo_bpsys_wpf.Locales.Lang.ImportGameInformation
+  name: ImportGameInformation
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportGameInformation
+  commentId: P:neo_bpsys_wpf.Locales.Lang.ImportGameInformation
+  fullName: neo_bpsys_wpf.Locales.Lang.ImportGameInformation
+  nameWithType: Lang.ImportGameInformation
+- uid: neo_bpsys_wpf.Locales.Lang.ImportGameInformation*
+  name: ImportGameInformation
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportGameInformation_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.ImportGameInformation
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.ImportGameInformation
+  nameWithType: Lang.ImportGameInformation
+- uid: neo_bpsys_wpf.Locales.Lang.ImportInfo
+  name: ImportInfo
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportInfo
+  commentId: P:neo_bpsys_wpf.Locales.Lang.ImportInfo
+  fullName: neo_bpsys_wpf.Locales.Lang.ImportInfo
+  nameWithType: Lang.ImportInfo
+- uid: neo_bpsys_wpf.Locales.Lang.ImportInfo*
+  name: ImportInfo
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportInfo_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.ImportInfo
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.ImportInfo
+  nameWithType: Lang.ImportInfo
+- uid: neo_bpsys_wpf.Locales.Lang.ImportSuccessfullyFrom
+  name: ImportSuccessfullyFrom
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportSuccessfullyFrom
+  commentId: P:neo_bpsys_wpf.Locales.Lang.ImportSuccessfullyFrom
+  fullName: neo_bpsys_wpf.Locales.Lang.ImportSuccessfullyFrom
+  nameWithType: Lang.ImportSuccessfullyFrom
+- uid: neo_bpsys_wpf.Locales.Lang.ImportSuccessfullyFrom*
+  name: ImportSuccessfullyFrom
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportSuccessfullyFrom_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.ImportSuccessfullyFrom
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.ImportSuccessfullyFrom
+  nameWithType: Lang.ImportSuccessfullyFrom
 - uid: neo_bpsys_wpf.Locales.Lang.ImportUIConfig
   name: ImportUIConfig
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ImportUIConfig
@@ -13042,19 +13140,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.No
   nameWithType: Lang.No
-- uid: neo_bpsys_wpf.Locales.Lang.NoAuthorUiInfo
-  name: NoAuthorUiInfo
-  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_NoAuthorUiInfo
-  commentId: P:neo_bpsys_wpf.Locales.Lang.NoAuthorUiInfo
-  fullName: neo_bpsys_wpf.Locales.Lang.NoAuthorUiInfo
-  nameWithType: Lang.NoAuthorUiInfo
-- uid: neo_bpsys_wpf.Locales.Lang.NoAuthorUiInfo*
-  name: NoAuthorUiInfo
-  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_NoAuthorUiInfo_
-  commentId: Overload:neo_bpsys_wpf.Locales.Lang.NoAuthorUiInfo
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Locales.Lang.NoAuthorUiInfo
-  nameWithType: Lang.NoAuthorUiInfo
 - uid: neo_bpsys_wpf.Locales.Lang.NoBans
   name: NoBans
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_NoBans
@@ -13562,6 +13647,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.Plugins
   nameWithType: Lang.Plugins
+- uid: neo_bpsys_wpf.Locales.Lang.PluginsThirdPartyWarning
+  name: PluginsThirdPartyWarning
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_PluginsThirdPartyWarning
+  commentId: P:neo_bpsys_wpf.Locales.Lang.PluginsThirdPartyWarning
+  fullName: neo_bpsys_wpf.Locales.Lang.PluginsThirdPartyWarning
+  nameWithType: Lang.PluginsThirdPartyWarning
+- uid: neo_bpsys_wpf.Locales.Lang.PluginsThirdPartyWarning*
+  name: PluginsThirdPartyWarning
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_PluginsThirdPartyWarning_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.PluginsThirdPartyWarning
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.PluginsThirdPartyWarning
+  nameWithType: Lang.PluginsThirdPartyWarning
 - uid: neo_bpsys_wpf.Locales.Lang.PreviewColon
   name: PreviewColon
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_PreviewColon
@@ -15964,38 +16062,38 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.SettingsHostService.LoadConfig
   nameWithType: SettingsHostService.LoadConfig
-- uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig
-  name: ResetConfig()
-  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfig
-  commentId: M:neo_bpsys_wpf.Services.SettingsHostService.ResetConfig
-  fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig()
-  nameWithType: SettingsHostService.ResetConfig()
-- uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
-  name: ResetConfig(FrontedWindowType)
-  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfig_neo_bpsys_wpf_Core_Enums_FrontedWindowType_
-  commentId: M:neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
-  fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
-  nameWithType: SettingsHostService.ResetConfig(FrontedWindowType)
-- uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig*
-  name: ResetConfig
-  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfig_
-  commentId: Overload:neo_bpsys_wpf.Services.SettingsHostService.ResetConfig
+- uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync
+  name: ResetConfigAsync()
+  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfigAsync
+  commentId: M:neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync
+  fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync()
+  nameWithType: SettingsHostService.ResetConfigAsync()
+- uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
+  name: ResetConfigAsync(FrontedWindowType)
+  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfigAsync_neo_bpsys_wpf_Core_Enums_FrontedWindowType_
+  commentId: M:neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
+  fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync(neo_bpsys_wpf.Core.Enums.FrontedWindowType)
+  nameWithType: SettingsHostService.ResetConfigAsync(FrontedWindowType)
+- uid: neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync*
+  name: ResetConfigAsync
+  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_ResetConfigAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfig
-  nameWithType: SettingsHostService.ResetConfig
-- uid: neo_bpsys_wpf.Services.SettingsHostService.SaveConfig
-  name: SaveConfig()
-  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_SaveConfig
-  commentId: M:neo_bpsys_wpf.Services.SettingsHostService.SaveConfig
-  fullName: neo_bpsys_wpf.Services.SettingsHostService.SaveConfig()
-  nameWithType: SettingsHostService.SaveConfig()
-- uid: neo_bpsys_wpf.Services.SettingsHostService.SaveConfig*
-  name: SaveConfig
-  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_SaveConfig_
-  commentId: Overload:neo_bpsys_wpf.Services.SettingsHostService.SaveConfig
+  fullName: neo_bpsys_wpf.Services.SettingsHostService.ResetConfigAsync
+  nameWithType: SettingsHostService.ResetConfigAsync
+- uid: neo_bpsys_wpf.Services.SettingsHostService.SaveConfigAsync
+  name: SaveConfigAsync()
+  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_SaveConfigAsync
+  commentId: M:neo_bpsys_wpf.Services.SettingsHostService.SaveConfigAsync
+  fullName: neo_bpsys_wpf.Services.SettingsHostService.SaveConfigAsync()
+  nameWithType: SettingsHostService.SaveConfigAsync()
+- uid: neo_bpsys_wpf.Services.SettingsHostService.SaveConfigAsync*
+  name: SaveConfigAsync
+  href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_SaveConfigAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.SettingsHostService.SaveConfigAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Services.SettingsHostService.SaveConfig
-  nameWithType: SettingsHostService.SaveConfig
+  fullName: neo_bpsys_wpf.Services.SettingsHostService.SaveConfigAsync
+  nameWithType: SettingsHostService.SaveConfigAsync
 - uid: neo_bpsys_wpf.Services.SettingsHostService.Settings
   name: Settings
   href: api/neo_bpsys_wpf.Services.SettingsHostService.html#neo_bpsys_wpf_Services_SettingsHostService_Settings
@@ -16155,6 +16253,19 @@ references:
   commentId: E:neo_bpsys_wpf.Services.SharedDataService.GlobalScoreTotalMarginChanged
   fullName: neo_bpsys_wpf.Services.SharedDataService.GlobalScoreTotalMarginChanged
   nameWithType: SharedDataService.GlobalScoreTotalMarginChanged
+- uid: neo_bpsys_wpf.Services.SharedDataService.HomeTeam
+  name: HomeTeam
+  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_HomeTeam
+  commentId: P:neo_bpsys_wpf.Services.SharedDataService.HomeTeam
+  fullName: neo_bpsys_wpf.Services.SharedDataService.HomeTeam
+  nameWithType: SharedDataService.HomeTeam
+- uid: neo_bpsys_wpf.Services.SharedDataService.HomeTeam*
+  name: HomeTeam
+  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_HomeTeam_
+  commentId: Overload:neo_bpsys_wpf.Services.SharedDataService.HomeTeam
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.SharedDataService.HomeTeam
+  nameWithType: SharedDataService.HomeTeam
 - uid: neo_bpsys_wpf.Services.SharedDataService.HunCharaDict
   name: HunCharaDict
   href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_HunCharaDict
@@ -16168,6 +16279,22 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.SharedDataService.HunCharaDict
   nameWithType: SharedDataService.HunCharaDict
+- uid: neo_bpsys_wpf.Services.SharedDataService.ImportGameAsync(System.String)
+  name: ImportGameAsync(string)
+  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_ImportGameAsync_System_String_
+  commentId: M:neo_bpsys_wpf.Services.SharedDataService.ImportGameAsync(System.String)
+  name.vb: ImportGameAsync(String)
+  fullName: neo_bpsys_wpf.Services.SharedDataService.ImportGameAsync(string)
+  fullName.vb: neo_bpsys_wpf.Services.SharedDataService.ImportGameAsync(String)
+  nameWithType: SharedDataService.ImportGameAsync(string)
+  nameWithType.vb: SharedDataService.ImportGameAsync(String)
+- uid: neo_bpsys_wpf.Services.SharedDataService.ImportGameAsync*
+  name: ImportGameAsync
+  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_ImportGameAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.SharedDataService.ImportGameAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.SharedDataService.ImportGameAsync
+  nameWithType: SharedDataService.ImportGameAsync
 - uid: neo_bpsys_wpf.Services.SharedDataService.IsBo3Mode
   name: IsBo3Mode
   href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_IsBo3Mode
@@ -16244,19 +16371,19 @@ references:
   commentId: E:neo_bpsys_wpf.Services.SharedDataService.IsTraitVisibleChanged
   fullName: neo_bpsys_wpf.Services.SharedDataService.IsTraitVisibleChanged
   nameWithType: SharedDataService.IsTraitVisibleChanged
-- uid: neo_bpsys_wpf.Services.SharedDataService.MainTeam
-  name: MainTeam
-  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_MainTeam
-  commentId: P:neo_bpsys_wpf.Services.SharedDataService.MainTeam
-  fullName: neo_bpsys_wpf.Services.SharedDataService.MainTeam
-  nameWithType: SharedDataService.MainTeam
-- uid: neo_bpsys_wpf.Services.SharedDataService.MainTeam*
-  name: MainTeam
-  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_MainTeam_
-  commentId: Overload:neo_bpsys_wpf.Services.SharedDataService.MainTeam
+- uid: neo_bpsys_wpf.Services.SharedDataService.NewGame
+  name: NewGame()
+  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_NewGame
+  commentId: M:neo_bpsys_wpf.Services.SharedDataService.NewGame
+  fullName: neo_bpsys_wpf.Services.SharedDataService.NewGame()
+  nameWithType: SharedDataService.NewGame()
+- uid: neo_bpsys_wpf.Services.SharedDataService.NewGame*
+  name: NewGame
+  href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_NewGame_
+  commentId: Overload:neo_bpsys_wpf.Services.SharedDataService.NewGame
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Services.SharedDataService.MainTeam
-  nameWithType: SharedDataService.MainTeam
+  fullName: neo_bpsys_wpf.Services.SharedDataService.NewGame
+  nameWithType: SharedDataService.NewGame
 - uid: neo_bpsys_wpf.Services.SharedDataService.RemainingSeconds
   name: RemainingSeconds
   href: api/neo_bpsys_wpf.Services.SharedDataService.html#neo_bpsys_wpf_Services_SharedDataService_RemainingSeconds
@@ -16449,15 +16576,15 @@ references:
   commentId: T:neo_bpsys_wpf.Services.UpdaterService
   fullName: neo_bpsys_wpf.Services.UpdaterService
   nameWithType: UpdaterService
-- uid: neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.UpdaterService})
-  name: UpdaterService(IInfoBarService, ILogger<UpdaterService>)
-  href: api/neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Services_UpdaterService__
-  commentId: M:neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.UpdaterService})
-  name.vb: New(IInfoBarService, ILogger(Of UpdaterService))
-  fullName: neo_bpsys_wpf.Services.UpdaterService.UpdaterService(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Services.UpdaterService>)
-  fullName.vb: neo_bpsys_wpf.Services.UpdaterService.New(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Services.UpdaterService))
-  nameWithType: UpdaterService.UpdaterService(IInfoBarService, ILogger<UpdaterService>)
-  nameWithType.vb: UpdaterService.New(IInfoBarService, ILogger(Of UpdaterService))
+- uid: neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.UpdaterService},neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)
+  name: UpdaterService(IInfoBarService, ILogger<UpdaterService>, ISettingsHostService)
+  href: api/neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Services_UpdaterService__neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.UpdaterService},neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)
+  name.vb: New(IInfoBarService, ILogger(Of UpdaterService), ISettingsHostService)
+  fullName: neo_bpsys_wpf.Services.UpdaterService.UpdaterService(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.Services.UpdaterService>, neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.Services.UpdaterService.New(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.Services.UpdaterService), neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)
+  nameWithType: UpdaterService.UpdaterService(IInfoBarService, ILogger<UpdaterService>, ISettingsHostService)
+  nameWithType.vb: UpdaterService.New(IInfoBarService, ILogger(Of UpdaterService), ISettingsHostService)
 - uid: neo_bpsys_wpf.Services.UpdaterService.#ctor*
   name: UpdaterService
   href: api/neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService__ctor_
@@ -16571,6 +16698,70 @@ references:
   commentId: N:neo_bpsys_wpf.TeamJsonMaker
   fullName: neo_bpsys_wpf.TeamJsonMaker
   nameWithType: neo_bpsys_wpf.TeamJsonMaker
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member
+  name: Member
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html
+  commentId: T:neo_bpsys_wpf.TeamJsonMaker.Member
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member
+  nameWithType: Member
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member.#ctor(neo_bpsys_wpf.Core.Enums.Camp)
+  name: Member(Camp)
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html#neo_bpsys_wpf_TeamJsonMaker_Member__ctor_neo_bpsys_wpf_Core_Enums_Camp_
+  commentId: M:neo_bpsys_wpf.TeamJsonMaker.Member.#ctor(neo_bpsys_wpf.Core.Enums.Camp)
+  name.vb: New(Camp)
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member.Member(neo_bpsys_wpf.Core.Enums.Camp)
+  fullName.vb: neo_bpsys_wpf.TeamJsonMaker.Member.New(neo_bpsys_wpf.Core.Enums.Camp)
+  nameWithType: Member.Member(Camp)
+  nameWithType.vb: Member.New(Camp)
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member.#ctor*
+  name: Member
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html#neo_bpsys_wpf_TeamJsonMaker_Member__ctor_
+  commentId: Overload:neo_bpsys_wpf.TeamJsonMaker.Member.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member.Member
+  fullName.vb: neo_bpsys_wpf.TeamJsonMaker.Member.New
+  nameWithType: Member.Member
+  nameWithType.vb: Member.New
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member.Camp
+  name: Camp
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html#neo_bpsys_wpf_TeamJsonMaker_Member_Camp
+  commentId: P:neo_bpsys_wpf.TeamJsonMaker.Member.Camp
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member.Camp
+  nameWithType: Member.Camp
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member.Camp*
+  name: Camp
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html#neo_bpsys_wpf_TeamJsonMaker_Member_Camp_
+  commentId: Overload:neo_bpsys_wpf.TeamJsonMaker.Member.Camp
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member.Camp
+  nameWithType: Member.Camp
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member.ImageUri
+  name: ImageUri
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html#neo_bpsys_wpf_TeamJsonMaker_Member_ImageUri
+  commentId: P:neo_bpsys_wpf.TeamJsonMaker.Member.ImageUri
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member.ImageUri
+  nameWithType: Member.ImageUri
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member.ImageUri*
+  name: ImageUri
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html#neo_bpsys_wpf_TeamJsonMaker_Member_ImageUri_
+  commentId: Overload:neo_bpsys_wpf.TeamJsonMaker.Member.ImageUri
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member.ImageUri
+  nameWithType: Member.ImageUri
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member.Name
+  name: Name
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html#neo_bpsys_wpf_TeamJsonMaker_Member_Name
+  commentId: P:neo_bpsys_wpf.TeamJsonMaker.Member.Name
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member.Name
+  nameWithType: Member.Name
+- uid: neo_bpsys_wpf.TeamJsonMaker.Member.Name*
+  name: Name
+  href: api/neo_bpsys_wpf.TeamJsonMaker.Member.html#neo_bpsys_wpf_TeamJsonMaker_Member_Name_
+  commentId: Overload:neo_bpsys_wpf.TeamJsonMaker.Member.Name
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.TeamJsonMaker.Member.Name
+  nameWithType: Member.Name
 - uid: neo_bpsys_wpf.TeamJsonMaker.Plugin
   name: Plugin
   href: api/neo_bpsys_wpf.TeamJsonMaker.Plugin.html
@@ -17006,19 +17197,32 @@ references:
   commentId: F:neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SharedDataService
   fullName: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SharedDataService
   nameWithType: CharaSelectViewModelBase.SharedDataService
-- uid: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync()
-  nameWithType: CharaSelectViewModelBase.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaFromSourceAsync()
+  nameWithType: CharaSelectViewModelBase.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaAsync
-  nameWithType: CharaSelectViewModelBase.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaFromSourceAsync
+  nameWithType: CharaSelectViewModelBase.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync()
+  nameWithType: CharaSelectViewModelBase.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncCharaToSourceAsync
+  nameWithType: CharaSelectViewModelBase.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SyncIsEnabled
@@ -17110,19 +17314,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.IsActionNameCorrect
   nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.IsActionNameCorrect
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync()
-  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaFromSourceAsync()
+  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
-  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaFromSourceAsync
+  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaToSourceAsync()
+  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaToSourceAsync
+  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel_SyncIsEnabled
@@ -17187,19 +17404,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.IsActionNameCorrect
   nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.IsActionNameCorrect
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync()
-  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaFromSourceAsync()
+  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
-  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaFromSourceAsync
+  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaToSourceAsync()
+  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaToSourceAsync
+  nameWithType: BanHunPageViewModel.BanHunGlobalViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunGlobalViewModel_SyncIsEnabled
@@ -17311,19 +17541,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.IsActionNameCorrect
   nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.IsActionNameCorrect
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync()
-  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync()
+  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
-  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync
+  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync()
+  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync
+  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncIsEnabled
@@ -17388,19 +17631,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.IsActionNameCorrect
   nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.IsActionNameCorrect
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync()
-  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaFromSourceAsync()
+  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
-  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaFromSourceAsync
+  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaToSourceAsync()
+  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaToSourceAsync
+  nameWithType: BanSurPageViewModel.BanSurGlobalViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurGlobalViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurGlobalViewModel_SyncIsEnabled
@@ -18170,19 +18426,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.RecordedChara
   nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync()
-  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
-  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  nameWithType: PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwayHunGlobalBanRecordViewModel_SyncIsEnabled
@@ -18260,19 +18529,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.RecordedChara
   nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync()
-  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
-  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  nameWithType: PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwaySurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_AwaySurGlobalBanRecordViewModel_SyncIsEnabled
@@ -18350,19 +18632,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.IsActionNameCorrect
   nameWithType: PickPageViewModel.HunPickViewModel.IsActionNameCorrect
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync()
-  nameWithType: PickPageViewModel.HunPickViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync()
+  nameWithType: PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaAsync
-  nameWithType: PickPageViewModel.HunPickViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync
+  nameWithType: PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync()
+  nameWithType: PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync
+  nameWithType: PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncIsEnabled
@@ -18453,19 +18748,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
   nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync()
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncIsEnabled
@@ -18543,19 +18851,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
   nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync()
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncIsEnabled
@@ -18672,19 +18993,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SwapCharacterInPlayersCommand
   nameWithType: PickPageViewModel.SurPickViewModel.SwapCharacterInPlayersCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync
-  name: SyncCharaAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync()
-  nameWithType: PickPageViewModel.SurPickViewModel.SyncCharaAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync*
-  name: SyncCharaAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaFromSourceAsync()
+  nameWithType: PickPageViewModel.SurPickViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaFromSourceAsync
   isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaAsync
-  nameWithType: PickPageViewModel.SurPickViewModel.SyncCharaAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaFromSourceAsync
+  nameWithType: PickPageViewModel.SurPickViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaToSourceAsync()
+  nameWithType: PickPageViewModel.SurPickViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncCharaToSourceAsync
+  nameWithType: PickPageViewModel.SurPickViewModel.SyncCharaToSourceAsync
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SyncIsEnabled
   name: SyncIsEnabled()
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel_SyncIsEnabled
@@ -20878,15 +21212,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New()
   nameWithType: MainWindowViewModel.MainWindowViewModel()
   nameWithType.vb: MainWindowViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
-  name: MainWindowViewModel(ISharedDataService, IGameGuidanceService, IInfoBarService, ILogger<MainWindowViewModel>)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IGameGuidanceService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
-  name.vb: New(ISharedDataService, IGameGuidanceService, IInfoBarService, ILogger(Of MainWindowViewModel))
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.MainWindowViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel>)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel))
-  nameWithType: MainWindowViewModel.MainWindowViewModel(ISharedDataService, IGameGuidanceService, IInfoBarService, ILogger<MainWindowViewModel>)
-  nameWithType.vb: MainWindowViewModel.New(ISharedDataService, IGameGuidanceService, IInfoBarService, ILogger(Of MainWindowViewModel))
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
+  name: MainWindowViewModel(ISharedDataService, IGameGuidanceService, IInfoBarService, IFilePickerService, ILogger<MainWindowViewModel>)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IGameGuidanceService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_neo_bpsys_wpf_Core_Abstractions_Services_IFilePickerService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
+  name.vb: New(ISharedDataService, IGameGuidanceService, IInfoBarService, IFilePickerService, ILogger(Of MainWindowViewModel))
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.MainWindowViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel>)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel))
+  nameWithType: MainWindowViewModel.MainWindowViewModel(ISharedDataService, IGameGuidanceService, IInfoBarService, IFilePickerService, ILogger<MainWindowViewModel>)
+  nameWithType.vb: MainWindowViewModel.New(ISharedDataService, IGameGuidanceService, IInfoBarService, IFilePickerService, ILogger(Of MainWindowViewModel))
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor*
   name: MainWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_
@@ -20975,6 +21309,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.GameList
   nameWithType: MainWindowViewModel.GameList
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ImportGameInfoCommand
+  name: ImportGameInfoCommand
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_ImportGameInfoCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ImportGameInfoCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ImportGameInfoCommand
+  nameWithType: MainWindowViewModel.ImportGameInfoCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ImportGameInfoCommand*
+  name: ImportGameInfoCommand
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_ImportGameInfoCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ImportGameInfoCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.ImportGameInfoCommand
+  nameWithType: MainWindowViewModel.ImportGameInfoCommand
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.IsBo3Mode
   name: IsBo3Mode
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_IsBo3Mode
@@ -22181,6 +22528,156 @@ references:
   fullName.vb: neo_bpsys_wpf.Views.Windows.CutSceneWindow.New
   nameWithType: CutSceneWindow.CutSceneWindow
   nameWithType.vb: CutSceneWindow.New
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode
+  name: DebugNode
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html
+  commentId: T:neo_bpsys_wpf.Views.Windows.DebugNode
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode
+  nameWithType: DebugNode
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.#ctor(System.String,System.Object,System.String,System.Windows.Threading.Dispatcher)
+  name: DebugNode(string, object?, string, Dispatcher)
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode__ctor_System_String_System_Object_System_String_System_Windows_Threading_Dispatcher_
+  commentId: M:neo_bpsys_wpf.Views.Windows.DebugNode.#ctor(System.String,System.Object,System.String,System.Windows.Threading.Dispatcher)
+  name.vb: New(String, Object, String, Dispatcher)
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.DebugNode(string, object?, string, System.Windows.Threading.Dispatcher)
+  fullName.vb: neo_bpsys_wpf.Views.Windows.DebugNode.New(String, Object, String, System.Windows.Threading.Dispatcher)
+  nameWithType: DebugNode.DebugNode(string, object?, string, Dispatcher)
+  nameWithType.vb: DebugNode.New(String, Object, String, Dispatcher)
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.#ctor*
+  name: DebugNode
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode__ctor_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.DebugNode
+  fullName.vb: neo_bpsys_wpf.Views.Windows.DebugNode.New
+  nameWithType: DebugNode.DebugNode
+  nameWithType.vb: DebugNode.New
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.Children
+  name: Children
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_Children
+  commentId: P:neo_bpsys_wpf.Views.Windows.DebugNode.Children
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.Children
+  nameWithType: DebugNode.Children
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.Children*
+  name: Children
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_Children_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugNode.Children
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.Children
+  nameWithType: DebugNode.Children
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.IsExpanded
+  name: IsExpanded
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_IsExpanded
+  commentId: P:neo_bpsys_wpf.Views.Windows.DebugNode.IsExpanded
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.IsExpanded
+  nameWithType: DebugNode.IsExpanded
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.IsExpanded*
+  name: IsExpanded
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_IsExpanded_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugNode.IsExpanded
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.IsExpanded
+  nameWithType: DebugNode.IsExpanded
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.Name
+  name: Name
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_Name
+  commentId: P:neo_bpsys_wpf.Views.Windows.DebugNode.Name
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.Name
+  nameWithType: DebugNode.Name
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.Name*
+  name: Name
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_Name_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugNode.Name
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.Name
+  nameWithType: DebugNode.Name
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.OnPropertyChanged(System.String)
+  name: OnPropertyChanged(string?)
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_OnPropertyChanged_System_String_
+  commentId: M:neo_bpsys_wpf.Views.Windows.DebugNode.OnPropertyChanged(System.String)
+  name.vb: OnPropertyChanged(String)
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.OnPropertyChanged(string?)
+  fullName.vb: neo_bpsys_wpf.Views.Windows.DebugNode.OnPropertyChanged(String)
+  nameWithType: DebugNode.OnPropertyChanged(string?)
+  nameWithType.vb: DebugNode.OnPropertyChanged(String)
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_OnPropertyChanged_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugNode.OnPropertyChanged
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.OnPropertyChanged
+  nameWithType: DebugNode.OnPropertyChanged
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.PropertyChanged
+  name: PropertyChanged
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_PropertyChanged
+  commentId: E:neo_bpsys_wpf.Views.Windows.DebugNode.PropertyChanged
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.PropertyChanged
+  nameWithType: DebugNode.PropertyChanged
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.Type
+  name: Type
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_Type
+  commentId: P:neo_bpsys_wpf.Views.Windows.DebugNode.Type
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.Type
+  nameWithType: DebugNode.Type
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.Type*
+  name: Type
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_Type_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugNode.Type
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.Type
+  nameWithType: DebugNode.Type
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.Value
+  name: Value
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_Value
+  commentId: P:neo_bpsys_wpf.Views.Windows.DebugNode.Value
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.Value
+  nameWithType: DebugNode.Value
+- uid: neo_bpsys_wpf.Views.Windows.DebugNode.Value*
+  name: Value
+  href: api/neo_bpsys_wpf.Views.Windows.DebugNode.html#neo_bpsys_wpf_Views_Windows_DebugNode_Value_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugNode.Value
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.DebugNode.Value
+  nameWithType: DebugNode.Value
+- uid: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow
+  name: DebugSharedDataWindow
+  href: api/neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.html
+  commentId: T:neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow
+  fullName: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow
+  nameWithType: DebugSharedDataWindow
+- uid: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
+  name: DebugSharedDataWindow(ISharedDataService)
+  href: api/neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.html#neo_bpsys_wpf_Views_Windows_DebugSharedDataWindow__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_
+  commentId: M:neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
+  name.vb: New(ISharedDataService)
+  fullName: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.DebugSharedDataWindow(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
+  fullName.vb: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
+  nameWithType: DebugSharedDataWindow.DebugSharedDataWindow(ISharedDataService)
+  nameWithType.vb: DebugSharedDataWindow.New(ISharedDataService)
+- uid: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.#ctor*
+  name: DebugSharedDataWindow
+  href: api/neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.html#neo_bpsys_wpf_Views_Windows_DebugSharedDataWindow__ctor_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.DebugSharedDataWindow
+  fullName.vb: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.New
+  nameWithType: DebugSharedDataWindow.DebugSharedDataWindow
+  nameWithType.vb: DebugSharedDataWindow.New
+- uid: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.html#neo_bpsys_wpf_Views_Windows_DebugSharedDataWindow_InitializeComponent
+  commentId: M:neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.InitializeComponent
+  fullName: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.InitializeComponent()
+  nameWithType: DebugSharedDataWindow.InitializeComponent()
+- uid: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.html#neo_bpsys_wpf_Views_Windows_DebugSharedDataWindow_InitializeComponent_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.InitializeComponent
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.DebugSharedDataWindow.InitializeComponent
+  nameWithType: DebugSharedDataWindow.InitializeComponent
 - uid: neo_bpsys_wpf.Views.Windows.GameDataWindow
   name: GameDataWindow
   href: api/neo_bpsys_wpf.Views.Windows.GameDataWindow.html
@@ -22296,6 +22793,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Views.Windows.MainWindow.OnClosing
   nameWithType: MainWindow.OnClosing
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.OnKeyDown(System.Windows.Input.KeyEventArgs)
+  name: OnKeyDown(KeyEventArgs)
+  href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow_OnKeyDown_System_Windows_Input_KeyEventArgs_
+  commentId: M:neo_bpsys_wpf.Views.Windows.MainWindow.OnKeyDown(System.Windows.Input.KeyEventArgs)
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.OnKeyDown(System.Windows.Input.KeyEventArgs)
+  nameWithType: MainWindow.OnKeyDown(KeyEventArgs)
+- uid: neo_bpsys_wpf.Views.Windows.MainWindow.OnKeyDown*
+  name: OnKeyDown
+  href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow_OnKeyDown_
+  commentId: Overload:neo_bpsys_wpf.Views.Windows.MainWindow.OnKeyDown
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Views.Windows.MainWindow.OnKeyDown
+  nameWithType: MainWindow.OnKeyDown
 - uid: neo_bpsys_wpf.Views.Windows.MainWindow.SetPageService(Wpf.Ui.Abstractions.INavigationViewPageProvider)
   name: SetPageService(INavigationViewPageProvider)
   href: api/neo_bpsys_wpf.Views.Windows.MainWindow.html#neo_bpsys_wpf_Views_Windows_MainWindow_SetPageService_Wpf_Ui_Abstractions_INavigationViewPageProvider_

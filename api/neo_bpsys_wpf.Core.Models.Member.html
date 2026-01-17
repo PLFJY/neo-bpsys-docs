@@ -316,7 +316,7 @@ public ImageSource? Image { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Member_IsImageValid" data-uid="neo_bpsys_wpf.Core.Models.Member.IsImageValid">
   IsImageValid
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Member.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Member.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>选手定妆照是否有效</p>
@@ -324,7 +324,8 @@ public ImageSource? Image { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsImageValid { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public bool IsImageValid { get; }</code></pre>
   </div>
 
 

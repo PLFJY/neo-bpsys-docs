@@ -136,16 +136,16 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <a id="neo_bpsys_wpf_Services_UpdaterService__ctor_" data-uid="neo_bpsys_wpf.Services.UpdaterService.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_Services_UpdaterService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Services_UpdaterService__" data-uid="neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.UpdaterService})">
-  UpdaterService(IInfoBarService, ILogger&lt;UpdaterService&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_Services_UpdaterService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_Services_UpdaterService__neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_" data-uid="neo_bpsys_wpf.Services.UpdaterService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.Services.UpdaterService},neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)">
+  UpdaterService(IInfoBarService, ILogger&lt;UpdaterService&gt;, ISettingsHostService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UpdaterService(IInfoBarService infoBarService, ILogger&lt;UpdaterService&gt; logger)</code></pre>
+    <pre><code class="lang-csharp hljs">public UpdaterService(IInfoBarService infoBarService, ILogger&lt;UpdaterService&gt; logger, ISettingsHostService settingsHostService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -153,6 +153,8 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
     <dt><code>infoBarService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService.html">IInfoBarService</a></dt>
     <dd></dd>
     <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="neo_bpsys_wpf.Services.UpdaterService.html">UpdaterService</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>settingsHostService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService.html">ISettingsHostService</a></dt>
     <dd></dd>
   </dl>
 
@@ -307,7 +309,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_DownloadUpdate_System_String_" data-uid="neo_bpsys_wpf.Services.UpdaterService.DownloadUpdate(System.String)">
   DownloadUpdate(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>下载更新</p>
@@ -344,7 +346,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_InstallUpdate" data-uid="neo_bpsys_wpf.Services.UpdaterService.InstallUpdate">
   InstallUpdate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L203"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>安装更新</p>
@@ -352,10 +354,15 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void InstallUpdate()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task InstallUpdate()</code></pre>
   </div>
 
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -371,7 +378,7 @@ Class UpdaterService  <a class="header-action link-secondary" title="View source
 
   <h3 id="neo_bpsys_wpf_Services_UpdaterService_UpdateCheck_System_Boolean_System_String_" data-uid="neo_bpsys_wpf.Services.UpdaterService.UpdateCheck(System.Boolean,System.String)">
   UpdateCheck(bool, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/Services/UpdaterService.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>检查更新</p>
