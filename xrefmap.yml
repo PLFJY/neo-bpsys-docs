@@ -3847,6 +3847,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService.NewVersionInfo
   nameWithType: IUpdaterService.NewVersionInfo
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService.NewVersionInfoChanged
+  name: NewVersionInfoChanged
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Core_Abstractions_Services_IUpdaterService_NewVersionInfoChanged
+  commentId: E:neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService.NewVersionInfoChanged
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService.NewVersionInfoChanged
+  nameWithType: IUpdaterService.NewVersionInfoChanged
 - uid: neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService.UpdateCheck(System.Boolean,System.String)
   name: UpdateCheck(bool, string)
   href: api/neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService.html#neo_bpsys_wpf_Core_Abstractions_Services_IUpdaterService_UpdateCheck_System_Boolean_System_String_
@@ -8027,6 +8033,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.ReleaseInfo.Body
   nameWithType: ReleaseInfo.Body
+- uid: neo_bpsys_wpf.Core.Models.ReleaseInfo.Name
+  name: Name
+  href: api/neo_bpsys_wpf.Core.Models.ReleaseInfo.html#neo_bpsys_wpf_Core_Models_ReleaseInfo_Name
+  commentId: P:neo_bpsys_wpf.Core.Models.ReleaseInfo.Name
+  fullName: neo_bpsys_wpf.Core.Models.ReleaseInfo.Name
+  nameWithType: ReleaseInfo.Name
+- uid: neo_bpsys_wpf.Core.Models.ReleaseInfo.Name*
+  name: Name
+  href: api/neo_bpsys_wpf.Core.Models.ReleaseInfo.html#neo_bpsys_wpf_Core_Models_ReleaseInfo_Name_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.ReleaseInfo.Name
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.ReleaseInfo.Name
+  nameWithType: ReleaseInfo.Name
 - uid: neo_bpsys_wpf.Core.Models.ReleaseInfo.TagName
   name: TagName
   href: api/neo_bpsys_wpf.Core.Models.ReleaseInfo.html#neo_bpsys_wpf_Core_Models_ReleaseInfo_TagName
@@ -12893,6 +12912,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.Loaded
   nameWithType: Lang.Loaded
+- uid: neo_bpsys_wpf.Locales.Lang.LoadingFailed
+  name: LoadingFailed
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_LoadingFailed
+  commentId: P:neo_bpsys_wpf.Locales.Lang.LoadingFailed
+  fullName: neo_bpsys_wpf.Locales.Lang.LoadingFailed
+  nameWithType: Lang.LoadingFailed
+- uid: neo_bpsys_wpf.Locales.Lang.LoadingFailed*
+  name: LoadingFailed
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_LoadingFailed_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.LoadingFailed
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.LoadingFailed
+  nameWithType: Lang.LoadingFailed
 - uid: neo_bpsys_wpf.Locales.Lang.LogoFileIsNotValid
   name: LogoFileIsNotValid
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_LogoFileIsNotValid
@@ -13725,6 +13757,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.ReadFrontendDefaultConfigurationError
   nameWithType: Lang.ReadFrontendDefaultConfigurationError
+- uid: neo_bpsys_wpf.Locales.Lang.ReleaseNotes
+  name: ReleaseNotes
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ReleaseNotes
+  commentId: P:neo_bpsys_wpf.Locales.Lang.ReleaseNotes
+  fullName: neo_bpsys_wpf.Locales.Lang.ReleaseNotes
+  nameWithType: Lang.ReleaseNotes
+- uid: neo_bpsys_wpf.Locales.Lang.ReleaseNotes*
+  name: ReleaseNotes
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ReleaseNotes_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.ReleaseNotes
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.ReleaseNotes
+  nameWithType: Lang.ReleaseNotes
 - uid: neo_bpsys_wpf.Locales.Lang.RemainingCiphers
   name: RemainingCiphers
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_RemainingCiphers
@@ -16676,6 +16721,12 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.UpdaterService.NewVersionInfo
   nameWithType: UpdaterService.NewVersionInfo
+- uid: neo_bpsys_wpf.Services.UpdaterService.NewVersionInfoChanged
+  name: NewVersionInfoChanged
+  href: api/neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_NewVersionInfoChanged
+  commentId: E:neo_bpsys_wpf.Services.UpdaterService.NewVersionInfoChanged
+  fullName: neo_bpsys_wpf.Services.UpdaterService.NewVersionInfoChanged
+  nameWithType: UpdaterService.NewVersionInfoChanged
 - uid: neo_bpsys_wpf.Services.UpdaterService.UpdateCheck(System.Boolean,System.String)
   name: UpdateCheck(bool, string)
   href: api/neo_bpsys_wpf.Services.UpdaterService.html#neo_bpsys_wpf_Services_UpdaterService_UpdateCheck_System_Boolean_System_String_
@@ -17972,6 +18023,79 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel.SurPlayerList
   nameWithType: GameDataPageViewModel.SurPlayerList
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel
+  name: HomePageViewModel
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html
+  commentId: T:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel
+  nameWithType: HomePageViewModel
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.#ctor
+  name: HomePageViewModel()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel__ctor
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.#ctor
+  name.vb: New()
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.HomePageViewModel()
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.New()
+  nameWithType: HomePageViewModel.HomePageViewModel()
+  nameWithType.vb: HomePageViewModel.New()
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)
+  name: HomePageViewModel(IUpdaterService, ISettingsHostService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IUpdaterService_neo_bpsys_wpf_Core_Abstractions_Services_ISettingsHostService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService,neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)
+  name.vb: New(IUpdaterService, ISettingsHostService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.HomePageViewModel(neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService, neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.IUpdaterService, neo_bpsys_wpf.Core.Abstractions.Services.ISettingsHostService)
+  nameWithType: HomePageViewModel.HomePageViewModel(IUpdaterService, ISettingsHostService)
+  nameWithType.vb: HomePageViewModel.New(IUpdaterService, ISettingsHostService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.#ctor*
+  name: HomePageViewModel
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel__ctor_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.HomePageViewModel
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.New
+  nameWithType: HomePageViewModel.HomePageViewModel
+  nameWithType.vb: HomePageViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.IsExpanded
+  name: IsExpanded
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel_IsExpanded
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.IsExpanded
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.IsExpanded
+  nameWithType: HomePageViewModel.IsExpanded
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.IsExpanded*
+  name: IsExpanded
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel_IsExpanded_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.IsExpanded
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.IsExpanded
+  nameWithType: HomePageViewModel.IsExpanded
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseInfo
+  name: ReleaseInfo
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel_ReleaseInfo
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseInfo
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseInfo
+  nameWithType: HomePageViewModel.ReleaseInfo
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseInfo*
+  name: ReleaseInfo
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel_ReleaseInfo_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseInfo
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseInfo
+  nameWithType: HomePageViewModel.ReleaseInfo
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseNotes
+  name: ReleaseNotes
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel_ReleaseNotes
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseNotes
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseNotes
+  nameWithType: HomePageViewModel.ReleaseNotes
+- uid: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseNotes*
+  name: ReleaseNotes
+  href: api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_HomePageViewModel_ReleaseNotes_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseNotes
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.ReleaseNotes
+  nameWithType: HomePageViewModel.ReleaseNotes
 - uid: neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel
   name: MapBpPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.MapBpPageViewModel.html

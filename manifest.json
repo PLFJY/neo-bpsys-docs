@@ -2174,7 +2174,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Locales.Lang",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Locales.Lang.yml\" sourcestartlinenumber=\"1\">一个强类型的资源类，用于查找本地化的字符串等。</p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Locales.Lang.yml\" sourcestartlinenumber=\"1\">A strongly-typed resource class, for looking up localized strings, etc.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2623,6 +2623,20 @@
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.ViewModels.Pages.GameDataPageViewModel",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.ViewModels.Pages.HomePageViewModel.yml\" sourcestartlinenumber=\"1\">Base class that implements INotifyPropertyChanged with Recipient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4076,16 +4090,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/使用文档/后台/拓展功能.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/使用文档/后台/拓展功能.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/使用文档/后台/比分系统.md",
       "output": {
         ".html": {
@@ -4206,6 +4210,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "docs/使用文档/高级选项/images/插件管理.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/使用文档/高级选项/images/插件管理.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "docs/使用文档/高级选项/images/没保存聊天记录1.png",
       "output": {
         "resource": {
@@ -4270,6 +4284,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/使用文档/高级选项/前台自定义.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/使用文档/高级选项/插件系统.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/使用文档/高级选项/插件系统.html"
         }
       },
       "version": ""

@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel" class="text-break">
-Class MainWindowViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationAsync.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class MainWindowViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync.g.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -344,7 +344,7 @@ public ApplicationTheme ApplicationTheme { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_FooterMenuItems" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.FooterMenuItems">
   FooterMenuItems
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L367"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -383,7 +383,7 @@ public ApplicationTheme ApplicationTheme { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ExcludeFromCodeCoverage]
-public List&lt;GameProgress&gt; GameList { get; set; }</code></pre>
+public OrderedDictionary&lt;GameProgress, string&gt; GameList { get; set; }</code></pre>
   </div>
 
 
@@ -392,7 +392,7 @@ public List&lt;GameProgress&gt; GameList { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Enums.GameProgress.html">GameProgress</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ordereddictionary-2">OrderedDictionary</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Enums.GameProgress.html">GameProgress</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -440,7 +440,7 @@ public IAsyncRelayCommand ImportGameInfoCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_IsBo3Mode" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.IsBo3Mode">
   IsBo3Mode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L291"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -566,7 +566,7 @@ public bool IsSwapHighlighted { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_MenuItems" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.MenuItems">
   MenuItems
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L354"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -696,7 +696,7 @@ public IRelayCommand NewGameCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_RecommendTimerList" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.RecommendTimerList">
   RecommendTimerList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L320"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1020,7 +1020,7 @@ public IRelayCommand TimerStopCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_TimerTime" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.TimerTime">
   TimerTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L318"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1055,7 +1055,7 @@ public IRelayCommand TimerStopCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_PropertyChangedMessage_System_Boolean__" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})">
   Receive(PropertyChangedMessage&lt;bool&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L277"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">PropertyChangedMessage&lt;bool&gt;</a> message instance.</p>
@@ -1088,7 +1088,7 @@ public IRelayCommand TimerStopCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_ValueChangedMessage_System_String__" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.ValueChangedMessage{System.String})">
   Receive(ValueChangedMessage&lt;string&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L267"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ValueChangedMessage&lt;string&gt;</a> message instance.</p>
@@ -1121,7 +1121,7 @@ public IRelayCommand TimerStopCommand { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_neo_bpsys_wpf_Core_Messages_HighlightMessage_" data-uid="neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(neo_bpsys_wpf.Core.Messages.HighlightMessage)">
   Receive(HighlightMessage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Windows/MainWindowViewModel.cs/#L311"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Receives a given <a class="xref" href="neo_bpsys_wpf.Core.Messages.HighlightMessage.html">HighlightMessage</a> message instance.</p>
@@ -1154,7 +1154,7 @@ public IRelayCommand TimerStopCommand { get; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.StartNavigationAsync.g.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/obj/Release/net9.0-windows/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.SaveGameInfoAsync.g.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 
