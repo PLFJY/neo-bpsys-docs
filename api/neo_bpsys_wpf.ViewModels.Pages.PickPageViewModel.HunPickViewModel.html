@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel" class="text-break">
-Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L218"><i class="bi bi-code-slash"></i></a>
+Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L213"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -147,6 +147,9 @@ Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary
       <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Core_Messages_CharacterDictChangedMessage_">CharaSelectViewModelBase.Receive(CharacterDictChangedMessage)</a>
     </div>
     <div>
+      <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_ConfirmCommand">CharaSelectViewModelBase.ConfirmCommand</a>
+    </div>
+    <div>
       <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SelectedChara">CharaSelectViewModelBase.SelectedChara</a>
     </div>
     <div>
@@ -160,9 +163,6 @@ Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary
     </div>
     <div>
       <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_CharaDict">CharaSelectViewModelBase.CharaDict</a>
-    </div>
-    <div>
-      <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_ConfirmCommand">CharaSelectViewModelBase.ConfirmCommand</a>
     </div>
     <div>
       <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
@@ -180,23 +180,23 @@ Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary
 
   <a id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IFrontedWindowService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)">
-  HunPickViewModel(ISharedDataService, IFrontedWindowService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)">
+  HunPickViewModel(ISharedDataService, ICharacterSelectionService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L213"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HunPickViewModel(ISharedDataService sharedDataService, IFrontedWindowService frontedWindowService)</code></pre>
+    <pre><code class="lang-csharp hljs">public HunPickViewModel(ISharedDataService sharedDataService, ICharacterSelectionService characterSelectionService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
     <dd></dd>
-    <dt><code>frontedWindowService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService.html">IFrontedWindowService</a></dt>
+    <dt><code>characterSelectionService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html">ICharacterSelectionService</a></dt>
     <dd></dd>
   </dl>
 
@@ -219,7 +219,7 @@ Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})">
   IsActionNameCorrect(GameAction?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L237"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>判断当前高亮步骤是否符合当前控件</p>
@@ -258,7 +258,7 @@ Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaFromSourceAsync" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaFromSourceAsync">
   SyncCharaFromSourceAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>从源同步当前角色</p>
@@ -285,7 +285,7 @@ Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncCharaToSourceAsync" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncCharaToSourceAsync">
   SyncCharaToSourceAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L220"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>同步当前角色到源</p>
@@ -317,7 +317,7 @@ Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel_SyncIsEnabled" data-uid="neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.SyncIsEnabled">
   SyncIsEnabled()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L232"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>同步当前角色选择器是否启用状态</p>
@@ -344,7 +344,7 @@ Class PickPageViewModel.HunPickViewModel  <a class="header-action link-secondary
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L218" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/PickPageViewModel.cs/#L213" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -89,7 +89,7 @@
 
 
   <h1 id="neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel" class="text-break">
-Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L42"><i class="bi bi-code-slash"></i></a>
+Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -147,6 +147,9 @@ Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-s
       <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_Receive_neo_bpsys_wpf_Core_Messages_CharacterDictChangedMessage_">CharaSelectViewModelBase.Receive(CharacterDictChangedMessage)</a>
     </div>
     <div>
+      <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_ConfirmCommand">CharaSelectViewModelBase.ConfirmCommand</a>
+    </div>
+    <div>
       <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_SelectedChara">CharaSelectViewModelBase.SelectedChara</a>
     </div>
     <div>
@@ -160,9 +163,6 @@ Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-s
     </div>
     <div>
       <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_CharaDict">CharaSelectViewModelBase.CharaDict</a>
-    </div>
-    <div>
-      <a class="xref" href="neo_bpsys_wpf.ViewModels.CharaSelectViewModelBase.html#neo_bpsys_wpf_ViewModels_CharaSelectViewModelBase_ConfirmCommand">CharaSelectViewModelBase.ConfirmCommand</a>
     </div>
     <div>
       <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.ViewModelBase.html#neo_bpsys_wpf_Core_Abstractions_ViewModelBase_SetPropertyWithAction__1___0____0_System_Action___0__System_String_">ViewModelBase.SetPropertyWithAction&lt;T&gt;(ref T, T, Action&lt;T&gt;, string)</a>
@@ -180,21 +180,23 @@ Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-s
 
   <a id="neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel__ctor_" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.#ctor*"></a>
 
-  <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)">
-  BanSurCurrentViewModel(ISharedDataService, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_System_Int32_" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,System.Int32)">
+  BanSurCurrentViewModel(ISharedDataService, ICharacterSelectionService, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BanSurCurrentViewModel(ISharedDataService sharedDataService, int index = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public BanSurCurrentViewModel(ISharedDataService sharedDataService, ICharacterSelectionService characterSelectionService, int index = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>sharedDataService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService.html">ISharedDataService</a></dt>
+    <dd></dd>
+    <dt><code>characterSelectionService</code> <a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html">ICharacterSelectionService</a></dt>
     <dd></dd>
     <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
@@ -219,7 +221,7 @@ Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-s
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})">
   IsActionNameCorrect(GameAction?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>判断当前高亮步骤是否符合当前控件</p>
@@ -258,7 +260,7 @@ Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-s
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaFromSourceAsync" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaFromSourceAsync">
   SyncCharaFromSourceAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>从源同步当前角色</p>
@@ -285,7 +287,7 @@ Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-s
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncCharaToSourceAsync" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncCharaToSourceAsync">
   SyncCharaToSourceAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>同步当前角色到源</p>
@@ -317,7 +319,7 @@ Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-s
 
   <h3 id="neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel_SyncIsEnabled" data-uid="neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.SyncIsEnabled">
   SyncIsEnabled()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>同步当前角色选择器是否启用状态</p>
@@ -344,7 +346,7 @@ Class BanSurPageViewModel.BanSurCurrentViewModel  <a class="header-action link-s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L42" class="edit-link">Edit this page</a>
+          <a href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf/ViewModels/Pages/BanSurPageViewModel.cs/#L43" class="edit-link">Edit this page</a>
         </div>
 
 

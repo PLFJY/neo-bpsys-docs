@@ -2616,12 +2616,358 @@ references:
   commentId: N:neo_bpsys_wpf.Core.Abstractions.Services
   fullName: neo_bpsys_wpf.Core.Abstractions.Services
   nameWithType: neo_bpsys_wpf.Core.Abstractions.Services
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService
+  name: IAnimationService
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html
+  commentId: T:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService
+  nameWithType: IAnimationService
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart(System.String,System.String,System.Int32,System.String)
+  name: BreathingStart(string, string, int, string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_BreathingStart_System_String_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart(System.String,System.String,System.Int32,System.String)
+  name.vb: BreathingStart(String, String, Integer, String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart(string, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart(String, String, Integer, String)
+  nameWithType: IAnimationService.BreathingStart(string, string, int, string)
+  nameWithType.vb: IAnimationService.BreathingStart(String, String, Integer, String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name: BreathingStart(FrontedWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_BreathingStart_neo_bpsys_wpf_Core_Enums_FrontedWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name.vb: BreathingStart(FrontedWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart(neo_bpsys_wpf.Core.Enums.FrontedWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart(neo_bpsys_wpf.Core.Enums.FrontedWindowType, String, Integer, String)
+  nameWithType: IAnimationService.BreathingStart(FrontedWindowType, string, int, string)
+  nameWithType.vb: IAnimationService.BreathingStart(FrontedWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart*
+  name: BreathingStart
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_BreathingStart_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStart
+  nameWithType: IAnimationService.BreathingStart
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop(System.String,System.String,System.Int32,System.String)
+  name: BreathingStop(string, string, int, string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_BreathingStop_System_String_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop(System.String,System.String,System.Int32,System.String)
+  name.vb: BreathingStop(String, String, Integer, String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop(string, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop(String, String, Integer, String)
+  nameWithType: IAnimationService.BreathingStop(string, string, int, string)
+  nameWithType.vb: IAnimationService.BreathingStop(String, String, Integer, String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name: BreathingStop(FrontedWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_BreathingStop_neo_bpsys_wpf_Core_Enums_FrontedWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name.vb: BreathingStop(FrontedWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop(neo_bpsys_wpf.Core.Enums.FrontedWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop(neo_bpsys_wpf.Core.Enums.FrontedWindowType, String, Integer, String)
+  nameWithType: IAnimationService.BreathingStop(FrontedWindowType, string, int, string)
+  nameWithType.vb: IAnimationService.BreathingStop(FrontedWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop*
+  name: BreathingStop
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_BreathingStop_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.BreathingStop
+  nameWithType: IAnimationService.BreathingStop
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation(System.String,System.String,System.Int32,System.String)
+  name: FadeInAnimation(string, string, int, string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_FadeInAnimation_System_String_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation(System.String,System.String,System.Int32,System.String)
+  name.vb: FadeInAnimation(String, String, Integer, String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation(string, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation(String, String, Integer, String)
+  nameWithType: IAnimationService.FadeInAnimation(string, string, int, string)
+  nameWithType.vb: IAnimationService.FadeInAnimation(String, String, Integer, String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name: FadeInAnimation(FrontedWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_FadeInAnimation_neo_bpsys_wpf_Core_Enums_FrontedWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name.vb: FadeInAnimation(FrontedWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType, String, Integer, String)
+  nameWithType: IAnimationService.FadeInAnimation(FrontedWindowType, string, int, string)
+  nameWithType.vb: IAnimationService.FadeInAnimation(FrontedWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation*
+  name: FadeInAnimation
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_FadeInAnimation_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeInAnimation
+  nameWithType: IAnimationService.FadeInAnimation
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation(System.String,System.String,System.Int32,System.String)
+  name: FadeOutAnimation(string, string, int, string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_FadeOutAnimation_System_String_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation(System.String,System.String,System.Int32,System.String)
+  name.vb: FadeOutAnimation(String, String, Integer, String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation(string, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation(String, String, Integer, String)
+  nameWithType: IAnimationService.FadeOutAnimation(string, string, int, string)
+  nameWithType.vb: IAnimationService.FadeOutAnimation(String, String, Integer, String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name: FadeOutAnimation(FrontedWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_FadeOutAnimation_neo_bpsys_wpf_Core_Enums_FrontedWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name.vb: FadeOutAnimation(FrontedWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType, String, Integer, String)
+  nameWithType: IAnimationService.FadeOutAnimation(FrontedWindowType, string, int, string)
+  nameWithType.vb: IAnimationService.FadeOutAnimation(FrontedWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation*
+  name: FadeOutAnimation
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_FadeOutAnimation_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.FadeOutAnimation
+  nameWithType: IAnimationService.FadeOutAnimation
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayBanAnimationAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: PlayBanAnimationAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlayBanAnimationAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayBanAnimationAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: PlayBanAnimationAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayBanAnimationAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayBanAnimationAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: IAnimationService.PlayBanAnimationAsync(Camp, int)
+  nameWithType.vb: IAnimationService.PlayBanAnimationAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayBanAnimationAsync*
+  name: PlayBanAnimationAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlayBanAnimationAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayBanAnimationAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayBanAnimationAsync
+  nameWithType: IAnimationService.PlayBanAnimationAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeIn(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: PlayPickFadeIn(Camp, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlayPickFadeIn_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeIn(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: PlayPickFadeIn(Camp, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeIn(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeIn(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: IAnimationService.PlayPickFadeIn(Camp, int)
+  nameWithType.vb: IAnimationService.PlayPickFadeIn(Camp, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeIn*
+  name: PlayPickFadeIn
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlayPickFadeIn_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeIn
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeIn
+  nameWithType: IAnimationService.PlayPickFadeIn
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeOut(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: PlayPickFadeOut(Camp, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlayPickFadeOut_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeOut(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: PlayPickFadeOut(Camp, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeOut(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeOut(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: IAnimationService.PlayPickFadeOut(Camp, int)
+  nameWithType.vb: IAnimationService.PlayPickFadeOut(Camp, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeOut*
+  name: PlayPickFadeOut
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlayPickFadeOut_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeOut
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickFadeOut
+  nameWithType: IAnimationService.PlayPickFadeOut
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickTransitionAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: PlayPickTransitionAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlayPickTransitionAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickTransitionAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: PlayPickTransitionAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickTransitionAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickTransitionAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: IAnimationService.PlayPickTransitionAsync(Camp, int)
+  nameWithType.vb: IAnimationService.PlayPickTransitionAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickTransitionAsync*
+  name: PlayPickTransitionAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlayPickTransitionAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickTransitionAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlayPickTransitionAsync
+  nameWithType: IAnimationService.PlayPickTransitionAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlaySwapCharacterAnimationAsync(System.Int32,System.Int32)
+  name: PlaySwapCharacterAnimationAsync(int, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlaySwapCharacterAnimationAsync_System_Int32_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlaySwapCharacterAnimationAsync(System.Int32,System.Int32)
+  name.vb: PlaySwapCharacterAnimationAsync(Integer, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlaySwapCharacterAnimationAsync(int, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlaySwapCharacterAnimationAsync(Integer, Integer)
+  nameWithType: IAnimationService.PlaySwapCharacterAnimationAsync(int, int)
+  nameWithType.vb: IAnimationService.PlaySwapCharacterAnimationAsync(Integer, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlaySwapCharacterAnimationAsync*
+  name: PlaySwapCharacterAnimationAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_PlaySwapCharacterAnimationAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlaySwapCharacterAnimationAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.PlaySwapCharacterAnimationAsync
+  nameWithType: IAnimationService.PlaySwapCharacterAnimationAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StartPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: StartPickingBorderBreathingAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_StartPickingBorderBreathingAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StartPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: StartPickingBorderBreathingAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StartPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StartPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: IAnimationService.StartPickingBorderBreathingAsync(Camp, int)
+  nameWithType.vb: IAnimationService.StartPickingBorderBreathingAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StartPickingBorderBreathingAsync*
+  name: StartPickingBorderBreathingAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_StartPickingBorderBreathingAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StartPickingBorderBreathingAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StartPickingBorderBreathingAsync
+  nameWithType: IAnimationService.StartPickingBorderBreathingAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StopPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: StopPickingBorderBreathingAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_StopPickingBorderBreathingAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StopPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: StopPickingBorderBreathingAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StopPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StopPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: IAnimationService.StopPickingBorderBreathingAsync(Camp, int)
+  nameWithType.vb: IAnimationService.StopPickingBorderBreathingAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StopPickingBorderBreathingAsync*
+  name: StopPickingBorderBreathingAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html#neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_StopPickingBorderBreathingAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StopPickingBorderBreathingAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.StopPickingBorderBreathingAsync
+  nameWithType: IAnimationService.StopPickingBorderBreathingAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService
+  name: ICharacterSelectionService
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html
+  commentId: T:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService
+  nameWithType: ICharacterSelectionService
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.AnimationService
+  name: AnimationService
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_AnimationService
+  commentId: P:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.AnimationService
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.AnimationService
+  nameWithType: ICharacterSelectionService.AnimationService
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.AnimationService*
+  name: AnimationService
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_AnimationService_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.AnimationService
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.AnimationService
+  nameWithType: ICharacterSelectionService.AnimationService
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.BanCharacterAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32,neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name: BanCharacterAsync(Camp, int, Character?, bool)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_BanCharacterAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_neo_bpsys_wpf_Core_Models_Character_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.BanCharacterAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32,neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name.vb: BanCharacterAsync(Camp, Integer, Character, Boolean)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.BanCharacterAsync(neo_bpsys_wpf.Core.Enums.Camp, int, neo_bpsys_wpf.Core.Models.Character?, bool)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.BanCharacterAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer, neo_bpsys_wpf.Core.Models.Character, Boolean)
+  nameWithType: ICharacterSelectionService.BanCharacterAsync(Camp, int, Character?, bool)
+  nameWithType.vb: ICharacterSelectionService.BanCharacterAsync(Camp, Integer, Character, Boolean)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.BanCharacterAsync*
+  name: BanCharacterAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_BanCharacterAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.BanCharacterAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.BanCharacterAsync
+  nameWithType: ICharacterSelectionService.BanCharacterAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectHunterAsync(neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name: SelectHunterAsync(Character?, bool)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_SelectHunterAsync_neo_bpsys_wpf_Core_Models_Character_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectHunterAsync(neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name.vb: SelectHunterAsync(Character, Boolean)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectHunterAsync(neo_bpsys_wpf.Core.Models.Character?, bool)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectHunterAsync(neo_bpsys_wpf.Core.Models.Character, Boolean)
+  nameWithType: ICharacterSelectionService.SelectHunterAsync(Character?, bool)
+  nameWithType.vb: ICharacterSelectionService.SelectHunterAsync(Character, Boolean)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectHunterAsync*
+  name: SelectHunterAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_SelectHunterAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectHunterAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectHunterAsync
+  nameWithType: ICharacterSelectionService.SelectHunterAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectSurvivorAsync(System.Int32,neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name: SelectSurvivorAsync(int, Character?, bool)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_SelectSurvivorAsync_System_Int32_neo_bpsys_wpf_Core_Models_Character_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectSurvivorAsync(System.Int32,neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name.vb: SelectSurvivorAsync(Integer, Character, Boolean)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectSurvivorAsync(int, neo_bpsys_wpf.Core.Models.Character?, bool)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectSurvivorAsync(Integer, neo_bpsys_wpf.Core.Models.Character, Boolean)
+  nameWithType: ICharacterSelectionService.SelectSurvivorAsync(int, Character?, bool)
+  nameWithType.vb: ICharacterSelectionService.SelectSurvivorAsync(Integer, Character, Boolean)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectSurvivorAsync*
+  name: SelectSurvivorAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_SelectSurvivorAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectSurvivorAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SelectSurvivorAsync
+  nameWithType: ICharacterSelectionService.SelectSurvivorAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StartPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: StartPickingIndicatorAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_StartPickingIndicatorAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StartPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: StartPickingIndicatorAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StartPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StartPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: ICharacterSelectionService.StartPickingIndicatorAsync(Camp, int)
+  nameWithType.vb: ICharacterSelectionService.StartPickingIndicatorAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StartPickingIndicatorAsync*
+  name: StartPickingIndicatorAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_StartPickingIndicatorAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StartPickingIndicatorAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StartPickingIndicatorAsync
+  nameWithType: ICharacterSelectionService.StartPickingIndicatorAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StopPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: StopPickingIndicatorAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_StopPickingIndicatorAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StopPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: StopPickingIndicatorAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StopPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StopPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: ICharacterSelectionService.StopPickingIndicatorAsync(Camp, int)
+  nameWithType.vb: ICharacterSelectionService.StopPickingIndicatorAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StopPickingIndicatorAsync*
+  name: StopPickingIndicatorAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_StopPickingIndicatorAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StopPickingIndicatorAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.StopPickingIndicatorAsync
+  nameWithType: ICharacterSelectionService.StopPickingIndicatorAsync
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SwapSurvivorsAsync(System.Int32,System.Int32,System.Boolean)
+  name: SwapSurvivorsAsync(int, int, bool)
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_SwapSurvivorsAsync_System_Int32_System_Int32_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SwapSurvivorsAsync(System.Int32,System.Int32,System.Boolean)
+  name.vb: SwapSurvivorsAsync(Integer, Integer, Boolean)
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SwapSurvivorsAsync(int, int, bool)
+  fullName.vb: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SwapSurvivorsAsync(Integer, Integer, Boolean)
+  nameWithType: ICharacterSelectionService.SwapSurvivorsAsync(int, int, bool)
+  nameWithType.vb: ICharacterSelectionService.SwapSurvivorsAsync(Integer, Integer, Boolean)
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SwapSurvivorsAsync*
+  name: SwapSurvivorsAsync
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html#neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_SwapSurvivorsAsync_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SwapSurvivorsAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.SwapSurvivorsAsync
+  nameWithType: ICharacterSelectionService.SwapSurvivorsAsync
 - uid: neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService
   name: IFilePickerService
   href: api/neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.html
   commentId: T:neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService
   fullName: neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService
   nameWithType: IFilePickerService
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.PickBpuiFile
+  name: PickBpuiFile()
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.html#neo_bpsys_wpf_Core_Abstractions_Services_IFilePickerService_PickBpuiFile
+  commentId: M:neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.PickBpuiFile
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.PickBpuiFile()
+  nameWithType: IFilePickerService.PickBpuiFile()
+- uid: neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.PickBpuiFile*
+  name: PickBpuiFile
+  href: api/neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.html#neo_bpsys_wpf_Core_Abstractions_Services_IFilePickerService_PickBpuiFile_
+  commentId: Overload:neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.PickBpuiFile
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.PickBpuiFile
+  nameWithType: IFilePickerService.PickBpuiFile
 - uid: neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.PickImage
   name: PickImage()
   href: api/neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.html#neo_bpsys_wpf_Core_Abstractions_Services_IFilePickerService_PickImage
@@ -5909,6 +6255,45 @@ references:
   commentId: T:neo_bpsys_wpf.Core.Models.BpWindowSettings
   fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings
   nameWithType: BpWindowSettings
+- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.AllowsWindowTransparency
+  name: AllowsWindowTransparency
+  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_AllowsWindowTransparency
+  commentId: P:neo_bpsys_wpf.Core.Models.BpWindowSettings.AllowsWindowTransparency
+  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.AllowsWindowTransparency
+  nameWithType: BpWindowSettings.AllowsWindowTransparency
+- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.AllowsWindowTransparency*
+  name: AllowsWindowTransparency
+  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_AllowsWindowTransparency_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.BpWindowSettings.AllowsWindowTransparency
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.AllowsWindowTransparency
+  nameWithType: BpWindowSettings.AllowsWindowTransparency
+- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundBrush
+  name: BackgroundBrush
+  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_BackgroundBrush
+  commentId: P:neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundBrush
+  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundBrush
+  nameWithType: BpWindowSettings.BackgroundBrush
+- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundBrush*
+  name: BackgroundBrush
+  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_BackgroundBrush_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundBrush
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundBrush
+  nameWithType: BpWindowSettings.BackgroundBrush
+- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundColor
+  name: BackgroundColor
+  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_BackgroundColor
+  commentId: P:neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundColor
+  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundColor
+  nameWithType: BpWindowSettings.BackgroundColor
+- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundColor*
+  name: BackgroundColor
+  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_BackgroundColor_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundColor
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.BackgroundColor
+  nameWithType: BpWindowSettings.BackgroundColor
 - uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.BgImage
   name: BgImage
   href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_BgImage
@@ -6168,15 +6553,15 @@ references:
   commentId: T:neo_bpsys_wpf.Core.Models.Character
   fullName: neo_bpsys_wpf.Core.Models.Character
   nameWithType: Character
-- uid: neo_bpsys_wpf.Core.Models.Character.#ctor(System.String,neo_bpsys_wpf.Core.Enums.Camp,System.String,System.String)
-  name: Character(string, Camp, string, string?)
-  href: api/neo_bpsys_wpf.Core.Models.Character.html#neo_bpsys_wpf_Core_Models_Character__ctor_System_String_neo_bpsys_wpf_Core_Enums_Camp_System_String_System_String_
-  commentId: M:neo_bpsys_wpf.Core.Models.Character.#ctor(System.String,neo_bpsys_wpf.Core.Enums.Camp,System.String,System.String)
-  name.vb: New(String, Camp, String, String)
-  fullName: neo_bpsys_wpf.Core.Models.Character.Character(string, neo_bpsys_wpf.Core.Enums.Camp, string, string?)
-  fullName.vb: neo_bpsys_wpf.Core.Models.Character.New(String, neo_bpsys_wpf.Core.Enums.Camp, String, String)
-  nameWithType: Character.Character(string, Camp, string, string?)
-  nameWithType.vb: Character.New(String, Camp, String, String)
+- uid: neo_bpsys_wpf.Core.Models.Character.#ctor(System.String,neo_bpsys_wpf.Core.Enums.Camp,System.String,System.String,System.String)
+  name: Character(string, Camp, string, string?, string?)
+  href: api/neo_bpsys_wpf.Core.Models.Character.html#neo_bpsys_wpf_Core_Models_Character__ctor_System_String_neo_bpsys_wpf_Core_Enums_Camp_System_String_System_String_System_String_
+  commentId: M:neo_bpsys_wpf.Core.Models.Character.#ctor(System.String,neo_bpsys_wpf.Core.Enums.Camp,System.String,System.String,System.String)
+  name.vb: New(String, Camp, String, String, String)
+  fullName: neo_bpsys_wpf.Core.Models.Character.Character(string, neo_bpsys_wpf.Core.Enums.Camp, string, string?, string?)
+  fullName.vb: neo_bpsys_wpf.Core.Models.Character.New(String, neo_bpsys_wpf.Core.Enums.Camp, String, String, String)
+  nameWithType: Character.Character(string, Camp, string, string?, string?)
+  nameWithType.vb: Character.New(String, Camp, String, String, String)
 - uid: neo_bpsys_wpf.Core.Models.Character.#ctor(neo_bpsys_wpf.Core.Enums.Camp)
   name: Character(Camp)
   href: api/neo_bpsys_wpf.Core.Models.Character.html#neo_bpsys_wpf_Core_Models_Character__ctor_neo_bpsys_wpf_Core_Enums_Camp_
@@ -8673,6 +9058,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordArray
   nameWithType: Team.GlobalBannedHunRecordArray
+- uid: neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordList
+  name: GlobalBannedHunRecordList
+  href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team_GlobalBannedHunRecordList
+  commentId: P:neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordList
+  fullName: neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordList
+  nameWithType: Team.GlobalBannedHunRecordList
+- uid: neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordList*
+  name: GlobalBannedHunRecordList
+  href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team_GlobalBannedHunRecordList_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordList
+  nameWithType: Team.GlobalBannedHunRecordList
 - uid: neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurList
   name: GlobalBannedSurList
   href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team_GlobalBannedSurList
@@ -8699,6 +9097,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordArray
   nameWithType: Team.GlobalBannedSurRecordArray
+- uid: neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordList
+  name: GlobalBannedSurRecordList
+  href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team_GlobalBannedSurRecordList
+  commentId: P:neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordList
+  fullName: neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordList
+  nameWithType: Team.GlobalBannedSurRecordList
+- uid: neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordList*
+  name: GlobalBannedSurRecordList
+  href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team_GlobalBannedSurRecordList_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordList
+  nameWithType: Team.GlobalBannedSurRecordList
 - uid: neo_bpsys_wpf.Core.Models.Team.HunMemberList
   name: HunMemberList
   href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team_HunMemberList
@@ -8874,6 +9285,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.Team.TeamType
   nameWithType: Team.TeamType
+- uid: neo_bpsys_wpf.Core.Models.Team.UpdateGlobalBanFromRecord
+  name: UpdateGlobalBanFromRecord()
+  href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team_UpdateGlobalBanFromRecord
+  commentId: M:neo_bpsys_wpf.Core.Models.Team.UpdateGlobalBanFromRecord
+  fullName: neo_bpsys_wpf.Core.Models.Team.UpdateGlobalBanFromRecord()
+  nameWithType: Team.UpdateGlobalBanFromRecord()
+- uid: neo_bpsys_wpf.Core.Models.Team.UpdateGlobalBanFromRecord*
+  name: UpdateGlobalBanFromRecord
+  href: api/neo_bpsys_wpf.Core.Models.Team.html#neo_bpsys_wpf_Core_Models_Team_UpdateGlobalBanFromRecord_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.Team.UpdateGlobalBanFromRecord
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.Team.UpdateGlobalBanFromRecord
+  nameWithType: Team.UpdateGlobalBanFromRecord
 - uid: neo_bpsys_wpf.Core.Models.TextSettings
   name: TextSettings
   href: api/neo_bpsys_wpf.Core.Models.TextSettings.html
@@ -9043,6 +9467,45 @@ references:
   commentId: T:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings
   fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings
   nameWithType: WidgetsWindowSettings
+- uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.AllowsWindowTransparency
+  name: AllowsWindowTransparency
+  href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_AllowsWindowTransparency
+  commentId: P:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.AllowsWindowTransparency
+  fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.AllowsWindowTransparency
+  nameWithType: WidgetsWindowSettings.AllowsWindowTransparency
+- uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.AllowsWindowTransparency*
+  name: AllowsWindowTransparency
+  href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_AllowsWindowTransparency_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.AllowsWindowTransparency
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.AllowsWindowTransparency
+  nameWithType: WidgetsWindowSettings.AllowsWindowTransparency
+- uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundBrush
+  name: BackgroundBrush
+  href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_BackgroundBrush
+  commentId: P:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundBrush
+  fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundBrush
+  nameWithType: WidgetsWindowSettings.BackgroundBrush
+- uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundBrush*
+  name: BackgroundBrush
+  href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_BackgroundBrush_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundBrush
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundBrush
+  nameWithType: WidgetsWindowSettings.BackgroundBrush
+- uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundColor
+  name: BackgroundColor
+  href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_BackgroundColor
+  commentId: P:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundColor
+  fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundColor
+  nameWithType: WidgetsWindowSettings.BackgroundColor
+- uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundColor*
+  name: BackgroundColor
+  href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_BackgroundColor_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundColor
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BackgroundColor
+  nameWithType: WidgetsWindowSettings.BackgroundColor
 - uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.BpOverviewBgImage
   name: BpOverviewBgImage
   href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_BpOverviewBgImage
@@ -9987,6 +10450,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.AllFrontendWindows
   nameWithType: Lang.AllFrontendWindows
+- uid: neo_bpsys_wpf.Locales.Lang.AllowsWindowTransparency
+  name: AllowsWindowTransparency
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AllowsWindowTransparency
+  commentId: P:neo_bpsys_wpf.Locales.Lang.AllowsWindowTransparency
+  fullName: neo_bpsys_wpf.Locales.Lang.AllowsWindowTransparency
+  nameWithType: Lang.AllowsWindowTransparency
+- uid: neo_bpsys_wpf.Locales.Lang.AllowsWindowTransparency*
+  name: AllowsWindowTransparency
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AllowsWindowTransparency_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.AllowsWindowTransparency
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.AllowsWindowTransparency
+  nameWithType: Lang.AllowsWindowTransparency
 - uid: neo_bpsys_wpf.Locales.Lang.AlreadyFirstStep
   name: AlreadyFirstStep
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AlreadyFirstStep
@@ -10351,6 +10827,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.Backend
   nameWithType: Lang.Backend
+- uid: neo_bpsys_wpf.Locales.Lang.BackgroundColor
+  name: BackgroundColor
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_BackgroundColor
+  commentId: P:neo_bpsys_wpf.Locales.Lang.BackgroundColor
+  fullName: neo_bpsys_wpf.Locales.Lang.BackgroundColor
+  nameWithType: Lang.BackgroundColor
+- uid: neo_bpsys_wpf.Locales.Lang.BackgroundColor*
+  name: BackgroundColor
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_BackgroundColor_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.BackgroundColor
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.BackgroundColor
+  nameWithType: Lang.BackgroundColor
 - uid: neo_bpsys_wpf.Locales.Lang.Ban
   name: Ban
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_Ban
@@ -10455,19 +10944,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.Blink
   nameWithType: Lang.Blink
-- uid: neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
-  name: BuiltInPluginCannotBeUninstalled
-  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_BuiltInPluginCannotBeUninstalled
-  commentId: P:neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
-  fullName: neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
-  nameWithType: Lang.BuiltInPluginCannotBeUninstalled
-- uid: neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled*
-  name: BuiltInPluginCannotBeUninstalled
-  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_BuiltInPluginCannotBeUninstalled_
-  commentId: Overload:neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
+- uid: neo_bpsys_wpf.Locales.Lang.BpuiFiles
+  name: BpuiFiles
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_BpuiFiles
+  commentId: P:neo_bpsys_wpf.Locales.Lang.BpuiFiles
+  fullName: neo_bpsys_wpf.Locales.Lang.BpuiFiles
+  nameWithType: Lang.BpuiFiles
+- uid: neo_bpsys_wpf.Locales.Lang.BpuiFiles*
+  name: BpuiFiles
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_BpuiFiles_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.BpuiFiles
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Locales.Lang.BuiltInPluginCannotBeUninstalled
-  nameWithType: Lang.BuiltInPluginCannotBeUninstalled
+  fullName: neo_bpsys_wpf.Locales.Lang.BpuiFiles
+  nameWithType: Lang.BpuiFiles
 - uid: neo_bpsys_wpf.Locales.Lang.CampIconColorInScoreStatistics
   name: CampIconColorInScoreStatistics
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_CampIconColorInScoreStatistics
@@ -13653,6 +14142,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.PluginMarket
   nameWithType: Lang.PluginMarket
+- uid: neo_bpsys_wpf.Locales.Lang.PluginNotRemovable
+  name: PluginNotRemovable
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_PluginNotRemovable
+  commentId: P:neo_bpsys_wpf.Locales.Lang.PluginNotRemovable
+  fullName: neo_bpsys_wpf.Locales.Lang.PluginNotRemovable
+  nameWithType: Lang.PluginNotRemovable
+- uid: neo_bpsys_wpf.Locales.Lang.PluginNotRemovable*
+  name: PluginNotRemovable
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_PluginNotRemovable_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.PluginNotRemovable
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.PluginNotRemovable
+  nameWithType: Lang.PluginNotRemovable
 - uid: neo_bpsys_wpf.Locales.Lang.PluginStatus
   name: PluginStatus
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_PluginStatus
@@ -15206,6 +15708,243 @@ references:
   commentId: N:neo_bpsys_wpf.Services
   fullName: neo_bpsys_wpf.Services
   nameWithType: neo_bpsys_wpf.Services
+- uid: neo_bpsys_wpf.Services.AnimationService
+  name: AnimationService
+  href: api/neo_bpsys_wpf.Services.AnimationService.html
+  commentId: T:neo_bpsys_wpf.Services.AnimationService
+  fullName: neo_bpsys_wpf.Services.AnimationService
+  nameWithType: AnimationService
+- uid: neo_bpsys_wpf.Services.AnimationService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
+  name: AnimationService(IFrontedWindowService)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_IFrontedWindowService_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
+  name.vb: New(IFrontedWindowService)
+  fullName: neo_bpsys_wpf.Services.AnimationService.AnimationService(neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.New(neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
+  nameWithType: AnimationService.AnimationService(IFrontedWindowService)
+  nameWithType.vb: AnimationService.New(IFrontedWindowService)
+- uid: neo_bpsys_wpf.Services.AnimationService.#ctor*
+  name: AnimationService
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService__ctor_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Services.AnimationService.AnimationService
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.New
+  nameWithType: AnimationService.AnimationService
+  nameWithType.vb: AnimationService.New
+- uid: neo_bpsys_wpf.Services.AnimationService.BreathingStart(System.String,System.String,System.Int32,System.String)
+  name: BreathingStart(string, string, int, string)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_BreathingStart_System_String_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.BreathingStart(System.String,System.String,System.Int32,System.String)
+  name.vb: BreathingStart(String, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.AnimationService.BreathingStart(string, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.BreathingStart(String, String, Integer, String)
+  nameWithType: AnimationService.BreathingStart(string, string, int, string)
+  nameWithType.vb: AnimationService.BreathingStart(String, String, Integer, String)
+- uid: neo_bpsys_wpf.Services.AnimationService.BreathingStart(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name: BreathingStart(FrontedWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_BreathingStart_neo_bpsys_wpf_Core_Enums_FrontedWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.BreathingStart(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name.vb: BreathingStart(FrontedWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.AnimationService.BreathingStart(neo_bpsys_wpf.Core.Enums.FrontedWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.BreathingStart(neo_bpsys_wpf.Core.Enums.FrontedWindowType, String, Integer, String)
+  nameWithType: AnimationService.BreathingStart(FrontedWindowType, string, int, string)
+  nameWithType.vb: AnimationService.BreathingStart(FrontedWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Services.AnimationService.BreathingStart*
+  name: BreathingStart
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_BreathingStart_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.BreathingStart
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.BreathingStart
+  nameWithType: AnimationService.BreathingStart
+- uid: neo_bpsys_wpf.Services.AnimationService.BreathingStop(System.String,System.String,System.Int32,System.String)
+  name: BreathingStop(string, string, int, string)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_BreathingStop_System_String_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.BreathingStop(System.String,System.String,System.Int32,System.String)
+  name.vb: BreathingStop(String, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.AnimationService.BreathingStop(string, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.BreathingStop(String, String, Integer, String)
+  nameWithType: AnimationService.BreathingStop(string, string, int, string)
+  nameWithType.vb: AnimationService.BreathingStop(String, String, Integer, String)
+- uid: neo_bpsys_wpf.Services.AnimationService.BreathingStop(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name: BreathingStop(FrontedWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_BreathingStop_neo_bpsys_wpf_Core_Enums_FrontedWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.BreathingStop(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name.vb: BreathingStop(FrontedWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.AnimationService.BreathingStop(neo_bpsys_wpf.Core.Enums.FrontedWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.BreathingStop(neo_bpsys_wpf.Core.Enums.FrontedWindowType, String, Integer, String)
+  nameWithType: AnimationService.BreathingStop(FrontedWindowType, string, int, string)
+  nameWithType.vb: AnimationService.BreathingStop(FrontedWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Services.AnimationService.BreathingStop*
+  name: BreathingStop
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_BreathingStop_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.BreathingStop
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.BreathingStop
+  nameWithType: AnimationService.BreathingStop
+- uid: neo_bpsys_wpf.Services.AnimationService.FadeInAnimation(System.String,System.String,System.Int32,System.String)
+  name: FadeInAnimation(string, string, int, string)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_FadeInAnimation_System_String_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.FadeInAnimation(System.String,System.String,System.Int32,System.String)
+  name.vb: FadeInAnimation(String, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.AnimationService.FadeInAnimation(string, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.FadeInAnimation(String, String, Integer, String)
+  nameWithType: AnimationService.FadeInAnimation(string, string, int, string)
+  nameWithType.vb: AnimationService.FadeInAnimation(String, String, Integer, String)
+- uid: neo_bpsys_wpf.Services.AnimationService.FadeInAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name: FadeInAnimation(FrontedWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_FadeInAnimation_neo_bpsys_wpf_Core_Enums_FrontedWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.FadeInAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name.vb: FadeInAnimation(FrontedWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.AnimationService.FadeInAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.FadeInAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType, String, Integer, String)
+  nameWithType: AnimationService.FadeInAnimation(FrontedWindowType, string, int, string)
+  nameWithType.vb: AnimationService.FadeInAnimation(FrontedWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Services.AnimationService.FadeInAnimation*
+  name: FadeInAnimation
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_FadeInAnimation_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.FadeInAnimation
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.FadeInAnimation
+  nameWithType: AnimationService.FadeInAnimation
+- uid: neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation(System.String,System.String,System.Int32,System.String)
+  name: FadeOutAnimation(string, string, int, string)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_FadeOutAnimation_System_String_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation(System.String,System.String,System.Int32,System.String)
+  name.vb: FadeOutAnimation(String, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation(string, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation(String, String, Integer, String)
+  nameWithType: AnimationService.FadeOutAnimation(string, string, int, string)
+  nameWithType.vb: AnimationService.FadeOutAnimation(String, String, Integer, String)
+- uid: neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name: FadeOutAnimation(FrontedWindowType, string, int, string)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_FadeOutAnimation_neo_bpsys_wpf_Core_Enums_FrontedWindowType_System_String_System_Int32_System_String_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType,System.String,System.Int32,System.String)
+  name.vb: FadeOutAnimation(FrontedWindowType, String, Integer, String)
+  fullName: neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType, string, int, string)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation(neo_bpsys_wpf.Core.Enums.FrontedWindowType, String, Integer, String)
+  nameWithType: AnimationService.FadeOutAnimation(FrontedWindowType, string, int, string)
+  nameWithType.vb: AnimationService.FadeOutAnimation(FrontedWindowType, String, Integer, String)
+- uid: neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation*
+  name: FadeOutAnimation
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_FadeOutAnimation_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.FadeOutAnimation
+  nameWithType: AnimationService.FadeOutAnimation
+- uid: neo_bpsys_wpf.Services.AnimationService.PlayBanAnimationAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: PlayBanAnimationAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlayBanAnimationAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.PlayBanAnimationAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: PlayBanAnimationAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlayBanAnimationAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.PlayBanAnimationAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: AnimationService.PlayBanAnimationAsync(Camp, int)
+  nameWithType.vb: AnimationService.PlayBanAnimationAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Services.AnimationService.PlayBanAnimationAsync*
+  name: PlayBanAnimationAsync
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlayBanAnimationAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.PlayBanAnimationAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlayBanAnimationAsync
+  nameWithType: AnimationService.PlayBanAnimationAsync
+- uid: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeIn(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: PlayPickFadeIn(Camp, int)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlayPickFadeIn_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.PlayPickFadeIn(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: PlayPickFadeIn(Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeIn(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeIn(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: AnimationService.PlayPickFadeIn(Camp, int)
+  nameWithType.vb: AnimationService.PlayPickFadeIn(Camp, Integer)
+- uid: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeIn*
+  name: PlayPickFadeIn
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlayPickFadeIn_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.PlayPickFadeIn
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeIn
+  nameWithType: AnimationService.PlayPickFadeIn
+- uid: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeOut(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: PlayPickFadeOut(Camp, int)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlayPickFadeOut_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.PlayPickFadeOut(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: PlayPickFadeOut(Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeOut(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeOut(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: AnimationService.PlayPickFadeOut(Camp, int)
+  nameWithType.vb: AnimationService.PlayPickFadeOut(Camp, Integer)
+- uid: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeOut*
+  name: PlayPickFadeOut
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlayPickFadeOut_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.PlayPickFadeOut
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlayPickFadeOut
+  nameWithType: AnimationService.PlayPickFadeOut
+- uid: neo_bpsys_wpf.Services.AnimationService.PlayPickTransitionAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: PlayPickTransitionAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlayPickTransitionAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.PlayPickTransitionAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: PlayPickTransitionAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlayPickTransitionAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.PlayPickTransitionAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: AnimationService.PlayPickTransitionAsync(Camp, int)
+  nameWithType.vb: AnimationService.PlayPickTransitionAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Services.AnimationService.PlayPickTransitionAsync*
+  name: PlayPickTransitionAsync
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlayPickTransitionAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.PlayPickTransitionAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlayPickTransitionAsync
+  nameWithType: AnimationService.PlayPickTransitionAsync
+- uid: neo_bpsys_wpf.Services.AnimationService.PlaySwapCharacterAnimationAsync(System.Int32,System.Int32)
+  name: PlaySwapCharacterAnimationAsync(int, int)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlaySwapCharacterAnimationAsync_System_Int32_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.PlaySwapCharacterAnimationAsync(System.Int32,System.Int32)
+  name.vb: PlaySwapCharacterAnimationAsync(Integer, Integer)
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlaySwapCharacterAnimationAsync(int, int)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.PlaySwapCharacterAnimationAsync(Integer, Integer)
+  nameWithType: AnimationService.PlaySwapCharacterAnimationAsync(int, int)
+  nameWithType.vb: AnimationService.PlaySwapCharacterAnimationAsync(Integer, Integer)
+- uid: neo_bpsys_wpf.Services.AnimationService.PlaySwapCharacterAnimationAsync*
+  name: PlaySwapCharacterAnimationAsync
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_PlaySwapCharacterAnimationAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.PlaySwapCharacterAnimationAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.PlaySwapCharacterAnimationAsync
+  nameWithType: AnimationService.PlaySwapCharacterAnimationAsync
+- uid: neo_bpsys_wpf.Services.AnimationService.StartPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: StartPickingBorderBreathingAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_StartPickingBorderBreathingAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.StartPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: StartPickingBorderBreathingAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.AnimationService.StartPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.StartPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: AnimationService.StartPickingBorderBreathingAsync(Camp, int)
+  nameWithType.vb: AnimationService.StartPickingBorderBreathingAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Services.AnimationService.StartPickingBorderBreathingAsync*
+  name: StartPickingBorderBreathingAsync
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_StartPickingBorderBreathingAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.StartPickingBorderBreathingAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.StartPickingBorderBreathingAsync
+  nameWithType: AnimationService.StartPickingBorderBreathingAsync
+- uid: neo_bpsys_wpf.Services.AnimationService.StopPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: StopPickingBorderBreathingAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_StopPickingBorderBreathingAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.AnimationService.StopPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: StopPickingBorderBreathingAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.AnimationService.StopPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.AnimationService.StopPickingBorderBreathingAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: AnimationService.StopPickingBorderBreathingAsync(Camp, int)
+  nameWithType.vb: AnimationService.StopPickingBorderBreathingAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Services.AnimationService.StopPickingBorderBreathingAsync*
+  name: StopPickingBorderBreathingAsync
+  href: api/neo_bpsys_wpf.Services.AnimationService.html#neo_bpsys_wpf_Services_AnimationService_StopPickingBorderBreathingAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.AnimationService.StopPickingBorderBreathingAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.AnimationService.StopPickingBorderBreathingAsync
+  nameWithType: AnimationService.StopPickingBorderBreathingAsync
 - uid: neo_bpsys_wpf.Services.ApplicationHostService
   name: ApplicationHostService
   href: api/neo_bpsys_wpf.Services.ApplicationHostService.html
@@ -15257,12 +15996,159 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Services.ApplicationHostService.StopAsync
   nameWithType: ApplicationHostService.StopAsync
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService
+  name: CharacterSelectionService
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html
+  commentId: T:neo_bpsys_wpf.Services.CharacterSelectionService
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService
+  nameWithType: CharacterSelectionService
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService)
+  name: CharacterSelectionService(ISharedDataService, IAnimationService)
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_
+  commentId: M:neo_bpsys_wpf.Services.CharacterSelectionService.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService)
+  name.vb: New(ISharedDataService, IAnimationService)
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.CharacterSelectionService(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService)
+  fullName.vb: neo_bpsys_wpf.Services.CharacterSelectionService.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService)
+  nameWithType: CharacterSelectionService.CharacterSelectionService(ISharedDataService, IAnimationService)
+  nameWithType.vb: CharacterSelectionService.New(ISharedDataService, IAnimationService)
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.#ctor*
+  name: CharacterSelectionService
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService__ctor_
+  commentId: Overload:neo_bpsys_wpf.Services.CharacterSelectionService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.CharacterSelectionService
+  fullName.vb: neo_bpsys_wpf.Services.CharacterSelectionService.New
+  nameWithType: CharacterSelectionService.CharacterSelectionService
+  nameWithType.vb: CharacterSelectionService.New
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.AnimationService
+  name: AnimationService
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_AnimationService
+  commentId: P:neo_bpsys_wpf.Services.CharacterSelectionService.AnimationService
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.AnimationService
+  nameWithType: CharacterSelectionService.AnimationService
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.AnimationService*
+  name: AnimationService
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_AnimationService_
+  commentId: Overload:neo_bpsys_wpf.Services.CharacterSelectionService.AnimationService
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.AnimationService
+  nameWithType: CharacterSelectionService.AnimationService
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.BanCharacterAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32,neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name: BanCharacterAsync(Camp, int, Character?, bool)
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_BanCharacterAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_neo_bpsys_wpf_Core_Models_Character_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Services.CharacterSelectionService.BanCharacterAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32,neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name.vb: BanCharacterAsync(Camp, Integer, Character, Boolean)
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.BanCharacterAsync(neo_bpsys_wpf.Core.Enums.Camp, int, neo_bpsys_wpf.Core.Models.Character?, bool)
+  fullName.vb: neo_bpsys_wpf.Services.CharacterSelectionService.BanCharacterAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer, neo_bpsys_wpf.Core.Models.Character, Boolean)
+  nameWithType: CharacterSelectionService.BanCharacterAsync(Camp, int, Character?, bool)
+  nameWithType.vb: CharacterSelectionService.BanCharacterAsync(Camp, Integer, Character, Boolean)
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.BanCharacterAsync*
+  name: BanCharacterAsync
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_BanCharacterAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.CharacterSelectionService.BanCharacterAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.BanCharacterAsync
+  nameWithType: CharacterSelectionService.BanCharacterAsync
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.SelectHunterAsync(neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name: SelectHunterAsync(Character?, bool)
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_SelectHunterAsync_neo_bpsys_wpf_Core_Models_Character_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Services.CharacterSelectionService.SelectHunterAsync(neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name.vb: SelectHunterAsync(Character, Boolean)
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.SelectHunterAsync(neo_bpsys_wpf.Core.Models.Character?, bool)
+  fullName.vb: neo_bpsys_wpf.Services.CharacterSelectionService.SelectHunterAsync(neo_bpsys_wpf.Core.Models.Character, Boolean)
+  nameWithType: CharacterSelectionService.SelectHunterAsync(Character?, bool)
+  nameWithType.vb: CharacterSelectionService.SelectHunterAsync(Character, Boolean)
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.SelectHunterAsync*
+  name: SelectHunterAsync
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_SelectHunterAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.CharacterSelectionService.SelectHunterAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.SelectHunterAsync
+  nameWithType: CharacterSelectionService.SelectHunterAsync
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.SelectSurvivorAsync(System.Int32,neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name: SelectSurvivorAsync(int, Character?, bool)
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_SelectSurvivorAsync_System_Int32_neo_bpsys_wpf_Core_Models_Character_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Services.CharacterSelectionService.SelectSurvivorAsync(System.Int32,neo_bpsys_wpf.Core.Models.Character,System.Boolean)
+  name.vb: SelectSurvivorAsync(Integer, Character, Boolean)
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.SelectSurvivorAsync(int, neo_bpsys_wpf.Core.Models.Character?, bool)
+  fullName.vb: neo_bpsys_wpf.Services.CharacterSelectionService.SelectSurvivorAsync(Integer, neo_bpsys_wpf.Core.Models.Character, Boolean)
+  nameWithType: CharacterSelectionService.SelectSurvivorAsync(int, Character?, bool)
+  nameWithType.vb: CharacterSelectionService.SelectSurvivorAsync(Integer, Character, Boolean)
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.SelectSurvivorAsync*
+  name: SelectSurvivorAsync
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_SelectSurvivorAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.CharacterSelectionService.SelectSurvivorAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.SelectSurvivorAsync
+  nameWithType: CharacterSelectionService.SelectSurvivorAsync
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.StartPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: StartPickingIndicatorAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_StartPickingIndicatorAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.CharacterSelectionService.StartPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: StartPickingIndicatorAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.StartPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.CharacterSelectionService.StartPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: CharacterSelectionService.StartPickingIndicatorAsync(Camp, int)
+  nameWithType.vb: CharacterSelectionService.StartPickingIndicatorAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.StartPickingIndicatorAsync*
+  name: StartPickingIndicatorAsync
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_StartPickingIndicatorAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.CharacterSelectionService.StartPickingIndicatorAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.StartPickingIndicatorAsync
+  nameWithType: CharacterSelectionService.StartPickingIndicatorAsync
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.StopPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name: StopPickingIndicatorAsync(Camp, int)
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_StopPickingIndicatorAsync_neo_bpsys_wpf_Core_Enums_Camp_System_Int32_
+  commentId: M:neo_bpsys_wpf.Services.CharacterSelectionService.StopPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp,System.Int32)
+  name.vb: StopPickingIndicatorAsync(Camp, Integer)
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.StopPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp, int)
+  fullName.vb: neo_bpsys_wpf.Services.CharacterSelectionService.StopPickingIndicatorAsync(neo_bpsys_wpf.Core.Enums.Camp, Integer)
+  nameWithType: CharacterSelectionService.StopPickingIndicatorAsync(Camp, int)
+  nameWithType.vb: CharacterSelectionService.StopPickingIndicatorAsync(Camp, Integer)
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.StopPickingIndicatorAsync*
+  name: StopPickingIndicatorAsync
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_StopPickingIndicatorAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.CharacterSelectionService.StopPickingIndicatorAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.StopPickingIndicatorAsync
+  nameWithType: CharacterSelectionService.StopPickingIndicatorAsync
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.SwapSurvivorsAsync(System.Int32,System.Int32,System.Boolean)
+  name: SwapSurvivorsAsync(int, int, bool)
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_SwapSurvivorsAsync_System_Int32_System_Int32_System_Boolean_
+  commentId: M:neo_bpsys_wpf.Services.CharacterSelectionService.SwapSurvivorsAsync(System.Int32,System.Int32,System.Boolean)
+  name.vb: SwapSurvivorsAsync(Integer, Integer, Boolean)
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.SwapSurvivorsAsync(int, int, bool)
+  fullName.vb: neo_bpsys_wpf.Services.CharacterSelectionService.SwapSurvivorsAsync(Integer, Integer, Boolean)
+  nameWithType: CharacterSelectionService.SwapSurvivorsAsync(int, int, bool)
+  nameWithType.vb: CharacterSelectionService.SwapSurvivorsAsync(Integer, Integer, Boolean)
+- uid: neo_bpsys_wpf.Services.CharacterSelectionService.SwapSurvivorsAsync*
+  name: SwapSurvivorsAsync
+  href: api/neo_bpsys_wpf.Services.CharacterSelectionService.html#neo_bpsys_wpf_Services_CharacterSelectionService_SwapSurvivorsAsync_
+  commentId: Overload:neo_bpsys_wpf.Services.CharacterSelectionService.SwapSurvivorsAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.CharacterSelectionService.SwapSurvivorsAsync
+  nameWithType: CharacterSelectionService.SwapSurvivorsAsync
 - uid: neo_bpsys_wpf.Services.FilePickerService
   name: FilePickerService
   href: api/neo_bpsys_wpf.Services.FilePickerService.html
   commentId: T:neo_bpsys_wpf.Services.FilePickerService
   fullName: neo_bpsys_wpf.Services.FilePickerService
   nameWithType: FilePickerService
+- uid: neo_bpsys_wpf.Services.FilePickerService.PickBpuiFile
+  name: PickBpuiFile()
+  href: api/neo_bpsys_wpf.Services.FilePickerService.html#neo_bpsys_wpf_Services_FilePickerService_PickBpuiFile
+  commentId: M:neo_bpsys_wpf.Services.FilePickerService.PickBpuiFile
+  fullName: neo_bpsys_wpf.Services.FilePickerService.PickBpuiFile()
+  nameWithType: FilePickerService.PickBpuiFile()
+- uid: neo_bpsys_wpf.Services.FilePickerService.PickBpuiFile*
+  name: PickBpuiFile
+  href: api/neo_bpsys_wpf.Services.FilePickerService.html#neo_bpsys_wpf_Services_FilePickerService_PickBpuiFile_
+  commentId: Overload:neo_bpsys_wpf.Services.FilePickerService.PickBpuiFile
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Services.FilePickerService.PickBpuiFile
+  nameWithType: FilePickerService.PickBpuiFile
 - uid: neo_bpsys_wpf.Services.FilePickerService.PickImage
   name: PickImage()
   href: api/neo_bpsys_wpf.Services.FilePickerService.html#neo_bpsys_wpf_Services_FilePickerService_PickImage
@@ -17308,15 +18194,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.New()
   nameWithType: BanHunPageViewModel.BanHunPageViewModel()
   nameWithType.vb: BanHunPageViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
-  name: BanHunPageViewModel(ISharedDataService)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunPageViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
-  nameWithType: BanHunPageViewModel.BanHunPageViewModel(ISharedDataService)
-  nameWithType.vb: BanHunPageViewModel.New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  name: BanHunPageViewModel(ISharedDataService, ICharacterSelectionService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  name.vb: New(ISharedDataService, ICharacterSelectionService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunPageViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  nameWithType: BanHunPageViewModel.BanHunPageViewModel(ISharedDataService, ICharacterSelectionService)
+  nameWithType.vb: BanHunPageViewModel.New(ISharedDataService, ICharacterSelectionService)
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.#ctor*
   name: BanHunPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel__ctor_
@@ -17333,15 +18219,15 @@ references:
   commentId: T:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel
   nameWithType: BanHunPageViewModel.BanHunCurrentViewModel
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
-  name: BanHunCurrentViewModel(ISharedDataService, int)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
-  name.vb: New(ISharedDataService, Integer)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.BanHunCurrentViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, int)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, Integer)
-  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.BanHunCurrentViewModel(ISharedDataService, int)
-  nameWithType.vb: BanHunPageViewModel.BanHunCurrentViewModel.New(ISharedDataService, Integer)
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,System.Int32)
+  name: BanHunCurrentViewModel(ISharedDataService, ICharacterSelectionService, int)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_System_Int32_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,System.Int32)
+  name.vb: New(ISharedDataService, ICharacterSelectionService, Integer)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.BanHunCurrentViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService, int)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService, Integer)
+  nameWithType: BanHunPageViewModel.BanHunCurrentViewModel.BanHunCurrentViewModel(ISharedDataService, ICharacterSelectionService, int)
+  nameWithType.vb: BanHunPageViewModel.BanHunCurrentViewModel.New(ISharedDataService, ICharacterSelectionService, Integer)
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.#ctor*
   name: BanHunCurrentViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanHunPageViewModel.BanHunCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanHunPageViewModel_BanHunCurrentViewModel__ctor_
@@ -17535,15 +18421,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.New()
   nameWithType: BanSurPageViewModel.BanSurPageViewModel()
   nameWithType.vb: BanSurPageViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
-  name: BanSurPageViewModel(ISharedDataService)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
-  name.vb: New(ISharedDataService)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurPageViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService)
-  nameWithType: BanSurPageViewModel.BanSurPageViewModel(ISharedDataService)
-  nameWithType.vb: BanSurPageViewModel.New(ISharedDataService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  name: BanSurPageViewModel(ISharedDataService, ICharacterSelectionService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  name.vb: New(ISharedDataService, ICharacterSelectionService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurPageViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  nameWithType: BanSurPageViewModel.BanSurPageViewModel(ISharedDataService, ICharacterSelectionService)
+  nameWithType.vb: BanSurPageViewModel.New(ISharedDataService, ICharacterSelectionService)
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.#ctor*
   name: BanSurPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel__ctor_
@@ -17560,15 +18446,15 @@ references:
   commentId: T:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel
   fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel
   nameWithType: BanSurPageViewModel.BanSurCurrentViewModel
-- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
-  name: BanSurCurrentViewModel(ISharedDataService, int)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
-  name.vb: New(ISharedDataService, Integer)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.BanSurCurrentViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, int)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, Integer)
-  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.BanSurCurrentViewModel(ISharedDataService, int)
-  nameWithType.vb: BanSurPageViewModel.BanSurCurrentViewModel.New(ISharedDataService, Integer)
+- uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,System.Int32)
+  name: BanSurCurrentViewModel(ISharedDataService, ICharacterSelectionService, int)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_System_Int32_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,System.Int32)
+  name.vb: New(ISharedDataService, ICharacterSelectionService, Integer)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.BanSurCurrentViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService, int)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService, Integer)
+  nameWithType: BanSurPageViewModel.BanSurCurrentViewModel.BanSurCurrentViewModel(ISharedDataService, ICharacterSelectionService, int)
+  nameWithType.vb: BanSurPageViewModel.BanSurCurrentViewModel.New(ISharedDataService, ICharacterSelectionService, Integer)
 - uid: neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.#ctor*
   name: BanSurCurrentViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.BanSurPageViewModel.BanSurCurrentViewModel.html#neo_bpsys_wpf_ViewModels_Pages_BanSurPageViewModel_BanSurCurrentViewModel__ctor_
@@ -18480,15 +19366,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.New()
   nameWithType: PickPageViewModel.PickPageViewModel()
   nameWithType.vb: PickPageViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
-  name: PickPageViewModel(ISharedDataService, IFrontedWindowService)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IFrontedWindowService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
-  name.vb: New(ISharedDataService, IFrontedWindowService)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickPageViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
-  nameWithType: PickPageViewModel.PickPageViewModel(ISharedDataService, IFrontedWindowService)
-  nameWithType.vb: PickPageViewModel.New(ISharedDataService, IFrontedWindowService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService)
+  name: PickPageViewModel(ISharedDataService, ICharacterSelectionService, IAnimationService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_neo_bpsys_wpf_Core_Abstractions_Services_IAnimationService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService)
+  name.vb: New(ISharedDataService, ICharacterSelectionService, IAnimationService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.PickPageViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService, neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService, neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService)
+  nameWithType: PickPageViewModel.PickPageViewModel(ISharedDataService, ICharacterSelectionService, IAnimationService)
+  nameWithType.vb: PickPageViewModel.New(ISharedDataService, ICharacterSelectionService, IAnimationService)
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.#ctor*
   name: PickPageViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel__ctor_
@@ -18718,21 +19604,227 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.AwayTeam
   nameWithType: PickPageViewModel.AwayTeam
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel
+  name: PickPageViewModel.HomeHunGlobalBanRecordViewModel
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html
+  commentId: T:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
+  name: HomeHunGlobalBanRecordViewModel(ISharedDataService, int)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
+  name.vb: New(ISharedDataService, Integer)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.HomeHunGlobalBanRecordViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, int)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, Integer)
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.HomeHunGlobalBanRecordViewModel(ISharedDataService, int)
+  nameWithType.vb: PickPageViewModel.HomeHunGlobalBanRecordViewModel.New(ISharedDataService, Integer)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.#ctor*
+  name: HomeHunGlobalBanRecordViewModel
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel__ctor_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.HomeHunGlobalBanRecordViewModel
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.New
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.HomeHunGlobalBanRecordViewModel
+  nameWithType.vb: PickPageViewModel.HomeHunGlobalBanRecordViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})
+  name: IsActionNameCorrect(GameAction?)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.IsActionNameCorrect(neo_bpsys_wpf.Core.Enums.GameAction?)
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.IsActionNameCorrect(GameAction?)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.IsActionNameCorrect*
+  name: IsActionNameCorrect
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_IsActionNameCorrect_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.IsActionNameCorrect
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.IsActionNameCorrect
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.IsActionNameCorrect
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.RecordedChara
+  name: RecordedChara
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_RecordedChara
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.RecordedChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.RecordedChara
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.RecordedChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.RecordedChara*
+  name: RecordedChara
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_RecordedChara_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.RecordedChara
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.RecordedChara
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.RecordedChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncIsEnabled
+  name: SyncIsEnabled()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_SyncIsEnabled
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncIsEnabled
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncIsEnabled()
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncIsEnabled()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncIsEnabled*
+  name: SyncIsEnabled
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModel_SyncIsEnabled_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncIsEnabled
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncIsEnabled
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModel.SyncIsEnabled
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModelList
+  name: HomeHunGlobalBanRecordViewModelList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModelList
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModelList
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModelList
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModelList
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModelList*
+  name: HomeHunGlobalBanRecordViewModelList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeHunGlobalBanRecordViewModelList_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModelList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeHunGlobalBanRecordViewModelList
+  nameWithType: PickPageViewModel.HomeHunGlobalBanRecordViewModelList
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel
+  name: PickPageViewModel.HomeSurGlobalBanRecordViewModel
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html
+  commentId: T:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
+  name: HomeSurGlobalBanRecordViewModel(ISharedDataService, int)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
+  name.vb: New(ISharedDataService, Integer)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.HomeSurGlobalBanRecordViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, int)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, Integer)
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.HomeSurGlobalBanRecordViewModel(ISharedDataService, int)
+  nameWithType.vb: PickPageViewModel.HomeSurGlobalBanRecordViewModel.New(ISharedDataService, Integer)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.#ctor*
+  name: HomeSurGlobalBanRecordViewModel
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel__ctor_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.HomeSurGlobalBanRecordViewModel
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.New
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.HomeSurGlobalBanRecordViewModel
+  nameWithType.vb: PickPageViewModel.HomeSurGlobalBanRecordViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})
+  name: IsActionNameCorrect(GameAction?)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.IsActionNameCorrect(neo_bpsys_wpf.Core.Enums.GameAction?)
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.IsActionNameCorrect(GameAction?)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.IsActionNameCorrect*
+  name: IsActionNameCorrect
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_IsActionNameCorrect_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.IsActionNameCorrect
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.IsActionNameCorrect
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.IsActionNameCorrect
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.RecordedChara
+  name: RecordedChara
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_RecordedChara
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.RecordedChara
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.RecordedChara
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.RecordedChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.RecordedChara*
+  name: RecordedChara
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_RecordedChara_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.RecordedChara
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.RecordedChara
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.RecordedChara
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  name: SyncCharaFromSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_SyncCharaFromSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync*
+  name: SyncCharaFromSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_SyncCharaFromSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  name: SyncCharaToSourceAsync()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_SyncCharaToSourceAsync
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaToSourceAsync()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaToSourceAsync*
+  name: SyncCharaToSourceAsync
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_SyncCharaToSourceAsync_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncIsEnabled
+  name: SyncIsEnabled()
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_SyncIsEnabled
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncIsEnabled
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncIsEnabled()
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncIsEnabled()
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncIsEnabled*
+  name: SyncIsEnabled
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModel_SyncIsEnabled_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncIsEnabled
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncIsEnabled
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModel.SyncIsEnabled
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModelList
+  name: HomeSurGlobalBanRecordViewModelList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModelList
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModelList
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModelList
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModelList
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModelList*
+  name: HomeSurGlobalBanRecordViewModelList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HomeSurGlobalBanRecordViewModelList_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModelList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HomeSurGlobalBanRecordViewModelList
+  nameWithType: PickPageViewModel.HomeSurGlobalBanRecordViewModelList
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel
   name: PickPageViewModel.HunPickViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html
   commentId: T:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel
   nameWithType: PickPageViewModel.HunPickViewModel
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
-  name: HunPickViewModel(ISharedDataService, IFrontedWindowService)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IFrontedWindowService_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
-  name.vb: New(ISharedDataService, IFrontedWindowService)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.HunPickViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService)
-  nameWithType: PickPageViewModel.HunPickViewModel.HunPickViewModel(ISharedDataService, IFrontedWindowService)
-  nameWithType.vb: PickPageViewModel.HunPickViewModel.New(ISharedDataService, IFrontedWindowService)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  name: HunPickViewModel(ISharedDataService, ICharacterSelectionService)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  name.vb: New(ISharedDataService, ICharacterSelectionService)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.HunPickViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService)
+  nameWithType: PickPageViewModel.HunPickViewModel.HunPickViewModel(ISharedDataService, ICharacterSelectionService)
+  nameWithType.vb: PickPageViewModel.HunPickViewModel.New(ISharedDataService, ICharacterSelectionService)
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.#ctor*
   name: HunPickViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_HunPickViewModel__ctor_
@@ -18821,212 +19913,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.HunPickingBorder
   nameWithType: PickPageViewModel.HunPickingBorder
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel
-  name: PickPageViewModel.MainHunGlobalBanRecordViewModel
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html
-  commentId: T:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
-  name: MainHunGlobalBanRecordViewModel(ISharedDataService, int)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
-  name.vb: New(ISharedDataService, Integer)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.MainHunGlobalBanRecordViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, int)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, Integer)
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.MainHunGlobalBanRecordViewModel(ISharedDataService, int)
-  nameWithType.vb: PickPageViewModel.MainHunGlobalBanRecordViewModel.New(ISharedDataService, Integer)
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.#ctor*
-  name: MainHunGlobalBanRecordViewModel
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel__ctor_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.MainHunGlobalBanRecordViewModel
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.New
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.MainHunGlobalBanRecordViewModel
-  nameWithType.vb: PickPageViewModel.MainHunGlobalBanRecordViewModel.New
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})
-  name: IsActionNameCorrect(GameAction?)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.IsActionNameCorrect(neo_bpsys_wpf.Core.Enums.GameAction?)
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.IsActionNameCorrect(GameAction?)
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.IsActionNameCorrect*
-  name: IsActionNameCorrect
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_IsActionNameCorrect_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.IsActionNameCorrect
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.IsActionNameCorrect
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.IsActionNameCorrect
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-  name: RecordedChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_RecordedChara
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara*
-  name: RecordedChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_RecordedChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-  name: SyncCharaFromSourceAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaFromSourceAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync*
-  name: SyncCharaFromSourceAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaFromSourceAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
-  name: SyncCharaToSourceAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaToSourceAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync()
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync*
-  name: SyncCharaToSourceAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncCharaToSourceAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncCharaToSourceAsync
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled
-  name: SyncIsEnabled()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncIsEnabled
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled()
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled*
-  name: SyncIsEnabled
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModel_SyncIsEnabled_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModel.SyncIsEnabled
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModelList
-  name: MainHunGlobalBanRecordViewModelList
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModelList
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModelList
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModelList
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModelList
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModelList*
-  name: MainHunGlobalBanRecordViewModelList
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainHunGlobalBanRecordViewModelList_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModelList
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainHunGlobalBanRecordViewModelList
-  nameWithType: PickPageViewModel.MainHunGlobalBanRecordViewModelList
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel
-  name: PickPageViewModel.MainSurGlobalBanRecordViewModel
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html
-  commentId: T:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
-  name: MainSurGlobalBanRecordViewModel(ISharedDataService, int)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_System_Int32_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,System.Int32)
-  name.vb: New(ISharedDataService, Integer)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.MainSurGlobalBanRecordViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, int)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, Integer)
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.MainSurGlobalBanRecordViewModel(ISharedDataService, int)
-  nameWithType.vb: PickPageViewModel.MainSurGlobalBanRecordViewModel.New(ISharedDataService, Integer)
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.#ctor*
-  name: MainSurGlobalBanRecordViewModel
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel__ctor_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.MainSurGlobalBanRecordViewModel
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.New
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.MainSurGlobalBanRecordViewModel
-  nameWithType.vb: PickPageViewModel.MainSurGlobalBanRecordViewModel.New
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})
-  name: IsActionNameCorrect(GameAction?)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_IsActionNameCorrect_System_Nullable_neo_bpsys_wpf_Core_Enums_GameAction__
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.IsActionNameCorrect(System.Nullable{neo_bpsys_wpf.Core.Enums.GameAction})
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.IsActionNameCorrect(neo_bpsys_wpf.Core.Enums.GameAction?)
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.IsActionNameCorrect(GameAction?)
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.IsActionNameCorrect*
-  name: IsActionNameCorrect
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_IsActionNameCorrect_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.IsActionNameCorrect
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.IsActionNameCorrect
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.IsActionNameCorrect
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-  name: RecordedChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_RecordedChara
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara*
-  name: RecordedChara
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_RecordedChara_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.RecordedChara
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-  name: SyncCharaFromSourceAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaFromSourceAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync*
-  name: SyncCharaFromSourceAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaFromSourceAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaFromSourceAsync
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
-  name: SyncCharaToSourceAsync()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaToSourceAsync
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync()
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync*
-  name: SyncCharaToSourceAsync
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncCharaToSourceAsync_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncCharaToSourceAsync
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled
-  name: SyncIsEnabled()
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncIsEnabled
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled()
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled()
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled*
-  name: SyncIsEnabled
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModel_SyncIsEnabled_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModel.SyncIsEnabled
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModelList
-  name: MainSurGlobalBanRecordViewModelList
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModelList
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModelList
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModelList
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModelList
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModelList*
-  name: MainSurGlobalBanRecordViewModelList
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainSurGlobalBanRecordViewModelList_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModelList
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainSurGlobalBanRecordViewModelList
-  nameWithType: PickPageViewModel.MainSurGlobalBanRecordViewModelList
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.MainTeam
   name: MainTeam
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_MainTeam
@@ -19072,15 +19958,15 @@ references:
   commentId: T:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel
   fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel
   nameWithType: PickPageViewModel.SurPickViewModel
-- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService,System.Int32)
-  name: SurPickViewModel(ISharedDataService, IFrontedWindowService, int)
-  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IFrontedWindowService_System_Int32_
-  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService,System.Int32)
-  name.vb: New(ISharedDataService, IFrontedWindowService, Integer)
-  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SurPickViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService, int)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IFrontedWindowService, Integer)
-  nameWithType: PickPageViewModel.SurPickViewModel.SurPickViewModel(ISharedDataService, IFrontedWindowService, int)
-  nameWithType.vb: PickPageViewModel.SurPickViewModel.New(ISharedDataService, IFrontedWindowService, Integer)
+- uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,System.Int32)
+  name: SurPickViewModel(ISharedDataService, ICharacterSelectionService, int)
+  href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_ICharacterSelectionService_System_Int32_
+  commentId: M:neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService,System.Int32)
+  name.vb: New(ISharedDataService, ICharacterSelectionService, Integer)
+  fullName: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.SurPickViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService, int)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService, Integer)
+  nameWithType: PickPageViewModel.SurPickViewModel.SurPickViewModel(ISharedDataService, ICharacterSelectionService, int)
+  nameWithType.vb: PickPageViewModel.SurPickViewModel.New(ISharedDataService, ICharacterSelectionService, Integer)
 - uid: neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.#ctor*
   name: SurPickViewModel
   href: api/neo_bpsys_wpf.ViewModels.Pages.PickPageViewModel.SurPickViewModel.html#neo_bpsys_wpf_ViewModels_Pages_PickPageViewModel_SurPickViewModel__ctor_
@@ -19412,6 +20298,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.GameResult
   nameWithType: ScorePageViewModel.GameGlobalInfo.GameResult
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.HomeTeamCamp
+  name: HomeTeamCamp
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameGlobalInfo_HomeTeamCamp
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.HomeTeamCamp
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.HomeTeamCamp
+  nameWithType: ScorePageViewModel.GameGlobalInfo.HomeTeamCamp
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.HomeTeamCamp*
+  name: HomeTeamCamp
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameGlobalInfo_HomeTeamCamp_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.HomeTeamCamp
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.HomeTeamCamp
+  nameWithType: ScorePageViewModel.GameGlobalInfo.HomeTeamCamp
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.IsGameFinished
   name: IsGameFinished
   href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameGlobalInfo_IsGameFinished
@@ -19425,19 +20324,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.IsGameFinished
   nameWithType: ScorePageViewModel.GameGlobalInfo.IsGameFinished
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.MainTeamCamp
-  name: MainTeamCamp
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameGlobalInfo_MainTeamCamp
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.MainTeamCamp
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.MainTeamCamp
-  nameWithType: ScorePageViewModel.GameGlobalInfo.MainTeamCamp
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.MainTeamCamp*
-  name: MainTeamCamp
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameGlobalInfo_MainTeamCamp_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.MainTeamCamp
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfo.MainTeamCamp
-  nameWithType: ScorePageViewModel.GameGlobalInfo.MainTeamCamp
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GameGlobalInfoRecord
   name: GameGlobalInfoRecord
   href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_GameGlobalInfoRecord
@@ -19477,6 +20363,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.GlobalScoreUpdateToFrontCommand
   nameWithType: ScorePageViewModel.GlobalScoreUpdateToFrontCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeam
+  name: HomeTeam
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_HomeTeam
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeam
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeam
+  nameWithType: ScorePageViewModel.HomeTeam
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeam*
+  name: HomeTeam
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_HomeTeam_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeam
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeam
+  nameWithType: ScorePageViewModel.HomeTeam
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeamCamp
+  name: HomeTeamCamp
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_HomeTeamCamp
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeamCamp
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeamCamp
+  nameWithType: ScorePageViewModel.HomeTeamCamp
+- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeamCamp*
+  name: HomeTeamCamp
+  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_HomeTeamCamp_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeamCamp
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.HomeTeamCamp
+  nameWithType: ScorePageViewModel.HomeTeamCamp
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsDebugContentVisible
   name: IsDebugContentVisible
   href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_IsDebugContentVisible
@@ -19503,32 +20415,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.IsGameFinished
   nameWithType: ScorePageViewModel.IsGameFinished
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeam
-  name: MainTeam
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_MainTeam
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeam
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeam
-  nameWithType: ScorePageViewModel.MainTeam
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeam*
-  name: MainTeam
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_MainTeam_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeam
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeam
-  nameWithType: ScorePageViewModel.MainTeam
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp
-  name: MainTeamCamp
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_MainTeamCamp
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp
-  nameWithType: ScorePageViewModel.MainTeamCamp
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp*
-  name: MainTeamCamp
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_MainTeamCamp_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.MainTeamCamp
-  nameWithType: ScorePageViewModel.MainTeamCamp
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ManualControlCommand
   name: ManualControlCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_ManualControlCommand
@@ -19542,19 +20428,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.ManualControlCommand
   nameWithType: ScorePageViewModel.ManualControlCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand
-  name: NextGameCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_NextGameCommand
-  commentId: P:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand
-  nameWithType: ScorePageViewModel.NextGameCommand
-- uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand*
-  name: NextGameCommand
-  href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_NextGameCommand_
-  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.NextGameCommand
-  nameWithType: ScorePageViewModel.NextGameCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.Out3Command
   name: Out3Command
   href: api/neo_bpsys_wpf.ViewModels.Pages.ScorePageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_ScorePageViewModel_Out3Command
@@ -19709,6 +20582,32 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.New
   nameWithType: SettingPageViewModel.SettingPageViewModel
   nameWithType.vb: SettingPageViewModel.New
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsBpWindowTransparency
+  name: AllowsBpWindowTransparency
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AllowsBpWindowTransparency
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsBpWindowTransparency
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsBpWindowTransparency
+  nameWithType: SettingPageViewModel.AllowsBpWindowTransparency
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsBpWindowTransparency*
+  name: AllowsBpWindowTransparency
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AllowsBpWindowTransparency_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsBpWindowTransparency
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsBpWindowTransparency
+  nameWithType: SettingPageViewModel.AllowsBpWindowTransparency
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsWidgetsTransparency
+  name: AllowsWidgetsTransparency
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AllowsWidgetsTransparency
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsWidgetsTransparency
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsWidgetsTransparency
+  nameWithType: SettingPageViewModel.AllowsWidgetsTransparency
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsWidgetsTransparency*
+  name: AllowsWidgetsTransparency
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AllowsWidgetsTransparency_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsWidgetsTransparency
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsWidgetsTransparency
+  nameWithType: SettingPageViewModel.AllowsWidgetsTransparency
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion
   name: AppVersion
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AppVersion
@@ -19722,6 +20621,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AppVersion
   nameWithType: SettingPageViewModel.AppVersion
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowBackgroundColorSettings
+  name: BpWindowBackgroundColorSettings
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowBackgroundColorSettings
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowBackgroundColorSettings
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowBackgroundColorSettings
+  nameWithType: SettingPageViewModel.BpWindowBackgroundColorSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowBackgroundColorSettings*
+  name: BpWindowBackgroundColorSettings
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowBackgroundColorSettings_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowBackgroundColorSettings
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowBackgroundColorSettings
+  nameWithType: SettingPageViewModel.BpWindowBackgroundColorSettings
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.BpWindowPickingColorSettings
   name: BpWindowPickingColorSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_BpWindowPickingColorSettings
@@ -20164,6 +21076,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetCommand
   nameWithType: SettingPageViewModel.ResetCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowBackgroundColorCommand
+  name: SaveBpWindowBackgroundColorCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveBpWindowBackgroundColorCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowBackgroundColorCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowBackgroundColorCommand
+  nameWithType: SettingPageViewModel.SaveBpWindowBackgroundColorCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowBackgroundColorCommand*
+  name: SaveBpWindowBackgroundColorCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveBpWindowBackgroundColorCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowBackgroundColorCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowBackgroundColorCommand
+  nameWithType: SettingPageViewModel.SaveBpWindowBackgroundColorCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveBpWindowPickingBorderColorCommand
   name: SaveBpWindowPickingBorderColorCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveBpWindowPickingBorderColorCommand
@@ -20203,6 +21128,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveMapBpV2PickingBorderColorCommand
   nameWithType: SettingPageViewModel.SaveMapBpV2PickingBorderColorCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
+  name: SaveWidgetsWindowBackgroundColorCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveWidgetsWindowBackgroundColorCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
+  nameWithType: SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand*
+  name: SaveWidgetsWindowBackgroundColorCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveWidgetsWindowBackgroundColorCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
+  nameWithType: SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreWindowTextSettings
   name: ScoreWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreWindowTextSettings
@@ -20333,6 +21271,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.UpdaterService
   nameWithType: SettingPageViewModel.UpdaterService
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowBackgroundColorSettings
+  name: WidgetsWindowBackgroundColorSettings
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowBackgroundColorSettings
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowBackgroundColorSettings
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowBackgroundColorSettings
+  nameWithType: SettingPageViewModel.WidgetsWindowBackgroundColorSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowBackgroundColorSettings*
+  name: WidgetsWindowBackgroundColorSettings
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowBackgroundColorSettings_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowBackgroundColorSettings
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowBackgroundColorSettings
+  nameWithType: SettingPageViewModel.WidgetsWindowBackgroundColorSettings
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowTextSettings
   name: WidgetsWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowTextSettings
@@ -21336,15 +22287,15 @@ references:
   fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New()
   nameWithType: MainWindowViewModel.MainWindowViewModel()
   nameWithType.vb: MainWindowViewModel.New()
-- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
-  name: MainWindowViewModel(ISharedDataService, IGameGuidanceService, IInfoBarService, IFilePickerService, ILogger<MainWindowViewModel>)
-  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IGameGuidanceService_neo_bpsys_wpf_Core_Abstractions_Services_IInfoBarService_neo_bpsys_wpf_Core_Abstractions_Services_IFilePickerService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__
-  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService,neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
-  name.vb: New(ISharedDataService, IGameGuidanceService, IInfoBarService, IFilePickerService, ILogger(Of MainWindowViewModel))
-  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.MainWindowViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel>)
-  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Core.Abstractions.Services.IInfoBarService, neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel))
-  nameWithType: MainWindowViewModel.MainWindowViewModel(ISharedDataService, IGameGuidanceService, IInfoBarService, IFilePickerService, ILogger<MainWindowViewModel>)
-  nameWithType.vb: MainWindowViewModel.New(ISharedDataService, IGameGuidanceService, IInfoBarService, IFilePickerService, ILogger(Of MainWindowViewModel))
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
+  name: MainWindowViewModel(ISharedDataService, IGameGuidanceService, IFilePickerService, ILogger<MainWindowViewModel>)
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_neo_bpsys_wpf_Core_Abstractions_Services_ISharedDataService_neo_bpsys_wpf_Core_Abstractions_Services_IGameGuidanceService_neo_bpsys_wpf_Core_Abstractions_Services_IFilePickerService_Microsoft_Extensions_Logging_ILogger_neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__
+  commentId: M:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService,neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService,neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService,Microsoft.Extensions.Logging.ILogger{neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel})
+  name.vb: New(ISharedDataService, IGameGuidanceService, IFilePickerService, ILogger(Of MainWindowViewModel))
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.MainWindowViewModel(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService, Microsoft.Extensions.Logging.ILogger<neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel>)
+  fullName.vb: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.New(neo_bpsys_wpf.Core.Abstractions.Services.ISharedDataService, neo_bpsys_wpf.Core.Abstractions.Services.IGameGuidanceService, neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService, Microsoft.Extensions.Logging.ILogger(Of neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel))
+  nameWithType: MainWindowViewModel.MainWindowViewModel(ISharedDataService, IGameGuidanceService, IFilePickerService, ILogger<MainWindowViewModel>)
+  nameWithType.vb: MainWindowViewModel.New(ISharedDataService, IGameGuidanceService, IFilePickerService, ILogger(Of MainWindowViewModel))
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.#ctor*
   name: MainWindowViewModel
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel__ctor_
@@ -21550,6 +22501,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NewGameCommand
   nameWithType: MainWindowViewModel.NewGameCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NextGameCommand
+  name: NextGameCommand
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_NextGameCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NextGameCommand
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NextGameCommand
+  nameWithType: MainWindowViewModel.NextGameCommand
+- uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NextGameCommand*
+  name: NextGameCommand
+  href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_NextGameCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NextGameCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.NextGameCommand
+  nameWithType: MainWindowViewModel.NextGameCommand
 - uid: neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.Receive(CommunityToolkit.Mvvm.Messaging.Messages.PropertyChangedMessage{System.Boolean})
   name: Receive(PropertyChangedMessage<bool>)
   href: api/neo_bpsys_wpf.ViewModels.Windows.MainWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_MainWindowViewModel_Receive_CommunityToolkit_Mvvm_Messaging_Messages_PropertyChangedMessage_System_Boolean__

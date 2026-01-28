@@ -148,7 +148,7 @@ Class Team  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team__ctor_neo_bpsys_wpf_Core_Enums_Camp_neo_bpsys_wpf_Core_Enums_TeamType_" data-uid="neo_bpsys_wpf.Core.Models.Team.#ctor(neo_bpsys_wpf.Core.Enums.Camp,neo_bpsys_wpf.Core.Enums.TeamType)">
   Team(Camp, TeamType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数</p>
@@ -196,7 +196,7 @@ Class Team  <a class="header-action link-secondary" title="View source" href="ht
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Camp Camp { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Camp? Camp { get; set; }</code></pre>
   </div>
 
 
@@ -205,7 +205,7 @@ Class Team  <a class="header-action link-secondary" title="View source" href="ht
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="neo_bpsys_wpf.Core.Enums.Camp.html">Camp</a></dt>
+    <dt><a class="xref" href="neo_bpsys_wpf.Core.Enums.Camp.html">Camp</a>?</dt>
     <dd></dd>
   </dl>
 
@@ -253,7 +253,7 @@ public ObservableCollection&lt;Character?&gt; GlobalBannedHunList { get; set; }<
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_GlobalBannedHunRecordArray" data-uid="neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordArray">
   GlobalBannedHunRecordArray
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>全局被禁用的监管者记录</p>
@@ -261,7 +261,9 @@ public ObservableCollection&lt;Character?&gt; GlobalBannedHunList { get; set; }<
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Character?[] GlobalBannedHunRecordArray { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;此数组已弃用，将在3.0.0.0后删除，请迁移至 GlobalBannedHunRecordList&quot;)]
+[JsonIgnore]
+public Character?[] GlobalBannedHunRecordArray { get; }</code></pre>
   </div>
 
 
@@ -271,6 +273,38 @@ public ObservableCollection&lt;Character?&gt; GlobalBannedHunList { get; set; }<
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="neo_bpsys_wpf_Core_Models_Team_GlobalBannedHunRecordList_" data-uid="neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordList*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_Team_GlobalBannedHunRecordList" data-uid="neo_bpsys_wpf.Core.Models.Team.GlobalBannedHunRecordList">
+  GlobalBannedHunRecordList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>全局被禁用的监管者记录</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Character?&gt; GlobalBannedHunRecordList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -318,7 +352,7 @@ public ObservableCollection&lt;Character?&gt; GlobalBannedSurList { get; set; }<
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_GlobalBannedSurRecordArray" data-uid="neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordArray">
   GlobalBannedSurRecordArray
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>全局被禁用的求生者记录</p>
@@ -326,7 +360,9 @@ public ObservableCollection&lt;Character?&gt; GlobalBannedSurList { get; set; }<
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Character?[] GlobalBannedSurRecordArray { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;此数组已弃用，将在3.0.0.0后删除，请迁移至 GlobalBannedSurRecordList&quot;)]
+[JsonIgnore]
+public Character?[] GlobalBannedSurRecordArray { get; }</code></pre>
   </div>
 
 
@@ -346,11 +382,43 @@ public ObservableCollection&lt;Character?&gt; GlobalBannedSurList { get; set; }<
 
 
 
+  <a id="neo_bpsys_wpf_Core_Models_Team_GlobalBannedSurRecordList_" data-uid="neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordList*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_Team_GlobalBannedSurRecordList" data-uid="neo_bpsys_wpf.Core.Models.Team.GlobalBannedSurRecordList">
+  GlobalBannedSurRecordList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>全局被禁用的求生者记录</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Character?&gt; GlobalBannedSurRecordList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="neo_bpsys_wpf.Core.Models.Character.html">Character</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="neo_bpsys_wpf_Core_Models_Team_HunMemberList_" data-uid="neo_bpsys_wpf.Core.Models.Team.HunMemberList*"></a>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_HunMemberList" data-uid="neo_bpsys_wpf.Core.Models.Team.HunMemberList">
   HunMemberList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>监管者队员列表</p>
@@ -382,7 +450,7 @@ public ObservableCollection&lt;Character?&gt; GlobalBannedSurList { get; set; }<
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_HunMemberOnField" data-uid="neo_bpsys_wpf.Core.Models.Team.HunMemberOnField">
   HunMemberOnField
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L160"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>正在场上的监管者队员</p>
@@ -415,7 +483,7 @@ public Member? HunMemberOnField { get; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_ImageUri" data-uid="neo_bpsys_wpf.Core.Models.Team.ImageUri">
   ImageUri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>队伍LOGO的Uri</p>
@@ -513,7 +581,7 @@ public ImageSource? Logo { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_Score" data-uid="neo_bpsys_wpf.Core.Models.Team.Score">
   Score
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>队伍比分</p>
@@ -545,7 +613,7 @@ public ImageSource? Logo { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_SurMemberList" data-uid="neo_bpsys_wpf.Core.Models.Team.SurMemberList">
   SurMemberList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>求生者队员列表</p>
@@ -577,7 +645,7 @@ public ImageSource? Logo { get; set; }</code></pre>
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_SurMemberOnFieldCollection" data-uid="neo_bpsys_wpf.Core.Models.Team.SurMemberOnFieldCollection">
   SurMemberOnFieldCollection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>正在场上的求生者队员列表</p>
@@ -646,7 +714,7 @@ public ReadOnlyObservableCollection&lt;Member?&gt; SurMemberOnFieldCollection { 
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_CanMemberOnField_neo_bpsys_wpf_Core_Enums_Camp_" data-uid="neo_bpsys_wpf.Core.Models.Team.CanMemberOnField(neo_bpsys_wpf.Core.Enums.Camp)">
   CanMemberOnField(Camp)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L307"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>检查是否允许队员上场</p>
@@ -685,7 +753,7 @@ public ReadOnlyObservableCollection&lt;Member?&gt; SurMemberOnFieldCollection { 
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_ImportTeamInfo_neo_bpsys_wpf_Core_Models_Team_" data-uid="neo_bpsys_wpf.Core.Models.Team.ImportTeamInfo(neo_bpsys_wpf.Core.Models.Team)">
   ImportTeamInfo(Team)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L255"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>导入队伍信息，包括队伍名字、队标Uri、选手列表</p>
@@ -718,7 +786,7 @@ public ReadOnlyObservableCollection&lt;Member?&gt; SurMemberOnFieldCollection { 
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_MemberOffField_neo_bpsys_wpf_Core_Models_Member_" data-uid="neo_bpsys_wpf.Core.Models.Team.MemberOffField(neo_bpsys_wpf.Core.Models.Member)">
   MemberOffField(Member)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L350"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>移除一名上场选手</p>
@@ -751,7 +819,7 @@ public ReadOnlyObservableCollection&lt;Member?&gt; SurMemberOnFieldCollection { 
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_MemberOnField_neo_bpsys_wpf_Core_Models_Member_" data-uid="neo_bpsys_wpf.Core.Models.Team.MemberOnField(neo_bpsys_wpf.Core.Models.Member)">
   MemberOnField(Member)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L322"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>添加一名上场选手</p>
@@ -790,7 +858,7 @@ public ReadOnlyObservableCollection&lt;Member?&gt; SurMemberOnFieldCollection { 
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_ResetScore" data-uid="neo_bpsys_wpf.Core.Models.Team.ResetScore">
   ResetScore()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L381"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>重置比分</p>
@@ -813,6 +881,33 @@ public ReadOnlyObservableCollection&lt;Member?&gt; SurMemberOnFieldCollection { 
 
 
 
+  <a id="neo_bpsys_wpf_Core_Models_Team_UpdateGlobalBanFromRecord_" data-uid="neo_bpsys_wpf.Core.Models.Team.UpdateGlobalBanFromRecord*"></a>
+
+  <h3 id="neo_bpsys_wpf_Core_Models_Team_UpdateGlobalBanFromRecord" data-uid="neo_bpsys_wpf.Core.Models.Team.UpdateGlobalBanFromRecord">
+  UpdateGlobalBanFromRecord()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>同步全局禁选记录</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateGlobalBanFromRecord()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="events">Events
 </h2>
 
@@ -820,7 +915,7 @@ public ReadOnlyObservableCollection&lt;Member?&gt; SurMemberOnFieldCollection { 
 
   <h3 id="neo_bpsys_wpf_Core_Models_Team_MemberOnFieldChanged" data-uid="neo_bpsys_wpf.Core.Models.Team.MemberOnFieldChanged">
   MemberOnFieldChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PLFJY/neo-bpsys-wpf/blob/master/neo-bpsys-wpf.Core/Models/Team.cs/#L374"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>选手上场状态改变</p>

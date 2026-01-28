@@ -95,6 +95,19 @@
 Interfaces
 </h3>
     <dl class="jumplist">
+      <dt><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IAnimationService.html">IAnimationService</a></dt>
+      <dd><p>角色选择动画服务接口
+负责管理角色选择过程中的动画效果
+插件可以实现此接口并覆盖注入进 IOC 容器来自定义动画效果</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.ICharacterSelectionService.html">ICharacterSelectionService</a></dt>
+      <dd><p>角色选择服务接口
+处理角色选择的核心业务逻辑，依赖动画服务执行视觉效果</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="neo_bpsys_wpf.Core.Abstractions.Services.IFilePickerService.html">IFilePickerService</a></dt>
       <dd><p>文件选择服务接口</p>
 </dd>
