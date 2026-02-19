@@ -928,7 +928,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Core.Controls.FrontedWindowBase",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Controls.FrontedWindowBase.yml\" sourcestartlinenumber=\"1\">前台窗口基类</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1562,20 +1562,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.LanguageSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Models.LanguageSettings.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Models.LanguageSettings",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.LanguageSettings.yml\" sourcestartlinenumber=\"1\">语言设置</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/neo_bpsys_wpf.Core.Models.MapV2.yml",
       "output": {
         ".html": {
@@ -1828,17 +1814,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.WindowResolution.yml",
+      "source_relative_path": "api/neo_bpsys_wpf.Core.Models.WindowSize.yml",
       "output": {
         ".html": {
-          "relative_path": "api/neo_bpsys_wpf.Core.Models.WindowResolution.html"
+          "relative_path": "api/neo_bpsys_wpf.Core.Models.WindowSize.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "neo_bpsys_wpf.Core.Models.WindowResolution",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.WindowResolution.yml\" sourcestartlinenumber=\"1\">窗口分辨率（未来也许会用得上）</p>\n"
+      "Title": "neo_bpsys_wpf.Core.Models.WindowSize",
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Core.Models.WindowSize.yml\" sourcestartlinenumber=\"1\">窗体大小</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2202,7 +2188,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "neo_bpsys_wpf.Locales.Lang",
-      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Locales.Lang.yml\" sourcestartlinenumber=\"1\">A strongly-typed resource class, for looking up localized strings, etc.</p>\n"
+      "Summary": "<p sourcefile=\"api/neo_bpsys_wpf.Locales.Lang.yml\" sourcestartlinenumber=\"1\">一个强类型的资源类，用于查找本地化的字符串等。</p>\n"
     },
     {
       "type": "ManagedReference",

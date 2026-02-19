@@ -4845,6 +4845,22 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Controls.FrontedWindowBase.OnClosing
   nameWithType: FrontedWindowBase.OnClosing
+- uid: neo_bpsys_wpf.Core.Controls.FrontedWindowBase.OnContentChanged(System.Object,System.Object)
+  name: OnContentChanged(object, object)
+  href: api/neo_bpsys_wpf.Core.Controls.FrontedWindowBase.html#neo_bpsys_wpf_Core_Controls_FrontedWindowBase_OnContentChanged_System_Object_System_Object_
+  commentId: M:neo_bpsys_wpf.Core.Controls.FrontedWindowBase.OnContentChanged(System.Object,System.Object)
+  name.vb: OnContentChanged(Object, Object)
+  fullName: neo_bpsys_wpf.Core.Controls.FrontedWindowBase.OnContentChanged(object, object)
+  fullName.vb: neo_bpsys_wpf.Core.Controls.FrontedWindowBase.OnContentChanged(Object, Object)
+  nameWithType: FrontedWindowBase.OnContentChanged(object, object)
+  nameWithType.vb: FrontedWindowBase.OnContentChanged(Object, Object)
+- uid: neo_bpsys_wpf.Core.Controls.FrontedWindowBase.OnContentChanged*
+  name: OnContentChanged
+  href: api/neo_bpsys_wpf.Core.Controls.FrontedWindowBase.html#neo_bpsys_wpf_Core_Controls_FrontedWindowBase_OnContentChanged_
+  commentId: Overload:neo_bpsys_wpf.Core.Controls.FrontedWindowBase.OnContentChanged
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Controls.FrontedWindowBase.OnContentChanged
+  nameWithType: FrontedWindowBase.OnContentChanged
 - uid: neo_bpsys_wpf.Core.Enums
   name: neo_bpsys_wpf.Core.Enums
   href: api/neo_bpsys_wpf.Core.Enums.html
@@ -6424,19 +6440,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.PickingBorderImageUri
   nameWithType: BpWindowSettings.PickingBorderImageUri
-- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.Resolution
-  name: Resolution
-  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_Resolution
-  commentId: P:neo_bpsys_wpf.Core.Models.BpWindowSettings.Resolution
-  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.Resolution
-  nameWithType: BpWindowSettings.Resolution
-- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.Resolution*
-  name: Resolution
-  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_Resolution_
-  commentId: Overload:neo_bpsys_wpf.Core.Models.BpWindowSettings.Resolution
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.Resolution
-  nameWithType: BpWindowSettings.Resolution
 - uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.TextSettings
   name: TextSettings
   href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_TextSettings
@@ -6450,6 +6453,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.TextSettings
   nameWithType: BpWindowSettings.TextSettings
+- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.WindowSize
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_WindowSize
+  commentId: P:neo_bpsys_wpf.Core.Models.BpWindowSettings.WindowSize
+  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.WindowSize
+  nameWithType: BpWindowSettings.WindowSize
+- uid: neo_bpsys_wpf.Core.Models.BpWindowSettings.WindowSize*
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.BpWindowSettings.html#neo_bpsys_wpf_Core_Models_BpWindowSettings_WindowSize_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.BpWindowSettings.WindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.BpWindowSettings.WindowSize
+  nameWithType: BpWindowSettings.WindowSize
 - uid: neo_bpsys_wpf.Core.Models.BpWindowTextSettings
   name: BpWindowTextSettings
   href: api/neo_bpsys_wpf.Core.Models.BpWindowTextSettings.html
@@ -6743,19 +6759,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.IsBlackTalentAndTraitEnable
   nameWithType: CutSceneWindowSettings.IsBlackTalentAndTraitEnable
-- uid: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.Resolution
-  name: Resolution
-  href: api/neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.html#neo_bpsys_wpf_Core_Models_CutSceneWindowSettings_Resolution
-  commentId: P:neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.Resolution
-  fullName: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.Resolution
-  nameWithType: CutSceneWindowSettings.Resolution
-- uid: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.Resolution*
-  name: Resolution
-  href: api/neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.html#neo_bpsys_wpf_Core_Models_CutSceneWindowSettings_Resolution_
-  commentId: Overload:neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.Resolution
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.Resolution
-  nameWithType: CutSceneWindowSettings.Resolution
 - uid: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.TextSettings
   name: TextSettings
   href: api/neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.html#neo_bpsys_wpf_Core_Models_CutSceneWindowSettings_TextSettings
@@ -6769,6 +6772,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.TextSettings
   nameWithType: CutSceneWindowSettings.TextSettings
+- uid: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.WindowSize
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.html#neo_bpsys_wpf_Core_Models_CutSceneWindowSettings_WindowSize
+  commentId: P:neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.WindowSize
+  fullName: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.WindowSize
+  nameWithType: CutSceneWindowSettings.WindowSize
+- uid: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.WindowSize*
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.html#neo_bpsys_wpf_Core_Models_CutSceneWindowSettings_WindowSize_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.WindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.CutSceneWindowSettings.WindowSize
+  nameWithType: CutSceneWindowSettings.WindowSize
 - uid: neo_bpsys_wpf.Core.Models.CutSceneWindowTextSettings
   name: CutSceneWindowTextSettings
   href: api/neo_bpsys_wpf.Core.Models.CutSceneWindowTextSettings.html
@@ -7259,19 +7275,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.BgImageUri
   nameWithType: GameDataWindowSettings.BgImageUri
-- uid: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.Resolution
-  name: Resolution
-  href: api/neo_bpsys_wpf.Core.Models.GameDataWindowSettings.html#neo_bpsys_wpf_Core_Models_GameDataWindowSettings_Resolution
-  commentId: P:neo_bpsys_wpf.Core.Models.GameDataWindowSettings.Resolution
-  fullName: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.Resolution
-  nameWithType: GameDataWindowSettings.Resolution
-- uid: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.Resolution*
-  name: Resolution
-  href: api/neo_bpsys_wpf.Core.Models.GameDataWindowSettings.html#neo_bpsys_wpf_Core_Models_GameDataWindowSettings_Resolution_
-  commentId: Overload:neo_bpsys_wpf.Core.Models.GameDataWindowSettings.Resolution
-  isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.Resolution
-  nameWithType: GameDataWindowSettings.Resolution
 - uid: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.TextSettings
   name: TextSettings
   href: api/neo_bpsys_wpf.Core.Models.GameDataWindowSettings.html#neo_bpsys_wpf_Core_Models_GameDataWindowSettings_TextSettings
@@ -7285,6 +7288,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.TextSettings
   nameWithType: GameDataWindowSettings.TextSettings
+- uid: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.WindowSize
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.GameDataWindowSettings.html#neo_bpsys_wpf_Core_Models_GameDataWindowSettings_WindowSize
+  commentId: P:neo_bpsys_wpf.Core.Models.GameDataWindowSettings.WindowSize
+  fullName: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.WindowSize
+  nameWithType: GameDataWindowSettings.WindowSize
+- uid: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.WindowSize*
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.GameDataWindowSettings.html#neo_bpsys_wpf_Core_Models_GameDataWindowSettings_WindowSize_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.GameDataWindowSettings.WindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.GameDataWindowSettings.WindowSize
+  nameWithType: GameDataWindowSettings.WindowSize
 - uid: neo_bpsys_wpf.Core.Models.GameDataWindowTextSettings
   name: GameDataWindowTextSettings
   href: api/neo_bpsys_wpf.Core.Models.GameDataWindowTextSettings.html
@@ -7511,12 +7527,6 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.InjectedControlInfo.TargetWindow
   nameWithType: InjectedControlInfo.TargetWindow
-- uid: neo_bpsys_wpf.Core.Models.LanguageSettings
-  name: LanguageSettings
-  href: api/neo_bpsys_wpf.Core.Models.LanguageSettings.html
-  commentId: T:neo_bpsys_wpf.Core.Models.LanguageSettings
-  fullName: neo_bpsys_wpf.Core.Models.LanguageSettings
-  nameWithType: LanguageSettings
 - uid: neo_bpsys_wpf.Core.Models.MapV2
   name: MapV2
   href: api/neo_bpsys_wpf.Core.Models.MapV2.html
@@ -8521,6 +8531,19 @@ references:
   commentId: T:neo_bpsys_wpf.Core.Models.ScoreWindowSettings
   fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings
   nameWithType: ScoreWindowSettings
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.AllowsScoreGlobalWindowTransparency
+  name: AllowsScoreGlobalWindowTransparency
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_AllowsScoreGlobalWindowTransparency
+  commentId: P:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.AllowsScoreGlobalWindowTransparency
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.AllowsScoreGlobalWindowTransparency
+  nameWithType: ScoreWindowSettings.AllowsScoreGlobalWindowTransparency
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.AllowsScoreGlobalWindowTransparency*
+  name: AllowsScoreGlobalWindowTransparency
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_AllowsScoreGlobalWindowTransparency_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.AllowsScoreGlobalWindowTransparency
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.AllowsScoreGlobalWindowTransparency
+  nameWithType: ScoreWindowSettings.AllowsScoreGlobalWindowTransparency
 - uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.GlobalScoreBgImage
   name: GlobalScoreBgImage
   href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_GlobalScoreBgImage
@@ -8625,19 +8648,58 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.IsCampIconBlackVerEnabled
   nameWithType: ScoreWindowSettings.IsCampIconBlackVerEnabled
-- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.Resolution
-  name: Resolution
-  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_Resolution
-  commentId: P:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.Resolution
-  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.Resolution
-  nameWithType: ScoreWindowSettings.Resolution
-- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.Resolution*
-  name: Resolution
-  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_Resolution_
-  commentId: Overload:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.Resolution
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundBrush
+  name: ScoreGlobalWindowBackgroundBrush
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_ScoreGlobalWindowBackgroundBrush
+  commentId: P:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundBrush
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundBrush
+  nameWithType: ScoreWindowSettings.ScoreGlobalWindowBackgroundBrush
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundBrush*
+  name: ScoreGlobalWindowBackgroundBrush
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_ScoreGlobalWindowBackgroundBrush_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundBrush
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.Resolution
-  nameWithType: ScoreWindowSettings.Resolution
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundBrush
+  nameWithType: ScoreWindowSettings.ScoreGlobalWindowBackgroundBrush
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundColor
+  name: ScoreGlobalWindowBackgroundColor
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_ScoreGlobalWindowBackgroundColor
+  commentId: P:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundColor
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundColor
+  nameWithType: ScoreWindowSettings.ScoreGlobalWindowBackgroundColor
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundColor*
+  name: ScoreGlobalWindowBackgroundColor
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_ScoreGlobalWindowBackgroundColor_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundColor
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowBackgroundColor
+  nameWithType: ScoreWindowSettings.ScoreGlobalWindowBackgroundColor
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowSize
+  name: ScoreGlobalWindowSize
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_ScoreGlobalWindowSize
+  commentId: P:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowSize
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowSize
+  nameWithType: ScoreWindowSettings.ScoreGlobalWindowSize
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowSize*
+  name: ScoreGlobalWindowSize
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_ScoreGlobalWindowSize_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreGlobalWindowSize
+  nameWithType: ScoreWindowSettings.ScoreGlobalWindowSize
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreInGameWindowSize
+  name: ScoreInGameWindowSize
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_ScoreInGameWindowSize
+  commentId: P:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreInGameWindowSize
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreInGameWindowSize
+  nameWithType: ScoreWindowSettings.ScoreInGameWindowSize
+- uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreInGameWindowSize*
+  name: ScoreInGameWindowSize
+  href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_ScoreInGameWindowSize_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreInGameWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.ScoreInGameWindowSize
+  nameWithType: ScoreWindowSettings.ScoreInGameWindowSize
 - uid: neo_bpsys_wpf.Core.Models.ScoreWindowSettings.SurScoreBgImage
   name: SurScoreBgImage
   href: api/neo_bpsys_wpf.Core.Models.ScoreWindowSettings.html#neo_bpsys_wpf_Core_Models_ScoreWindowSettings_SurScoreBgImage
@@ -9714,6 +9776,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.TextSettings
   nameWithType: WidgetsWindowSettings.TextSettings
+- uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.WindowSize
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_WindowSize
+  commentId: P:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.WindowSize
+  fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.WindowSize
+  nameWithType: WidgetsWindowSettings.WindowSize
+- uid: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.WindowSize*
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.html#neo_bpsys_wpf_Core_Models_WidgetsWindowSettings_WindowSize_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.WindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowSettings.WindowSize
+  nameWithType: WidgetsWindowSettings.WindowSize
 - uid: neo_bpsys_wpf.Core.Models.WidgetsWindowTextSettings
   name: WidgetsWindowTextSettings
   href: api/neo_bpsys_wpf.Core.Models.WidgetsWindowTextSettings.html
@@ -9850,57 +9925,112 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Core.Models.WidgetsWindowTextSettings.MapBp_TeamName
   nameWithType: WidgetsWindowTextSettings.MapBp_TeamName
-- uid: neo_bpsys_wpf.Core.Models.WindowResolution
-  name: WindowResolution
-  href: api/neo_bpsys_wpf.Core.Models.WindowResolution.html
-  commentId: T:neo_bpsys_wpf.Core.Models.WindowResolution
-  fullName: neo_bpsys_wpf.Core.Models.WindowResolution
-  nameWithType: WindowResolution
-- uid: neo_bpsys_wpf.Core.Models.WindowResolution.#ctor(System.Int32,System.Int32)
-  name: WindowResolution(int, int)
-  href: api/neo_bpsys_wpf.Core.Models.WindowResolution.html#neo_bpsys_wpf_Core_Models_WindowResolution__ctor_System_Int32_System_Int32_
-  commentId: M:neo_bpsys_wpf.Core.Models.WindowResolution.#ctor(System.Int32,System.Int32)
-  name.vb: New(Integer, Integer)
-  fullName: neo_bpsys_wpf.Core.Models.WindowResolution.WindowResolution(int, int)
-  fullName.vb: neo_bpsys_wpf.Core.Models.WindowResolution.New(Integer, Integer)
-  nameWithType: WindowResolution.WindowResolution(int, int)
-  nameWithType.vb: WindowResolution.New(Integer, Integer)
-- uid: neo_bpsys_wpf.Core.Models.WindowResolution.#ctor*
-  name: WindowResolution
-  href: api/neo_bpsys_wpf.Core.Models.WindowResolution.html#neo_bpsys_wpf_Core_Models_WindowResolution__ctor_
-  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowResolution.#ctor
+- uid: neo_bpsys_wpf.Core.Models.WindowSize
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html
+  commentId: T:neo_bpsys_wpf.Core.Models.WindowSize
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize
+  nameWithType: WindowSize
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.#ctor(System.Double,System.Double)
+  name: WindowSize(double, double)
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize__ctor_System_Double_System_Double_
+  commentId: M:neo_bpsys_wpf.Core.Models.WindowSize.#ctor(System.Double,System.Double)
+  name.vb: New(Double, Double)
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.WindowSize(double, double)
+  fullName.vb: neo_bpsys_wpf.Core.Models.WindowSize.New(Double, Double)
+  nameWithType: WindowSize.WindowSize(double, double)
+  nameWithType.vb: WindowSize.New(Double, Double)
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.#ctor*
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize__ctor_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowSize.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: neo_bpsys_wpf.Core.Models.WindowResolution.WindowResolution
-  fullName.vb: neo_bpsys_wpf.Core.Models.WindowResolution.New
-  nameWithType: WindowResolution.WindowResolution
-  nameWithType.vb: WindowResolution.New
-- uid: neo_bpsys_wpf.Core.Models.WindowResolution.Height
-  name: Height
-  href: api/neo_bpsys_wpf.Core.Models.WindowResolution.html#neo_bpsys_wpf_Core_Models_WindowResolution_Height
-  commentId: P:neo_bpsys_wpf.Core.Models.WindowResolution.Height
-  fullName: neo_bpsys_wpf.Core.Models.WindowResolution.Height
-  nameWithType: WindowResolution.Height
-- uid: neo_bpsys_wpf.Core.Models.WindowResolution.Height*
-  name: Height
-  href: api/neo_bpsys_wpf.Core.Models.WindowResolution.html#neo_bpsys_wpf_Core_Models_WindowResolution_Height_
-  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowResolution.Height
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.WindowSize
+  fullName.vb: neo_bpsys_wpf.Core.Models.WindowSize.New
+  nameWithType: WindowSize.WindowSize
+  nameWithType.vb: WindowSize.New
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.Equals(System.Object)
+  name: Equals(object?)
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_Equals_System_Object_
+  commentId: M:neo_bpsys_wpf.Core.Models.WindowSize.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.Equals(object?)
+  fullName.vb: neo_bpsys_wpf.Core.Models.WindowSize.Equals(Object)
+  nameWithType: WindowSize.Equals(object?)
+  nameWithType.vb: WindowSize.Equals(Object)
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.Equals*
+  name: Equals
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_Equals_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowSize.Equals
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Models.WindowResolution.Height
-  nameWithType: WindowResolution.Height
-- uid: neo_bpsys_wpf.Core.Models.WindowResolution.Width
-  name: Width
-  href: api/neo_bpsys_wpf.Core.Models.WindowResolution.html#neo_bpsys_wpf_Core_Models_WindowResolution_Width
-  commentId: P:neo_bpsys_wpf.Core.Models.WindowResolution.Width
-  fullName: neo_bpsys_wpf.Core.Models.WindowResolution.Width
-  nameWithType: WindowResolution.Width
-- uid: neo_bpsys_wpf.Core.Models.WindowResolution.Width*
-  name: Width
-  href: api/neo_bpsys_wpf.Core.Models.WindowResolution.html#neo_bpsys_wpf_Core_Models_WindowResolution_Width_
-  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowResolution.Width
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.Equals
+  nameWithType: WindowSize.Equals
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.GetHashCode
+  name: GetHashCode()
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_GetHashCode
+  commentId: M:neo_bpsys_wpf.Core.Models.WindowSize.GetHashCode
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.GetHashCode()
+  nameWithType: WindowSize.GetHashCode()
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.GetHashCode*
+  name: GetHashCode
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_GetHashCode_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowSize.GetHashCode
   isSpec: "True"
-  fullName: neo_bpsys_wpf.Core.Models.WindowResolution.Width
-  nameWithType: WindowResolution.Width
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.GetHashCode
+  nameWithType: WindowSize.GetHashCode
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.Height
+  name: Height
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_Height
+  commentId: P:neo_bpsys_wpf.Core.Models.WindowSize.Height
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.Height
+  nameWithType: WindowSize.Height
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.Height*
+  name: Height
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_Height_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowSize.Height
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.Height
+  nameWithType: WindowSize.Height
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.SetNewValue(neo_bpsys_wpf.Core.Models.WindowSize)
+  name: SetNewValue(WindowSize)
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_SetNewValue_neo_bpsys_wpf_Core_Models_WindowSize_
+  commentId: M:neo_bpsys_wpf.Core.Models.WindowSize.SetNewValue(neo_bpsys_wpf.Core.Models.WindowSize)
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.SetNewValue(neo_bpsys_wpf.Core.Models.WindowSize)
+  nameWithType: WindowSize.SetNewValue(WindowSize)
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.SetNewValue*
+  name: SetNewValue
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_SetNewValue_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowSize.SetNewValue
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.SetNewValue
+  nameWithType: WindowSize.SetNewValue
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.ToString
+  name: ToString()
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_ToString
+  commentId: M:neo_bpsys_wpf.Core.Models.WindowSize.ToString
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.ToString()
+  nameWithType: WindowSize.ToString()
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.ToString*
+  name: ToString
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_ToString_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowSize.ToString
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.ToString
+  nameWithType: WindowSize.ToString
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.Width
+  name: Width
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_Width
+  commentId: P:neo_bpsys_wpf.Core.Models.WindowSize.Width
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.Width
+  nameWithType: WindowSize.Width
+- uid: neo_bpsys_wpf.Core.Models.WindowSize.Width*
+  name: Width
+  href: api/neo_bpsys_wpf.Core.Models.WindowSize.html#neo_bpsys_wpf_Core_Models_WindowSize_Width_
+  commentId: Overload:neo_bpsys_wpf.Core.Models.WindowSize.Width
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Core.Models.WindowSize.Width
+  nameWithType: WindowSize.Width
 - uid: neo_bpsys_wpf.Core.Services
   name: neo_bpsys_wpf.Core.Services
   href: api/neo_bpsys_wpf.Core.Services.html
@@ -10450,6 +10580,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.AllFrontendWindows
   nameWithType: Lang.AllFrontendWindows
+- uid: neo_bpsys_wpf.Locales.Lang.AllowsScoreGlobalWindowTransparency
+  name: AllowsScoreGlobalWindowTransparency
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AllowsScoreGlobalWindowTransparency
+  commentId: P:neo_bpsys_wpf.Locales.Lang.AllowsScoreGlobalWindowTransparency
+  fullName: neo_bpsys_wpf.Locales.Lang.AllowsScoreGlobalWindowTransparency
+  nameWithType: Lang.AllowsScoreGlobalWindowTransparency
+- uid: neo_bpsys_wpf.Locales.Lang.AllowsScoreGlobalWindowTransparency*
+  name: AllowsScoreGlobalWindowTransparency
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AllowsScoreGlobalWindowTransparency_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.AllowsScoreGlobalWindowTransparency
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.AllowsScoreGlobalWindowTransparency
+  nameWithType: Lang.AllowsScoreGlobalWindowTransparency
 - uid: neo_bpsys_wpf.Locales.Lang.AllowsWindowTransparency
   name: AllowsWindowTransparency
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_AllowsWindowTransparency
@@ -11685,6 +11828,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.DesignerMode
   nameWithType: Lang.DesignerMode
+- uid: neo_bpsys_wpf.Locales.Lang.DesignerUnlockNote
+  name: DesignerUnlockNote
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_DesignerUnlockNote
+  commentId: P:neo_bpsys_wpf.Locales.Lang.DesignerUnlockNote
+  fullName: neo_bpsys_wpf.Locales.Lang.DesignerUnlockNote
+  nameWithType: Lang.DesignerUnlockNote
+- uid: neo_bpsys_wpf.Locales.Lang.DesignerUnlockNote*
+  name: DesignerUnlockNote
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_DesignerUnlockNote_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.DesignerUnlockNote
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.DesignerUnlockNote
+  nameWithType: Lang.DesignerUnlockNote
 - uid: neo_bpsys_wpf.Locales.Lang.Disabled
   name: Disabled
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_Disabled
@@ -14714,6 +14870,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.ScoreControl
   nameWithType: Lang.ScoreControl
+- uid: neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowBackgroundColor
+  name: ScoreGlobalWindowBackgroundColor
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ScoreGlobalWindowBackgroundColor
+  commentId: P:neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowBackgroundColor
+  fullName: neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowBackgroundColor
+  nameWithType: Lang.ScoreGlobalWindowBackgroundColor
+- uid: neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowBackgroundColor*
+  name: ScoreGlobalWindowBackgroundColor
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ScoreGlobalWindowBackgroundColor_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowBackgroundColor
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowBackgroundColor
+  nameWithType: Lang.ScoreGlobalWindowBackgroundColor
+- uid: neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowSize
+  name: ScoreGlobalWindowSize
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ScoreGlobalWindowSize
+  commentId: P:neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowSize
+  fullName: neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowSize
+  nameWithType: Lang.ScoreGlobalWindowSize
+- uid: neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowSize*
+  name: ScoreGlobalWindowSize
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ScoreGlobalWindowSize_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.ScoreGlobalWindowSize
+  nameWithType: Lang.ScoreGlobalWindowSize
 - uid: neo_bpsys_wpf.Locales.Lang.ScoreInBPWindowAndGame
   name: ScoreInBPWindowAndGame
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ScoreInBPWindowAndGame
@@ -14727,6 +14909,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.ScoreInBPWindowAndGame
   nameWithType: Lang.ScoreInBPWindowAndGame
+- uid: neo_bpsys_wpf.Locales.Lang.ScoreInGameWindowSize
+  name: ScoreInGameWindowSize
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ScoreInGameWindowSize
+  commentId: P:neo_bpsys_wpf.Locales.Lang.ScoreInGameWindowSize
+  fullName: neo_bpsys_wpf.Locales.Lang.ScoreInGameWindowSize
+  nameWithType: Lang.ScoreInGameWindowSize
+- uid: neo_bpsys_wpf.Locales.Lang.ScoreInGameWindowSize*
+  name: ScoreInGameWindowSize
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ScoreInGameWindowSize_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.ScoreInGameWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.ScoreInGameWindowSize
+  nameWithType: Lang.ScoreInGameWindowSize
 - uid: neo_bpsys_wpf.Locales.Lang.ScorePreview
   name: ScorePreview
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ScorePreview
@@ -15637,6 +15832,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.Locales.Lang.WindowLaunchError
   nameWithType: Lang.WindowLaunchError
+- uid: neo_bpsys_wpf.Locales.Lang.WindowSize
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_WindowSize
+  commentId: P:neo_bpsys_wpf.Locales.Lang.WindowSize
+  fullName: neo_bpsys_wpf.Locales.Lang.WindowSize
+  nameWithType: Lang.WindowSize
+- uid: neo_bpsys_wpf.Locales.Lang.WindowSize*
+  name: WindowSize
+  href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_WindowSize_
+  commentId: Overload:neo_bpsys_wpf.Locales.Lang.WindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.Locales.Lang.WindowSize
+  nameWithType: Lang.WindowSize
 - uid: neo_bpsys_wpf.Locales.Lang.ZipFiles
   name: ZipFiles
   href: api/neo_bpsys_wpf.Locales.Lang.html#neo_bpsys_wpf_Locales_Lang_ZipFiles
@@ -20595,6 +20803,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsBpWindowTransparency
   nameWithType: SettingPageViewModel.AllowsBpWindowTransparency
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsScoreGlobalWindowTransparency
+  name: AllowsScoreGlobalWindowTransparency
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AllowsScoreGlobalWindowTransparency
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsScoreGlobalWindowTransparency
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsScoreGlobalWindowTransparency
+  nameWithType: SettingPageViewModel.AllowsScoreGlobalWindowTransparency
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsScoreGlobalWindowTransparency*
+  name: AllowsScoreGlobalWindowTransparency
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AllowsScoreGlobalWindowTransparency_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsScoreGlobalWindowTransparency
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsScoreGlobalWindowTransparency
+  nameWithType: SettingPageViewModel.AllowsScoreGlobalWindowTransparency
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.AllowsWidgetsTransparency
   name: AllowsWidgetsTransparency
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_AllowsWidgetsTransparency
@@ -21050,6 +21271,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.OpenTipCommand
   nameWithType: SettingPageViewModel.OpenTipCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RegularWindowSizesSelectionList
+  name: RegularWindowSizesSelectionList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RegularWindowSizesSelectionList
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RegularWindowSizesSelectionList
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RegularWindowSizesSelectionList
+  nameWithType: SettingPageViewModel.RegularWindowSizesSelectionList
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RegularWindowSizesSelectionList*
+  name: RegularWindowSizesSelectionList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_RegularWindowSizesSelectionList_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RegularWindowSizesSelectionList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.RegularWindowSizesSelectionList
+  nameWithType: SettingPageViewModel.RegularWindowSizesSelectionList
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ResetAllCommand
   name: ResetAllCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ResetAllCommand
@@ -21128,6 +21362,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveMapBpV2PickingBorderColorCommand
   nameWithType: SettingPageViewModel.SaveMapBpV2PickingBorderColorCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveScoreGlobalWindowBackgroundColorCommand
+  name: SaveScoreGlobalWindowBackgroundColorCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveScoreGlobalWindowBackgroundColorCommand
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveScoreGlobalWindowBackgroundColorCommand
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveScoreGlobalWindowBackgroundColorCommand
+  nameWithType: SettingPageViewModel.SaveScoreGlobalWindowBackgroundColorCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveScoreGlobalWindowBackgroundColorCommand*
+  name: SaveScoreGlobalWindowBackgroundColorCommand
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveScoreGlobalWindowBackgroundColorCommand_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveScoreGlobalWindowBackgroundColorCommand
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveScoreGlobalWindowBackgroundColorCommand
+  nameWithType: SettingPageViewModel.SaveScoreGlobalWindowBackgroundColorCommand
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
   name: SaveWidgetsWindowBackgroundColorCommand
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SaveWidgetsWindowBackgroundColorCommand
@@ -21141,6 +21388,71 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
   nameWithType: SettingPageViewModel.SaveWidgetsWindowBackgroundColorCommand
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowBackgroundColorSettings
+  name: ScoreGlobalWindowBackgroundColorSettings
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreGlobalWindowBackgroundColorSettings
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowBackgroundColorSettings
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowBackgroundColorSettings
+  nameWithType: SettingPageViewModel.ScoreGlobalWindowBackgroundColorSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowBackgroundColorSettings*
+  name: ScoreGlobalWindowBackgroundColorSettings
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreGlobalWindowBackgroundColorSettings_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowBackgroundColorSettings
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowBackgroundColorSettings
+  nameWithType: SettingPageViewModel.ScoreGlobalWindowBackgroundColorSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSize
+  name: ScoreGlobalWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreGlobalWindowSize
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSize
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSize
+  nameWithType: SettingPageViewModel.ScoreGlobalWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSize*
+  name: ScoreGlobalWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreGlobalWindowSize_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSize
+  nameWithType: SettingPageViewModel.ScoreGlobalWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSizeList
+  name: ScoreGlobalWindowSizeList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreGlobalWindowSizeList
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSizeList
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSizeList
+  nameWithType: SettingPageViewModel.ScoreGlobalWindowSizeList
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSizeList*
+  name: ScoreGlobalWindowSizeList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreGlobalWindowSizeList_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSizeList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreGlobalWindowSizeList
+  nameWithType: SettingPageViewModel.ScoreGlobalWindowSizeList
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSize
+  name: ScoreInGameWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreInGameWindowSize
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSize
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSize
+  nameWithType: SettingPageViewModel.ScoreInGameWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSize*
+  name: ScoreInGameWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreInGameWindowSize_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSize
+  nameWithType: SettingPageViewModel.ScoreInGameWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSizesList
+  name: ScoreInGameWindowSizesList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreInGameWindowSizesList
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSizesList
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSizesList
+  nameWithType: SettingPageViewModel.ScoreInGameWindowSizesList
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSizesList*
+  name: ScoreInGameWindowSizesList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreInGameWindowSizesList_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSizesList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreInGameWindowSizesList
+  nameWithType: SettingPageViewModel.ScoreInGameWindowSizesList
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreWindowTextSettings
   name: ScoreWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_ScoreWindowTextSettings
@@ -21154,6 +21466,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.ScoreWindowTextSettings
   nameWithType: SettingPageViewModel.ScoreWindowTextSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowSize
+  name: SelectedBpWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedBpWindowSize
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowSize
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowSize
+  nameWithType: SettingPageViewModel.SelectedBpWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowSize*
+  name: SelectedBpWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedBpWindowSize_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowSize
+  nameWithType: SettingPageViewModel.SelectedBpWindowSize
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowTextSettings
   name: SelectedBpWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedBpWindowTextSettings
@@ -21167,6 +21492,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedBpWindowTextSettings
   nameWithType: SettingPageViewModel.SelectedBpWindowTextSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowSize
+  name: SelectedCutSceneWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedCutSceneWindowSize
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowSize
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowSize
+  nameWithType: SettingPageViewModel.SelectedCutSceneWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowSize*
+  name: SelectedCutSceneWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedCutSceneWindowSize_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowSize
+  nameWithType: SettingPageViewModel.SelectedCutSceneWindowSize
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowTextSettings
   name: SelectedCutSceneWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedCutSceneWindowTextSettings
@@ -21180,6 +21518,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedCutSceneWindowTextSettings
   nameWithType: SettingPageViewModel.SelectedCutSceneWindowTextSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowSize
+  name: SelectedGameDataWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedGameDataWindowSize
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowSize
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowSize
+  nameWithType: SettingPageViewModel.SelectedGameDataWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowSize*
+  name: SelectedGameDataWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedGameDataWindowSize_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowSize
+  nameWithType: SettingPageViewModel.SelectedGameDataWindowSize
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.SelectedGameDataWindowTextSettings
   name: SelectedGameDataWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_SelectedGameDataWindowTextSettings
@@ -21284,6 +21635,32 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowBackgroundColorSettings
   nameWithType: SettingPageViewModel.WidgetsWindowBackgroundColorSettings
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSize
+  name: WidgetsWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowSize
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSize
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSize
+  nameWithType: SettingPageViewModel.WidgetsWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSize*
+  name: WidgetsWindowSize
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowSize_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSize
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSize
+  nameWithType: SettingPageViewModel.WidgetsWindowSize
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSizesList
+  name: WidgetsWindowSizesList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowSizesList
+  commentId: P:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSizesList
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSizesList
+  nameWithType: SettingPageViewModel.WidgetsWindowSizesList
+- uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSizesList*
+  name: WidgetsWindowSizesList
+  href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowSizesList_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSizesList
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowSizesList
+  nameWithType: SettingPageViewModel.WidgetsWindowSizesList
 - uid: neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.WidgetsWindowTextSettings
   name: WidgetsWindowTextSettings
   href: api/neo_bpsys_wpf.ViewModels.Pages.SettingPageViewModel.html#neo_bpsys_wpf_ViewModels_Pages_SettingPageViewModel_WidgetsWindowTextSettings
@@ -22934,6 +23311,19 @@ references:
   isSpec: "True"
   fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Receive
   nameWithType: ScoreWindowViewModel.Receive
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  name: ScoreGlobalImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreGlobalImage
+  commentId: P:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  nameWithType: ScoreWindowViewModel.ScoreGlobalImage
+- uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage*
+  name: ScoreGlobalImage
+  href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_ScoreGlobalImage_
+  commentId: Overload:neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  isSpec: "True"
+  fullName: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.ScoreGlobalImage
+  nameWithType: ScoreWindowViewModel.ScoreGlobalImage
 - uid: neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.Settings
   name: Settings
   href: api/neo_bpsys_wpf.ViewModels.Windows.ScoreWindowViewModel.html#neo_bpsys_wpf_ViewModels_Windows_ScoreWindowViewModel_Settings
